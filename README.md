@@ -32,12 +32,14 @@ Logo artwork is excluded unless the brief requires a non-artwork stand-in (namin
 
 ## Repository layout
 
+```
 .
 ├── README.md                 ← humans (this file)
 ├── AGENT.md                  ← agents: paths, pairing, git, definition of done
+├── .gitignore                ← ships here: keeps WORK/** and editor noise out of git
 ├── PROMPT/
 │   ├── prompt.yaml           ← full solver law (phases, batches, QMDJ geometry)
-│   └── forbidden_terms.txt   ← LAYER_B linter denylist (created on first run if missing)
+│   └── forbidden_terms.txt   ← LAYER_B linter denylist (seeded from prompt.yaml; commit any extension)
 ├── ASSIGNMENTS/
 │   └── {track}/{slug}.md     ← brief (.pdf also valid)
 ├── QMDJ/
@@ -54,8 +56,22 @@ Logo artwork is excluded unless the brief requires a non-artwork stand-in (namin
         └── LAYER_A/          ← audit
             ├── ANNOTATED/    ← ordinary English situation
             └── OPERATOR/     ← COMMENTS.md, MAPPINGS.md, PATH_RANK.md
+```
 
-`WORK/` keeps traces off the zip you send a marker. If you must keep only four top-level domain folders, use `SUBMISSION/{track}/{slug}/_work/` with the same three subfolders and gitignore it.
+`WORK/` keeps traces off the zip you send a marker. It is created at run time and is gitignored — a fresh clone will not show it. If you must keep only four top-level domain folders, use `SUBMISSION/{track}/{slug}/_work/` with the same three subfolders and gitignore it.
+
+### What the repo holds today
+
+```
+PROMPT/prompt.yaml                            ← solver spec
+PROMPT/forbidden_terms.txt                    ← 60-term denylist, seeded from prompt.yaml
+ASSIGNMENTS/PORTFOLIO/project_1.md            ← brief: "You On A Shelf"
+QMDJ/PORTFOLIO/project_1.json                 ← its 1:1 chart
+SUBMISSION/PORTFOLIO/project_1/
+├── MANIFEST.md                               ← registry, sha256s, requirement coverage
+├── LAYER_B/LAYER_B_SUBMISSION.md             ← the GRIT hand-in (lint-clean)
+└── LAYER_A/LAYER_A_TECHNICAL_AUDIT.md        ← full audit trail
+```
 
 ### Pairing rule
 
@@ -70,12 +86,12 @@ One project = `(track, slug)`.
 
 Slug = filename without extension. Track = parent folder. Do not flatten tracks. Case-insensitive match (`PROJECT_1` ≡ `project_1`); the spelling under `ASSIGNMENTS/` wins for the submission folder.
 
-Legacy single-file drops are still accepted on read:
+Legacy flat drops are accepted on read but no longer exist in this repo (migrated 2026-09-13):
 
 | Old | Canonical |
 |---|---|
-| `SUBMISSION/PORTFOLIO/PROJECT_1/LAYER_B_SUBMISSION.md` | `SUBMISSION/PORTFOLIO/project_1/LAYER_B/` |
-| `SUBMISSION/PORTFOLIO/PROJECT_1/LAYER_A_TECHNICAL_AUDIT.md` | `SUBMISSION/PORTFOLIO/project_1/LAYER_A/` |
+| `SUBMISSION/PORTFOLIO/PROJECT_1/LAYER_B_SUBMISSION.md` | `SUBMISSION/PORTFOLIO/project_1/LAYER_B/LAYER_B_SUBMISSION.md` |
+| `SUBMISSION/PORTFOLIO/PROJECT_1/LAYER_A_TECHNICAL_AUDIT.md` | `SUBMISSION/PORTFOLIO/project_1/LAYER_A/LAYER_A_TECHNICAL_AUDIT.md` |
 
 If the brief asks for one document, write `LAYER_B/LAYER_B_SUBMISSION.md` and `LAYER_A/LAYER_A_TECHNICAL_AUDIT.md`. Do not invent a numbered 00–07 pack when the brief already names the artefacts.
 
@@ -139,7 +155,7 @@ Ship **`SUBMISSION/{track}/{slug}/LAYER_B/`** plus **`MANIFEST.md`**.
 
 `PATH_RANK.md` never belongs in LAYER_B.
 
-If the brief is silent on packaging, the agent may write a labelled fallback pack (`UNGROUNDED_PACK`) inside LAYER_B and say so only in OPERATOR.
+If the brief is silent on packaging, the agent may write a labelled fallback pack (`UNGROUNDED_PACK`) inside LAYER_B and say so only in OPERATOR. When the brief asks for one document, each layer is one markdown file (`LAYER_B_SUBMISSION.md`, `LAYER_A_TECHNICAL_AUDIT.md`) inside its folder — the seeded `project_1` pack uses that form; see its `MANIFEST.md`.
 
 ---
 
@@ -210,7 +226,7 @@ One palace → one wiki card → one trace file under `WORK/…/raw/traces/`. Ma
 - `WORK/**` dumps and extracted binary logo images
 - Local noise (`.DS_Store`, `__pycache__/`)
 
-Suggested `.gitignore`:
+The repo ships `.gitignore` with:
 
 ```gitignore
 WORK/**
@@ -218,7 +234,7 @@ WORK/**
 **/__pycache__/
 ```
 
-Default: ignore all of `WORK/`. Keep `WORK/**/state/machine.json` only if you need resume across machines.
+Default: ignore all of `WORK/`. Keep `WORK/**/state/machine.json` only if you need resume across machines (add an explicit `!` line). Extend the file if needed; do not weaken it.
 
 ---
 

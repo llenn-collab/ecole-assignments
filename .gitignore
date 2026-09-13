@@ -1,0 +1,8 @@
+# Generated solver scratch — never the hand-in (AGENT.md §2, §8).
+# Default: ignore all of WORK/. Keep WORK/**/state/machine.json tracked
+# only if a run must resume across machines (then add an explicit ! line).
+WORK/**
+
+# OS / editor noise
+**/.DS_Store
+**/__pycache__/
