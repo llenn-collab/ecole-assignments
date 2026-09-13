@@ -1,0 +1,378 @@
+{
+  "chart_metadata": {
+    "four_pillars": {
+      "year": { "stem": "Yang Fire (Bing)", "branch": "Horse (Wu)" },
+      "month": { "stem": "Yang Fire (Bing)", "branch": "Monkey (Shen)" },
+      "day": { "stem": "Yang Wood (Jia)", "branch": "Monkey (Shen)" },
+      "hour": { "stem": "Yang Water (Ren)", "branch": "Monkey (Shen)" }
+    },
+    "void_branches": {
+      "day_void": ["Horse (Wu)", "Goat (Wei)"],
+      "hour_void": ["Dog (Xu)", "Pig (Hai)"]
+    },
+    "duty_elements": {
+      "lead_stem": "Jia Zi Wu (Yang Earth)",
+      "duty_star": {
+        "name": "Tian Fu (Assistant)",
+        "palace_number": 9
+      },
+      "duty_door": {
+        "name": "Delusion Door (Du Men)",
+        "original_palace": 5,
+        "active_palace": 2
+      },
+      "tian_yi": "Tian Ying (Hero)"
+    },
+    "seasonal_element_strengths": {
+      "metal": "prosperous",
+      "water": "strengthening",
+      "earth": "resting",
+      "fire": "trapped",
+      "wood": "dead"
+    }
+  },
+  "palaces": {
+    "1": {
+      "name": "Kan",
+      "direction": "North",
+      "element": "Water",
+      "earthly_branches": ["Rat (Zi)"],
+      "plate_division": "outer",
+      "palace_strength": "strengthening",
+      "heaven_plate": {
+        "spirit": "White Tiger",
+        "star": "Tian Xin (Heart)",
+        "star_strength": {
+          "by_palace": "prosperous",
+          "by_season": "strengthening"
+        },
+        "stem": "Yang Fire (Bing)"
+      },
+      "door": {
+        "name": "Fear Door",
+        "forced": false,
+        "strength": "prosperous"
+      },
+      "earth_plate": {
+        "spirit": "Six Harmony",
+        "stem": "Yin Metal (Xin)"
+      },
+      "hidden_stem": "Yin Fire (Ding)",
+      "tomb_stems": [],
+      "punishment_stems": [],
+      "markers": {
+        "void": false,
+        "horse_star": false,
+        "duty_star": false,
+        "duty_door": false,
+        "hour_stem_focus": false,
+        "plate_in_tomb": false,
+        "plate_in_punishment": false
+      }
+    },
+    "2": {
+      "name": "Kun",
+      "direction": "Southwest",
+      "element": "Earth",
+      "earthly_branches": ["Goat (Wei)", "Monkey (Shen)"],
+      "plate_division": "inner",
+      "palace_strength": "resting",
+      "heaven_plate": {
+        "spirit": "Nine Heaven",
+        "star": "Tian Ying (Hero)",
+        "star_strength": {
+          "by_palace": "prosperous",
+          "by_season": "resting"
+        },
+        "stem": "Yang Water (Ren)"
+      },
+      "door": {
+        "name": "Delusion Door",
+        "forced": true,
+        "strength": "dead"
+      },
+      "earth_plate": {
+        "spirit": "Nine Earth",
+        "stem": "Yang Metal (Geng)"
+      },
+      "hidden_stem": "Yang Earth (Wu)",
+      "tomb_stems": ["Yang Wood (Jia)", "Yin Water (Gui)"],
+      "punishment_stems": ["Yin Earth (Ji)"],
+      "markers": {
+        "void": true,
+        "horse_star": false,
+        "duty_star": false,
+        "duty_door": true,
+        "hour_stem_focus": true,
+        "plate_in_tomb": false,
+        "plate_in_punishment": false
+      }
+    },
+    "3": {
+      "name": "Zhen",
+      "direction": "East",
+      "element": "Wood",
+      "earthly_branches": ["Rabbit (Mao)"],
+      "plate_division": "outer",
+      "palace_strength": "dead",
+      "heaven_plate": {
+        "spirit": "Moon",
+        "star": "Tian Ren (Advisor)",
+        "star_strength": {
+          "by_palace": "trapped",
+          "by_season": "prosperous"
+        },
+        "stem": "Yin Water (Gui)"
+      },
+      "door": {
+        "name": "Rest Door",
+        "forced": false,
+        "strength": "strengthening"
+      },
+      "earth_plate": {
+        "spirit": "Surging Snake",
+        "stem": "Yin Earth (Ji)"
+      },
+      "hidden_stem": "Yin Metal (Xin)",
+      "tomb_stems": [],
+      "punishment_stems": ["Yang Earth (Wu)"],
+      "markers": {
+        "void": false,
+        "horse_star": false,
+        "duty_star": false,
+        "duty_door": false,
+        "hour_stem_focus": false,
+        "plate_in_tomb": false,
+        "plate_in_punishment": false
+      }
+    },
+    "4": {
+      "name": "Xun",
+      "direction": "Southeast",
+      "element": "Wood",
+      "earthly_branches": ["Dragon (Chen)", "Snake (Si)"],
+      "plate_division": "outer",
+      "palace_strength": "dead",
+      "heaven_plate": {
+        "spirit": "Surging Snake",
+        "star": "Tian Chong (Destructor)",
+        "star_strength": {
+          "by_palace": "strengthening",
+          "by_season": "trapped"
+        },
+        "stem": "Yin Earth (Ji)"
+      },
+      "door": {
+        "name": "Life Door",
+        "forced": false,
+        "strength": "resting"
+      },
+      "earth_plate": {
+        "spirit": "Chief",
+        "stem": "Yang Earth (Wu)"
+      },
+      "hidden_stem": "Yin Water (Gui)",
+      "tomb_stems": ["Yin Metal (Xin)", "Yang Water (Ren)"],
+      "punishment_stems": ["Yang Water (Ren)", "Yin Water (Gui)"],
+      "markers": {
+        "void": false,
+        "horse_star": false,
+        "duty_star": false,
+        "duty_door": false,
+        "hour_stem_focus": false,
+        "plate_in_tomb": false,
+        "plate_in_punishment": false
+      }
+    },
+    "5": {
+      "name": "Center",
+      "direction": "Center",
+      "element": "Earth",
+      "earthly_branches": [],
+      "plate_division": null,
+      "palace_strength": "resting",
+      "heaven_plate": {
+        "spirit": null,
+        "star": null,
+        "star_strength": null,
+        "stem": null,
+        "notes": "Tian Qin and original Delusion Door lodged outward"
+      },
+      "door": {
+        "name": null,
+        "forced": false,
+        "strength": null
+      },
+      "earth_plate": {
+        "spirit": "Great Firmament",
+        "stem": "Yin Wood (Yi)"
+      },
+      "hidden_stem": "Yin Wood (Yi)",
+      "tomb_stems": [],
+      "punishment_stems": [],
+      "markers": {
+        "void": false,
+        "horse_star": false,
+        "duty_star": false,
+        "duty_door": false,
+        "hour_stem_focus": false,
+        "plate_in_tomb": false,
+        "plate_in_punishment": false
+      }
+    },
+    "6": {
+      "name": "Qian",
+      "direction": "Northwest",
+      "element": "Metal",
+      "earthly_branches": ["Dog (Xu)", "Pig (Hai)"],
+      "plate_division": "inner",
+      "palace_strength": "prosperous",
+      "heaven_plate": {
+        "spirit": "Black Tortoise",
+        "star": "Tian Zhu (Pillar)",
+        "star_strength": {
+          "by_palace": "strengthening",
+          "by_season": "strengthening"
+        },
+        "stem": "Yin Fire (Ding)"
+      },
+      "door": {
+        "name": "Death Door",
+        "forced": false,
+        "strength": "resting"
+      },
+      "earth_plate": {
+        "spirit": "White Tiger",
+        "stem": "Yang Fire (Bing)"
+      },
+      "hidden_stem": "Yang Metal (Geng)",
+      "tomb_stems": ["Yin Wood (Yi)", "Yang Fire (Bing)", "Yang Earth (Wu)"],
+      "punishment_stems": [],
+      "markers": {
+        "void": true,
+        "horse_star": false,
+        "duty_star": false,
+        "duty_door": false,
+        "hour_stem_focus": false,
+        "plate_in_tomb": true,
+        "plate_in_punishment": false
+      }
+    },
+    "7": {
+      "name": "Dui",
+      "direction": "West",
+      "element": "Metal",
+      "earthly_branches": ["Rooster (You)"],
+      "plate_division": "inner",
+      "palace_strength": "prosperous",
+      "heaven_plate": {
+        "spirit": "Nine Earth",
+        "star": "Tian Rui (Grain)",
+        "lodged_star": "Tian Qin (Flail)",
+        "star_strength": {
+          "by_palace": "prosperous",
+          "by_season": "prosperous"
+        },
+        "stem": "Yang Metal (Geng)",
+        "lodged_stem": "Yin Wood (Yi)"
+      },
+      "door": {
+        "name": "Scenery Door",
+        "forced": true,
+        "strength": "trapped"
+      },
+      "earth_plate": {
+        "spirit": "Black Tortoise",
+        "stem": "Yin Fire (Ding)"
+      },
+      "hidden_stem": "Yang Water (Ren)",
+      "tomb_stems": [],
+      "punishment_stems": [],
+      "markers": {
+        "void": false,
+        "horse_star": false,
+        "duty_star": false,
+        "duty_door": false,
+        "hour_stem_focus": false,
+        "plate_in_tomb": false,
+        "plate_in_punishment": false
+      }
+    },
+    "8": {
+      "name": "Gen",
+      "direction": "Northeast",
+      "element": "Earth",
+      "earthly_branches": ["Ox (Chou)", "Tiger (Yin)"],
+      "plate_division": "outer",
+      "palace_strength": "resting",
+      "heaven_plate": {
+        "spirit": "Six Harmony",
+        "star": "Tian Peng (Grass)",
+        "star_strength": {
+          "by_palace": "trapped",
+          "by_season": "exhausted"
+        },
+        "stem": "Yin Metal (Xin)"
+      },
+      "door": {
+        "name": "Open Door",
+        "forced": false,
+        "strength": "prosperous"
+      },
+      "earth_plate": {
+        "spirit": "Moon",
+        "stem": "Yin Water (Gui)"
+      },
+      "hidden_stem": "Yang Fire (Bing)",
+      "tomb_stems": ["Yin Fire (Ding)", "Yin Earth (Ji)", "Yang Metal (Geng)"],
+      "punishment_stems": ["Yang Metal (Geng)"],
+      "markers": {
+        "void": false,
+        "horse_star": true,
+        "duty_star": false,
+        "duty_door": false,
+        "hour_stem_focus": false,
+        "plate_in_tomb": false,
+        "plate_in_punishment": false
+      }
+    },
+    "9": {
+      "name": "Li",
+      "direction": "South",
+      "element": "Fire",
+      "earthly_branches": ["Horse (Wu)"],
+      "plate_division": "inner",
+      "palace_strength": "trapped",
+      "heaven_plate": {
+        "spirit": "Chief",
+        "star": "Tian Fu (Assistant)",
+        "star_strength": {
+          "by_palace": "prosperous",
+          "by_season": "trapped"
+        },
+        "stem": "Yang Earth (Wu)"
+      },
+      "door": {
+        "name": "Harm Door",
+        "forced": false,
+        "strength": "dead"
+      },
+      "earth_plate": {
+        "spirit": "Nine Heaven",
+        "stem": "Yang Water (Ren)"
+      },
+      "hidden_stem": "Yin Earth (Ji)",
+      "tomb_stems": [],
+      "punishment_stems": ["Yin Metal (Xin)"],
+      "markers": {
+        "void": true,
+        "horse_star": false,
+        "duty_star": true,
+        "duty_door": false,
+        "hour_stem_focus": true,
+        "plate_in_tomb": false,
+        "plate_in_punishment": false
+      }
+    }
+  }
+}
