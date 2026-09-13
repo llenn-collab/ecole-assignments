@@ -56,7 +56,7 @@ The horse star is real and is recorded as a SEQUENCE verdict, not suppressed. Bu
 
 **Target:** every evidence.path in the package
 
-626 paths resolved against the source chart; 0 broken. Paths that did not resolve (for example palaces.5.active_chart.door, which does not exist because the Centre has no door) were pruned rather than cited, in an earlier AUDIT_FIX cycle.
+630 paths resolved against the source chart; 0 broken. Paths that did not resolve (for example palaces.5.active_chart.door, which does not exist because the Centre has no door) were pruned rather than cited, in an earlier AUDIT_FIX cycle.
 
 ## candidate_contamination - PASS
 

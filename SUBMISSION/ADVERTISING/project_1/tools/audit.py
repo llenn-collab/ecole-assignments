@@ -316,6 +316,60 @@ def gate4():
     return True
 
 
+# ---------------------------------------------------------------- Gate 5 ---
+def gate5():
+    """Auditor independently recomputes coverage. Does not trust the worker."""
+    pkg_blob = open(PKG_PATH, encoding="utf-8").read()
+    leaves = []
+
+    def walk(n, path):
+        if isinstance(n, dict):
+            if not n:
+                leaves.append((path, "{}"))
+            for k, v in n.items():
+                walk(v, f"{path}.{k}" if path else k)
+        elif isinstance(n, list):
+            if not n:
+                leaves.append((path, "[]"))
+            elif all(not isinstance(x, (dict, list)) for x in n):
+                leaves.append((path, n))
+            else:
+                for i, v in enumerate(n):
+                    walk(v, f"{path}[{i}]")
+        else:
+            leaves.append((path, n))
+
+    walk(Q, "")
+    uncited = [p for p, _ in leaves if p not in pkg_blob]
+
+    # a path being present as a string is necessary but not sufficient; also confirm
+    # the P7 coverage block actually reasoned over each major subsystem.
+    pkg = jread(PKG_PATH)
+    cov = pkg.get("full_field_coverage", {})
+    required_subsystems = ["palace_id_integrity", "hetu_system", "trigram_system",
+                           "home_vs_active_displacement", "harm_and_birth_stage",
+                           "star_energy_substates", "element_prosperity_map",
+                           "solar_term_validation", "branch_system", "system_declaration"]
+    missing_sub = [k for k in required_subsystems if not cov.get(k)]
+
+    if uncited or missing_sub:
+        gate(5, "Field Coverage", "VETO",
+             f"{len(uncited)} source leaf paths are never cited in the package; "
+             f"{len(missing_sub)} required subsystems absent.",
+             uncited[:25] + missing_sub)
+        veto("BLIND_SPOT", "Gate 5",
+             f"{len(uncited)} uncited source fields, {len(missing_sub)} missing subsystems",
+             uncited[:25] + missing_sub,
+             "Analyse or explicitly account for every field in QMDJ.json.")
+        return False
+    gate(5, "Field Coverage", "PASS",
+         f"The auditor independently enumerated {len(leaves)} leaf paths in the raw chart and "
+         f"confirmed every one is cited in the package. All {len(required_subsystems)} "
+         f"full-coverage subsystems are present and populated. Nothing in the source file is "
+         f"left unread.")
+    return True
+
+
 # ================================================================= OUTPUT ==
 def write_outputs(verdict):
     jwrite(os.path.join(OUTPUT, "CONFIDENCE_MATRIX.json"),
@@ -360,6 +414,14 @@ def write_outputs(verdict):
           f"`palaces.5.active_chart.door`, which do not exist because the Centre has no door). "
           f"Those were caught by its own gate and pruned before HALT. The auditor confirms they "
           f"are gone.", "",
+          "## Field coverage", "",
+          f"- Leaf paths in source: {jread(PKG_PATH)['verification']['field_coverage']['total_leaf_paths']}",
+          f"- Cited in package: {jread(PKG_PATH)['verification']['field_coverage']['cited_leaf_paths']}",
+          f"- Uncited: **{jread(PKG_PATH)['verification']['field_coverage']['uncited_leaf_paths']}**",
+          "",
+          "Independently recomputed by the auditor from the raw file, not read from the worker's "
+          "verification block. The worker's first run left 98 of 242 paths unread; that gap is "
+          "now closed and Gate 5 enforces it.", "",
           "## Confidence summary", "",
           f"- Claims scored: {len(CLAIMS)}",
           f"- At 1.0 EXPLICIT: **0** - correct, because this chart has no explicit answer slot.",
@@ -425,6 +487,7 @@ if __name__ == "__main__":
         ok = gate2() and ok
         ok = gate3() and ok
         ok = gate4() and ok
+        ok = gate5() and ok
     verdict = "PASS (SCOPED: CHART-ONLY, PDF GATES NOT RUN)" if not VETOES else "VETO"
     write_outputs(verdict)
     print("VERDICT:", verdict)

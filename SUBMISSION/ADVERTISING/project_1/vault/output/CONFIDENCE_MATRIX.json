@@ -29,7 +29,7 @@
       "core_strategy": true,
       "operator_warning_present": true,
       "rationale": "COMPUTED derivation from deterministic chart relations.",
-      "source_anchor": "palaces.6.active_chart.door; palaces.6.active_chart.energy_state.door; palaces.6.active_chart.stems.heaven; palaces.8.active_chart.door; palaces.8.active_chart.god",
+      "source_anchor": "palaces.6.active_chart.door; palaces.6.active_chart.energy_state.door; palaces.6.active_chart.stems.heaven; palaces.8.active_chart.door; palaces.8.active_chart.god; palaces.8.palace_stem_rules.stems_in_birth_stage",
       "source_type": "QMDJ",
       "submission_location": "Chart-Analysis-Report / chart_best_solution_candidate"
     },

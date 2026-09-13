@@ -16,6 +16,10 @@ B5 | palace 3 Zhen done | verdicts: 4 | seed_rev: 39
 B5 | palace 7 Dui done | verdicts: 4 | seed_rev: 43
 B5 complete | palaces ['3', '7'] | seed_rev 43
 P6 done | patterns 54 | resolutions 3 | consistency pass True | split_claims 3
-PACKAGE_RENDER | schema_valid True | citations checked 626 broken 0 | pkg sha256 2db7666665a27854
+P7_FULL_FIELD_COVERAGE | subsystems 10 | findings 32
+P7_AMEND | AR-BEST-01 -> RESOLVED_BY_AMENDMENT winner BEST-LIFE-DOOR-NE-P8-WITH-LIUHE | overrides 2
+PACKAGE_RENDER | schema_valid True | citations checked 630 broken 0 | pkg sha256 59ddb7eab387461f
 phase0 done | day_stem Bing heaven_hits: ['5'] | hour_stem Jia heaven_hits: [] | B1=['2', '5', '6', '8', '9'] B2=['2', '9'] B3=['1', '2', '4', '8'] B4=['1', '8'] B5=['3', '7'] | anomalies: 4
-HALT | red_team PASS | determinism True | files 55
+HALT | red_team PASS | determinism True | files 58
+phase0 done | day_stem Bing heaven_hits: ['5'] | hour_stem Jia heaven_hits: [] | B1=['2', '5', '6', '8', '9'] B2=['2', '9'] B3=['1', '2', '4', '8'] B4=['1', '8'] B5=['3', '7'] | anomalies: 4
+HALT | red_team PASS | determinism True | files 58

@@ -17,6 +17,9 @@ DUTY = PKG["anatomy"]["duty"]
 SEASON = PKG["anatomy"]["season"]
 PILL = PKG["anatomy"]["pillars"]
 CONS = PKG["patterns"]["board_consistency_check"]
+COV = PKG["full_field_coverage"]
+OVERRIDES = PKG["overrides"]
+FCOV = PKG["verification"]["field_coverage"]
 ANOM = PKG["anomalies"]
 
 
@@ -57,7 +60,10 @@ def report():
          f"| Horse palace | {', '.join(PKG['anatomy']['validation']['horse']['computed'])} |",
          f"| Verdicts | {sum(len(c['verdicts']) for c in PKG['palaces'])} across 9 palaces |",
          f"| Pattern hits | {len(PKG['patterns']['hits'])} |",
-         f"| Anomalies | {len(ANOM)} |", "",
+         f"| Anomalies | {len(ANOM)} |",
+         f"| Field coverage | {FCOV['cited_leaf_paths']}/{FCOV['total_leaf_paths']} leaf paths "
+         f"({'complete' if FCOV['complete'] else 'INCOMPLETE'}) |",
+         f"| P7 subsystem findings | {len(COV['findings'])} |", "",
          "## Lead", "",
          "This is a completely static board. The chart declares Fu Yin and the declaration checks "
          "out independently: in all nine palaces the heaven, earth and hidden stems are the same "
@@ -161,7 +167,48 @@ def report():
           "The seasonal reading and the positional reading agree, which is worth noting: the "
           "strong palaces are strong because their element is in season, not because of where "
           "they sit. That makes the strength readings unusually trustworthy here.", "",
-          "## 5. Anomalies and honest limits", ""]
+          "## 5. Full-field subsystem findings", "",
+          "The first pass through this chart analysed the stems, doors, stars, markers and "
+          "pillars, and left roughly 40% of the file's fields unread. This section covers "
+          "everything that was missed: the He Tu numbers, the trigram numbers, the Early Heaven "
+          "arrangement, the home/active displacement layer, the harm and birth-stage rules, the "
+          "star energy sub-states, the per-element prosperity map, the solar-term cross-check, "
+          "the full branch system, and the school declaration. Two of these findings changed "
+          "conclusions that the earlier pass had already published.", ""]
+    for sub in ["system", "solar_term", "palace_id", "trigram", "hetu", "displacement",
+                "harm", "birth_stage", "star_energy", "prosperity", "branches"]:
+        items = [f for f in COV["findings"] if f["subsystem"] == sub]
+        if not items:
+            continue
+        titles = {"system": "System, school and method", "solar_term": "Solar term validation",
+                  "palace_id": "Palace id integrity", "trigram": "Trigram numbers and Early Heaven",
+                  "hetu": "He Tu numbers", "displacement": "Home versus active displacement",
+                  "harm": "Harm rules", "birth_stage": "Birth-stage rules",
+                  "star_energy": "Star energy sub-states",
+                  "prosperity": "Element prosperity across the board",
+                  "branches": "Earthly branch system"}
+        L += [f"### {titles[sub]}", ""]
+        for f_ in items:
+            mark = {"POSITIVE": "+", "NEGATIVE": "-", "NEUTRAL": "="}[f_["polarity"]]
+            L += [f"**[{mark}] {f_['name_en']}** (palaces {', '.join(f_['palaces'])})", "",
+                  f_["detail_en"], ""]
+
+    L += ["## 6. Overrides applied to earlier conclusions", "",
+          "Later evidence overrode earlier verdicts twice. In both cases the original verdict is "
+          "preserved rather than deleted, and both the old and new evidence are cited.", ""]
+    for o in OVERRIDES:
+        L += [f"### {o['override_id']} - {o['target']}", "",
+              f"- **Was:** {json.dumps(o['old_state'], ensure_ascii=False)}",
+              f"- **Now:** {json.dumps(o['new_state'], ensure_ascii=False)}",
+              f"- **Why:** {o['reason_en']}", "", "Old evidence:", ""]
+        for e in o["old_evidence"]:
+            L.append(f"- `{e}`")
+        L += ["", "New evidence:", ""]
+        for e in o["new_evidence"]:
+            L.append(f"- `{e}`")
+        L.append("")
+
+    L += ["## 7. Anomalies and honest limits", ""]
     for a in ANOM:
         L += [f"- **{a['code']}** ({a['severity']}) - {a['detail']}"]
     L += ["", "Three of these materially constrain the analysis:", "",
@@ -176,7 +223,7 @@ def report():
           "3. **Fields the specification names that this chart does not have:** `door.forced`, "
           "`tian_yi`, `lodged_star`/`lodged_stem`, `hour_stem_focus`. No forced-door claim and no "
           "Tian Yi claim is made anywhere, because the data does not support one.", "",
-          "## 6. Yongshen candidates (unbound)", "",
+          "## 8. Yongshen candidates (unbound)", "",
           "These are candidate useful-gods derived from the chart alone. **None is bound to any "
           "requirement**, and every `requirement_fit_score` is null, as Prompt 1 requires.", "",
           "| candidate | palaces | grounding | condition |", "|---|---|---|---|"]
@@ -192,7 +239,9 @@ def report():
           "overload rule these are kept as separate typed claims rather than averaged into a "
           "single score - a palace really can be both the best method and a trap, and palace 6 "
           "is exactly that.", "",
-          "## 8. Verification", "", "| gate | result |", "|---|---|",
+          "## 10. Verification", "", "| gate | result |", "|---|---|",
+          f"| Field coverage | {FCOV['cited_leaf_paths']}/{FCOV['total_leaf_paths']} leaf paths, "
+          f"{FCOV['uncited_leaf_paths']} uncited |",
           f"| Package schema valid | {PKG['verification']['schema_valid']} |",
           f"| Citation integrity | {PKG['verification']['citation_integrity']['checked']} checked, "
           f"{PKG['verification']['citation_integrity']['broken_links']} broken |",

@@ -198,28 +198,30 @@
     {
       "candidates_considered": [
         {
+          "amendment_en": "P7 added three previously unread supporting facts: palace 8 lists Bing (the day stem) in `stems_in_birth_stage`, its stem Ren is Water which is Strengthening, and its harm rule against Xin is latent rather than active.",
           "archetype_id": "BEST-LIFE-DOOR-NE-P8-WITH-LIUHE",
           "board_consistency_pass": true,
           "contradicting_evidence_count": 1,
-          "final_score": 0.6887,
+          "final_score": 0.72,
           "grounding_tier": "COMPUTED",
           "label_en": "Work through palace 8 (Northeast): Life door with Liu He (Six Harmony) and Ren, star Prosperous by palace, no void, no affliction - the only clean outer palace, i.e. the only clean way to reach an audience.",
           "rejection_reason": null,
           "requirement_fit_score": null,
           "selected": true,
-          "supporting_evidence_count": 7
+          "supporting_evidence_count": 10
         },
         {
+          "amendment_en": "P7 added one supporting fact - the day branch Xu belongs to palace 6, so the actor's branch is already here - and one contradicting fact: set directly against palace 8's birth stage, palace 6's status as Bing's tomb is now a measured opposition rather than an isolated caution.",
           "archetype_id": "BEST-OPEN-DOOR-NW-P6-WITH-DING",
           "board_consistency_pass": true,
-          "contradicting_evidence_count": 2,
-          "final_score": 0.6487,
+          "contradicting_evidence_count": 3,
+          "final_score": 0.64,
           "grounding_tier": "COMPUTED",
           "label_en": "Work through palace 6 (Northwest): Open door and Ding, both Prosperous, with Tian Xin (Heart) - the only place on the board with a working method and quality at the same time.",
-          "rejection_reason": "Edged out by palace 8 on contradiction count only, because palace 6 is the tomb of the day stem Bing: the best-looking room on the board is also the one that buries the actor. Retained as a live co-candidate, not discarded - it wins outright if the matter is inner rather than outer.",
+          "rejection_reason": "Separated from palace 8 in the P7 amendment by the birth-stage/tomb opposition on the day stem Bing: palace 8 is Bing's birth stage, palace 6 is Bing's tomb. Retained as a live co-candidate and the preferred route for quality, finishing or reputation work, because it holds the only Prosperous door carrying a San Qi stem and the actor's own day branch Xu sits there. It is rejected only as the primary route for the actor's own development.",
           "requirement_fit_score": null,
           "selected": false,
-          "supporting_evidence_count": 7
+          "supporting_evidence_count": 8
         },
         {
           "archetype_id": "BEST-JING-FEAR-W-P7",
@@ -311,12 +313,27 @@
           "description": "Two structurally different routes with equal chart support.",
           "name_or_combination": "BEST-OPEN-DOOR-NW-P6-WITH-DING | BEST-LIFE-DOOR-NE-P8-WITH-LIUHE",
           "step": "candidate_archetype"
+        },
+        {
+          "description": "Palace 8 holds the day stem Bing in its birth stage - the exact structural opposite of palace 6, which is Bing's tomb.",
+          "path": "palaces.8.palace_stem_rules.stems_in_birth_stage",
+          "step": "raw_field",
+          "value": "Bing, Wu"
+        },
+        {
+          "description": "Birth stage versus tomb for the same stem is a polar opposition, not a matter of degree. It separates two candidates that were otherwise level.",
+          "evidence_paths": [
+            "palaces.8.palace_stem_rules.stems_in_birth_stage",
+            "palaces.6.palace_stem_rules.stems_in_tomb",
+            "timing.four_pillars.day"
+          ],
+          "step": "computed_relation"
         }
       ],
-      "margin_note": "Narrow win, not a comfortable one: palace 8 leads palace 6 by 0.040 on a 0-1 scale. The only separator is the contradiction count - palace 6 is the tomb of the day stem Bing, which palace 8 is not. Everything else is level: same grounding tier, same corroboration, both pass board consistency. The decision would flip to palace 6 if the matter turns out to be inner (process, institution, quality of the thing itself) rather than outer (audience, reach, agreement), because palace 6 carries the San Qi stem and the Prosperous Open door while palace 8's Life door is only Resting. That inner/outer determination is assignment information, which Prompt 1 is forbidden to use, so palace 6 is retained as a live runner-up rather than discarded.",
+      "margin_note": "AMENDED IN P7. The earlier run scored these 0.6887 to 0.6487 and declined to separate them, stating that the discriminator would have to come from assignment information. That was wrong, and the correction matters: the discriminator was sitting unread in the chart itself. `palaces.8.palace_stem_rules.stems_in_birth_stage` contains Bing, the day stem, while `palaces.6.palace_stem_rules.stems_in_tomb` contains the same Bing. Palace 8 is where the actor is born; palace 6 is where the actor is buried. That is a polar opposition on the single most important stem in the chart, and it separates the two candidates without any appeal to the assignment. Amended scores: palace 8 0.72, palace 6 0.64. Palace 6 is NOT discarded - it retains the only Prosperous door on a San Qi stem and holds the actor's own day branch Xu, so it remains the correct choice for anything requiring quality or finishing rather than growth. But as a route for the actor to survive and develop, palace 8 now wins on the chart's own evidence.",
       "resolution_id": "AR-BEST-01",
       "slot": "chart_best_solution_candidate",
-      "status": "RESOLVED",
+      "status": "RESOLVED_BY_AMENDMENT",
       "winner": "BEST-LIFE-DOOR-NE-P8-WITH-LIUHE"
     }
   ]

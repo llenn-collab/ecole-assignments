@@ -16,6 +16,7 @@ absolute system role, then audited by **`PROMPT/SKILLS/Audit/skill.md`**
 | The analysis | [`vault/wiki/Chart-Analysis-Report.md`](vault/wiki/Chart-Analysis-Report.md) |
 | The audit | [`vault/output/AUDIT_REPORT.md`](vault/output/AUDIT_REPORT.md) |
 | The machine package | [`vault/raw/state/chart_analysis_package.json`](vault/raw/state/chart_analysis_package.json) |
+| Every remaining field (10 subsystems) | [`vault/wiki/Chart-Full-Field-Coverage.md`](vault/wiki/Chart-Full-Field-Coverage.md) |
 | Everything else | [`vault/wiki/MOC.md`](vault/wiki/MOC.md) |
 
 ## Layout
@@ -33,6 +34,8 @@ tools/              the deterministic engine (see below)
 python3 tools/p0_anatomy.py    # INIT -> CHART_INGEST -> P0_ANATOMY
 python3 tools/batches.py       # B1 -> B5 palace zoom (S1..S12)
 python3 tools/p6_synthesis.py  # P6_BOARD_SYNTHESIS
+python3 tools/p7_full_coverage.py  # P7 every remaining field, 10 subsystems
+python3 tools/p7_amend.py          # feed P7 evidence back, with explicit overrides
 python3 tools/render.py        # PACKAGE_RENDER + wiki
 python3 tools/report.py        # report, red team, determinism, MANIFEST
 python3 tools/audit.py         # the Audit skill
@@ -46,11 +49,12 @@ The origin-set determinism probe re-derives P0 and diffs it — currently `IDENT
 | Gate | Result |
 |---|---|
 | Package schema | valid |
-| Citation integrity | 626 paths checked, **0 broken** |
+| Field coverage | **242/242 source leaf paths cited, 0 uncited** |
+| Citation integrity | 630 paths checked, **0 broken** |
 | Board consistency | pass, 3 split claims recorded |
 | Determinism | origin sets identical across re-derivation |
 | Red team | PASS (2 attacks partially succeeded → conclusions weakened, not defended) |
-| Audit gates 0–4 | PASS / PASS / PASS / PASS / PASS |
+| Audit gates 0–5 | all PASS (Gate 5 = field coverage) |
 
 ## Two things to know before reusing this
 
@@ -58,9 +62,11 @@ The origin-set determinism probe re-derives P0 and diffs it — currently `IDENT
    (laws 4 and 21), so no `Assignment.pdf` exists and every PDF-anchored gate in the Audit
    skill was formally excluded. Anything assignment-bound built on this package must be
    re-audited with the PDF present.
-2. **The best-path result is a deliberate near-tie.** Palace 8 leads palace 6 by 0.040.
-   Separating them requires knowing whether the matter is inner or outer — assignment
-   information this layer is forbidden to use. Both are retained live.
+2. **The best-path tie is now resolved — on chart evidence.** The first pass called it
+   unresolvable and blamed missing assignment context. That was wrong: the discriminator was
+   sitting unread in the file. Palace 8 lists the day stem Bing in `stems_in_birth_stage`;
+   palace 6 lists the same Bing in `stems_in_tomb`. Birth versus burial of the actor separates
+   them 0.72 to 0.64. Palace 6 is retained live as the route for quality/finishing work.
 
 ## Chart findings in one paragraph
 

@@ -74,7 +74,7 @@
     "nine_palace_integrity": true,
     "origin_sets_built": true,
     "package_schema_valid": true,
-    "package_sha256": "2db7666665a278544b6bf4d81845ba2ead6182f27244daa34ef09b9473b6a24e",
+    "package_sha256": "59ddb7eab387461f63d35ca0610a26e1f06d0c89fe9a7c3dfddfa3ba1fc6a466",
     "red_team": "PASS",
     "schema_detection_complete": true,
     "schema_validation_passed": true,

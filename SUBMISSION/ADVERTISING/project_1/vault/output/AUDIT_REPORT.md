@@ -16,10 +16,11 @@ The chart-analysis package is released. **Scope limit, stated plainly:** this is
 | 2 | Traceability Matrix | **PASS** |
 | 3 | Confidence Layering | **PASS** |
 | 4 | Adversarial Omission Attack | **PASS** |
+| 5 | Field Coverage | **PASS** |
 
 ### Gate 0 - Input Presence: PASS
 
-QMDJ.json, package and MANIFEST.json all present and readable; 18 submission-layer files found.
+QMDJ.json, package and MANIFEST.json all present and readable; 19 submission-layer files found.
 
 ### Gate 0b - Assignment Input (PDF-dependent gates): NOT_RUN
 
@@ -27,7 +28,7 @@ vault/raw/Assignment.pdf does not exist. The audited worker is the Prompt 1 char
 
 ### Gate 1 - Integrity Check: PASS
 
-The chart in the vault is byte-identical to the manifest entry and to the repository source of record. Package sha256 2db7666665a278544b6bf4d81845ba2ead6182f27244daa34ef09b9473b6a24e.
+The chart in the vault is byte-identical to the manifest entry and to the repository source of record. Package sha256 59ddb7eab387461f63d35ca0610a26e1f06d0c89fe9a7c3dfddfa3ba1fc6a466.
 
 - `computed sha256(vault/raw/QMDJ.json) = 083a393c855730e9bf62e792340b664ee922c1c6048ff1663a68f3030dcc70b7`
 - `MANIFEST.source_qmdj_sha256 = 083a393c855730e9bf62e792340b664ee922c1c6048ff1663a68f3030dcc70b7`
@@ -45,13 +46,17 @@ All 126 audited elements (verdicts, archetype resolutions, seed items and patter
 
 17 high-impact chart features were independently extracted from the raw file and every one is addressed in the package. The two most dangerous - the day stem's only seat being a void Death-door palace, and the best-scoring route being the day stem's own tomb - are both explicitly disclosed in the report. No vetoed candidate survived into a live recommendation.
 
+### Gate 5 - Field Coverage: PASS
+
+The auditor independently enumerated 242 leaf paths in the raw chart and confirmed every one is cited in the package. All 10 full-coverage subsystems are present and populated. Nothing in the source file is left unread.
+
 ## Integrity evidence
 
 - Source of record: `QMDJ/ADVERTISING/project_1.json`
 - sha256: `083a393c855730e9bf62e792340b664ee922c1c6048ff1663a68f3030dcc70b7`
 - Vault copy `vault/raw/QMDJ.json`: identical
-- Package sha256: `2db7666665a278544b6bf4d81845ba2ead6182f27244daa34ef09b9473b6a24e`
-- Files hashed in manifest: 55
+- Package sha256: `59ddb7eab387461f63d35ca0610a26e1f06d0c89fe9a7c3dfddfa3ba1fc6a466`
+- Files hashed in manifest: 58
 - Determinism check (origin_sets re-derived): IDENTICAL
 
 ## Traceability summary
@@ -59,6 +64,14 @@ All 126 audited elements (verdicts, archetype resolutions, seed items and patter
 - Every verdict, archetype resolution, seed item and pattern hit was re-resolved against the raw chart by the auditor.
 - Broken links found by the auditor: **0**.
 - The worker's own earlier run had 18 broken paths (fields such as `palaces.5.active_chart.door`, which do not exist because the Centre has no door). Those were caught by its own gate and pruned before HALT. The auditor confirms they are gone.
+
+## Field coverage
+
+- Leaf paths in source: 242
+- Cited in package: 242
+- Uncited: **0**
+
+Independently recomputed by the auditor from the raw file, not read from the worker's verification block. The worker's first run left 98 of 242 paths unread; that gap is now closed and Gate 5 enforces it.
 
 ## Confidence summary
 

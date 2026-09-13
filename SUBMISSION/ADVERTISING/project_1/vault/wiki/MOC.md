@@ -20,6 +20,7 @@ Run `carpathia-adv-p1-0001` | source sha256 `083a393c855730e9...` | package `4.0
 - [[Chart-Working-Copy]] - the flattened live board
 - [[Chart-Board-Synthesis]] - systems, matrices, Centre reconstitution
 - [[Chart-Patterns]] - computed pattern catalog
+- [[Chart-Full-Field-Coverage]] - every remaining field, 10 subsystems
 - [[Chart-Analysis-Report]] - the report
 - [[Chart-Red-Team]] - adversarial re-derivation
 - [[Palace-Analysis-Index]] - index of palace cards

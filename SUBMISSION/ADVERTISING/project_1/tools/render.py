@@ -28,6 +28,8 @@ ANOM = S("anomalies.json")["anomalies"]
 BIND = S("schema_bind.json")
 CHART_INDEX = S("chart_index.json")
 RELATIONS = S("relations.json")
+COV = S("full_coverage.json")
+OVERRIDES = S("overrides.json")["overrides"]
 SRC_HASH = CHART_INDEX["sha256"]
 
 
@@ -92,6 +94,37 @@ def validate_package(pkg):
             if not c.get("selected") and c.get("rejection_reason") in (None, ""):
                 errors.append(f"candidate {c.get('archetype_id')} rejected without reason")
     return {"valid": len(errors) == 0, "errors": errors}
+
+
+def field_coverage(pkg):
+    """Every leaf path in QMDJ.json must be cited somewhere in the package."""
+    blob = json.dumps(pkg, ensure_ascii=False, sort_keys=True)
+    leaves = []
+
+    def walk(n, path):
+        if isinstance(n, dict):
+            if not n:
+                leaves.append(path)
+            for k, val in n.items():
+                walk(val, f"{path}.{k}" if path else k)
+        elif isinstance(n, list):
+            if not n:
+                leaves.append(path)
+            elif all(not isinstance(x, (dict, list)) for x in n):
+                leaves.append(path)
+            else:
+                for i, val in enumerate(n):
+                    walk(val, f"{path}[{i}]")
+        else:
+            leaves.append(path)
+
+    walk(Q, "")
+    missing = [p for p in leaves if p not in blob]
+    return {"total_leaf_paths": len(leaves),
+            "cited_leaf_paths": len(leaves) - len(missing),
+            "uncited_leaf_paths": len(missing),
+            "uncited": missing,
+            "complete": len(missing) == 0}
 
 
 def citation_integrity(pkg):
@@ -175,13 +208,17 @@ def build_package():
         "relations": RELATIONS,
         "patterns": patterns,
         "origin_sets": ORIGIN,
+        "full_field_coverage": COV,
+        "overrides": OVERRIDES,
         "yongshen_candidates": YONG["candidates"],
         "anomalies": ANOM,
         "solution_seed": SEED,
     }
     v = validate_package(pkg)
     ci = citation_integrity(pkg)
+    cov_report = field_coverage(pkg)
     pkg["verification"] = {
+        "field_coverage": cov_report,
         "schema_valid": v["valid"], "schema_errors": v["errors"],
         "citation_integrity": {"checked": ci["checked"], "broken_links": ci["broken_links"],
                                "broken": ci["broken"]},

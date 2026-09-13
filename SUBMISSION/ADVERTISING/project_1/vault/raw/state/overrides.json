@@ -1,0 +1,62 @@
+{
+  "overrides": [
+    {
+      "new_evidence": [
+        "palaces.8.palace_stem_rules.stems_in_birth_stage",
+        "palaces.6.palace_stem_rules.stems_in_tomb",
+        "palaces.6.base_position.earthly_branches",
+        "element_prosperities.water"
+      ],
+      "new_state": {
+        "scores": {
+          "BEST-JING-FEAR-W-P7": 0.515,
+          "BEST-LIFE-DOOR-NE-P8-WITH-LIUHE": 0.72,
+          "BEST-OPEN-DOOR-NW-P6-WITH-DING": 0.64,
+          "BEST-PUSH-THE-SHOWPIECE-AT-P9": 0.2725,
+          "BEST-RIDE-THE-HORSE-AT-P2": 0.3037
+        },
+        "status": "RESOLVED_BY_AMENDMENT",
+        "winner": "BEST-LIFE-DOOR-NE-P8-WITH-LIUHE"
+      },
+      "old_evidence": [
+        "palaces.6.active_chart.energy_state.door",
+        "palaces.8.active_chart.energy_state.door"
+      ],
+      "old_state": {
+        "old_margin_claim": "Declared unresolvable from the chart alone; claimed the separator was assignment information.",
+        "scores": {
+          "BEST-JING-FEAR-W-P7": 0.515,
+          "BEST-LIFE-DOOR-NE-P8-WITH-LIUHE": 0.6887,
+          "BEST-OPEN-DOOR-NW-P6-WITH-DING": 0.6487,
+          "BEST-PUSH-THE-SHOWPIECE-AT-P9": 0.2725,
+          "BEST-RIDE-THE-HORSE-AT-P2": 0.3037
+        },
+        "status": "RESOLVED (narrow)",
+        "winner": "BEST-LIFE-DOOR-NE-P8-WITH-LIUHE"
+      },
+      "override_id": "OVR-001",
+      "reason_en": "P7 read fields the earlier run never opened. The birth-stage field resolves a tie the earlier run wrongly declared unresolvable. Early verdict is preserved above, not deleted.",
+      "target": "AR-BEST-01"
+    },
+    {
+      "new_evidence": [
+        "system.school",
+        "system.method"
+      ],
+      "new_state": {
+        "severity": "LOW",
+        "status": "DOWNGRADED_BY_P7"
+      },
+      "old_evidence": [
+        "timing.four_pillars.hour",
+        "chart_config.lead_stem"
+      ],
+      "old_state": {
+        "severity": "HIGH"
+      },
+      "override_id": "OVR-002",
+      "reason_en": "The school declaration explains the absence as native to the method. Severity corrected; the anomaly is retained, not deleted.",
+      "target": "ANOMALY:HOUR_STEM_NOT_ON_PLATE"
+    }
+  ]
+}

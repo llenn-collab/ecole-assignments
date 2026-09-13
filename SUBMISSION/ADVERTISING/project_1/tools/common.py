@@ -230,3 +230,29 @@ def prune_paths(node, data):
         for v in node:
             prune_paths(v, data)
     return node
+
+
+# ---------------------------------------------------- He Tu / trigram tables --
+# He Tu pairs -> element. Generative (inner) and completion (outer) numbers.
+HETU_PAIR_ELEMENT = {
+    (1, 6): "Water", (2, 7): "Fire", (3, 8): "Wood", (4, 9): "Metal", (5, 10): "Earth",
+}
+# Early Heaven (Fu Xi / Xian Tian) trigram numbers
+EARLY_HEAVEN_NUM = {
+    "Qian": 1, "Dui": 2, "Li": 3, "Zhen": 4, "Xun": 5, "Kan": 6, "Gen": 7, "Kun": 8,
+}
+# Later Heaven (Wen Wang / Hou Tian) palace numbers
+LATER_HEAVEN_NUM = {
+    "Kan": 1, "Kun": 2, "Zhen": 3, "Xun": 4, "Zhong": 5,
+    "Qian": 6, "Dui": 7, "Gen": 8, "Li": 9,
+}
+TRIGRAM_ELEMENT = {
+    "Qian": "Metal", "Dui": "Metal", "Li": "Fire", "Zhen": "Wood",
+    "Xun": "Wood", "Kan": "Water", "Gen": "Earth", "Kun": "Earth",
+}
+# Solar term -> yuan -> expected dun structure (Yin Dun for autumn terms)
+SOLAR_TERM_YUAN_DUN = {
+    ("White Dew", "Upper"): "Yin Dun 9",
+    ("White Dew", "Middle"): "Yin Dun 3",
+    ("White Dew", "Lower"): "Yin Dun 6",
+}
