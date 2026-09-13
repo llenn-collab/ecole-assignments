@@ -274,6 +274,3 @@ Redo B1: `Redo B1 on PORTFOLIO/project_2` → PURGE_B1 then B1 from scratch.
 ## 14. Residual risk
 
 If `QMDJ/{track}/{slug}.json` has no explicit `my_answers` / `hidden_problems` / `best_solution` / `yongshen` fields, LAYER_B decisions are COMPUTED or INFERRED. Never present a hypothesis as a chart verdict. Label least-contradicted choices in OPERATOR only.
-```
-
-**Repo change to make:** add root `AGENT.md`, keep the four folders, add `WORK/{track}/{slug}/` (or `_work/` if you want only four top-level dirs), and treat `LAYER_A` / `LAYER_B` as directories. Pairing is `{track}/{slug}` across `ASSIGNMENTS`, `QMDJ`, `WORK`, `SUBMISSION`. I did not dump `prompt.yaml` into this file on purpose — that is how you keep AGENT.md loadable without burning the QMDJ spec.
