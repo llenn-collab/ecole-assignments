@@ -22,7 +22,7 @@ Closed-world assignment solver.
 - Do not invent JSON values, PDF/MD text, or requirements.
 - Do not draw logo artwork unless the brief requires a non-excluded, non-artwork artefact.
 - `SUBMISSION/**/LAYER_B/**` is clean English for the marker/client. Zero QMDJ / palace / stem / door / star / god jargon.
-- Technical chart talk lives only in `WORK/**` and `SUBMISSION/**/LAYER_A/OPERATOR/**`.
+- Technical chart talk lives only in `WORK/**` and `SUBMISSION/**/LAYER_A/**` — the `OPERATOR/` tree when the pack is foldered, or the whole single-file audit under the §2 carve-out (ANNOTATED sections stay ordinary English).
 
 You are not a fortune teller in LAYER_B.
 
@@ -32,29 +32,33 @@ You are not a fortune teller in LAYER_B.
 
 ```
 .
+├── .gitignore                        ← ships here; ignores WORK/** (§8)
 ├── AGENT.md                          ← you are here
 ├── README.md                         ← humans (optional)
 ├── PROMPT/
-│   └── prompt.yaml                   ← full solver spec (do not duplicate here)
+│   ├── prompt.yaml                   ← full solver spec (do not duplicate here)
+│   └── forbidden_terms.txt           ← LAYER_B linter denylist (seeded from prompt.yaml)
 ├── ASSIGNMENTS/
 │   └── {track}/{slug}.md             ← brief (`.pdf` also valid)
 ├── QMDJ/
 │   └── {track}/{slug}.json           ← chart; 1:1 with the brief
-├── WORK/                             ← generated; never the hand-in
+├── WORK/                             ← generated at run time; never the hand-in; gitignored
 │   └── {track}/{slug}/
 │       ├── raw/                      ← extracts, traces, dumps
 │       ├── wiki/                     ← Obsidian-style cards/articles
 │       └── state/                    ← machine.json, solution.json, indexes, …
 └── SUBMISSION/
     └── {track}/{slug}/
-        ├── MANIFEST.md
-        ├── LAYER_B/                  ← hand-in pack (was LAYER_B_SUBMISSION.md)
-        └── LAYER_A/                  ← audit face (was LAYER_A_TECHNICAL_AUDIT.md)
-            ├── ANNOTATED/            ← ordinary-English situation
+        ├── MANIFEST.md               ← §9: paths, sha256, requirement ids, deliverable ids, tree
+        ├── LAYER_B/                  ← hand-in pack; artefacts (single-doc form: LAYER_B_SUBMISSION.md)
+        └── LAYER_A/                  ← audit face; jargon allowed here (single-doc form: LAYER_A_TECHNICAL_AUDIT.md)
+            ├── ANNOTATED/            ← ordinary-English situation, 00_STATUS.md
             └── OPERATOR/             ← COMMENTS.md, MAPPINGS.md, PATH_RANK.md
 ```
 
-**Why `WORK/` exists:** traces and palace cards must not sit beside the files you zip for a marker. If you refuse a fifth top-level folder, use `SUBMISSION/{track}/{slug}/_work/` with the same three subfolders and treat it as gitignored.
+**Why `WORK/` exists:** traces and palace cards must not sit beside the files you zip for a marker. It is absent from a fresh clone on purpose — create it at run time; the committed `.gitignore` keeps it out of git. If you refuse a fifth top-level folder, use `SUBMISSION/{track}/{slug}/_work/` with the same three subfolders and treat it as gitignored.
+
+**Live example:** this repo is seeded with `PORTFOLIO/project_1` in canonical form — `MANIFEST.md` + `LAYER_B/LAYER_B_SUBMISSION.md` + `LAYER_A/LAYER_A_TECHNICAL_AUDIT.md`, the single-file form for both layers.
 
 ### Legacy aliases (accept on read, prefer canonical on write)
 
@@ -63,10 +67,12 @@ You are not a fortune teller in LAYER_B.
 | `ASSIGNMENTS/PORTFOLIO/project_1.md` | same (track=`PORTFOLIO`, slug=`project_1`) |
 | `QMDJ/PORTFOLIO/project_1.json` | same |
 | `PROMPT/prompt.yaml` | same |
-| `SUBMISSION/PORTFOLIO/PROJECT_1/LAYER_B_SUBMISSION.md` | `SUBMISSION/PORTFOLIO/project_1/LAYER_B/` (folder of artefacts) |
-| `SUBMISSION/PORTFOLIO/PROJECT_1/LAYER_A_TECHNICAL_AUDIT.md` | `SUBMISSION/PORTFOLIO/project_1/LAYER_A/` |
+| `SUBMISSION/PORTFOLIO/PROJECT_1/LAYER_B_SUBMISSION.md` | `SUBMISSION/PORTFOLIO/project_1/LAYER_B/LAYER_B_SUBMISSION.md` |
+| `SUBMISSION/PORTFOLIO/PROJECT_1/LAYER_A_TECHNICAL_AUDIT.md` | `SUBMISSION/PORTFOLIO/project_1/LAYER_A/LAYER_A_TECHNICAL_AUDIT.md` |
 
-A single markdown file is still valid when the brief asks for one document: write `LAYER_B/LAYER_B_SUBMISSION.md` and `LAYER_A/LAYER_A_TECHNICAL_AUDIT.md`. Do not invent a 00–07 pack if the brief already names the artefacts.
+A single markdown file is still valid when the brief asks for one document: write `LAYER_B/LAYER_B_SUBMISSION.md` and `LAYER_A/LAYER_A_TECHNICAL_AUDIT.md`. Do not invent a 00–07 pack if the brief already names the artefacts — that is the form `PORTFOLIO/project_1` uses.
+
+2026-09-13: this repo is fully canonical. The legacy rows above are read-acceptance rules for external drops, not paths that exist here; write only at the canonical column.
 
 ---
 
@@ -111,7 +117,7 @@ Slug = filename without extension. Track = parent folder name. Do not flatten tr
 | `vault/output/ANNOTATED/` | `SUBMISSION/{track}/{slug}/LAYER_A/ANNOTATED/` |
 | `vault/output/OPERATOR/` | `SUBMISSION/{track}/{slug}/LAYER_A/OPERATOR/` |
 | `vault/output/MANIFEST.md` | `SUBMISSION/{track}/{slug}/MANIFEST.md` |
-| `vault/wiki/_meta/forbidden_terms.txt` | `PROMPT/forbidden_terms.txt` (create on first run if missing; seed from `prompt.yaml` denylist) |
+| `vault/wiki/_meta/forbidden_terms.txt` | `PROMPT/forbidden_terms.txt` (committed here, seeded from `prompt.yaml → tables.term_denylist_defaults`; re-create from that denylist only if missing) |
 
 Never mutate `ASSIGNMENTS/**`, `QMDJ/**`, or `PROMPT/prompt.yaml`. Hash them at start (`sha256`) into `WORK/…/state/machine.json`.
 
@@ -171,6 +177,8 @@ Heartbeat: `WORK/{track}/{slug}/state/progress.md`.
 
 If the brief is silent on packaging, use `UNGROUNDED_PACK` (00–07 files) **inside LAYER_B**, and label the fallback only in OPERATOR.
 
+Under the §2 single-file carve-out, ANNOTATED and OPERATOR become sections of `LAYER_A/LAYER_A_TECHNICAL_AUDIT.md`: the final-audit section substitutes for `00_STATUS.md`, and `PATH_RANK` material still never leaves `LAYER_A`.
+
 Logo: exclude marks, wordmarks, lockups, favicons, construction grids, SVG paths, rendered images. Include naming, colour intent, usage, written direction if the brief asks.
 
 ---
@@ -185,11 +193,11 @@ Logo: exclude marks, wordmarks, lockups, favicons, construction grids, SVG paths
 
 ### Git
 
-Commit: `AGENT.md`, `PROMPT/`, `ASSIGNMENTS/`, `QMDJ/`, `SUBMISSION/**/LAYER_B/`, `SUBMISSION/**/MANIFEST.md`, and `LAYER_A/` if the operator wants the audit in-repo.
+Commit: `.gitignore`, `README.md`, `AGENT.md`, `PROMPT/` (incl. `forbidden_terms.txt`), `ASSIGNMENTS/`, `QMDJ/`, `SUBMISSION/**/LAYER_B/`, `SUBMISSION/**/MANIFEST.md`, and `LAYER_A/` if the operator wants the audit in-repo.
 
 Do not commit unless asked: `WORK/**` dumps, hashes-only noise, extracted PDF images that are binary logos.
 
-Suggested `.gitignore`:
+The repo ships this `.gitignore` — extend it, do not weaken it:
 
 ```
 WORK/**
@@ -234,9 +242,9 @@ A project is done when:
 - [ ] P0 + B1–B5 + P6 completed (or anomalies logged under partial-chart policy)
 - [ ] `solution.json` frozen; no live claim with `VETO` evidence
 - [ ] LAYER_B covers the registry except excluded logo artwork
-- [ ] LAYER_B passes the forbidden-term linter (`PROMPT/forbidden_terms.txt`)
-- [ ] LAYER_A ANNOTATED has `00_STATUS.md`
-- [ ] LAYER_A OPERATOR has COMMENTS, MAPPINGS, PATH_RANK (PATH_RANK never in LAYER_B)
+- [ ] LAYER_B passes the forbidden-term linter (`PROMPT/forbidden_terms.txt`; zero violations on the 60 seeded terms)
+- [ ] LAYER_A ANNOTATED has `00_STATUS.md` (carve-out: a status section in the single audit file)
+- [ ] LAYER_A OPERATOR has COMMENTS, MAPPINGS, PATH_RANK — or the same content as sections of the carve-out file (PATH_RANK never in LAYER_B)
 - [ ] `MANIFEST.md` written
 - [ ] Overloaded palaces are split claims, not averaged
 

@@ -1,6 +1,7 @@
 # LAYER A — TECHNICAL AUDIT
-**Sources:** `uploads/Assignment.pdf` (requirements authority) · `uploads/QMDJ.json` (chart-data authority)
-**Raw dumps:** `_audit_raw.txt` (Phases 1–2), `_recon.txt` (independent reconstruction)
+**Sources:** `ASSIGNMENTS/PORTFOLIO/project_1.md` (requirements authority) · `QMDJ/PORTFOLIO/project_1.json` (chart-data authority)
+**Raw dumps:** `WORK/PORTFOLIO/project_1/raw/` — `_audit_raw.txt` (Phases 1–2), `_recon.txt` (independent reconstruction), `_derive.txt` / `_derive2.txt` (revision pass). Not committed; `WORK/**` is gitignored (`AGENT.md` §2, §8).
+**Layout:** canonical pack per `AGENT.md` §2 — `LAYER_A/LAYER_A_TECHNICAL_AUDIT.md` + `LAYER_B/LAYER_B_SUBMISSION.md` under the single-file carve-out, `MANIFEST.md` at pack root. Migrated from the legacy flat `SUBMISSION/PORTFOLIO/PROJECT_1/` on 2026-09-13: structure only, no finding below was changed.
 
 ---
 
