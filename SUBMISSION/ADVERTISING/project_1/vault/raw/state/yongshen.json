@@ -1,0 +1,102 @@
+{
+  "candidates": [
+    {
+      "bound_to_requirement": null,
+      "candidate_id": "YS-DAY-BING",
+      "condition": "Centre-lodged into a void, horse-struck, Death-door palace; Fire is Imprisoned this season; Bing's tomb is palace 6.",
+      "evidence_paths": [
+        "timing.four_pillars.day",
+        "palaces.5.active_chart.stems.heaven",
+        "palaces.2.active_chart.stems.center_guest"
+      ],
+      "grounding": "COMPUTED",
+      "label": "Day stem Bing (self / actor)",
+      "palaces": [
+        "5",
+        "2"
+      ],
+      "requirement_fit_score": null
+    },
+    {
+      "bound_to_requirement": null,
+      "candidate_id": "YS-HOUR-JIA",
+      "condition": "Absent from every plate; entombed at palace 2; proxied by Xin at palace 9; Wood is Dead this season.",
+      "evidence_paths": [
+        "timing.four_pillars.hour",
+        "palaces.2.palace_stem_rules.stems_in_tomb",
+        "chart_config.lead_stem"
+      ],
+      "grounding": "COMPUTED",
+      "label": "Hour stem Jia (matter in motion)",
+      "palaces": [
+        "2",
+        "9"
+      ],
+      "requirement_fit_score": null
+    },
+    {
+      "bound_to_requirement": null,
+      "candidate_id": "YS-LEAD-XIN",
+      "condition": "Metal is Prosperous, but palace 9 is void, duty palace, clash-punished, self-punished and Fu Yin.",
+      "evidence_paths": [
+        "chart_config.lead_stem",
+        "palaces.9.active_chart.stems.heaven"
+      ],
+      "grounding": "EXPLICIT",
+      "label": "Lead proxy stem Xin (visible stand-in)",
+      "palaces": [
+        "9"
+      ],
+      "requirement_fit_score": null
+    },
+    {
+      "bound_to_requirement": null,
+      "candidate_id": "YS-DUTY-9",
+      "condition": "Authority of the matter; imprisoned door, imprisoned palace, void.",
+      "evidence_paths": [
+        "chart_config.duty_star",
+        "chart_config.duty_door",
+        "palaces.9.active_chart.status.is_duty_palace"
+      ],
+      "grounding": "EXPLICIT",
+      "label": "Duty star Tian Ying + duty door Jing (Scenery) at palace 9",
+      "palaces": [
+        "9"
+      ],
+      "requirement_fit_score": null
+    },
+    {
+      "bound_to_requirement": null,
+      "candidate_id": "YS-OPEN-6",
+      "condition": "Only Prosperous door+palace pair carrying a San Qi stem; also the tomb palace of the day stem Bing.",
+      "evidence_paths": [
+        "palaces.6.active_chart.door",
+        "palaces.6.active_chart.stems.heaven",
+        "palaces.6.active_chart.energy_state.door"
+      ],
+      "grounding": "COMPUTED",
+      "label": "Kai (Open) door + Ding + Tian Xin at palace 6",
+      "palaces": [
+        "6"
+      ],
+      "requirement_fit_score": null
+    },
+    {
+      "bound_to_requirement": null,
+      "candidate_id": "YS-LIFE-8",
+      "condition": "Outer realm, Resting door, Six Harmony spirit, star Prosperous by palace.",
+      "evidence_paths": [
+        "palaces.8.active_chart.door",
+        "palaces.8.active_chart.god",
+        "palaces.8.active_chart.stems.heaven"
+      ],
+      "grounding": "COMPUTED",
+      "label": "Sheng (Life) door + Ren + Liu He at palace 8",
+      "palaces": [
+        "8"
+      ],
+      "requirement_fit_score": null
+    }
+  ],
+  "note": "chart-derived only; not yet requirement-bound"
+}

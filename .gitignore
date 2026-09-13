@@ -6,3 +6,6 @@ WORK/**
 # OS / editor noise
 **/.DS_Store
 **/__pycache__/
+
+# Python bytecode from SUBMISSION tooling
+SUBMISSION/**/tools/__pycache__/

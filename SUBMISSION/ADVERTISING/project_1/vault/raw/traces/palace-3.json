@@ -1,0 +1,390 @@
+{
+  "also_selected_in": [],
+  "analyses": [
+    {
+      "step": "S8",
+      "summary_en": "12 intra-palace relations computed."
+    },
+    {
+      "step": "S9",
+      "summary_en": "Reverse-index occurrences pulled."
+    }
+  ],
+  "batch": "B5",
+  "canonical_name": "Zhen",
+  "index_pull": {
+    "same_door_elsewhere": [],
+    "same_god_elsewhere": [],
+    "same_heaven_stem_elsewhere": [],
+    "same_star_elsewhere": [],
+    "this_god_is_home_god_of": [
+      "3"
+    ],
+    "this_stem_entombed_at": [
+      "6"
+    ],
+    "this_stem_harmed_at": [
+      "2"
+    ],
+    "this_stem_in_birth_stage_at": [
+      "8"
+    ],
+    "this_stem_punished_at": [
+      "3"
+    ]
+  },
+  "palace_id": "3",
+  "phase": "P5_REMAINING",
+  "relations": [
+    {
+      "a": "Wu",
+      "b": "Wu",
+      "evidence_paths": [
+        "palaces.3.active_chart.stems.heaven",
+        "palaces.3.active_chart.stems.earth"
+      ],
+      "kind": "heaven_earth_stem_pair",
+      "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+      "relation": "IDENTICAL (Fu Yin)"
+    },
+    {
+      "a": "Wu",
+      "b": "Wu",
+      "evidence_paths": [
+        "palaces.3.active_chart.stems.heaven",
+        "palaces.3.active_chart.stems.hidden"
+      ],
+      "kind": "heaven_hidden_stem_pair",
+      "note_en": "",
+      "relation": "IDENTICAL (Fu Yin)"
+    },
+    {
+      "a": "Wu",
+      "b": "Wood",
+      "evidence_paths": [
+        "palaces.3.active_chart.stems.heaven",
+        "palaces.3.element"
+      ],
+      "kind": "stem_vs_palace",
+      "note_en": "",
+      "relation": "CONTROLLED_BY"
+    },
+    {
+      "a": "Shang (Harm)",
+      "b": "Wood",
+      "evidence_paths": [
+        "palaces.3.active_chart.door",
+        "palaces.3.element"
+      ],
+      "kind": "door_vs_palace",
+      "note_en": "",
+      "relation": "SAME"
+    },
+    {
+      "a": "Tian Chong (Impulse)",
+      "b": "Wood",
+      "evidence_paths": [
+        "palaces.3.active_chart.star",
+        "palaces.3.element"
+      ],
+      "kind": "star_vs_palace",
+      "note_en": "",
+      "relation": "SAME"
+    },
+    {
+      "a": "Tian Chong (Impulse)",
+      "b": "Wu",
+      "evidence_paths": [
+        "palaces.3.active_chart.star",
+        "palaces.3.active_chart.stems.heaven"
+      ],
+      "kind": "star_vs_heaven_stem",
+      "note_en": "",
+      "relation": "CONTROLS"
+    },
+    {
+      "a": "Wu",
+      "b": "Shang (Harm)",
+      "evidence_paths": [
+        "palaces.3.active_chart.stems.heaven",
+        "palaces.3.active_chart.door"
+      ],
+      "kind": "stem_vs_door",
+      "note_en": "",
+      "relation": "CONTROLLED_BY"
+    },
+    {
+      "a": "Wu",
+      "b": "seasonal_element_strengths",
+      "evidence_paths": [
+        "palaces.3.active_chart.stems.heaven",
+        "element_prosperities"
+      ],
+      "kind": "stem_vs_season",
+      "note_en": "",
+      "relation": "Resting"
+    },
+    {
+      "a": "Wu",
+      "b": "Bing",
+      "evidence_paths": [
+        "palaces.3.active_chart.stems.heaven",
+        "timing.four_pillars.day"
+      ],
+      "kind": "stem_vs_day_stem",
+      "note_en": "",
+      "relation": "PRODUCED_BY"
+    },
+    {
+      "a": "Wu",
+      "b": "Gui",
+      "evidence_paths": [
+        "palaces.3.active_chart.stems.heaven",
+        "palaces.7.active_chart.stems.heaven"
+      ],
+      "kind": "stem_combination_across_board",
+      "note_en": "Wu pairs with Gui at palace ['7'].",
+      "relation": "COMBINES -> Fire"
+    },
+    {
+      "a": "Wu",
+      "b": "3",
+      "evidence_paths": [
+        "palaces.3.active_chart.stems.heaven",
+        "palaces.3.palace_stem_rules.stems_in_clash_punishment"
+      ],
+      "kind": "self_punished",
+      "note_en": "",
+      "relation": "STEM_IN_OWN_PUNISHMENT_PALACE"
+    },
+    {
+      "a": "3",
+      "b": "Dead|Dead|Strengthening|Imprisoned",
+      "evidence_paths": [
+        "palaces.3.active_chart.energy_state"
+      ],
+      "kind": "strength_concordance",
+      "note_en": "Split strength: the palace does not read the same from every angle.",
+      "relation": "SPLIT"
+    }
+  ],
+  "roles": [
+    {
+      "evidence_paths": [
+        "palaces.3.active_chart.energy_state.realm"
+      ],
+      "palace_id": "3",
+      "rationale_en": "Realm as declared by the chart.",
+      "role": "outer"
+    }
+  ],
+  "stack": {
+    "S1_identity": {
+      "canonical_name": "Zhen",
+      "direction": "East",
+      "early_heaven_trigram": "Li (3)",
+      "earthly_branches": [
+        "Mao (Rabbit)"
+      ],
+      "element": "Wood",
+      "hetu_numbers": [
+        3,
+        8
+      ],
+      "id": "3",
+      "name": "Zhen",
+      "opposite_palace": "7",
+      "palace_strength": "Dead",
+      "paths": [
+        "palaces.3.name",
+        "palaces.3.direction",
+        "palaces.3.element",
+        "palaces.3.active_chart.energy_state.palace"
+      ],
+      "realm": "Outer",
+      "trigram_numbers": [
+        4,
+        3
+      ]
+    },
+    "S2_earth": {
+      "earth_stem": "Wu",
+      "earth_stem_element": "Earth",
+      "god": "Tai Yin (Moon)",
+      "home_god": "Tai Yin (Moon)",
+      "paths": [
+        "palaces.3.active_chart.stems.earth",
+        "palaces.3.active_chart.god"
+      ]
+    },
+    "S3_door": {
+      "door": "Shang (Harm)",
+      "door_at_original_palace": true,
+      "door_element": "Wood",
+      "door_strength": "Dead",
+      "forced": null,
+      "home_door": "Shang (Harm)",
+      "paths": [
+        "palaces.3.active_chart.door",
+        "palaces.3.active_chart.energy_state.door"
+      ]
+    },
+    "S4_heaven": {
+      "center_guest_stem": null,
+      "heaven_stem": "Wu",
+      "heaven_stem_element": "Earth",
+      "home_star": "Tian Chong (Impulse)",
+      "note": null,
+      "paths": [
+        "palaces.3.active_chart.stems.heaven",
+        "palaces.3.active_chart.star",
+        "palaces.3.active_chart.energy_state.star"
+      ],
+      "star_elements": [
+        "Wood"
+      ],
+      "star_home_palaces": [
+        "3"
+      ],
+      "star_sitting_home": [
+        "Tian Chong (Impulse)"
+      ],
+      "star_strength_by_palace": "Imprisoned",
+      "star_strength_seasonal": "Strengthening",
+      "stars": [
+        "Tian Chong (Impulse)"
+      ]
+    },
+    "S5_hidden": {
+      "hidden_stem": "Wu",
+      "hidden_stem_element": "Earth",
+      "paths": [
+        "palaces.3.active_chart.stems.hidden"
+      ]
+    },
+    "S6_markers": {
+      "afflictions": [
+        "Six Instruments Clash Punishment (Liu Yi Ji Xing)"
+      ],
+      "carries_duty_door": false,
+      "carries_duty_star": false,
+      "has_horse_star": false,
+      "hour_stem_focus": false,
+      "is_duty_palace": false,
+      "is_void": false,
+      "paths": [
+        "palaces.3.active_chart.stems.afflictions"
+      ]
+    },
+    "S7_lists": {
+      "birth_stage_stems": [
+        "Gui"
+      ],
+      "entombs_day_stem": false,
+      "entombs_hour_stem": false,
+      "harm_stems": [
+        "Ren"
+      ],
+      "paths": [
+        "palaces.3.palace_stem_rules"
+      ],
+      "punishment_stems": [
+        "Wu"
+      ],
+      "tomb_stems": []
+    }
+  },
+  "verdicts": [
+    {
+      "batch": "B5",
+      "claim_id": "V036-P3",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "palace_id": "3",
+          "path": "palaces.3.active_chart.stems.afflictions",
+          "value": "Six Instruments Clash Punishment (Liu Yi Ji Xing)"
+        }
+      ],
+      "grounding": "EXPLICIT",
+      "palace_id": "3",
+      "phase": "P5_REMAINING",
+      "polarity": "VETO",
+      "slot": "chart_hidden_problems_candidate",
+      "status": "live",
+      "text_en": "Palace 3 carries the affliction 'Six Instruments Clash Punishment (Liu Yi Ji Xing)'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+    },
+    {
+      "batch": "B5",
+      "claim_id": "V037-P3",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "palace_id": "3",
+          "path": "palaces.3.active_chart.energy_state.door",
+          "value": "Dead"
+        },
+        {
+          "palace_id": "3",
+          "path": "palaces.3.active_chart.door",
+          "value": "Shang (Harm)"
+        }
+      ],
+      "grounding": "COMPUTED",
+      "palace_id": "3",
+      "phase": "P5_REMAINING",
+      "polarity": "VETO",
+      "slot": "chart_hidden_problems_candidate",
+      "status": "live",
+      "text_en": "The Shang (Harm) door at palace 3 is Dead. This method is available on paper but has no force behind it; using it costs effort and returns little."
+    },
+    {
+      "batch": "B5",
+      "claim_id": "V038-P3",
+      "confidence": "MED",
+      "evidence": [
+        {
+          "palace_id": "3",
+          "path": "palaces.3.active_chart.energy_state",
+          "value": "Dead|Dead|Strengthening|Imprisoned"
+        }
+      ],
+      "grounding": "COMPUTED",
+      "palace_id": "3",
+      "phase": "P5_REMAINING",
+      "polarity": "CONSTRAIN",
+      "slot": "risk",
+      "status": "live",
+      "text_en": "Palace 3 reads differently from different angles (Dead|Dead|Strengthening|Imprisoned). It looks one way and behaves another; do not trust a single strength reading here."
+    },
+    {
+      "batch": "B5",
+      "claim_id": "V039-P3",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "palace_id": "3",
+          "path": "palaces.3.active_chart.star",
+          "value": "['Tian Chong (Impulse)']"
+        },
+        {
+          "palace_id": "3",
+          "path": "palaces.3.active_chart.door",
+          "value": "Shang (Harm)"
+        },
+        {
+          "palace_id": "3",
+          "path": "chart_config.chart_pattern",
+          "value": "Fu Yin (All elements in home positions)"
+        }
+      ],
+      "grounding": "COMPUTED",
+      "palace_id": "3",
+      "phase": "P5_REMAINING",
+      "polarity": "CONSTRAIN",
+      "slot": "risk",
+      "status": "live",
+      "text_en": "Palace 3 has its own star and its own door at home, with heaven, earth and hidden stems identical. Nothing here is in motion; the position repeats itself rather than developing."
+    }
+  ]
+}

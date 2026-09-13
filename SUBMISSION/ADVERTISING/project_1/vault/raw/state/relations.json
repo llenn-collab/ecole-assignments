@@ -1,0 +1,1169 @@
+{
+  "note": "S8 intra-palace relation engine output, computed from value matches only.",
+  "per_palace": {
+    "1": [
+      {
+        "a": "Geng",
+        "b": "Geng",
+        "evidence_paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "palaces.1.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Geng",
+        "b": "Geng",
+        "evidence_paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "palaces.1.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Geng",
+        "b": "Water",
+        "evidence_paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "palaces.1.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "PRODUCES"
+      },
+      {
+        "a": "Xiu (Rest)",
+        "b": "Water",
+        "evidence_paths": [
+          "palaces.1.active_chart.door",
+          "palaces.1.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Peng (Grass)",
+        "b": "Water",
+        "evidence_paths": [
+          "palaces.1.active_chart.star",
+          "palaces.1.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Peng (Grass)",
+        "b": "Geng",
+        "evidence_paths": [
+          "palaces.1.active_chart.star",
+          "palaces.1.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "PRODUCED_BY"
+      },
+      {
+        "a": "Geng",
+        "b": "Xiu (Rest)",
+        "evidence_paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "palaces.1.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "PRODUCES"
+      },
+      {
+        "a": "Geng",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Prosperous"
+      },
+      {
+        "a": "Geng",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Geng",
+        "b": "Yi",
+        "evidence_paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "palaces.4.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Geng pairs with Yi at palace ['4'].",
+        "relation": "COMBINES -> Metal"
+      },
+      {
+        "a": "1",
+        "b": "Strengthening|Strengthening|Strengthening|Obsolete",
+        "evidence_paths": [
+          "palaces.1.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "2": [
+      {
+        "a": "Ji",
+        "b": "Ji",
+        "evidence_paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "palaces.2.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Ji",
+        "b": "Ji",
+        "evidence_paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "palaces.2.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Ji",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "palaces.2.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Si (Death)",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.2.active_chart.door",
+          "palaces.2.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Rui (Grain)",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.2.active_chart.star",
+          "palaces.2.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Rui (Grain)",
+        "b": "Ji",
+        "evidence_paths": [
+          "palaces.2.active_chart.star",
+          "palaces.2.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Qin (Bird)",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.2.active_chart.star",
+          "palaces.2.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Qin (Bird)",
+        "b": "Ji",
+        "evidence_paths": [
+          "palaces.2.active_chart.star",
+          "palaces.2.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Ji",
+        "b": "Si (Death)",
+        "evidence_paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "palaces.2.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Ji",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Resting"
+      },
+      {
+        "a": "Ji",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "PRODUCED_BY"
+      },
+      {
+        "a": "Ji",
+        "b": "2",
+        "evidence_paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "palaces.2.palace_stem_rules.stems_in_clash_punishment"
+        ],
+        "kind": "self_punished",
+        "note_en": "",
+        "relation": "STEM_IN_OWN_PUNISHMENT_PALACE"
+      },
+      {
+        "a": "2",
+        "b": "Resting|Resting|Strengthening|Prosperous",
+        "evidence_paths": [
+          "palaces.2.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "3": [
+      {
+        "a": "Wu",
+        "b": "Wu",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "palaces.3.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Wu",
+        "b": "Wu",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "palaces.3.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Wu",
+        "b": "Wood",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "palaces.3.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Shang (Harm)",
+        "b": "Wood",
+        "evidence_paths": [
+          "palaces.3.active_chart.door",
+          "palaces.3.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Chong (Impulse)",
+        "b": "Wood",
+        "evidence_paths": [
+          "palaces.3.active_chart.star",
+          "palaces.3.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Chong (Impulse)",
+        "b": "Wu",
+        "evidence_paths": [
+          "palaces.3.active_chart.star",
+          "palaces.3.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "CONTROLS"
+      },
+      {
+        "a": "Wu",
+        "b": "Shang (Harm)",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "palaces.3.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Wu",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Resting"
+      },
+      {
+        "a": "Wu",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "PRODUCED_BY"
+      },
+      {
+        "a": "Wu",
+        "b": "Gui",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "palaces.7.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Wu pairs with Gui at palace ['7'].",
+        "relation": "COMBINES -> Fire"
+      },
+      {
+        "a": "Wu",
+        "b": "3",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "palaces.3.palace_stem_rules.stems_in_clash_punishment"
+        ],
+        "kind": "self_punished",
+        "note_en": "",
+        "relation": "STEM_IN_OWN_PUNISHMENT_PALACE"
+      },
+      {
+        "a": "3",
+        "b": "Dead|Dead|Strengthening|Imprisoned",
+        "evidence_paths": [
+          "palaces.3.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "4": [
+      {
+        "a": "Yi",
+        "b": "Yi",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "palaces.4.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Yi",
+        "b": "Yi",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "palaces.4.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Yi",
+        "b": "Wood",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "palaces.4.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Du (Restraint)",
+        "b": "Wood",
+        "evidence_paths": [
+          "palaces.4.active_chart.door",
+          "palaces.4.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Fu (Assistant)",
+        "b": "Wood",
+        "evidence_paths": [
+          "palaces.4.active_chart.star",
+          "palaces.4.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Fu (Assistant)",
+        "b": "Yi",
+        "evidence_paths": [
+          "palaces.4.active_chart.star",
+          "palaces.4.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Yi",
+        "b": "Du (Restraint)",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "palaces.4.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Yi",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Dead"
+      },
+      {
+        "a": "Yi",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "PRODUCES"
+      },
+      {
+        "a": "Yi",
+        "b": "Geng",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "palaces.1.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Yi pairs with Geng at palace ['1'].",
+        "relation": "COMBINES -> Metal"
+      },
+      {
+        "a": "Yi",
+        "b": "Xin",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "palaces.9.active_chart.stems.heaven"
+        ],
+        "kind": "stem_clash_across_board",
+        "note_en": "Yi clashes Xin at palace ['9'].",
+        "relation": "CLASH"
+      },
+      {
+        "a": "4",
+        "b": "Dead|Dead|Strengthening|Imprisoned",
+        "evidence_paths": [
+          "palaces.4.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "5": [
+      {
+        "a": "Bing",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.5.active_chart.stems.heaven",
+          "palaces.5.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Bing",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.5.active_chart.stems.heaven",
+          "palaces.5.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Bing",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.5.active_chart.stems.heaven",
+          "palaces.5.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "PRODUCES"
+      },
+      {
+        "a": "Bing",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.5.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Imprisoned"
+      },
+      {
+        "a": "Bing",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.5.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Bing",
+        "b": "Xin",
+        "evidence_paths": [
+          "palaces.5.active_chart.stems.heaven",
+          "palaces.9.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Bing pairs with Xin at palace ['9'].",
+        "relation": "COMBINES -> Water"
+      },
+      {
+        "a": "Bing",
+        "b": "Ren",
+        "evidence_paths": [
+          "palaces.5.active_chart.stems.heaven",
+          "palaces.8.active_chart.stems.heaven"
+        ],
+        "kind": "stem_clash_across_board",
+        "note_en": "Bing clashes Ren at palace ['8'].",
+        "relation": "CLASH"
+      },
+      {
+        "a": "5",
+        "b": "Resting",
+        "evidence_paths": [
+          "palaces.5.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "",
+        "relation": "CONCORDANT"
+      }
+    ],
+    "6": [
+      {
+        "a": "Ding",
+        "b": "Ding",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "palaces.6.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Ding",
+        "b": "Ding",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "palaces.6.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Ding",
+        "b": "Metal",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "palaces.6.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "CONTROLS"
+      },
+      {
+        "a": "Kai (Open)",
+        "b": "Metal",
+        "evidence_paths": [
+          "palaces.6.active_chart.door",
+          "palaces.6.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Xin (Heart)",
+        "b": "Metal",
+        "evidence_paths": [
+          "palaces.6.active_chart.star",
+          "palaces.6.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Xin (Heart)",
+        "b": "Ding",
+        "evidence_paths": [
+          "palaces.6.active_chart.star",
+          "palaces.6.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Ding",
+        "b": "Kai (Open)",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "palaces.6.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "CONTROLS"
+      },
+      {
+        "a": "Ding",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Imprisoned"
+      },
+      {
+        "a": "Ding",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Ding",
+        "b": "Ren",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "palaces.8.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Ding pairs with Ren at palace ['8'].",
+        "relation": "COMBINES -> Wood"
+      },
+      {
+        "a": "Ding",
+        "b": "Gui",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "palaces.7.active_chart.stems.heaven"
+        ],
+        "kind": "stem_clash_across_board",
+        "note_en": "Ding clashes Gui at palace ['7'].",
+        "relation": "CLASH"
+      },
+      {
+        "a": "6",
+        "b": "Prosperous|Prosperous|Strengthening|Strengthening",
+        "evidence_paths": [
+          "palaces.6.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "7": [
+      {
+        "a": "Gui",
+        "b": "Gui",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "palaces.7.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Gui",
+        "b": "Gui",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "palaces.7.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Gui",
+        "b": "Metal",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "palaces.7.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "PRODUCED_BY"
+      },
+      {
+        "a": "Jing (Fear)",
+        "b": "Metal",
+        "evidence_paths": [
+          "palaces.7.active_chart.door",
+          "palaces.7.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Zhu (Pillar)",
+        "b": "Metal",
+        "evidence_paths": [
+          "palaces.7.active_chart.star",
+          "palaces.7.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Zhu (Pillar)",
+        "b": "Gui",
+        "evidence_paths": [
+          "palaces.7.active_chart.star",
+          "palaces.7.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "PRODUCES"
+      },
+      {
+        "a": "Gui",
+        "b": "Jing (Fear)",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "palaces.7.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "PRODUCED_BY"
+      },
+      {
+        "a": "Gui",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Strengthening"
+      },
+      {
+        "a": "Gui",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "CONTROLS"
+      },
+      {
+        "a": "Gui",
+        "b": "Wu",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "palaces.3.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Gui pairs with Wu at palace ['3'].",
+        "relation": "COMBINES -> Fire"
+      },
+      {
+        "a": "Gui",
+        "b": "Ding",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "palaces.6.active_chart.stems.heaven"
+        ],
+        "kind": "stem_clash_across_board",
+        "note_en": "Gui clashes Ding at palace ['6'].",
+        "relation": "CLASH"
+      },
+      {
+        "a": "7",
+        "b": "Prosperous|Prosperous|Strengthening|Strengthening",
+        "evidence_paths": [
+          "palaces.7.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "8": [
+      {
+        "a": "Ren",
+        "b": "Ren",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "palaces.8.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Ren",
+        "b": "Ren",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "palaces.8.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Ren",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "palaces.8.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Sheng (Life)",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.8.active_chart.door",
+          "palaces.8.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Ren (Ambassador)",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.8.active_chart.star",
+          "palaces.8.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Ren (Ambassador)",
+        "b": "Ren",
+        "evidence_paths": [
+          "palaces.8.active_chart.star",
+          "palaces.8.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "CONTROLS"
+      },
+      {
+        "a": "Ren",
+        "b": "Sheng (Life)",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "palaces.8.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Ren",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Strengthening"
+      },
+      {
+        "a": "Ren",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "CONTROLS"
+      },
+      {
+        "a": "Ren",
+        "b": "Ding",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "palaces.6.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Ren pairs with Ding at palace ['6'].",
+        "relation": "COMBINES -> Wood"
+      },
+      {
+        "a": "Ren",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "palaces.5.active_chart.stems.heaven"
+        ],
+        "kind": "stem_clash_across_board",
+        "note_en": "Ren clashes Bing at palace ['5'].",
+        "relation": "CLASH"
+      },
+      {
+        "a": "8",
+        "b": "Resting|Resting|Strengthening|Prosperous",
+        "evidence_paths": [
+          "palaces.8.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "9": [
+      {
+        "a": "Xin",
+        "b": "Xin",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.9.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Xin",
+        "b": "Xin",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.9.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Xin",
+        "b": "Fire",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.9.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Jing (Scenery)",
+        "b": "Fire",
+        "evidence_paths": [
+          "palaces.9.active_chart.door",
+          "palaces.9.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Ying (Hero)",
+        "b": "Fire",
+        "evidence_paths": [
+          "palaces.9.active_chart.star",
+          "palaces.9.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Ying (Hero)",
+        "b": "Xin",
+        "evidence_paths": [
+          "palaces.9.active_chart.star",
+          "palaces.9.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "CONTROLS"
+      },
+      {
+        "a": "Xin",
+        "b": "Jing (Scenery)",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.9.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Xin",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Prosperous"
+      },
+      {
+        "a": "Xin",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Xin",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.5.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Xin pairs with Bing at palace ['5'].",
+        "relation": "COMBINES -> Water"
+      },
+      {
+        "a": "Xin",
+        "b": "Yi",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.4.active_chart.stems.heaven"
+        ],
+        "kind": "stem_clash_across_board",
+        "note_en": "Xin clashes Yi at palace ['4'].",
+        "relation": "CLASH"
+      },
+      {
+        "a": "Xin",
+        "b": "9",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.9.palace_stem_rules.stems_in_clash_punishment"
+        ],
+        "kind": "self_punished",
+        "note_en": "",
+        "relation": "STEM_IN_OWN_PUNISHMENT_PALACE"
+      },
+      {
+        "a": "9",
+        "b": "Imprisoned|Imprisoned|Strengthening|Resting",
+        "evidence_paths": [
+          "palaces.9.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ]
+  }
+}

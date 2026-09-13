@@ -1,0 +1,84 @@
+{
+  "completed_batches": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5"
+  ],
+  "completed_phases": [
+    "INIT",
+    "CHART_INGEST",
+    "P0_ANATOMY",
+    "P6_BOARD_SYNTHESIS",
+    "PACKAGE_RENDER"
+  ],
+  "palaces": {
+    "1": {
+      "batch": "B3",
+      "status": "verdicted",
+      "verdict_count": 2
+    },
+    "2": {
+      "batch": "B1",
+      "status": "verdicted",
+      "verdict_count": 8
+    },
+    "3": {
+      "batch": "B5",
+      "status": "verdicted",
+      "verdict_count": 4
+    },
+    "4": {
+      "batch": "B3",
+      "status": "verdicted",
+      "verdict_count": 6
+    },
+    "5": {
+      "batch": "B1",
+      "status": "verdicted",
+      "verdict_count": 3
+    },
+    "6": {
+      "batch": "B1",
+      "status": "verdicted",
+      "verdict_count": 6
+    },
+    "7": {
+      "batch": "B5",
+      "status": "verdicted",
+      "verdict_count": 4
+    },
+    "8": {
+      "batch": "B1",
+      "status": "verdicted",
+      "verdict_count": 2
+    },
+    "9": {
+      "batch": "B1",
+      "status": "verdicted",
+      "verdict_count": 8
+    }
+  },
+  "run_id": "carpathia-adv-p1-0001",
+  "solution_seed_revision": 43,
+  "state": "HALT",
+  "updated_at": "1970-01-01T00:00:00Z",
+  "verification": {
+    "archetype_resolutions_scored": true,
+    "board_consistency_passed": true,
+    "citation_broken_links": 0,
+    "determinism_check": "PASS",
+    "four_pillars_valid": true,
+    "indexes_built": true,
+    "nine_palace_integrity": true,
+    "origin_sets_built": true,
+    "package_schema_valid": true,
+    "package_sha256": "2db7666665a278544b6bf4d81845ba2ead6182f27244daa34ef09b9473b6a24e",
+    "red_team": "PASS",
+    "schema_detection_complete": true,
+    "schema_validation_passed": true,
+    "source_sha256": "083a393c855730e9bf62e792340b664ee922c1c6048ff1663a68f3030dcc70b7",
+    "yongshen_candidates_unbound": true
+  }
+}

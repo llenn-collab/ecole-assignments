@@ -1,0 +1,3830 @@
+{
+  "1": {
+    "also_selected_in": [
+      "B4"
+    ],
+    "analyses": [
+      {
+        "step": "S8",
+        "summary_en": "11 intra-palace relations computed."
+      },
+      {
+        "step": "S9",
+        "summary_en": "Reverse-index occurrences pulled."
+      }
+    ],
+    "batch": "B3",
+    "canonical_name": "Kan",
+    "index_pull": {
+      "same_door_elsewhere": [],
+      "same_god_elsewhere": [],
+      "same_heaven_stem_elsewhere": [],
+      "same_star_elsewhere": [],
+      "this_god_is_home_god_of": [
+        "9"
+      ],
+      "this_stem_entombed_at": [
+        "8"
+      ],
+      "this_stem_harmed_at": [
+        "6"
+      ],
+      "this_stem_in_birth_stage_at": [
+        "4"
+      ],
+      "this_stem_punished_at": [
+        "8"
+      ]
+    },
+    "palace_id": "1",
+    "phase": "P1_TO_P4_OPERATOR_ZOOM",
+    "relations": [
+      {
+        "a": "Geng",
+        "b": "Geng",
+        "evidence_paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "palaces.1.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Geng",
+        "b": "Geng",
+        "evidence_paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "palaces.1.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Geng",
+        "b": "Water",
+        "evidence_paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "palaces.1.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "PRODUCES"
+      },
+      {
+        "a": "Xiu (Rest)",
+        "b": "Water",
+        "evidence_paths": [
+          "palaces.1.active_chart.door",
+          "palaces.1.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Peng (Grass)",
+        "b": "Water",
+        "evidence_paths": [
+          "palaces.1.active_chart.star",
+          "palaces.1.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Peng (Grass)",
+        "b": "Geng",
+        "evidence_paths": [
+          "palaces.1.active_chart.star",
+          "palaces.1.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "PRODUCED_BY"
+      },
+      {
+        "a": "Geng",
+        "b": "Xiu (Rest)",
+        "evidence_paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "palaces.1.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "PRODUCES"
+      },
+      {
+        "a": "Geng",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Prosperous"
+      },
+      {
+        "a": "Geng",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Geng",
+        "b": "Yi",
+        "evidence_paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "palaces.4.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Geng pairs with Yi at palace ['4'].",
+        "relation": "COMBINES -> Metal"
+      },
+      {
+        "a": "1",
+        "b": "Strengthening|Strengthening|Strengthening|Obsolete",
+        "evidence_paths": [
+          "palaces.1.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "roles": [
+      {
+        "evidence_paths": [
+          "palaces.1.active_chart.energy_state.realm"
+        ],
+        "palace_id": "1",
+        "rationale_en": "Realm as declared by the chart.",
+        "role": "outer"
+      }
+    ],
+    "stack": {
+      "S1_identity": {
+        "canonical_name": "Kan",
+        "direction": "North",
+        "early_heaven_trigram": "Kun (8)",
+        "earthly_branches": [
+          "Zi (Rat)"
+        ],
+        "element": "Water",
+        "hetu_numbers": [
+          1,
+          6
+        ],
+        "id": "1",
+        "name": "Kan",
+        "opposite_palace": "9",
+        "palace_strength": "Strengthening",
+        "paths": [
+          "palaces.1.name",
+          "palaces.1.direction",
+          "palaces.1.element",
+          "palaces.1.active_chart.energy_state.palace"
+        ],
+        "realm": "Outer",
+        "trigram_numbers": [
+          6,
+          1
+        ]
+      },
+      "S2_earth": {
+        "earth_stem": "Geng",
+        "earth_stem_element": "Metal",
+        "god": "Bai Hu (White Tiger)",
+        "home_god": "Zhi Fu (Chief)",
+        "paths": [
+          "palaces.1.active_chart.stems.earth",
+          "palaces.1.active_chart.god"
+        ]
+      },
+      "S3_door": {
+        "door": "Xiu (Rest)",
+        "door_at_original_palace": true,
+        "door_element": "Water",
+        "door_strength": "Strengthening",
+        "forced": null,
+        "home_door": "Xiu (Rest)",
+        "paths": [
+          "palaces.1.active_chart.door",
+          "palaces.1.active_chart.energy_state.door"
+        ]
+      },
+      "S4_heaven": {
+        "center_guest_stem": null,
+        "heaven_stem": "Geng",
+        "heaven_stem_element": "Metal",
+        "home_star": "Tian Peng (Grass)",
+        "note": null,
+        "paths": [
+          "palaces.1.active_chart.stems.heaven",
+          "palaces.1.active_chart.star",
+          "palaces.1.active_chart.energy_state.star"
+        ],
+        "star_elements": [
+          "Water"
+        ],
+        "star_home_palaces": [
+          "1"
+        ],
+        "star_sitting_home": [
+          "Tian Peng (Grass)"
+        ],
+        "star_strength_by_palace": "Obsolete",
+        "star_strength_seasonal": "Strengthening",
+        "stars": [
+          "Tian Peng (Grass)"
+        ]
+      },
+      "S5_hidden": {
+        "hidden_stem": "Geng",
+        "hidden_stem_element": "Metal",
+        "paths": [
+          "palaces.1.active_chart.stems.hidden"
+        ]
+      },
+      "S6_markers": {
+        "afflictions": [],
+        "carries_duty_door": false,
+        "carries_duty_star": false,
+        "has_horse_star": false,
+        "hour_stem_focus": false,
+        "is_duty_palace": false,
+        "is_void": false,
+        "paths": []
+      },
+      "S7_lists": {
+        "birth_stage_stems": [
+          "Xin"
+        ],
+        "entombs_day_stem": false,
+        "entombs_hour_stem": false,
+        "harm_stems": [],
+        "paths": [
+          "palaces.1.palace_stem_rules"
+        ],
+        "punishment_stems": [],
+        "tomb_stems": []
+      }
+    },
+    "verdicts": [
+      {
+        "batch": "B3",
+        "claim_id": "V028-P1",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "1",
+            "path": "palaces.1.active_chart.energy_state",
+            "value": "Strengthening|Strengthening|Strengthening|Obsolete"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "1",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 1 reads differently from different angles (Strengthening|Strengthening|Strengthening|Obsolete). It looks one way and behaves another; do not trust a single strength reading here."
+      },
+      {
+        "batch": "B3",
+        "claim_id": "V029-P1",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "1",
+            "path": "palaces.1.active_chart.star",
+            "value": "['Tian Peng (Grass)']"
+          },
+          {
+            "palace_id": "1",
+            "path": "palaces.1.active_chart.door",
+            "value": "Xiu (Rest)"
+          },
+          {
+            "palace_id": "1",
+            "path": "chart_config.chart_pattern",
+            "value": "Fu Yin (All elements in home positions)"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "1",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 1 has its own star and its own door at home, with heaven, earth and hidden stems identical. Nothing here is in motion; the position repeats itself rather than developing."
+      }
+    ]
+  },
+  "2": {
+    "also_selected_in": [
+      "B2",
+      "B3"
+    ],
+    "analyses": [
+      {
+        "step": "S8",
+        "summary_en": "13 intra-palace relations computed."
+      },
+      {
+        "step": "S9",
+        "summary_en": "Reverse-index occurrences pulled."
+      }
+    ],
+    "batch": "B1",
+    "canonical_name": "Kun",
+    "index_pull": {
+      "same_door_elsewhere": [],
+      "same_god_elsewhere": [],
+      "same_heaven_stem_elsewhere": [],
+      "same_star_elsewhere": [],
+      "this_god_is_home_god_of": [
+        "6"
+      ],
+      "this_stem_entombed_at": [
+        "8"
+      ],
+      "this_stem_harmed_at": [
+        "7"
+      ],
+      "this_stem_in_birth_stage_at": [
+        "7"
+      ],
+      "this_stem_punished_at": [
+        "2"
+      ]
+    },
+    "palace_id": "2",
+    "phase": "P1_TO_P4_OPERATOR_ZOOM",
+    "relations": [
+      {
+        "a": "Ji",
+        "b": "Ji",
+        "evidence_paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "palaces.2.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Ji",
+        "b": "Ji",
+        "evidence_paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "palaces.2.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Ji",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "palaces.2.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Si (Death)",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.2.active_chart.door",
+          "palaces.2.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Rui (Grain)",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.2.active_chart.star",
+          "palaces.2.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Rui (Grain)",
+        "b": "Ji",
+        "evidence_paths": [
+          "palaces.2.active_chart.star",
+          "palaces.2.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Qin (Bird)",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.2.active_chart.star",
+          "palaces.2.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Qin (Bird)",
+        "b": "Ji",
+        "evidence_paths": [
+          "palaces.2.active_chart.star",
+          "palaces.2.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Ji",
+        "b": "Si (Death)",
+        "evidence_paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "palaces.2.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Ji",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Resting"
+      },
+      {
+        "a": "Ji",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "PRODUCED_BY"
+      },
+      {
+        "a": "Ji",
+        "b": "2",
+        "evidence_paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "palaces.2.palace_stem_rules.stems_in_clash_punishment"
+        ],
+        "kind": "self_punished",
+        "note_en": "",
+        "relation": "STEM_IN_OWN_PUNISHMENT_PALACE"
+      },
+      {
+        "a": "2",
+        "b": "Resting|Resting|Strengthening|Prosperous",
+        "evidence_paths": [
+          "palaces.2.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "roles": [
+      {
+        "evidence_paths": [
+          "timing.four_pillars.day"
+        ],
+        "palace_id": "2",
+        "rationale_en": "Selected by the day-stem origin set.",
+        "role": "day_stem_or_jia_set"
+      },
+      {
+        "evidence_paths": [
+          "timing.four_pillars.hour",
+          "chart_config.lead_stem"
+        ],
+        "palace_id": "2",
+        "rationale_en": "Selected by the hour-stem proxy set.",
+        "role": "hour_stem_or_focus"
+      },
+      {
+        "evidence_paths": [
+          "palaces.2.active_chart.status.is_void"
+        ],
+        "palace_id": "2",
+        "rationale_en": "Void palace.",
+        "role": "void_on_showpiece"
+      },
+      {
+        "evidence_paths": [
+          "palaces.2.active_chart.status.has_horse_star"
+        ],
+        "palace_id": "2",
+        "rationale_en": "Horse star present: movement/relocation.",
+        "role": "horse_plus_open"
+      },
+      {
+        "evidence_paths": [
+          "palaces.2.palace_stem_rules.stems_in_tomb"
+        ],
+        "palace_id": "2",
+        "rationale_en": "Entombs the hour stem.",
+        "role": "tomb_of_yongshen"
+      },
+      {
+        "evidence_paths": [
+          "palaces.2.active_chart.energy_state.realm"
+        ],
+        "palace_id": "2",
+        "rationale_en": "Realm as declared by the chart.",
+        "role": "inner"
+      },
+      {
+        "evidence_paths": [
+          "palaces.5.active_chart.note",
+          "palaces.2.active_chart.stems.center_guest"
+        ],
+        "palace_id": "2",
+        "rationale_en": "Hosts the displaced Centre.",
+        "role": "lodged_from_center"
+      }
+    ],
+    "stack": {
+      "S1_identity": {
+        "canonical_name": "Kun",
+        "direction": "Southwest",
+        "early_heaven_trigram": "Xun (5)",
+        "earthly_branches": [
+          "Wei (Goat)",
+          "Shen (Monkey)"
+        ],
+        "element": "Earth",
+        "hetu_numbers": [
+          5,
+          10
+        ],
+        "id": "2",
+        "name": "Kun",
+        "opposite_palace": "8",
+        "palace_strength": "Resting",
+        "paths": [
+          "palaces.2.name",
+          "palaces.2.direction",
+          "palaces.2.element",
+          "palaces.2.active_chart.energy_state.palace"
+        ],
+        "realm": "Inner",
+        "trigram_numbers": [
+          8,
+          2
+        ]
+      },
+      "S2_earth": {
+        "earth_stem": "Ji",
+        "earth_stem_element": "Earth",
+        "god": "Jiu Tian (Nine Heavens)",
+        "home_god": [
+          "Zhu Que (Vermilion Bird)",
+          "Xuan Wu (Black Tortoise)"
+        ],
+        "paths": [
+          "palaces.2.active_chart.stems.earth",
+          "palaces.2.active_chart.god"
+        ]
+      },
+      "S3_door": {
+        "door": "Si (Death)",
+        "door_at_original_palace": true,
+        "door_element": "Earth",
+        "door_strength": "Resting",
+        "forced": null,
+        "home_door": "Si (Death)",
+        "paths": [
+          "palaces.2.active_chart.door",
+          "palaces.2.active_chart.energy_state.door"
+        ]
+      },
+      "S4_heaven": {
+        "center_guest_stem": "Bing",
+        "heaven_stem": "Ji",
+        "heaven_stem_element": "Earth",
+        "home_star": "Tian Rui (Grain)",
+        "note": null,
+        "paths": [
+          "palaces.2.active_chart.stems.heaven",
+          "palaces.2.active_chart.star",
+          "palaces.2.active_chart.energy_state.star"
+        ],
+        "star_elements": [
+          "Earth",
+          "Earth"
+        ],
+        "star_home_palaces": [
+          "2",
+          "5"
+        ],
+        "star_sitting_home": [
+          "Tian Rui (Grain)"
+        ],
+        "star_strength_by_palace": "Prosperous",
+        "star_strength_seasonal": "Strengthening",
+        "stars": [
+          "Tian Rui (Grain)",
+          "Tian Qin (Bird)"
+        ]
+      },
+      "S5_hidden": {
+        "hidden_stem": "Ji",
+        "hidden_stem_element": "Earth",
+        "paths": [
+          "palaces.2.active_chart.stems.hidden"
+        ]
+      },
+      "S6_markers": {
+        "afflictions": [
+          "Clash Punishment (Ji Xing)",
+          "Self Punishment"
+        ],
+        "carries_duty_door": false,
+        "carries_duty_star": false,
+        "has_horse_star": true,
+        "hour_stem_focus": true,
+        "is_duty_palace": false,
+        "is_void": true,
+        "paths": [
+          "palaces.2.active_chart.status",
+          "palaces.2.active_chart.stems.afflictions"
+        ]
+      },
+      "S7_lists": {
+        "birth_stage_stems": [
+          "Ren"
+        ],
+        "entombs_day_stem": false,
+        "entombs_hour_stem": true,
+        "harm_stems": [
+          "Wu"
+        ],
+        "paths": [
+          "palaces.2.palace_stem_rules"
+        ],
+        "punishment_stems": [
+          "Ji"
+        ],
+        "tomb_stems": [
+          "Jia",
+          "Gui"
+        ]
+      }
+    },
+    "verdicts": [
+      {
+        "batch": "B1",
+        "claim_id": "V001-P2",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "2",
+            "path": "palaces.2.active_chart.status.is_void",
+            "value": "True"
+          },
+          {
+            "palace_id": "2",
+            "path": "timing.voidness",
+            "value": "['Wu (Horse)', 'Wei (Goat)', 'Chen (Dragon)', 'Si (Snake)']"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "palace_id": "2",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "WARN",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Palace 2 (Kun, Southwest) is void. Whatever is shown here does not land as displayed: it is announced but not received."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V002-P2",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "2",
+            "path": "palaces.2.active_chart.status.has_horse_star",
+            "value": "True"
+          },
+          {
+            "palace_id": "2",
+            "path": "timing.four_pillars.day",
+            "value": "Bing-Xu"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "palace_id": "2",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SEQUENCE",
+        "slot": "timing",
+        "status": "live",
+        "text_en": "Palace 2 carries the horse star: the matter here moves, travels or changes hands rather than staying put."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V003-P2",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "2",
+            "path": "palaces.2.active_chart.stems.afflictions",
+            "value": "Clash Punishment (Ji Xing)"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "palace_id": "2",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "VETO",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Palace 2 carries the affliction 'Clash Punishment (Ji Xing)'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V004-P2",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "2",
+            "path": "palaces.2.active_chart.stems.afflictions",
+            "value": "Self Punishment"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "palace_id": "2",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "VETO",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Palace 2 carries the affliction 'Self Punishment'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V005-P2",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "2",
+            "path": "palaces.2.palace_stem_rules.stems_in_tomb",
+            "value": "Jia"
+          },
+          {
+            "palace_id": "2",
+            "path": "timing.four_pillars.hour",
+            "value": "Jia-Wu"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "2",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "VETO",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Palace 2 is the tomb of the hour stem Jia. The matter in motion is already buried at this location."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V006-P2",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "2",
+            "path": "palaces.2.active_chart.energy_state",
+            "value": "Resting|Resting|Strengthening|Prosperous"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "2",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 2 reads differently from different angles (Resting|Resting|Strengthening|Prosperous). It looks one way and behaves another; do not trust a single strength reading here."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V007-P2",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "2",
+            "path": "palaces.2.active_chart.star",
+            "value": "['Tian Rui (Grain)', 'Tian Qin (Bird)']"
+          },
+          {
+            "palace_id": "2",
+            "path": "palaces.2.active_chart.door",
+            "value": "Si (Death)"
+          },
+          {
+            "palace_id": "2",
+            "path": "chart_config.chart_pattern",
+            "value": "Fu Yin (All elements in home positions)"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "2",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 2 has its own star and its own door at home, with heaven, earth and hidden stems identical. Nothing here is in motion; the position repeats itself rather than developing."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V008-P2",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "2",
+            "path": "palaces.2.active_chart.stems.center_guest",
+            "value": "Bing"
+          },
+          {
+            "palace_id": "2",
+            "path": "palaces.2.active_chart.status.is_void",
+            "value": "True"
+          },
+          {
+            "palace_id": "2",
+            "path": "palaces.2.active_chart.door",
+            "value": "Si (Death)"
+          },
+          {
+            "palace_id": "2",
+            "path": "palaces.2.active_chart.stems.afflictions",
+            "value": "['Clash Punishment (Ji Xing)', 'Self Punishment']"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "2",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "VETO",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Palace 2 hosts the displaced day stem Bing while being void, horse-struck, clash-punished and carrying the Death door. The actor's only landing place is the worst-conditioned palace on the board."
+      }
+    ]
+  },
+  "3": {
+    "also_selected_in": [],
+    "analyses": [
+      {
+        "step": "S8",
+        "summary_en": "12 intra-palace relations computed."
+      },
+      {
+        "step": "S9",
+        "summary_en": "Reverse-index occurrences pulled."
+      }
+    ],
+    "batch": "B5",
+    "canonical_name": "Zhen",
+    "index_pull": {
+      "same_door_elsewhere": [],
+      "same_god_elsewhere": [],
+      "same_heaven_stem_elsewhere": [],
+      "same_star_elsewhere": [],
+      "this_god_is_home_god_of": [
+        "3"
+      ],
+      "this_stem_entombed_at": [
+        "6"
+      ],
+      "this_stem_harmed_at": [
+        "2"
+      ],
+      "this_stem_in_birth_stage_at": [
+        "8"
+      ],
+      "this_stem_punished_at": [
+        "3"
+      ]
+    },
+    "palace_id": "3",
+    "phase": "P5_REMAINING",
+    "relations": [
+      {
+        "a": "Wu",
+        "b": "Wu",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "palaces.3.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Wu",
+        "b": "Wu",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "palaces.3.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Wu",
+        "b": "Wood",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "palaces.3.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Shang (Harm)",
+        "b": "Wood",
+        "evidence_paths": [
+          "palaces.3.active_chart.door",
+          "palaces.3.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Chong (Impulse)",
+        "b": "Wood",
+        "evidence_paths": [
+          "palaces.3.active_chart.star",
+          "palaces.3.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Chong (Impulse)",
+        "b": "Wu",
+        "evidence_paths": [
+          "palaces.3.active_chart.star",
+          "palaces.3.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "CONTROLS"
+      },
+      {
+        "a": "Wu",
+        "b": "Shang (Harm)",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "palaces.3.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Wu",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Resting"
+      },
+      {
+        "a": "Wu",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "PRODUCED_BY"
+      },
+      {
+        "a": "Wu",
+        "b": "Gui",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "palaces.7.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Wu pairs with Gui at palace ['7'].",
+        "relation": "COMBINES -> Fire"
+      },
+      {
+        "a": "Wu",
+        "b": "3",
+        "evidence_paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "palaces.3.palace_stem_rules.stems_in_clash_punishment"
+        ],
+        "kind": "self_punished",
+        "note_en": "",
+        "relation": "STEM_IN_OWN_PUNISHMENT_PALACE"
+      },
+      {
+        "a": "3",
+        "b": "Dead|Dead|Strengthening|Imprisoned",
+        "evidence_paths": [
+          "palaces.3.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "roles": [
+      {
+        "evidence_paths": [
+          "palaces.3.active_chart.energy_state.realm"
+        ],
+        "palace_id": "3",
+        "rationale_en": "Realm as declared by the chart.",
+        "role": "outer"
+      }
+    ],
+    "stack": {
+      "S1_identity": {
+        "canonical_name": "Zhen",
+        "direction": "East",
+        "early_heaven_trigram": "Li (3)",
+        "earthly_branches": [
+          "Mao (Rabbit)"
+        ],
+        "element": "Wood",
+        "hetu_numbers": [
+          3,
+          8
+        ],
+        "id": "3",
+        "name": "Zhen",
+        "opposite_palace": "7",
+        "palace_strength": "Dead",
+        "paths": [
+          "palaces.3.name",
+          "palaces.3.direction",
+          "palaces.3.element",
+          "palaces.3.active_chart.energy_state.palace"
+        ],
+        "realm": "Outer",
+        "trigram_numbers": [
+          4,
+          3
+        ]
+      },
+      "S2_earth": {
+        "earth_stem": "Wu",
+        "earth_stem_element": "Earth",
+        "god": "Tai Yin (Moon)",
+        "home_god": "Tai Yin (Moon)",
+        "paths": [
+          "palaces.3.active_chart.stems.earth",
+          "palaces.3.active_chart.god"
+        ]
+      },
+      "S3_door": {
+        "door": "Shang (Harm)",
+        "door_at_original_palace": true,
+        "door_element": "Wood",
+        "door_strength": "Dead",
+        "forced": null,
+        "home_door": "Shang (Harm)",
+        "paths": [
+          "palaces.3.active_chart.door",
+          "palaces.3.active_chart.energy_state.door"
+        ]
+      },
+      "S4_heaven": {
+        "center_guest_stem": null,
+        "heaven_stem": "Wu",
+        "heaven_stem_element": "Earth",
+        "home_star": "Tian Chong (Impulse)",
+        "note": null,
+        "paths": [
+          "palaces.3.active_chart.stems.heaven",
+          "palaces.3.active_chart.star",
+          "palaces.3.active_chart.energy_state.star"
+        ],
+        "star_elements": [
+          "Wood"
+        ],
+        "star_home_palaces": [
+          "3"
+        ],
+        "star_sitting_home": [
+          "Tian Chong (Impulse)"
+        ],
+        "star_strength_by_palace": "Imprisoned",
+        "star_strength_seasonal": "Strengthening",
+        "stars": [
+          "Tian Chong (Impulse)"
+        ]
+      },
+      "S5_hidden": {
+        "hidden_stem": "Wu",
+        "hidden_stem_element": "Earth",
+        "paths": [
+          "palaces.3.active_chart.stems.hidden"
+        ]
+      },
+      "S6_markers": {
+        "afflictions": [
+          "Six Instruments Clash Punishment (Liu Yi Ji Xing)"
+        ],
+        "carries_duty_door": false,
+        "carries_duty_star": false,
+        "has_horse_star": false,
+        "hour_stem_focus": false,
+        "is_duty_palace": false,
+        "is_void": false,
+        "paths": [
+          "palaces.3.active_chart.stems.afflictions"
+        ]
+      },
+      "S7_lists": {
+        "birth_stage_stems": [
+          "Gui"
+        ],
+        "entombs_day_stem": false,
+        "entombs_hour_stem": false,
+        "harm_stems": [
+          "Ren"
+        ],
+        "paths": [
+          "palaces.3.palace_stem_rules"
+        ],
+        "punishment_stems": [
+          "Wu"
+        ],
+        "tomb_stems": []
+      }
+    },
+    "verdicts": [
+      {
+        "batch": "B5",
+        "claim_id": "V036-P3",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "3",
+            "path": "palaces.3.active_chart.stems.afflictions",
+            "value": "Six Instruments Clash Punishment (Liu Yi Ji Xing)"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "palace_id": "3",
+        "phase": "P5_REMAINING",
+        "polarity": "VETO",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Palace 3 carries the affliction 'Six Instruments Clash Punishment (Liu Yi Ji Xing)'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+      },
+      {
+        "batch": "B5",
+        "claim_id": "V037-P3",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "3",
+            "path": "palaces.3.active_chart.energy_state.door",
+            "value": "Dead"
+          },
+          {
+            "palace_id": "3",
+            "path": "palaces.3.active_chart.door",
+            "value": "Shang (Harm)"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "3",
+        "phase": "P5_REMAINING",
+        "polarity": "VETO",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "The Shang (Harm) door at palace 3 is Dead. This method is available on paper but has no force behind it; using it costs effort and returns little."
+      },
+      {
+        "batch": "B5",
+        "claim_id": "V038-P3",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "3",
+            "path": "palaces.3.active_chart.energy_state",
+            "value": "Dead|Dead|Strengthening|Imprisoned"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "3",
+        "phase": "P5_REMAINING",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 3 reads differently from different angles (Dead|Dead|Strengthening|Imprisoned). It looks one way and behaves another; do not trust a single strength reading here."
+      },
+      {
+        "batch": "B5",
+        "claim_id": "V039-P3",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "3",
+            "path": "palaces.3.active_chart.star",
+            "value": "['Tian Chong (Impulse)']"
+          },
+          {
+            "palace_id": "3",
+            "path": "palaces.3.active_chart.door",
+            "value": "Shang (Harm)"
+          },
+          {
+            "palace_id": "3",
+            "path": "chart_config.chart_pattern",
+            "value": "Fu Yin (All elements in home positions)"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "3",
+        "phase": "P5_REMAINING",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 3 has its own star and its own door at home, with heaven, earth and hidden stems identical. Nothing here is in motion; the position repeats itself rather than developing."
+      }
+    ]
+  },
+  "4": {
+    "also_selected_in": [],
+    "analyses": [
+      {
+        "step": "S8",
+        "summary_en": "12 intra-palace relations computed."
+      },
+      {
+        "step": "S9",
+        "summary_en": "Reverse-index occurrences pulled."
+      }
+    ],
+    "batch": "B3",
+    "canonical_name": "Xun",
+    "index_pull": {
+      "same_door_elsewhere": [],
+      "same_god_elsewhere": [],
+      "same_heaven_stem_elsewhere": [],
+      "same_star_elsewhere": [],
+      "this_god_is_home_god_of": [
+        "8"
+      ],
+      "this_stem_entombed_at": [
+        "6"
+      ],
+      "this_stem_harmed_at": [],
+      "this_stem_in_birth_stage_at": [
+        "9"
+      ],
+      "this_stem_punished_at": []
+    },
+    "palace_id": "4",
+    "phase": "P1_TO_P4_OPERATOR_ZOOM",
+    "relations": [
+      {
+        "a": "Yi",
+        "b": "Yi",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "palaces.4.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Yi",
+        "b": "Yi",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "palaces.4.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Yi",
+        "b": "Wood",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "palaces.4.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Du (Restraint)",
+        "b": "Wood",
+        "evidence_paths": [
+          "palaces.4.active_chart.door",
+          "palaces.4.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Fu (Assistant)",
+        "b": "Wood",
+        "evidence_paths": [
+          "palaces.4.active_chart.star",
+          "palaces.4.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Fu (Assistant)",
+        "b": "Yi",
+        "evidence_paths": [
+          "palaces.4.active_chart.star",
+          "palaces.4.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Yi",
+        "b": "Du (Restraint)",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "palaces.4.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Yi",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Dead"
+      },
+      {
+        "a": "Yi",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "PRODUCES"
+      },
+      {
+        "a": "Yi",
+        "b": "Geng",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "palaces.1.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Yi pairs with Geng at palace ['1'].",
+        "relation": "COMBINES -> Metal"
+      },
+      {
+        "a": "Yi",
+        "b": "Xin",
+        "evidence_paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "palaces.9.active_chart.stems.heaven"
+        ],
+        "kind": "stem_clash_across_board",
+        "note_en": "Yi clashes Xin at palace ['9'].",
+        "relation": "CLASH"
+      },
+      {
+        "a": "4",
+        "b": "Dead|Dead|Strengthening|Imprisoned",
+        "evidence_paths": [
+          "palaces.4.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "roles": [
+      {
+        "evidence_paths": [
+          "palaces.4.active_chart.status.is_void"
+        ],
+        "palace_id": "4",
+        "rationale_en": "Void palace.",
+        "role": "void_on_showpiece"
+      },
+      {
+        "evidence_paths": [
+          "palaces.4.active_chart.energy_state.realm"
+        ],
+        "palace_id": "4",
+        "rationale_en": "Realm as declared by the chart.",
+        "role": "outer"
+      }
+    ],
+    "stack": {
+      "S1_identity": {
+        "canonical_name": "Xun",
+        "direction": "Southeast",
+        "early_heaven_trigram": "Dui (2)",
+        "earthly_branches": [
+          "Chen (Dragon)",
+          "Si (Snake)"
+        ],
+        "element": "Wood",
+        "hetu_numbers": [
+          3,
+          8
+        ],
+        "id": "4",
+        "name": "Xun",
+        "opposite_palace": "6",
+        "palace_strength": "Dead",
+        "paths": [
+          "palaces.4.name",
+          "palaces.4.direction",
+          "palaces.4.element",
+          "palaces.4.active_chart.energy_state.palace"
+        ],
+        "realm": "Outer",
+        "trigram_numbers": [
+          5,
+          4
+        ]
+      },
+      "S2_earth": {
+        "earth_stem": "Yi",
+        "earth_stem_element": "Wood",
+        "god": "Teng She (Serpent)",
+        "home_god": "Liu He (Six Harmony)",
+        "paths": [
+          "palaces.4.active_chart.stems.earth",
+          "palaces.4.active_chart.god"
+        ]
+      },
+      "S3_door": {
+        "door": "Du (Restraint)",
+        "door_at_original_palace": true,
+        "door_element": "Wood",
+        "door_strength": "Dead",
+        "forced": null,
+        "home_door": "Du (Restraint)",
+        "paths": [
+          "palaces.4.active_chart.door",
+          "palaces.4.active_chart.energy_state.door"
+        ]
+      },
+      "S4_heaven": {
+        "center_guest_stem": null,
+        "heaven_stem": "Yi",
+        "heaven_stem_element": "Wood",
+        "home_star": "Tian Fu (Assistant)",
+        "note": null,
+        "paths": [
+          "palaces.4.active_chart.stems.heaven",
+          "palaces.4.active_chart.star",
+          "palaces.4.active_chart.energy_state.star"
+        ],
+        "star_elements": [
+          "Wood"
+        ],
+        "star_home_palaces": [
+          "4"
+        ],
+        "star_sitting_home": [
+          "Tian Fu (Assistant)"
+        ],
+        "star_strength_by_palace": "Imprisoned",
+        "star_strength_seasonal": "Strengthening",
+        "stars": [
+          "Tian Fu (Assistant)"
+        ]
+      },
+      "S5_hidden": {
+        "hidden_stem": "Yi",
+        "hidden_stem_element": "Wood",
+        "paths": [
+          "palaces.4.active_chart.stems.hidden"
+        ]
+      },
+      "S6_markers": {
+        "afflictions": [],
+        "carries_duty_door": false,
+        "carries_duty_star": false,
+        "has_horse_star": false,
+        "hour_stem_focus": false,
+        "is_duty_palace": false,
+        "is_void": true,
+        "paths": [
+          "palaces.4.active_chart.status"
+        ]
+      },
+      "S7_lists": {
+        "birth_stage_stems": [
+          "Geng"
+        ],
+        "entombs_day_stem": false,
+        "entombs_hour_stem": false,
+        "harm_stems": [
+          "Gui"
+        ],
+        "paths": [
+          "palaces.4.palace_stem_rules"
+        ],
+        "punishment_stems": [
+          "Ren",
+          "Gui"
+        ],
+        "tomb_stems": [
+          "Xin",
+          "Ren"
+        ]
+      }
+    },
+    "verdicts": [
+      {
+        "batch": "B3",
+        "claim_id": "V030-P4",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "4",
+            "path": "palaces.4.active_chart.status.is_void",
+            "value": "True"
+          },
+          {
+            "palace_id": "4",
+            "path": "timing.voidness",
+            "value": "['Wu (Horse)', 'Wei (Goat)', 'Chen (Dragon)', 'Si (Snake)']"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "palace_id": "4",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "WARN",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Palace 4 (Xun, Southeast) is void. Whatever is shown here does not land as displayed: it is announced but not received."
+      },
+      {
+        "batch": "B3",
+        "claim_id": "V031-P4",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "4",
+            "path": "palaces.4.active_chart.energy_state.door",
+            "value": "Dead"
+          },
+          {
+            "palace_id": "4",
+            "path": "palaces.4.active_chart.door",
+            "value": "Du (Restraint)"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "4",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "VETO",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "The Du (Restraint) door at palace 4 is Dead. This method is available on paper but has no force behind it; using it costs effort and returns little."
+      },
+      {
+        "batch": "B3",
+        "claim_id": "V032-P4",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "4",
+            "path": "palaces.4.active_chart.stems.heaven",
+            "value": "Yi"
+          },
+          {
+            "palace_id": "4",
+            "path": "element_prosperities",
+            "value": "Dead"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "4",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SUPPORT",
+        "slot": "chart_best_solution_candidate",
+        "status": "live",
+        "text_en": "Palace 4 holds the San Qi stem Yi. Quality, reputation and visibility are concentrated here."
+      },
+      {
+        "batch": "B3",
+        "claim_id": "V033-P4",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "4",
+            "path": "palaces.4.active_chart.stems.heaven",
+            "value": "Yi"
+          },
+          {
+            "palace_id": "4",
+            "path": "element_prosperities",
+            "value": "Dead"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "4",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "The stem Yi (Wood) at palace 4 is Dead this season. The climate does not support it however good it looks on the board."
+      },
+      {
+        "batch": "B3",
+        "claim_id": "V034-P4",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "4",
+            "path": "palaces.4.active_chart.energy_state",
+            "value": "Dead|Dead|Strengthening|Imprisoned"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "4",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 4 reads differently from different angles (Dead|Dead|Strengthening|Imprisoned). It looks one way and behaves another; do not trust a single strength reading here."
+      },
+      {
+        "batch": "B3",
+        "claim_id": "V035-P4",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "4",
+            "path": "palaces.4.active_chart.star",
+            "value": "['Tian Fu (Assistant)']"
+          },
+          {
+            "palace_id": "4",
+            "path": "palaces.4.active_chart.door",
+            "value": "Du (Restraint)"
+          },
+          {
+            "palace_id": "4",
+            "path": "chart_config.chart_pattern",
+            "value": "Fu Yin (All elements in home positions)"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "4",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 4 has its own star and its own door at home, with heaven, earth and hidden stems identical. Nothing here is in motion; the position repeats itself rather than developing."
+      }
+    ]
+  },
+  "5": {
+    "also_selected_in": [],
+    "analyses": [
+      {
+        "step": "S8",
+        "summary_en": "8 intra-palace relations computed."
+      },
+      {
+        "step": "S9",
+        "summary_en": "Reverse-index occurrences pulled."
+      }
+    ],
+    "batch": "B1",
+    "canonical_name": "Center",
+    "index_pull": {
+      "same_god_elsewhere": [],
+      "same_heaven_stem_elsewhere": [],
+      "this_god_is_home_god_of": [],
+      "this_stem_entombed_at": [
+        "6"
+      ],
+      "this_stem_harmed_at": [],
+      "this_stem_in_birth_stage_at": [
+        "8"
+      ],
+      "this_stem_punished_at": []
+    },
+    "palace_id": "5",
+    "phase": "P1_TO_P4_OPERATOR_ZOOM",
+    "relations": [
+      {
+        "a": "Bing",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.5.active_chart.stems.heaven",
+          "palaces.5.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Bing",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.5.active_chart.stems.heaven",
+          "palaces.5.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Bing",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.5.active_chart.stems.heaven",
+          "palaces.5.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "PRODUCES"
+      },
+      {
+        "a": "Bing",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.5.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Imprisoned"
+      },
+      {
+        "a": "Bing",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.5.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Bing",
+        "b": "Xin",
+        "evidence_paths": [
+          "palaces.5.active_chart.stems.heaven",
+          "palaces.9.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Bing pairs with Xin at palace ['9'].",
+        "relation": "COMBINES -> Water"
+      },
+      {
+        "a": "Bing",
+        "b": "Ren",
+        "evidence_paths": [
+          "palaces.5.active_chart.stems.heaven",
+          "palaces.8.active_chart.stems.heaven"
+        ],
+        "kind": "stem_clash_across_board",
+        "note_en": "Bing clashes Ren at palace ['8'].",
+        "relation": "CLASH"
+      },
+      {
+        "a": "5",
+        "b": "Resting",
+        "evidence_paths": [
+          "palaces.5.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "",
+        "relation": "CONCORDANT"
+      }
+    ],
+    "roles": [
+      {
+        "evidence_paths": [
+          "timing.four_pillars.day"
+        ],
+        "palace_id": "5",
+        "rationale_en": "Selected by the day-stem origin set.",
+        "role": "day_stem_or_jia_set"
+      },
+      {
+        "evidence_paths": [],
+        "palace_id": "5",
+        "rationale_en": "Centre: no realm field; treated as inner pivot.",
+        "role": "outer"
+      },
+      {
+        "evidence_paths": [
+          "palaces.5.active_chart.note"
+        ],
+        "palace_id": "5",
+        "rationale_en": "Centre content is hosted by palace 2.",
+        "role": "lodged_from_center"
+      }
+    ],
+    "stack": {
+      "S1_identity": {
+        "canonical_name": "Center",
+        "direction": "Center",
+        "early_heaven_trigram": null,
+        "earthly_branches": [],
+        "element": "Earth",
+        "hetu_numbers": [
+          5,
+          10
+        ],
+        "id": "5",
+        "name": "Zhong",
+        "opposite_palace": null,
+        "palace_strength": "Resting",
+        "paths": [
+          "palaces.5.name",
+          "palaces.5.direction",
+          "palaces.5.element",
+          "palaces.5.active_chart.energy_state.palace"
+        ],
+        "realm": null,
+        "trigram_numbers": null
+      },
+      "S2_earth": {
+        "earth_stem": "Bing",
+        "earth_stem_element": "Fire",
+        "god": "Tai Chang (Grand Blessing)",
+        "home_god": null,
+        "paths": [
+          "palaces.5.active_chart.stems.earth",
+          "palaces.5.active_chart.god"
+        ]
+      },
+      "S3_door": {
+        "door": null,
+        "door_at_original_palace": false,
+        "door_element": null,
+        "door_strength": null,
+        "forced": null,
+        "home_door": null,
+        "paths": []
+      },
+      "S4_heaven": {
+        "center_guest_stem": null,
+        "heaven_stem": "Bing",
+        "heaven_stem_element": "Fire",
+        "home_star": "Tian Qin (Bird)",
+        "note": "Attached to Palace 2",
+        "paths": [
+          "palaces.5.active_chart.stems.heaven"
+        ],
+        "star_elements": [],
+        "star_home_palaces": [],
+        "star_sitting_home": [],
+        "star_strength_by_palace": null,
+        "star_strength_seasonal": null,
+        "stars": []
+      },
+      "S5_hidden": {
+        "hidden_stem": "Bing",
+        "hidden_stem_element": "Fire",
+        "paths": [
+          "palaces.5.active_chart.stems.hidden"
+        ]
+      },
+      "S6_markers": {
+        "afflictions": [],
+        "carries_duty_door": false,
+        "carries_duty_star": false,
+        "has_horse_star": false,
+        "hour_stem_focus": false,
+        "is_duty_palace": false,
+        "is_void": false,
+        "paths": []
+      },
+      "S7_lists": {
+        "birth_stage_stems": [],
+        "entombs_day_stem": false,
+        "entombs_hour_stem": false,
+        "harm_stems": [],
+        "paths": [],
+        "punishment_stems": [],
+        "tomb_stems": []
+      }
+    },
+    "verdicts": [
+      {
+        "batch": "B1",
+        "claim_id": "V009-P5",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "5",
+            "path": "palaces.5.active_chart.stems.heaven",
+            "value": "Bing"
+          },
+          {
+            "palace_id": "5",
+            "path": "element_prosperities",
+            "value": "Imprisoned"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "5",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SUPPORT",
+        "slot": "chart_best_solution_candidate",
+        "status": "live",
+        "text_en": "Palace 5 holds the San Qi stem Bing. Quality, reputation and visibility are concentrated here."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V010-P5",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "5",
+            "path": "palaces.5.active_chart.stems.heaven",
+            "value": "Bing"
+          },
+          {
+            "palace_id": "5",
+            "path": "element_prosperities",
+            "value": "Imprisoned"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "5",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "The stem Bing (Fire) at palace 5 is Imprisoned this season. The climate does not support it however good it looks on the board."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V011-P5",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "5",
+            "path": "palaces.5.active_chart.stems.heaven",
+            "value": "Bing"
+          },
+          {
+            "palace_id": "5",
+            "path": "palaces.5.active_chart.note",
+            "value": "Attached to Palace 2"
+          },
+          {
+            "palace_id": "2",
+            "path": "palaces.2.active_chart.stems.center_guest",
+            "value": "Bing"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "palace_id": "5",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "chart_answers_candidate",
+        "status": "live",
+        "text_en": "The day stem Bing sits in the Centre and is attached to palace 2. The actor is displaced: it has no directional position of its own and must operate through its host."
+      }
+    ]
+  },
+  "6": {
+    "also_selected_in": [],
+    "analyses": [
+      {
+        "step": "S8",
+        "summary_en": "12 intra-palace relations computed."
+      },
+      {
+        "step": "S9",
+        "summary_en": "Reverse-index occurrences pulled."
+      }
+    ],
+    "batch": "B1",
+    "canonical_name": "Qian",
+    "index_pull": {
+      "same_door_elsewhere": [],
+      "same_god_elsewhere": [],
+      "same_heaven_stem_elsewhere": [],
+      "same_star_elsewhere": [],
+      "this_god_is_home_god_of": [
+        "2"
+      ],
+      "this_stem_entombed_at": [
+        "8"
+      ],
+      "this_stem_harmed_at": [],
+      "this_stem_in_birth_stage_at": [
+        "7"
+      ],
+      "this_stem_punished_at": []
+    },
+    "palace_id": "6",
+    "phase": "P1_TO_P4_OPERATOR_ZOOM",
+    "relations": [
+      {
+        "a": "Ding",
+        "b": "Ding",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "palaces.6.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Ding",
+        "b": "Ding",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "palaces.6.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Ding",
+        "b": "Metal",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "palaces.6.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "CONTROLS"
+      },
+      {
+        "a": "Kai (Open)",
+        "b": "Metal",
+        "evidence_paths": [
+          "palaces.6.active_chart.door",
+          "palaces.6.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Xin (Heart)",
+        "b": "Metal",
+        "evidence_paths": [
+          "palaces.6.active_chart.star",
+          "palaces.6.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Xin (Heart)",
+        "b": "Ding",
+        "evidence_paths": [
+          "palaces.6.active_chart.star",
+          "palaces.6.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Ding",
+        "b": "Kai (Open)",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "palaces.6.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "CONTROLS"
+      },
+      {
+        "a": "Ding",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Imprisoned"
+      },
+      {
+        "a": "Ding",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Ding",
+        "b": "Ren",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "palaces.8.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Ding pairs with Ren at palace ['8'].",
+        "relation": "COMBINES -> Wood"
+      },
+      {
+        "a": "Ding",
+        "b": "Gui",
+        "evidence_paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "palaces.7.active_chart.stems.heaven"
+        ],
+        "kind": "stem_clash_across_board",
+        "note_en": "Ding clashes Gui at palace ['7'].",
+        "relation": "CLASH"
+      },
+      {
+        "a": "6",
+        "b": "Prosperous|Prosperous|Strengthening|Strengthening",
+        "evidence_paths": [
+          "palaces.6.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "roles": [
+      {
+        "evidence_paths": [
+          "timing.four_pillars.day"
+        ],
+        "palace_id": "6",
+        "rationale_en": "Selected by the day-stem origin set.",
+        "role": "day_stem_or_jia_set"
+      },
+      {
+        "evidence_paths": [
+          "palaces.6.palace_stem_rules.stems_in_tomb"
+        ],
+        "palace_id": "6",
+        "rationale_en": "Entombs the day stem.",
+        "role": "tomb_of_yongshen"
+      },
+      {
+        "evidence_paths": [
+          "palaces.6.active_chart.energy_state.realm"
+        ],
+        "palace_id": "6",
+        "rationale_en": "Realm as declared by the chart.",
+        "role": "inner"
+      },
+      {
+        "evidence_paths": [
+          "timing.four_pillars.day"
+        ],
+        "palace_id": "6",
+        "rationale_en": "Pillar branch(es) ['day'] land here.",
+        "role": "stacked_branch"
+      }
+    ],
+    "stack": {
+      "S1_identity": {
+        "canonical_name": "Qian",
+        "direction": "Northwest",
+        "early_heaven_trigram": "Gen (7)",
+        "earthly_branches": [
+          "Xu (Dog)",
+          "Hai (Pig)"
+        ],
+        "element": "Metal",
+        "hetu_numbers": [
+          4,
+          9
+        ],
+        "id": "6",
+        "name": "Qian",
+        "opposite_palace": "4",
+        "palace_strength": "Prosperous",
+        "paths": [
+          "palaces.6.name",
+          "palaces.6.direction",
+          "palaces.6.element",
+          "palaces.6.active_chart.energy_state.palace"
+        ],
+        "realm": "Inner",
+        "trigram_numbers": [
+          1,
+          6
+        ]
+      },
+      "S2_earth": {
+        "earth_stem": "Ding",
+        "earth_stem_element": "Fire",
+        "god": "Xuan Wu (Black Tortoise)",
+        "home_god": "Jiu Tian (Nine Heavens)",
+        "paths": [
+          "palaces.6.active_chart.stems.earth",
+          "palaces.6.active_chart.god"
+        ]
+      },
+      "S3_door": {
+        "door": "Kai (Open)",
+        "door_at_original_palace": true,
+        "door_element": "Metal",
+        "door_strength": "Prosperous",
+        "forced": null,
+        "home_door": "Kai (Open)",
+        "paths": [
+          "palaces.6.active_chart.door",
+          "palaces.6.active_chart.energy_state.door"
+        ]
+      },
+      "S4_heaven": {
+        "center_guest_stem": null,
+        "heaven_stem": "Ding",
+        "heaven_stem_element": "Fire",
+        "home_star": "Tian Xin (Heart)",
+        "note": null,
+        "paths": [
+          "palaces.6.active_chart.stems.heaven",
+          "palaces.6.active_chart.star",
+          "palaces.6.active_chart.energy_state.star"
+        ],
+        "star_elements": [
+          "Metal"
+        ],
+        "star_home_palaces": [
+          "6"
+        ],
+        "star_sitting_home": [
+          "Tian Xin (Heart)"
+        ],
+        "star_strength_by_palace": "Strengthening",
+        "star_strength_seasonal": "Strengthening",
+        "stars": [
+          "Tian Xin (Heart)"
+        ]
+      },
+      "S5_hidden": {
+        "hidden_stem": "Ding",
+        "hidden_stem_element": "Fire",
+        "paths": [
+          "palaces.6.active_chart.stems.hidden"
+        ]
+      },
+      "S6_markers": {
+        "afflictions": [],
+        "carries_duty_door": false,
+        "carries_duty_star": false,
+        "has_horse_star": false,
+        "hour_stem_focus": false,
+        "is_duty_palace": false,
+        "is_void": false,
+        "paths": []
+      },
+      "S7_lists": {
+        "birth_stage_stems": [],
+        "entombs_day_stem": true,
+        "entombs_hour_stem": false,
+        "harm_stems": [
+          "Geng"
+        ],
+        "paths": [
+          "palaces.6.palace_stem_rules"
+        ],
+        "punishment_stems": [],
+        "tomb_stems": [
+          "Yi",
+          "Bing",
+          "Wu"
+        ]
+      }
+    },
+    "verdicts": [
+      {
+        "batch": "B1",
+        "claim_id": "V012-P6",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "6",
+            "path": "palaces.6.active_chart.energy_state.door",
+            "value": "Prosperous"
+          },
+          {
+            "palace_id": "6",
+            "path": "palaces.6.active_chart.door",
+            "value": "Kai (Open)"
+          },
+          {
+            "palace_id": "6",
+            "path": "element_prosperities",
+            "value": "Prosperous"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "6",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SUPPORT",
+        "slot": "chart_best_solution_candidate",
+        "status": "live",
+        "text_en": "The Kai (Open) door at palace 6 is Prosperous. This is a method the season actually supports."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V013-P6",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "6",
+            "path": "palaces.6.active_chart.stems.heaven",
+            "value": "Ding"
+          },
+          {
+            "palace_id": "6",
+            "path": "element_prosperities",
+            "value": "Imprisoned"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "6",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SUPPORT",
+        "slot": "chart_best_solution_candidate",
+        "status": "live",
+        "text_en": "Palace 6 holds the San Qi stem Ding. Quality, reputation and visibility are concentrated here."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V014-P6",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "6",
+            "path": "palaces.6.active_chart.stems.heaven",
+            "value": "Ding"
+          },
+          {
+            "palace_id": "6",
+            "path": "element_prosperities",
+            "value": "Imprisoned"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "6",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "The stem Ding (Fire) at palace 6 is Imprisoned this season. The climate does not support it however good it looks on the board."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V015-P6",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "6",
+            "path": "palaces.6.palace_stem_rules.stems_in_tomb",
+            "value": "Bing"
+          },
+          {
+            "palace_id": "6",
+            "path": "timing.four_pillars.day",
+            "value": "Bing-Xu"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "6",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "VETO",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Palace 6 is the tomb of the day stem Bing. Committing the self here buries it: effort goes in and does not come back out."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V016-P6",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "6",
+            "path": "palaces.6.active_chart.energy_state",
+            "value": "Prosperous|Prosperous|Strengthening|Strengthening"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "6",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 6 reads differently from different angles (Prosperous|Prosperous|Strengthening|Strengthening). It looks one way and behaves another; do not trust a single strength reading here."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V017-P6",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "6",
+            "path": "palaces.6.active_chart.star",
+            "value": "['Tian Xin (Heart)']"
+          },
+          {
+            "palace_id": "6",
+            "path": "palaces.6.active_chart.door",
+            "value": "Kai (Open)"
+          },
+          {
+            "palace_id": "6",
+            "path": "chart_config.chart_pattern",
+            "value": "Fu Yin (All elements in home positions)"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "6",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 6 has its own star and its own door at home, with heaven, earth and hidden stems identical. Nothing here is in motion; the position repeats itself rather than developing."
+      }
+    ]
+  },
+  "7": {
+    "also_selected_in": [],
+    "analyses": [
+      {
+        "step": "S8",
+        "summary_en": "12 intra-palace relations computed."
+      },
+      {
+        "step": "S9",
+        "summary_en": "Reverse-index occurrences pulled."
+      }
+    ],
+    "batch": "B5",
+    "canonical_name": "Dui",
+    "index_pull": {
+      "same_door_elsewhere": [],
+      "same_god_elsewhere": [],
+      "same_heaven_stem_elsewhere": [],
+      "same_star_elsewhere": [],
+      "this_god_is_home_god_of": [
+        "7"
+      ],
+      "this_stem_entombed_at": [
+        "2"
+      ],
+      "this_stem_harmed_at": [
+        "4"
+      ],
+      "this_stem_in_birth_stage_at": [
+        "3"
+      ],
+      "this_stem_punished_at": [
+        "4"
+      ]
+    },
+    "palace_id": "7",
+    "phase": "P5_REMAINING",
+    "relations": [
+      {
+        "a": "Gui",
+        "b": "Gui",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "palaces.7.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Gui",
+        "b": "Gui",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "palaces.7.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Gui",
+        "b": "Metal",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "palaces.7.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "PRODUCED_BY"
+      },
+      {
+        "a": "Jing (Fear)",
+        "b": "Metal",
+        "evidence_paths": [
+          "palaces.7.active_chart.door",
+          "palaces.7.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Zhu (Pillar)",
+        "b": "Metal",
+        "evidence_paths": [
+          "palaces.7.active_chart.star",
+          "palaces.7.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Zhu (Pillar)",
+        "b": "Gui",
+        "evidence_paths": [
+          "palaces.7.active_chart.star",
+          "palaces.7.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "PRODUCES"
+      },
+      {
+        "a": "Gui",
+        "b": "Jing (Fear)",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "palaces.7.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "PRODUCED_BY"
+      },
+      {
+        "a": "Gui",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Strengthening"
+      },
+      {
+        "a": "Gui",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "CONTROLS"
+      },
+      {
+        "a": "Gui",
+        "b": "Wu",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "palaces.3.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Gui pairs with Wu at palace ['3'].",
+        "relation": "COMBINES -> Fire"
+      },
+      {
+        "a": "Gui",
+        "b": "Ding",
+        "evidence_paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "palaces.6.active_chart.stems.heaven"
+        ],
+        "kind": "stem_clash_across_board",
+        "note_en": "Gui clashes Ding at palace ['6'].",
+        "relation": "CLASH"
+      },
+      {
+        "a": "7",
+        "b": "Prosperous|Prosperous|Strengthening|Strengthening",
+        "evidence_paths": [
+          "palaces.7.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "roles": [
+      {
+        "evidence_paths": [
+          "palaces.7.active_chart.energy_state.realm"
+        ],
+        "palace_id": "7",
+        "rationale_en": "Realm as declared by the chart.",
+        "role": "inner"
+      },
+      {
+        "evidence_paths": [
+          "timing.four_pillars.month"
+        ],
+        "palace_id": "7",
+        "rationale_en": "Pillar branch(es) ['month'] land here.",
+        "role": "stacked_branch"
+      }
+    ],
+    "stack": {
+      "S1_identity": {
+        "canonical_name": "Dui",
+        "direction": "West",
+        "early_heaven_trigram": "Kan (6)",
+        "earthly_branches": [
+          "You (Rooster)"
+        ],
+        "element": "Metal",
+        "hetu_numbers": [
+          4,
+          9
+        ],
+        "id": "7",
+        "name": "Dui",
+        "opposite_palace": "3",
+        "palace_strength": "Prosperous",
+        "paths": [
+          "palaces.7.name",
+          "palaces.7.direction",
+          "palaces.7.element",
+          "palaces.7.active_chart.energy_state.palace"
+        ],
+        "realm": "Inner",
+        "trigram_numbers": [
+          2,
+          7
+        ]
+      },
+      "S2_earth": {
+        "earth_stem": "Gui",
+        "earth_stem_element": "Water",
+        "god": "Jiu Di (Nine Earths)",
+        "home_god": "Jiu Di (Nine Earths)",
+        "paths": [
+          "palaces.7.active_chart.stems.earth",
+          "palaces.7.active_chart.god"
+        ]
+      },
+      "S3_door": {
+        "door": "Jing (Fear)",
+        "door_at_original_palace": true,
+        "door_element": "Metal",
+        "door_strength": "Prosperous",
+        "forced": null,
+        "home_door": "Jing (Fear)",
+        "paths": [
+          "palaces.7.active_chart.door",
+          "palaces.7.active_chart.energy_state.door"
+        ]
+      },
+      "S4_heaven": {
+        "center_guest_stem": null,
+        "heaven_stem": "Gui",
+        "heaven_stem_element": "Water",
+        "home_star": "Tian Zhu (Pillar)",
+        "note": null,
+        "paths": [
+          "palaces.7.active_chart.stems.heaven",
+          "palaces.7.active_chart.star",
+          "palaces.7.active_chart.energy_state.star"
+        ],
+        "star_elements": [
+          "Metal"
+        ],
+        "star_home_palaces": [
+          "7"
+        ],
+        "star_sitting_home": [
+          "Tian Zhu (Pillar)"
+        ],
+        "star_strength_by_palace": "Strengthening",
+        "star_strength_seasonal": "Strengthening",
+        "stars": [
+          "Tian Zhu (Pillar)"
+        ]
+      },
+      "S5_hidden": {
+        "hidden_stem": "Gui",
+        "hidden_stem_element": "Water",
+        "paths": [
+          "palaces.7.active_chart.stems.hidden"
+        ]
+      },
+      "S6_markers": {
+        "afflictions": [
+          "Heavenly Net Spread"
+        ],
+        "carries_duty_door": false,
+        "carries_duty_star": false,
+        "has_horse_star": false,
+        "hour_stem_focus": false,
+        "is_duty_palace": false,
+        "is_void": false,
+        "paths": [
+          "palaces.7.active_chart.stems.afflictions"
+        ]
+      },
+      "S7_lists": {
+        "birth_stage_stems": [
+          "Ding",
+          "Ji"
+        ],
+        "entombs_day_stem": false,
+        "entombs_hour_stem": false,
+        "harm_stems": [
+          "Ji"
+        ],
+        "paths": [
+          "palaces.7.palace_stem_rules"
+        ],
+        "punishment_stems": [],
+        "tomb_stems": []
+      }
+    },
+    "verdicts": [
+      {
+        "batch": "B5",
+        "claim_id": "V040-P7",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "7",
+            "path": "palaces.7.active_chart.stems.afflictions",
+            "value": "Heavenly Net Spread"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "palace_id": "7",
+        "phase": "P5_REMAINING",
+        "polarity": "WARN",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Palace 7 carries the affliction 'Heavenly Net Spread'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+      },
+      {
+        "batch": "B5",
+        "claim_id": "V041-P7",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "7",
+            "path": "palaces.7.active_chart.energy_state.door",
+            "value": "Prosperous"
+          },
+          {
+            "palace_id": "7",
+            "path": "palaces.7.active_chart.door",
+            "value": "Jing (Fear)"
+          },
+          {
+            "palace_id": "7",
+            "path": "element_prosperities",
+            "value": "Prosperous"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "7",
+        "phase": "P5_REMAINING",
+        "polarity": "SUPPORT",
+        "slot": "chart_best_solution_candidate",
+        "status": "live",
+        "text_en": "The Jing (Fear) door at palace 7 is Prosperous. This is a method the season actually supports."
+      },
+      {
+        "batch": "B5",
+        "claim_id": "V042-P7",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "7",
+            "path": "palaces.7.active_chart.energy_state",
+            "value": "Prosperous|Prosperous|Strengthening|Strengthening"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "7",
+        "phase": "P5_REMAINING",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 7 reads differently from different angles (Prosperous|Prosperous|Strengthening|Strengthening). It looks one way and behaves another; do not trust a single strength reading here."
+      },
+      {
+        "batch": "B5",
+        "claim_id": "V043-P7",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "7",
+            "path": "palaces.7.active_chart.star",
+            "value": "['Tian Zhu (Pillar)']"
+          },
+          {
+            "palace_id": "7",
+            "path": "palaces.7.active_chart.door",
+            "value": "Jing (Fear)"
+          },
+          {
+            "palace_id": "7",
+            "path": "chart_config.chart_pattern",
+            "value": "Fu Yin (All elements in home positions)"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "7",
+        "phase": "P5_REMAINING",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 7 has its own star and its own door at home, with heaven, earth and hidden stems identical. Nothing here is in motion; the position repeats itself rather than developing."
+      }
+    ]
+  },
+  "8": {
+    "also_selected_in": [
+      "B3",
+      "B4"
+    ],
+    "analyses": [
+      {
+        "step": "S8",
+        "summary_en": "12 intra-palace relations computed."
+      },
+      {
+        "step": "S9",
+        "summary_en": "Reverse-index occurrences pulled."
+      }
+    ],
+    "batch": "B1",
+    "canonical_name": "Gen",
+    "index_pull": {
+      "same_door_elsewhere": [],
+      "same_god_elsewhere": [],
+      "same_heaven_stem_elsewhere": [],
+      "same_star_elsewhere": [],
+      "this_god_is_home_god_of": [
+        "4"
+      ],
+      "this_stem_entombed_at": [
+        "4"
+      ],
+      "this_stem_harmed_at": [
+        "3"
+      ],
+      "this_stem_in_birth_stage_at": [
+        "2"
+      ],
+      "this_stem_punished_at": [
+        "4"
+      ]
+    },
+    "palace_id": "8",
+    "phase": "P1_TO_P4_OPERATOR_ZOOM",
+    "relations": [
+      {
+        "a": "Ren",
+        "b": "Ren",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "palaces.8.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Ren",
+        "b": "Ren",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "palaces.8.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Ren",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "palaces.8.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Sheng (Life)",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.8.active_chart.door",
+          "palaces.8.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Ren (Ambassador)",
+        "b": "Earth",
+        "evidence_paths": [
+          "palaces.8.active_chart.star",
+          "palaces.8.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Ren (Ambassador)",
+        "b": "Ren",
+        "evidence_paths": [
+          "palaces.8.active_chart.star",
+          "palaces.8.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "CONTROLS"
+      },
+      {
+        "a": "Ren",
+        "b": "Sheng (Life)",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "palaces.8.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Ren",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Strengthening"
+      },
+      {
+        "a": "Ren",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "CONTROLS"
+      },
+      {
+        "a": "Ren",
+        "b": "Ding",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "palaces.6.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Ren pairs with Ding at palace ['6'].",
+        "relation": "COMBINES -> Wood"
+      },
+      {
+        "a": "Ren",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "palaces.5.active_chart.stems.heaven"
+        ],
+        "kind": "stem_clash_across_board",
+        "note_en": "Ren clashes Bing at palace ['5'].",
+        "relation": "CLASH"
+      },
+      {
+        "a": "8",
+        "b": "Resting|Resting|Strengthening|Prosperous",
+        "evidence_paths": [
+          "palaces.8.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "roles": [
+      {
+        "evidence_paths": [
+          "timing.four_pillars.day"
+        ],
+        "palace_id": "8",
+        "rationale_en": "Selected by the day-stem origin set.",
+        "role": "day_stem_or_jia_set"
+      },
+      {
+        "evidence_paths": [
+          "palaces.8.active_chart.energy_state.realm"
+        ],
+        "palace_id": "8",
+        "rationale_en": "Realm as declared by the chart.",
+        "role": "outer"
+      }
+    ],
+    "stack": {
+      "S1_identity": {
+        "canonical_name": "Gen",
+        "direction": "Northeast",
+        "early_heaven_trigram": "Zhen (4)",
+        "earthly_branches": [
+          "Chou (Ox)",
+          "Yin (Tiger)"
+        ],
+        "element": "Earth",
+        "hetu_numbers": [
+          5,
+          10
+        ],
+        "id": "8",
+        "name": "Gen",
+        "opposite_palace": "2",
+        "palace_strength": "Resting",
+        "paths": [
+          "palaces.8.name",
+          "palaces.8.direction",
+          "palaces.8.element",
+          "palaces.8.active_chart.energy_state.palace"
+        ],
+        "realm": "Outer",
+        "trigram_numbers": [
+          7,
+          8
+        ]
+      },
+      "S2_earth": {
+        "earth_stem": "Ren",
+        "earth_stem_element": "Water",
+        "god": "Liu He (Six Harmony)",
+        "home_god": "Teng She (Serpent)",
+        "paths": [
+          "palaces.8.active_chart.stems.earth",
+          "palaces.8.active_chart.god"
+        ]
+      },
+      "S3_door": {
+        "door": "Sheng (Life)",
+        "door_at_original_palace": true,
+        "door_element": "Earth",
+        "door_strength": "Resting",
+        "forced": null,
+        "home_door": "Sheng (Life)",
+        "paths": [
+          "palaces.8.active_chart.door",
+          "palaces.8.active_chart.energy_state.door"
+        ]
+      },
+      "S4_heaven": {
+        "center_guest_stem": null,
+        "heaven_stem": "Ren",
+        "heaven_stem_element": "Water",
+        "home_star": "Tian Ren (Ambassador)",
+        "note": null,
+        "paths": [
+          "palaces.8.active_chart.stems.heaven",
+          "palaces.8.active_chart.star",
+          "palaces.8.active_chart.energy_state.star"
+        ],
+        "star_elements": [
+          "Earth"
+        ],
+        "star_home_palaces": [
+          "8"
+        ],
+        "star_sitting_home": [
+          "Tian Ren (Ambassador)"
+        ],
+        "star_strength_by_palace": "Prosperous",
+        "star_strength_seasonal": "Strengthening",
+        "stars": [
+          "Tian Ren (Ambassador)"
+        ]
+      },
+      "S5_hidden": {
+        "hidden_stem": "Ren",
+        "hidden_stem_element": "Water",
+        "paths": [
+          "palaces.8.active_chart.stems.hidden"
+        ]
+      },
+      "S6_markers": {
+        "afflictions": [],
+        "carries_duty_door": false,
+        "carries_duty_star": false,
+        "has_horse_star": false,
+        "hour_stem_focus": false,
+        "is_duty_palace": false,
+        "is_void": false,
+        "paths": []
+      },
+      "S7_lists": {
+        "birth_stage_stems": [
+          "Bing",
+          "Wu"
+        ],
+        "entombs_day_stem": false,
+        "entombs_hour_stem": false,
+        "harm_stems": [
+          "Xin"
+        ],
+        "paths": [
+          "palaces.8.palace_stem_rules"
+        ],
+        "punishment_stems": [
+          "Geng"
+        ],
+        "tomb_stems": [
+          "Ding",
+          "Ji",
+          "Geng"
+        ]
+      }
+    },
+    "verdicts": [
+      {
+        "batch": "B1",
+        "claim_id": "V018-P8",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "8",
+            "path": "palaces.8.active_chart.energy_state",
+            "value": "Resting|Resting|Strengthening|Prosperous"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "8",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 8 reads differently from different angles (Resting|Resting|Strengthening|Prosperous). It looks one way and behaves another; do not trust a single strength reading here."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V019-P8",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "8",
+            "path": "palaces.8.active_chart.star",
+            "value": "['Tian Ren (Ambassador)']"
+          },
+          {
+            "palace_id": "8",
+            "path": "palaces.8.active_chart.door",
+            "value": "Sheng (Life)"
+          },
+          {
+            "palace_id": "8",
+            "path": "chart_config.chart_pattern",
+            "value": "Fu Yin (All elements in home positions)"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "8",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 8 has its own star and its own door at home, with heaven, earth and hidden stems identical. Nothing here is in motion; the position repeats itself rather than developing."
+      }
+    ]
+  },
+  "9": {
+    "also_selected_in": [
+      "B2"
+    ],
+    "analyses": [
+      {
+        "step": "S8",
+        "summary_en": "13 intra-palace relations computed."
+      },
+      {
+        "step": "S9",
+        "summary_en": "Reverse-index occurrences pulled."
+      }
+    ],
+    "batch": "B1",
+    "canonical_name": "Li",
+    "index_pull": {
+      "same_door_elsewhere": [],
+      "same_god_elsewhere": [],
+      "same_heaven_stem_elsewhere": [],
+      "same_star_elsewhere": [],
+      "this_god_is_home_god_of": [
+        "1"
+      ],
+      "this_stem_entombed_at": [
+        "4"
+      ],
+      "this_stem_harmed_at": [
+        "8"
+      ],
+      "this_stem_in_birth_stage_at": [
+        "1"
+      ],
+      "this_stem_punished_at": [
+        "9"
+      ]
+    },
+    "palace_id": "9",
+    "phase": "P1_TO_P4_OPERATOR_ZOOM",
+    "relations": [
+      {
+        "a": "Xin",
+        "b": "Xin",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.9.active_chart.stems.earth"
+        ],
+        "kind": "heaven_earth_stem_pair",
+        "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Xin",
+        "b": "Xin",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.9.active_chart.stems.hidden"
+        ],
+        "kind": "heaven_hidden_stem_pair",
+        "note_en": "",
+        "relation": "IDENTICAL (Fu Yin)"
+      },
+      {
+        "a": "Xin",
+        "b": "Fire",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.9.element"
+        ],
+        "kind": "stem_vs_palace",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Jing (Scenery)",
+        "b": "Fire",
+        "evidence_paths": [
+          "palaces.9.active_chart.door",
+          "palaces.9.element"
+        ],
+        "kind": "door_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Ying (Hero)",
+        "b": "Fire",
+        "evidence_paths": [
+          "palaces.9.active_chart.star",
+          "palaces.9.element"
+        ],
+        "kind": "star_vs_palace",
+        "note_en": "",
+        "relation": "SAME"
+      },
+      {
+        "a": "Tian Ying (Hero)",
+        "b": "Xin",
+        "evidence_paths": [
+          "palaces.9.active_chart.star",
+          "palaces.9.active_chart.stems.heaven"
+        ],
+        "kind": "star_vs_heaven_stem",
+        "note_en": "",
+        "relation": "CONTROLS"
+      },
+      {
+        "a": "Xin",
+        "b": "Jing (Scenery)",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.9.active_chart.door"
+        ],
+        "kind": "stem_vs_door",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Xin",
+        "b": "seasonal_element_strengths",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "element_prosperities"
+        ],
+        "kind": "stem_vs_season",
+        "note_en": "",
+        "relation": "Prosperous"
+      },
+      {
+        "a": "Xin",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "timing.four_pillars.day"
+        ],
+        "kind": "stem_vs_day_stem",
+        "note_en": "",
+        "relation": "CONTROLLED_BY"
+      },
+      {
+        "a": "Xin",
+        "b": "Bing",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.5.active_chart.stems.heaven"
+        ],
+        "kind": "stem_combination_across_board",
+        "note_en": "Xin pairs with Bing at palace ['5'].",
+        "relation": "COMBINES -> Water"
+      },
+      {
+        "a": "Xin",
+        "b": "Yi",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.4.active_chart.stems.heaven"
+        ],
+        "kind": "stem_clash_across_board",
+        "note_en": "Xin clashes Yi at palace ['4'].",
+        "relation": "CLASH"
+      },
+      {
+        "a": "Xin",
+        "b": "9",
+        "evidence_paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.9.palace_stem_rules.stems_in_clash_punishment"
+        ],
+        "kind": "self_punished",
+        "note_en": "",
+        "relation": "STEM_IN_OWN_PUNISHMENT_PALACE"
+      },
+      {
+        "a": "9",
+        "b": "Imprisoned|Imprisoned|Strengthening|Resting",
+        "evidence_paths": [
+          "palaces.9.active_chart.energy_state"
+        ],
+        "kind": "strength_concordance",
+        "note_en": "Split strength: the palace does not read the same from every angle.",
+        "relation": "SPLIT"
+      }
+    ],
+    "roles": [
+      {
+        "evidence_paths": [
+          "timing.four_pillars.day"
+        ],
+        "palace_id": "9",
+        "rationale_en": "Selected by the day-stem origin set.",
+        "role": "day_stem_or_jia_set"
+      },
+      {
+        "evidence_paths": [
+          "timing.four_pillars.hour",
+          "chart_config.lead_stem"
+        ],
+        "palace_id": "9",
+        "rationale_en": "Selected by the hour-stem proxy set.",
+        "role": "hour_stem_or_focus"
+      },
+      {
+        "evidence_paths": [
+          "chart_config.duty_star"
+        ],
+        "palace_id": "9",
+        "rationale_en": "Carries the duty star, the authority of the matter.",
+        "role": "duty_star"
+      },
+      {
+        "evidence_paths": [
+          "chart_config.duty_door"
+        ],
+        "palace_id": "9",
+        "rationale_en": "Carries the duty door.",
+        "role": "duty_door"
+      },
+      {
+        "evidence_paths": [
+          "palaces.9.active_chart.status.is_void"
+        ],
+        "palace_id": "9",
+        "rationale_en": "Void palace.",
+        "role": "void_on_showpiece"
+      },
+      {
+        "evidence_paths": [
+          "palaces.9.active_chart.energy_state.realm"
+        ],
+        "palace_id": "9",
+        "rationale_en": "Realm as declared by the chart.",
+        "role": "inner"
+      },
+      {
+        "evidence_paths": [
+          "timing.four_pillars.year",
+          "timing.four_pillars.hour"
+        ],
+        "palace_id": "9",
+        "rationale_en": "Pillar branch(es) ['year', 'hour'] land here.",
+        "role": "stacked_branch"
+      },
+      {
+        "evidence_paths": [
+          "chart_config.lead_stem"
+        ],
+        "palace_id": "9",
+        "rationale_en": "Visible stand-in for the invisible Jia decade.",
+        "role": "lead_stem_proxy"
+      }
+    ],
+    "stack": {
+      "S1_identity": {
+        "canonical_name": "Li",
+        "direction": "South",
+        "early_heaven_trigram": "Qian (1)",
+        "earthly_branches": [
+          "Wu (Horse)"
+        ],
+        "element": "Fire",
+        "hetu_numbers": [
+          2,
+          7
+        ],
+        "id": "9",
+        "name": "Li",
+        "opposite_palace": "1",
+        "palace_strength": "Imprisoned",
+        "paths": [
+          "palaces.9.name",
+          "palaces.9.direction",
+          "palaces.9.element",
+          "palaces.9.active_chart.energy_state.palace"
+        ],
+        "realm": "Inner",
+        "trigram_numbers": [
+          3,
+          9
+        ]
+      },
+      "S2_earth": {
+        "earth_stem": "Xin",
+        "earth_stem_element": "Metal",
+        "god": "Zhi Fu (Chief)",
+        "home_god": [
+          "Gou Chen (Hooked Array)",
+          "Bai Hu (White Tiger)"
+        ],
+        "paths": [
+          "palaces.9.active_chart.stems.earth",
+          "palaces.9.active_chart.god"
+        ]
+      },
+      "S3_door": {
+        "door": "Jing (Scenery)",
+        "door_at_original_palace": true,
+        "door_element": "Fire",
+        "door_strength": "Imprisoned",
+        "forced": null,
+        "home_door": "Jing (Scenery)",
+        "paths": [
+          "palaces.9.active_chart.door",
+          "palaces.9.active_chart.energy_state.door"
+        ]
+      },
+      "S4_heaven": {
+        "center_guest_stem": null,
+        "heaven_stem": "Xin",
+        "heaven_stem_element": "Metal",
+        "home_star": "Tian Ying (Hero)",
+        "note": null,
+        "paths": [
+          "palaces.9.active_chart.stems.heaven",
+          "palaces.9.active_chart.star",
+          "palaces.9.active_chart.energy_state.star"
+        ],
+        "star_elements": [
+          "Fire"
+        ],
+        "star_home_palaces": [
+          "9"
+        ],
+        "star_sitting_home": [
+          "Tian Ying (Hero)"
+        ],
+        "star_strength_by_palace": "Resting",
+        "star_strength_seasonal": "Strengthening",
+        "stars": [
+          "Tian Ying (Hero)"
+        ]
+      },
+      "S5_hidden": {
+        "hidden_stem": "Xin",
+        "hidden_stem_element": "Metal",
+        "paths": [
+          "palaces.9.active_chart.stems.hidden"
+        ]
+      },
+      "S6_markers": {
+        "afflictions": [
+          "Clash Punishment (Ji Xing)",
+          "Self Punishment",
+          "Fu Yin"
+        ],
+        "carries_duty_door": true,
+        "carries_duty_star": true,
+        "has_horse_star": false,
+        "hour_stem_focus": true,
+        "is_duty_palace": true,
+        "is_void": true,
+        "paths": [
+          "palaces.9.active_chart.status",
+          "palaces.9.active_chart.stems.afflictions"
+        ]
+      },
+      "S7_lists": {
+        "birth_stage_stems": [
+          "Yi"
+        ],
+        "entombs_day_stem": false,
+        "entombs_hour_stem": false,
+        "harm_stems": [],
+        "paths": [
+          "palaces.9.palace_stem_rules"
+        ],
+        "punishment_stems": [
+          "Xin"
+        ],
+        "tomb_stems": []
+      }
+    },
+    "verdicts": [
+      {
+        "batch": "B1",
+        "claim_id": "V020-P9",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "9",
+            "path": "palaces.9.active_chart.status.is_void",
+            "value": "True"
+          },
+          {
+            "palace_id": "9",
+            "path": "timing.voidness",
+            "value": "['Wu (Horse)', 'Wei (Goat)', 'Chen (Dragon)', 'Si (Snake)']"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "palace_id": "9",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "WARN",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Palace 9 (Li, South) is void. Whatever is shown here does not land as displayed: it is announced but not received."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V021-P9",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "9",
+            "path": "palaces.9.active_chart.stems.afflictions",
+            "value": "Clash Punishment (Ji Xing)"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "palace_id": "9",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "VETO",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Palace 9 carries the affliction 'Clash Punishment (Ji Xing)'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V022-P9",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "9",
+            "path": "palaces.9.active_chart.stems.afflictions",
+            "value": "Self Punishment"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "palace_id": "9",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "VETO",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Palace 9 carries the affliction 'Self Punishment'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V023-P9",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "9",
+            "path": "palaces.9.active_chart.stems.afflictions",
+            "value": "Fu Yin"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "palace_id": "9",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "WARN",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Palace 9 carries the affliction 'Fu Yin'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V024-P9",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "9",
+            "path": "palaces.9.active_chart.energy_state.door",
+            "value": "Imprisoned"
+          },
+          {
+            "palace_id": "9",
+            "path": "palaces.9.active_chart.door",
+            "value": "Jing (Scenery)"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "9",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "VETO",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "The Jing (Scenery) door at palace 9 is Imprisoned. This method is available on paper but has no force behind it; using it costs effort and returns little."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V025-P9",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "9",
+            "path": "palaces.9.active_chart.status.is_duty_palace",
+            "value": "True"
+          },
+          {
+            "palace_id": "9",
+            "path": "chart_config.duty_star",
+            "value": "Tian Ying (Hero)"
+          },
+          {
+            "palace_id": "9",
+            "path": "chart_config.duty_door",
+            "value": "Jing (Scenery)"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "palace_id": "9",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SUPPORT",
+        "slot": "chart_answers_candidate",
+        "status": "live",
+        "text_en": "Palace 9 is the duty palace: it carries both the duty star Tian Ying (Hero) and the duty door Jing (Scenery). This is where the chart says the subject of the question actually sits."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V026-P9",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "9",
+            "path": "palaces.9.active_chart.energy_state",
+            "value": "Imprisoned|Imprisoned|Strengthening|Resting"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "9",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 9 reads differently from different angles (Imprisoned|Imprisoned|Strengthening|Resting). It looks one way and behaves another; do not trust a single strength reading here."
+      },
+      {
+        "batch": "B1",
+        "claim_id": "V027-P9",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "9",
+            "path": "palaces.9.active_chart.star",
+            "value": "['Tian Ying (Hero)']"
+          },
+          {
+            "palace_id": "9",
+            "path": "palaces.9.active_chart.door",
+            "value": "Jing (Scenery)"
+          },
+          {
+            "palace_id": "9",
+            "path": "chart_config.chart_pattern",
+            "value": "Fu Yin (All elements in home positions)"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "palace_id": "9",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Palace 9 has its own star and its own door at home, with heaven, earth and hidden stems identical. Nothing here is in motion; the position repeats itself rather than developing."
+      }
+    ]
+  }
+}

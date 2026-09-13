@@ -1,0 +1,308 @@
+{
+  "also_selected_in": [],
+  "analyses": [
+    {
+      "step": "S8",
+      "summary_en": "8 intra-palace relations computed."
+    },
+    {
+      "step": "S9",
+      "summary_en": "Reverse-index occurrences pulled."
+    }
+  ],
+  "batch": "B1",
+  "canonical_name": "Center",
+  "index_pull": {
+    "same_god_elsewhere": [],
+    "same_heaven_stem_elsewhere": [],
+    "this_god_is_home_god_of": [],
+    "this_stem_entombed_at": [
+      "6"
+    ],
+    "this_stem_harmed_at": [],
+    "this_stem_in_birth_stage_at": [
+      "8"
+    ],
+    "this_stem_punished_at": []
+  },
+  "palace_id": "5",
+  "phase": "P1_TO_P4_OPERATOR_ZOOM",
+  "relations": [
+    {
+      "a": "Bing",
+      "b": "Bing",
+      "evidence_paths": [
+        "palaces.5.active_chart.stems.heaven",
+        "palaces.5.active_chart.stems.earth"
+      ],
+      "kind": "heaven_earth_stem_pair",
+      "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+      "relation": "IDENTICAL (Fu Yin)"
+    },
+    {
+      "a": "Bing",
+      "b": "Bing",
+      "evidence_paths": [
+        "palaces.5.active_chart.stems.heaven",
+        "palaces.5.active_chart.stems.hidden"
+      ],
+      "kind": "heaven_hidden_stem_pair",
+      "note_en": "",
+      "relation": "IDENTICAL (Fu Yin)"
+    },
+    {
+      "a": "Bing",
+      "b": "Earth",
+      "evidence_paths": [
+        "palaces.5.active_chart.stems.heaven",
+        "palaces.5.element"
+      ],
+      "kind": "stem_vs_palace",
+      "note_en": "",
+      "relation": "PRODUCES"
+    },
+    {
+      "a": "Bing",
+      "b": "seasonal_element_strengths",
+      "evidence_paths": [
+        "palaces.5.active_chart.stems.heaven",
+        "element_prosperities"
+      ],
+      "kind": "stem_vs_season",
+      "note_en": "",
+      "relation": "Imprisoned"
+    },
+    {
+      "a": "Bing",
+      "b": "Bing",
+      "evidence_paths": [
+        "palaces.5.active_chart.stems.heaven",
+        "timing.four_pillars.day"
+      ],
+      "kind": "stem_vs_day_stem",
+      "note_en": "",
+      "relation": "SAME"
+    },
+    {
+      "a": "Bing",
+      "b": "Xin",
+      "evidence_paths": [
+        "palaces.5.active_chart.stems.heaven",
+        "palaces.9.active_chart.stems.heaven"
+      ],
+      "kind": "stem_combination_across_board",
+      "note_en": "Bing pairs with Xin at palace ['9'].",
+      "relation": "COMBINES -> Water"
+    },
+    {
+      "a": "Bing",
+      "b": "Ren",
+      "evidence_paths": [
+        "palaces.5.active_chart.stems.heaven",
+        "palaces.8.active_chart.stems.heaven"
+      ],
+      "kind": "stem_clash_across_board",
+      "note_en": "Bing clashes Ren at palace ['8'].",
+      "relation": "CLASH"
+    },
+    {
+      "a": "5",
+      "b": "Resting",
+      "evidence_paths": [
+        "palaces.5.active_chart.energy_state"
+      ],
+      "kind": "strength_concordance",
+      "note_en": "",
+      "relation": "CONCORDANT"
+    }
+  ],
+  "roles": [
+    {
+      "evidence_paths": [
+        "timing.four_pillars.day"
+      ],
+      "palace_id": "5",
+      "rationale_en": "Selected by the day-stem origin set.",
+      "role": "day_stem_or_jia_set"
+    },
+    {
+      "evidence_paths": [],
+      "palace_id": "5",
+      "rationale_en": "Centre: no realm field; treated as inner pivot.",
+      "role": "outer"
+    },
+    {
+      "evidence_paths": [
+        "palaces.5.active_chart.note"
+      ],
+      "palace_id": "5",
+      "rationale_en": "Centre content is hosted by palace 2.",
+      "role": "lodged_from_center"
+    }
+  ],
+  "stack": {
+    "S1_identity": {
+      "canonical_name": "Center",
+      "direction": "Center",
+      "early_heaven_trigram": null,
+      "earthly_branches": [],
+      "element": "Earth",
+      "hetu_numbers": [
+        5,
+        10
+      ],
+      "id": "5",
+      "name": "Zhong",
+      "opposite_palace": null,
+      "palace_strength": "Resting",
+      "paths": [
+        "palaces.5.name",
+        "palaces.5.direction",
+        "palaces.5.element",
+        "palaces.5.active_chart.energy_state.palace"
+      ],
+      "realm": null,
+      "trigram_numbers": null
+    },
+    "S2_earth": {
+      "earth_stem": "Bing",
+      "earth_stem_element": "Fire",
+      "god": "Tai Chang (Grand Blessing)",
+      "home_god": null,
+      "paths": [
+        "palaces.5.active_chart.stems.earth",
+        "palaces.5.active_chart.god"
+      ]
+    },
+    "S3_door": {
+      "door": null,
+      "door_at_original_palace": false,
+      "door_element": null,
+      "door_strength": null,
+      "forced": null,
+      "home_door": null,
+      "paths": []
+    },
+    "S4_heaven": {
+      "center_guest_stem": null,
+      "heaven_stem": "Bing",
+      "heaven_stem_element": "Fire",
+      "home_star": "Tian Qin (Bird)",
+      "note": "Attached to Palace 2",
+      "paths": [
+        "palaces.5.active_chart.stems.heaven"
+      ],
+      "star_elements": [],
+      "star_home_palaces": [],
+      "star_sitting_home": [],
+      "star_strength_by_palace": null,
+      "star_strength_seasonal": null,
+      "stars": []
+    },
+    "S5_hidden": {
+      "hidden_stem": "Bing",
+      "hidden_stem_element": "Fire",
+      "paths": [
+        "palaces.5.active_chart.stems.hidden"
+      ]
+    },
+    "S6_markers": {
+      "afflictions": [],
+      "carries_duty_door": false,
+      "carries_duty_star": false,
+      "has_horse_star": false,
+      "hour_stem_focus": false,
+      "is_duty_palace": false,
+      "is_void": false,
+      "paths": []
+    },
+    "S7_lists": {
+      "birth_stage_stems": [],
+      "entombs_day_stem": false,
+      "entombs_hour_stem": false,
+      "harm_stems": [],
+      "paths": [],
+      "punishment_stems": [],
+      "tomb_stems": []
+    }
+  },
+  "verdicts": [
+    {
+      "batch": "B1",
+      "claim_id": "V009-P5",
+      "confidence": "MED",
+      "evidence": [
+        {
+          "palace_id": "5",
+          "path": "palaces.5.active_chart.stems.heaven",
+          "value": "Bing"
+        },
+        {
+          "palace_id": "5",
+          "path": "element_prosperities",
+          "value": "Imprisoned"
+        }
+      ],
+      "grounding": "COMPUTED",
+      "palace_id": "5",
+      "phase": "P1_TO_P4_OPERATOR_ZOOM",
+      "polarity": "SUPPORT",
+      "slot": "chart_best_solution_candidate",
+      "status": "live",
+      "text_en": "Palace 5 holds the San Qi stem Bing. Quality, reputation and visibility are concentrated here."
+    },
+    {
+      "batch": "B1",
+      "claim_id": "V010-P5",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "palace_id": "5",
+          "path": "palaces.5.active_chart.stems.heaven",
+          "value": "Bing"
+        },
+        {
+          "palace_id": "5",
+          "path": "element_prosperities",
+          "value": "Imprisoned"
+        }
+      ],
+      "grounding": "COMPUTED",
+      "palace_id": "5",
+      "phase": "P1_TO_P4_OPERATOR_ZOOM",
+      "polarity": "CONSTRAIN",
+      "slot": "chart_hidden_problems_candidate",
+      "status": "live",
+      "text_en": "The stem Bing (Fire) at palace 5 is Imprisoned this season. The climate does not support it however good it looks on the board."
+    },
+    {
+      "batch": "B1",
+      "claim_id": "V011-P5",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "palace_id": "5",
+          "path": "palaces.5.active_chart.stems.heaven",
+          "value": "Bing"
+        },
+        {
+          "palace_id": "5",
+          "path": "palaces.5.active_chart.note",
+          "value": "Attached to Palace 2"
+        },
+        {
+          "palace_id": "2",
+          "path": "palaces.2.active_chart.stems.center_guest",
+          "value": "Bing"
+        }
+      ],
+      "grounding": "EXPLICIT",
+      "palace_id": "5",
+      "phase": "P1_TO_P4_OPERATOR_ZOOM",
+      "polarity": "CONSTRAIN",
+      "slot": "chart_answers_candidate",
+      "status": "live",
+      "text_en": "The day stem Bing sits in the Centre and is attached to palace 2. The actor is displaced: it has no directional position of its own and must operate through its host."
+    }
+  ]
+}

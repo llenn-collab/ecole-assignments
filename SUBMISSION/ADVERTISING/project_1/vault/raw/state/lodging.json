@@ -1,0 +1,62 @@
+{
+  "center_god": "Tai Chang (Grand Blessing)",
+  "center_has_no_opposite": true,
+  "center_home_star": "Tian Qin (Bird)",
+  "center_palace_strength": "Resting",
+  "center_stems": {
+    "earth": "Bing",
+    "heaven": "Bing",
+    "hidden": "Bing"
+  },
+  "corroboration": "palaces.2.active_chart.stems.center_guest == 'Bing' independently confirms the Centre stem is hosted by palace 2.",
+  "graph": [
+    {
+      "carrier": "stem",
+      "evidence": [
+        "palaces.5.active_chart.note",
+        "palaces.5.active_chart.stems.heaven",
+        "palaces.2.active_chart.stems.center_guest"
+      ],
+      "from": "5",
+      "role": "lodged_from_center",
+      "to": "2",
+      "value": "Bing"
+    },
+    {
+      "carrier": "star",
+      "evidence": [
+        "palaces.5.base_position.home_star",
+        "palaces.2.active_chart.star"
+      ],
+      "from": "5",
+      "role": "lodged_from_center",
+      "to": "2",
+      "value": "Tian Qin (Bird)"
+    },
+    {
+      "carrier": "god",
+      "evidence": [
+        "palaces.5.active_chart.god"
+      ],
+      "from": "5",
+      "role": "center_resident_not_relocated",
+      "to": "2",
+      "value": "Tai Chang (Grand Blessing)"
+    }
+  ],
+  "host_inherited_conditions": {
+    "afflictions": [
+      "Clash Punishment (Ji Xing)",
+      "Self Punishment"
+    ],
+    "door": "Si (Death)",
+    "has_horse_star": true,
+    "is_void": true,
+    "tomb_stems": [
+      "Jia",
+      "Gui"
+    ]
+  },
+  "host_palace": "2",
+  "trigger": "palaces.5.active_chart.note == 'Attached to Palace 2'"
+}
