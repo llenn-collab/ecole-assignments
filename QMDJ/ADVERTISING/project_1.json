@@ -5,8 +5,6 @@
     "method": "Chai Bu Method"
   },
   "timing": {
-    "solar": { "date": "2026-09-09", "time": "11:36", "day_of_week": "Wednesday" },
-    "lunar": { "year": 2026, "month": 7, "day": 28, "hour_branch": "Wu (Horse)" },
     "solar_term": { "name": "White Dew", "yuan": "Middle", "day": 3 },
     "four_pillars": {
       "year": "Bing-Wu",
