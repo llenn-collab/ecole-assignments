@@ -1,0 +1,201 @@
+{
+  "answers": [
+    {
+      "archetype_resolution_id": "SR-ANSWERS-01",
+      "claim_id": "ANS-01",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "package_path": "patterns.archetype_resolutions[AR-ANSWERS-01].winner",
+          "value": "ANS-DUTY-PALACE-9-VOID-SHOWPIECE"
+        }
+      ],
+      "grounding": "COMPUTED",
+      "phase": "SOLUTION_ENGINE",
+      "polarity": "SUPPORT",
+      "requirement_ids": [
+        "R06",
+        "R01",
+        "R12"
+      ],
+      "slot": "my_answers",
+      "status": "live",
+      "text_en": "The campaign must be built around one idea that is strong enough to change shape six times without losing its name. The brief's real subject is not a state and not a niche - it is whether a single idea can survive contact with six different media."
+    },
+    {
+      "archetype_resolution_id": "SR-ANSWERS-01",
+      "claim_id": "ANS-02",
+      "confidence": "MED",
+      "evidence": [
+        {
+          "package_path": "yongshen_candidates[YS-DAY-BING].condition",
+          "value": "displaced actor with no seat of its own"
+        }
+      ],
+      "grounding": "COMPUTED",
+      "phase": "SOLUTION_ENGINE",
+      "polarity": "SUPPORT",
+      "requirement_ids": [
+        "R03",
+        "R19"
+      ],
+      "slot": "my_answers",
+      "status": "live",
+      "text_en": "The audience is the traveller who does not recognise themselves in ordinary tourism advertising. They are not looking for a destination; they are looking for a place that will let them in."
+    }
+  ],
+  "best_solution": {
+    "archetype_resolution_id": "SR-BEST-01",
+    "claim_id": "BEST-01",
+    "confidence": "HIGH",
+    "eliminated_by_hard_constraint": [
+      "BEST-RIDE-THE-HORSE-AT-P2",
+      "BEST-PUSH-THE-SHOWPIECE-AT-P9"
+    ],
+    "final_score": 0.82,
+    "grounding": "COMPUTED",
+    "phase": "SOLUTION_ENGINE",
+    "polarity": "SUPPORT",
+    "requirement_fit_score": 1.0,
+    "requirement_ids": [
+      "R01",
+      "R08",
+      "R09",
+      "R10",
+      "R03",
+      "R06",
+      "R20",
+      "R22"
+    ],
+    "runner_up_retained": {
+      "archetype": "BEST-OPEN-DOOR-NW-P6-WITH-DING",
+      "role_en": "Governs the key creative standard only - craft, finish, authority."
+    },
+    "slot": "best_solution",
+    "status": "live",
+    "text_en": "Lead with participation, not spectacle. The campaign should be built as an invitation the audience can accept and pass on, with every medium doing one job the other five cannot do. Craft and finish govern the key creative, but they do not lead the campaign.",
+    "winner_archetype": "BEST-LIFE-DOOR-NE-P8-WITH-LIUHE"
+  },
+  "evidence": [
+    {
+      "package_path": "solution_seed",
+      "value": "chart-derived only; not yet requirement-bound"
+    }
+  ],
+  "hidden_problems": [
+    {
+      "archetype_resolution_id": "SR-HIDDEN-01",
+      "claim_id": "HID-01",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "package_path": "patterns.archetype_resolutions[AR-HIDDEN-01].candidates_considered",
+          "value": "five live hidden problems carried from the package"
+        }
+      ],
+      "grounding": "COMPUTED",
+      "phase": "SOLUTION_ENGINE",
+      "polarity": "WARN",
+      "requirement_ids": [
+        "R01",
+        "R10",
+        "R22"
+      ],
+      "slot": "hidden_problems",
+      "status": "live",
+      "text_en": "The most visible part of this project is the weakest. A campaign idea that presents beautifully in a deck can have nothing underneath it - and this brief grades exactly that gap, because it is explicitly testing integration against adaptation."
+    },
+    {
+      "archetype_resolution_id": "SR-HIDDEN-01",
+      "claim_id": "HID-02",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "package_path": "patterns.archetype_resolutions[AR-HIDDEN-01].candidates_considered",
+          "value": "five live hidden problems carried from the package"
+        }
+      ],
+      "grounding": "COMPUTED",
+      "phase": "SOLUTION_ENGINE",
+      "polarity": "WARN",
+      "requirement_ids": [
+        "R08",
+        "R09",
+        "R01"
+      ],
+      "slot": "hidden_problems",
+      "status": "live",
+      "text_en": "There is no natural home for the work. The team has no single medium it can retreat into and call the campaign finished; every one of the six has to carry weight independently."
+    },
+    {
+      "archetype_resolution_id": "SR-HIDDEN-01",
+      "claim_id": "HID-03",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "package_path": "patterns.archetype_resolutions[AR-HIDDEN-01].candidates_considered",
+          "value": "five live hidden problems carried from the package"
+        }
+      ],
+      "grounding": "COMPUTED",
+      "phase": "SOLUTION_ENGINE",
+      "polarity": "WARN",
+      "requirement_ids": [
+        "R14",
+        "R15",
+        "R16",
+        "R17"
+      ],
+      "slot": "hidden_problems",
+      "status": "live",
+      "text_en": "Nothing in this project moves by itself. No execution will suggest the next one; each has to be deliberately pushed into place, which is why the sequencing matters more than usual."
+    },
+    {
+      "archetype_resolution_id": "SR-HIDDEN-01",
+      "claim_id": "HID-04",
+      "confidence": "MED",
+      "evidence": [
+        {
+          "package_path": "patterns.archetype_resolutions[AR-HIDDEN-01].candidates_considered",
+          "value": "five live hidden problems carried from the package"
+        }
+      ],
+      "grounding": "COMPUTED",
+      "phase": "SOLUTION_ENGINE",
+      "polarity": "WARN",
+      "requirement_ids": [
+        "R07",
+        "R20"
+      ],
+      "slot": "hidden_problems",
+      "status": "live",
+      "text_en": "The most attractive route is also the most dangerous one. The instinct to lead with craft and polish will produce a beautiful key creative that quietly buries the idea under its own finish."
+    },
+    {
+      "archetype_resolution_id": "SR-HIDDEN-01",
+      "claim_id": "HID-05",
+      "confidence": "MED",
+      "evidence": [
+        {
+          "package_path": "patterns.archetype_resolutions[AR-HIDDEN-01].candidates_considered",
+          "value": "five live hidden problems carried from the package"
+        }
+      ],
+      "grounding": "COMPUTED",
+      "phase": "SOLUTION_ENGINE",
+      "polarity": "WARN",
+      "requirement_ids": [
+        "R15",
+        "R16"
+      ],
+      "slot": "hidden_problems",
+      "status": "live",
+      "text_en": "The engine of the campaign is invisible until late. The connecting idea has no body of its own until the executions exist, so it will feel absent for most of the project and cannot be judged early."
+    }
+  ],
+  "open_questions": [
+    "Whether the marker weights Research above Execution - affects how much depth the research deliverable needs. Internal only; not shipped as an answer."
+  ],
+  "revision": 1,
+  "split_claims": []
+}

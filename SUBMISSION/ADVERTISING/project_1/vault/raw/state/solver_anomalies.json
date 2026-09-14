@@ -1,0 +1,12 @@
+{
+  "anomalies": [
+    {
+      "code": "RUBRIC_HASH_LINEAGE",
+      "detail": "Prompt 1 stamped the chart-analyst rubric hash (sha256:archetype_scoring_rubric_1_0_0_chart_analyst_v4); Prompt 2 applies the assignment-solver rubric (sha256:archetype_scoring_rubric_1_0_0_assignment_solver_v4). The two rubrics share identical weights and tie-break order and differ only in requirement_fit, which Prompt 1 must leave null and Prompt 2 must populate. This is expected lineage, not staleness, and both hashes are recorded in the manifest.",
+      "evidence": [
+        "package.archetype_scoring_rubric_version_hash"
+      ],
+      "severity": "LOW"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "bindings": [
+    {
+      "binding_rationale_en": "The actor candidate binds to the audience-and-self question: who is doing the travelling. The package reports this actor as displaced, with no seat of its own, which binds to a traveller who does not see themselves in conventional tourism marketing.",
+      "bound_question": "Q4",
+      "bound_requirement_ids": [
+        "R03",
+        "R19"
+      ],
+      "candidate_id": "YS-DAY-BING",
+      "label": "Day stem Bing (self / actor)",
+      "package_condition": "Centre-lodged into a void, horse-struck, Death-door palace; Fire is Imprisoned this season; Bing's tomb is palace 6.",
+      "package_evidence_paths": [
+        "timing.four_pillars.day",
+        "palaces.5.active_chart.stems.heaven",
+        "palaces.2.active_chart.stems.center_guest"
+      ],
+      "package_grounding": "COMPUTED",
+      "slot": "my_answers"
+    },
+    {
+      "binding_rationale_en": "The matter-in-motion candidate binds to the delivery timeline. The package reports it as absent from every visible position, which binds to the fact that most of the real work in this project is invisible until the final week.",
+      "bound_question": "Q5",
+      "bound_requirement_ids": [
+        "R14",
+        "R15",
+        "R16",
+        "R17"
+      ],
+      "candidate_id": "YS-HOUR-JIA",
+      "label": "Hour stem Jia (matter in motion)",
+      "package_condition": "Absent from every plate; entombed at palace 2; proxied by Xin at palace 9; Wood is Dead this season.",
+      "package_evidence_paths": [
+        "timing.four_pillars.hour",
+        "palaces.2.palace_stem_rules.stems_in_tomb",
+        "chart_config.lead_stem"
+      ],
+      "package_grounding": "COMPUTED",
+      "slot": "timing"
+    },
+    {
+      "binding_rationale_en": "The visible stand-in candidate binds to the key creative - the single execution that represents the whole idea publicly.",
+      "bound_question": "Q1",
+      "bound_requirement_ids": [
+        "R06",
+        "R07"
+      ],
+      "candidate_id": "YS-LEAD-XIN",
+      "label": "Lead proxy stem Xin (visible stand-in)",
+      "package_condition": "Metal is Prosperous, but palace 9 is void, duty palace, clash-punished, self-punished and Fu Yin.",
+      "package_evidence_paths": [
+        "chart_config.lead_stem",
+        "palaces.9.active_chart.stems.heaven"
+      ],
+      "package_grounding": "EXPLICIT",
+      "slot": "my_answers"
+    },
+    {
+      "binding_rationale_en": "The package's authority marker is the subject of the question. The brief's equivalent subject is the big campaign idea and the USP it rests on. Both are 'the thing being presented'. The package reports this position as highly visible but structurally unsupported, which maps precisely onto the risk of a tourism idea that looks impressive in a deck and collapses on contact with six real media.",
+      "bound_question": "Q1",
+      "bound_requirement_ids": [
+        "R06",
+        "R04",
+        "R12"
+      ],
+      "candidate_id": "YS-DUTY-9",
+      "label": "Duty star Tian Ying + duty door Jing (Scenery) at palace 9",
+      "package_condition": "Authority of the matter; imprisoned door, imprisoned palace, void.",
+      "package_evidence_paths": [
+        "chart_config.duty_star",
+        "chart_config.duty_door",
+        "palaces.9.active_chart.status.is_duty_palace"
+      ],
+      "package_grounding": "EXPLICIT",
+      "slot": "my_answers"
+    },
+    {
+      "binding_rationale_en": "A high-quality, well-supported route candidate binds to the craft dimension of the media plan: the channels where finish and reputation are decided.",
+      "bound_question": "Q3",
+      "bound_requirement_ids": [
+        "R08",
+        "R09",
+        "R20"
+      ],
+      "candidate_id": "YS-OPEN-6",
+      "label": "Kai (Open) door + Ding + Tian Xin at palace 6",
+      "package_condition": "Only Prosperous door+palace pair carrying a San Qi stem; also the tomb palace of the day stem Bing.",
+      "package_evidence_paths": [
+        "palaces.6.active_chart.door",
+        "palaces.6.active_chart.stems.heaven",
+        "palaces.6.active_chart.energy_state.door"
+      ],
+      "package_grounding": "COMPUTED",
+      "slot": "best_solution"
+    },
+    {
+      "binding_rationale_en": "A growth-and-partnership route candidate binds to the reach dimension of the media plan: the channels where an audience is actually joined and carried.",
+      "bound_question": "Q3",
+      "bound_requirement_ids": [
+        "R08",
+        "R09",
+        "R01"
+      ],
+      "candidate_id": "YS-LIFE-8",
+      "label": "Sheng (Life) door + Ren + Liu He at palace 8",
+      "package_condition": "Outer realm, Resting door, Six Harmony spirit, star Prosperous by palace.",
+      "package_evidence_paths": [
+        "palaces.8.active_chart.door",
+        "palaces.8.active_chart.god",
+        "palaces.8.active_chart.stems.heaven"
+      ],
+      "package_grounding": "COMPUTED",
+      "slot": "best_solution"
+    }
+  ],
+  "note_en": "Every yongshen candidate from the package is now bound to a brief question type and a requirement set. No candidate is left unbound.",
+  "question_types": [
+    {
+      "qid": "Q1",
+      "question_en": "What is the campaign actually about, and what is the single idea it must carry?",
+      "requirement_ids": [
+        "R06",
+        "R04",
+        "R12"
+      ],
+      "slot": "my_answers"
+    },
+    {
+      "qid": "Q2",
+      "question_en": "What will quietly cause this project to fail if it is not designed around?",
+      "requirement_ids": [
+        "R01",
+        "R10",
+        "R05",
+        "R22"
+      ],
+      "slot": "hidden_problems"
+    },
+    {
+      "qid": "Q3",
+      "question_en": "Which route should the campaign take across six media?",
+      "requirement_ids": [
+        "R08",
+        "R09",
+        "R01",
+        "R20"
+      ],
+      "slot": "best_solution"
+    },
+    {
+      "qid": "Q4",
+      "question_en": "Who is the audience and what moves them?",
+      "requirement_ids": [
+        "R03",
+        "R19"
+      ],
+      "slot": "my_answers"
+    },
+    {
+      "qid": "Q5",
+      "question_en": "How is the work sequenced across four weeks?",
+      "requirement_ids": [
+        "R14",
+        "R15",
+        "R16",
+        "R17"
+      ],
+      "slot": "timing"
+    }
+  ]
+}

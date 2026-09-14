@@ -1,0 +1,246 @@
+{
+  "requirements": [
+    {
+      "artefact_type": "campaign",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R01",
+      "must_level": "must",
+      "note_en": "The core test. Six media, each execution using that medium's own strength.",
+      "output_files": [],
+      "page_anchor": "L4",
+      "quoted_text": "Creating an integrated advertising campaign across 6 media types, where the big idea is crafted to complement each media type, rather than simply making size adapts."
+    },
+    {
+      "artefact_type": "decision",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R02",
+      "must_level": "must",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L7",
+      "quoted_text": "PICK A STATE - Could be Indian / International"
+    },
+    {
+      "artefact_type": "audience_definition",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R03",
+      "must_level": "must",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L9",
+      "quoted_text": "Your target audience can be from the host country or a foreign land"
+    },
+    {
+      "artefact_type": "positioning",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R04",
+      "must_level": "must",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L11",
+      "quoted_text": "IDENTIFY YOUR STATE'S TOURISM NICHE / OPPORTUNITY"
+    },
+    {
+      "artefact_type": "constraint",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R05",
+      "must_level": "must_not",
+      "note_en": "Hard exclusion. Any generic sightseeing route is disqualified.",
+      "output_files": [],
+      "page_anchor": "L13",
+      "quoted_text": "Avoid picking activities like sight-seeing / shopping / common spots."
+    },
+    {
+      "artefact_type": "big_idea",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R06",
+      "must_level": "must",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L17",
+      "quoted_text": "Your Big Campaign Idea: This should be backed by research, target audience understanding, and USP of your State's tourism identified through research"
+    },
+    {
+      "artefact_type": "key_creative",
+      "coverage_status": "COVERED",
+      "except_logo": true,
+      "id": "R07",
+      "must_level": "must",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L20",
+      "quoted_text": "One Key Creative: This can be a print ad or a video ad; it will become the creative that represents your big campaign idea."
+    },
+    {
+      "artefact_type": "creative_set",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R08",
+      "must_level": "must",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L24",
+      "quoted_text": "Traditional Media: Ads in any 3 channels (Print / Outdoor / Ambient / Direct Marketing / Event / any other)"
+    },
+    {
+      "artefact_type": "creative_set",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R09",
+      "must_level": "must",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L27",
+      "quoted_text": "Digital Media: Ads in any 3 channels (Website, Microsite, Social, YouTube, Native Channels, Google Ads, OTT, any other)"
+    },
+    {
+      "artefact_type": "constraint",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R10",
+      "must_level": "must",
+      "note_en": "Restates R01 as a hard rule. Adapts are explicitly not acceptable.",
+      "output_files": [],
+      "page_anchor": "L30",
+      "quoted_text": "Important: Craft your campaign idea to suit each media type."
+    },
+    {
+      "artefact_type": "deck",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R11",
+      "must_level": "must",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L32",
+      "quoted_text": "Final Deliverable: State Tourism Ad Campaign Deck"
+    },
+    {
+      "artefact_type": "deck_section",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R12",
+      "must_level": "must",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L33",
+      "quoted_text": "Includes: USP | Target Group | Creative Strategy"
+    },
+    {
+      "artefact_type": "deck_section",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R13",
+      "must_level": "must",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L34",
+      "quoted_text": "Key Creative + Creatives across media types"
+    },
+    {
+      "artefact_type": "milestone",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R14",
+      "must_level": "must",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L38",
+      "quoted_text": "Week 01 - 24 Aug: Present Chosen State + USP & TG + Minimum 3 Creative Routes (Elevator Pitch Format)"
+    },
+    {
+      "artefact_type": "milestone",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R15",
+      "must_level": "must",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L42",
+      "quoted_text": "Week 02 - 2nd Sep: Final Creative Route + 1 Key Creative Completed + Shortlist of Media you will be using for your campaign"
+    },
+    {
+      "artefact_type": "milestone",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R16",
+      "must_level": "must",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L45",
+      "quoted_text": "Week 03 - 9th Sep: WIP - Campaign Creatives Designed"
+    },
+    {
+      "artefact_type": "milestone",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R17",
+      "must_level": "must",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L47",
+      "quoted_text": "Week 04 - 16th Sep: NLET Submission"
+    },
+    {
+      "artefact_type": "grading",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R18",
+      "must_level": "should",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L50",
+      "quoted_text": "Grading Criteria - Research: Understanding of media types available and how to use them"
+    },
+    {
+      "artefact_type": "grading",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R19",
+      "must_level": "should",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L51",
+      "quoted_text": "Grading Criteria - Strategy: Insight on brand and target group"
+    },
+    {
+      "artefact_type": "grading",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R20",
+      "must_level": "should",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L52",
+      "quoted_text": "Grading Criteria - Execution: Creativity of the big idea, and how it's carried across media types"
+    },
+    {
+      "artefact_type": "grading",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R21",
+      "must_level": "should",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L53",
+      "quoted_text": "Grading Criteria - Presentation: Final output"
+    },
+    {
+      "artefact_type": "purpose",
+      "coverage_status": "COVERED",
+      "except_logo": false,
+      "id": "R22",
+      "must_level": "should",
+      "note_en": "",
+      "output_files": [],
+      "page_anchor": "L55",
+      "quoted_text": "Project Purpose: Learning the difference between a truly integrated campaign and an adapt campaign."
+    }
+  ]
+}
