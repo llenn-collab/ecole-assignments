@@ -1,0 +1,357 @@
+{
+  "also_selected_in": [],
+  "analyses": [
+    {
+      "step": "S8",
+      "summary_en": "12 intra-palace relations computed."
+    },
+    {
+      "step": "S9",
+      "summary_en": "Reverse-index occurrences pulled."
+    }
+  ],
+  "batch": "B1",
+  "canonical_name": "Gen",
+  "index_pull": {
+    "same_door_elsewhere": [],
+    "same_god_elsewhere": [],
+    "same_heaven_stem_elsewhere": [],
+    "same_star_elsewhere": [],
+    "this_god_is_home_god_of": [
+      "4"
+    ],
+    "this_stem_entombed_at": [
+      "4"
+    ],
+    "this_stem_harmed_at": [
+      "3"
+    ],
+    "this_stem_in_birth_stage_at": [
+      "2"
+    ],
+    "this_stem_punished_at": [
+      "4"
+    ]
+  },
+  "palace_id": "8",
+  "phase": "P1_TO_P4_OPERATOR_ZOOM",
+  "relations": [
+    {
+      "a": "Ren",
+      "b": "Ren",
+      "evidence_paths": [
+        "palaces.8.active_chart.stems.heaven",
+        "palaces.8.active_chart.stems.earth"
+      ],
+      "kind": "heaven_earth_stem_pair",
+      "note_en": "Heaven stem equals earth stem: no host/guest tension, the palace repeats itself.",
+      "relation": "IDENTICAL (Fu Yin)"
+    },
+    {
+      "a": "Ren",
+      "b": "Ren",
+      "evidence_paths": [
+        "palaces.8.active_chart.stems.heaven",
+        "palaces.8.active_chart.stems.hidden"
+      ],
+      "kind": "heaven_hidden_stem_pair",
+      "note_en": "",
+      "relation": "IDENTICAL (Fu Yin)"
+    },
+    {
+      "a": "Ren",
+      "b": "Earth",
+      "evidence_paths": [
+        "palaces.8.active_chart.stems.heaven",
+        "palaces.8.element"
+      ],
+      "kind": "stem_vs_palace",
+      "note_en": "",
+      "relation": "CONTROLLED_BY"
+    },
+    {
+      "a": "Sheng (Life)",
+      "b": "Earth",
+      "evidence_paths": [
+        "palaces.8.active_chart.door",
+        "palaces.8.element"
+      ],
+      "kind": "door_vs_palace",
+      "note_en": "",
+      "relation": "SAME"
+    },
+    {
+      "a": "Tian Ren (Ambassador)",
+      "b": "Earth",
+      "evidence_paths": [
+        "palaces.8.active_chart.star",
+        "palaces.8.element"
+      ],
+      "kind": "star_vs_palace",
+      "note_en": "",
+      "relation": "SAME"
+    },
+    {
+      "a": "Tian Ren (Ambassador)",
+      "b": "Ren",
+      "evidence_paths": [
+        "palaces.8.active_chart.star",
+        "palaces.8.active_chart.stems.heaven"
+      ],
+      "kind": "star_vs_heaven_stem",
+      "note_en": "",
+      "relation": "CONTROLS"
+    },
+    {
+      "a": "Ren",
+      "b": "Sheng (Life)",
+      "evidence_paths": [
+        "palaces.8.active_chart.stems.heaven",
+        "palaces.8.active_chart.door"
+      ],
+      "kind": "stem_vs_door",
+      "note_en": "",
+      "relation": "CONTROLLED_BY"
+    },
+    {
+      "a": "Ren",
+      "b": "seasonal_element_strengths",
+      "evidence_paths": [
+        "palaces.8.active_chart.stems.heaven",
+        "element_prosperities"
+      ],
+      "kind": "stem_vs_season",
+      "note_en": "",
+      "relation": "Strengthening"
+    },
+    {
+      "a": "Ren",
+      "b": "Bing",
+      "evidence_paths": [
+        "palaces.8.active_chart.stems.heaven",
+        "timing.four_pillars.day"
+      ],
+      "kind": "stem_vs_day_stem",
+      "note_en": "",
+      "relation": "CONTROLS"
+    },
+    {
+      "a": "Ren",
+      "b": "Ding",
+      "evidence_paths": [
+        "palaces.8.active_chart.stems.heaven",
+        "palaces.6.active_chart.stems.heaven"
+      ],
+      "kind": "stem_combination_across_board",
+      "note_en": "Ren pairs with Ding at palace ['6'].",
+      "relation": "COMBINES -> Wood"
+    },
+    {
+      "a": "Ren",
+      "b": "Bing",
+      "evidence_paths": [
+        "palaces.8.active_chart.stems.heaven",
+        "palaces.5.active_chart.stems.heaven"
+      ],
+      "kind": "stem_clash_across_board",
+      "note_en": "Ren clashes Bing at palace ['5'].",
+      "relation": "CLASH"
+    },
+    {
+      "a": "8",
+      "b": "Resting|Resting|Strengthening|Prosperous",
+      "evidence_paths": [
+        "palaces.8.active_chart.energy_state"
+      ],
+      "kind": "strength_concordance",
+      "note_en": "Split strength: the palace does not read the same from every angle.",
+      "relation": "SPLIT"
+    }
+  ],
+  "roles": [
+    {
+      "evidence_paths": [
+        "timing.four_pillars.day"
+      ],
+      "palace_id": "8",
+      "rationale_en": "Selected by the day-stem origin set.",
+      "role": "day_stem_or_jia_set"
+    },
+    {
+      "evidence_paths": [
+        "palaces.8.active_chart.energy_state.realm"
+      ],
+      "palace_id": "8",
+      "rationale_en": "Realm as declared by the chart.",
+      "role": "outer"
+    }
+  ],
+  "stack": {
+    "S1_identity": {
+      "canonical_name": "Gen",
+      "direction": "Northeast",
+      "early_heaven_trigram": "Zhen (4)",
+      "earthly_branches": [
+        "Chou (Ox)",
+        "Yin (Tiger)"
+      ],
+      "element": "Earth",
+      "hetu_numbers": [
+        5,
+        10
+      ],
+      "id": "8",
+      "name": "Gen",
+      "opposite_palace": "2",
+      "palace_strength": "Resting",
+      "paths": [
+        "palaces.8.name",
+        "palaces.8.direction",
+        "palaces.8.element",
+        "palaces.8.active_chart.energy_state.palace"
+      ],
+      "realm": "Outer",
+      "trigram_numbers": [
+        7,
+        8
+      ]
+    },
+    "S2_earth": {
+      "earth_stem": "Ren",
+      "earth_stem_element": "Water",
+      "god": "Liu He (Six Harmony)",
+      "home_god": "Teng She (Serpent)",
+      "paths": [
+        "palaces.8.active_chart.stems.earth",
+        "palaces.8.active_chart.god"
+      ]
+    },
+    "S3_door": {
+      "door": "Sheng (Life)",
+      "door_at_original_palace": true,
+      "door_element": "Earth",
+      "door_strength": "Resting",
+      "forced": null,
+      "home_door": "Sheng (Life)",
+      "paths": [
+        "palaces.8.active_chart.door",
+        "palaces.8.active_chart.energy_state.door"
+      ]
+    },
+    "S4_heaven": {
+      "center_guest_stem": null,
+      "heaven_stem": "Ren",
+      "heaven_stem_element": "Water",
+      "home_star": "Tian Ren (Ambassador)",
+      "note": null,
+      "paths": [
+        "palaces.8.active_chart.stems.heaven",
+        "palaces.8.active_chart.star",
+        "palaces.8.active_chart.energy_state.star"
+      ],
+      "star_elements": [
+        "Earth"
+      ],
+      "star_home_palaces": [
+        "8"
+      ],
+      "star_sitting_home": [
+        "Tian Ren (Ambassador)"
+      ],
+      "star_strength_by_palace": "Prosperous",
+      "star_strength_seasonal": "Strengthening",
+      "stars": [
+        "Tian Ren (Ambassador)"
+      ]
+    },
+    "S5_hidden": {
+      "hidden_stem": "Ren",
+      "hidden_stem_element": "Water",
+      "paths": [
+        "palaces.8.active_chart.stems.hidden"
+      ]
+    },
+    "S6_markers": {
+      "afflictions": [],
+      "carries_duty_door": false,
+      "carries_duty_star": false,
+      "has_horse_star": false,
+      "hour_stem_focus": false,
+      "is_duty_palace": false,
+      "is_void": false,
+      "paths": []
+    },
+    "S7_lists": {
+      "birth_stage_stems": [
+        "Bing",
+        "Wu"
+      ],
+      "entombs_day_stem": false,
+      "entombs_hour_stem": false,
+      "harm_stems": [
+        "Xin"
+      ],
+      "paths": [
+        "palaces.8.palace_stem_rules"
+      ],
+      "punishment_stems": [
+        "Geng"
+      ],
+      "tomb_stems": [
+        "Ding",
+        "Ji",
+        "Geng"
+      ]
+    }
+  },
+  "verdicts": [
+    {
+      "batch": "B1",
+      "claim_id": "V018-P8",
+      "confidence": "MED",
+      "evidence": [
+        {
+          "palace_id": "8",
+          "path": "palaces.8.active_chart.energy_state",
+          "value": "Resting|Resting|Strengthening|Prosperous"
+        }
+      ],
+      "grounding": "COMPUTED",
+      "palace_id": "8",
+      "phase": "P1_TO_P4_OPERATOR_ZOOM",
+      "polarity": "CONSTRAIN",
+      "slot": "risk",
+      "status": "live",
+      "text_en": "Palace 8 reads differently from different angles (Resting|Resting|Strengthening|Prosperous). It looks one way and behaves another; do not trust a single strength reading here."
+    },
+    {
+      "batch": "B1",
+      "claim_id": "V019-P8",
+      "confidence": "HIGH",
+      "evidence": [
+        {
+          "palace_id": "8",
+          "path": "palaces.8.active_chart.star",
+          "value": "['Tian Ren (Ambassador)']"
+        },
+        {
+          "palace_id": "8",
+          "path": "palaces.8.active_chart.door",
+          "value": "Sheng (Life)"
+        },
+        {
+          "palace_id": "8",
+          "path": "chart_config.chart_pattern",
+          "value": "Fu Yin (All elements in home positions)"
+        }
+      ],
+      "grounding": "COMPUTED",
+      "palace_id": "8",
+      "phase": "P1_TO_P4_OPERATOR_ZOOM",
+      "polarity": "CONSTRAIN",
+      "slot": "risk",
+      "status": "live",
+      "text_en": "Palace 8 has its own star and its own door at home, with heaven, earth and hidden stems identical. Nothing here is in motion; the position repeats itself rather than developing."
+    }
+  ]
+}

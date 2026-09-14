@@ -1,0 +1,44 @@
+{
+  "anomalies": [
+    {
+      "code": "SCHEMA_AMBIGUITY",
+      "detail": "QMDJ.json does not expose chart_metadata.* / heaven_plate.* / markers.* as named in qmdj_complete.schema_bind. Least-contradicted bind applied: timing.four_pillars -> four_pillars, chart_config -> duty_elements, element_prosperities -> seasonal_element_strengths, palaces.N.active_chart.stems.heaven -> heaven_plate.stem, palaces.N.active_chart.stems.earth -> earth_plate.stem, palaces.N.active_chart.stems.hidden -> hidden_stem, palaces.N.active_chart.status -> markers, palaces.N.palace_stem_rules.stems_in_tomb -> tomb_stems, palaces.N.palace_stem_rules.stems_in_clash_punishment -> punishment_stems. binding_failure_policy: continue, do not ask user.",
+      "evidence_paths": [
+        "$",
+        "$.chart_config",
+        "$.timing.four_pillars"
+      ],
+      "phase": "P0_ANATOMY",
+      "severity": "HIGH"
+    },
+    {
+      "code": "TIAN_YI_ABSENT",
+      "detail": "chart_metadata.duty_elements.tian_yi has no counterpart in this schema; help/quality interpretation class falls back to Zhi Fu (Chief).",
+      "evidence_paths": [
+        "chart_config"
+      ],
+      "phase": "P0_ANATOMY",
+      "severity": "LOW"
+    },
+    {
+      "code": "DAY_STEM_IN_CENTRE",
+      "detail": "Day stem Bing sits in the Centre (palace 5) and is lodged into palace 2. B1 primary is therefore a lodging graph, not a simple palace.",
+      "evidence_paths": [
+        "palaces.5.active_chart.stems.heaven",
+        "palaces.5.active_chart.note"
+      ],
+      "phase": "P0_ANATOMY",
+      "severity": "HIGH"
+    },
+    {
+      "code": "HOUR_STEM_NOT_ON_PLATE",
+      "detail": "Hour stem Jia is absent from all plates; proxy set used (lead_stem_proxy Xin, tomb of Jia, hour branch palace).",
+      "evidence_paths": [
+        "timing.four_pillars.hour",
+        "chart_config.lead_stem"
+      ],
+      "phase": "P0_ANATOMY",
+      "severity": "HIGH"
+    }
+  ]
+}

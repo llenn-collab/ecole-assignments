@@ -1,0 +1,192 @@
+{
+  "deliverables": [
+    {
+      "audience": "marker / client",
+      "except_logo": false,
+      "format": "markdown deck",
+      "id": "D01",
+      "mime_type": "text/markdown",
+      "must_or_should": "must",
+      "name": "Campaign Deck",
+      "note_en": "The final deliverable named by the brief. Carries USP, TG, strategy, key creative and all six media executions.",
+      "output_path": "output/SUBMISSION/01_CAMPAIGN_DECK.md",
+      "sha256": "d3d897e5eeea0eab",
+      "source_requirement_ids": [
+        "R01",
+        "R11",
+        "R12",
+        "R13",
+        "R06",
+        "R07",
+        "R08",
+        "R09"
+      ],
+      "status": "DELIVERED"
+    },
+    {
+      "audience": "marker",
+      "except_logo": false,
+      "format": "markdown",
+      "id": "D02",
+      "mime_type": "text/markdown",
+      "must_or_should": "must",
+      "name": "Research & Insight Foundation",
+      "note_en": "Backs the big idea with audience and niche research, as R06 demands.",
+      "output_path": "output/SUBMISSION/02_RESEARCH_AND_INSIGHT.md",
+      "sha256": "72877a0c0a38df06",
+      "source_requirement_ids": [
+        "R04",
+        "R06",
+        "R18",
+        "R19",
+        "R03"
+      ],
+      "status": "DELIVERED"
+    },
+    {
+      "audience": "marker/client",
+      "except_logo": true,
+      "format": "markdown, written direction only",
+      "id": "D03",
+      "mime_type": "text/markdown",
+      "must_or_should": "must",
+      "name": "Key Creative Specification",
+      "note_en": "Written art direction and full script/copy. No finished artwork is produced.",
+      "output_path": "output/SUBMISSION/03_KEY_CREATIVE.md",
+      "sha256": "4073c9e8382e7f4d",
+      "source_requirement_ids": [
+        "R07",
+        "R20"
+      ],
+      "status": "DELIVERED"
+    },
+    {
+      "audience": "marker/client",
+      "except_logo": false,
+      "format": "markdown",
+      "id": "D04",
+      "mime_type": "text/markdown",
+      "must_or_should": "must",
+      "name": "Traditional Media Executions",
+      "note_en": "Three traditional channels, each using that channel's own mechanic.",
+      "output_path": "output/SUBMISSION/04_TRADITIONAL_MEDIA.md",
+      "sha256": "b8cc67bc09bef4bb",
+      "source_requirement_ids": [
+        "R08",
+        "R01",
+        "R10"
+      ],
+      "status": "DELIVERED"
+    },
+    {
+      "audience": "marker/client",
+      "except_logo": false,
+      "format": "markdown",
+      "id": "D05",
+      "mime_type": "text/markdown",
+      "must_or_should": "must",
+      "name": "Digital Media Executions",
+      "note_en": "Three digital channels, each using that channel's own mechanic.",
+      "output_path": "output/SUBMISSION/05_DIGITAL_MEDIA.md",
+      "sha256": "71eb31d6e7758a48",
+      "source_requirement_ids": [
+        "R09",
+        "R01",
+        "R10"
+      ],
+      "status": "DELIVERED"
+    },
+    {
+      "audience": "marker",
+      "except_logo": false,
+      "format": "markdown",
+      "id": "D06",
+      "mime_type": "text/markdown",
+      "must_or_should": "must",
+      "name": "Integration Proof & Media Rationale",
+      "note_en": "Demonstrates integration rather than adaptation - the stated purpose of the project.",
+      "output_path": "output/SUBMISSION/06_INTEGRATION_PROOF.md",
+      "sha256": "e4e3359c445c18aa",
+      "source_requirement_ids": [
+        "R01",
+        "R10",
+        "R22",
+        "R18"
+      ],
+      "status": "DELIVERED"
+    },
+    {
+      "audience": "marker",
+      "except_logo": false,
+      "format": "markdown",
+      "id": "D07",
+      "mime_type": "text/markdown",
+      "must_or_should": "must",
+      "name": "Creative Routes Considered",
+      "note_en": "The minimum three routes required at Week 01, with the selection argument.",
+      "output_path": "output/SUBMISSION/07_CREATIVE_ROUTES.md",
+      "sha256": "f87b5d623bcacd94",
+      "source_requirement_ids": [
+        "R14",
+        "R19",
+        "R20"
+      ],
+      "status": "DELIVERED"
+    },
+    {
+      "audience": "marker",
+      "except_logo": false,
+      "format": "markdown",
+      "id": "D08",
+      "mime_type": "text/markdown",
+      "must_or_should": "must",
+      "name": "Delivery Plan & Milestones",
+      "note_en": "Maps the four weekly milestones to what is delivered at each.",
+      "output_path": "output/SUBMISSION/08_DELIVERY_PLAN.md",
+      "sha256": "98dc0fa3d7ad782c",
+      "source_requirement_ids": [
+        "R14",
+        "R15",
+        "R16",
+        "R17"
+      ],
+      "status": "DELIVERED"
+    },
+    {
+      "audience": "marker",
+      "except_logo": false,
+      "format": "markdown",
+      "id": "D09",
+      "mime_type": "text/markdown",
+      "must_or_should": "should",
+      "name": "Risk Register",
+      "note_en": "Project risks in ordinary language, derived from the analysis layer.",
+      "output_path": "output/SUBMISSION/09_RISK_REGISTER.md",
+      "sha256": "1eb0eafa503c28bc",
+      "source_requirement_ids": [
+        "R20",
+        "R21",
+        "R22"
+      ],
+      "status": "DELIVERED"
+    },
+    {
+      "audience": "marker",
+      "except_logo": false,
+      "format": "markdown",
+      "id": "D10",
+      "mime_type": "text/markdown",
+      "must_or_should": "should",
+      "name": "Submission Checklist",
+      "note_en": "Entry point and requirement-coverage checklist.",
+      "output_path": "output/SUBMISSION/00_README.md",
+      "sha256": "0b3ce448a7095c33",
+      "source_requirement_ids": [
+        "R11",
+        "R21",
+        "R17"
+      ],
+      "status": "DELIVERED"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "attempt_en": "Can the same evidence support 'palace 9 is NOT the subject'? Argument: palace 9 is void, so it is empty and therefore cannot be the subject; the real subject should be the strongest palace, 6 or 7.",
+      "check": "adversarial_rederivation",
+      "evidence_paths": [
+        "palaces.9.active_chart.status.is_duty_palace",
+        "chart_config.duty_star",
+        "chart_config.duty_door",
+        "chart_config.lead_stem"
+      ],
+      "outcome": "REJECTED",
+      "target": "AR-ANSWERS-01 winner (palace 9 is the subject)",
+      "why_en": "Void means 'does not land', not 'is not the subject'. Four independent header fields - is_duty_palace, duty_star, duty_door and the lead-stem proxy Xin - all resolve to palace 9. Reassigning the subject to palace 6 or 7 would be a strength-based guess with no field pointing at it, which laws 7 and 11 forbid."
+    },
+    {
+      "attempt_en": "Can the same evidence support palace 6 instead? Argument: palace 6 has a Prosperous door AND a Prosperous palace AND a San Qi stem; palace 8 has only a Resting door and a Resting palace.",
+      "check": "adversarial_rederivation",
+      "evidence_paths": [
+        "palaces.6.active_chart.energy_state.door",
+        "palaces.6.palace_stem_rules.stems_in_tomb",
+        "palaces.8.active_chart.energy_state.door"
+      ],
+      "outcome": "PARTIALLY_SUCCEEDED",
+      "target": "AR-BEST-01 leading candidate (palace 8)",
+      "why_en": "This attack lands. Palace 6 is genuinely stronger on door and palace strength, and the only thing separating them in the rubric is the extra contradiction from palace 6 being Bing's tomb. The resolution therefore does NOT discard palace 6: it is retained as a live co-candidate with an explicit margin note stating the flip condition. No single winner is asserted more strongly than the evidence allows."
+    },
+    {
+      "attempt_en": "Can the board be argued to be dynamic? Argument: palace 2 carries the horse star, which is movement.",
+      "check": "adversarial_rederivation",
+      "evidence_paths": [
+        "palaces.2.active_chart.status.has_horse_star",
+        "palaces.2.active_chart.status.is_void",
+        "palaces.2.active_chart.door"
+      ],
+      "outcome": "PARTIALLY_SUCCEEDED",
+      "target": "Fu Yin stasis claim",
+      "why_en": "The horse star is real and is recorded as a SEQUENCE verdict, not suppressed. But it sits in a void palace with the Death door, so it is movement without ground. The report states both, rather than resolving the tension by dropping one side."
+    },
+    {
+      "check": "citation_integrity",
+      "evidence_paths": [],
+      "outcome": "PASS",
+      "target": "every evidence.path in the package",
+      "why_en": "630 paths resolved against the source chart; 0 broken. Paths that did not resolve (for example palaces.5.active_chart.door, which does not exist because the Centre has no door) were pruned rather than cited, in an earlier AUDIT_FIX cycle."
+    },
+    {
+      "check": "candidate_contamination",
+      "evidence_paths": [],
+      "outcome": "PASS",
+      "target": "requirement_fit_score across all candidates",
+      "why_en": "Every candidate carries requirement_fit_score = null and the rubric's requirement_fit weight contributes 0.0 to every score. No assignment text was read at any point; no file outside QMDJ/ADVERTISING/project_1.json and the two specification files was opened."
+    },
+    {
+      "check": "overclaim_scan",
+      "evidence_paths": [],
+      "outcome": "PASS",
+      "target": "report language vs grounding tier",
+      "why_en": "The report states explicitly that no explicit answer field exists and that all headlines are COMPUTED. The best-solution section opens by conceding no path is clean. The tie between palaces 6 and 8 is disclosed rather than hidden behind a single confident recommendation."
+    }
+  ],
+  "verdict": "PASS"
+}

@@ -1,0 +1,282 @@
+{
+  "answers": [
+    {
+      "archetype_resolution_id": "AR-ANSWERS-01",
+      "claim_id": "V011-P5",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "palace_id": "5",
+      "polarity": "CONSTRAIN",
+      "text_en": "The day stem Bing sits in the Centre and is attached to palace 2. The actor is displaced: it has no directional position of its own and must operate through its host."
+    },
+    {
+      "archetype_resolution_id": "AR-ANSWERS-01",
+      "claim_id": "V025-P9",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "palace_id": "9",
+      "polarity": "SUPPORT",
+      "text_en": "Palace 9 is the duty palace: it carries both the duty star Tian Ying (Hero) and the duty door Jing (Scenery). This is where the chart says the subject of the question actually sits."
+    }
+  ],
+  "best_solution_candidates": [
+    {
+      "archetype_resolution_id": "AR-BEST-01",
+      "claim_id": "V009-P5",
+      "confidence": "MED",
+      "grounding": "COMPUTED",
+      "palace_id": "5",
+      "polarity": "SUPPORT",
+      "text_en": "Palace 5 holds the San Qi stem Bing. Quality, reputation and visibility are concentrated here."
+    },
+    {
+      "archetype_resolution_id": "AR-BEST-01",
+      "claim_id": "V012-P6",
+      "confidence": "HIGH",
+      "grounding": "COMPUTED",
+      "palace_id": "6",
+      "polarity": "SUPPORT",
+      "text_en": "The Kai (Open) door at palace 6 is Prosperous. This is a method the season actually supports."
+    },
+    {
+      "archetype_resolution_id": "AR-BEST-01",
+      "claim_id": "V013-P6",
+      "confidence": "MED",
+      "grounding": "COMPUTED",
+      "palace_id": "6",
+      "polarity": "SUPPORT",
+      "text_en": "Palace 6 holds the San Qi stem Ding. Quality, reputation and visibility are concentrated here."
+    },
+    {
+      "archetype_resolution_id": "AR-BEST-01",
+      "claim_id": "V032-P4",
+      "confidence": "MED",
+      "grounding": "COMPUTED",
+      "palace_id": "4",
+      "polarity": "SUPPORT",
+      "text_en": "Palace 4 holds the San Qi stem Yi. Quality, reputation and visibility are concentrated here."
+    },
+    {
+      "archetype_resolution_id": "AR-BEST-01",
+      "claim_id": "V041-P7",
+      "confidence": "HIGH",
+      "grounding": "COMPUTED",
+      "palace_id": "7",
+      "polarity": "SUPPORT",
+      "text_en": "The Jing (Fear) door at palace 7 is Prosperous. This is a method the season actually supports."
+    }
+  ],
+  "board_consistency": {
+    "pass": true,
+    "split_claims_recorded": 3
+  },
+  "headline_answers": [
+    {
+      "archetype_id": "ANS-DUTY-PALACE-9-VOID-SHOWPIECE",
+      "archetype_resolution_id": "AR-ANSWERS-01",
+      "final_score": 0.86,
+      "grounding_tier": "EXPLICIT",
+      "requirement_fit_score": null,
+      "status": "RESOLVED",
+      "text_en": "The subject of the question is the showpiece at palace 9, and it is void."
+    }
+  ],
+  "headline_best_solution_candidates": [
+    {
+      "archetype_id": "BEST-LIFE-DOOR-NE-P8-WITH-LIUHE",
+      "archetype_resolution_id": "AR-BEST-01",
+      "final_score": 0.6887,
+      "grounding_tier": "COMPUTED",
+      "requirement_fit_score": null,
+      "status": "RESOLVED",
+      "text_en": "Work through palace 8 (Northeast): Life door with Liu He (Six Harmony) and Ren, star Prosperous by palace, no void, no affliction - the only clean outer palace, i.e. the only clean way to reach an audience."
+    }
+  ],
+  "headline_hidden_problems": [
+    {
+      "archetype_id": "HID-VOID-SHOWPIECE-UNDER-PUNISHMENT",
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "final_score": 0.9,
+      "grounding_tier": "EXPLICIT",
+      "requirement_fit_score": null,
+      "status": "RESOLVED",
+      "text_en": "The showpiece is void and punished: the loudest, most visible element is the one that will not hold."
+    }
+  ],
+  "hidden_problems": [
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V001-P2",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "palace_id": "2",
+      "polarity": "WARN",
+      "text_en": "Palace 2 (Kun, Southwest) is void. Whatever is shown here does not land as displayed: it is announced but not received."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V003-P2",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "palace_id": "2",
+      "polarity": "VETO",
+      "text_en": "Palace 2 carries the affliction 'Clash Punishment (Ji Xing)'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V004-P2",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "palace_id": "2",
+      "polarity": "VETO",
+      "text_en": "Palace 2 carries the affliction 'Self Punishment'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V005-P2",
+      "confidence": "HIGH",
+      "grounding": "COMPUTED",
+      "palace_id": "2",
+      "polarity": "VETO",
+      "text_en": "Palace 2 is the tomb of the hour stem Jia. The matter in motion is already buried at this location."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V008-P2",
+      "confidence": "HIGH",
+      "grounding": "COMPUTED",
+      "palace_id": "2",
+      "polarity": "VETO",
+      "text_en": "Palace 2 hosts the displaced day stem Bing while being void, horse-struck, clash-punished and carrying the Death door. The actor's only landing place is the worst-conditioned palace on the board."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V010-P5",
+      "confidence": "HIGH",
+      "grounding": "COMPUTED",
+      "palace_id": "5",
+      "polarity": "CONSTRAIN",
+      "text_en": "The stem Bing (Fire) at palace 5 is Imprisoned this season. The climate does not support it however good it looks on the board."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V014-P6",
+      "confidence": "HIGH",
+      "grounding": "COMPUTED",
+      "palace_id": "6",
+      "polarity": "CONSTRAIN",
+      "text_en": "The stem Ding (Fire) at palace 6 is Imprisoned this season. The climate does not support it however good it looks on the board."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V015-P6",
+      "confidence": "HIGH",
+      "grounding": "COMPUTED",
+      "palace_id": "6",
+      "polarity": "VETO",
+      "text_en": "Palace 6 is the tomb of the day stem Bing. Committing the self here buries it: effort goes in and does not come back out."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V020-P9",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "palace_id": "9",
+      "polarity": "WARN",
+      "text_en": "Palace 9 (Li, South) is void. Whatever is shown here does not land as displayed: it is announced but not received."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V021-P9",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "palace_id": "9",
+      "polarity": "VETO",
+      "text_en": "Palace 9 carries the affliction 'Clash Punishment (Ji Xing)'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V022-P9",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "palace_id": "9",
+      "polarity": "VETO",
+      "text_en": "Palace 9 carries the affliction 'Self Punishment'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V023-P9",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "palace_id": "9",
+      "polarity": "WARN",
+      "text_en": "Palace 9 carries the affliction 'Fu Yin'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V024-P9",
+      "confidence": "HIGH",
+      "grounding": "COMPUTED",
+      "palace_id": "9",
+      "polarity": "VETO",
+      "text_en": "The Jing (Scenery) door at palace 9 is Imprisoned. This method is available on paper but has no force behind it; using it costs effort and returns little."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V030-P4",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "palace_id": "4",
+      "polarity": "WARN",
+      "text_en": "Palace 4 (Xun, Southeast) is void. Whatever is shown here does not land as displayed: it is announced but not received."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V031-P4",
+      "confidence": "HIGH",
+      "grounding": "COMPUTED",
+      "palace_id": "4",
+      "polarity": "VETO",
+      "text_en": "The Du (Restraint) door at palace 4 is Dead. This method is available on paper but has no force behind it; using it costs effort and returns little."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V033-P4",
+      "confidence": "HIGH",
+      "grounding": "COMPUTED",
+      "palace_id": "4",
+      "polarity": "CONSTRAIN",
+      "text_en": "The stem Yi (Wood) at palace 4 is Dead this season. The climate does not support it however good it looks on the board."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V036-P3",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "palace_id": "3",
+      "polarity": "VETO",
+      "text_en": "Palace 3 carries the affliction 'Six Instruments Clash Punishment (Liu Yi Ji Xing)'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V037-P3",
+      "confidence": "HIGH",
+      "grounding": "COMPUTED",
+      "palace_id": "3",
+      "polarity": "VETO",
+      "text_en": "The Shang (Harm) door at palace 3 is Dead. This method is available on paper but has no force behind it; using it costs effort and returns little."
+    },
+    {
+      "archetype_resolution_id": "AR-HIDDEN-01",
+      "claim_id": "V040-P7",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "palace_id": "7",
+      "polarity": "WARN",
+      "text_en": "Palace 7 carries the affliction 'Heavenly Net Spread'. Self-inflicted damage or internal contradiction is recorded on this palace by the chart itself."
+    }
+  ],
+  "note": "chart-derived only; not yet requirement-bound",
+  "requirement_fit_score": null,
+  "revision": 43
+}

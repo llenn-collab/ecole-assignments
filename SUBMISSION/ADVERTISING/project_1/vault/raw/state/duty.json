@@ -1,0 +1,28 @@
+{
+  "chart_pattern": "Fu Yin (All elements in home positions)",
+  "duty_door": "Jing (Scenery)",
+  "duty_door_palace": [
+    "9"
+  ],
+  "duty_palace_marked": [
+    "9"
+  ],
+  "duty_star": "Tian Ying (Hero)",
+  "duty_star_palace": [
+    "9"
+  ],
+  "lead_proxy_note": "Lead stem string 'Jia-Wu Xin' binds the Jia-Wu decade to its visible stand-in stem Xin. Jia itself never appears on the plate.",
+  "lead_proxy_palaces": [
+    "9"
+  ],
+  "lead_proxy_stem": "Xin",
+  "lead_stem_path": "chart_config.lead_stem",
+  "lead_stem_raw": "Jia-Wu Xin",
+  "lead_xun": "Jia-Wu",
+  "structure": "Yin Dun 3",
+  "tian_yi": null,
+  "tian_yi_note": "Tian Yi is not exposed by this schema. Zhi Fu (Chief) is the nearest authority spirit and sits at palace(s) ['9'].",
+  "zhi_fu_palaces": [
+    "9"
+  ]
+}

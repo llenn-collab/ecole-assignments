@@ -1,0 +1,19 @@
+{
+  "anchor": "L31-L33",
+  "applies_to_deliverables": [
+    "D03",
+    "D04",
+    "D05",
+    "D01"
+  ],
+  "finding_en": "The brief never uses the word logo, and never asks for a brand identity, wordmark or mark of any kind. The deliverable it names is a campaign deck, not an identity system.",
+  "pdf_mentions_logo": false,
+  "policy": "EXCLUDE_ARTWORK",
+  "rule_en": "No finished logo artwork, and no finished advertising artwork, is produced. Every visual is delivered as written art direction precise enough for a designer to execute. This satisfies the brief, which asks for a deck and for creatives specified across media, while respecting the standing exclusion on producing actual design artwork.",
+  "searched_terms": [
+    "logo",
+    "identity",
+    "wordmark",
+    "brand mark"
+  ]
+}

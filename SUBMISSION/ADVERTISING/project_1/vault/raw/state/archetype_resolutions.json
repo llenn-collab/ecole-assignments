@@ -1,0 +1,340 @@
+{
+  "resolutions": [
+    {
+      "candidates_considered": [
+        {
+          "archetype_id": "ANS-DUTY-PALACE-9-VOID-SHOWPIECE",
+          "board_consistency_pass": true,
+          "contradicting_evidence_count": 1,
+          "final_score": 0.86,
+          "grounding_tier": "EXPLICIT",
+          "label_en": "The subject of the question is the showpiece at palace 9, and it is void.",
+          "rejection_reason": null,
+          "requirement_fit_score": null,
+          "selected": true,
+          "supporting_evidence_count": 8
+        },
+        {
+          "archetype_id": "ANS-ACTOR-DISPLACED-TO-CENTRE",
+          "board_consistency_pass": true,
+          "contradicting_evidence_count": 1,
+          "final_score": 0.7975,
+          "grounding_tier": "EXPLICIT",
+          "label_en": "The actor (day stem Bing) has no seat of its own and operates through palace 2.",
+          "rejection_reason": "Not selected as the headline answer because it answers a different question: it describes where the actor stands, not what the chart says the matter is. Retained as a live secondary answer - it is not contradicted by anything on the board.",
+          "requirement_fit_score": null,
+          "selected": false,
+          "supporting_evidence_count": 6
+        },
+        {
+          "archetype_id": "ANS-ACTOR-AT-PALACE-1",
+          "board_consistency_pass": false,
+          "contradicting_evidence_count": 4,
+          "final_score": 0.1762,
+          "grounding_tier": "INFERRED",
+          "label_en": "The actor is read at palace 1 by Kan/North default.",
+          "rejection_reason": "Palace 1 holds Geng, not the day stem, and carries no duty marker. Choosing it would be a positional guess, which law 7 and law 11 forbid.",
+          "requirement_fit_score": null,
+          "selected": false,
+          "supporting_evidence_count": 1
+        }
+      ],
+      "evidence_chain": [
+        {
+          "description": "Palace 9 is flagged the duty palace.",
+          "path": "palaces.9.active_chart.status.is_duty_palace",
+          "step": "raw_field",
+          "value": "True"
+        },
+        {
+          "description": "Duty star named in the header.",
+          "path": "chart_config.duty_star",
+          "step": "raw_field",
+          "value": "Tian Ying (Hero)"
+        },
+        {
+          "description": "The same palace is void.",
+          "path": "palaces.9.active_chart.status.is_void",
+          "step": "raw_field",
+          "value": "True"
+        },
+        {
+          "description": "Jing (Scenery) door Imprisoned and palace Imprisoned: the showpiece has no force.",
+          "evidence_paths": [
+            "palaces.9.active_chart.energy_state.door",
+            "palaces.9.active_chart.energy_state.palace"
+          ],
+          "step": "computed_relation"
+        },
+        {
+          "class": "duty_star",
+          "description": "Authority of the brief sits at palace 9.",
+          "step": "interpretation_class"
+        },
+        {
+          "description": "The answer the chart gives is about a showcase that is announced but does not land.",
+          "name_or_combination": "ANS-DUTY-PALACE-9-VOID-SHOWPIECE",
+          "step": "candidate_archetype"
+        }
+      ],
+      "margin_note": "The runner-up (actor displaced to the Centre) is only 0.05 behind and is not really a rival: it describes the same situation from the actor's side rather than the subject's side. Both are kept live. The decision would flip only if the chart exposed an explicit yongshen field pointing somewhere other than palace 9.",
+      "resolution_id": "AR-ANSWERS-01",
+      "slot": "chart_answers_candidate",
+      "winner": "ANS-DUTY-PALACE-9-VOID-SHOWPIECE"
+    },
+    {
+      "candidates_considered": [
+        {
+          "archetype_id": "HID-VOID-SHOWPIECE-UNDER-PUNISHMENT",
+          "board_consistency_pass": true,
+          "contradicting_evidence_count": 0,
+          "final_score": 0.9,
+          "grounding_tier": "EXPLICIT",
+          "label_en": "The showpiece is void and punished: the loudest, most visible element is the one that will not hold.",
+          "rejection_reason": null,
+          "requirement_fit_score": null,
+          "selected": true,
+          "supporting_evidence_count": 8
+        },
+        {
+          "archetype_id": "HID-ACTORS-ONLY-SEAT-IS-A-DEATH-DOOR",
+          "board_consistency_pass": true,
+          "contradicting_evidence_count": 0,
+          "final_score": 0.8688,
+          "grounding_tier": "EXPLICIT",
+          "label_en": "The actor's only landing place (palace 2) is void, horse-struck, self-punished and carries the Death door.",
+          "rejection_reason": "Not selected as the headline hidden problem only because the void showpiece is carried by more independent evidence paths. Retained live and unmodified; it is a co-equal hidden problem, not a discarded one.",
+          "requirement_fit_score": null,
+          "selected": false,
+          "supporting_evidence_count": 7
+        },
+        {
+          "archetype_id": "HID-TOTAL-FU-YIN-STASIS",
+          "board_consistency_pass": true,
+          "contradicting_evidence_count": 1,
+          "final_score": 0.7975,
+          "grounding_tier": "EXPLICIT",
+          "label_en": "Whole-board Fu Yin: nothing moves on its own, so no result appears without deliberate external force.",
+          "rejection_reason": "Not selected as headline because it is a condition of the whole board rather than a specific trap, so it describes why problems persist rather than naming one. Retained live as framing for the other hidden problems.",
+          "requirement_fit_score": null,
+          "selected": false,
+          "supporting_evidence_count": 6
+        },
+        {
+          "archetype_id": "HID-BEST-EXIT-IS-THE-SELF-TOMB",
+          "board_consistency_pass": true,
+          "contradicting_evidence_count": 1,
+          "final_score": 0.6262,
+          "grounding_tier": "COMPUTED",
+          "label_en": "The most attractive palace (6, Open door + Ding, both Prosperous) is simultaneously the tomb of the day stem.",
+          "rejection_reason": "Not selected as headline because it is COMPUTED rather than EXPLICIT and depends on reading palace 6 as the preferred route, which is itself still contested. Retained live as a direct warning attached to the best-solution candidate.",
+          "requirement_fit_score": null,
+          "selected": false,
+          "supporting_evidence_count": 5
+        },
+        {
+          "archetype_id": "HID-WOOD-DEAD-KILLS-THE-HOUR",
+          "board_consistency_pass": true,
+          "contradicting_evidence_count": 1,
+          "final_score": 0.595,
+          "grounding_tier": "COMPUTED",
+          "label_en": "The hour stem Jia is absent from every plate and Wood is Dead: the matter in motion has no visible body this season.",
+          "rejection_reason": "Not selected as headline because the hour stem is absent from the plate, so the claim rests on proxy reasoning rather than a visible palace. Retained live at lower weight.",
+          "requirement_fit_score": null,
+          "selected": false,
+          "supporting_evidence_count": 4
+        },
+        {
+          "archetype_id": "HID-NO-PROBLEM-BOARD-IS-FINE",
+          "board_consistency_pass": false,
+          "contradicting_evidence_count": 5,
+          "final_score": 0.1362,
+          "grounding_tier": "INFERRED",
+          "label_en": "The board is broadly prosperous and carries no structural problem.",
+          "rejection_reason": "Three palaces are void, four carry named afflictions, two palaces and two doors are Dead, one door and one palace are Imprisoned. The claim is contradicted by the chart on its face.",
+          "requirement_fit_score": null,
+          "selected": false,
+          "supporting_evidence_count": 1
+        }
+      ],
+      "evidence_chain": [
+        {
+          "description": "Duty palace is void.",
+          "path": "palaces.9.active_chart.status.is_void",
+          "step": "raw_field",
+          "value": "True"
+        },
+        {
+          "description": "Three afflictions stacked on the same palace.",
+          "path": "palaces.9.active_chart.stems.afflictions",
+          "step": "raw_field",
+          "value": "Clash Punishment (Ji Xing), Self Punishment, Fu Yin"
+        },
+        {
+          "description": "Year branch Wu and hour branch Wu both stack onto palace 9, concentrating timing on a void palace.",
+          "evidence_paths": [
+            "timing.four_pillars.year",
+            "timing.four_pillars.hour",
+            "palaces.9.base_position.earthly_branches"
+          ],
+          "step": "computed_relation"
+        },
+        {
+          "class": "void_on_showpiece",
+          "description": "Void on the showpiece means it will not land.",
+          "step": "interpretation_class"
+        },
+        {
+          "description": "The primary hidden problem is a visible centrepiece with no substance behind it.",
+          "name_or_combination": "HID-VOID-SHOWPIECE-UNDER-PUNISHMENT",
+          "step": "candidate_archetype"
+        }
+      ],
+      "margin_note": "The top two are separated by roughly 0.03. They are not mutually exclusive and both remain live hidden problems: one describes the subject, the other the actor's seat. Nothing in the chart would demote either short of an explicit metadata override.",
+      "resolution_id": "AR-HIDDEN-01",
+      "slot": "chart_hidden_problems_candidate",
+      "winner": "HID-VOID-SHOWPIECE-UNDER-PUNISHMENT"
+    },
+    {
+      "candidates_considered": [
+        {
+          "amendment_en": "P7 added three previously unread supporting facts: palace 8 lists Bing (the day stem) in `stems_in_birth_stage`, its stem Ren is Water which is Strengthening, and its harm rule against Xin is latent rather than active.",
+          "archetype_id": "BEST-LIFE-DOOR-NE-P8-WITH-LIUHE",
+          "board_consistency_pass": true,
+          "contradicting_evidence_count": 1,
+          "final_score": 0.72,
+          "grounding_tier": "COMPUTED",
+          "label_en": "Work through palace 8 (Northeast): Life door with Liu He (Six Harmony) and Ren, star Prosperous by palace, no void, no affliction - the only clean outer palace, i.e. the only clean way to reach an audience.",
+          "rejection_reason": null,
+          "requirement_fit_score": null,
+          "selected": true,
+          "supporting_evidence_count": 10
+        },
+        {
+          "amendment_en": "P7 added one supporting fact - the day branch Xu belongs to palace 6, so the actor's branch is already here - and one contradicting fact: set directly against palace 8's birth stage, palace 6's status as Bing's tomb is now a measured opposition rather than an isolated caution.",
+          "archetype_id": "BEST-OPEN-DOOR-NW-P6-WITH-DING",
+          "board_consistency_pass": true,
+          "contradicting_evidence_count": 3,
+          "final_score": 0.64,
+          "grounding_tier": "COMPUTED",
+          "label_en": "Work through palace 6 (Northwest): Open door and Ding, both Prosperous, with Tian Xin (Heart) - the only place on the board with a working method and quality at the same time.",
+          "rejection_reason": "Separated from palace 8 in the P7 amendment by the birth-stage/tomb opposition on the day stem Bing: palace 8 is Bing's birth stage, palace 6 is Bing's tomb. Retained as a live co-candidate and the preferred route for quality, finishing or reputation work, because it holds the only Prosperous door carrying a San Qi stem and the actor's own day branch Xu sits there. It is rejected only as the primary route for the actor's own development.",
+          "requirement_fit_score": null,
+          "selected": false,
+          "supporting_evidence_count": 8
+        },
+        {
+          "archetype_id": "BEST-JING-FEAR-W-P7",
+          "board_consistency_pass": true,
+          "contradicting_evidence_count": 3,
+          "final_score": 0.515,
+          "grounding_tier": "COMPUTED",
+          "label_en": "Work through palace 7 (West): Jing (Fear) door Prosperous with Gui and Jiu Di.",
+          "rejection_reason": "The door is Prosperous but it is the Fear door under a 'Heavenly Net Spread' affliction with Nine Earths concealment. It is a defensive position, not a path to a result.",
+          "requirement_fit_score": null,
+          "selected": false,
+          "supporting_evidence_count": 4
+        },
+        {
+          "archetype_id": "BEST-RIDE-THE-HORSE-AT-P2",
+          "board_consistency_pass": false,
+          "contradicting_evidence_count": 5,
+          "final_score": 0.3037,
+          "grounding_tier": "COMPUTED",
+          "label_en": "Use the horse star at palace 2 to force movement.",
+          "rejection_reason": "Palace 2 is void, carries the Death door, is clash- and self-punished, and entombs Jia. Movement launched from here has no ground under it. Vetoed by board consistency.",
+          "requirement_fit_score": null,
+          "selected": false,
+          "supporting_evidence_count": 3
+        },
+        {
+          "archetype_id": "BEST-PUSH-THE-SHOWPIECE-AT-P9",
+          "board_consistency_pass": false,
+          "contradicting_evidence_count": 6,
+          "final_score": 0.2725,
+          "grounding_tier": "COMPUTED",
+          "label_en": "Double down on the duty palace and push the showpiece harder.",
+          "rejection_reason": "Palace 9 is void, Imprisoned in both door and palace, triple-afflicted and Fu Yin. Amplifying it amplifies nothing. Directly contradicted by the AR-HIDDEN-01 winner, so it fails the cross-palace consistency check.",
+          "requirement_fit_score": null,
+          "selected": false,
+          "supporting_evidence_count": 2
+        }
+      ],
+      "evidence_chain": [
+        {
+          "description": "Open door at palace 6.",
+          "path": "palaces.6.active_chart.door",
+          "step": "raw_field",
+          "value": "Kai (Open)"
+        },
+        {
+          "description": "That door is Prosperous.",
+          "path": "palaces.6.active_chart.energy_state.door",
+          "step": "raw_field",
+          "value": "Prosperous"
+        },
+        {
+          "description": "Ding is a San Qi stem.",
+          "path": "palaces.6.active_chart.stems.heaven",
+          "step": "raw_field",
+          "value": "Ding"
+        },
+        {
+          "description": "Life door at palace 8.",
+          "path": "palaces.8.active_chart.door",
+          "step": "raw_field",
+          "value": "Sheng (Life)"
+        },
+        {
+          "description": "Six Harmony supports agreement and partnership.",
+          "path": "palaces.8.active_chart.god",
+          "step": "raw_field",
+          "value": "Liu He (Six Harmony)"
+        },
+        {
+          "description": "Palace 6 entombs the day stem Bing; palace 8 does not. Palace 6 is Inner, palace 8 is Outer.",
+          "evidence_paths": [
+            "palaces.6.palace_stem_rules.stems_in_tomb",
+            "palaces.8.palace_stem_rules.stems_in_tomb"
+          ],
+          "step": "computed_relation"
+        },
+        {
+          "class": "sanqi_with_good_door",
+          "description": "Quality method at palace 6.",
+          "step": "interpretation_class"
+        },
+        {
+          "class": "outer",
+          "description": "Audience-facing route at palace 8.",
+          "step": "interpretation_class"
+        },
+        {
+          "description": "Two structurally different routes with equal chart support.",
+          "name_or_combination": "BEST-OPEN-DOOR-NW-P6-WITH-DING | BEST-LIFE-DOOR-NE-P8-WITH-LIUHE",
+          "step": "candidate_archetype"
+        },
+        {
+          "description": "Palace 8 holds the day stem Bing in its birth stage - the exact structural opposite of palace 6, which is Bing's tomb.",
+          "path": "palaces.8.palace_stem_rules.stems_in_birth_stage",
+          "step": "raw_field",
+          "value": "Bing, Wu"
+        },
+        {
+          "description": "Birth stage versus tomb for the same stem is a polar opposition, not a matter of degree. It separates two candidates that were otherwise level.",
+          "evidence_paths": [
+            "palaces.8.palace_stem_rules.stems_in_birth_stage",
+            "palaces.6.palace_stem_rules.stems_in_tomb",
+            "timing.four_pillars.day"
+          ],
+          "step": "computed_relation"
+        }
+      ],
+      "margin_note": "AMENDED IN P7. The earlier run scored these 0.6887 to 0.6487 and declined to separate them, stating that the discriminator would have to come from assignment information. That was wrong, and the correction matters: the discriminator was sitting unread in the chart itself. `palaces.8.palace_stem_rules.stems_in_birth_stage` contains Bing, the day stem, while `palaces.6.palace_stem_rules.stems_in_tomb` contains the same Bing. Palace 8 is where the actor is born; palace 6 is where the actor is buried. That is a polar opposition on the single most important stem in the chart, and it separates the two candidates without any appeal to the assignment. Amended scores: palace 8 0.72, palace 6 0.64. Palace 6 is NOT discarded - it retains the only Prosperous door on a San Qi stem and holds the actor's own day branch Xu, so it remains the correct choice for anything requiring quality or finishing rather than growth. But as a route for the actor to survive and develop, palace 8 now wins on the chart's own evidence.",
+      "resolution_id": "AR-BEST-01",
+      "slot": "chart_best_solution_candidate",
+      "status": "RESOLVED_BY_AMENDMENT",
+      "winner": "BEST-LIFE-DOOR-NE-P8-WITH-LIUHE"
+    }
+  ]
+}
