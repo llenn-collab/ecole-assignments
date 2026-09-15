@@ -11,7 +11,7 @@ the number of slides as per your content.
 Important: The brand selected for this assignment will be used for subsequent assignments
 throughout the semester.
 
-1. Choosing Your Brand (most important)
+# 1. Choosing Your Brand (most important)
 
 You may choose either a fictional brand or a real small/emerging brand.
 
@@ -21,11 +21,9 @@ The brand should have:
 ●  A specific category
 ●  A realistic target consumer
 ●  A clear reason for existing / problem it solves
-●  Enough scope for future digital marketing across content, social, search, paid media,
+●  Enough scope for future digital marketing across content, social, search, paid media, CRM, etc.
 
-CRM, etc.
-
-Good examples
+## Good examples
 
 ●  Sustainable skincare brand
 ●  Premium coffee subscription
@@ -38,19 +36,18 @@ Good examples
 ●  Sneaker brand / marketplace
 ●  Affordable beauty brand
 
-Avoid
+## Avoid
 
 Ideas dependent on unrealistic technology
 
 ●  Extremely broad concepts such as “a fashion brand for everyone”
 ●  Brands with no clear product/service
-●
 ●  Copying an existing major brand with only a new name
 ●  Categories where the you may have no clear understanding of the consumer
 ●  Creating multiple unrelated product categories under one brand
 ●  Not alcohol brands
 
-Brand Selection Test
+## Brand Selection Test
 
 Before finalising the brand, you should be able to answer:
 
@@ -63,9 +60,9 @@ If these four answers aren't clear, your brand needs refinement.
 
 —----- —--
 
-Suggested Slide Structure
+# Suggested Slide Structure
 
-Slide 1 - Brand Introduction
+## Slide 1 - Brand Introduction
 
 Include:
 
@@ -78,7 +75,7 @@ Include:
 
 (no detailed logo/ brand identity work is required at this stage)
 
-Slide 2 - Brand Overview
+## Slide 2 - Brand Overview
 Explain briefly:
 
 ●  What does the brand offer?
@@ -88,7 +85,7 @@ Explain briefly:
 
 (this will be more strategic than creative / design heavy)
 
-Slide 3 - Business Goal
+## Slide 3 - Business Goal
 
 Define one primary business goal.
 
@@ -101,7 +98,7 @@ Examples:
 (The business goal should describe what the business wants to achieve, not what marketing
 will do)
 
-Slide 4 - Marketing Objective
+## Slide 4 - Marketing Objective
 
 Translate the business goal into 1 - 2 SMART marketing objectives.
 
@@ -112,32 +109,30 @@ Generate 5,000 qualified website visitors per month within six months and conver
 
 You must explain briefly: How does this marketing objective support the business goal?
 
-Slide 5 - Target Audience
+## Slide 5 - Target Audience
 
 Define the primary target audience.
 
 Include:
 
-Demographics
+### Demographics
 
 ●  Age
 ●  Gender, if relevant
 ●  Location
-●
 ●  Occupation / life stage
 
-Income / spending power
+### Income / spending power
 
-Psychographics
+### Psychographics
 
-●
-Interests
+●  Interests
 ●  Lifestyle
 ●  Values
 ●  Motivations
 ●  Attitudes
 
-Behaviour
+### Behaviour
 
 ●  Shopping habits
 ●  Digital behaviour
@@ -148,20 +143,19 @@ Avoid descriptions like: “18 - 45, everyone interested in fitness.”
 
 The audience should be specific enough to guide marketing decisions.
 
-Slide 6 - Buyer Persona
+## Slide 6 - Buyer Persona
 
 Create one detailed primary buyer persona. (You may add images/ creatives/ media to
 emphasise the buyer persona)
 
-Include:
+### Include:
 
 ●  Name / profile
 ●  Age
 ●  Occupation
 ●  Location
 ●  Lifestyle
-●
-Interests
+●  Interests
 ●  Goals
 ●  Pain points
 ●  Motivations
@@ -171,7 +165,7 @@ Interests
 
 The persona should be based on the target audience - not random.
 
-Slide 7 - Customer Journey
+## Slide 7 - Customer Journey
 
 Map the persona's journey from:
 
@@ -190,7 +184,7 @@ Example:
 Instagram Reel → Google Search → Brand Website → Reviews → Purchase → Email →
 Repeat Purchase
 
-Slide 8 - Digital Marketing Strategy
+## Slide 8 - Digital Marketing Strategy
 
 Write 1 - 2 concise paragraphs answering:
 
@@ -212,7 +206,7 @@ For example:
 ✅ “The brand will build awareness through creator-led educational content, capture high-intent
 consumers through search, and use CRM to convert first-time buyers into repeat customers.”
 
-Slide 9 - PESO Media Mix
+## Slide 9 - PESO Media Mix
 
 Map the brand across:
 
@@ -235,7 +229,7 @@ Examples: Website, email database, social handles, app.
 You do not need to add detailed campaigns yet.
 The objective is to show that you understand how the four media types can work together.
 
-Slide 10 - Recommended Digital Channels
+## Slide 10 - Recommended Digital Channels
 
 Choose approximately 4 - 6 priority digital channels.
 
@@ -275,7 +269,7 @@ The important word here is recommended.
 
 You should also be able to explain why certain platforms are not priorities.
 
-Slide 11 - Integrated Digital Journey
+## Slide 11 - Integrated Digital Journey
 Bring everything together visually.
 
 For example:
@@ -290,7 +284,7 @@ Instagram / Creator
 
 This slide should demonstrate that channels are connected, not isolated.
 
-Slide 12 - Key Strategic Decisions
+## Slide 12 - Key Strategic Decisions
 
 End with 3 - 5 statements summarising the strategy.
 
@@ -298,7 +292,6 @@ For example:
 
 ●  Primary consumer = time-poor urban professionals.
 ●  Convenience is the key purchase driver.
-●
 ●  Website UX must reduce purchase friction.
 ●  CRM will be critical for repeat purchases.
 
@@ -312,8 +305,7 @@ Because this is only Assignment 1, do not include -
 
 ●  Detailed social media posts
 ●  Content calendars
-Influencer lists
-●
+●  Influencer lists
 ●  SEO keyword plans
 ●  Paid media budgets
 ●  Email journeys
