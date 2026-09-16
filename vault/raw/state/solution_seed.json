@@ -1,0 +1,211 @@
+{
+  "answers": [
+    {
+      "archetype_resolution": "RES-001",
+      "claims": [
+        "CLM-001",
+        "CLM-002"
+      ],
+      "constraints_cited": [
+        "palaces.zhen_3.special_markers[0]",
+        "palaces.zhen_3.prosperity_decline.palace_state",
+        "palaces.zhen_3.harm"
+      ],
+      "context": {
+        "center_displacement": [
+          "CLM-025",
+          "CLM-026"
+        ],
+        "life_stage_support": {
+          "archetype_resolution": "RES-001",
+          "claim_id": "CLM-033",
+          "note": "day-stem generative seat parked in day-void gate (Kun 2) — growth is structural, timing is not-yet"
+        }
+      },
+      "reading": "The answer sits in Zhen 3: day stem + concealed leader proxy + duty star + Chief deity converge on one palace. It arrives hour-void (lands on Mao day/hour), runs an Imprisoned Scenery method, and is fed through covered channels (earth Xin generates heaven Ren; hidden Ding-Ren combination). Center's displaced core (Ji + Tian Qin) lodges here too — the institutional core of the matter is administered from this seat.",
+      "score": 0.7,
+      "seat": "Zhen 3 Palace (outer, East, Wood)",
+      "status": "chart-derived only; not yet requirement-bound",
+      "winner": "ANS-seats-in-zhen-3"
+    }
+  ],
+  "best_solution_candidates": [
+    {
+      "archetype": "BEST-dui-7-earthly-escape-channel",
+      "archetype_resolution": "RES-003",
+      "caveats_cited": [
+        "palaces.dui_7.deity",
+        "palaces.dui_7.harm"
+      ],
+      "claims": [
+        "CLM-011",
+        "CLM-012",
+        "CLM-034"
+      ],
+      "rank": 1,
+      "reading": "HOW: rest-and-consolidate through Dui 7 — the board's one concordant-strong, affliction-free palace: sanqi stacked (Bing/Yi), earthly escape co-located (Yi + Rest Door), Palace Generating Door explicit, month-stacked (in-period). White Tiger warns the strength reads severe; run it clean and procedural, inside institutions (inner ring).",
+      "score": 0.8
+    },
+    {
+      "archetype": "BEST-qian-6-harmony-help-channel",
+      "archetype_resolution": "RES-003",
+      "caveats_cited": [
+        "palaces.qian_6.special_markers[0]",
+        "palaces.qian_6.prosperity_decline.star_strength"
+      ],
+      "claims": [
+        "CLM-008"
+      ],
+      "rank": 2,
+      "reading": "WHEN/WITH WHOM: Qian 6 is the timing and alliance seat — hour focus, Life door, Six Harmony, Tian Yi star; support is real but buried (star Imprisoned/Imprisoned, Wu entombed, Xu-Chen clash to the day root): activate for pacts and backstage help, expect friction and latency.",
+      "score": 0.65
+    },
+    {
+      "archetype": "BEST-li-9-salary-channel",
+      "archetype_resolution": "RES-003",
+      "claims": [
+        "CLM-032"
+      ],
+      "rank": "rejected",
+      "reason": "void-locked payoff window",
+      "score": 0.55
+    },
+    {
+      "archetype": "BEST-kun-2-open-gate",
+      "archetype_resolution": "RES-003",
+      "claims": [
+        "CLM-023"
+      ],
+      "rank": "rejected",
+      "reason": "opens onto day-void with entombed stem and obscurity deity",
+      "score": 0.525
+    }
+  ],
+  "hidden_problems": [
+    {
+      "archetype": "HID-palace-4-death-duty-tomb-cluster",
+      "archetype_resolution": "RES-002",
+      "claims": [
+        "CLM-015",
+        "CLM-016"
+      ],
+      "rank": 1,
+      "reading": "The avoid-list cluster: Death duty door forced in Xun 4, Door Entering Tomb, the day stem itself entombed and punished there, sanqi Yi restricted — the glittering 'wonder mission' of Xun 4 is the locked door. The hour horse runs straight at it.",
+      "score": 0.7
+    },
+    {
+      "archetype": "HID-palace-9-void-showpiece",
+      "archetype_resolution": "RES-002",
+      "claims": [
+        "CLM-029"
+      ],
+      "rank": 2,
+      "reading": "The public-facing showcase layer is day-void on the year-stacked palace: big display energy (Scenery at home, 'Prosperous' door) that does not land this window; fills on Wu day/hour.",
+      "score": 0.6889
+    },
+    {
+      "also_tied": {
+        "HID-palace-2-void-open-jia-tomb": [
+          "CLM-024"
+        ],
+        "HID-palace-8-stalled-storage": [
+          "CLM-027"
+        ]
+      },
+      "archetype": "HID-palace-1-great-barrier",
+      "archetype_resolution": "RES-002",
+      "claims": [
+        "CLM-020"
+      ],
+      "rank": 3,
+      "reading": "Great Barrier (Geng over Gui) with injury door at Dead on the groundwork track — stalls and grind, intermittent rather than terminal.",
+      "score": 0.6611,
+      "tied_with": [
+        "HID-palace-2-void-open-jia-tomb",
+        "HID-palace-8-stalled-storage"
+      ]
+    }
+  ],
+  "note": "chart-derived only; not yet requirement-bound",
+  "patches": [
+    {
+      "after": "palace 3 (B1)",
+      "answers": 2,
+      "best_solution_candidates": 0,
+      "hidden_problems": 0,
+      "rev": 1
+    },
+    {
+      "after": "palace 6 (B2)",
+      "answers": 2,
+      "best_solution_candidates": 1,
+      "hidden_problems": 0,
+      "rev": 2
+    },
+    {
+      "after": "palace 7 (B3)",
+      "answers": 2,
+      "best_solution_candidates": 3,
+      "hidden_problems": 0,
+      "rev": 3
+    },
+    {
+      "after": "palace 4 (B4)",
+      "answers": 2,
+      "best_solution_candidates": 4,
+      "hidden_problems": 2,
+      "rev": 4
+    },
+    {
+      "after": "palace 1 (B5)",
+      "answers": 2,
+      "best_solution_candidates": 4,
+      "hidden_problems": 3,
+      "rev": 5
+    },
+    {
+      "after": "palace 2 (B5)",
+      "answers": 2,
+      "best_solution_candidates": 6,
+      "hidden_problems": 4,
+      "rev": 6
+    },
+    {
+      "after": "palace 5 (B5)",
+      "answers": 4,
+      "best_solution_candidates": 6,
+      "hidden_problems": 4,
+      "rev": 7
+    },
+    {
+      "after": "palace 8 (B5)",
+      "answers": 4,
+      "best_solution_candidates": 7,
+      "hidden_problems": 5,
+      "rev": 8
+    },
+    {
+      "after": "palace 9 (B5)",
+      "answers": 4,
+      "best_solution_candidates": 8,
+      "hidden_problems": 6,
+      "rev": 9
+    },
+    {
+      "after": "P6 finalise",
+      "answers": 1,
+      "best_solution_candidates": 4,
+      "hidden_problems": 3,
+      "rev": 10
+    },
+    {
+      "after": "AUDIT_FIX cycle 2 (O6 life-stage claim, O7 harm@7 warn, RES-003 recount)",
+      "answers": 1,
+      "best_solution_candidates": 4,
+      "hidden_problems": 3,
+      "rev": 11
+    }
+  ],
+  "requirement_fit_score_policy": "null everywhere; binding deferred to downstream solver",
+  "revision": 11
+}

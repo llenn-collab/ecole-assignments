@@ -1,0 +1,20 @@
+[
+  {
+    "chosen": "Off Hours — single-category D2C sleep & recovery brand; written name only",
+    "rationale": "singleton EXPLICIT grounding; covers R01–R10 incl. brand-selection test R08",
+    "slot": "my_answers",
+    "source_path": "solution_seed.answers[0]+patterns.archetype_resolutions.RES-001"
+  },
+  {
+    "chosen": "HID-1..HID-5 (hype launch trap, void showcase, groundwork grind, marketplace obscurity, content backlog)",
+    "rationale": "ranked by package score & tie group; each bound to a hard-compliance requirement",
+    "slot": "hidden_problems",
+    "source_path": "solution_seed.hidden_problems[*]+patterns.archetype_resolutions.RES-002"
+  },
+  {
+    "chosen": "rest-and-consolidation spine (owned CRM/subscription + institutional inner ring), alliances phase-2",
+    "rationale": "winner solver_score 0.8647 vs runner 0.748; no tie",
+    "slot": "best_solution",
+    "source_path": "solution_seed.best_solution_candidates[*]+patterns.archetype_resolutions.RES-003"
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "batch": "B5",
+  "palace_id": "1",
+  "relations": [
+    {
+      "context": "heaven/earth plates of palace 1",
+      "description": "Gui water generates Geng metal \u2014 plate feeds from below",
+      "evidence": [
+        "palaces.kan_1.heaven_stem",
+        "palaces.kan_1.earth_stem"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Gui",
+        "Geng"
+      ],
+      "type": "generation"
+    },
+    {
+      "description": "palace Water generates door Shang (Wood)",
+      "evidence": [
+        "palaces.kan_1.door",
+        "state:palace_key_resolution.palaces.1.element"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "1",
+        "Shang"
+      ],
+      "type": "palace_generating_door"
+    },
+    {
+      "at_home": false,
+      "description": "Tian Fu home palace 4, seated in 1 \u2014 DISPLACED",
+      "evidence": [
+        "palaces.kan_1.star",
+        "state:qmdj_complete.star_home_luoshu"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Tian Fu",
+        "1"
+      ],
+      "type": "star_home_displacement"
+    },
+    {
+      "description": "door Shang away from original (Rest Door)",
+      "evidence": [
+        "palaces.kan_1.door",
+        "palaces.kan_1.original_position.door"
+      ],
+      "grounding": "COMPUTED",
+      "hit": false,
+      "parties": [
+        "Shang",
+        "1"
+      ],
+      "type": "door_at_original_palace"
+    },
+    {
+      "description": "palace branch Zi clashes year pillar branch Wu (Zi-Wu clash)",
+      "evidence": [
+        "chart_info.ganzhi.year",
+        "state:palace_key_resolution.palaces.1.branches"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Zi",
+        "Wu"
+      ],
+      "type": "branch_clash"
+    },
+    {
+      "description": "day element Water vs palace element Water: same element kin",
+      "evidence": [
+        "chart_info.ganzhi.day",
+        "state:palace_key_resolution.palaces.1.element"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Ren",
+        "1"
+      ],
+      "type": "day_element_vs_palace"
+    }
+  ],
+  "source_excerpt": {
+    "auspicious_patterns": [
+      "Palace Generating Door"
+    ],
+    "deity": "Great Yin",
+    "door": "Shang",
+    "earth_stem": "Gui",
+    "heaven_stem": "Geng",
+    "hidden_stem": "Xin",
+    "inauspicious_patterns": [
+      "Great Barrier"
+    ],
+    "life_stage": "Xin (Zi, Kan 1)",
+    "name": "Kan 1 Palace",
+    "original_position": {
+      "branches": [
+        "Zi"
+      ],
+      "deity": "Chief",
+      "door": "Rest Door",
+      "numbers": [
+        "6 1",
+        "1 6"
+      ],
+      "opposite_palace": "Kun 8",
+      "star": "Heavenly Peng"
+    },
+    "prosperity_decline": {
+      "door_strength": "Dead",
+      "palace_state": "Strong / Outer",
+      "star_strength": "Discarded / Imprisoned"
+    },
+    "star": "Heaven Fu"
+  },
+  "verdict_claim_ids": [
+    "CLM-020",
+    "CLM-021"
+  ]
+}

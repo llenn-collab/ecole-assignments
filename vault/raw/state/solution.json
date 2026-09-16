@@ -1,0 +1,462 @@
+{
+  "answers": [
+    {
+      "computed": {
+        "board_consistency_pass": true,
+        "contradicting_evidence_count": 2,
+        "corroboration_norm": 1.0,
+        "grounding_tier": "EXPLICIT",
+        "requirement_fit": 1.0,
+        "solver_score": 0.8667,
+        "text_budget": {
+          "char_count": 1325,
+          "objective": {
+            "n": 1,
+            "total_chars": 4800
+          },
+          "within_budget": true
+        }
+      },
+      "confidence": 0.9,
+      "evidence": [
+        "patterns.archetype_resolutions.RES-001",
+        "solution_seed.answers[0]",
+        "origin_sets.B1",
+        "systems.void_tomb_punish_force_horse_graph['3'].void",
+        "systems.pillars_times_palaces"
+      ],
+      "id": "MYANSWERS-001",
+      "package_basis": {
+        "claims": [
+          "CLM-001",
+          "CLM-002"
+        ],
+        "constraints_cited": [
+          "palaces.zhen_3.special_markers[0]",
+          "palaces.zhen_3.prosperity_decline.palace_state",
+          "palaces.zhen_3.harm"
+        ],
+        "context": {
+          "center_displacement": [
+            "CLM-025",
+            "CLM-026"
+          ],
+          "life_stage_support": {
+            "archetype_resolution": "RES-001",
+            "claim_id": "CLM-033",
+            "note": "day-stem generative seat parked in day-void gate (Kun 2) — growth is structural, timing is not-yet"
+          }
+        },
+        "reading_source": "solution_seed.answers[0].reading (verbatim in LAYER_A appendix)",
+        "resolution": "RES-001",
+        "winner_archetype": "ANS-seats-in-zhen-3"
+      },
+      "rationale_remarks": [
+        "Name chosen as a closed, single-claim stake (one category, one sentence) — convergent-selection form carried into brand form.",
+        "Melatonin-free, ingredient-forward formulation = compliant, procedural posture; strength caveat carried as 'run it clean, no exotic claims'.",
+        "Launch muted by design until the timing window opens — constraint ON the seat, not an alternative seat."
+      ],
+      "response": "Brand formulation complete: **Off Hours** — a melatonin-free night drink for over-wired urban professionals in Mumbai and Bengaluru who cannot switch off. The category of rest is chosen deliberately, not invented for novelty: the diligence screen converged on it from four independent directions (daily need, duty to serve, an existing paid-search behaviour, and an underserved 25–40 professional bracket), with no equal rival — a singleton, so the commitment is singular, not hedged. Form: 10-sachet trial kit (₹999) plus drain-down subscription (₹1,899/mo), one ingredient-forward sachet format with plain-language function on pack. The name IS the positioning: what begins when work ends. Written brand name and description only — no logo at this stage, per the brief. Founder-seat risk therefore sits in execution and timing, not in the 'what': the answer is locked, the launch posture is deliberately understated (see risk HID-1) until the open window.",
+      "separateness": "direct-answer commitment only; no risk-cluster or how-to-win claims inside this slot",
+      "slot": "my_answers",
+      "status": "LOCKED"
+    }
+  ],
+  "best_solution": {
+    "computed": {
+      "margin_vs_runner": 0.1167,
+      "re_scored_under": {
+        "fit_weights": {
+          "audience_tone": 0.2,
+          "coverage": 0.4,
+          "hard_compliance": 0.4
+        },
+        "tiers": {
+          "COMPUTED": 0.6,
+          "EXPLICIT": 1.0,
+          "INFERRED": 0.3
+        },
+        "weights": {
+          "board": 0.1,
+          "contradiction": 0.2,
+          "corroboration": 0.25,
+          "grounding": 0.35,
+          "requirement_fit": 0.1
+        }
+      },
+      "rejected": [
+        {
+          "archetype": "BEST-li-9-salary-channel",
+          "board_consistency_pass": true,
+          "caveats_cited": [],
+          "claims": [
+            "CLM-032"
+          ],
+          "contradicting_evidence_count": 3,
+          "corroboration_norm": 0.2,
+          "grounding_tier": "EXPLICIT",
+          "package_rank": "rejected",
+          "package_score": 0.55,
+          "reading_source": "solution_seed.best_solution_candidates[BEST-li-9-salary-channel]",
+          "rejection_reason": "void-locked payoff window",
+          "requirement_fit": 0.0,
+          "solver_score": 0.55
+        },
+        {
+          "archetype": "BEST-kun-2-open-gate",
+          "board_consistency_pass": true,
+          "caveats_cited": [],
+          "claims": [
+            "CLM-023"
+          ],
+          "contradicting_evidence_count": 4,
+          "corroboration_norm": 0.3,
+          "grounding_tier": "EXPLICIT",
+          "package_rank": "rejected",
+          "package_score": 0.525,
+          "reading_source": "solution_seed.best_solution_candidates[BEST-kun-2-open-gate]",
+          "rejection_reason": "opens onto day-void with entombed stem and obscurity deity",
+          "requirement_fit": 0.0,
+          "solver_score": 0.565
+        }
+      ],
+      "runner": {
+        "archetype": "BEST-qian-6-harmony-help-channel",
+        "board_consistency_pass": true,
+        "caveats_cited": [
+          "palaces.qian_6.special_markers[0]",
+          "palaces.qian_6.prosperity_decline.star_strength"
+        ],
+        "claims": [
+          "CLM-008"
+        ],
+        "contradicting_evidence_count": 3,
+        "corroboration_norm": 0.6,
+        "grounding_tier": "EXPLICIT",
+        "package_rank": 2,
+        "package_score": 0.65,
+        "reading_source": "solution_seed.best_solution_candidates[BEST-qian-6-harmony-help-channel]",
+        "rejection_reason": null,
+        "requirement_fit": 0.98,
+        "solver_score": 0.748
+      },
+      "text_budget": {
+        "char_count": 1417,
+        "objective": {
+          "n": 1,
+          "total_chars": 5200
+        },
+        "within_budget": true
+      },
+      "tie_break_needed": false,
+      "winner": {
+        "archetype": "BEST-dui-7-earthly-escape-channel",
+        "board_consistency_pass": true,
+        "caveats_cited": [
+          "palaces.dui_7.deity",
+          "palaces.dui_7.harm"
+        ],
+        "claims": [
+          "CLM-011",
+          "CLM-012",
+          "CLM-034"
+        ],
+        "contradicting_evidence_count": 2,
+        "corroboration_norm": 1.0,
+        "grounding_tier": "EXPLICIT",
+        "package_rank": 1,
+        "package_score": 0.8,
+        "reading_source": "solution_seed.best_solution_candidates[BEST-dui-7-earthly-escape-channel]",
+        "rejection_reason": null,
+        "requirement_fit": 0.98,
+        "solver_score": 0.8647
+      },
+      "winner_solver_score": 0.8647
+    },
+    "confidence": 0.8,
+    "evidence": [
+      "patterns.archetype_resolutions.RES-003",
+      "solution_seed.best_solution_candidates[0]",
+      "solution_seed.best_solution_candidates[1]",
+      "systems.void_tomb_punish_force_horse_graph['7']",
+      "systems.inner_outer",
+      "systems.life_stage_graph",
+      "systems.void_tomb_punish_force_horse_graph['6']",
+      "systems.void_tomb_punish_force_horse_graph['9'].void",
+      "systems.void_tomb_punish_force_horse_graph['2'].void"
+    ],
+    "id": "BESTSOLUTION-001",
+    "package_basis": {
+      "caveats_cited": [
+        "palaces.dui_7.deity",
+        "palaces.dui_7.harm"
+      ],
+      "claims": [
+        "CLM-011",
+        "CLM-012",
+        "CLM-034"
+      ],
+      "reading_source": "solution_seed.best_solution_candidates[*].reading (verbatim in LAYER_A)",
+      "resolution": "RES-003",
+      "runner_archetype": "BEST-qian-6-harmony-help-channel",
+      "winner_archetype": "BEST-dui-7-earthly-escape-channel"
+    },
+    "rationale_remarks": [
+      "Winner = the only affliction-free strong seat, month-stacked (in-period) and in the institutions ring: safest compounding anchor for a D2C brand.",
+      "Runner seat carries alliance/timing value but buried support (friction + latency): phase-2 partnerships, no launch dependence.",
+      "Rejected channels are window-locked: broad awareness pays later (void-window), open marketplace pays once the brand is already known."
+    ],
+    "response": "Lead channel thesis for Off Hours: **rest-and-consolidation first.** The brand's single compounding asset is an owned retention spine — subscription membership, WhatsApp refill concierge, and a fortnightly sleep-journal letter — run procedurally and cleanly, hosted inside existing institutional infrastructure (own storefront plus one marketplace listing used as logistics 'inner ring', never as the story). This is NOT a platforms list: every other channel (short-video education, search groundwork, partnerships) is sequenced around one job — consolidating the first 1,000 subscribed households before any broad awareness spend exists. Alliances (corporate wellness, sleep clinics, co-working community leads) are queued as phase two: the help is real but buried, so it is courted backstage and expected to land late, not budgeted as launch fuel. Timing: lead with the 10-night trial ritual, retain through subscription, open partnerships in quarter two, and let mass awareness wait for its window (see HID-2).",
+    "separateness": "how-to-win channel logic only; no direct-answer or risk claims inside this slot",
+    "slot": "best_solution",
+    "status": "LOCKED"
+  },
+  "evidence": [
+    "patterns.archetype_resolutions.RES-001",
+    "solution_seed.answers[0]",
+    "origin_sets.B1",
+    "systems.void_tomb_punish_force_horse_graph['3'].void",
+    "systems.pillars_times_palaces",
+    "patterns.archetype_resolutions.RES-002",
+    "systems.void_tomb_punish_force_horse_graph['4']",
+    "explicit_patterns.inauspicious",
+    "systems.inner_outer",
+    "patterns.archetype_resolutions.RES-002",
+    "systems.void_tomb_punish_force_horse_graph['9'].void",
+    "solution_seed.hidden_problems[1]",
+    "patterns.archetype_resolutions.RES-002",
+    "systems.void_tomb_punish_force_horse_graph['1']",
+    "explicit_patterns.inauspicious",
+    "patterns.archetype_resolutions.RES-002",
+    "systems.void_tomb_punish_force_horse_graph['2'].void",
+    "systems.void_tomb_punish_force_horse_graph['2'].tomb_fields",
+    "patterns.archetype_resolutions.RES-002",
+    "systems.void_tomb_punish_force_horse_graph['8'].tomb_fields",
+    "systems.void_tomb_punish_force_horse_graph['8'].life_stage_field",
+    "patterns.archetype_resolutions.RES-003",
+    "solution_seed.best_solution_candidates[0]",
+    "solution_seed.best_solution_candidates[1]",
+    "systems.void_tomb_punish_force_horse_graph['7']",
+    "systems.inner_outer",
+    "systems.life_stage_graph",
+    "systems.void_tomb_punish_force_horse_graph['6']",
+    "systems.void_tomb_punish_force_horse_graph['9'].void",
+    "systems.void_tomb_punish_force_horse_graph['2'].void"
+  ],
+  "hidden_problems": [
+    {
+      "bound_requirement": "R07",
+      "code": "HID-1 HYPE_LAUNCH_TRAP",
+      "computed": {
+        "board_consistency_pass": true,
+        "contradicting_evidence_count": 2,
+        "corroboration_norm": 1.0,
+        "grounding_tier": "EXPLICIT",
+        "requirement_fit": 1.0,
+        "solver_score": 0.8667,
+        "text_budget": {
+          "char_count": 295,
+          "objective": {
+            "n_max": 5,
+            "per_chars": 400
+          },
+          "within_budget": true
+        }
+      },
+      "confidence": 0.85,
+      "evidence": [
+        "patterns.archetype_resolutions.RES-002",
+        "systems.void_tomb_punish_force_horse_graph['4']",
+        "explicit_patterns.inauspicious",
+        "systems.inner_outer"
+      ],
+      "id": "HID-1",
+      "package_basis": {
+        "archetype": "HID-palace-4-death-duty-tomb-cluster",
+        "claims": [
+          "CLM-015",
+          "CLM-016"
+        ],
+        "reading_source": "solution_seed.hidden_problems[*].reading (verbatim in LAYER_A)",
+        "resolution": "RES-002"
+      },
+      "rank_within_slot": 1,
+      "response": "The over-defined, glittering mission that cannot be executed cleanly: an elaborately hyped flagship launch format collapses under its own ambition. Deck discipline: promise sequencing and restraint, never a campaign machine. (Hard-compliance bound to R07 'avoid unrealistic/overly broad ideas'.)",
+      "separateness": "risk framing only; no direct-answer or how-to-win claims inside this slot",
+      "slot": "hidden_problems",
+      "status": "LOCKED"
+    },
+    {
+      "bound_requirement": "R21",
+      "code": "HID-2 VOID_SHOWCASE",
+      "computed": {
+        "board_consistency_pass": true,
+        "contradicting_evidence_count": 1,
+        "corroboration_norm": 0.5556,
+        "grounding_tier": "EXPLICIT",
+        "requirement_fit": 1.0,
+        "solver_score": 0.7889,
+        "text_budget": {
+          "char_count": 324,
+          "objective": {
+            "n_max": 5,
+            "per_chars": 400
+          },
+          "within_budget": true
+        }
+      },
+      "confidence": 0.75,
+      "evidence": [
+        "patterns.archetype_resolutions.RES-002",
+        "systems.void_tomb_punish_force_horse_graph['9'].void",
+        "solution_seed.hidden_problems[1]"
+      ],
+      "id": "HID-2",
+      "package_basis": {
+        "archetype": "HID-palace-9-void-showpiece",
+        "claims": [
+          "CLM-029"
+        ],
+        "reading_source": "solution_seed.hidden_problems[*].reading (verbatim in LAYER_A)",
+        "resolution": "RES-002"
+      },
+      "rank_within_slot": 2,
+      "response": "Big-display awareness that does not convert this window: broad-reach showcase spend reads prosperous but lands later (fills on the Wu day/hour gate). Premature mass-awareness burn is the classic money leak for a launch-stage brand — therefore the deck sequences awareness LAST, not first. (R21: no paid-media budgets at A1.)",
+      "separateness": "risk framing only; no direct-answer or how-to-win claims inside this slot",
+      "slot": "hidden_problems",
+      "status": "LOCKED"
+    },
+    {
+      "bound_requirement": "R16",
+      "code": "HID-3 GROUNDWORK_GRIND",
+      "computed": {
+        "board_consistency_pass": true,
+        "contradicting_evidence_count": 1,
+        "corroboration_norm": 0.4444,
+        "grounding_tier": "EXPLICIT",
+        "requirement_fit": 1.0,
+        "solver_score": 0.7611,
+        "text_budget": {
+          "char_count": 309,
+          "objective": {
+            "n_max": 5,
+            "per_chars": 400
+          },
+          "within_budget": true
+        }
+      },
+      "confidence": 0.65,
+      "evidence": [
+        "patterns.archetype_resolutions.RES-002",
+        "systems.void_tomb_punish_force_horse_graph['1']",
+        "explicit_patterns.inauspicious"
+      ],
+      "id": "HID-3",
+      "package_basis": {
+        "archetype": "HID-palace-1-great-barrier",
+        "claims": [
+          "CLM-020"
+        ],
+        "reading_source": "solution_seed.hidden_problems[*].reading (verbatim in LAYER_A)",
+        "resolution": "RES-002"
+      },
+      "rank_within_slot": 3,
+      "response": "Slow groundwork channels (search-led education, 'does magnesium help sleep' category content) grind through stalls — intermittent rather than terminal, but never a quick win. Fund it patiently and do not sell it internally (or on slide 8) as fast traction. (R16: strategy paragraph must be honest sequencing.)",
+      "separateness": "risk framing only; no direct-answer or how-to-win claims inside this slot",
+      "slot": "hidden_problems",
+      "status": "LOCKED"
+    },
+    {
+      "bound_requirement": "R18",
+      "code": "HID-4 MARKETPLACE_OBSCURITY",
+      "computed": {
+        "board_consistency_pass": true,
+        "contradicting_evidence_count": 1,
+        "corroboration_norm": 0.4444,
+        "grounding_tier": "EXPLICIT",
+        "requirement_fit": 1.0,
+        "solver_score": 0.7611,
+        "text_budget": {
+          "char_count": 323,
+          "objective": {
+            "n_max": 5,
+            "per_chars": 400
+          },
+          "within_budget": true
+        }
+      },
+      "confidence": 0.65,
+      "evidence": [
+        "patterns.archetype_resolutions.RES-002",
+        "systems.void_tomb_punish_force_horse_graph['2'].void",
+        "systems.void_tomb_punish_force_horse_graph['2'].tomb_fields"
+      ],
+      "id": "HID-4",
+      "package_basis": {
+        "archetype": "HID-palace-2-void-open-jia-tomb",
+        "claims": [
+          "CLM-024"
+        ],
+        "reading_source": "solution_seed.hidden_problems[*].reading (verbatim in LAYER_A)",
+        "resolution": "RES-002"
+      },
+      "rank_within_slot": 3,
+      "response": "The 'open door' with nothing behind it: big marketplaces/quick-commerce open onto obscurity for an unknown brand — a void gate until brand search exists, with the lead entombed there. List presence is fine; dependence is not. (R18: channel priorities must justify non-selections — marketplace-ads are a named non-priority.)",
+      "separateness": "risk framing only; no direct-answer or how-to-win claims inside this slot",
+      "slot": "hidden_problems",
+      "status": "LOCKED"
+    },
+    {
+      "bound_requirement": "R21",
+      "code": "HID-5 CONTENT_BACKLOG",
+      "computed": {
+        "board_consistency_pass": true,
+        "contradicting_evidence_count": 1,
+        "corroboration_norm": 0.4444,
+        "grounding_tier": "EXPLICIT",
+        "requirement_fit": 1.0,
+        "solver_score": 0.7611,
+        "text_budget": {
+          "char_count": 281,
+          "objective": {
+            "n_max": 5,
+            "per_chars": 400
+          },
+          "within_budget": true
+        }
+      },
+      "confidence": 0.65,
+      "evidence": [
+        "patterns.archetype_resolutions.RES-002",
+        "systems.void_tomb_punish_force_horse_graph['8'].tomb_fields",
+        "systems.void_tomb_punish_force_horse_graph['8'].life_stage_field"
+      ],
+      "id": "HID-5",
+      "package_basis": {
+        "archetype": "HID-palace-8-stalled-storage",
+        "claims": [
+          "CLM-027"
+        ],
+        "reading_source": "solution_seed.hidden_problems[*].reading (verbatim in LAYER_A)",
+        "resolution": "RES-002"
+      },
+      "rank_within_slot": 3,
+      "response": "Stalled storage: content produced and warehoused without a distribution rhythm decays in place — the tomb is generous on paper and empty in effect. Avoid content-calendar-style backlogs; batch only what live channels consume each fortnight. (R21: no content calendars at A1 stage.)",
+      "separateness": "risk framing only; no direct-answer or how-to-win claims inside this slot",
+      "slot": "hidden_problems",
+      "status": "LOCKED"
+    }
+  ],
+  "open_questions": [
+    {
+      "q": "Will the marker accept WhatsApp as an owned/digital touchpoint?",
+      "why_open": "brief silent; conservative PESO mapping documented on Slide 9"
+    },
+    {
+      "q": "Price points ₹999/₹1,899 are packaged guesses, not market research",
+      "why_open": "assignment marks clarity of thinking, not pricing accuracy"
+    }
+  ],
+  "revision": 1,
+  "split_claims": []
+}

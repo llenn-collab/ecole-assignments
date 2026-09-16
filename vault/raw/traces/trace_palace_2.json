@@ -1,0 +1,171 @@
+{
+  "batch": "B5",
+  "palace_id": "2",
+  "relations": [
+    {
+      "context": "heaven/hidden of palace 2",
+      "description": "Gui+Wu form a five-combination (heaven/hidden of palace 2)",
+      "evidence": [
+        "palaces.kun_2.heaven_stem",
+        "palaces.kun_2.hidden_stem"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Gui",
+        "Wu"
+      ],
+      "type": "stem_combination"
+    },
+    {
+      "context": "heaven/hidden of palace 2",
+      "description": "Wu earth controls Gui water",
+      "evidence": [
+        "palaces.kun_2.heaven_stem",
+        "palaces.kun_2.hidden_stem"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Wu",
+        "Gui"
+      ],
+      "type": "control"
+    },
+    {
+      "description": "palace Earth generates door Open (Metal)",
+      "evidence": [
+        "palaces.kun_2.door",
+        "state:palace_key_resolution.palaces.2.element"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "2",
+        "Open"
+      ],
+      "type": "palace_generating_door"
+    },
+    {
+      "at_home": false,
+      "description": "Tian Peng home palace 1, seated in 2 \u2014 DISPLACED",
+      "evidence": [
+        "palaces.kun_2.star",
+        "state:qmdj_complete.star_home_luoshu"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Tian Peng",
+        "2"
+      ],
+      "type": "star_home_displacement"
+    },
+    {
+      "description": "door Open away from original (Death Door)",
+      "evidence": [
+        "palaces.kun_2.door",
+        "palaces.kun_2.original_position.door"
+      ],
+      "grounding": "COMPUTED",
+      "hit": false,
+      "parties": [
+        "Open",
+        "2"
+      ],
+      "type": "door_at_original_palace"
+    },
+    {
+      "description": "palace branch Wei six-combines year pillar branch Wu",
+      "evidence": [
+        "chart_info.ganzhi.year",
+        "state:palace_key_resolution.palaces.2.branches"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Wei",
+        "Wu"
+      ],
+      "type": "branch_six_combination"
+    },
+    {
+      "description": "day element Water vs palace element Earth: palace controls day",
+      "evidence": [
+        "chart_info.ganzhi.day",
+        "state:palace_key_resolution.palaces.2.element"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Ren",
+        "2"
+      ],
+      "type": "day_element_vs_palace"
+    },
+    {
+      "description": "year horse (Shen) in palace 2",
+      "evidence": [
+        "chart_info.horse.year",
+        "state:palace_key_resolution.palaces.2.branches"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "year",
+        "2"
+      ],
+      "type": "horse_star"
+    },
+    {
+      "description": "palace 2 void: day-void ['Wei'], hour-void \u2014",
+      "evidence": [
+        "chart_info.void.day",
+        "chart_info.void.hour",
+        "state:palace_key_resolution.palaces.2.branches"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "2"
+      ],
+      "type": "void_palace"
+    }
+  ],
+  "source_excerpt": {
+    "auspicious_patterns": [
+      "Palace Generating Door"
+    ],
+    "deity": "Xuanwu",
+    "door": "Open",
+    "earth_stem": "Ren",
+    "harm": "Wu (Wei, Kun 2, Shen)",
+    "heaven_stem": "Gui",
+    "hidden_stem": "Wu",
+    "life_stage": "Ren (Wei, Kun 2, Shen)",
+    "name": "Kun 2 Palace",
+    "original_position": {
+      "branches": [
+        "Wei",
+        "Shen"
+      ],
+      "deity": "Vermilion Bird, Black Tortoise",
+      "door": "Death Door",
+      "numbers": [
+        "8 2",
+        "5 10"
+      ],
+      "opposite_palace": "Xun 5",
+      "star": "Heavenly Rui"
+    },
+    "prosperity_decline": {
+      "door_strength": "Prosperous",
+      "palace_state": "Rest / Inner",
+      "star_strength": "Imprisoned / Discarded"
+    },
+    "punishment": "Ji (Wei, Kun 2, Shen)",
+    "special_markers": [
+      "Void",
+      "Tomb (Gui)"
+    ],
+    "star": "Heaven Peng",
+    "tomb": "Jia Gui (Wei, Kun 2, Shen)"
+  },
+  "verdict_claim_ids": [
+    "CLM-022",
+    "CLM-023",
+    "CLM-024"
+  ]
+}

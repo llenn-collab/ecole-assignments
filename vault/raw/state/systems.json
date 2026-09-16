@@ -1,0 +1,1729 @@
+{
+  "deity_two_plate_map": {
+    "Chief": {
+      "evidence": "palaces.zhen_3.deity",
+      "palace": "3"
+    },
+    "Flying Snake": {
+      "evidence": "palaces.gen_8.deity",
+      "palace": "8"
+    },
+    "Great Yin": {
+      "evidence": "palaces.kan_1.deity",
+      "palace": "1"
+    },
+    "Nine Earths": {
+      "evidence": "palaces.li_9.deity",
+      "palace": "9"
+    },
+    "Nine Heavens": {
+      "evidence": "palaces.xun_4.deity",
+      "palace": "4"
+    },
+    "Six Harmony": {
+      "evidence": "palaces.qian_6.deity",
+      "palace": "6"
+    },
+    "Tai Chang": {
+      "evidence": "palaces.center_5.deity",
+      "palace": "5"
+    },
+    "White Tiger": {
+      "evidence": "palaces.dui_7.deity",
+      "palace": "7"
+    },
+    "Xuanwu": {
+      "evidence": "palaces.kun_2.deity",
+      "palace": "2"
+    }
+  },
+  "door_system_map": {
+    "Death": {
+      "evidence": [
+        "palaces.xun_4.door"
+      ],
+      "forced": true,
+      "palace": "4",
+      "relation": "palace Wood controls door Death (Earth) — forced door (palace oppressing door)"
+    },
+    "Du": {
+      "evidence": [
+        "palaces.gen_8.door"
+      ],
+      "forced": false,
+      "palace": "8",
+      "relation": "door Du (Wood) controls palace Earth — door oppressing palace"
+    },
+    "Life": {
+      "evidence": [
+        "palaces.qian_6.door"
+      ],
+      "forced": false,
+      "palace": "6",
+      "relation": "door Life (Earth) generates palace Metal"
+    },
+    "Open": {
+      "evidence": [
+        "palaces.kun_2.door"
+      ],
+      "forced": false,
+      "palace": "2",
+      "relation": "palace Earth generates door Open (Metal)"
+    },
+    "Rest": {
+      "evidence": [
+        "palaces.dui_7.door"
+      ],
+      "forced": false,
+      "palace": "7",
+      "relation": "palace Metal generates door Rest (Water)"
+    },
+    "Scenery": {
+      "evidence": [
+        "palaces.li_9.door"
+      ],
+      "forced": false,
+      "palace": "9",
+      "relation": "door Scenery and palace Fire share element"
+    },
+    "Shang": {
+      "evidence": [
+        "palaces.kan_1.door"
+      ],
+      "forced": false,
+      "palace": "1",
+      "relation": "palace Water generates door Shang (Wood)"
+    }
+  },
+  "harm_graph": {
+    "2": "Wu (Wei, Kun 2, Shen)",
+    "3": "Ren (Mao, Zhen 3)",
+    "4": "Gui (Chen, Xun 4, Si)",
+    "5": "Harm",
+    "6": "Geng (Hai, Qian 6, Xu)",
+    "7": "Ji (Dui 7, You)",
+    "8": "Xin (Yin, Gen 8, Chou)"
+  },
+  "inner_outer": {
+    "inner": [
+      "2",
+      "5",
+      "6",
+      "7",
+      "9"
+    ],
+    "meaning": {
+      "inner": "process, constraint, institution, internal rationale",
+      "outer": "audience, surface, movement, submission-facing behaviour"
+    },
+    "outer": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ]
+  },
+  "life_stage_graph": {
+    "1": "Xin (Zi, Kan 1)",
+    "2": "Ren (Wei, Kun 2, Shen)",
+    "3": "Gui (Mao, Zhen 3)",
+    "4": "Geng (Chen, Xun 4, Si)",
+    "5": "Changsheng (Longevity)",
+    "7": "Ding Ji (Dui 7, You)",
+    "8": "Bing Wu (Yin, Gen 8, Chou)",
+    "9": "Yi (Li 9, Wu)"
+  },
+  "opposite_palace_audit": [
+    {
+      "computed_opposite": "Li 9",
+      "explicit": "Kun 8",
+      "explicit_label_internally_consistent": false,
+      "matches_frozen_geometry": false,
+      "palace": "1",
+      "status": "MISMATCH"
+    },
+    {
+      "computed_opposite": "Gen 8",
+      "explicit": "Xun 5",
+      "explicit_label_internally_consistent": false,
+      "matches_frozen_geometry": false,
+      "palace": "2",
+      "status": "MISMATCH"
+    },
+    {
+      "computed_opposite": "Dui 7",
+      "explicit": "Li 3",
+      "explicit_label_internally_consistent": false,
+      "matches_frozen_geometry": false,
+      "palace": "3",
+      "status": "MISMATCH"
+    },
+    {
+      "computed_opposite": "Qian 6",
+      "explicit": "Dui 2",
+      "explicit_label_internally_consistent": false,
+      "matches_frozen_geometry": false,
+      "palace": "4",
+      "status": "MISMATCH"
+    },
+    {
+      "computed": null,
+      "explicit": null,
+      "palace": "5",
+      "status": "NO_OPPOSITE (center pivot)"
+    },
+    {
+      "computed_opposite": "Xun 4",
+      "explicit": "Gen 7",
+      "explicit_label_internally_consistent": false,
+      "matches_frozen_geometry": false,
+      "palace": "6",
+      "status": "MISMATCH"
+    },
+    {
+      "computed_opposite": "Zhen 3",
+      "explicit": "Kan 6",
+      "explicit_label_internally_consistent": false,
+      "matches_frozen_geometry": false,
+      "palace": "7",
+      "status": "MISMATCH"
+    },
+    {
+      "computed_opposite": "Kun 2",
+      "explicit": "Zhen 4",
+      "explicit_label_internally_consistent": false,
+      "matches_frozen_geometry": false,
+      "palace": "8",
+      "status": "MISMATCH"
+    },
+    {
+      "computed_opposite": "Kan 1",
+      "explicit": "Qian 1",
+      "explicit_label_internally_consistent": false,
+      "matches_frozen_geometry": false,
+      "palace": "9",
+      "status": "MISMATCH"
+    }
+  ],
+  "original_position_audit": {
+    "1": {
+      "branches": {
+        "evidence": [
+          "palaces.kan_1.original_position.branches[0]",
+          "state:frozen_tables.palace_identity_table"
+        ],
+        "explicit": [
+          "Zi"
+        ],
+        "frozen": [
+          "Zi"
+        ],
+        "match": true,
+        "per_item_validation": {
+          "0": "matched frozen geometry"
+        }
+      },
+      "deity": {
+        "current_deity": "Great Yin",
+        "evidence": [
+          "palaces.kan_1.original_position.deity",
+          "palaces.kan_1.deity"
+        ],
+        "explicit": "Chief",
+        "note": "original deity belongs to the origin deity plate; divergence from current deity is expected (rotation), recorded not judged"
+      },
+      "door": {
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.kan_1.original_position.door"
+        ],
+        "explicit": "Rest Door",
+        "home_per_chart_block": "1"
+      },
+      "explicit_block_present": true,
+      "numbers": {
+        "evidence": [
+          "palaces.kan_1.original_position.numbers"
+        ],
+        "explicit": [
+          "6 1",
+          "1 6"
+        ],
+        "treatment": "opaque token-pairs per array_itemization policy — no meaning invented"
+      },
+      "opposite_palace": {
+        "already_audited": "see systems.opposite_palace_audit + ANO-004..ANO-011",
+        "explicit": "Kun 8"
+      },
+      "star": {
+        "canonical": "Tian Peng",
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.kan_1.original_position.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "explicit": "Heavenly Peng",
+        "home_frozen": 1
+      }
+    },
+    "2": {
+      "branches": {
+        "evidence": [
+          "palaces.kun_2.original_position.branches[0]",
+          "palaces.kun_2.original_position.branches[1]",
+          "state:frozen_tables.palace_identity_table"
+        ],
+        "explicit": [
+          "Wei",
+          "Shen"
+        ],
+        "frozen": [
+          "Shen",
+          "Wei"
+        ],
+        "match": true,
+        "per_item_validation": {
+          "0": "matched frozen geometry",
+          "1": "matched frozen geometry"
+        }
+      },
+      "deity": {
+        "current_deity": "Xuanwu",
+        "evidence": [
+          "palaces.kun_2.original_position.deity",
+          "palaces.kun_2.deity"
+        ],
+        "explicit": "Vermilion Bird, Black Tortoise",
+        "note": "original deity belongs to the origin deity plate; divergence from current deity is expected (rotation), recorded not judged"
+      },
+      "door": {
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.kun_2.original_position.door"
+        ],
+        "explicit": "Death Door",
+        "home_per_chart_block": "2"
+      },
+      "explicit_block_present": true,
+      "numbers": {
+        "evidence": [
+          "palaces.kun_2.original_position.numbers"
+        ],
+        "explicit": [
+          "8 2",
+          "5 10"
+        ],
+        "treatment": "opaque token-pairs per array_itemization policy — no meaning invented"
+      },
+      "opposite_palace": {
+        "already_audited": "see systems.opposite_palace_audit + ANO-004..ANO-011",
+        "explicit": "Xun 5"
+      },
+      "star": {
+        "canonical": "Tian Rui",
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.kun_2.original_position.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "explicit": "Heavenly Rui",
+        "home_frozen": 2
+      }
+    },
+    "3": {
+      "branches": {
+        "evidence": [
+          "palaces.zhen_3.original_position.branches[0]",
+          "state:frozen_tables.palace_identity_table"
+        ],
+        "explicit": [
+          "Mao"
+        ],
+        "frozen": [
+          "Mao"
+        ],
+        "match": true,
+        "per_item_validation": {
+          "0": "matched frozen geometry"
+        }
+      },
+      "deity": {
+        "current_deity": "Chief",
+        "evidence": [
+          "palaces.zhen_3.original_position.deity",
+          "palaces.zhen_3.deity"
+        ],
+        "explicit": "Great Yin",
+        "note": "original deity belongs to the origin deity plate; divergence from current deity is expected (rotation), recorded not judged"
+      },
+      "door": {
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.zhen_3.original_position.door"
+        ],
+        "explicit": "Wound Door",
+        "home_per_chart_block": "3"
+      },
+      "explicit_block_present": true,
+      "numbers": {
+        "evidence": [
+          "palaces.zhen_3.original_position.numbers"
+        ],
+        "explicit": [
+          "4 3",
+          "3 8"
+        ],
+        "treatment": "opaque token-pairs per array_itemization policy — no meaning invented"
+      },
+      "opposite_palace": {
+        "already_audited": "see systems.opposite_palace_audit + ANO-004..ANO-011",
+        "explicit": "Li 3"
+      },
+      "star": {
+        "canonical": "Tian Chong",
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.zhen_3.original_position.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "explicit": "Heavenly Chong",
+        "home_frozen": 3
+      }
+    },
+    "4": {
+      "branches": {
+        "evidence": [
+          "palaces.xun_4.original_position.branches[0]",
+          "palaces.xun_4.original_position.branches[1]",
+          "state:frozen_tables.palace_identity_table"
+        ],
+        "explicit": [
+          "Chen",
+          "Si"
+        ],
+        "frozen": [
+          "Chen",
+          "Si"
+        ],
+        "match": true,
+        "per_item_validation": {
+          "0": "matched frozen geometry",
+          "1": "matched frozen geometry"
+        }
+      },
+      "deity": {
+        "current_deity": "Nine Heavens",
+        "evidence": [
+          "palaces.xun_4.original_position.deity",
+          "palaces.xun_4.deity"
+        ],
+        "explicit": "Six Harmony",
+        "note": "original deity belongs to the origin deity plate; divergence from current deity is expected (rotation), recorded not judged"
+      },
+      "door": {
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.xun_4.original_position.door"
+        ],
+        "explicit": "Du Door",
+        "home_per_chart_block": "4"
+      },
+      "explicit_block_present": true,
+      "numbers": {
+        "evidence": [
+          "palaces.xun_4.original_position.numbers"
+        ],
+        "explicit": [
+          "5 4",
+          "3 8"
+        ],
+        "treatment": "opaque token-pairs per array_itemization policy — no meaning invented"
+      },
+      "opposite_palace": {
+        "already_audited": "see systems.opposite_palace_audit + ANO-004..ANO-011",
+        "explicit": "Dui 2"
+      },
+      "star": {
+        "canonical": "Tian Fu",
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.xun_4.original_position.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "explicit": "Heavenly Auxiliary",
+        "home_frozen": 4
+      }
+    },
+    "5": {
+      "branches": {
+        "evidence": [
+          "palaces.center_5.original_position.branches",
+          "state:frozen_tables.palace_identity_table"
+        ],
+        "explicit": null,
+        "frozen": [],
+        "match": true
+      },
+      "deity": {
+        "current_deity": "Tai Chang",
+        "evidence": [
+          "palaces.center_5.original_position.deity",
+          "palaces.center_5.deity"
+        ],
+        "explicit": null,
+        "note": "original deity belongs to the origin deity plate; divergence from current deity is expected (rotation), recorded not judged"
+      },
+      "door": {
+        "absent_by_design": true,
+        "consistent_with_this_palace": null,
+        "evidence": [
+          "state:absence_registry.records"
+        ],
+        "explicit": null,
+        "note": "center has no door in origin plate (non-directional pivot); absence carried in absence_registry"
+      },
+      "explicit_block_present": true,
+      "numbers": {
+        "evidence": [
+          "palaces.center_5.original_position.numbers"
+        ],
+        "explicit": [
+          "5 10"
+        ],
+        "treatment": "opaque token-pairs per array_itemization policy — no meaning invented"
+      },
+      "opposite_palace": {
+        "already_audited": "see systems.opposite_palace_audit + ANO-004..ANO-011",
+        "explicit": null
+      },
+      "star": {
+        "canonical": "Tian Qin",
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.center_5.original_position.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "explicit": "Heavenly Bird",
+        "home_frozen": 5
+      }
+    },
+    "6": {
+      "branches": {
+        "evidence": [
+          "palaces.qian_6.original_position.branches[0]",
+          "palaces.qian_6.original_position.branches[1]",
+          "state:frozen_tables.palace_identity_table"
+        ],
+        "explicit": [
+          "Hai",
+          "Xu"
+        ],
+        "frozen": [
+          "Hai",
+          "Xu"
+        ],
+        "match": true,
+        "per_item_validation": {
+          "0": "matched frozen geometry",
+          "1": "matched frozen geometry"
+        }
+      },
+      "deity": {
+        "current_deity": "Six Harmony",
+        "evidence": [
+          "palaces.qian_6.original_position.deity",
+          "palaces.qian_6.deity"
+        ],
+        "explicit": "Nine Heavens",
+        "note": "original deity belongs to the origin deity plate; divergence from current deity is expected (rotation), recorded not judged"
+      },
+      "door": {
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.qian_6.original_position.door"
+        ],
+        "explicit": "Open Door",
+        "home_per_chart_block": "6"
+      },
+      "explicit_block_present": true,
+      "numbers": {
+        "evidence": [
+          "palaces.qian_6.original_position.numbers"
+        ],
+        "explicit": [
+          "1 6",
+          "4 9"
+        ],
+        "treatment": "opaque token-pairs per array_itemization policy — no meaning invented"
+      },
+      "opposite_palace": {
+        "already_audited": "see systems.opposite_palace_audit + ANO-004..ANO-011",
+        "explicit": "Gen 7"
+      },
+      "star": {
+        "canonical": "Tian Xin",
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.qian_6.original_position.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "explicit": "Heavenly Heart",
+        "home_frozen": 6
+      }
+    },
+    "7": {
+      "branches": {
+        "evidence": [
+          "palaces.dui_7.original_position.branches[0]",
+          "state:frozen_tables.palace_identity_table"
+        ],
+        "explicit": [
+          "You"
+        ],
+        "frozen": [
+          "You"
+        ],
+        "match": true,
+        "per_item_validation": {
+          "0": "matched frozen geometry"
+        }
+      },
+      "deity": {
+        "current_deity": "White Tiger",
+        "evidence": [
+          "palaces.dui_7.original_position.deity",
+          "palaces.dui_7.deity"
+        ],
+        "explicit": "Nine Earths",
+        "note": "original deity belongs to the origin deity plate; divergence from current deity is expected (rotation), recorded not judged"
+      },
+      "door": {
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.dui_7.original_position.door"
+        ],
+        "explicit": "Fright Door",
+        "home_per_chart_block": "7"
+      },
+      "explicit_block_present": true,
+      "numbers": {
+        "evidence": [
+          "palaces.dui_7.original_position.numbers"
+        ],
+        "explicit": [
+          "2 7",
+          "4 9"
+        ],
+        "treatment": "opaque token-pairs per array_itemization policy — no meaning invented"
+      },
+      "opposite_palace": {
+        "already_audited": "see systems.opposite_palace_audit + ANO-004..ANO-011",
+        "explicit": "Kan 6"
+      },
+      "star": {
+        "canonical": "Tian Zhu",
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.dui_7.original_position.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "explicit": "Heavenly Pillar",
+        "home_frozen": 7
+      }
+    },
+    "8": {
+      "branches": {
+        "evidence": [
+          "palaces.gen_8.original_position.branches[0]",
+          "palaces.gen_8.original_position.branches[1]",
+          "state:frozen_tables.palace_identity_table"
+        ],
+        "explicit": [
+          "Yin",
+          "Chou"
+        ],
+        "frozen": [
+          "Chou",
+          "Yin"
+        ],
+        "match": true,
+        "per_item_validation": {
+          "0": "matched frozen geometry",
+          "1": "matched frozen geometry"
+        }
+      },
+      "deity": {
+        "current_deity": "Flying Snake",
+        "evidence": [
+          "palaces.gen_8.original_position.deity",
+          "palaces.gen_8.deity"
+        ],
+        "explicit": "Flying Snake",
+        "note": "original deity belongs to the origin deity plate; divergence from current deity is expected (rotation), recorded not judged"
+      },
+      "door": {
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.gen_8.original_position.door"
+        ],
+        "explicit": "Life Door",
+        "home_per_chart_block": "8"
+      },
+      "explicit_block_present": true,
+      "numbers": {
+        "evidence": [
+          "palaces.gen_8.original_position.numbers"
+        ],
+        "explicit": [
+          "7 8",
+          "5 10"
+        ],
+        "treatment": "opaque token-pairs per array_itemization policy — no meaning invented"
+      },
+      "opposite_palace": {
+        "already_audited": "see systems.opposite_palace_audit + ANO-004..ANO-011",
+        "explicit": "Zhen 4"
+      },
+      "star": {
+        "canonical": "Tian Ren",
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.gen_8.original_position.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "explicit": "Heavenly Ren",
+        "home_frozen": 8
+      }
+    },
+    "9": {
+      "branches": {
+        "evidence": [
+          "palaces.li_9.original_position.branches[0]",
+          "state:frozen_tables.palace_identity_table"
+        ],
+        "explicit": [
+          "Wu"
+        ],
+        "frozen": [
+          "Wu"
+        ],
+        "match": true,
+        "per_item_validation": {
+          "0": "matched frozen geometry"
+        }
+      },
+      "deity": {
+        "current_deity": "Nine Earths",
+        "evidence": [
+          "palaces.li_9.original_position.deity",
+          "palaces.li_9.deity"
+        ],
+        "explicit": "Gou Chen, White Tiger",
+        "note": "original deity belongs to the origin deity plate; divergence from current deity is expected (rotation), recorded not judged"
+      },
+      "door": {
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.li_9.original_position.door"
+        ],
+        "explicit": "Scenery Door",
+        "home_per_chart_block": "9"
+      },
+      "explicit_block_present": true,
+      "numbers": {
+        "evidence": [
+          "palaces.li_9.original_position.numbers"
+        ],
+        "explicit": [
+          "3 9",
+          "2 7"
+        ],
+        "treatment": "opaque token-pairs per array_itemization policy — no meaning invented"
+      },
+      "opposite_palace": {
+        "already_audited": "see systems.opposite_palace_audit + ANO-004..ANO-011",
+        "explicit": "Qian 1"
+      },
+      "star": {
+        "canonical": "Tian Ying",
+        "consistent_with_this_palace": true,
+        "evidence": [
+          "palaces.li_9.original_position.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "explicit": "Heavenly Hero",
+        "home_frozen": 9
+      }
+    }
+  },
+  "original_position_audit_summary": {
+    "branch_blocks": "8/8 explicit branch lists match frozen identity geometry (center block absent by design)",
+    "door_blocks": "all 8 explicit original doors unique and consistent; center door absent by design",
+    "inconsistent": [],
+    "star_blocks": "all explicit original stars consistent with frozen star-home table"
+  },
+  "pillars_times_palaces": {
+    "pillar_relations": [
+      {
+        "evidence": [
+          "chart_info.ganzhi.year",
+          "chart_info.ganzhi.hour"
+        ],
+        "members": [
+          "Bing",
+          "Xin"
+        ],
+        "pillars": [
+          "year",
+          "hour"
+        ],
+        "type": "stem_combination"
+      },
+      {
+        "evidence": [
+          "chart_info.ganzhi.month",
+          "chart_info.ganzhi.day"
+        ],
+        "members": [
+          "Ding",
+          "Ren"
+        ],
+        "pillars": [
+          "month",
+          "day"
+        ],
+        "type": "stem_combination"
+      },
+      {
+        "evidence": [
+          "chart_info.ganzhi.month",
+          "chart_info.ganzhi.day"
+        ],
+        "members": [
+          "Chen",
+          "You"
+        ],
+        "pillars": [
+          "month",
+          "day"
+        ],
+        "type": "branch_six_combination"
+      }
+    ],
+    "projections": {
+      "day": {
+        "branch": "Chen",
+        "branch_palace": "4",
+        "evidence": "chart_info.ganzhi.day",
+        "in_day_void": false,
+        "in_hour_void": false,
+        "stem": "Ren",
+        "stem_palaces_layers": [
+          {
+            "layer": "earth",
+            "palace": "2",
+            "path": "palaces.kun_2.earth_stem"
+          },
+          {
+            "layer": "heaven",
+            "palace": "3",
+            "path": "palaces.zhen_3.heaven_stem"
+          },
+          {
+            "layer": "hidden",
+            "palace": "4",
+            "path": "palaces.xun_4.hidden_stem"
+          },
+          {
+            "layer": "marker_reference",
+            "palace": "4",
+            "path": "palaces.xun_4.special_markers[1]"
+          }
+        ]
+      },
+      "hour": {
+        "branch": "Hai",
+        "branch_palace": "6",
+        "evidence": "chart_info.ganzhi.hour",
+        "in_day_void": false,
+        "in_hour_void": false,
+        "stem": "Xin",
+        "stem_palaces_layers": [
+          {
+            "layer": "hidden",
+            "palace": "1",
+            "path": "palaces.kan_1.hidden_stem"
+          },
+          {
+            "layer": "earth",
+            "palace": "3",
+            "path": "palaces.zhen_3.earth_stem"
+          },
+          {
+            "layer": "heaven",
+            "palace": "6",
+            "path": "palaces.qian_6.heaven_stem"
+          }
+        ]
+      },
+      "month": {
+        "branch": "You",
+        "branch_palace": "7",
+        "evidence": "chart_info.ganzhi.month",
+        "in_day_void": false,
+        "in_hour_void": false,
+        "stem": "Ding",
+        "stem_palaces_layers": [
+          {
+            "layer": "hidden",
+            "palace": "3",
+            "path": "palaces.zhen_3.hidden_stem"
+          },
+          {
+            "layer": "heaven",
+            "palace": "8",
+            "path": "palaces.gen_8.heaven_stem"
+          },
+          {
+            "layer": "marker_reference",
+            "palace": "8",
+            "path": "palaces.gen_8.special_markers[1]"
+          },
+          {
+            "layer": "earth",
+            "palace": "9",
+            "path": "palaces.li_9.earth_stem"
+          }
+        ]
+      },
+      "year": {
+        "branch": "Wu",
+        "branch_palace": "9",
+        "evidence": "chart_info.ganzhi.year",
+        "in_day_void": true,
+        "in_hour_void": false,
+        "stem": "Bing",
+        "stem_palaces_layers": [
+          {
+            "layer": "hidden",
+            "palace": "6",
+            "path": "palaces.qian_6.hidden_stem"
+          },
+          {
+            "layer": "heaven",
+            "palace": "7",
+            "path": "palaces.dui_7.heaven_stem"
+          },
+          {
+            "layer": "earth",
+            "palace": "8",
+            "path": "palaces.gen_8.earth_stem"
+          }
+        ]
+      }
+    }
+  },
+  "reconstitute_center": {
+    "lodging_graph": [
+      {
+        "entity": "Ji",
+        "entity_layer": "heaven_stem",
+        "evidence": "palaces.center_5.heaven_stem",
+        "from_palace": "5",
+        "host_confirmation": {
+          "note": "lodged heaven stem rides with host palace"
+        },
+        "raw": "Ji (lodged in Zhen 3 Palace)",
+        "to_palace": "3"
+      },
+      {
+        "entity": "Ji",
+        "entity_layer": "hidden_stem",
+        "evidence": "palaces.center_5.hidden_stem",
+        "from_palace": "5",
+        "host_confirmation": {
+          "found_in_host_hidden_field": false,
+          "note": "host palace keeps its own hidden stem; lodger co-resides (not echoed) — recorded, not treated as contradiction",
+          "path": "palaces.kun_2.hidden_stem",
+          "value": "Wu"
+        },
+        "raw": "Ji (lodged in Kun 2 Palace)",
+        "to_palace": "2"
+      },
+      {
+        "entity": "Heaven Qin",
+        "entity_layer": "star",
+        "evidence": "palaces.center_5.star",
+        "from_palace": "5",
+        "host_confirmation": {
+          "found_in_host_star_field": true,
+          "path": "palaces.zhen_3.star",
+          "value": "Heaven Rui & Heaven Qin"
+        },
+        "raw": "Heaven Qin (lodged in Zhen 3 Palace)",
+        "to_palace": "3"
+      }
+    ],
+    "pivot_no_opposite": true,
+    "read_through_hosts": [
+      "3 (heaven Ji + Tian Qin)",
+      "2 (hidden Ji)"
+    ]
+  },
+  "sanqi_liuyi_map": {
+    "Bing": {
+      "class": "sanqi",
+      "positions": [
+        {
+          "layer": "hidden",
+          "palace": "6",
+          "path": "palaces.qian_6.hidden_stem"
+        },
+        {
+          "layer": "heaven",
+          "palace": "7",
+          "path": "palaces.dui_7.heaven_stem"
+        },
+        {
+          "layer": "earth",
+          "palace": "8",
+          "path": "palaces.gen_8.earth_stem"
+        }
+      ]
+    },
+    "Ding": {
+      "class": "sanqi",
+      "positions": [
+        {
+          "layer": "hidden",
+          "palace": "3",
+          "path": "palaces.zhen_3.hidden_stem"
+        },
+        {
+          "layer": "heaven",
+          "palace": "8",
+          "path": "palaces.gen_8.heaven_stem"
+        },
+        {
+          "layer": "earth",
+          "palace": "9",
+          "path": "palaces.li_9.earth_stem"
+        }
+      ]
+    },
+    "Geng": {
+      "class": "liuyi",
+      "positions": [
+        {
+          "layer": "heaven",
+          "palace": "1",
+          "path": "palaces.kan_1.heaven_stem"
+        },
+        {
+          "layer": "earth",
+          "palace": "4",
+          "path": "palaces.xun_4.earth_stem"
+        },
+        {
+          "layer": "hidden",
+          "palace": "8",
+          "path": "palaces.gen_8.hidden_stem"
+        }
+      ]
+    },
+    "Gui": {
+      "class": "liuyi",
+      "positions": [
+        {
+          "layer": "earth",
+          "palace": "1",
+          "path": "palaces.kan_1.earth_stem"
+        },
+        {
+          "layer": "heaven",
+          "palace": "2",
+          "path": "palaces.kun_2.heaven_stem"
+        },
+        {
+          "layer": "hidden",
+          "palace": "7",
+          "path": "palaces.dui_7.hidden_stem"
+        }
+      ]
+    },
+    "Ji": {
+      "class": "liuyi",
+      "positions": [
+        {
+          "layer": "heaven",
+          "palace": "5",
+          "path": "palaces.center_5.heaven_stem"
+        },
+        {
+          "layer": "earth",
+          "palace": "5",
+          "path": "palaces.center_5.earth_stem"
+        },
+        {
+          "layer": "hidden",
+          "palace": "5",
+          "path": "palaces.center_5.hidden_stem"
+        }
+      ]
+    },
+    "Ren": {
+      "class": "liuyi",
+      "positions": [
+        {
+          "layer": "earth",
+          "palace": "2",
+          "path": "palaces.kun_2.earth_stem"
+        },
+        {
+          "layer": "heaven",
+          "palace": "3",
+          "path": "palaces.zhen_3.heaven_stem"
+        },
+        {
+          "layer": "hidden",
+          "palace": "4",
+          "path": "palaces.xun_4.hidden_stem"
+        }
+      ]
+    },
+    "Wu": {
+      "class": "liuyi",
+      "positions": [
+        {
+          "layer": "hidden",
+          "palace": "2",
+          "path": "palaces.kun_2.hidden_stem"
+        },
+        {
+          "layer": "earth",
+          "palace": "6",
+          "path": "palaces.qian_6.earth_stem"
+        },
+        {
+          "layer": "heaven",
+          "palace": "9",
+          "path": "palaces.li_9.heaven_stem"
+        }
+      ]
+    },
+    "Xin": {
+      "class": "liuyi",
+      "positions": [
+        {
+          "layer": "hidden",
+          "palace": "1",
+          "path": "palaces.kan_1.hidden_stem"
+        },
+        {
+          "layer": "earth",
+          "palace": "3",
+          "path": "palaces.zhen_3.earth_stem"
+        },
+        {
+          "layer": "heaven",
+          "palace": "6",
+          "path": "palaces.qian_6.heaven_stem"
+        }
+      ]
+    },
+    "Yi": {
+      "class": "sanqi",
+      "positions": [
+        {
+          "layer": "heaven",
+          "palace": "4",
+          "path": "palaces.xun_4.heaven_stem"
+        },
+        {
+          "layer": "earth",
+          "palace": "7",
+          "path": "palaces.dui_7.earth_stem"
+        },
+        {
+          "layer": "hidden",
+          "palace": "9",
+          "path": "palaces.li_9.hidden_stem"
+        }
+      ]
+    }
+  },
+  "star_system_map": {
+    "Tian Chong": {
+      "seats": [
+        {
+          "displaced": true,
+          "evidence": "palaces.qian_6.star",
+          "home": 3,
+          "lodging_marker": false,
+          "palace": "6",
+          "raw": "Heaven Chong"
+        }
+      ]
+    },
+    "Tian Fu": {
+      "seats": [
+        {
+          "displaced": true,
+          "evidence": "palaces.kan_1.star",
+          "home": 4,
+          "lodging_marker": false,
+          "palace": "1",
+          "raw": "Heaven Fu"
+        }
+      ]
+    },
+    "Tian Peng": {
+      "seats": [
+        {
+          "displaced": true,
+          "evidence": "palaces.kun_2.star",
+          "home": 1,
+          "lodging_marker": false,
+          "palace": "2",
+          "raw": "Heaven Peng"
+        }
+      ]
+    },
+    "Tian Qin": {
+      "seats": [
+        {
+          "displaced": true,
+          "evidence": "palaces.zhen_3.star",
+          "home": 5,
+          "lodging_marker": false,
+          "palace": "3",
+          "raw": "Heaven Qin"
+        },
+        {
+          "displaced": false,
+          "evidence": "palaces.center_5.star",
+          "home": 5,
+          "lodging_marker": true,
+          "palace": "5",
+          "raw": "Heaven Qin (lodged in Zhen 3 Palace)"
+        }
+      ]
+    },
+    "Tian Ren": {
+      "seats": [
+        {
+          "displaced": true,
+          "evidence": "palaces.dui_7.star",
+          "home": 8,
+          "lodging_marker": false,
+          "palace": "7",
+          "raw": "Heaven Ren"
+        }
+      ]
+    },
+    "Tian Rui": {
+      "seats": [
+        {
+          "displaced": true,
+          "evidence": "palaces.zhen_3.star",
+          "home": 2,
+          "lodging_marker": false,
+          "palace": "3",
+          "raw": "Heaven Rui"
+        }
+      ]
+    },
+    "Tian Xin": {
+      "seats": [
+        {
+          "displaced": true,
+          "evidence": "palaces.li_9.star",
+          "home": 6,
+          "lodging_marker": false,
+          "palace": "9",
+          "raw": "Heaven Heart"
+        }
+      ]
+    },
+    "Tian Ying": {
+      "seats": [
+        {
+          "displaced": true,
+          "evidence": "palaces.gen_8.star",
+          "home": 9,
+          "lodging_marker": false,
+          "palace": "8",
+          "raw": "Heaven Ying"
+        }
+      ]
+    },
+    "Tian Zhu": {
+      "seats": [
+        {
+          "displaced": true,
+          "evidence": "palaces.xun_4.star",
+          "home": 7,
+          "lodging_marker": false,
+          "palace": "4",
+          "raw": "Heaven Pillar"
+        }
+      ]
+    }
+  },
+  "void_tomb_punish_force_horse_graph": {
+    "1": {
+      "evidence": [
+        "palaces.kan_1.life_stage"
+      ],
+      "forced_door": false,
+      "harm_field": null,
+      "horse": null,
+      "life_stage_field": "Xin (Zi, Kan 1)",
+      "punishment_field": null,
+      "tomb_fields": {},
+      "tomb_markers": [],
+      "void": false
+    },
+    "2": {
+      "evidence": [
+        "palaces.kun_2.special_markers",
+        "palaces.kun_2.tomb",
+        "palaces.kun_2.punishment",
+        "palaces.kun_2.harm",
+        "palaces.kun_2.life_stage"
+      ],
+      "forced_door": false,
+      "harm_field": "Wu (Wei, Kun 2, Shen)",
+      "horse": [
+        "year horse (Shen) in palace 2"
+      ],
+      "life_stage_field": "Ren (Wei, Kun 2, Shen)",
+      "punishment_field": "Ji (Wei, Kun 2, Shen)",
+      "tomb_fields": {
+        "tomb": "Jia Gui (Wei, Kun 2, Shen)"
+      },
+      "tomb_markers": [
+        "Tomb (Gui)"
+      ],
+      "void": "palace 2 void: day-void ['Wei'], hour-void —"
+    },
+    "3": {
+      "evidence": [
+        "palaces.zhen_3.special_markers",
+        "palaces.zhen_3.punishment",
+        "palaces.zhen_3.harm",
+        "palaces.zhen_3.life_stage"
+      ],
+      "forced_door": false,
+      "harm_field": "Ren (Mao, Zhen 3)",
+      "horse": null,
+      "life_stage_field": "Gui (Mao, Zhen 3)",
+      "punishment_field": "Wu (Mao, Zhen 3)",
+      "tomb_fields": {},
+      "tomb_markers": [],
+      "void": "palace 3 void: day-void —, hour-void ['Mao']"
+    },
+    "4": {
+      "evidence": [
+        "palaces.xun_4.special_markers",
+        "palaces.xun_4.tomb",
+        "palaces.xun_4.punishment",
+        "palaces.xun_4.harm",
+        "palaces.xun_4.life_stage"
+      ],
+      "forced_door": true,
+      "harm_field": "Gui (Chen, Xun 4, Si)",
+      "horse": [
+        "hour horse (Si) in palace 4"
+      ],
+      "life_stage_field": "Geng (Chen, Xun 4, Si)",
+      "punishment_field": "Ren Gui (Chen, Xun 4, Si)",
+      "tomb_fields": {
+        "tomb": "Xin Ren (Chen, Xun 4, Si)"
+      },
+      "tomb_markers": [
+        "Tomb & Punishment (Ren)"
+      ],
+      "void": false
+    },
+    "5": {
+      "evidence": [
+        "palaces.center_5.tomb",
+        "palaces.center_5.punishment",
+        "palaces.center_5.harm",
+        "palaces.center_5.life_stage"
+      ],
+      "forced_door": false,
+      "harm_field": "Harm",
+      "horse": null,
+      "life_stage_field": "Changsheng (Longevity)",
+      "punishment_field": "Punishment",
+      "tomb_fields": {
+        "tomb": "Tomb"
+      },
+      "tomb_markers": [],
+      "void": false
+    },
+    "6": {
+      "evidence": [
+        "palaces.qian_6.special_markers",
+        "palaces.qian_6.tomb",
+        "palaces.qian_6.harm"
+      ],
+      "forced_door": false,
+      "harm_field": "Geng (Hai, Qian 6, Xu)",
+      "horse": [
+        "month horse (Hai) in palace 6"
+      ],
+      "life_stage_field": null,
+      "punishment_field": null,
+      "tomb_fields": {
+        "tomb": "Yi Bing Wu (Hai, Qian 6, Xu)"
+      },
+      "tomb_markers": [
+        "Tomb (Wu)"
+      ],
+      "void": false
+    },
+    "7": {
+      "evidence": [
+        "palaces.dui_7.harm",
+        "palaces.dui_7.life_stage"
+      ],
+      "forced_door": false,
+      "harm_field": "Ji (Dui 7, You)",
+      "horse": null,
+      "life_stage_field": "Ding Ji (Dui 7, You)",
+      "punishment_field": null,
+      "tomb_fields": {},
+      "tomb_markers": [],
+      "void": false
+    },
+    "8": {
+      "evidence": [
+        "palaces.gen_8.special_markers",
+        "palaces.gen_8.tomb",
+        "palaces.gen_8.punishment",
+        "palaces.gen_8.harm",
+        "palaces.gen_8.life_stage"
+      ],
+      "forced_door": false,
+      "harm_field": "Xin (Yin, Gen 8, Chou)",
+      "horse": [
+        "day horse (Yin) in palace 8"
+      ],
+      "life_stage_field": "Bing Wu (Yin, Gen 8, Chou)",
+      "punishment_field": "Geng (Yin, Gen 8, Chou)",
+      "tomb_fields": {
+        "tomb": "Ding Ji Geng (Yin, Gen 8, Chou)"
+      },
+      "tomb_markers": [
+        "Tomb (Ding)"
+      ],
+      "void": "palace 8 void: day-void —, hour-void ['Yin']"
+    },
+    "9": {
+      "evidence": [
+        "palaces.li_9.special_markers",
+        "palaces.li_9.punishment",
+        "palaces.li_9.life_stage"
+      ],
+      "forced_door": false,
+      "harm_field": null,
+      "horse": null,
+      "life_stage_field": "Yi (Li 9, Wu)",
+      "punishment_field": "Xin (Li 9, Wu)",
+      "tomb_fields": {},
+      "tomb_markers": [],
+      "void": "palace 9 void: day-void ['Wu'], hour-void —"
+    }
+  },
+  "wangshuai_matrix": {
+    "1": {
+      "door_strength_normalized": "dead",
+      "door_strength_raw": "Dead",
+      "evidence": [
+        "palaces.kan_1.prosperity_decline.door_strength",
+        "palaces.kan_1.prosperity_decline.star_strength",
+        "palaces.kan_1.prosperity_decline.palace_state",
+        "chart_info.seasonal_strength.water"
+      ],
+      "palace_element": "water",
+      "palace_state_raw": "Strong / Outer",
+      "palace_strength_by_season": "strengthening",
+      "ring": "outer",
+      "season_matches_door": false,
+      "seasonal_element_strength": {
+        "mapping_status": "computed_mapping",
+        "normalized": "strengthening",
+        "raw": "Strong"
+      },
+      "split_star_strength": true,
+      "star_strength_raw": "Discarded / Imprisoned",
+      "star_token_convention": "two-token order (by_season/by_palace) unverified — SCHEMA_AMBIGUITY recorded in schema_variant.json",
+      "star_tokens": [
+        {
+          "normalized": "unknown_or_exhausted_like",
+          "raw": "Discarded"
+        },
+        {
+          "normalized": "trapped",
+          "raw": "Imprisoned"
+        }
+      ]
+    },
+    "2": {
+      "door_strength_normalized": "prosperous",
+      "door_strength_raw": "Prosperous",
+      "evidence": [
+        "palaces.kun_2.prosperity_decline.door_strength",
+        "palaces.kun_2.prosperity_decline.star_strength",
+        "palaces.kun_2.prosperity_decline.palace_state",
+        "chart_info.seasonal_strength.earth"
+      ],
+      "palace_element": "earth",
+      "palace_state_raw": "Rest / Inner",
+      "palace_strength_by_season": "resting",
+      "ring": "inner",
+      "season_matches_door": false,
+      "seasonal_element_strength": {
+        "mapping_status": "computed_mapping",
+        "normalized": "resting",
+        "raw": "Resting"
+      },
+      "split_star_strength": true,
+      "star_strength_raw": "Imprisoned / Discarded",
+      "star_token_convention": "two-token order (by_season/by_palace) unverified — SCHEMA_AMBIGUITY recorded in schema_variant.json",
+      "star_tokens": [
+        {
+          "normalized": "trapped",
+          "raw": "Imprisoned"
+        },
+        {
+          "normalized": "unknown_or_exhausted_like",
+          "raw": "Discarded"
+        }
+      ]
+    },
+    "3": {
+      "door_strength_normalized": "trapped",
+      "door_strength_raw": "Imprisoned",
+      "evidence": [
+        "palaces.zhen_3.prosperity_decline.door_strength",
+        "palaces.zhen_3.prosperity_decline.star_strength",
+        "palaces.zhen_3.prosperity_decline.palace_state",
+        "chart_info.seasonal_strength.wood"
+      ],
+      "palace_element": "wood",
+      "palace_state_raw": "Dead / Outer",
+      "palace_strength_by_season": "dead",
+      "ring": "outer",
+      "season_matches_door": false,
+      "seasonal_element_strength": {
+        "mapping_status": "computed_mapping",
+        "normalized": "dead",
+        "raw": "Dead"
+      },
+      "split_star_strength": true,
+      "star_strength_raw": "Imprisoned / Prosperous",
+      "star_token_convention": "two-token order (by_season/by_palace) unverified — SCHEMA_AMBIGUITY recorded in schema_variant.json",
+      "star_tokens": [
+        {
+          "normalized": "trapped",
+          "raw": "Imprisoned"
+        },
+        {
+          "normalized": "prosperous",
+          "raw": "Prosperous"
+        }
+      ]
+    },
+    "4": {
+      "door_strength_normalized": "resting",
+      "door_strength_raw": "Rest",
+      "evidence": [
+        "palaces.xun_4.prosperity_decline.door_strength",
+        "palaces.xun_4.prosperity_decline.star_strength",
+        "palaces.xun_4.prosperity_decline.palace_state",
+        "chart_info.seasonal_strength.wood"
+      ],
+      "palace_element": "wood",
+      "palace_state_raw": "Dead / Outer",
+      "palace_strength_by_season": "dead",
+      "ring": "outer",
+      "season_matches_door": false,
+      "seasonal_element_strength": {
+        "mapping_status": "computed_mapping",
+        "normalized": "dead",
+        "raw": "Dead"
+      },
+      "split_star_strength": true,
+      "star_strength_raw": "Rest / Strong",
+      "star_token_convention": "two-token order (by_season/by_palace) unverified — SCHEMA_AMBIGUITY recorded in schema_variant.json",
+      "star_tokens": [
+        {
+          "normalized": "resting",
+          "raw": "Rest"
+        },
+        {
+          "normalized": "strengthening",
+          "raw": "Strong"
+        }
+      ]
+    },
+    "5": {
+      "door_strength_normalized": "ABSENT",
+      "door_strength_raw": null,
+      "evidence": [
+        "palaces.center_5.prosperity_decline.palace_state",
+        "chart_info.seasonal_strength.earth"
+      ],
+      "palace_element": "earth",
+      "palace_state_raw": "Rest",
+      "palace_strength_by_season": "resting",
+      "ring": "inner",
+      "season_matches_door": null,
+      "seasonal_element_strength": {
+        "mapping_status": "computed_mapping",
+        "normalized": "resting",
+        "raw": "Resting"
+      },
+      "split_star_strength": false,
+      "star_strength_raw": null,
+      "star_token_convention": "two-token order (by_season/by_palace) unverified — SCHEMA_AMBIGUITY recorded in schema_variant.json",
+      "star_tokens": []
+    },
+    "6": {
+      "door_strength_normalized": "resting",
+      "door_strength_raw": "Rest",
+      "evidence": [
+        "palaces.qian_6.prosperity_decline.door_strength",
+        "palaces.qian_6.prosperity_decline.star_strength",
+        "palaces.qian_6.prosperity_decline.palace_state",
+        "chart_info.seasonal_strength.metal"
+      ],
+      "palace_element": "metal",
+      "palace_state_raw": "Prosperous / Inner",
+      "palace_strength_by_season": "prosperous",
+      "ring": "inner",
+      "season_matches_door": false,
+      "seasonal_element_strength": {
+        "mapping_status": "computed_mapping",
+        "normalized": "prosperous",
+        "raw": "Prosperous"
+      },
+      "split_star_strength": false,
+      "star_strength_raw": "Imprisoned / Imprisoned",
+      "star_token_convention": "two-token order (by_season/by_palace) unverified — SCHEMA_AMBIGUITY recorded in schema_variant.json",
+      "star_tokens": [
+        {
+          "normalized": "trapped",
+          "raw": "Imprisoned"
+        },
+        {
+          "normalized": "trapped",
+          "raw": "Imprisoned"
+        }
+      ]
+    },
+    "7": {
+      "door_strength_normalized": "strengthening",
+      "door_strength_raw": "Strong",
+      "evidence": [
+        "palaces.dui_7.prosperity_decline.door_strength",
+        "palaces.dui_7.prosperity_decline.star_strength",
+        "palaces.dui_7.prosperity_decline.palace_state",
+        "chart_info.seasonal_strength.metal"
+      ],
+      "palace_element": "metal",
+      "palace_state_raw": "Prosperous / Inner",
+      "palace_strength_by_season": "prosperous",
+      "ring": "inner",
+      "season_matches_door": false,
+      "seasonal_element_strength": {
+        "mapping_status": "computed_mapping",
+        "normalized": "prosperous",
+        "raw": "Prosperous"
+      },
+      "split_star_strength": false,
+      "star_strength_raw": "Prosperous / Prosperous",
+      "star_token_convention": "two-token order (by_season/by_palace) unverified — SCHEMA_AMBIGUITY recorded in schema_variant.json",
+      "star_tokens": [
+        {
+          "normalized": "prosperous",
+          "raw": "Prosperous"
+        },
+        {
+          "normalized": "prosperous",
+          "raw": "Prosperous"
+        }
+      ]
+    },
+    "8": {
+      "door_strength_normalized": "dead",
+      "door_strength_raw": "Dead",
+      "evidence": [
+        "palaces.gen_8.prosperity_decline.door_strength",
+        "palaces.gen_8.prosperity_decline.star_strength",
+        "palaces.gen_8.prosperity_decline.palace_state",
+        "chart_info.seasonal_strength.earth"
+      ],
+      "palace_element": "earth",
+      "palace_state_raw": "Rest / Outer",
+      "palace_strength_by_season": "resting",
+      "ring": "outer",
+      "season_matches_door": false,
+      "seasonal_element_strength": {
+        "mapping_status": "computed_mapping",
+        "normalized": "resting",
+        "raw": "Resting"
+      },
+      "split_star_strength": true,
+      "star_strength_raw": "Prosperous / Rest",
+      "star_token_convention": "two-token order (by_season/by_palace) unverified — SCHEMA_AMBIGUITY recorded in schema_variant.json",
+      "star_tokens": [
+        {
+          "normalized": "prosperous",
+          "raw": "Prosperous"
+        },
+        {
+          "normalized": "resting",
+          "raw": "Rest"
+        }
+      ]
+    },
+    "9": {
+      "door_strength_normalized": "prosperous",
+      "door_strength_raw": "Prosperous",
+      "evidence": [
+        "palaces.li_9.prosperity_decline.door_strength",
+        "palaces.li_9.prosperity_decline.star_strength",
+        "palaces.li_9.prosperity_decline.palace_state",
+        "chart_info.seasonal_strength.fire"
+      ],
+      "palace_element": "fire",
+      "palace_state_raw": "Imprisoned / Inner",
+      "palace_strength_by_season": "trapped",
+      "ring": "inner",
+      "season_matches_door": false,
+      "seasonal_element_strength": {
+        "mapping_status": "computed_mapping",
+        "normalized": "trapped",
+        "raw": "Imprisoned"
+      },
+      "split_star_strength": true,
+      "star_strength_raw": "Imprisoned / Strong",
+      "star_token_convention": "two-token order (by_season/by_palace) unverified — SCHEMA_AMBIGUITY recorded in schema_variant.json",
+      "star_tokens": [
+        {
+          "normalized": "trapped",
+          "raw": "Imprisoned"
+        },
+        {
+          "normalized": "strengthening",
+          "raw": "Strong"
+        }
+      ]
+    }
+  }
+}

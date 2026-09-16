@@ -1,0 +1,58 @@
+{
+  "batch": "B5",
+  "palace_id": "5",
+  "relations": [
+    {
+      "at_home": false,
+      "description": "Heaven Qin (lodged in Zhen 3 Palace) home palace None, seated in 5 \u2014 DISPLACED",
+      "evidence": [
+        "palaces.center_5.star",
+        "state:qmdj_complete.star_home_luoshu"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Heaven Qin (lodged in Zhen 3 Palace)",
+        "5"
+      ],
+      "type": "star_home_displacement"
+    },
+    {
+      "description": "day element Water vs palace element Earth: palace controls day",
+      "evidence": [
+        "chart_info.ganzhi.day",
+        "state:palace_key_resolution.palaces.5.element"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Ren",
+        "5"
+      ],
+      "type": "day_element_vs_palace"
+    }
+  ],
+  "source_excerpt": {
+    "deity": "Tai Chang",
+    "earth_stem": "Ji",
+    "harm": "Harm",
+    "heaven_stem": "Ji (lodged in Zhen 3 Palace)",
+    "hidden_stem": "Ji (lodged in Kun 2 Palace)",
+    "life_stage": "Changsheng (Longevity)",
+    "name": "Center 5 Palace",
+    "original_position": {
+      "numbers": [
+        "5 10"
+      ],
+      "star": "Heavenly Bird"
+    },
+    "prosperity_decline": {
+      "palace_state": "Rest"
+    },
+    "punishment": "Punishment",
+    "star": "Heaven Qin (lodged in Zhen 3 Palace)",
+    "tomb": "Tomb"
+  },
+  "verdict_claim_ids": [
+    "CLM-025",
+    "CLM-026"
+  ]
+}

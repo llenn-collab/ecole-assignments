@@ -1,0 +1,41 @@
+[
+  {
+    "bind_slot": "my_answers",
+    "qtype": "brand-identity & positioning (who/why)",
+    "requirement_ids": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R08",
+      "R09",
+      "R10"
+    ]
+  },
+  {
+    "bind_slot": "hidden_problems",
+    "qtype": "risk anticipation & what-not-to-do",
+    "requirement_ids": [
+      "R07",
+      "R13",
+      "R15",
+      "R21",
+      "R24"
+    ]
+  },
+  {
+    "bind_slot": "best_solution",
+    "qtype": "strategy/channel-choice & timing (how to win, in what order)",
+    "requirement_ids": [
+      "R06",
+      "R11",
+      "R12",
+      "R16",
+      "R17",
+      "R18",
+      "R19",
+      "R20"
+    ]
+  }
+]
