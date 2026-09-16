@@ -1,0 +1,127 @@
+{
+  "B1": {
+    "anomalies": [],
+    "heaven_hits": [
+      "3"
+    ],
+    "primary_set": [
+      "3"
+    ],
+    "proxy_hits": [
+      {
+        "how": "heaven stem matches visible stand-in of fu_tou",
+        "palaces": [
+          "3"
+        ],
+        "role": "proxy_lead_Ren"
+      },
+      {
+        "how": "parsed zhi_fu string",
+        "palaces": [
+          "3"
+        ],
+        "role": "duty_star_palace"
+      },
+      {
+        "how": "tomb field/marker contains day gan",
+        "palaces": [
+          "4"
+        ],
+        "role": "tomb_of_day_gan"
+      },
+      {
+        "how": "earth/hidden stem contains day gan",
+        "palaces": [
+          "2",
+          "4"
+        ],
+        "role": "earth_or_hidden"
+      }
+    ],
+    "rule": "day stem heaven trace",
+    "target_stem": "Ren"
+  },
+  "B2": {
+    "anomalies": [],
+    "heaven_hits": [
+      "6"
+    ],
+    "primary_set": [
+      "6"
+    ],
+    "proxy_hits": [
+      {
+        "how": "hour branch via identity table",
+        "palaces": [
+          "6"
+        ],
+        "role": "hour_branch_palace"
+      },
+      {
+        "how": "hour horse via frozen horse table (trace; does not replace operator)",
+        "palaces": [
+          "4"
+        ],
+        "role": "hour_horse_palace"
+      }
+    ],
+    "rule": "hour stem focus",
+    "target_stem": "Xin"
+  },
+  "B3": {
+    "anomalies": [],
+    "basis": [
+      "3"
+    ],
+    "heaven_hits": [],
+    "primary_set": [
+      "7"
+    ],
+    "proxy_hits": [],
+    "rule": "opposite of B1 (cost/check)"
+  },
+  "B4": {
+    "anomalies": [],
+    "basis": [
+      "6"
+    ],
+    "heaven_hits": [],
+    "primary_set": [
+      "4"
+    ],
+    "proxy_hits": [
+      {
+        "how": "hour horse co-located with B4 set",
+        "palaces": [
+          "4"
+        ],
+        "role": "hour_horse_palace"
+      }
+    ],
+    "rule": "opposite of B2 (forward/if-proceed)"
+  },
+  "B5": {
+    "anomalies": [],
+    "heaven_hits": [],
+    "primary_set": [
+      "1",
+      "2",
+      "5",
+      "8",
+      "9"
+    ],
+    "proxy_hits": [],
+    "rule": "remaining palaces, Luo Shu order fallback (chart has no palace_order field)"
+  },
+  "jia": {
+    "jia_on_heaven": false,
+    "jia_references": [
+      {
+        "palace": "2",
+        "path": "palaces.kun_2.tomb",
+        "role": "tomb_field"
+      }
+    ],
+    "note": "Jia (leader) invisible on plate by Dun Jia construction; lead proxy = Ren via fu_tou Jia Chen Ren"
+  }
+}

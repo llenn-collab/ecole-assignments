@@ -1,0 +1,16 @@
+{
+  "allowed": [
+    "brand name",
+    "one-line description",
+    "written positioning",
+    "written design-free notes"
+  ],
+  "excluded": [
+    "logo image",
+    "brand mark artwork",
+    "identity system design",
+    "moodboards as deliverable"
+  ],
+  "pdf_evidence": "(no detailed logo/ brand identity work is required at this stage)",
+  "rule": "no actual logo artwork; written brand NAME + textual positioning only"
+}

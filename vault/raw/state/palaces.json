@@ -1,0 +1,3661 @@
+{
+  "1": {
+    "absent_paths": [
+      "palaces.kan_1.special_markers",
+      "palaces.kan_1.harm",
+      "palaces.kan_1.tomb",
+      "palaces.kan_1.punishment"
+    ],
+    "analyses": [
+      {
+        "content": {
+          "canonical_palace_id": "1",
+          "direction": "North",
+          "earthly_branches": [
+            "Rat (Zi)"
+          ],
+          "element": "Water",
+          "name": "Kan",
+          "palace_seasonal_strength": {
+            "mapping_status": "computed_mapping",
+            "normalized": "strengthening",
+            "raw": "Strong"
+          },
+          "plate_division": "Hourly Rotating Qimen, Chaibu Qiju",
+          "raw_palace_key": "kan_1",
+          "ring": "outer"
+        },
+        "step": "S1_identity"
+      },
+      {
+        "content": {
+          "earth_stem": "Gui"
+        },
+        "step": "S2_earth"
+      },
+      {
+        "content": {
+          "door": "Shang",
+          "forced_computed": false,
+          "strength_raw": "Dead"
+        },
+        "step": "S3_door"
+      },
+      {
+        "content": {
+          "deity": "Great Yin",
+          "heaven_stem": "Geng",
+          "star": "Heaven Fu",
+          "star_strength_raw": "Discarded / Imprisoned"
+        },
+        "step": "S4_heaven"
+      },
+      {
+        "content": {
+          "hidden_stem": "Xin"
+        },
+        "step": "S5_hidden"
+      },
+      {
+        "content": {
+          "auspicious_patterns": [
+            "Palace Generating Door"
+          ],
+          "inauspicious_patterns": [
+            "Great Barrier"
+          ],
+          "special_markers": null
+        },
+        "step": "S6_explicit"
+      },
+      {
+        "content": {
+          "branches": [
+            "Zi"
+          ],
+          "deity": "Chief",
+          "door": "Rest Door",
+          "numbers": [
+            "6 1",
+            "1 6"
+          ],
+          "opposite_palace": "Kun 8",
+          "star": "Heavenly Peng"
+        },
+        "step": "S7_original_position"
+      },
+      {
+        "content": {
+          "door_strength": {
+            "normalized": [
+              "dead"
+            ],
+            "raw": "Dead",
+            "tokens": [
+              "Dead"
+            ]
+          },
+          "palace_state": {
+            "normalized": [
+              "strengthening",
+              "outer"
+            ],
+            "raw": "Strong / Outer",
+            "tokens": [
+              "Strong",
+              "Outer"
+            ]
+          },
+          "star_strength": {
+            "normalized": [
+              "unknown_or_exhausted_like",
+              "trapped"
+            ],
+            "raw": "Discarded / Imprisoned",
+            "tokens": [
+              "Discarded",
+              "Imprisoned"
+            ]
+          }
+        },
+        "step": "S8_prosperity_decline"
+      },
+      {
+        "content": {
+          "life_stage": "Xin (Zi, Kan 1)"
+        },
+        "step": "S9_relational_strings"
+      },
+      {
+        "content": {
+          "occurrences_of_Geng": [
+            {
+              "layer": "heaven",
+              "palace": "1",
+              "path": "palaces.kan_1.heaven_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "4",
+              "path": "palaces.xun_4.earth_stem"
+            },
+            {
+              "layer": "hidden",
+              "palace": "8",
+              "path": "palaces.gen_8.hidden_stem"
+            }
+          ],
+          "occurrences_of_Gui": [
+            {
+              "layer": "earth",
+              "palace": "1",
+              "path": "palaces.kan_1.earth_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "2",
+              "path": "palaces.kun_2.heaven_stem"
+            },
+            {
+              "layer": "marker_reference",
+              "palace": "2",
+              "path": "palaces.kun_2.special_markers[1]"
+            },
+            {
+              "layer": "hidden",
+              "palace": "7",
+              "path": "palaces.dui_7.hidden_stem"
+            }
+          ],
+          "occurrences_of_Xin": [
+            {
+              "layer": "hidden",
+              "palace": "1",
+              "path": "palaces.kan_1.hidden_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "3",
+              "path": "palaces.zhen_3.earth_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "6",
+              "path": "palaces.qian_6.heaven_stem"
+            }
+          ]
+        },
+        "step": "S11_index_pull"
+      }
+    ],
+    "anomalies": [],
+    "batch": "B5",
+    "canonical_name": "Kan",
+    "palace_id": "1",
+    "raw_palace_key": "kan_1",
+    "relations": [
+      {
+        "description": "Gui water generates Geng metal — plate feeds from below",
+        "evidence": [
+          "palaces.kan_1.heaven_stem",
+          "palaces.kan_1.earth_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "generation"
+      },
+      {
+        "description": "palace Water generates door Shang (Wood)",
+        "evidence": [
+          "palaces.kan_1.door",
+          "state:palace_key_resolution.palaces.1.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "palace_generating_door"
+      },
+      {
+        "description": "Tian Fu home palace 4, seated in 1 — DISPLACED",
+        "evidence": [
+          "palaces.kan_1.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "grounding": "COMPUTED",
+        "type": "star_home_displacement"
+      },
+      {
+        "description": "door Shang away from original (Rest Door)",
+        "evidence": [
+          "palaces.kan_1.door",
+          "palaces.kan_1.original_position.door"
+        ],
+        "grounding": "COMPUTED",
+        "type": "door_at_original_palace"
+      },
+      {
+        "description": "palace branch Zi clashes year pillar branch Wu (Zi-Wu clash)",
+        "evidence": [
+          "chart_info.ganzhi.year",
+          "state:palace_key_resolution.palaces.1.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "branch_clash"
+      },
+      {
+        "description": "day element Water vs palace element Water: same element kin",
+        "evidence": [
+          "chart_info.ganzhi.day",
+          "state:palace_key_resolution.palaces.1.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "day_element_vs_palace"
+      }
+    ],
+    "rev": 1,
+    "roles": [
+      "Great_Barrier (Geng over Gui)",
+      "Shang_injury_door_dead",
+      "Great_Yin_cover",
+      "outer_ring",
+      "groundwork_track"
+    ],
+    "updated": "2026-09-15T20:07:01Z",
+    "verdicts": [
+      {
+        "batch": "B5",
+        "claim_id": "CLM-020",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "1",
+            "path": "palaces.kan_1.inauspicious_patterns[0]",
+            "value": null
+          },
+          {
+            "palace_id": "1",
+            "path": "palaces.kan_1.heaven_stem",
+            "value": "\"Geng\""
+          },
+          {
+            "palace_id": "1",
+            "path": "palaces.kan_1.earth_stem",
+            "value": "\"Gui\""
+          },
+          {
+            "palace_id": "1",
+            "path": "palaces.kan_1.door",
+            "value": "\"Shang\""
+          },
+          {
+            "palace_id": "1",
+            "path": "palaces.kan_1.prosperity_decline.star_strength",
+            "value": "null"
+          },
+          {
+            "palace_id": "1",
+            "path": "palaces.kan_1.prosperity_decline.door_strength",
+            "value": "null"
+          },
+          {
+            "palace_id": "1",
+            "path": "palaces.kan_1.deity",
+            "value": "\"Great Yin\""
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P5_REMAINING",
+        "polarity": "SUPPORT",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Kan 1 holds the explicit 'Great Barrier' (both pieces exist: heaven Geng, earth Gui) with Shang (injury) door at Dead and star Discarded/Imprisoned under Great Yin — a hard barrier on the groundwork/water track; stalled starts and injurious grind without yield."
+      },
+      {
+        "batch": "B5",
+        "claim_id": "CLM-021",
+        "confidence": "LOW",
+        "evidence": [
+          {
+            "palace_id": "1",
+            "path": "palaces.kan_1.auspicious_patterns[0]",
+            "value": null
+          },
+          {
+            "palace_id": "1",
+            "path": "palaces.kan_1.prosperity_decline.palace_state",
+            "value": "null"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P5_REMAINING",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Barrier is intermittent, not terminal: explicit 'Palace Generating Door' and palace state Strong/Outer mean the season still feeds the effort — grind returns poorly now, but the foundation is not dead."
+      }
+    ]
+  },
+  "2": {
+    "absent_paths": [
+      "palaces.kun_2.inauspicious_patterns"
+    ],
+    "analyses": [
+      {
+        "content": {
+          "canonical_palace_id": "2",
+          "direction": "Southwest",
+          "earthly_branches": [
+            "Goat (Wei)",
+            "Monkey (Shen)"
+          ],
+          "element": "Earth",
+          "name": "Kun",
+          "palace_seasonal_strength": {
+            "mapping_status": "computed_mapping",
+            "normalized": "resting",
+            "raw": "Resting"
+          },
+          "plate_division": "Hourly Rotating Qimen, Chaibu Qiju",
+          "raw_palace_key": "kun_2",
+          "ring": "inner"
+        },
+        "step": "S1_identity"
+      },
+      {
+        "content": {
+          "earth_stem": "Ren"
+        },
+        "step": "S2_earth"
+      },
+      {
+        "content": {
+          "door": "Open",
+          "forced_computed": false,
+          "strength_raw": "Prosperous"
+        },
+        "step": "S3_door"
+      },
+      {
+        "content": {
+          "deity": "Xuanwu",
+          "heaven_stem": "Gui",
+          "star": "Heaven Peng",
+          "star_strength_raw": "Imprisoned / Discarded"
+        },
+        "step": "S4_heaven"
+      },
+      {
+        "content": {
+          "hidden_stem": "Wu"
+        },
+        "step": "S5_hidden"
+      },
+      {
+        "content": {
+          "auspicious_patterns": [
+            "Palace Generating Door"
+          ],
+          "inauspicious_patterns": null,
+          "special_markers": [
+            "Void",
+            "Tomb (Gui)"
+          ]
+        },
+        "step": "S6_explicit"
+      },
+      {
+        "content": {
+          "branches": [
+            "Wei",
+            "Shen"
+          ],
+          "deity": "Vermilion Bird, Black Tortoise",
+          "door": "Death Door",
+          "numbers": [
+            "8 2",
+            "5 10"
+          ],
+          "opposite_palace": "Xun 5",
+          "star": "Heavenly Rui"
+        },
+        "step": "S7_original_position"
+      },
+      {
+        "content": {
+          "door_strength": {
+            "normalized": [
+              "prosperous"
+            ],
+            "raw": "Prosperous",
+            "tokens": [
+              "Prosperous"
+            ]
+          },
+          "palace_state": {
+            "normalized": [
+              "resting",
+              "inner"
+            ],
+            "raw": "Rest / Inner",
+            "tokens": [
+              "Rest",
+              "Inner"
+            ]
+          },
+          "star_strength": {
+            "normalized": [
+              "trapped",
+              "unknown_or_exhausted_like"
+            ],
+            "raw": "Imprisoned / Discarded",
+            "tokens": [
+              "Imprisoned",
+              "Discarded"
+            ]
+          }
+        },
+        "step": "S8_prosperity_decline"
+      },
+      {
+        "content": {
+          "harm": "Wu (Wei, Kun 2, Shen)",
+          "life_stage": "Ren (Wei, Kun 2, Shen)",
+          "punishment": "Ji (Wei, Kun 2, Shen)",
+          "tomb": "Jia Gui (Wei, Kun 2, Shen)"
+        },
+        "step": "S9_relational_strings"
+      },
+      {
+        "content": {
+          "occurrences_of_Gui": [
+            {
+              "layer": "earth",
+              "palace": "1",
+              "path": "palaces.kan_1.earth_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "2",
+              "path": "palaces.kun_2.heaven_stem"
+            },
+            {
+              "layer": "marker_reference",
+              "palace": "2",
+              "path": "palaces.kun_2.special_markers[1]"
+            },
+            {
+              "layer": "hidden",
+              "palace": "7",
+              "path": "palaces.dui_7.hidden_stem"
+            }
+          ],
+          "occurrences_of_Ren": [
+            {
+              "layer": "earth",
+              "palace": "2",
+              "path": "palaces.kun_2.earth_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "3",
+              "path": "palaces.zhen_3.heaven_stem"
+            },
+            {
+              "layer": "hidden",
+              "palace": "4",
+              "path": "palaces.xun_4.hidden_stem"
+            },
+            {
+              "layer": "marker_reference",
+              "palace": "4",
+              "path": "palaces.xun_4.special_markers[1]"
+            }
+          ],
+          "occurrences_of_Wu": [
+            {
+              "layer": "hidden",
+              "palace": "2",
+              "path": "palaces.kun_2.hidden_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "6",
+              "path": "palaces.qian_6.earth_stem"
+            },
+            {
+              "layer": "marker_reference",
+              "palace": "6",
+              "path": "palaces.qian_6.special_markers[0]"
+            },
+            {
+              "layer": "heaven",
+              "palace": "9",
+              "path": "palaces.li_9.heaven_stem"
+            }
+          ]
+        },
+        "step": "S11_index_pull"
+      }
+    ],
+    "anomalies": [],
+    "batch": "B5",
+    "canonical_name": "Kun",
+    "palace_id": "2",
+    "raw_palace_key": "kun_2",
+    "relations": [
+      {
+        "description": "Gui+Wu form a five-combination (heaven/hidden of palace 2)",
+        "evidence": [
+          "palaces.kun_2.heaven_stem",
+          "palaces.kun_2.hidden_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "stem_combination"
+      },
+      {
+        "description": "Wu earth controls Gui water",
+        "evidence": [
+          "palaces.kun_2.heaven_stem",
+          "palaces.kun_2.hidden_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "control"
+      },
+      {
+        "description": "palace Earth generates door Open (Metal)",
+        "evidence": [
+          "palaces.kun_2.door",
+          "state:palace_key_resolution.palaces.2.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "palace_generating_door"
+      },
+      {
+        "description": "Tian Peng home palace 1, seated in 2 — DISPLACED",
+        "evidence": [
+          "palaces.kun_2.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "grounding": "COMPUTED",
+        "type": "star_home_displacement"
+      },
+      {
+        "description": "door Open away from original (Death Door)",
+        "evidence": [
+          "palaces.kun_2.door",
+          "palaces.kun_2.original_position.door"
+        ],
+        "grounding": "COMPUTED",
+        "type": "door_at_original_palace"
+      },
+      {
+        "description": "palace branch Wei six-combines year pillar branch Wu",
+        "evidence": [
+          "chart_info.ganzhi.year",
+          "state:palace_key_resolution.palaces.2.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "branch_six_combination"
+      },
+      {
+        "description": "day element Water vs palace element Earth: palace controls day",
+        "evidence": [
+          "chart_info.ganzhi.day",
+          "state:palace_key_resolution.palaces.2.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "day_element_vs_palace"
+      },
+      {
+        "description": "year horse (Shen) in palace 2",
+        "evidence": [
+          "chart_info.horse.year",
+          "state:palace_key_resolution.palaces.2.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "horse_star"
+      },
+      {
+        "description": "palace 2 void: day-void ['Wei'], hour-void —",
+        "evidence": [
+          "chart_info.void.day",
+          "chart_info.void.hour",
+          "state:palace_key_resolution.palaces.2.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "void_palace"
+      }
+    ],
+    "rev": 2,
+    "roles": [
+      "day_void_member (Wei)",
+      "Open_door_channel",
+      "duty_door_original_palace (Death home)",
+      "Xuanwu_obscurity",
+      "tomb_of_Jia_and_Gui",
+      "inner_ring",
+      "lodger_host (hidden Ji from Center)",
+      "day_stem_life_stage_seat (Ren @ Wei/Shen)"
+    ],
+    "updated": "2026-09-16T01:26:38Z",
+    "verdicts": [
+      {
+        "batch": "B5",
+        "claim_id": "CLM-022",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "2",
+            "path": "palaces.kun_2.door",
+            "value": "\"Open\""
+          },
+          {
+            "palace_id": "2",
+            "path": "palaces.kun_2.auspicious_patterns[0]",
+            "value": null
+          },
+          {
+            "palace_id": "2",
+            "path": "palaces.kun_2.prosperity_decline.door_strength",
+            "value": "null"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P5_REMAINING",
+        "polarity": "SUPPORT",
+        "slot": "chart_best_solution_candidate",
+        "status": "live",
+        "text_en": "An official-opening channel exists in Kun 2: Open door at seasonal Prosperous with explicit 'Palace Generating Door' — the board's one true 'open gate' for launches, approvals and submissions."
+      },
+      {
+        "batch": "B5",
+        "claim_id": "CLM-023",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "2",
+            "path": "palaces.kun_2.special_markers[0]",
+            "value": null
+          },
+          {
+            "palace_id": "2",
+            "path": "palaces.kun_2.special_markers[1]",
+            "value": null
+          },
+          {
+            "palace_id": "2",
+            "path": "palaces.kun_2.deity",
+            "value": "\"Xuanwu\""
+          },
+          {
+            "palace_id": "2",
+            "path": "palaces.kun_2.prosperity_decline.star_strength",
+            "value": "null"
+          },
+          {
+            "palace_id": "meta",
+            "path": "chart_info.void.day",
+            "value": "Wu Wei"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P5_REMAINING",
+        "polarity": "VETO",
+        "slot": "chart_best_solution_candidate",
+        "status": "live",
+        "text_en": "Same palace, split claim: Kun 2 is day-void (Wei), heaven Gui is entombed (explicit Tomb (Gui), validated at Wei), and Xuanwu deity (obscurity) watches it while the star is Imprisoned/Discarded — what opens here is void, buried, or not what it seems. Do not ship the flagship through this gate in the current window."
+      },
+      {
+        "batch": "B5",
+        "claim_id": "CLM-024",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "2",
+            "path": "palaces.kun_2.tomb",
+            "value": "\"Jia Gui (Wei, Kun 2, Shen)\""
+          },
+          {
+            "palace_id": "2",
+            "path": "palaces.kun_2.hidden_stem",
+            "value": "\"Wu\""
+          },
+          {
+            "palace_id": "2",
+            "path": "palaces.kun_2.heaven_stem",
+            "value": "\"Gui\""
+          },
+          {
+            "palace_id": "state",
+            "path": "state:marker_validation.tomb",
+            "value": "<derived state object>"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P5_REMAINING",
+        "polarity": "SUPPORT",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Root constraint: the tomb field entombs Jia (the concealed leader/authority substance) together with Gui in Kun 2 — the decision-authority is buried in the void-opening palace; hidden Wu under Gui adds a combination that binds the pall privately. Authority will not appear on demand through this channel."
+      },
+      {
+        "audit_fix": "O6 (AUDIT_FIX cycle 2)",
+        "batch": "B5",
+        "claim_id": "CLM-033",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "2",
+            "path": "palaces.kun_2.life_stage",
+            "value": "Ren (Wei, Kun 2, Shen)"
+          },
+          {
+            "palace_id": "meta",
+            "path": "chart_info.ganzhi.day",
+            "value": "Ren Chen"
+          },
+          {
+            "palace_id": "2",
+            "path": "palaces.kun_2.special_markers[0]",
+            "value": null
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P5_REMAINING",
+        "polarity": "CONSTRAIN",
+        "slot": "chart_answers_candidate",
+        "status": "live",
+        "text_en": "The day stem's generative seat is parked in the void gate: the chart's own life_stage field names Ren (the day stem) at Kun 2 (Wei/Shen) — growth support for the querent exists structurally but sits in the day-void (Wei) opening palace. Read as not-yet, not never: it activates when the Wei void fills."
+      }
+    ]
+  },
+  "3": {
+    "absent_paths": [
+      "palaces.zhen_3.inauspicious_patterns",
+      "palaces.zhen_3.tomb"
+    ],
+    "analyses": [
+      {
+        "content": {
+          "canonical_palace_id": "3",
+          "direction": "East",
+          "earthly_branches": [
+            "Rabbit (Mao)"
+          ],
+          "element": "Wood",
+          "name": "Zhen",
+          "palace_seasonal_strength": {
+            "mapping_status": "computed_mapping",
+            "normalized": "dead",
+            "raw": "Dead"
+          },
+          "plate_division": "Hourly Rotating Qimen, Chaibu Qiju",
+          "raw_palace_key": "zhen_3",
+          "ring": "outer"
+        },
+        "step": "S1_identity"
+      },
+      {
+        "content": {
+          "earth_stem": "Xin"
+        },
+        "step": "S2_earth"
+      },
+      {
+        "content": {
+          "door": "Scenery",
+          "forced_computed": false,
+          "strength_raw": "Imprisoned"
+        },
+        "step": "S3_door"
+      },
+      {
+        "content": {
+          "deity": "Chief",
+          "heaven_stem": "Ren",
+          "star": "Heaven Rui & Heaven Qin",
+          "star_strength_raw": "Imprisoned / Prosperous"
+        },
+        "step": "S4_heaven"
+      },
+      {
+        "content": {
+          "hidden_stem": "Ding"
+        },
+        "step": "S5_hidden"
+      },
+      {
+        "content": {
+          "auspicious_patterns": [
+            "Palace Generating Door"
+          ],
+          "inauspicious_patterns": null,
+          "special_markers": [
+            "Void"
+          ]
+        },
+        "step": "S6_explicit"
+      },
+      {
+        "content": {
+          "branches": [
+            "Mao"
+          ],
+          "deity": "Great Yin",
+          "door": "Wound Door",
+          "numbers": [
+            "4 3",
+            "3 8"
+          ],
+          "opposite_palace": "Li 3",
+          "star": "Heavenly Chong"
+        },
+        "step": "S7_original_position"
+      },
+      {
+        "content": {
+          "door_strength": {
+            "normalized": [
+              "trapped"
+            ],
+            "raw": "Imprisoned",
+            "tokens": [
+              "Imprisoned"
+            ]
+          },
+          "palace_state": {
+            "normalized": [
+              "dead",
+              "outer"
+            ],
+            "raw": "Dead / Outer",
+            "tokens": [
+              "Dead",
+              "Outer"
+            ]
+          },
+          "star_strength": {
+            "normalized": [
+              "trapped",
+              "prosperous"
+            ],
+            "raw": "Imprisoned / Prosperous",
+            "tokens": [
+              "Imprisoned",
+              "Prosperous"
+            ]
+          }
+        },
+        "step": "S8_prosperity_decline"
+      },
+      {
+        "content": {
+          "harm": "Ren (Mao, Zhen 3)",
+          "life_stage": "Gui (Mao, Zhen 3)",
+          "punishment": "Wu (Mao, Zhen 3)"
+        },
+        "step": "S9_relational_strings"
+      },
+      {
+        "content": {
+          "occurrences_of_Ding": [
+            {
+              "layer": "hidden",
+              "palace": "3",
+              "path": "palaces.zhen_3.hidden_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "8",
+              "path": "palaces.gen_8.heaven_stem"
+            },
+            {
+              "layer": "marker_reference",
+              "palace": "8",
+              "path": "palaces.gen_8.special_markers[1]"
+            },
+            {
+              "layer": "earth",
+              "palace": "9",
+              "path": "palaces.li_9.earth_stem"
+            }
+          ],
+          "occurrences_of_Ren": [
+            {
+              "layer": "earth",
+              "palace": "2",
+              "path": "palaces.kun_2.earth_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "3",
+              "path": "palaces.zhen_3.heaven_stem"
+            },
+            {
+              "layer": "hidden",
+              "palace": "4",
+              "path": "palaces.xun_4.hidden_stem"
+            },
+            {
+              "layer": "marker_reference",
+              "palace": "4",
+              "path": "palaces.xun_4.special_markers[1]"
+            }
+          ],
+          "occurrences_of_Xin": [
+            {
+              "layer": "hidden",
+              "palace": "1",
+              "path": "palaces.kan_1.hidden_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "3",
+              "path": "palaces.zhen_3.earth_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "6",
+              "path": "palaces.qian_6.heaven_stem"
+            }
+          ]
+        },
+        "step": "S11_index_pull"
+      }
+    ],
+    "anomalies": [],
+    "batch": "B1",
+    "canonical_name": "Zhen",
+    "palace_id": "3",
+    "raw_palace_key": "zhen_3",
+    "relations": [
+      {
+        "description": "Ren water generates Xin — upper layer drains into lower",
+        "evidence": [
+          "palaces.zhen_3.heaven_stem",
+          "palaces.zhen_3.earth_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "generation_drain"
+      },
+      {
+        "description": "Ren+Ding form a five-combination (heaven/hidden of palace 3)",
+        "evidence": [
+          "palaces.zhen_3.heaven_stem",
+          "palaces.zhen_3.hidden_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "stem_combination"
+      },
+      {
+        "description": "Ren water controls Ding fire",
+        "evidence": [
+          "palaces.zhen_3.heaven_stem",
+          "palaces.zhen_3.hidden_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "control"
+      },
+      {
+        "description": "palace Wood generates door Scenery (Fire)",
+        "evidence": [
+          "palaces.zhen_3.door",
+          "state:palace_key_resolution.palaces.3.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "palace_generating_door"
+      },
+      {
+        "description": "Tian Rui home palace 2, seated in 3 — DISPLACED",
+        "evidence": [
+          "palaces.zhen_3.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "grounding": "COMPUTED",
+        "type": "star_home_displacement"
+      },
+      {
+        "description": "Tian Qin home palace 5, seated in 3 — DISPLACED",
+        "evidence": [
+          "palaces.zhen_3.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "grounding": "COMPUTED",
+        "type": "star_home_displacement"
+      },
+      {
+        "description": "door Scenery away from original (Wound Door)",
+        "evidence": [
+          "palaces.zhen_3.door",
+          "palaces.zhen_3.original_position.door"
+        ],
+        "grounding": "COMPUTED",
+        "type": "door_at_original_palace"
+      },
+      {
+        "description": "palace branch Mao clashes month pillar branch You (Mao-You clash)",
+        "evidence": [
+          "chart_info.ganzhi.month",
+          "state:palace_key_resolution.palaces.3.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "branch_clash"
+      },
+      {
+        "description": "day element Water vs palace element Wood: day produces palace (outflow)",
+        "evidence": [
+          "chart_info.ganzhi.day",
+          "state:palace_key_resolution.palaces.3.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "day_element_vs_palace"
+      },
+      {
+        "description": "palace 3 void: day-void —, hour-void ['Mao']",
+        "evidence": [
+          "chart_info.void.day",
+          "chart_info.void.hour",
+          "state:palace_key_resolution.palaces.3.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "void_palace"
+      }
+    ],
+    "rev": 1,
+    "roles": [
+      "day_stem_origin",
+      "B1_primary",
+      "duty_star_palace",
+      "lead_stem_proxy (Ren)",
+      "Chief_deity_seat (zhi_fu cross-check)",
+      "hour_void_member",
+      "outer_ring",
+      "day_element_outflow (Water->Wood)"
+    ],
+    "updated": "2026-09-15T20:07:01Z",
+    "verdicts": [
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B1",
+        "claim_id": "CLM-001",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "meta",
+            "path": "chart_info.ganzhi.day",
+            "value": "Ren Chen"
+          },
+          {
+            "palace_id": "3",
+            "path": "palaces.zhen_3.heaven_stem",
+            "value": "\"Ren\""
+          },
+          {
+            "palace_id": "state",
+            "path": "state:origin_sets.B1.heaven_hits",
+            "value": "<derived state object>"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SUPPORT",
+        "slot": "chart_answers_candidate",
+        "status": "live",
+        "text_en": "The chart's answer-locus is Zhen 3: day stem Ren (querent/day seat) sits on the heaven plate here — the only heaven-plate hit for the day stem — so B1 resolves to a single palace by value match."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B1",
+        "claim_id": "CLM-002",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "meta",
+            "path": "chart_info.fu_tou",
+            "value": "Jia Chen Ren"
+          },
+          {
+            "palace_id": "meta",
+            "path": "chart_info.zhi_fu",
+            "value": "Tian Rui falling in Zhen 3 Palace"
+          },
+          {
+            "palace_id": "3",
+            "path": "palaces.zhen_3.star",
+            "value": "\"Heaven Rui & Heaven Qin\""
+          },
+          {
+            "palace_id": "3",
+            "path": "palaces.zhen_3.deity",
+            "value": "\"Chief\""
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SUPPORT",
+        "slot": "chart_answers_candidate",
+        "status": "live",
+        "text_en": "Authority converges on the same seat: fu_tou 'Jia Chen Ren' hides the leader Jia under Ren (the day stem itself), duty star Tian Rui (zhi_fu) lands in Zhen 3, the palace star field carries 'Heaven Rui & Heaven Qin', and the Chief deity occupies this palace. No competing candidate found for the answer seat."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B1",
+        "claim_id": "CLM-003",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "meta",
+            "path": "chart_info.void.hour",
+            "value": "Yin Mao"
+          },
+          {
+            "palace_id": "3",
+            "path": "palaces.zhen_3.special_markers[0]",
+            "value": null
+          },
+          {
+            "palace_id": "state",
+            "path": "state:marker_validation.void",
+            "value": "<derived state object>"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "WARN",
+        "slot": "timing",
+        "status": "live",
+        "text_en": "The answer palace is hour-void: palace branch Mao is in the hour void 'Yin Mao' (explicit marker Void; computed xun check agrees). The matter at the answer seat does not land until the void fills (Mao day/hour)."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B1",
+        "claim_id": "CLM-004",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "3",
+            "path": "palaces.zhen_3.prosperity_decline.door_strength",
+            "value": "null"
+          },
+          {
+            "palace_id": "3",
+            "path": "palaces.zhen_3.prosperity_decline.star_strength",
+            "value": "null"
+          },
+          {
+            "palace_id": "3",
+            "path": "palaces.zhen_3.prosperity_decline.palace_state",
+            "value": "null"
+          },
+          {
+            "palace_id": "3",
+            "path": "palaces.zhen_3.door",
+            "value": "\"Scenery\""
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Method at the answer seat constricted: Scenery door is Imprisoned, palace state is Dead/Outer, star strength is split (Imprisoned / Prosperous tokens) — an outwardly visible showpiece over an exhausted core process."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B1",
+        "claim_id": "CLM-005",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "3",
+            "path": "palaces.zhen_3.harm",
+            "value": "\"Ren (Mao, Zhen 3)\""
+          },
+          {
+            "palace_id": "3",
+            "path": "palaces.zhen_3.punishment",
+            "value": "\"Wu (Mao, Zhen 3)\""
+          },
+          {
+            "palace_id": "meta",
+            "path": "chart_info.ganzhi.day",
+            "value": "Ren Chen"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "WARN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Self-inflicted drag at the answer seat: the harm field names the day stem itself (Ren) at Mao/Zhen 3, and the punishment field names Wu — the querent's own execution mis-steps are the damage vector, not an external enemy."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B1",
+        "claim_id": "CLM-006",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "3",
+            "path": "palaces.zhen_3.earth_stem",
+            "value": "\"Xin\""
+          },
+          {
+            "palace_id": "3",
+            "path": "palaces.zhen_3.hidden_stem",
+            "value": "\"Ding\""
+          },
+          {
+            "palace_id": "3",
+            "path": "palaces.zhen_3.heaven_stem",
+            "value": "\"Ren\""
+          }
+        ],
+        "grounding": "COMPUTED",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SEQUENCE",
+        "slot": "timing",
+        "status": "live",
+        "text_en": "Support reaches the answer through covered channels: earth Xin metal generates heaven Ren water, and hidden Ding forms a Ding-Ren combination under the day stem — private agreements/resources feed the seat; the visible show (Scenery) is not the feed."
+      }
+    ]
+  },
+  "4": {
+    "absent_paths": [],
+    "analyses": [
+      {
+        "content": {
+          "canonical_palace_id": "4",
+          "direction": "Southeast",
+          "earthly_branches": [
+            "Dragon (Chen)",
+            "Snake (Si)"
+          ],
+          "element": "Wood",
+          "name": "Xun",
+          "palace_seasonal_strength": {
+            "mapping_status": "computed_mapping",
+            "normalized": "dead",
+            "raw": "Dead"
+          },
+          "plate_division": "Hourly Rotating Qimen, Chaibu Qiju",
+          "raw_palace_key": "xun_4",
+          "ring": "outer"
+        },
+        "step": "S1_identity"
+      },
+      {
+        "content": {
+          "earth_stem": "Geng"
+        },
+        "step": "S2_earth"
+      },
+      {
+        "content": {
+          "door": "Death",
+          "forced_computed": true,
+          "strength_raw": "Rest"
+        },
+        "step": "S3_door"
+      },
+      {
+        "content": {
+          "deity": "Nine Heavens",
+          "heaven_stem": "Yi",
+          "star": "Heaven Pillar",
+          "star_strength_raw": "Rest / Strong"
+        },
+        "step": "S4_heaven"
+      },
+      {
+        "content": {
+          "hidden_stem": "Ren"
+        },
+        "step": "S5_hidden"
+      },
+      {
+        "content": {
+          "auspicious_patterns": [
+            "Wonder Instrument Combination",
+            "Three Wonders Obtaining Mission"
+          ],
+          "inauspicious_patterns": [
+            "Door Entering Tomb",
+            "Palace Oppressing Door",
+            "Three Wonders Being Restricted"
+          ],
+          "special_markers": [
+            "Horse",
+            "Tomb & Punishment (Ren)"
+          ]
+        },
+        "step": "S6_explicit"
+      },
+      {
+        "content": {
+          "branches": [
+            "Chen",
+            "Si"
+          ],
+          "deity": "Six Harmony",
+          "door": "Du Door",
+          "numbers": [
+            "5 4",
+            "3 8"
+          ],
+          "opposite_palace": "Dui 2",
+          "star": "Heavenly Auxiliary"
+        },
+        "step": "S7_original_position"
+      },
+      {
+        "content": {
+          "door_strength": {
+            "normalized": [
+              "resting"
+            ],
+            "raw": "Rest",
+            "tokens": [
+              "Rest"
+            ]
+          },
+          "palace_state": {
+            "normalized": [
+              "dead",
+              "outer"
+            ],
+            "raw": "Dead / Outer",
+            "tokens": [
+              "Dead",
+              "Outer"
+            ]
+          },
+          "star_strength": {
+            "normalized": [
+              "resting",
+              "strengthening"
+            ],
+            "raw": "Rest / Strong",
+            "tokens": [
+              "Rest",
+              "Strong"
+            ]
+          }
+        },
+        "step": "S8_prosperity_decline"
+      },
+      {
+        "content": {
+          "harm": "Gui (Chen, Xun 4, Si)",
+          "life_stage": "Geng (Chen, Xun 4, Si)",
+          "punishment": "Ren Gui (Chen, Xun 4, Si)",
+          "tomb": "Xin Ren (Chen, Xun 4, Si)"
+        },
+        "step": "S9_relational_strings"
+      },
+      {
+        "content": {
+          "occurrences_of_Geng": [
+            {
+              "layer": "heaven",
+              "palace": "1",
+              "path": "palaces.kan_1.heaven_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "4",
+              "path": "palaces.xun_4.earth_stem"
+            },
+            {
+              "layer": "hidden",
+              "palace": "8",
+              "path": "palaces.gen_8.hidden_stem"
+            }
+          ],
+          "occurrences_of_Ren": [
+            {
+              "layer": "earth",
+              "palace": "2",
+              "path": "palaces.kun_2.earth_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "3",
+              "path": "palaces.zhen_3.heaven_stem"
+            },
+            {
+              "layer": "hidden",
+              "palace": "4",
+              "path": "palaces.xun_4.hidden_stem"
+            },
+            {
+              "layer": "marker_reference",
+              "palace": "4",
+              "path": "palaces.xun_4.special_markers[1]"
+            }
+          ],
+          "occurrences_of_Yi": [
+            {
+              "layer": "heaven",
+              "palace": "4",
+              "path": "palaces.xun_4.heaven_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "7",
+              "path": "palaces.dui_7.earth_stem"
+            },
+            {
+              "layer": "hidden",
+              "palace": "9",
+              "path": "palaces.li_9.hidden_stem"
+            }
+          ]
+        },
+        "step": "S11_index_pull"
+      }
+    ],
+    "anomalies": [],
+    "batch": "B4",
+    "canonical_name": "Xun",
+    "palace_id": "4",
+    "raw_palace_key": "xun_4",
+    "relations": [
+      {
+        "description": "Yi+Geng form a five-combination (heaven/earth plates of palace 4)",
+        "evidence": [
+          "palaces.xun_4.heaven_stem",
+          "palaces.xun_4.earth_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "stem_combination"
+      },
+      {
+        "description": "Geng metal controls Yi wood",
+        "evidence": [
+          "palaces.xun_4.heaven_stem",
+          "palaces.xun_4.earth_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "control"
+      },
+      {
+        "description": "Yi wood generates Ren — upper layer drains into lower",
+        "evidence": [
+          "palaces.xun_4.heaven_stem",
+          "palaces.xun_4.hidden_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "generation_drain"
+      },
+      {
+        "description": "palace Wood controls door Death (Earth) — forced door (palace oppressing door)",
+        "evidence": [
+          "palaces.xun_4.door",
+          "state:palace_key_resolution.palaces.4.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "door_forced"
+      },
+      {
+        "description": "Tian Zhu home palace 7, seated in 4 — DISPLACED",
+        "evidence": [
+          "palaces.xun_4.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "grounding": "COMPUTED",
+        "type": "star_home_displacement"
+      },
+      {
+        "description": "door Death away from original (Du Door)",
+        "evidence": [
+          "palaces.xun_4.door",
+          "palaces.xun_4.original_position.door"
+        ],
+        "grounding": "COMPUTED",
+        "type": "door_at_original_palace"
+      },
+      {
+        "description": "palace branch Chen six-combines month pillar branch You",
+        "evidence": [
+          "chart_info.ganzhi.month",
+          "state:palace_key_resolution.palaces.4.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "branch_six_combination"
+      },
+      {
+        "description": "day pillar branch Chen stacked on palace 4",
+        "evidence": [
+          "chart_info.ganzhi.day",
+          "state:palace_key_resolution.palaces.4.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "stacked_pillar_branch_on_palace"
+      },
+      {
+        "description": "palace branch Si clashes hour pillar branch Hai (Si-Hai clash)",
+        "evidence": [
+          "chart_info.ganzhi.hour",
+          "state:palace_key_resolution.palaces.4.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "branch_clash"
+      },
+      {
+        "description": "day element Water vs palace element Wood: day produces palace (outflow)",
+        "evidence": [
+          "chart_info.ganzhi.day",
+          "state:palace_key_resolution.palaces.4.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "day_element_vs_palace"
+      },
+      {
+        "description": "hour horse (Si) in palace 4",
+        "evidence": [
+          "chart_info.horse.hour",
+          "state:palace_key_resolution.palaces.4.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "horse_star"
+      }
+    ],
+    "rev": 1,
+    "roles": [
+      "B4_forward_check",
+      "duty_door_active (Death, forced)",
+      "tomb_and_punishment_of_day_stem (Ren)",
+      "hour_horse (Si)",
+      "Yi+Geng combination",
+      "outer_ring",
+      "counterfeit_promise_cluster"
+    ],
+    "updated": "2026-09-15T20:07:01Z",
+    "verdicts": [
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B4",
+        "claim_id": "CLM-015",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "meta",
+            "path": "chart_info.zhi_shi",
+            "value": "Death Door falling in Xun 4 Palace"
+          },
+          {
+            "palace_id": "4",
+            "path": "palaces.xun_4.door",
+            "value": "\"Death\""
+          },
+          {
+            "palace_id": "4",
+            "path": "palaces.xun_4.inauspicious_patterns[1]",
+            "value": null
+          },
+          {
+            "palace_id": "4",
+            "path": "palaces.xun_4.inauspicious_patterns[0]",
+            "value": null
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SUPPORT",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Heaviest obstruction cluster is Xun 4: the duty door (zhi_shi) is Death and it is forced (Wood palace over Earth door — explicit 'Palace Oppressing Door'), with explicit 'Door Entering Tomb' on top. The chart's method-to-avoid is named, not inferred."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B4",
+        "claim_id": "CLM-016",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "4",
+            "path": "palaces.xun_4.special_markers[1]",
+            "value": null
+          },
+          {
+            "palace_id": "4",
+            "path": "palaces.xun_4.tomb",
+            "value": "\"Xin Ren (Chen, Xun 4, Si)\""
+          },
+          {
+            "palace_id": "4",
+            "path": "palaces.xun_4.punishment",
+            "value": "\"Ren Gui (Chen, Xun 4, Si)\""
+          },
+          {
+            "palace_id": "state",
+            "path": "state:marker_validation.tomb",
+            "value": "<derived state object>"
+          },
+          {
+            "palace_id": "meta",
+            "path": "chart_info.ganzhi.day",
+            "value": "Ren Chen"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SUPPORT",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "The day stem is entombed and punished here: marker 'Tomb & Punishment (Ren)', tomb field 'Xin Ren (Chen, Xun 4, Si)', punishment field 'Ren Gui (Chen, Xun 4, Si)'; Ren water tomb at Chen is computed-validated in-palace. The querent's own stem is buried in the B4 forward-trace palace."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B4",
+        "claim_id": "CLM-017",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "4",
+            "path": "palaces.xun_4.auspicious_patterns[0]",
+            "value": null
+          },
+          {
+            "palace_id": "4",
+            "path": "palaces.xun_4.auspicious_patterns[1]",
+            "value": null
+          },
+          {
+            "palace_id": "4",
+            "path": "palaces.xun_4.inauspicious_patterns[2]",
+            "value": null
+          },
+          {
+            "palace_id": "4",
+            "path": "palaces.xun_4.heaven_stem",
+            "value": "\"Yi\""
+          },
+          {
+            "palace_id": "4",
+            "path": "palaces.xun_4.earth_stem",
+            "value": "\"Geng\""
+          },
+          {
+            "palace_id": "4",
+            "path": "palaces.xun_4.deity",
+            "value": "\"Nine Heavens\""
+          },
+          {
+            "palace_id": "4",
+            "path": "palaces.xun_4.prosperity_decline.palace_state",
+            "value": "null"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "VETO",
+        "slot": "chart_best_solution_candidate",
+        "status": "live",
+        "text_en": "Counterfeit promise inside the trap (split claim, not averaged): sanqi Yi on heaven, explicit 'Wonder Instrument Combination' (Yi+Geng co-located) and 'Three Wonders Obtaining Mission', Nine Heavens deity, and the Horse — yet the same Geng earth controls Yi, 'Three Wonders Being Restricted' is explicit, door is Death at Rest, palace Dead/Outer. The glittering path is the locked path."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B4",
+        "claim_id": "CLM-018",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "meta",
+            "path": "chart_info.horse.hour",
+            "value": "Si"
+          },
+          {
+            "palace_id": "4",
+            "path": "palaces.xun_4.special_markers[0]",
+            "value": null
+          },
+          {
+            "palace_id": "state",
+            "path": "state:marker_validation.horse",
+            "value": "<derived state object>"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "WARN",
+        "slot": "timing",
+        "status": "live",
+        "text_en": "The hour's fastest vector leads into the obstruction cluster: hour horse Si is validated in Xun 4 — movement this hour runs toward the Death-door palace."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B4",
+        "claim_id": "CLM-019",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "state",
+            "path": "state:origin_sets.B4.primary_set",
+            "value": "<derived state object>"
+          },
+          {
+            "palace_id": "state",
+            "path": "state:origin_sets.B4.proxy_hits[0]",
+            "value": "<derived state object>"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "As B4 (opposite of the hour focus), Xun 4 is the board's 'if-you-proceed blind' check; whatever the execution seat (Qian 6) starts, this palace is its overshoot risk."
+      }
+    ]
+  },
+  "5": {
+    "absent_paths": [
+      "palaces.center_5.door",
+      "palaces.center_5.special_markers",
+      "palaces.center_5.auspicious_patterns",
+      "palaces.center_5.inauspicious_patterns",
+      "palaces.center_5.original_position.deity",
+      "palaces.center_5.original_position.door",
+      "palaces.center_5.original_position.branches",
+      "palaces.center_5.original_position.opposite_palace",
+      "palaces.center_5.prosperity_decline.door_strength",
+      "palaces.center_5.prosperity_decline.star_strength"
+    ],
+    "analyses": [
+      {
+        "content": {
+          "canonical_palace_id": "5",
+          "direction": "Center",
+          "earthly_branches": [],
+          "element": "Earth",
+          "name": "Center",
+          "palace_seasonal_strength": {
+            "mapping_status": "computed_mapping",
+            "normalized": "resting",
+            "raw": "Resting"
+          },
+          "plate_division": "Hourly Rotating Qimen, Chaibu Qiju",
+          "raw_palace_key": "center_5",
+          "ring": "inner"
+        },
+        "step": "S1_identity"
+      },
+      {
+        "content": {
+          "earth_stem": "Ji"
+        },
+        "step": "S2_earth"
+      },
+      {
+        "content": {
+          "door": null,
+          "forced_computed": false,
+          "strength_raw": null
+        },
+        "step": "S3_door"
+      },
+      {
+        "content": {
+          "deity": "Tai Chang",
+          "heaven_stem": "Ji (lodged in Zhen 3 Palace)",
+          "star": "Heaven Qin (lodged in Zhen 3 Palace)",
+          "star_strength_raw": null
+        },
+        "step": "S4_heaven"
+      },
+      {
+        "content": {
+          "hidden_stem": "Ji (lodged in Kun 2 Palace)"
+        },
+        "step": "S5_hidden"
+      },
+      {
+        "content": {
+          "auspicious_patterns": null,
+          "inauspicious_patterns": null,
+          "special_markers": null
+        },
+        "step": "S6_explicit"
+      },
+      {
+        "content": {
+          "numbers": [
+            "5 10"
+          ],
+          "star": "Heavenly Bird"
+        },
+        "step": "S7_original_position"
+      },
+      {
+        "content": {
+          "palace_state": {
+            "normalized": [
+              "resting"
+            ],
+            "raw": "Rest",
+            "tokens": [
+              "Rest"
+            ]
+          }
+        },
+        "step": "S8_prosperity_decline"
+      },
+      {
+        "content": {
+          "harm": "Harm",
+          "life_stage": "Changsheng (Longevity)",
+          "punishment": "Punishment",
+          "tomb": "Tomb"
+        },
+        "step": "S9_relational_strings"
+      },
+      {
+        "content": {
+          "occurrences_of_Ji": [
+            {
+              "layer": "heaven",
+              "palace": "5",
+              "path": "palaces.center_5.heaven_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "5",
+              "path": "palaces.center_5.earth_stem"
+            },
+            {
+              "layer": "hidden",
+              "palace": "5",
+              "path": "palaces.center_5.hidden_stem"
+            }
+          ]
+        },
+        "step": "S11_index_pull"
+      }
+    ],
+    "anomalies": [
+      {
+        "description": "center_5.harm is 'Harm': category label, no stem/branch content",
+        "id": "ANO-001",
+        "paths": [
+          "palaces.center_5.harm"
+        ],
+        "phase_recorded": "P0_ANATOMY",
+        "resolution_note": "stored UNKNOWN content; no stems/branches extractable",
+        "severity": "LOW",
+        "type": "PLACEHOLDER_LABEL_VALUE"
+      },
+      {
+        "description": "center_5.tomb is 'Tomb': category label, no stem/branch content",
+        "id": "ANO-002",
+        "paths": [
+          "palaces.center_5.tomb"
+        ],
+        "phase_recorded": "P0_ANATOMY",
+        "resolution_note": "stored UNKNOWN content; no stems/branches extractable",
+        "severity": "LOW",
+        "type": "PLACEHOLDER_LABEL_VALUE"
+      },
+      {
+        "description": "center_5.punishment is 'Punishment': category label, no stem/branch content",
+        "id": "ANO-003",
+        "paths": [
+          "palaces.center_5.punishment"
+        ],
+        "phase_recorded": "P0_ANATOMY",
+        "resolution_note": "stored UNKNOWN content; no stems/branches extractable",
+        "severity": "LOW",
+        "type": "PLACEHOLDER_LABEL_VALUE"
+      }
+    ],
+    "batch": "B5",
+    "canonical_name": "Center",
+    "palace_id": "5",
+    "raw_palace_key": "center_5",
+    "relations": [
+      {
+        "description": "Heaven Qin (lodged in Zhen 3 Palace) home palace None, seated in 5 — DISPLACED",
+        "evidence": [
+          "palaces.center_5.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "grounding": "COMPUTED",
+        "type": "star_home_displacement"
+      },
+      {
+        "description": "day element Water vs palace element Earth: palace controls day",
+        "evidence": [
+          "chart_info.ganzhi.day",
+          "state:palace_key_resolution.palaces.5.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "day_element_vs_palace"
+      }
+    ],
+    "rev": 1,
+    "roles": [
+      "center_pivot",
+      "NO_OPPOSITE",
+      "displaced_core (Ji + Tian Qin lodged)",
+      "life_stage_seed (Changsheng)",
+      "placeholder_relation_fields"
+    ],
+    "updated": "2026-09-15T20:07:01Z",
+    "verdicts": [
+      {
+        "batch": "B5",
+        "claim_id": "CLM-025",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "5",
+            "path": "palaces.center_5.heaven_stem",
+            "value": "\"Ji (lodged in Zhen 3 Palace)\""
+          },
+          {
+            "palace_id": "5",
+            "path": "palaces.center_5.star",
+            "value": "\"Heaven Qin (lodged in Zhen 3 Palace)\""
+          },
+          {
+            "palace_id": "5",
+            "path": "palaces.center_5.hidden_stem",
+            "value": "\"Ji (lodged in Kun 2 Palace)\""
+          },
+          {
+            "palace_id": "3",
+            "path": "palaces.zhen_3.star",
+            "value": "\"Heaven Rui & Heaven Qin\""
+          },
+          {
+            "palace_id": "state",
+            "path": "state:lodging.graph",
+            "value": "<derived state object>"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P5_REMAINING",
+        "polarity": "CONSTRAIN",
+        "slot": "chart_answers_candidate",
+        "status": "live",
+        "text_en": "The core is displaced: Center's heaven Ji and star Tian Qin are lodged into Zhen 3 (co-lodging confirmed in palace 3 star field), hidden Ji into Kun 2. Center owns no door, no branches, no direction — the central matter is administered from its host palaces; read it through 3 and 2, not directly."
+      },
+      {
+        "batch": "B5",
+        "claim_id": "CLM-026",
+        "confidence": "LOW",
+        "evidence": [
+          {
+            "palace_id": "5",
+            "path": "palaces.center_5.life_stage",
+            "value": "\"Changsheng (Longevity)\""
+          },
+          {
+            "palace_id": "5",
+            "path": "palaces.center_5.harm",
+            "value": "\"Harm\""
+          },
+          {
+            "palace_id": "5",
+            "path": "palaces.center_5.tomb",
+            "value": "\"Tomb\""
+          },
+          {
+            "palace_id": "5",
+            "path": "palaces.center_5.punishment",
+            "value": "\"Punishment\""
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P5_REMAINING",
+        "polarity": "SUPPORT",
+        "slot": "chart_answers_candidate",
+        "status": "live",
+        "text_en": "Life-stage seed: Center's life_stage reads 'Changsheng (Longevity)' — the displaced core keeps a generative seed; its Harm/Tomb/Punishment fields are placeholder labels only (logged as anomalies, no content)."
+      }
+    ]
+  },
+  "6": {
+    "absent_paths": [
+      "palaces.qian_6.inauspicious_patterns",
+      "palaces.qian_6.life_stage",
+      "palaces.qian_6.punishment"
+    ],
+    "analyses": [
+      {
+        "content": {
+          "canonical_palace_id": "6",
+          "direction": "Northwest",
+          "earthly_branches": [
+            "Dog (Xu)",
+            "Pig (Hai)"
+          ],
+          "element": "Metal",
+          "name": "Qian",
+          "palace_seasonal_strength": {
+            "mapping_status": "computed_mapping",
+            "normalized": "prosperous",
+            "raw": "Prosperous"
+          },
+          "plate_division": "Hourly Rotating Qimen, Chaibu Qiju",
+          "raw_palace_key": "qian_6",
+          "ring": "inner"
+        },
+        "step": "S1_identity"
+      },
+      {
+        "content": {
+          "earth_stem": "Wu"
+        },
+        "step": "S2_earth"
+      },
+      {
+        "content": {
+          "door": "Life",
+          "forced_computed": false,
+          "strength_raw": "Rest"
+        },
+        "step": "S3_door"
+      },
+      {
+        "content": {
+          "deity": "Six Harmony",
+          "heaven_stem": "Xin",
+          "star": "Heaven Chong",
+          "star_strength_raw": "Imprisoned / Imprisoned"
+        },
+        "step": "S4_heaven"
+      },
+      {
+        "content": {
+          "hidden_stem": "Bing"
+        },
+        "step": "S5_hidden"
+      },
+      {
+        "content": {
+          "auspicious_patterns": [
+            "Door Generating Palace"
+          ],
+          "inauspicious_patterns": null,
+          "special_markers": [
+            "Tomb (Wu)"
+          ]
+        },
+        "step": "S6_explicit"
+      },
+      {
+        "content": {
+          "branches": [
+            "Hai",
+            "Xu"
+          ],
+          "deity": "Nine Heavens",
+          "door": "Open Door",
+          "numbers": [
+            "1 6",
+            "4 9"
+          ],
+          "opposite_palace": "Gen 7",
+          "star": "Heavenly Heart"
+        },
+        "step": "S7_original_position"
+      },
+      {
+        "content": {
+          "door_strength": {
+            "normalized": [
+              "resting"
+            ],
+            "raw": "Rest",
+            "tokens": [
+              "Rest"
+            ]
+          },
+          "palace_state": {
+            "normalized": [
+              "prosperous",
+              "inner"
+            ],
+            "raw": "Prosperous / Inner",
+            "tokens": [
+              "Prosperous",
+              "Inner"
+            ]
+          },
+          "star_strength": {
+            "normalized": [
+              "trapped",
+              "trapped"
+            ],
+            "raw": "Imprisoned / Imprisoned",
+            "tokens": [
+              "Imprisoned",
+              "Imprisoned"
+            ]
+          }
+        },
+        "step": "S8_prosperity_decline"
+      },
+      {
+        "content": {
+          "harm": "Geng (Hai, Qian 6, Xu)",
+          "tomb": "Yi Bing Wu (Hai, Qian 6, Xu)"
+        },
+        "step": "S9_relational_strings"
+      },
+      {
+        "content": {
+          "occurrences_of_Bing": [
+            {
+              "layer": "hidden",
+              "palace": "6",
+              "path": "palaces.qian_6.hidden_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "7",
+              "path": "palaces.dui_7.heaven_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "8",
+              "path": "palaces.gen_8.earth_stem"
+            }
+          ],
+          "occurrences_of_Wu": [
+            {
+              "layer": "hidden",
+              "palace": "2",
+              "path": "palaces.kun_2.hidden_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "6",
+              "path": "palaces.qian_6.earth_stem"
+            },
+            {
+              "layer": "marker_reference",
+              "palace": "6",
+              "path": "palaces.qian_6.special_markers[0]"
+            },
+            {
+              "layer": "heaven",
+              "palace": "9",
+              "path": "palaces.li_9.heaven_stem"
+            }
+          ],
+          "occurrences_of_Xin": [
+            {
+              "layer": "hidden",
+              "palace": "1",
+              "path": "palaces.kan_1.hidden_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "3",
+              "path": "palaces.zhen_3.earth_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "6",
+              "path": "palaces.qian_6.heaven_stem"
+            }
+          ]
+        },
+        "step": "S11_index_pull"
+      }
+    ],
+    "anomalies": [],
+    "batch": "B2",
+    "canonical_name": "Qian",
+    "palace_id": "6",
+    "raw_palace_key": "qian_6",
+    "relations": [
+      {
+        "description": "Xin metal generates Wu — upper layer drains into lower",
+        "evidence": [
+          "palaces.qian_6.heaven_stem",
+          "palaces.qian_6.earth_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "generation_drain"
+      },
+      {
+        "description": "Xin+Bing form a five-combination (heaven/hidden of palace 6)",
+        "evidence": [
+          "palaces.qian_6.heaven_stem",
+          "palaces.qian_6.hidden_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "stem_combination"
+      },
+      {
+        "description": "Bing fire controls Xin metal",
+        "evidence": [
+          "palaces.qian_6.heaven_stem",
+          "palaces.qian_6.hidden_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "control"
+      },
+      {
+        "description": "door Life (Earth) generates palace Metal",
+        "evidence": [
+          "palaces.qian_6.door",
+          "state:palace_key_resolution.palaces.6.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "door_generating_palace"
+      },
+      {
+        "description": "Tian Chong home palace 3, seated in 6 — DISPLACED",
+        "evidence": [
+          "palaces.qian_6.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "grounding": "COMPUTED",
+        "type": "star_home_displacement"
+      },
+      {
+        "description": "door Life away from original (Open Door)",
+        "evidence": [
+          "palaces.qian_6.door",
+          "palaces.qian_6.original_position.door"
+        ],
+        "grounding": "COMPUTED",
+        "type": "door_at_original_palace"
+      },
+      {
+        "description": "palace branch Xu clashes day pillar branch Chen (Chen-Xu clash)",
+        "evidence": [
+          "chart_info.ganzhi.day",
+          "state:palace_key_resolution.palaces.6.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "branch_clash"
+      },
+      {
+        "description": "hour pillar branch Hai stacked on palace 6",
+        "evidence": [
+          "chart_info.ganzhi.hour",
+          "state:palace_key_resolution.palaces.6.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "stacked_pillar_branch_on_palace"
+      },
+      {
+        "description": "day element Water vs palace element Metal: palace produces day (inflow)",
+        "evidence": [
+          "chart_info.ganzhi.day",
+          "state:palace_key_resolution.palaces.6.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "day_element_vs_palace"
+      },
+      {
+        "description": "month horse (Hai) in palace 6",
+        "evidence": [
+          "chart_info.horse.month",
+          "state:palace_key_resolution.palaces.6.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "horse_star"
+      }
+    ],
+    "rev": 1,
+    "roles": [
+      "hour_stem_focus",
+      "B2_primary",
+      "tian_yi_star_seat (Tian Chong)",
+      "month_horse",
+      "Six_Harmony_seat",
+      "inner_ring",
+      "clash_to_day_branch (Xu~Chen)",
+      "tomb_of_earth_stem (Wu)"
+    ],
+    "updated": "2026-09-15T20:07:01Z",
+    "verdicts": [
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B2",
+        "claim_id": "CLM-007",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "meta",
+            "path": "chart_info.ganzhi.hour",
+            "value": "Xin Hai"
+          },
+          {
+            "palace_id": "6",
+            "path": "palaces.qian_6.heaven_stem",
+            "value": "\"Xin\""
+          },
+          {
+            "palace_id": "meta",
+            "path": "chart_info.horse.month",
+            "value": "Hai"
+          },
+          {
+            "palace_id": "state",
+            "path": "state:marker_validation.horse",
+            "value": "<derived state object>"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SUPPORT",
+        "slot": "timing",
+        "status": "live",
+        "text_en": "The execution/timing seat is Qian 6: hour stem Xin on heaven, hour branch Hai resident in palace, and the month horse also lands here — hour focus, hour root and mover coincide in one palace."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B2",
+        "claim_id": "CLM-008",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "meta",
+            "path": "chart_info.tian_yi",
+            "value": "Tian Chong"
+          },
+          {
+            "palace_id": "6",
+            "path": "palaces.qian_6.star",
+            "value": "\"Heaven Chong\""
+          },
+          {
+            "palace_id": "6",
+            "path": "palaces.qian_6.door",
+            "value": "\"Life\""
+          },
+          {
+            "palace_id": "6",
+            "path": "palaces.qian_6.deity",
+            "value": "\"Six Harmony\""
+          },
+          {
+            "palace_id": "6",
+            "path": "palaces.qian_6.auspicious_patterns[0]",
+            "value": null
+          },
+          {
+            "palace_id": "6",
+            "path": "palaces.qian_6.hidden_stem",
+            "value": "\"Bing\""
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SUPPORT",
+        "slot": "chart_best_solution_candidate",
+        "status": "live",
+        "text_en": "Help/quality pole confirmed at Qian 6: Life door with explicit 'Door Generating Palace', Six Harmony deity (pacts, alignment), and the chart's Tian Yi (Tian Chong) star seated here; hidden Bing under heaven Xin adds a Bing-Xin combination — a binding pact under the help seat."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B2",
+        "claim_id": "CLM-009",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "6",
+            "path": "palaces.qian_6.prosperity_decline.star_strength",
+            "value": "null"
+          },
+          {
+            "palace_id": "6",
+            "path": "palaces.qian_6.prosperity_decline.door_strength",
+            "value": "null"
+          },
+          {
+            "palace_id": "6",
+            "path": "palaces.qian_6.special_markers[0]",
+            "value": null
+          },
+          {
+            "palace_id": "6",
+            "path": "palaces.qian_6.tomb",
+            "value": "\"Yi Bing Wu (Hai, Qian 6, Xu)\""
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "CONSTRAIN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "The help engine runs cool: star strength is Imprisoned/Imprisoned (concordant weak), door at Rest, explicit Tomb (Wu) marker, and the tomb field buries Yi, Bing and Wu — including the palace's own earth stem Wu. Support exists but is buried/late: institutional or backstage delivery."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B2",
+        "claim_id": "CLM-010",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "meta",
+            "path": "chart_info.ganzhi.day",
+            "value": "Ren Chen"
+          },
+          {
+            "palace_id": "state",
+            "path": "state:palace_key_resolution.palaces.6.branches",
+            "value": "<derived state object>"
+          },
+          {
+            "palace_id": "state",
+            "path": "state:relations.palace_6.branch_clash",
+            "value": "<derived state object>"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "WARN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Structural jolt: palace branch Xu clashes the day branch Chen — activating the help/harmony palace shakes the day's own root; expect the backing to arrive with friction against current commitments."
+      }
+    ]
+  },
+  "7": {
+    "absent_paths": [
+      "palaces.dui_7.special_markers",
+      "palaces.dui_7.inauspicious_patterns",
+      "palaces.dui_7.tomb",
+      "palaces.dui_7.punishment"
+    ],
+    "analyses": [
+      {
+        "content": {
+          "canonical_palace_id": "7",
+          "direction": "West",
+          "earthly_branches": [
+            "Rooster (You)"
+          ],
+          "element": "Metal",
+          "name": "Dui",
+          "palace_seasonal_strength": {
+            "mapping_status": "computed_mapping",
+            "normalized": "prosperous",
+            "raw": "Prosperous"
+          },
+          "plate_division": "Hourly Rotating Qimen, Chaibu Qiju",
+          "raw_palace_key": "dui_7",
+          "ring": "inner"
+        },
+        "step": "S1_identity"
+      },
+      {
+        "content": {
+          "earth_stem": "Yi"
+        },
+        "step": "S2_earth"
+      },
+      {
+        "content": {
+          "door": "Rest",
+          "forced_computed": false,
+          "strength_raw": "Strong"
+        },
+        "step": "S3_door"
+      },
+      {
+        "content": {
+          "deity": "White Tiger",
+          "heaven_stem": "Bing",
+          "star": "Heaven Ren",
+          "star_strength_raw": "Prosperous / Prosperous"
+        },
+        "step": "S4_heaven"
+      },
+      {
+        "content": {
+          "hidden_stem": "Gui"
+        },
+        "step": "S5_hidden"
+      },
+      {
+        "content": {
+          "auspicious_patterns": [
+            "Palace Generating Door"
+          ],
+          "inauspicious_patterns": null,
+          "special_markers": null
+        },
+        "step": "S6_explicit"
+      },
+      {
+        "content": {
+          "branches": [
+            "You"
+          ],
+          "deity": "Nine Earths",
+          "door": "Fright Door",
+          "numbers": [
+            "2 7",
+            "4 9"
+          ],
+          "opposite_palace": "Kan 6",
+          "star": "Heavenly Pillar"
+        },
+        "step": "S7_original_position"
+      },
+      {
+        "content": {
+          "door_strength": {
+            "normalized": [
+              "strengthening"
+            ],
+            "raw": "Strong",
+            "tokens": [
+              "Strong"
+            ]
+          },
+          "palace_state": {
+            "normalized": [
+              "prosperous",
+              "inner"
+            ],
+            "raw": "Prosperous / Inner",
+            "tokens": [
+              "Prosperous",
+              "Inner"
+            ]
+          },
+          "star_strength": {
+            "normalized": [
+              "prosperous",
+              "prosperous"
+            ],
+            "raw": "Prosperous / Prosperous",
+            "tokens": [
+              "Prosperous",
+              "Prosperous"
+            ]
+          }
+        },
+        "step": "S8_prosperity_decline"
+      },
+      {
+        "content": {
+          "harm": "Ji (Dui 7, You)",
+          "life_stage": "Ding Ji (Dui 7, You)"
+        },
+        "step": "S9_relational_strings"
+      },
+      {
+        "content": {
+          "occurrences_of_Bing": [
+            {
+              "layer": "hidden",
+              "palace": "6",
+              "path": "palaces.qian_6.hidden_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "7",
+              "path": "palaces.dui_7.heaven_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "8",
+              "path": "palaces.gen_8.earth_stem"
+            }
+          ],
+          "occurrences_of_Gui": [
+            {
+              "layer": "earth",
+              "palace": "1",
+              "path": "palaces.kan_1.earth_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "2",
+              "path": "palaces.kun_2.heaven_stem"
+            },
+            {
+              "layer": "marker_reference",
+              "palace": "2",
+              "path": "palaces.kun_2.special_markers[1]"
+            },
+            {
+              "layer": "hidden",
+              "palace": "7",
+              "path": "palaces.dui_7.hidden_stem"
+            }
+          ],
+          "occurrences_of_Yi": [
+            {
+              "layer": "heaven",
+              "palace": "4",
+              "path": "palaces.xun_4.heaven_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "7",
+              "path": "palaces.dui_7.earth_stem"
+            },
+            {
+              "layer": "hidden",
+              "palace": "9",
+              "path": "palaces.li_9.hidden_stem"
+            }
+          ]
+        },
+        "step": "S11_index_pull"
+      }
+    ],
+    "anomalies": [],
+    "batch": "B3",
+    "canonical_name": "Dui",
+    "palace_id": "7",
+    "raw_palace_key": "dui_7",
+    "relations": [
+      {
+        "description": "Bing fire generates Yi — upper layer drains into lower",
+        "evidence": [
+          "palaces.dui_7.heaven_stem",
+          "palaces.dui_7.earth_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "generation_drain"
+      },
+      {
+        "description": "Gui water controls Bing fire",
+        "evidence": [
+          "palaces.dui_7.heaven_stem",
+          "palaces.dui_7.hidden_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "control"
+      },
+      {
+        "description": "palace Metal generates door Rest (Water)",
+        "evidence": [
+          "palaces.dui_7.door",
+          "state:palace_key_resolution.palaces.7.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "palace_generating_door"
+      },
+      {
+        "description": "Tian Ren home palace 8, seated in 7 — DISPLACED",
+        "evidence": [
+          "palaces.dui_7.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "grounding": "COMPUTED",
+        "type": "star_home_displacement"
+      },
+      {
+        "description": "door Rest away from original (Fright Door)",
+        "evidence": [
+          "palaces.dui_7.door",
+          "palaces.dui_7.original_position.door"
+        ],
+        "grounding": "COMPUTED",
+        "type": "door_at_original_palace"
+      },
+      {
+        "description": "month pillar branch You stacked on palace 7",
+        "evidence": [
+          "chart_info.ganzhi.month",
+          "state:palace_key_resolution.palaces.7.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "stacked_pillar_branch_on_palace"
+      },
+      {
+        "description": "palace branch You six-combines day pillar branch Chen",
+        "evidence": [
+          "chart_info.ganzhi.day",
+          "state:palace_key_resolution.palaces.7.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "branch_six_combination"
+      },
+      {
+        "description": "day element Water vs palace element Metal: palace produces day (inflow)",
+        "evidence": [
+          "chart_info.ganzhi.day",
+          "state:palace_key_resolution.palaces.7.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "day_element_vs_palace"
+      }
+    ],
+    "rev": 2,
+    "roles": [
+      "B3_cost_check",
+      "strongest_wangshuai_concordant",
+      "sanqi_Bing_seat",
+      "earthly_escape_combo (Yi+Rest)",
+      "month_branch_stacked (You)",
+      "inner_ring",
+      "White_Tiger_teeth",
+      "no_affliction_fields"
+    ],
+    "updated": "2026-09-16T01:26:38Z",
+    "verdicts": [
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B3",
+        "claim_id": "CLM-011",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "7",
+            "path": "palaces.dui_7.heaven_stem",
+            "value": "\"Bing\""
+          },
+          {
+            "palace_id": "7",
+            "path": "palaces.dui_7.earth_stem",
+            "value": "\"Yi\""
+          },
+          {
+            "palace_id": "7",
+            "path": "palaces.dui_7.door",
+            "value": "\"Rest\""
+          },
+          {
+            "palace_id": "7",
+            "path": "palaces.dui_7.prosperity_decline.door_strength",
+            "value": "null"
+          },
+          {
+            "palace_id": "7",
+            "path": "palaces.dui_7.prosperity_decline.star_strength",
+            "value": "null"
+          },
+          {
+            "palace_id": "7",
+            "path": "palaces.dui_7.prosperity_decline.palace_state",
+            "value": "null"
+          },
+          {
+            "palace_id": "7",
+            "path": "palaces.dui_7.auspicious_patterns[0]",
+            "value": null
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SUPPORT",
+        "slot": "chart_best_solution_candidate",
+        "status": "live",
+        "text_en": "Dui 7 is the strongest clean action palace: Rest door at Strong, star Prosperous/Prosperous (concordant), palace Prosperous/Inner, explicit 'Palace Generating Door', and sanqi — Yang Fire Bing on heaven with Yin Wood Yi on earth beneath. Both pieces of the earthly-escape combination (Yi + Rest Door) exist in-palace."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B3",
+        "claim_id": "CLM-012",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "state",
+            "path": "state:absence_registry.records",
+            "value": "record for palace_id=7 absent field list"
+          },
+          {
+            "palace_id": "7",
+            "path": "palaces.dui_7.star",
+            "value": "\"Heaven Ren\""
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SUPPORT",
+        "slot": "chart_best_solution_candidate",
+        "status": "live",
+        "text_en": "No affliction fields are recorded for Dui 7 — special_markers, inauspicious_patterns, tomb and punishment are all absent (recorded in absence registry; absence is evidence, not assumed safety); combined with the concordant strengths this is the board's least-obstructed palace."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B3",
+        "claim_id": "CLM-013",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "7",
+            "path": "palaces.dui_7.deity",
+            "value": "\"White Tiger\""
+          },
+          {
+            "palace_id": "state",
+            "path": "state:origin_sets.B3.primary_set",
+            "value": "<derived state object>"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "WARN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Teeth on the strong option: White Tiger deity rides Dui 7 — the forceful route carries severity (hard pushback, strict review, fierce competition). As B3 it is also the cost/check opposite of the day seat: chart-wise it reads as the strong-looking alternative/rival channel, not the querent's own seat."
+      },
+      {
+        "b5_confirm_veto": "confirmed",
+        "batch": "B3",
+        "claim_id": "CLM-014",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "meta",
+            "path": "chart_info.ganzhi.month",
+            "value": "Ding You"
+          },
+          {
+            "palace_id": "state",
+            "path": "state:palace_key_resolution.palaces.7.branches",
+            "value": "<derived state object>"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "phase": "P1_TO_P4_OPERATOR_ZOOM",
+        "polarity": "SUPPORT",
+        "slot": "timing",
+        "status": "live",
+        "text_en": "Month alignment: the month-pillar branch You is stacked on Dui 7 — this palace is 'in month', i.e., resourced for the current period."
+      },
+      {
+        "audit_fix": "O7 (AUDIT_FIX cycle 2)",
+        "batch": "B5",
+        "claim_id": "CLM-034",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "7",
+            "path": "palaces.dui_7.harm",
+            "value": "Ji (Dui 7, You)"
+          },
+          {
+            "palace_id": "5",
+            "path": "palaces.center_5.earth_stem",
+            "value": "Ji"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P5_REMAINING",
+        "polarity": "WARN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "The chart's strongest channel chafes the institutional core: palace 7's own harm field names Ji — the Center palace's earth stem. Consolidation through Dui 7 must stay procedural and inside formal frames, or it bruises the very core it means to protect."
+      }
+    ]
+  },
+  "8": {
+    "absent_paths": [
+      "palaces.gen_8.auspicious_patterns"
+    ],
+    "analyses": [
+      {
+        "content": {
+          "canonical_palace_id": "8",
+          "direction": "Northeast",
+          "earthly_branches": [
+            "Ox (Chou)",
+            "Tiger (Yin)"
+          ],
+          "element": "Earth",
+          "name": "Gen",
+          "palace_seasonal_strength": {
+            "mapping_status": "computed_mapping",
+            "normalized": "resting",
+            "raw": "Resting"
+          },
+          "plate_division": "Hourly Rotating Qimen, Chaibu Qiju",
+          "raw_palace_key": "gen_8",
+          "ring": "outer"
+        },
+        "step": "S1_identity"
+      },
+      {
+        "content": {
+          "earth_stem": "Bing"
+        },
+        "step": "S2_earth"
+      },
+      {
+        "content": {
+          "door": "Du",
+          "forced_computed": false,
+          "strength_raw": "Dead"
+        },
+        "step": "S3_door"
+      },
+      {
+        "content": {
+          "deity": "Flying Snake",
+          "heaven_stem": "Ding",
+          "star": "Heaven Ying",
+          "star_strength_raw": "Prosperous / Rest"
+        },
+        "step": "S4_heaven"
+      },
+      {
+        "content": {
+          "hidden_stem": "Geng"
+        },
+        "step": "S5_hidden"
+      },
+      {
+        "content": {
+          "auspicious_patterns": null,
+          "inauspicious_patterns": [
+            "Ding Wonder Entering Tomb",
+            "Door Oppressing Palace"
+          ],
+          "special_markers": [
+            "Void",
+            "Tomb (Ding)",
+            "Oppression"
+          ]
+        },
+        "step": "S6_explicit"
+      },
+      {
+        "content": {
+          "branches": [
+            "Yin",
+            "Chou"
+          ],
+          "deity": "Flying Snake",
+          "door": "Life Door",
+          "numbers": [
+            "7 8",
+            "5 10"
+          ],
+          "opposite_palace": "Zhen 4",
+          "star": "Heavenly Ren"
+        },
+        "step": "S7_original_position"
+      },
+      {
+        "content": {
+          "door_strength": {
+            "normalized": [
+              "dead"
+            ],
+            "raw": "Dead",
+            "tokens": [
+              "Dead"
+            ]
+          },
+          "palace_state": {
+            "normalized": [
+              "resting",
+              "outer"
+            ],
+            "raw": "Rest / Outer",
+            "tokens": [
+              "Rest",
+              "Outer"
+            ]
+          },
+          "star_strength": {
+            "normalized": [
+              "prosperous",
+              "resting"
+            ],
+            "raw": "Prosperous / Rest",
+            "tokens": [
+              "Prosperous",
+              "Rest"
+            ]
+          }
+        },
+        "step": "S8_prosperity_decline"
+      },
+      {
+        "content": {
+          "harm": "Xin (Yin, Gen 8, Chou)",
+          "life_stage": "Bing Wu (Yin, Gen 8, Chou)",
+          "punishment": "Geng (Yin, Gen 8, Chou)",
+          "tomb": "Ding Ji Geng (Yin, Gen 8, Chou)"
+        },
+        "step": "S9_relational_strings"
+      },
+      {
+        "content": {
+          "occurrences_of_Bing": [
+            {
+              "layer": "hidden",
+              "palace": "6",
+              "path": "palaces.qian_6.hidden_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "7",
+              "path": "palaces.dui_7.heaven_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "8",
+              "path": "palaces.gen_8.earth_stem"
+            }
+          ],
+          "occurrences_of_Ding": [
+            {
+              "layer": "hidden",
+              "palace": "3",
+              "path": "palaces.zhen_3.hidden_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "8",
+              "path": "palaces.gen_8.heaven_stem"
+            },
+            {
+              "layer": "marker_reference",
+              "palace": "8",
+              "path": "palaces.gen_8.special_markers[1]"
+            },
+            {
+              "layer": "earth",
+              "palace": "9",
+              "path": "palaces.li_9.earth_stem"
+            }
+          ],
+          "occurrences_of_Geng": [
+            {
+              "layer": "heaven",
+              "palace": "1",
+              "path": "palaces.kan_1.heaven_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "4",
+              "path": "palaces.xun_4.earth_stem"
+            },
+            {
+              "layer": "hidden",
+              "palace": "8",
+              "path": "palaces.gen_8.hidden_stem"
+            }
+          ]
+        },
+        "step": "S11_index_pull"
+      }
+    ],
+    "anomalies": [],
+    "batch": "B5",
+    "canonical_name": "Gen",
+    "palace_id": "8",
+    "raw_palace_key": "gen_8",
+    "relations": [
+      {
+        "description": "Ding fire controls Geng metal",
+        "evidence": [
+          "palaces.gen_8.heaven_stem",
+          "palaces.gen_8.hidden_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "control"
+      },
+      {
+        "description": "door Du (Wood) controls palace Earth — door oppressing palace",
+        "evidence": [
+          "palaces.gen_8.door",
+          "state:palace_key_resolution.palaces.8.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "door_oppressing_palace"
+      },
+      {
+        "description": "Tian Ying home palace 9, seated in 8 — DISPLACED",
+        "evidence": [
+          "palaces.gen_8.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "grounding": "COMPUTED",
+        "type": "star_home_displacement"
+      },
+      {
+        "description": "door Du away from original (Life Door)",
+        "evidence": [
+          "palaces.gen_8.door",
+          "palaces.gen_8.original_position.door"
+        ],
+        "grounding": "COMPUTED",
+        "type": "door_at_original_palace"
+      },
+      {
+        "description": "palace branch Yin six-combines hour pillar branch Hai",
+        "evidence": [
+          "chart_info.ganzhi.hour",
+          "state:palace_key_resolution.palaces.8.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "branch_six_combination"
+      },
+      {
+        "description": "day element Water vs palace element Earth: palace controls day",
+        "evidence": [
+          "chart_info.ganzhi.day",
+          "state:palace_key_resolution.palaces.8.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "day_element_vs_palace"
+      },
+      {
+        "description": "day horse (Yin) in palace 8",
+        "evidence": [
+          "chart_info.horse.day",
+          "state:palace_key_resolution.palaces.8.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "horse_star"
+      },
+      {
+        "description": "palace 8 void: day-void —, hour-void ['Yin']",
+        "evidence": [
+          "chart_info.void.day",
+          "chart_info.void.hour",
+          "state:palace_key_resolution.palaces.8.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "void_palace"
+      }
+    ],
+    "rev": 1,
+    "roles": [
+      "hour_void_member (Yin)",
+      "Du_blockage_seat",
+      "Ding_tomb",
+      "Oppression (door over palace)",
+      "Flying_Snake_loops",
+      "outer_ring",
+      "storage_not_launch"
+    ],
+    "updated": "2026-09-15T20:07:01Z",
+    "verdicts": [
+      {
+        "batch": "B5",
+        "claim_id": "CLM-027",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "8",
+            "path": "palaces.gen_8.door",
+            "value": "\"Du\""
+          },
+          {
+            "palace_id": "8",
+            "path": "palaces.gen_8.special_markers[0]",
+            "value": null
+          },
+          {
+            "palace_id": "8",
+            "path": "palaces.gen_8.special_markers[1]",
+            "value": null
+          },
+          {
+            "palace_id": "8",
+            "path": "palaces.gen_8.special_markers[2]",
+            "value": null
+          },
+          {
+            "palace_id": "8",
+            "path": "palaces.gen_8.inauspicious_patterns[0]",
+            "value": null
+          },
+          {
+            "palace_id": "8",
+            "path": "palaces.gen_8.inauspicious_patterns[1]",
+            "value": null
+          },
+          {
+            "palace_id": "8",
+            "path": "palaces.gen_8.deity",
+            "value": "\"Flying Snake\""
+          },
+          {
+            "palace_id": "8",
+            "path": "palaces.gen_8.tomb",
+            "value": "\"Ding Ji Geng (Yin, Gen 8, Chou)\""
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P5_REMAINING",
+        "polarity": "SUPPORT",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "Gen 8 is a stalled-storage node: Du (blockage) door at Dead, hour-void Yin in-palace, explicit 'Tomb (Ding)' and 'Ding Wonder Entering Tomb' — sanqi Yin Fire Ding on heaven entombed at Chou — plus 'Oppression' (door Wood over palace Earth, computed-confirmed) and Flying Snake anxiety loops. Drafts, archives and slow assets jam here."
+      },
+      {
+        "batch": "B5",
+        "claim_id": "CLM-028",
+        "confidence": "LOW",
+        "evidence": [
+          {
+            "palace_id": "8",
+            "path": "palaces.gen_8.prosperity_decline.star_strength",
+            "value": "null"
+          },
+          {
+            "palace_id": "8",
+            "path": "palaces.gen_8.prosperity_decline.door_strength",
+            "value": "null"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P5_REMAINING",
+        "polarity": "VETO",
+        "slot": "chart_best_solution_candidate",
+        "status": "live",
+        "text_en": "No escape via Gen 8: the star is strong at the palace token (Prosperous) but Rest at climate token, the door is dead and the wonder is entombed — storage, not launch."
+      }
+    ]
+  },
+  "9": {
+    "absent_paths": [
+      "palaces.li_9.harm",
+      "palaces.li_9.tomb"
+    ],
+    "analyses": [
+      {
+        "content": {
+          "canonical_palace_id": "9",
+          "direction": "South",
+          "earthly_branches": [
+            "Horse (Wu)"
+          ],
+          "element": "Fire",
+          "name": "Li",
+          "palace_seasonal_strength": {
+            "mapping_status": "computed_mapping",
+            "normalized": "trapped",
+            "raw": "Imprisoned"
+          },
+          "plate_division": "Hourly Rotating Qimen, Chaibu Qiju",
+          "raw_palace_key": "li_9",
+          "ring": "inner"
+        },
+        "step": "S1_identity"
+      },
+      {
+        "content": {
+          "earth_stem": "Ding"
+        },
+        "step": "S2_earth"
+      },
+      {
+        "content": {
+          "door": "Scenery",
+          "forced_computed": false,
+          "strength_raw": "Prosperous"
+        },
+        "step": "S3_door"
+      },
+      {
+        "content": {
+          "deity": "Nine Earths",
+          "heaven_stem": "Wu",
+          "star": "Heaven Heart",
+          "star_strength_raw": "Imprisoned / Strong"
+        },
+        "step": "S4_heaven"
+      },
+      {
+        "content": {
+          "hidden_stem": "Yi"
+        },
+        "step": "S5_hidden"
+      },
+      {
+        "content": {
+          "auspicious_patterns": [
+            "Wonder Wandering Salary Position"
+          ],
+          "inauspicious_patterns": [
+            "Palace Oppressing Door"
+          ],
+          "special_markers": [
+            "Void"
+          ]
+        },
+        "step": "S6_explicit"
+      },
+      {
+        "content": {
+          "branches": [
+            "Wu"
+          ],
+          "deity": "Gou Chen, White Tiger",
+          "door": "Scenery Door",
+          "numbers": [
+            "3 9",
+            "2 7"
+          ],
+          "opposite_palace": "Qian 1",
+          "star": "Heavenly Hero"
+        },
+        "step": "S7_original_position"
+      },
+      {
+        "content": {
+          "door_strength": {
+            "normalized": [
+              "prosperous"
+            ],
+            "raw": "Prosperous",
+            "tokens": [
+              "Prosperous"
+            ]
+          },
+          "palace_state": {
+            "normalized": [
+              "trapped",
+              "inner"
+            ],
+            "raw": "Imprisoned / Inner",
+            "tokens": [
+              "Imprisoned",
+              "Inner"
+            ]
+          },
+          "star_strength": {
+            "normalized": [
+              "trapped",
+              "strengthening"
+            ],
+            "raw": "Imprisoned / Strong",
+            "tokens": [
+              "Imprisoned",
+              "Strong"
+            ]
+          }
+        },
+        "step": "S8_prosperity_decline"
+      },
+      {
+        "content": {
+          "life_stage": "Yi (Li 9, Wu)",
+          "punishment": "Xin (Li 9, Wu)"
+        },
+        "step": "S9_relational_strings"
+      },
+      {
+        "content": {
+          "occurrences_of_Ding": [
+            {
+              "layer": "hidden",
+              "palace": "3",
+              "path": "palaces.zhen_3.hidden_stem"
+            },
+            {
+              "layer": "heaven",
+              "palace": "8",
+              "path": "palaces.gen_8.heaven_stem"
+            },
+            {
+              "layer": "marker_reference",
+              "palace": "8",
+              "path": "palaces.gen_8.special_markers[1]"
+            },
+            {
+              "layer": "earth",
+              "palace": "9",
+              "path": "palaces.li_9.earth_stem"
+            }
+          ],
+          "occurrences_of_Wu": [
+            {
+              "layer": "hidden",
+              "palace": "2",
+              "path": "palaces.kun_2.hidden_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "6",
+              "path": "palaces.qian_6.earth_stem"
+            },
+            {
+              "layer": "marker_reference",
+              "palace": "6",
+              "path": "palaces.qian_6.special_markers[0]"
+            },
+            {
+              "layer": "heaven",
+              "palace": "9",
+              "path": "palaces.li_9.heaven_stem"
+            }
+          ],
+          "occurrences_of_Yi": [
+            {
+              "layer": "heaven",
+              "palace": "4",
+              "path": "palaces.xun_4.heaven_stem"
+            },
+            {
+              "layer": "earth",
+              "palace": "7",
+              "path": "palaces.dui_7.earth_stem"
+            },
+            {
+              "layer": "hidden",
+              "palace": "9",
+              "path": "palaces.li_9.hidden_stem"
+            }
+          ]
+        },
+        "step": "S11_index_pull"
+      }
+    ],
+    "anomalies": [],
+    "batch": "B5",
+    "canonical_name": "Li",
+    "palace_id": "9",
+    "raw_palace_key": "li_9",
+    "relations": [
+      {
+        "description": "Wu earth generates Ding — upper layer drains into lower",
+        "evidence": [
+          "palaces.li_9.heaven_stem",
+          "palaces.li_9.earth_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "generation_drain"
+      },
+      {
+        "description": "Yi wood controls Wu earth",
+        "evidence": [
+          "palaces.li_9.heaven_stem",
+          "palaces.li_9.hidden_stem"
+        ],
+        "grounding": "COMPUTED",
+        "type": "control"
+      },
+      {
+        "description": "door Scenery and palace Fire share element",
+        "evidence": [
+          "palaces.li_9.door",
+          "state:palace_key_resolution.palaces.9.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "door_palace_same_element"
+      },
+      {
+        "description": "Tian Xin home palace 6, seated in 9 — DISPLACED",
+        "evidence": [
+          "palaces.li_9.star",
+          "state:frozen_tables.star_home_luoshu"
+        ],
+        "grounding": "COMPUTED",
+        "type": "star_home_displacement"
+      },
+      {
+        "description": "door Scenery sits its original palace",
+        "evidence": [
+          "palaces.li_9.door",
+          "palaces.li_9.original_position.door"
+        ],
+        "grounding": "COMPUTED",
+        "type": "door_at_original_palace"
+      },
+      {
+        "description": "year pillar branch Wu stacked on palace 9",
+        "evidence": [
+          "chart_info.ganzhi.year",
+          "state:palace_key_resolution.palaces.9.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "stacked_pillar_branch_on_palace"
+      },
+      {
+        "description": "day element Water vs palace element Fire: day controls palace",
+        "evidence": [
+          "chart_info.ganzhi.day",
+          "state:palace_key_resolution.palaces.9.element"
+        ],
+        "grounding": "COMPUTED",
+        "type": "day_element_vs_palace"
+      },
+      {
+        "description": "palace 9 void: day-void ['Wu'], hour-void —",
+        "evidence": [
+          "chart_info.void.day",
+          "chart_info.void.hour",
+          "state:palace_key_resolution.palaces.9.branches"
+        ],
+        "grounding": "COMPUTED",
+        "type": "void_palace"
+      }
+    ],
+    "rev": 1,
+    "roles": [
+      "year_branch_stacked (Wu)",
+      "day_void_member",
+      "Scenery_at_original_palace",
+      "explicit_pattern_conflict (Palace Oppressing Door)",
+      "inner_ring",
+      "showcase_layer"
+    ],
+    "updated": "2026-09-15T20:07:01Z",
+    "verdicts": [
+      {
+        "batch": "B5",
+        "claim_id": "CLM-029",
+        "confidence": "HIGH",
+        "evidence": [
+          {
+            "palace_id": "9",
+            "path": "palaces.li_9.special_markers[0]",
+            "value": null
+          },
+          {
+            "palace_id": "meta",
+            "path": "chart_info.void.day",
+            "value": "Wu Wei"
+          },
+          {
+            "palace_id": "meta",
+            "path": "chart_info.ganzhi.year",
+            "value": "Bing Wu"
+          },
+          {
+            "palace_id": "9",
+            "path": "palaces.li_9.prosperity_decline.palace_state",
+            "value": "null"
+          },
+          {
+            "palace_id": "meta",
+            "path": "chart_info.seasonal_strength.fire",
+            "value": "Imprisoned"
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P5_REMAINING",
+        "polarity": "SUPPORT",
+        "slot": "chart_hidden_problems_candidate",
+        "status": "live",
+        "text_en": "The showcase layer is void this cycle: Li 9 holds the year-pillar branch Wu stacked in-palace, and Wu is in the day void 'Wu Wei' (explicit Void marker; computed-validated). The public-facing surface of the year's frame does not land as presented; palace state Imprisoned/Inner with seasonal fire Imprisoned compounds it."
+      },
+      {
+        "batch": "B5",
+        "claim_id": "CLM-030",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "9",
+            "path": "palaces.li_9.inauspicious_patterns[0]",
+            "value": null
+          },
+          {
+            "palace_id": "9",
+            "path": "palaces.li_9.door",
+            "value": "\"Scenery\""
+          },
+          {
+            "palace_id": "9",
+            "path": "palaces.li_9.original_position.door",
+            "value": "null"
+          },
+          {
+            "palace_id": "state",
+            "path": "state:relations.palace_9.door_palace_same_element",
+            "value": "<derived state object>"
+          }
+        ],
+        "grounding": "ANOMALOUS",
+        "phase": "P5_REMAINING",
+        "polarity": "WARN",
+        "slot": "risk",
+        "status": "live",
+        "text_en": "Explicit-vs-computed conflict at Li 9: the chart explicitly lists 'Palace Oppressing Door', but computed elements show Fire palace with Fire door (Scenery, at its original palace) — no control relation exists. Both are preserved; the explicit pattern is flagged ANOMALOUS, not repaired."
+      },
+      {
+        "batch": "B5",
+        "claim_id": "CLM-031",
+        "confidence": "MED",
+        "evidence": [
+          {
+            "palace_id": "meta",
+            "path": "chart_info.void.day",
+            "value": "Wu Wei"
+          },
+          {
+            "palace_id": "meta",
+            "path": "chart_info.ganzhi.year",
+            "value": "Bing Wu"
+          }
+        ],
+        "grounding": "COMPUTED",
+        "phase": "P5_REMAINING",
+        "polarity": "SEQUENCE",
+        "slot": "timing",
+        "status": "live",
+        "text_en": "The void fills on Wu: day-void Wu resolves when Wu day/hour arrives — visibility pushes land then, not before; scheduled showcases in the void window will underperform their billing."
+      },
+      {
+        "batch": "B5",
+        "claim_id": "CLM-032",
+        "confidence": "LOW",
+        "evidence": [
+          {
+            "palace_id": "9",
+            "path": "palaces.li_9.auspicious_patterns[0]",
+            "value": null
+          },
+          {
+            "palace_id": "9",
+            "path": "palaces.li_9.earth_stem",
+            "value": "\"Ding\""
+          },
+          {
+            "palace_id": "9",
+            "path": "palaces.li_9.special_markers[0]",
+            "value": null
+          }
+        ],
+        "grounding": "EXPLICIT",
+        "phase": "P5_REMAINING",
+        "polarity": "VETO",
+        "slot": "chart_best_solution_candidate",
+        "status": "live",
+        "text_en": "Li 9's 'Wonder Wandering Salary Position' (Ding's salary at Wu, earth stem Ding in-palace) reads as a real but void-locked pay-off: a genuine gains-channel that cannot be collected in the current window."
+      }
+    ]
+  }
+}

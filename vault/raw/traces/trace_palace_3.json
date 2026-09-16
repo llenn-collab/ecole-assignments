@@ -1,0 +1,186 @@
+{
+  "batch": "B1",
+  "palace_id": "3",
+  "relations": [
+    {
+      "context": "heaven/earth plates of palace 3",
+      "description": "Ren water generates Xin \u2014 upper layer drains into lower",
+      "evidence": [
+        "palaces.zhen_3.heaven_stem",
+        "palaces.zhen_3.earth_stem"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Ren",
+        "Xin"
+      ],
+      "type": "generation_drain"
+    },
+    {
+      "context": "heaven/hidden of palace 3",
+      "description": "Ren+Ding form a five-combination (heaven/hidden of palace 3)",
+      "evidence": [
+        "palaces.zhen_3.heaven_stem",
+        "palaces.zhen_3.hidden_stem"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Ding",
+        "Ren"
+      ],
+      "type": "stem_combination"
+    },
+    {
+      "context": "heaven/hidden of palace 3",
+      "description": "Ren water controls Ding fire",
+      "evidence": [
+        "palaces.zhen_3.heaven_stem",
+        "palaces.zhen_3.hidden_stem"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Ren",
+        "Ding"
+      ],
+      "type": "control"
+    },
+    {
+      "description": "palace Wood generates door Scenery (Fire)",
+      "evidence": [
+        "palaces.zhen_3.door",
+        "state:palace_key_resolution.palaces.3.element"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "3",
+        "Scenery"
+      ],
+      "type": "palace_generating_door"
+    },
+    {
+      "at_home": false,
+      "description": "Tian Rui home palace 2, seated in 3 \u2014 DISPLACED",
+      "evidence": [
+        "palaces.zhen_3.star",
+        "state:qmdj_complete.star_home_luoshu"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Tian Rui",
+        "3"
+      ],
+      "type": "star_home_displacement"
+    },
+    {
+      "at_home": false,
+      "description": "Tian Qin home palace 5, seated in 3 \u2014 DISPLACED",
+      "evidence": [
+        "palaces.zhen_3.star",
+        "state:qmdj_complete.star_home_luoshu"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Tian Qin",
+        "3"
+      ],
+      "type": "star_home_displacement"
+    },
+    {
+      "description": "door Scenery away from original (Wound Door)",
+      "evidence": [
+        "palaces.zhen_3.door",
+        "palaces.zhen_3.original_position.door"
+      ],
+      "grounding": "COMPUTED",
+      "hit": false,
+      "parties": [
+        "Scenery",
+        "3"
+      ],
+      "type": "door_at_original_palace"
+    },
+    {
+      "description": "palace branch Mao clashes month pillar branch You (Mao-You clash)",
+      "evidence": [
+        "chart_info.ganzhi.month",
+        "state:palace_key_resolution.palaces.3.branches"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Mao",
+        "You"
+      ],
+      "type": "branch_clash"
+    },
+    {
+      "description": "day element Water vs palace element Wood: day produces palace (outflow)",
+      "evidence": [
+        "chart_info.ganzhi.day",
+        "state:palace_key_resolution.palaces.3.element"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Ren",
+        "3"
+      ],
+      "type": "day_element_vs_palace"
+    },
+    {
+      "description": "palace 3 void: day-void \u2014, hour-void ['Mao']",
+      "evidence": [
+        "chart_info.void.day",
+        "chart_info.void.hour",
+        "state:palace_key_resolution.palaces.3.branches"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "3"
+      ],
+      "type": "void_palace"
+    }
+  ],
+  "source_excerpt": {
+    "auspicious_patterns": [
+      "Palace Generating Door"
+    ],
+    "deity": "Chief",
+    "door": "Scenery",
+    "earth_stem": "Xin",
+    "harm": "Ren (Mao, Zhen 3)",
+    "heaven_stem": "Ren",
+    "hidden_stem": "Ding",
+    "life_stage": "Gui (Mao, Zhen 3)",
+    "name": "Zhen 3 Palace",
+    "original_position": {
+      "branches": [
+        "Mao"
+      ],
+      "deity": "Great Yin",
+      "door": "Wound Door",
+      "numbers": [
+        "4 3",
+        "3 8"
+      ],
+      "opposite_palace": "Li 3",
+      "star": "Heavenly Chong"
+    },
+    "prosperity_decline": {
+      "door_strength": "Imprisoned",
+      "palace_state": "Dead / Outer",
+      "star_strength": "Imprisoned / Prosperous"
+    },
+    "punishment": "Wu (Mao, Zhen 3)",
+    "special_markers": [
+      "Void"
+    ],
+    "star": "Heaven Rui & Heaven Qin"
+  },
+  "verdict_claim_ids": [
+    "CLM-001",
+    "CLM-002",
+    "CLM-003",
+    "CLM-004",
+    "CLM-005",
+    "CLM-006"
+  ]
+}

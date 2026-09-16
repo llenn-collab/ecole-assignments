@@ -1,0 +1,85 @@
+{
+  "checks": [
+    {
+      "check": "package exists and readable",
+      "pass": true
+    },
+    {
+      "check": "schema required keys",
+      "deviation": "KEY_RENAME",
+      "errors": [],
+      "pass": true,
+      "renames_applied": [
+        "anomalies -> anomaly_registry"
+      ]
+    },
+    {
+      "check": "package_version semver",
+      "pass": true,
+      "value": "5.0.0"
+    },
+    {
+      "check": "source_qmdj_sha256 present+syntax",
+      "pass": true,
+      "value": "2f165e078a7c21700e5f1a1f…"
+    },
+    {
+      "check": "source_qmdj_sha256 matches boot MANIFEST record",
+      "pass": true,
+      "value": "2f165e078a7c2170… == 2f165e078a7c2170…"
+    },
+    {
+      "check": "interpretation protocol hash present",
+      "pass": true
+    },
+    {
+      "check": "rubric hash present",
+      "pass": true
+    },
+    {
+      "check": "protocol hash == solver-v4 embedded reference",
+      "deviation": "VERSION_SKEW",
+      "package_value": "sha256:protocol_v2_2_2_0_chart_analyst_v5",
+      "pass": false,
+      "solver_embedded_v4": "sha256:protocol_v2_2_1_0_chart_analyst_v4"
+    },
+    {
+      "check": "rubric hash == solver-v4 embedded reference",
+      "deviation": "VERSION_SKEW",
+      "package_value": "sha256:archetype_scoring_rubric_1_1_0_chart_analyst_v5",
+      "pass": false,
+      "solver_embedded_v4": "sha256:archetype_scoring_rubric_1_0_0_assignment_solver_v4"
+    },
+    {
+      "check": "protocol hash == generator spec (PROMPT/chart_analyser.yaml v5.0.0)",
+      "generator_value": "sha256:protocol_v2_2_2_0_chart_analyst_v5",
+      "pass": true
+    },
+    {
+      "check": "rubric hash == generator spec (PROMPT/chart_analyser.yaml v5.0.0)",
+      "generator_value": "sha256:archetype_scoring_rubric_1_1_0_chart_analyst_v5",
+      "pass": true
+    }
+  ],
+  "deviations": [
+    {
+      "decision": "PASS_WITH_DEVIATION — proceed; logged here, in OPERATOR/COMMENTS.md, and in Risk-And-Audit-Log",
+      "detail": "solver spec qmdj_reference expects chart-analyst v4 hashes; the package was produced by chart_analyser.yaml v5.0.0 (supplied at runtime by the orchestrator). Package hashes match the ACTUAL generator spec exactly (verified above), and source_qmdj_sha256 matches the boot MANIFEST. Skew is a spec-registry lag, not package tampering.",
+      "id": "DEV-001",
+      "title": "Embedded v4 reference hashes vs actual generator deployment v5.0.0",
+      "would_be_stale_if": "package hashes matched NEITHER the v4 reference NOR the generator spec"
+    },
+    {
+      "decision": "PASS_WITH_DEVIATION — validator maps anomalies -> anomaly_registry for all references",
+      "detail": "spec required-key list says top-level 'anomalies'; the package carries the same data as 'anomaly_registry' (12 records) and additionally per-origin 'origin_sets.B1..B5.anomalies' plus per-palace anomalies arrays. Package also self-labels 'schema_variant'. Data present, naming differs.",
+      "id": "DEV-002",
+      "title": "Schema key rename: 'anomalies' delivered as 'anomaly_registry'",
+      "would_be_stale_if": "no anomaly records existed under ANY key in package or its origin_sets"
+    }
+  ],
+  "hashes_verified": true,
+  "schema_renames": [
+    "anomalies -> anomaly_registry"
+  ],
+  "schema_valid": true
+}

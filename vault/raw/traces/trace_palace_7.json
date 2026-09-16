@@ -1,0 +1,152 @@
+{
+  "batch": "B3",
+  "palace_id": "7",
+  "relations": [
+    {
+      "context": "heaven/earth plates of palace 7",
+      "description": "Bing fire generates Yi \u2014 upper layer drains into lower",
+      "evidence": [
+        "palaces.dui_7.heaven_stem",
+        "palaces.dui_7.earth_stem"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Bing",
+        "Yi"
+      ],
+      "type": "generation_drain"
+    },
+    {
+      "context": "heaven/hidden of palace 7",
+      "description": "Gui water controls Bing fire",
+      "evidence": [
+        "palaces.dui_7.heaven_stem",
+        "palaces.dui_7.hidden_stem"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Gui",
+        "Bing"
+      ],
+      "type": "control"
+    },
+    {
+      "description": "palace Metal generates door Rest (Water)",
+      "evidence": [
+        "palaces.dui_7.door",
+        "state:palace_key_resolution.palaces.7.element"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "7",
+        "Rest"
+      ],
+      "type": "palace_generating_door"
+    },
+    {
+      "at_home": false,
+      "description": "Tian Ren home palace 8, seated in 7 \u2014 DISPLACED",
+      "evidence": [
+        "palaces.dui_7.star",
+        "state:qmdj_complete.star_home_luoshu"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Tian Ren",
+        "7"
+      ],
+      "type": "star_home_displacement"
+    },
+    {
+      "description": "door Rest away from original (Fright Door)",
+      "evidence": [
+        "palaces.dui_7.door",
+        "palaces.dui_7.original_position.door"
+      ],
+      "grounding": "COMPUTED",
+      "hit": false,
+      "parties": [
+        "Rest",
+        "7"
+      ],
+      "type": "door_at_original_palace"
+    },
+    {
+      "description": "month pillar branch You stacked on palace 7",
+      "evidence": [
+        "chart_info.ganzhi.month",
+        "state:palace_key_resolution.palaces.7.branches"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "You",
+        "7"
+      ],
+      "type": "stacked_pillar_branch_on_palace"
+    },
+    {
+      "description": "palace branch You six-combines day pillar branch Chen",
+      "evidence": [
+        "chart_info.ganzhi.day",
+        "state:palace_key_resolution.palaces.7.branches"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "You",
+        "Chen"
+      ],
+      "type": "branch_six_combination"
+    },
+    {
+      "description": "day element Water vs palace element Metal: palace produces day (inflow)",
+      "evidence": [
+        "chart_info.ganzhi.day",
+        "state:palace_key_resolution.palaces.7.element"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Ren",
+        "7"
+      ],
+      "type": "day_element_vs_palace"
+    }
+  ],
+  "source_excerpt": {
+    "auspicious_patterns": [
+      "Palace Generating Door"
+    ],
+    "deity": "White Tiger",
+    "door": "Rest",
+    "earth_stem": "Yi",
+    "harm": "Ji (Dui 7, You)",
+    "heaven_stem": "Bing",
+    "hidden_stem": "Gui",
+    "life_stage": "Ding Ji (Dui 7, You)",
+    "name": "Dui 7 Palace",
+    "original_position": {
+      "branches": [
+        "You"
+      ],
+      "deity": "Nine Earths",
+      "door": "Fright Door",
+      "numbers": [
+        "2 7",
+        "4 9"
+      ],
+      "opposite_palace": "Kan 6",
+      "star": "Heavenly Pillar"
+    },
+    "prosperity_decline": {
+      "door_strength": "Strong",
+      "palace_state": "Prosperous / Inner",
+      "star_strength": "Prosperous / Prosperous"
+    },
+    "star": "Heaven Ren"
+  },
+  "verdict_claim_ids": [
+    "CLM-011",
+    "CLM-012",
+    "CLM-013",
+    "CLM-014"
+  ]
+}

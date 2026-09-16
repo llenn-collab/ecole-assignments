@@ -1,0 +1,37 @@
+{
+  "normalized": {
+    "earth": {
+      "mapping_status": "computed_mapping",
+      "normalized": "resting",
+      "raw": "Resting"
+    },
+    "fire": {
+      "mapping_status": "computed_mapping",
+      "normalized": "trapped",
+      "raw": "Imprisoned"
+    },
+    "metal": {
+      "mapping_status": "computed_mapping",
+      "normalized": "prosperous",
+      "raw": "Prosperous"
+    },
+    "water": {
+      "mapping_status": "computed_mapping",
+      "normalized": "strengthening",
+      "raw": "Strong"
+    },
+    "wood": {
+      "mapping_status": "computed_mapping",
+      "normalized": "dead",
+      "raw": "Dead"
+    }
+  },
+  "raw": {
+    "earth": "Resting",
+    "fire": "Imprisoned",
+    "metal": "Prosperous",
+    "water": "Strong",
+    "wood": "Dead"
+  },
+  "raw_vocabulary_preserved": true
+}

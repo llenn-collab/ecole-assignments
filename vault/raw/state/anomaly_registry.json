@@ -1,0 +1,138 @@
+{
+  "complete": true,
+  "records": [
+    {
+      "description": "center_5.harm is 'Harm': category label, no stem/branch content",
+      "id": "ANO-001",
+      "paths": [
+        "palaces.center_5.harm"
+      ],
+      "phase_recorded": "P0_ANATOMY",
+      "resolution_note": "stored UNKNOWN content; no stems/branches extractable",
+      "severity": "LOW",
+      "type": "PLACEHOLDER_LABEL_VALUE"
+    },
+    {
+      "description": "center_5.tomb is 'Tomb': category label, no stem/branch content",
+      "id": "ANO-002",
+      "paths": [
+        "palaces.center_5.tomb"
+      ],
+      "phase_recorded": "P0_ANATOMY",
+      "resolution_note": "stored UNKNOWN content; no stems/branches extractable",
+      "severity": "LOW",
+      "type": "PLACEHOLDER_LABEL_VALUE"
+    },
+    {
+      "description": "center_5.punishment is 'Punishment': category label, no stem/branch content",
+      "id": "ANO-003",
+      "paths": [
+        "palaces.center_5.punishment"
+      ],
+      "phase_recorded": "P0_ANATOMY",
+      "resolution_note": "stored UNKNOWN content; no stems/branches extractable",
+      "severity": "LOW",
+      "type": "PLACEHOLDER_LABEL_VALUE"
+    },
+    {
+      "description": "palace 1 explicit opposite_palace 'Kun 8' != frozen geometry 'Li 9'; label 'Kun 8' is also internally inconsistent",
+      "id": "ANO-004",
+      "paths": [
+        "palaces.kan_1.original_position.opposite_palace"
+      ],
+      "phase_recorded": "P6_BOARD_SYNTHESIS",
+      "resolution_note": "explicit value preserved as EXPLICIT; computed opposition uses frozen geometry",
+      "severity": "MED",
+      "type": "OPPOSITE_PALACE_MISMATCH"
+    },
+    {
+      "description": "palace 2 explicit opposite_palace 'Xun 5' != frozen geometry 'Gen 8'; label 'Xun 5' is also internally inconsistent",
+      "id": "ANO-005",
+      "paths": [
+        "palaces.kun_2.original_position.opposite_palace"
+      ],
+      "phase_recorded": "P6_BOARD_SYNTHESIS",
+      "resolution_note": "explicit value preserved as EXPLICIT; computed opposition uses frozen geometry",
+      "severity": "MED",
+      "type": "OPPOSITE_PALACE_MISMATCH"
+    },
+    {
+      "description": "palace 3 explicit opposite_palace 'Li 3' != frozen geometry 'Dui 7'; label 'Li 3' is also internally inconsistent",
+      "id": "ANO-006",
+      "paths": [
+        "palaces.zhen_3.original_position.opposite_palace"
+      ],
+      "phase_recorded": "P6_BOARD_SYNTHESIS",
+      "resolution_note": "explicit value preserved as EXPLICIT; computed opposition uses frozen geometry",
+      "severity": "MED",
+      "type": "OPPOSITE_PALACE_MISMATCH"
+    },
+    {
+      "description": "palace 4 explicit opposite_palace 'Dui 2' != frozen geometry 'Qian 6'; label 'Dui 2' is also internally inconsistent",
+      "id": "ANO-007",
+      "paths": [
+        "palaces.xun_4.original_position.opposite_palace"
+      ],
+      "phase_recorded": "P6_BOARD_SYNTHESIS",
+      "resolution_note": "explicit value preserved as EXPLICIT; computed opposition uses frozen geometry",
+      "severity": "MED",
+      "type": "OPPOSITE_PALACE_MISMATCH"
+    },
+    {
+      "description": "palace 6 explicit opposite_palace 'Gen 7' != frozen geometry 'Xun 4'; label 'Gen 7' is also internally inconsistent",
+      "id": "ANO-008",
+      "paths": [
+        "palaces.qian_6.original_position.opposite_palace"
+      ],
+      "phase_recorded": "P6_BOARD_SYNTHESIS",
+      "resolution_note": "explicit value preserved as EXPLICIT; computed opposition uses frozen geometry",
+      "severity": "MED",
+      "type": "OPPOSITE_PALACE_MISMATCH"
+    },
+    {
+      "description": "palace 7 explicit opposite_palace 'Kan 6' != frozen geometry 'Zhen 3'; label 'Kan 6' is also internally inconsistent",
+      "id": "ANO-009",
+      "paths": [
+        "palaces.dui_7.original_position.opposite_palace"
+      ],
+      "phase_recorded": "P6_BOARD_SYNTHESIS",
+      "resolution_note": "explicit value preserved as EXPLICIT; computed opposition uses frozen geometry",
+      "severity": "MED",
+      "type": "OPPOSITE_PALACE_MISMATCH"
+    },
+    {
+      "description": "palace 8 explicit opposite_palace 'Zhen 4' != frozen geometry 'Kun 2'; label 'Zhen 4' is also internally inconsistent",
+      "id": "ANO-010",
+      "paths": [
+        "palaces.gen_8.original_position.opposite_palace"
+      ],
+      "phase_recorded": "P6_BOARD_SYNTHESIS",
+      "resolution_note": "explicit value preserved as EXPLICIT; computed opposition uses frozen geometry",
+      "severity": "MED",
+      "type": "OPPOSITE_PALACE_MISMATCH"
+    },
+    {
+      "description": "palace 9 explicit opposite_palace 'Qian 1' != frozen geometry 'Kan 1'; label 'Qian 1' is also internally inconsistent",
+      "id": "ANO-011",
+      "paths": [
+        "palaces.li_9.original_position.opposite_palace"
+      ],
+      "phase_recorded": "P6_BOARD_SYNTHESIS",
+      "resolution_note": "explicit value preserved as EXPLICIT; computed opposition uses frozen geometry",
+      "severity": "MED",
+      "type": "OPPOSITE_PALACE_MISMATCH"
+    },
+    {
+      "description": "li_9 lists 'Palace Oppressing Door' but palace element Fire does not control door element Fire (Scenery at original palace); explicit preserved, computed disagrees",
+      "id": "ANO-012",
+      "paths": [
+        "palaces.li_9.inauspicious_patterns[0]",
+        "palaces.li_9.door"
+      ],
+      "phase_recorded": "P6_BOARD_SYNTHESIS",
+      "resolution_note": "resolved per policy: ship both as typed evidence; do not prefer theory over explicit",
+      "severity": "MED",
+      "type": "EXPLICIT_PATTERN_COMPUTED_CONFLICT"
+    }
+  ]
+}

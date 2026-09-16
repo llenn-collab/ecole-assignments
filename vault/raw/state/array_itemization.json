@@ -1,0 +1,384 @@
+{
+  "complete": true,
+  "item_count": 54,
+  "items": [
+    {
+      "array_path": "palaces.xun_4.special_markers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"xun_4\"][\"special_markers\"][0]",
+      "type": "string",
+      "value_digest": "edc513403366"
+    },
+    {
+      "array_path": "palaces.xun_4.special_markers",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"xun_4\"][\"special_markers\"][1]",
+      "type": "string",
+      "value_digest": "4ab3409817dc"
+    },
+    {
+      "array_path": "palaces.xun_4.auspicious_patterns",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"xun_4\"][\"auspicious_patterns\"][0]",
+      "type": "string",
+      "value_digest": "53cc8d7e3275"
+    },
+    {
+      "array_path": "palaces.xun_4.auspicious_patterns",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"xun_4\"][\"auspicious_patterns\"][1]",
+      "type": "string",
+      "value_digest": "a849593dd9bc"
+    },
+    {
+      "array_path": "palaces.xun_4.inauspicious_patterns",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"xun_4\"][\"inauspicious_patterns\"][0]",
+      "type": "string",
+      "value_digest": "28186fdeaa62"
+    },
+    {
+      "array_path": "palaces.xun_4.inauspicious_patterns",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"xun_4\"][\"inauspicious_patterns\"][1]",
+      "type": "string",
+      "value_digest": "fc8ae0938202"
+    },
+    {
+      "array_path": "palaces.xun_4.inauspicious_patterns",
+      "index": 2,
+      "raw_path": "[\"palaces\"][\"xun_4\"][\"inauspicious_patterns\"][2]",
+      "type": "string",
+      "value_digest": "49d3c222aa50"
+    },
+    {
+      "array_path": "palaces.xun_4.original_position.numbers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"xun_4\"][\"original_position\"][\"numbers\"][0]",
+      "type": "string",
+      "value_digest": "55a6ea8892c3"
+    },
+    {
+      "array_path": "palaces.xun_4.original_position.numbers",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"xun_4\"][\"original_position\"][\"numbers\"][1]",
+      "type": "string",
+      "value_digest": "f4702dca8e93"
+    },
+    {
+      "array_path": "palaces.xun_4.original_position.branches",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"xun_4\"][\"original_position\"][\"branches\"][0]",
+      "type": "string",
+      "value_digest": "4b248d1d7982"
+    },
+    {
+      "array_path": "palaces.xun_4.original_position.branches",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"xun_4\"][\"original_position\"][\"branches\"][1]",
+      "type": "string",
+      "value_digest": "243a7b77913e"
+    },
+    {
+      "array_path": "palaces.li_9.special_markers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"li_9\"][\"special_markers\"][0]",
+      "type": "string",
+      "value_digest": "4e7ba40328ee"
+    },
+    {
+      "array_path": "palaces.li_9.auspicious_patterns",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"li_9\"][\"auspicious_patterns\"][0]",
+      "type": "string",
+      "value_digest": "7161e407378b"
+    },
+    {
+      "array_path": "palaces.li_9.inauspicious_patterns",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"li_9\"][\"inauspicious_patterns\"][0]",
+      "type": "string",
+      "value_digest": "fc8ae0938202"
+    },
+    {
+      "array_path": "palaces.li_9.original_position.numbers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"li_9\"][\"original_position\"][\"numbers\"][0]",
+      "type": "string",
+      "value_digest": "04931b2883d7"
+    },
+    {
+      "array_path": "palaces.li_9.original_position.numbers",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"li_9\"][\"original_position\"][\"numbers\"][1]",
+      "type": "string",
+      "value_digest": "7b13ac13a99e"
+    },
+    {
+      "array_path": "palaces.li_9.original_position.branches",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"li_9\"][\"original_position\"][\"branches\"][0]",
+      "type": "string",
+      "value_digest": "00c1e468e4e4"
+    },
+    {
+      "array_path": "palaces.kun_2.special_markers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"kun_2\"][\"special_markers\"][0]",
+      "type": "string",
+      "value_digest": "4e7ba40328ee"
+    },
+    {
+      "array_path": "palaces.kun_2.special_markers",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"kun_2\"][\"special_markers\"][1]",
+      "type": "string",
+      "value_digest": "1dd03699c290"
+    },
+    {
+      "array_path": "palaces.kun_2.auspicious_patterns",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"kun_2\"][\"auspicious_patterns\"][0]",
+      "type": "string",
+      "value_digest": "299cfa3a62f7"
+    },
+    {
+      "array_path": "palaces.kun_2.original_position.numbers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"kun_2\"][\"original_position\"][\"numbers\"][0]",
+      "type": "string",
+      "value_digest": "803afb77488a"
+    },
+    {
+      "array_path": "palaces.kun_2.original_position.numbers",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"kun_2\"][\"original_position\"][\"numbers\"][1]",
+      "type": "string",
+      "value_digest": "11cc8f8d58ed"
+    },
+    {
+      "array_path": "palaces.kun_2.original_position.branches",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"kun_2\"][\"original_position\"][\"branches\"][0]",
+      "type": "string",
+      "value_digest": "2dcb4a7bc26f"
+    },
+    {
+      "array_path": "palaces.kun_2.original_position.branches",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"kun_2\"][\"original_position\"][\"branches\"][1]",
+      "type": "string",
+      "value_digest": "fd96a8e09b6e"
+    },
+    {
+      "array_path": "palaces.zhen_3.special_markers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"zhen_3\"][\"special_markers\"][0]",
+      "type": "string",
+      "value_digest": "4e7ba40328ee"
+    },
+    {
+      "array_path": "palaces.zhen_3.auspicious_patterns",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"zhen_3\"][\"auspicious_patterns\"][0]",
+      "type": "string",
+      "value_digest": "299cfa3a62f7"
+    },
+    {
+      "array_path": "palaces.zhen_3.original_position.numbers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"zhen_3\"][\"original_position\"][\"numbers\"][0]",
+      "type": "string",
+      "value_digest": "c33a915bed8c"
+    },
+    {
+      "array_path": "palaces.zhen_3.original_position.numbers",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"zhen_3\"][\"original_position\"][\"numbers\"][1]",
+      "type": "string",
+      "value_digest": "f4702dca8e93"
+    },
+    {
+      "array_path": "palaces.zhen_3.original_position.branches",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"zhen_3\"][\"original_position\"][\"branches\"][0]",
+      "type": "string",
+      "value_digest": "7610c7695faa"
+    },
+    {
+      "array_path": "palaces.center_5.original_position.numbers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"center_5\"][\"original_position\"][\"numbers\"][0]",
+      "type": "string",
+      "value_digest": "11cc8f8d58ed"
+    },
+    {
+      "array_path": "palaces.dui_7.auspicious_patterns",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"dui_7\"][\"auspicious_patterns\"][0]",
+      "type": "string",
+      "value_digest": "299cfa3a62f7"
+    },
+    {
+      "array_path": "palaces.dui_7.original_position.numbers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"dui_7\"][\"original_position\"][\"numbers\"][0]",
+      "type": "string",
+      "value_digest": "7b13ac13a99e"
+    },
+    {
+      "array_path": "palaces.dui_7.original_position.numbers",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"dui_7\"][\"original_position\"][\"numbers\"][1]",
+      "type": "string",
+      "value_digest": "5d7a5e7c0f31"
+    },
+    {
+      "array_path": "palaces.dui_7.original_position.branches",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"dui_7\"][\"original_position\"][\"branches\"][0]",
+      "type": "string",
+      "value_digest": "08b041935798"
+    },
+    {
+      "array_path": "palaces.gen_8.special_markers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"gen_8\"][\"special_markers\"][0]",
+      "type": "string",
+      "value_digest": "4e7ba40328ee"
+    },
+    {
+      "array_path": "palaces.gen_8.special_markers",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"gen_8\"][\"special_markers\"][1]",
+      "type": "string",
+      "value_digest": "0cc641773170"
+    },
+    {
+      "array_path": "palaces.gen_8.special_markers",
+      "index": 2,
+      "raw_path": "[\"palaces\"][\"gen_8\"][\"special_markers\"][2]",
+      "type": "string",
+      "value_digest": "ea56bc85d03b"
+    },
+    {
+      "array_path": "palaces.gen_8.inauspicious_patterns",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"gen_8\"][\"inauspicious_patterns\"][0]",
+      "type": "string",
+      "value_digest": "8bd290dac07f"
+    },
+    {
+      "array_path": "palaces.gen_8.inauspicious_patterns",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"gen_8\"][\"inauspicious_patterns\"][1]",
+      "type": "string",
+      "value_digest": "2ccee239e2dd"
+    },
+    {
+      "array_path": "palaces.gen_8.original_position.numbers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"gen_8\"][\"original_position\"][\"numbers\"][0]",
+      "type": "string",
+      "value_digest": "3cbd8d33a059"
+    },
+    {
+      "array_path": "palaces.gen_8.original_position.numbers",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"gen_8\"][\"original_position\"][\"numbers\"][1]",
+      "type": "string",
+      "value_digest": "11cc8f8d58ed"
+    },
+    {
+      "array_path": "palaces.gen_8.original_position.branches",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"gen_8\"][\"original_position\"][\"branches\"][0]",
+      "type": "string",
+      "value_digest": "a0c4f3f697ca"
+    },
+    {
+      "array_path": "palaces.gen_8.original_position.branches",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"gen_8\"][\"original_position\"][\"branches\"][1]",
+      "type": "string",
+      "value_digest": "1d33480f1059"
+    },
+    {
+      "array_path": "palaces.kan_1.auspicious_patterns",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"kan_1\"][\"auspicious_patterns\"][0]",
+      "type": "string",
+      "value_digest": "299cfa3a62f7"
+    },
+    {
+      "array_path": "palaces.kan_1.inauspicious_patterns",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"kan_1\"][\"inauspicious_patterns\"][0]",
+      "type": "string",
+      "value_digest": "c89a76218748"
+    },
+    {
+      "array_path": "palaces.kan_1.original_position.numbers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"kan_1\"][\"original_position\"][\"numbers\"][0]",
+      "type": "string",
+      "value_digest": "23774b2bfd1c"
+    },
+    {
+      "array_path": "palaces.kan_1.original_position.numbers",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"kan_1\"][\"original_position\"][\"numbers\"][1]",
+      "type": "string",
+      "value_digest": "2bb2cdeead1f"
+    },
+    {
+      "array_path": "palaces.kan_1.original_position.branches",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"kan_1\"][\"original_position\"][\"branches\"][0]",
+      "type": "string",
+      "value_digest": "c718cb756313"
+    },
+    {
+      "array_path": "palaces.qian_6.special_markers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"qian_6\"][\"special_markers\"][0]",
+      "type": "string",
+      "value_digest": "f249cf4f1a12"
+    },
+    {
+      "array_path": "palaces.qian_6.auspicious_patterns",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"qian_6\"][\"auspicious_patterns\"][0]",
+      "type": "string",
+      "value_digest": "3f425157149d"
+    },
+    {
+      "array_path": "palaces.qian_6.original_position.numbers",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"qian_6\"][\"original_position\"][\"numbers\"][0]",
+      "type": "string",
+      "value_digest": "2bb2cdeead1f"
+    },
+    {
+      "array_path": "palaces.qian_6.original_position.numbers",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"qian_6\"][\"original_position\"][\"numbers\"][1]",
+      "type": "string",
+      "value_digest": "5d7a5e7c0f31"
+    },
+    {
+      "array_path": "palaces.qian_6.original_position.branches",
+      "index": 0,
+      "raw_path": "[\"palaces\"][\"qian_6\"][\"original_position\"][\"branches\"][0]",
+      "type": "string",
+      "value_digest": "81a8afcae90a"
+    },
+    {
+      "array_path": "palaces.qian_6.original_position.branches",
+      "index": 1,
+      "raw_path": "[\"palaces\"][\"qian_6\"][\"original_position\"][\"branches\"][1]",
+      "type": "string",
+      "value_digest": "4e297fe26bd1"
+    }
+  ]
+}

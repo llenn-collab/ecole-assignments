@@ -1,0 +1,183 @@
+{
+  "batch": "B2",
+  "palace_id": "6",
+  "relations": [
+    {
+      "context": "heaven/earth plates of palace 6",
+      "description": "Xin metal generates Wu \u2014 upper layer drains into lower",
+      "evidence": [
+        "palaces.qian_6.heaven_stem",
+        "palaces.qian_6.earth_stem"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Xin",
+        "Wu"
+      ],
+      "type": "generation_drain"
+    },
+    {
+      "context": "heaven/hidden of palace 6",
+      "description": "Xin+Bing form a five-combination (heaven/hidden of palace 6)",
+      "evidence": [
+        "palaces.qian_6.heaven_stem",
+        "palaces.qian_6.hidden_stem"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Bing",
+        "Xin"
+      ],
+      "type": "stem_combination"
+    },
+    {
+      "context": "heaven/hidden of palace 6",
+      "description": "Bing fire controls Xin metal",
+      "evidence": [
+        "palaces.qian_6.heaven_stem",
+        "palaces.qian_6.hidden_stem"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Bing",
+        "Xin"
+      ],
+      "type": "control"
+    },
+    {
+      "description": "door Life (Earth) generates palace Metal",
+      "evidence": [
+        "palaces.qian_6.door",
+        "state:palace_key_resolution.palaces.6.element"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Life",
+        "6"
+      ],
+      "type": "door_generating_palace"
+    },
+    {
+      "at_home": false,
+      "description": "Tian Chong home palace 3, seated in 6 \u2014 DISPLACED",
+      "evidence": [
+        "palaces.qian_6.star",
+        "state:qmdj_complete.star_home_luoshu"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Tian Chong",
+        "6"
+      ],
+      "type": "star_home_displacement"
+    },
+    {
+      "description": "door Life away from original (Open Door)",
+      "evidence": [
+        "palaces.qian_6.door",
+        "palaces.qian_6.original_position.door"
+      ],
+      "grounding": "COMPUTED",
+      "hit": false,
+      "parties": [
+        "Life",
+        "6"
+      ],
+      "type": "door_at_original_palace"
+    },
+    {
+      "description": "palace branch Xu clashes day pillar branch Chen (Chen-Xu clash)",
+      "evidence": [
+        "chart_info.ganzhi.day",
+        "state:palace_key_resolution.palaces.6.branches"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Xu",
+        "Chen"
+      ],
+      "type": "branch_clash"
+    },
+    {
+      "description": "hour pillar branch Hai stacked on palace 6",
+      "evidence": [
+        "chart_info.ganzhi.hour",
+        "state:palace_key_resolution.palaces.6.branches"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Hai",
+        "6"
+      ],
+      "type": "stacked_pillar_branch_on_palace"
+    },
+    {
+      "description": "day element Water vs palace element Metal: palace produces day (inflow)",
+      "evidence": [
+        "chart_info.ganzhi.day",
+        "state:palace_key_resolution.palaces.6.element"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Ren",
+        "6"
+      ],
+      "type": "day_element_vs_palace"
+    },
+    {
+      "description": "month horse (Hai) in palace 6",
+      "evidence": [
+        "chart_info.horse.month",
+        "state:palace_key_resolution.palaces.6.branches"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "month",
+        "6"
+      ],
+      "type": "horse_star"
+    }
+  ],
+  "source_excerpt": {
+    "auspicious_patterns": [
+      "Door Generating Palace"
+    ],
+    "deity": "Six Harmony",
+    "door": "Life",
+    "earth_stem": "Wu",
+    "harm": "Geng (Hai, Qian 6, Xu)",
+    "heaven_stem": "Xin",
+    "hidden_stem": "Bing",
+    "name": "Qian 6 Palace",
+    "original_position": {
+      "branches": [
+        "Hai",
+        "Xu"
+      ],
+      "deity": "Nine Heavens",
+      "door": "Open Door",
+      "numbers": [
+        "1 6",
+        "4 9"
+      ],
+      "opposite_palace": "Gen 7",
+      "star": "Heavenly Heart"
+    },
+    "prosperity_decline": {
+      "door_strength": "Rest",
+      "palace_state": "Prosperous / Inner",
+      "star_strength": "Imprisoned / Imprisoned"
+    },
+    "special_markers": [
+      "Tomb (Wu)"
+    ],
+    "star": "Heaven Chong",
+    "tomb": "Yi Bing Wu (Hai, Qian 6, Xu)"
+  },
+  "verdict_claim_ids": [
+    "CLM-007",
+    "CLM-008",
+    "CLM-009",
+    "CLM-010"
+  ]
+}

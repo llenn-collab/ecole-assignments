@@ -1,0 +1,674 @@
+{
+  "branches": {
+    "Chen": [
+      {
+        "layer": "frozen_geometry",
+        "palace": "4",
+        "path": "palace_identity_table[4]"
+      }
+    ],
+    "Chou": [
+      {
+        "layer": "frozen_geometry",
+        "palace": "8",
+        "path": "palace_identity_table[8]"
+      }
+    ],
+    "Hai": [
+      {
+        "layer": "frozen_geometry",
+        "palace": "6",
+        "path": "palace_identity_table[6]"
+      }
+    ],
+    "Mao": [
+      {
+        "layer": "frozen_geometry",
+        "palace": "3",
+        "path": "palace_identity_table[3]"
+      }
+    ],
+    "Shen": [
+      {
+        "layer": "frozen_geometry",
+        "palace": "2",
+        "path": "palace_identity_table[2]"
+      }
+    ],
+    "Si": [
+      {
+        "layer": "frozen_geometry",
+        "palace": "4",
+        "path": "palace_identity_table[4]"
+      }
+    ],
+    "Wei": [
+      {
+        "layer": "frozen_geometry",
+        "palace": "2",
+        "path": "palace_identity_table[2]"
+      }
+    ],
+    "Wu": [
+      {
+        "layer": "frozen_geometry",
+        "palace": "9",
+        "path": "palace_identity_table[9]"
+      }
+    ],
+    "Xu": [
+      {
+        "layer": "frozen_geometry",
+        "palace": "6",
+        "path": "palace_identity_table[6]"
+      }
+    ],
+    "Yin": [
+      {
+        "layer": "frozen_geometry",
+        "palace": "8",
+        "path": "palace_identity_table[8]"
+      }
+    ],
+    "You": [
+      {
+        "layer": "frozen_geometry",
+        "palace": "7",
+        "path": "palace_identity_table[7]"
+      }
+    ],
+    "Zi": [
+      {
+        "layer": "frozen_geometry",
+        "palace": "1",
+        "path": "palace_identity_table[1]"
+      }
+    ]
+  },
+  "deities": {
+    "Chief": [
+      {
+        "layer": "deity_plate",
+        "palace": "3",
+        "path": "palaces.zhen_3.deity"
+      }
+    ],
+    "Flying Snake": [
+      {
+        "layer": "deity_plate",
+        "palace": "8",
+        "path": "palaces.gen_8.deity"
+      }
+    ],
+    "Great Yin": [
+      {
+        "layer": "deity_plate",
+        "palace": "1",
+        "path": "palaces.kan_1.deity"
+      }
+    ],
+    "Nine Earths": [
+      {
+        "layer": "deity_plate",
+        "palace": "9",
+        "path": "palaces.li_9.deity"
+      }
+    ],
+    "Nine Heavens": [
+      {
+        "layer": "deity_plate",
+        "palace": "4",
+        "path": "palaces.xun_4.deity"
+      }
+    ],
+    "Six Harmony": [
+      {
+        "layer": "deity_plate",
+        "palace": "6",
+        "path": "palaces.qian_6.deity"
+      }
+    ],
+    "Tai Chang": [
+      {
+        "layer": "deity_plate",
+        "palace": "5",
+        "path": "palaces.center_5.deity"
+      }
+    ],
+    "White Tiger": [
+      {
+        "layer": "deity_plate",
+        "palace": "7",
+        "path": "palaces.dui_7.deity"
+      }
+    ],
+    "Xuanwu": [
+      {
+        "layer": "deity_plate",
+        "palace": "2",
+        "path": "palaces.kun_2.deity"
+      }
+    ]
+  },
+  "doors": {
+    "Death": [
+      {
+        "layer": "door_plate",
+        "palace": "4",
+        "path": "palaces.xun_4.door"
+      }
+    ],
+    "Du": [
+      {
+        "layer": "door_plate",
+        "palace": "8",
+        "path": "palaces.gen_8.door"
+      }
+    ],
+    "Life": [
+      {
+        "layer": "door_plate",
+        "palace": "6",
+        "path": "palaces.qian_6.door"
+      }
+    ],
+    "Open": [
+      {
+        "layer": "door_plate",
+        "palace": "2",
+        "path": "palaces.kun_2.door"
+      }
+    ],
+    "Rest": [
+      {
+        "layer": "door_plate",
+        "palace": "7",
+        "path": "palaces.dui_7.door"
+      }
+    ],
+    "Scenery": [
+      {
+        "layer": "door_plate",
+        "palace": "3",
+        "path": "palaces.zhen_3.door"
+      },
+      {
+        "layer": "door_plate",
+        "palace": "9",
+        "path": "palaces.li_9.door"
+      }
+    ],
+    "Shang": [
+      {
+        "layer": "door_plate",
+        "palace": "1",
+        "path": "palaces.kan_1.door"
+      }
+    ]
+  },
+  "lodging": [
+    {
+      "entity": "Ji",
+      "entity_layer": "heaven_stem",
+      "evidence": "palaces.center_5.heaven_stem",
+      "from_palace": "5",
+      "host_confirmation": {
+        "note": "lodged heaven stem rides with host palace"
+      },
+      "raw": "Ji (lodged in Zhen 3 Palace)",
+      "to_palace": "3"
+    },
+    {
+      "entity": "Ji",
+      "entity_layer": "hidden_stem",
+      "evidence": "palaces.center_5.hidden_stem",
+      "from_palace": "5",
+      "host_confirmation": {
+        "found_in_host_hidden_field": false,
+        "note": "host palace keeps its own hidden stem; lodger co-resides (not echoed) — recorded, not treated as contradiction",
+        "path": "palaces.kun_2.hidden_stem",
+        "value": "Wu"
+      },
+      "raw": "Ji (lodged in Kun 2 Palace)",
+      "to_palace": "2"
+    },
+    {
+      "entity": "Heaven Qin",
+      "entity_layer": "star",
+      "evidence": "palaces.center_5.star",
+      "from_palace": "5",
+      "host_confirmation": {
+        "found_in_host_star_field": true,
+        "path": "palaces.zhen_3.star",
+        "value": "Heaven Rui & Heaven Qin"
+      },
+      "raw": "Heaven Qin (lodged in Zhen 3 Palace)",
+      "to_palace": "3"
+    }
+  ],
+  "markers": {
+    "horse": [
+      {
+        "layer": "explicit_marker",
+        "palace": "4",
+        "path": "palaces.xun_4.special_markers[0]"
+      }
+    ],
+    "oppression": [
+      {
+        "layer": "explicit_marker",
+        "palace": "8",
+        "path": "palaces.gen_8.special_markers[2]"
+      }
+    ],
+    "tomb": [
+      {
+        "layer": "explicit_marker",
+        "palace": "2",
+        "path": "palaces.kun_2.special_markers[1]"
+      },
+      {
+        "layer": "explicit_marker",
+        "palace": "6",
+        "path": "palaces.qian_6.special_markers[0]"
+      },
+      {
+        "layer": "explicit_marker",
+        "palace": "8",
+        "path": "palaces.gen_8.special_markers[1]"
+      }
+    ],
+    "tomb_and_punishment": [
+      {
+        "layer": "explicit_marker",
+        "palace": "4",
+        "path": "palaces.xun_4.special_markers[1]"
+      }
+    ],
+    "void": [
+      {
+        "layer": "explicit_marker",
+        "palace": "2",
+        "path": "palaces.kun_2.special_markers[0]"
+      },
+      {
+        "layer": "explicit_marker",
+        "palace": "3",
+        "path": "palaces.zhen_3.special_markers[0]"
+      },
+      {
+        "layer": "explicit_marker",
+        "palace": "8",
+        "path": "palaces.gen_8.special_markers[0]"
+      },
+      {
+        "layer": "explicit_marker",
+        "palace": "9",
+        "path": "palaces.li_9.special_markers[0]"
+      }
+    ]
+  },
+  "punishments": {
+    "Geng": [
+      {
+        "layer": "punishment_field",
+        "palace": "8",
+        "path": "palaces.gen_8.punishment"
+      }
+    ],
+    "Gui": [
+      {
+        "layer": "punishment_field",
+        "palace": "4",
+        "path": "palaces.xun_4.punishment"
+      }
+    ],
+    "Ji": [
+      {
+        "layer": "punishment_field",
+        "palace": "2",
+        "path": "palaces.kun_2.punishment"
+      }
+    ],
+    "Ren": [
+      {
+        "layer": "punishment_field",
+        "palace": "4",
+        "path": "palaces.xun_4.punishment"
+      }
+    ],
+    "Wu": [
+      {
+        "layer": "punishment_field",
+        "palace": "3",
+        "path": "palaces.zhen_3.punishment"
+      }
+    ],
+    "Xin": [
+      {
+        "layer": "punishment_field",
+        "palace": "9",
+        "path": "palaces.li_9.punishment"
+      }
+    ]
+  },
+  "stars": {
+    "Heaven Chong": [
+      {
+        "layer": "heaven",
+        "palace": "6",
+        "path": "palaces.qian_6.star"
+      }
+    ],
+    "Heaven Fu": [
+      {
+        "layer": "heaven",
+        "palace": "1",
+        "path": "palaces.kan_1.star"
+      }
+    ],
+    "Heaven Heart": [
+      {
+        "layer": "heaven",
+        "palace": "9",
+        "path": "palaces.li_9.star"
+      }
+    ],
+    "Heaven Peng": [
+      {
+        "layer": "heaven",
+        "palace": "2",
+        "path": "palaces.kun_2.star"
+      }
+    ],
+    "Heaven Pillar": [
+      {
+        "layer": "heaven",
+        "palace": "4",
+        "path": "palaces.xun_4.star"
+      }
+    ],
+    "Heaven Qin": [
+      {
+        "layer": "heaven",
+        "palace": "3",
+        "path": "palaces.zhen_3.star"
+      }
+    ],
+    "Heaven Qin (lodged in Zhen 3 Palace)": [
+      {
+        "layer": "heaven",
+        "palace": "5",
+        "path": "palaces.center_5.star"
+      }
+    ],
+    "Heaven Ren": [
+      {
+        "layer": "heaven",
+        "palace": "7",
+        "path": "palaces.dui_7.star"
+      }
+    ],
+    "Heaven Rui": [
+      {
+        "layer": "heaven",
+        "palace": "3",
+        "path": "palaces.zhen_3.star"
+      }
+    ],
+    "Heaven Ying": [
+      {
+        "layer": "heaven",
+        "palace": "8",
+        "path": "palaces.gen_8.star"
+      }
+    ]
+  },
+  "stems": {
+    "Bing": [
+      {
+        "layer": "hidden",
+        "palace": "6",
+        "path": "palaces.qian_6.hidden_stem"
+      },
+      {
+        "layer": "heaven",
+        "palace": "7",
+        "path": "palaces.dui_7.heaven_stem"
+      },
+      {
+        "layer": "earth",
+        "palace": "8",
+        "path": "palaces.gen_8.earth_stem"
+      }
+    ],
+    "Ding": [
+      {
+        "layer": "hidden",
+        "palace": "3",
+        "path": "palaces.zhen_3.hidden_stem"
+      },
+      {
+        "layer": "heaven",
+        "palace": "8",
+        "path": "palaces.gen_8.heaven_stem"
+      },
+      {
+        "layer": "marker_reference",
+        "palace": "8",
+        "path": "palaces.gen_8.special_markers[1]"
+      },
+      {
+        "layer": "earth",
+        "palace": "9",
+        "path": "palaces.li_9.earth_stem"
+      }
+    ],
+    "Geng": [
+      {
+        "layer": "heaven",
+        "palace": "1",
+        "path": "palaces.kan_1.heaven_stem"
+      },
+      {
+        "layer": "earth",
+        "palace": "4",
+        "path": "palaces.xun_4.earth_stem"
+      },
+      {
+        "layer": "hidden",
+        "palace": "8",
+        "path": "palaces.gen_8.hidden_stem"
+      }
+    ],
+    "Gui": [
+      {
+        "layer": "earth",
+        "palace": "1",
+        "path": "palaces.kan_1.earth_stem"
+      },
+      {
+        "layer": "heaven",
+        "palace": "2",
+        "path": "palaces.kun_2.heaven_stem"
+      },
+      {
+        "layer": "marker_reference",
+        "palace": "2",
+        "path": "palaces.kun_2.special_markers[1]"
+      },
+      {
+        "layer": "hidden",
+        "palace": "7",
+        "path": "palaces.dui_7.hidden_stem"
+      }
+    ],
+    "Ji": [
+      {
+        "layer": "heaven",
+        "palace": "5",
+        "path": "palaces.center_5.heaven_stem"
+      },
+      {
+        "layer": "earth",
+        "palace": "5",
+        "path": "palaces.center_5.earth_stem"
+      },
+      {
+        "layer": "hidden",
+        "palace": "5",
+        "path": "palaces.center_5.hidden_stem"
+      }
+    ],
+    "Ren": [
+      {
+        "layer": "earth",
+        "palace": "2",
+        "path": "palaces.kun_2.earth_stem"
+      },
+      {
+        "layer": "heaven",
+        "palace": "3",
+        "path": "palaces.zhen_3.heaven_stem"
+      },
+      {
+        "layer": "hidden",
+        "palace": "4",
+        "path": "palaces.xun_4.hidden_stem"
+      },
+      {
+        "layer": "marker_reference",
+        "palace": "4",
+        "path": "palaces.xun_4.special_markers[1]"
+      }
+    ],
+    "Wu": [
+      {
+        "layer": "hidden",
+        "palace": "2",
+        "path": "palaces.kun_2.hidden_stem"
+      },
+      {
+        "layer": "earth",
+        "palace": "6",
+        "path": "palaces.qian_6.earth_stem"
+      },
+      {
+        "layer": "marker_reference",
+        "palace": "6",
+        "path": "palaces.qian_6.special_markers[0]"
+      },
+      {
+        "layer": "heaven",
+        "palace": "9",
+        "path": "palaces.li_9.heaven_stem"
+      }
+    ],
+    "Xin": [
+      {
+        "layer": "hidden",
+        "palace": "1",
+        "path": "palaces.kan_1.hidden_stem"
+      },
+      {
+        "layer": "earth",
+        "palace": "3",
+        "path": "palaces.zhen_3.earth_stem"
+      },
+      {
+        "layer": "heaven",
+        "palace": "6",
+        "path": "palaces.qian_6.heaven_stem"
+      }
+    ],
+    "Yi": [
+      {
+        "layer": "heaven",
+        "palace": "4",
+        "path": "palaces.xun_4.heaven_stem"
+      },
+      {
+        "layer": "earth",
+        "palace": "7",
+        "path": "palaces.dui_7.earth_stem"
+      },
+      {
+        "layer": "hidden",
+        "palace": "9",
+        "path": "palaces.li_9.hidden_stem"
+      }
+    ]
+  },
+  "tombs": {
+    "Bing": [
+      {
+        "layer": "tomb_field",
+        "palace": "6",
+        "path": "palaces.qian_6.tomb"
+      }
+    ],
+    "Ding": [
+      {
+        "layer": "tomb_field",
+        "palace": "8",
+        "path": "palaces.gen_8.tomb"
+      }
+    ],
+    "Geng": [
+      {
+        "layer": "tomb_field",
+        "palace": "8",
+        "path": "palaces.gen_8.tomb"
+      }
+    ],
+    "Gui": [
+      {
+        "layer": "tomb_field",
+        "palace": "2",
+        "path": "palaces.kun_2.tomb"
+      }
+    ],
+    "Ji": [
+      {
+        "layer": "tomb_field",
+        "palace": "8",
+        "path": "palaces.gen_8.tomb"
+      }
+    ],
+    "Jia": [
+      {
+        "layer": "tomb_field",
+        "palace": "2",
+        "path": "palaces.kun_2.tomb"
+      }
+    ],
+    "Ren": [
+      {
+        "layer": "tomb_field",
+        "palace": "4",
+        "path": "palaces.xun_4.tomb"
+      }
+    ],
+    "Wu": [
+      {
+        "layer": "tomb_field",
+        "palace": "6",
+        "path": "palaces.qian_6.tomb"
+      }
+    ],
+    "Xin": [
+      {
+        "layer": "tomb_field",
+        "palace": "4",
+        "path": "palaces.xun_4.tomb"
+      }
+    ],
+    "Yi": [
+      {
+        "layer": "tomb_field",
+        "palace": "6",
+        "path": "palaces.qian_6.tomb"
+      }
+    ]
+  }
+}

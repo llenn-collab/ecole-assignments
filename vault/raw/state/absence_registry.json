@@ -1,0 +1,88 @@
+{
+  "complete": true,
+  "records": [
+    {
+      "absent_paths": [
+        "palaces.kan_1.special_markers",
+        "palaces.kan_1.harm",
+        "palaces.kan_1.tomb",
+        "palaces.kan_1.punishment"
+      ],
+      "palace_id": "1",
+      "phase_recorded": "P0_ANATOMY",
+      "structural_significance": "unassessed; absence recorded, not treated as false"
+    },
+    {
+      "absent_paths": [
+        "palaces.kun_2.inauspicious_patterns"
+      ],
+      "palace_id": "2",
+      "phase_recorded": "P0_ANATOMY",
+      "structural_significance": "unassessed; absence recorded, not treated as false"
+    },
+    {
+      "absent_paths": [
+        "palaces.zhen_3.inauspicious_patterns",
+        "palaces.zhen_3.tomb"
+      ],
+      "palace_id": "3",
+      "phase_recorded": "P0_ANATOMY",
+      "structural_significance": "unassessed; absence recorded, not treated as false"
+    },
+    {
+      "absent_paths": [
+        "palaces.center_5.door",
+        "palaces.center_5.special_markers",
+        "palaces.center_5.auspicious_patterns",
+        "palaces.center_5.inauspicious_patterns",
+        "palaces.center_5.original_position.deity",
+        "palaces.center_5.original_position.door",
+        "palaces.center_5.original_position.branches",
+        "palaces.center_5.original_position.opposite_palace",
+        "palaces.center_5.prosperity_decline.door_strength",
+        "palaces.center_5.prosperity_decline.star_strength"
+      ],
+      "palace_id": "5",
+      "phase_recorded": "P0_ANATOMY",
+      "structural_significance": "center structurally lacks door/branches/opposite (non-directional pivot) — variant-expected"
+    },
+    {
+      "absent_paths": [
+        "palaces.qian_6.inauspicious_patterns",
+        "palaces.qian_6.life_stage",
+        "palaces.qian_6.punishment"
+      ],
+      "palace_id": "6",
+      "phase_recorded": "P0_ANATOMY",
+      "structural_significance": "unassessed; absence recorded, not treated as false"
+    },
+    {
+      "absent_paths": [
+        "palaces.dui_7.special_markers",
+        "palaces.dui_7.inauspicious_patterns",
+        "palaces.dui_7.tomb",
+        "palaces.dui_7.punishment"
+      ],
+      "palace_id": "7",
+      "phase_recorded": "P0_ANATOMY",
+      "structural_significance": "unassessed; absence recorded, not treated as false"
+    },
+    {
+      "absent_paths": [
+        "palaces.gen_8.auspicious_patterns"
+      ],
+      "palace_id": "8",
+      "phase_recorded": "P0_ANATOMY",
+      "structural_significance": "unassessed; absence recorded, not treated as false"
+    },
+    {
+      "absent_paths": [
+        "palaces.li_9.harm",
+        "palaces.li_9.tomb"
+      ],
+      "palace_id": "9",
+      "phase_recorded": "P0_ANATOMY",
+      "structural_significance": "unassessed; absence recorded, not treated as false"
+    }
+  ]
+}

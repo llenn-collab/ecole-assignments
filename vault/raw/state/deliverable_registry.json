@@ -1,0 +1,57 @@
+{
+  "fallback_pack_used": false,
+  "note": "brief provides explicit slide structure; UNGROUNDED_PACK not used",
+  "registry": [
+    {
+      "audience": "marker / brief-owner",
+      "except_logo": false,
+      "format": "Presentation deck (PPT/PDF/Google Slides/Canva export target); delivered as submission-ready slide copy (markdown, one file, slide-delimited)",
+      "id": "DEL-01",
+      "mime_type": "text/markdown (export-ready)",
+      "must_or_should": "must",
+      "name": "Assignment 1 — Strategy Foundation (brand deck, slides 1–12 + brand selection test)",
+      "output_path": "output/SUBMISSION/01_STRATEGY_FOUNDATION_DECK.md",
+      "source_requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18",
+        "R19",
+        "R20",
+        "R21",
+        "R22",
+        "R24"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "audience": "—",
+      "except_logo": true,
+      "exclusion_reason": "brief explicitly removes detailed logo/brand-identity work at this stage; solver spec excludes actual logo artwork",
+      "format": "—",
+      "id": "DEL-X1",
+      "must_or_should": "must_not",
+      "name": "Logo / brand-identity artwork",
+      "output_path": null,
+      "source_requirement_ids": [
+        "R23",
+        "R09"
+      ],
+      "status": "EXCLUDED_LOGO"
+    }
+  ]
+}

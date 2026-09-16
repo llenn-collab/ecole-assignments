@@ -1,0 +1,228 @@
+{
+  "auspicious": [
+    {
+      "array_path": "palaces.kan_1.auspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "palace": "1",
+      "polarity": "auspicious",
+      "raw_pattern": "Palace Generating Door"
+    },
+    {
+      "array_path": "palaces.kun_2.auspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "palace": "2",
+      "polarity": "auspicious",
+      "raw_pattern": "Palace Generating Door"
+    },
+    {
+      "array_path": "palaces.zhen_3.auspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "palace": "3",
+      "polarity": "auspicious",
+      "raw_pattern": "Palace Generating Door"
+    },
+    {
+      "array_path": "palaces.xun_4.auspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "palace": "4",
+      "polarity": "auspicious",
+      "raw_pattern": "Wonder Instrument Combination"
+    },
+    {
+      "array_path": "palaces.xun_4.auspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 1,
+      "palace": "4",
+      "polarity": "auspicious",
+      "raw_pattern": "Three Wonders Obtaining Mission"
+    },
+    {
+      "array_path": "palaces.qian_6.auspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "palace": "6",
+      "polarity": "auspicious",
+      "raw_pattern": "Door Generating Palace"
+    },
+    {
+      "array_path": "palaces.dui_7.auspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "palace": "7",
+      "polarity": "auspicious",
+      "raw_pattern": "Palace Generating Door"
+    },
+    {
+      "array_path": "palaces.li_9.auspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "palace": "9",
+      "polarity": "auspicious",
+      "raw_pattern": "Wonder Wandering Salary Position"
+    }
+  ],
+  "inauspicious": [
+    {
+      "array_path": "palaces.kan_1.inauspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "palace": "1",
+      "polarity": "inauspicious",
+      "raw_pattern": "Great Barrier"
+    },
+    {
+      "array_path": "palaces.xun_4.inauspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "palace": "4",
+      "polarity": "inauspicious",
+      "raw_pattern": "Door Entering Tomb"
+    },
+    {
+      "array_path": "palaces.xun_4.inauspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 1,
+      "palace": "4",
+      "polarity": "inauspicious",
+      "raw_pattern": "Palace Oppressing Door"
+    },
+    {
+      "array_path": "palaces.xun_4.inauspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 2,
+      "palace": "4",
+      "polarity": "inauspicious",
+      "raw_pattern": "Three Wonders Being Restricted"
+    },
+    {
+      "array_path": "palaces.gen_8.inauspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "palace": "8",
+      "polarity": "inauspicious",
+      "raw_pattern": "Ding Wonder Entering Tomb"
+    },
+    {
+      "array_path": "palaces.gen_8.inauspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 1,
+      "palace": "8",
+      "polarity": "inauspicious",
+      "raw_pattern": "Door Oppressing Palace"
+    },
+    {
+      "array_path": "palaces.li_9.inauspicious_patterns",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "palace": "9",
+      "polarity": "inauspicious",
+      "raw_pattern": "Palace Oppressing Door"
+    }
+  ],
+  "ingested_at": "2026-09-15T19:59:17Z",
+  "markers": [
+    {
+      "array_path": "palaces.kun_2.special_markers",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "marker_type": "void",
+      "palace": "2",
+      "raw_marker": "Void",
+      "related_stems": []
+    },
+    {
+      "array_path": "palaces.kun_2.special_markers",
+      "evidence_class": "EXPLICIT",
+      "index": 1,
+      "marker_type": "tomb",
+      "palace": "2",
+      "raw_marker": "Tomb (Gui)",
+      "related_stems": [
+        "Gui"
+      ]
+    },
+    {
+      "array_path": "palaces.zhen_3.special_markers",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "marker_type": "void",
+      "palace": "3",
+      "raw_marker": "Void",
+      "related_stems": []
+    },
+    {
+      "array_path": "palaces.xun_4.special_markers",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "marker_type": "horse",
+      "palace": "4",
+      "raw_marker": "Horse",
+      "related_stems": []
+    },
+    {
+      "array_path": "palaces.xun_4.special_markers",
+      "evidence_class": "EXPLICIT",
+      "index": 1,
+      "marker_type": "tomb_and_punishment",
+      "palace": "4",
+      "raw_marker": "Tomb & Punishment (Ren)",
+      "related_stems": [
+        "Ren"
+      ]
+    },
+    {
+      "array_path": "palaces.qian_6.special_markers",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "marker_type": "tomb",
+      "palace": "6",
+      "raw_marker": "Tomb (Wu)",
+      "related_stems": [
+        "Wu"
+      ]
+    },
+    {
+      "array_path": "palaces.gen_8.special_markers",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "marker_type": "void",
+      "palace": "8",
+      "raw_marker": "Void",
+      "related_stems": []
+    },
+    {
+      "array_path": "palaces.gen_8.special_markers",
+      "evidence_class": "EXPLICIT",
+      "index": 1,
+      "marker_type": "tomb",
+      "palace": "8",
+      "raw_marker": "Tomb (Ding)",
+      "related_stems": [
+        "Ding"
+      ]
+    },
+    {
+      "array_path": "palaces.gen_8.special_markers",
+      "evidence_class": "EXPLICIT",
+      "index": 2,
+      "marker_type": "oppression",
+      "palace": "8",
+      "raw_marker": "Oppression",
+      "related_stems": []
+    },
+    {
+      "array_path": "palaces.li_9.special_markers",
+      "evidence_class": "EXPLICIT",
+      "index": 0,
+      "marker_type": "void",
+      "palace": "9",
+      "raw_marker": "Void",
+      "related_stems": []
+    }
+  ],
+  "priority": "explicit_before_computed"
+}

@@ -1,0 +1,63 @@
+{
+  "chief_deity_palace": {
+    "matches_duty_star_palace": true,
+    "note": "Chief deity seat cross-validates zhi_fu landing",
+    "palaces": [
+      "3"
+    ]
+  },
+  "fu_tou": {
+    "binds_stems": [
+      "Jia",
+      "Ren"
+    ],
+    "confidence": 1.0,
+    "hidden_jia_relationship": "Jia concealed under yi stem",
+    "parsed": true,
+    "raw_value": "Jia Chen Ren",
+    "xun_leader": "Jia Chen",
+    "yi_stem": "Ren",
+    "yi_stem_matches_frozen_table": true
+  },
+  "lead_stem": {
+    "binds": [
+      "Jia",
+      "Ren"
+    ],
+    "note": "Jia invisible on plate by construction (Dun Jia); Ren is its visible stand-in",
+    "visible_proxy": "Ren"
+  },
+  "tian_yi": {
+    "canonical": "Tian Chong",
+    "evidence_class": "EXPLICIT",
+    "raw_value": "Tian Chong"
+  },
+  "zhi_fu": {
+    "active_palace": "3",
+    "cross_check_in_palace_star_field": {
+      "contains_duty_star": true,
+      "path": "palaces.zhen_3.star",
+      "value": "Heaven Rui & Heaven Qin"
+    },
+    "evidence_class": "EXPLICIT(string)+COMPUTED(parse)",
+    "home_palace": "2",
+    "palace_flags": [],
+    "raw_value": "Tian Rui falling in Zhen 3 Palace",
+    "star": "Tian Rui",
+    "star_canonical": "Tian Rui"
+  },
+  "zhi_shi": {
+    "active_palace": "4",
+    "cross_check_door_field": {
+      "matches": true,
+      "path": "palaces.xun_4.door",
+      "value": "Death"
+    },
+    "door": "Death",
+    "evidence_class": "EXPLICIT(string)+COMPUTED(parse)",
+    "original_ne_active": true,
+    "original_palace": "2",
+    "palace_flags": [],
+    "raw_value": "Death Door falling in Xun 4 Palace"
+  }
+}

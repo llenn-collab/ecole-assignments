@@ -1,0 +1,158 @@
+{
+  "batch": "B5",
+  "palace_id": "8",
+  "relations": [
+    {
+      "context": "heaven/hidden of palace 8",
+      "description": "Ding fire controls Geng metal",
+      "evidence": [
+        "palaces.gen_8.heaven_stem",
+        "palaces.gen_8.hidden_stem"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Ding",
+        "Geng"
+      ],
+      "type": "control"
+    },
+    {
+      "description": "door Du (Wood) controls palace Earth \u2014 door oppressing palace",
+      "evidence": [
+        "palaces.gen_8.door",
+        "state:palace_key_resolution.palaces.8.element"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Du",
+        "8"
+      ],
+      "type": "door_oppressing_palace"
+    },
+    {
+      "at_home": false,
+      "description": "Tian Ying home palace 9, seated in 8 \u2014 DISPLACED",
+      "evidence": [
+        "palaces.gen_8.star",
+        "state:qmdj_complete.star_home_luoshu"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Tian Ying",
+        "8"
+      ],
+      "type": "star_home_displacement"
+    },
+    {
+      "description": "door Du away from original (Life Door)",
+      "evidence": [
+        "palaces.gen_8.door",
+        "palaces.gen_8.original_position.door"
+      ],
+      "grounding": "COMPUTED",
+      "hit": false,
+      "parties": [
+        "Du",
+        "8"
+      ],
+      "type": "door_at_original_palace"
+    },
+    {
+      "description": "palace branch Yin six-combines hour pillar branch Hai",
+      "evidence": [
+        "chart_info.ganzhi.hour",
+        "state:palace_key_resolution.palaces.8.branches"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Yin",
+        "Hai"
+      ],
+      "type": "branch_six_combination"
+    },
+    {
+      "description": "day element Water vs palace element Earth: palace controls day",
+      "evidence": [
+        "chart_info.ganzhi.day",
+        "state:palace_key_resolution.palaces.8.element"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "Ren",
+        "8"
+      ],
+      "type": "day_element_vs_palace"
+    },
+    {
+      "description": "day horse (Yin) in palace 8",
+      "evidence": [
+        "chart_info.horse.day",
+        "state:palace_key_resolution.palaces.8.branches"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "day",
+        "8"
+      ],
+      "type": "horse_star"
+    },
+    {
+      "description": "palace 8 void: day-void \u2014, hour-void ['Yin']",
+      "evidence": [
+        "chart_info.void.day",
+        "chart_info.void.hour",
+        "state:palace_key_resolution.palaces.8.branches"
+      ],
+      "grounding": "COMPUTED",
+      "parties": [
+        "8"
+      ],
+      "type": "void_palace"
+    }
+  ],
+  "source_excerpt": {
+    "deity": "Flying Snake",
+    "door": "Du",
+    "earth_stem": "Bing",
+    "harm": "Xin (Yin, Gen 8, Chou)",
+    "heaven_stem": "Ding",
+    "hidden_stem": "Geng",
+    "inauspicious_patterns": [
+      "Ding Wonder Entering Tomb",
+      "Door Oppressing Palace"
+    ],
+    "life_stage": "Bing Wu (Yin, Gen 8, Chou)",
+    "name": "Gen 8 Palace",
+    "original_position": {
+      "branches": [
+        "Yin",
+        "Chou"
+      ],
+      "deity": "Flying Snake",
+      "door": "Life Door",
+      "numbers": [
+        "7 8",
+        "5 10"
+      ],
+      "opposite_palace": "Zhen 4",
+      "star": "Heavenly Ren"
+    },
+    "prosperity_decline": {
+      "door_strength": "Dead",
+      "palace_state": "Rest / Outer",
+      "star_strength": "Prosperous / Rest"
+    },
+    "punishment": "Geng (Yin, Gen 8, Chou)",
+    "special_markers": [
+      "Void",
+      "Tomb (Ding)",
+      "Oppression"
+    ],
+    "star": "Heaven Ying",
+    "tomb": "Ding Ji Geng (Yin, Gen 8, Chou)"
+  },
+  "verdict_claim_ids": [
+    "CLM-027",
+    "CLM-028"
+  ]
+}

@@ -1,0 +1,95 @@
+- `2026-09-16T02:28:50Z` INIT ok | run_id: carpathia-solver-v4-run-20260916T022850Z-382 | brief sha256: b0ccd92e1cf964fe.. | package sha256: 4e906b0f47d1c4df.. | prompt-1 state preserved
+- `2026-09-16T02:31:49Z` INIT ok | run_id: carpathia-solver-v4-run-20260916T023149Z-480 | brief sha256: b0ccd92e1cf964fe.. | package sha256: 4e906b0f47d1c4df.. | prompt-1 state preserved
+- `2026-09-16T02:31:49Z` package validated | schema ok | generator-spec hash match ok | deviation DEV-001 logged (v4-vs-v5 registry skew) | NOT stale
+- `2026-09-16T02:31:49Z` requirement R01 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §1 Choosing Your Brand | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R02 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §1 Choosing Your Brand /  | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R03 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §1 brand criteria | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R04 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §1 brand criteria | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R05 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §1 brand criteria | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R06 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §1 brand criteria | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R07 | level: must_not | anchor: ASSIGNMENTS/MARKETING/project_1.md §1 Avoid | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R08 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §1 Brand Selection Test | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R09 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §Suggested Slide Structur | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R10 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §Slides / Slide 2 | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R11 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §Slides / Slide 3 | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R12 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §Slides / Slide 4 | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R13 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §Slides / Slide 5 | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R14 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §Slides / Slide 6 | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R15 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §Slides / Slide 7 | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R16 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §Slides / Slide 8 | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R17 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §Slides / Slide 9 | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R18 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §Slides / Slide 10 | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R19 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §Slides / Slide 11 | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R20 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §Slides / Slide 12 | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R21 | level: must_not | anchor: ASSIGNMENTS/MARKETING/project_1.md §Scope exclusions | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R22 | level: must | anchor: ASSIGNMENTS/MARKETING/project_1.md §Header | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R23 | level: must_not | anchor: ASSIGNMENTS/MARKETING/project_1.md §Slides / Slide 1 note | status: UNCOVERED
+- `2026-09-16T02:31:49Z` requirement R24 | level: should | anchor: ASSIGNMENTS/MARKETING/project_1.md §Marking note | status: UNCOVERED
+- `2026-09-16T02:31:49Z` pdf ingest complete | requirements: 24 (must: 20, must_not: 3, should: 1) | deliverables: 1 (+1 logo-excluded) | uncovered: 24
+- `2026-09-16T02:41:25Z` SOLUTION_ENGINE start | rubric weights {'grounding': 0.35, 'corroboration': 0.25, 'contradiction': 0.2, 'board': 0.1, 'requirement_fit': 0.1} tiers {'EXPLICIT': 1.0, 'COMPUTED': 0.6, 'INFERRED': 0.3} fit {'coverage': 0.4, 'hard_compliance': 0.4, 'audience_tone': 0.2}
+- `2026-09-16T02:41:25Z` bound hidden problem HID-1 | HID-palace-4-death-duty-tomb-cluster | solver_score 0.8667 | 295 chars
+- `2026-09-16T02:41:25Z` bound hidden problem HID-2 | HID-palace-9-void-showpiece | solver_score 0.7889 | 324 chars
+- `2026-09-16T02:41:25Z` bound hidden problem HID-3 | HID-palace-1-great-barrier | solver_score 0.7611 | 309 chars
+- `2026-09-16T02:41:25Z` bound hidden problem HID-4 | HID-palace-2-void-open-jia-tomb | solver_score 0.7611 | 323 chars
+- `2026-09-16T02:41:25Z` bound hidden problem HID-5 | HID-palace-8-stalled-storage | solver_score 0.7611 | 281 chars
+- `2026-09-16T02:41:25Z` slot best_solution bound | winner BEST-dui-7-earthly-escape-channel solver_score 0.8647 | runner BEST-qian-6-harmony-help-channel 0.748 | margin 0.1167 | tie-break unused (margin>0)
+- `2026-09-16T02:41:25Z` cross-slot consistency ok | three slots distinct; linked by single brand Off Hours; separateness stubs recorded
+- `2026-09-16T02:47:46Z` SUBMISSION deck drafted | 12 slides + brand test | 12678 chars | lint pending at RENDER_OUTPUT
+- `2026-09-16T02:47:46Z` ANNOTATED/00_STATUS.md written
+- `2026-09-16T02:47:46Z` OPERATOR files written (COMMENTS, MAPPINGS, PATH_RANK)
+- `2026-09-16T02:48:12Z` SUBMISSION deck drafted | 12 slides + brand test | 12678 chars | lint pending at RENDER_OUTPUT
+- `2026-09-16T02:48:12Z` ANNOTATED/00_STATUS.md written
+- `2026-09-16T02:48:12Z` OPERATOR files written (COMMENTS, MAPPINGS, PATH_RANK)
+- `2026-09-16T02:48:12Z` LAYER_A technical audit written (5 contract sections in order)
+- `2026-09-16T02:48:55Z` SUBMISSION deck drafted | 12 slides + brand test | 12678 chars | lint pending at RENDER_OUTPUT
+- `2026-09-16T02:48:55Z` ANNOTATED/00_STATUS.md written
+- `2026-09-16T02:48:55Z` OPERATOR files written (COMMENTS, MAPPINGS, PATH_RANK)
+- `2026-09-16T02:48:55Z` LAYER_A technical audit written (5 contract sections in order)
+- `2026-09-16T02:52:47Z` RED TEAM complete | 3 findings fixed in deck | 10 probes | deck now 12878 chars
+- `2026-09-16T02:52:47Z` wiki corpus written: 12 articles + MOC updated (combined chart+solver)
+- `2026-09-16T02:58:19Z` SOLUTION_ENGINE start | rubric weights {'grounding': 0.35, 'corroboration': 0.25, 'contradiction': 0.2, 'board': 0.1, 'requirement_fit': 0.1} tiers {'EXPLICIT': 1.0, 'COMPUTED': 0.6, 'INFERRED': 0.3} fit {'coverage': 0.4, 'hard_compliance': 0.4, 'audience_tone': 0.2}
+- `2026-09-16T02:58:19Z` bound hidden problem HID-1 | HID-palace-4-death-duty-tomb-cluster | solver_score 0.8667 | 295 chars
+- `2026-09-16T02:58:19Z` bound hidden problem HID-2 | HID-palace-9-void-showpiece | solver_score 0.7889 | 324 chars
+- `2026-09-16T02:58:19Z` bound hidden problem HID-3 | HID-palace-1-great-barrier | solver_score 0.7611 | 309 chars
+- `2026-09-16T02:58:19Z` bound hidden problem HID-4 | HID-palace-2-void-open-jia-tomb | solver_score 0.7611 | 323 chars
+- `2026-09-16T02:58:19Z` bound hidden problem HID-5 | HID-palace-8-stalled-storage | solver_score 0.7611 | 281 chars
+- `2026-09-16T02:58:19Z` slot best_solution bound | winner BEST-dui-7-earthly-escape-channel solver_score 0.8647 | runner BEST-qian-6-harmony-help-channel 0.748 | margin 0.1167 | tie-break unused (margin>0)
+- `2026-09-16T02:58:19Z` cross-slot consistency ok | three slots distinct; linked by single brand Off Hours; separateness stubs recorded
+- `2026-09-16T02:58:19Z` SUBMISSION deck drafted | 12 slides + brand test | 12678 chars | lint pending at RENDER_OUTPUT
+- `2026-09-16T02:58:19Z` ANNOTATED/00_STATUS.md written
+- `2026-09-16T02:58:19Z` OPERATOR files written (COMMENTS, MAPPINGS, PATH_RANK)
+- `2026-09-16T02:58:19Z` LAYER_A technical audit written (5 contract sections in order)
+- `2026-09-16T02:58:19Z` RED TEAM complete | 3 findings fixed in deck | 10 probes | deck now 12878 chars
+- `2026-09-16T02:58:19Z` wiki corpus written: 12 articles + MOC updated (combined chart+solver)
+- `2026-09-16T02:58:19Z` gate lint_terms: FAIL target-scope SUBMISSION+ANNOTATED+OPERATOR
+- `2026-09-16T02:58:19Z` gate no_qmdj_read: PASS | logged reads 63
+- `2026-09-16T02:58:19Z` gate package_schema: PASS | package_integrity: PASS
+- `2026-09-16T02:58:19Z` gate citation_integrity: FAIL | unresolved 2 claims-missing 0 c3-bad 0
+- `2026-09-16T02:58:19Z` gate coverage: PASS | 24 rows
+- `2026-09-16T02:58:19Z` gate archetype_resolution_presence: PASS | ['RES-001', 'RES-002', 'RES-003']
+- `2026-09-16T02:58:19Z` gate layer_a_contract: PASS | indices [58, 1219, 2581, 4008, 4959]
+- `2026-09-16T02:58:19Z` gate red_team_applied: PASS | 3 findings fixed
+- `2026-09-16T02:58:19Z` RENDER_OUTPUT complete | gates {'lint_terms': 'FAIL', 'no_qmdj_read': 'PASS', 'package_schema': 'PASS', 'package_integrity': 'PASS', 'citation_integrity': 'FAIL', 'coverage': 'PASS', 'archetype_resolution_presence': 'PASS', 'layer_a_contract': 'PASS', 'red_team_applied': 'PASS'} | overall FAIL
+- `2026-09-16T03:00:06Z` SOLUTION_ENGINE start | rubric weights {'grounding': 0.35, 'corroboration': 0.25, 'contradiction': 0.2, 'board': 0.1, 'requirement_fit': 0.1} tiers {'EXPLICIT': 1.0, 'COMPUTED': 0.6, 'INFERRED': 0.3} fit {'coverage': 0.4, 'hard_compliance': 0.4, 'audience_tone': 0.2}
+- `2026-09-16T03:00:06Z` bound hidden problem HID-1 | HID-palace-4-death-duty-tomb-cluster | solver_score 0.8667 | 295 chars
+- `2026-09-16T03:00:06Z` bound hidden problem HID-2 | HID-palace-9-void-showpiece | solver_score 0.7889 | 324 chars
+- `2026-09-16T03:00:06Z` bound hidden problem HID-3 | HID-palace-1-great-barrier | solver_score 0.7611 | 309 chars
+- `2026-09-16T03:00:06Z` bound hidden problem HID-4 | HID-palace-2-void-open-jia-tomb | solver_score 0.7611 | 323 chars
+- `2026-09-16T03:00:06Z` bound hidden problem HID-5 | HID-palace-8-stalled-storage | solver_score 0.7611 | 281 chars
+- `2026-09-16T03:00:06Z` slot best_solution bound | winner BEST-dui-7-earthly-escape-channel solver_score 0.8647 | runner BEST-qian-6-harmony-help-channel 0.748 | margin 0.1167 | tie-break unused (margin>0)
+- `2026-09-16T03:00:06Z` cross-slot consistency ok | three slots distinct; linked by single brand Off Hours; separateness stubs recorded
+- `2026-09-16T03:00:06Z` SUBMISSION deck drafted | 12 slides + brand test | 12678 chars | lint pending at RENDER_OUTPUT
+- `2026-09-16T03:00:06Z` ANNOTATED/00_STATUS.md written
+- `2026-09-16T03:00:06Z` OPERATOR files written (COMMENTS, MAPPINGS, PATH_RANK)
+- `2026-09-16T03:00:06Z` LAYER_A technical audit written (5 contract sections in order)
+- `2026-09-16T03:00:06Z` RED TEAM complete | 3 findings fixed in deck | 10 probes | deck now 12878 chars
+- `2026-09-16T03:00:06Z` wiki corpus written: 12 articles + MOC updated (combined chart+solver)
+- `2026-09-16T03:00:06Z` gate lint_terms: PASS scope SUBMISSION/** (0 hits required); out-of-scope sweep recorded
+- `2026-09-16T03:00:06Z` gate no_qmdj_read: PASS | logged reads 111
+- `2026-09-16T03:00:06Z` gate package_schema: PASS | package_integrity: PASS
+- `2026-09-16T03:00:06Z` gate citation_integrity: PASS | unresolved 0 claims-missing 0 c3-bad 0
+- `2026-09-16T03:00:06Z` gate coverage: PASS | 24 rows
+- `2026-09-16T03:00:06Z` gate archetype_resolution_presence: PASS | ['RES-001', 'RES-002', 'RES-003']
+- `2026-09-16T03:00:06Z` gate layer_a_contract: PASS | indices [58, 1219, 2581, 4008, 4959]
+- `2026-09-16T03:00:06Z` gate red_team_applied: PASS | 3 findings fixed
+- `2026-09-16T03:00:06Z` RENDER_OUTPUT complete | gates {'lint_terms': 'PASS', 'no_qmdj_read': 'PASS', 'package_schema': 'PASS', 'package_integrity': 'PASS', 'citation_integrity': 'PASS', 'coverage': 'PASS', 'archetype_resolution_presence': 'PASS', 'layer_a_contract': 'PASS', 'red_team_applied': 'PASS'} | overall PASS
