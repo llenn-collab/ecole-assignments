@@ -1,0 +1,363 @@
+{
+  "qmdj": {
+    "metadata": {
+      "calendar": {
+        "lunar_year": 2026,
+        "lunar_month": 8,
+        "lunar_day": 7,
+        "hour_branch": "Pig",
+        "hour_time_range": "21:00-23:00",
+        "solar_term": {
+          "name": "White Dew",
+          "cycle": "Upper Cycle",
+          "day": 1
+        }
+      },
+      "pillars": {
+        "year": "Yang Fire Horse",
+        "month": "Yin Fire Rooster",
+        "day": "Yang Wood Horse",
+        "hour": "Yin Wood Pig"
+      },
+      "element_energies": {
+        "metal": "Prosperous",
+        "water": "Strengthening",
+        "earth": "Resting",
+        "fire": "Imprisoned",
+        "wood": "Dead"
+      },
+      "void_emptiness": {
+        "year": ["Tiger", "Rabbit"],
+        "month": ["Dragon", "Snake"],
+        "day": ["Dragon", "Snake"],
+        "hour": ["Monkey", "Rooster"]
+      },
+      "traveling_horse": {
+        "year": "Monkey",
+        "month": "Pig",
+        "day": "Monkey",
+        "hour": "Snake"
+      },
+      "structure": {
+        "type": "Yin Escaping",
+        "number": 9,
+        "leader_head": "Yang Wood Dog / Yin Earth"
+      },
+      "chief": {
+        "star": "Responsibility Star",
+        "palace": "Kan 1 (North)"
+      },
+      "envoy": {
+        "door": "Life Door",
+        "palace": "Dui 7 (West)"
+      },
+      "tian_yi": {
+        "star": "Wagtail Star"
+      },
+      "stem_palace_rules": {
+        "birth": {
+          "Xun 4 (Southeast)": ["Yang Metal"],
+          "Li 9 (South)": ["Yin Wood"],
+          "Kun 2 (Southwest)": ["Yang Water"],
+          "Zhen 3 (East)": ["Yin Water"],
+          "Dui 7 (West)": ["Yin Fire", "Yin Earth"],
+          "Gen 8 (Northeast)": ["Yang Fire", "Yang Earth"],
+          "Kan 1 (North)": ["Yin Metal"]
+        },
+        "punishment": {
+          "Xun 4 (Southeast)": ["Yang Water", "Yin Water"],
+          "Li 9 (South)": ["Yin Metal"],
+          "Kun 2 (Southwest)": ["Yin Earth"],
+          "Zhen 3 (East)": ["Yang Earth"],
+          "Gen 8 (Northeast)": ["Yang Metal"]
+        },
+        "tomb": {
+          "Xun 4 (Southeast)": ["Yin Metal", "Yang Water"],
+          "Kun 2 (Southwest)": ["Yang Wood", "Yin Water"],
+          "Gen 8 (Northeast)": ["Yin Fire", "Yin Earth", "Yang Metal"],
+          "Qian 6 (Northwest)": ["Yin Wood", "Yang Fire", "Yang Earth"]
+        },
+        "harm": {
+          "Xun 4 (Southeast)": ["Yin Water"],
+          "Kun 2 (Southwest)": ["Yang Earth"],
+          "Zhen 3 (East)": ["Yang Water"],
+          "Dui 7 (West)": ["Yin Earth"],
+          "Gen 8 (Northeast)": ["Yin Metal"],
+          "Qian 6 (Northwest)": ["Yang Metal"]
+        }
+      }
+    },
+    "palaces": {
+      "Xun 4 (Southeast)": {
+        "heavenly_stem": "Yang Earth",
+        "hidden_stem": "Yang Metal",
+        "earth_stem": "Yin Water",
+        "star": "Glowing Star",
+        "door": "Fright Door",
+        "deity": "Dark Warrior",
+        "door_strength": "Prosperous",
+        "star_strength": {
+          "season": "Obsolete",
+          "palace": "Resting"
+        },
+        "palace_state": "Dead",
+        "plate_location": "Outer",
+        "base_position": {
+          "trigram": "Dui 2",
+          "deity": "Six Harmonies",
+          "door": "Blockade Door",
+          "star": "Assistant Star",
+          "earthly_branches": ["Dragon", "Snake"],
+          "numbers": [[5, 4], [3, 8]]
+        },
+        "active_stem_states": {
+          "birth": ["Yang Metal (Hidden Stem)"],
+          "punishment": ["Yin Water (Earth Stem)"],
+          "harm": ["Yin Water (Earth Stem)"]
+        },
+        "auspicious_patterns": ["Marvel and Instrument Combine"],
+        "inauspicious_patterns": ["Door Oppresses Palace"]
+      },
+      "Li 9 (South)": {
+        "heavenly_stem": "Yang Fire",
+        "hidden_stem": "Yin Metal",
+        "earth_stem": "Yang Earth",
+        "star": "Grain Star (Auspicious)",
+        "door": "Open Door",
+        "deity": "White Tiger",
+        "door_strength": "Prosperous",
+        "star_strength": {
+          "season": "Obsolete",
+          "palace": "Prosperous"
+        },
+        "palace_state": "Imprisoned",
+        "plate_location": "Inner",
+        "base_position": {
+          "trigram": "Qian 1",
+          "deity": "Hook / White Tiger",
+          "door": "Scenery Door",
+          "star": "Glowing Star",
+          "earthly_branches": ["Horse"],
+          "numbers": [[3, 9], [2, 7]]
+        },
+        "active_stem_states": {
+          "punishment": ["Yin Metal (Hidden Stem)"]
+        },
+        "auspicious_patterns": [
+          "Flying Bird Falls into Cave",
+          "Three Marvels Ascend to Hall"
+        ],
+        "inauspicious_patterns": ["Palace Oppresses Door"]
+      },
+      "Kun 2 (Southwest)": {
+        "heavenly_stem": "Yang Metal",
+        "hidden_stem": "Yin Wood",
+        "earth_stem": "Yang Fire",
+        "star": "Pillar Star",
+        "door": "Rest Door",
+        "deity": "Six Harmonies",
+        "door_strength": "Strengthening",
+        "star_strength": {
+          "season": "Obsolete",
+          "palace": "Strengthening"
+        },
+        "palace_state": "Resting",
+        "plate_location": "Inner",
+        "base_position": {
+          "trigram": "Xun 5",
+          "deity": "Vermilion Bird / Dark Warrior",
+          "door": "Death Door",
+          "star": "Grain Star",
+          "earthly_branches": ["Goat", "Monkey"],
+          "numbers": [[8, 2], [5, 10]]
+        },
+        "active_stem_states": {
+          "birth": ["Yang Water (Center Hidden Stem)"]
+        },
+        "auspicious_patterns": [],
+        "inauspicious_patterns": [
+          "Venus Enters Mars",
+          "Marvel Pattern",
+          "Year Pattern",
+          "Palace Oppresses Door"
+        ]
+      },
+      "Zhen 3 (East)": {
+        "heavenly_stem": "Yin Water",
+        "hidden_stem": "Yang Fire",
+        "earth_stem": "Yin Fire",
+        "star": "Assistant Star",
+        "door": "Death Door",
+        "deity": "Nine Earths",
+        "door_strength": "Resting",
+        "star_strength": {
+          "season": "Strengthening",
+          "palace": "Imprisoned"
+        },
+        "palace_state": "Dead",
+        "plate_location": "Outer",
+        "base_position": {
+          "trigram": "Li 3",
+          "deity": "Great Yin",
+          "door": "Injury Door",
+          "star": "Clash Star",
+          "earthly_branches": ["Rabbit"],
+          "numbers": [[4, 3], [3, 8]]
+        },
+        "active_stem_states": {
+          "birth": ["Yin Water (Heavenly Stem)"]
+        },
+        "auspicious_patterns": ["Ghost False"],
+        "inauspicious_patterns": [
+          "Coiling Snake",
+          "Palace Oppresses Door"
+        ]
+      },
+      "Center 5": {
+        "heavenly_stem": {
+          "value": "Yang Water",
+          "lodges_in": "Li 9 (South)"
+        },
+        "hidden_stem": {
+          "value": "Yang Water",
+          "lodges_in": "Kun 2 (Southwest)"
+        },
+        "earth_stem": "Yang Water",
+        "star": {
+          "value": "Bird Star",
+          "lodges_in": "Li 9 (South)"
+        },
+        "palace_state": "Resting",
+        "base_position": {
+          "trigram": "Center 5",
+          "star": "Bird Star",
+          "numbers": [[5, 10]]
+        },
+        "active_stem_states": {}
+      },
+      "Dui 7 (West)": {
+        "heavenly_stem": "Yin Metal",
+        "hidden_stem": "Yin Earth",
+        "earth_stem": "Yang Metal",
+        "star": "Heart Star",
+        "door": "Life Door",
+        "deity": "Great Yin",
+        "door_strength": "Resting",
+        "star_strength": {
+          "season": "Strengthening",
+          "palace": "Strengthening"
+        },
+        "palace_state": "Prosperous",
+        "plate_location": "Inner",
+        "base_position": {
+          "trigram": "Kan 6",
+          "deity": "Nine Earths",
+          "door": "Fright Door",
+          "star": "Pillar Star",
+          "earthly_branches": ["Rooster"],
+          "numbers": [[2, 7], [4, 9]]
+        },
+        "active_stem_states": {
+          "birth": ["Yin Earth (Hidden Stem)"],
+          "harm": ["Yin Earth (Hidden Stem)"]
+        },
+        "auspicious_patterns": ["Door Generates Palace"],
+        "inauspicious_patterns": []
+      },
+      "Gen 8 (Northeast)": {
+        "heavenly_stem": "Yin Fire",
+        "hidden_stem": "Yang Earth",
+        "earth_stem": "Yin Earth",
+        "star": "Clash Star",
+        "door": "Scenery Door",
+        "deity": "Nine Heavens",
+        "door_strength": "Imprisoned",
+        "star_strength": {
+          "season": "Resting",
+          "palace": "Imprisoned"
+        },
+        "palace_state": "Resting",
+        "plate_location": "Outer",
+        "base_position": {
+          "trigram": "Zhen 4",
+          "deity": "Coiling Snake",
+          "door": "Life Door",
+          "star": "Responsibility Star",
+          "earthly_branches": ["Ox", "Tiger"],
+          "numbers": [[7, 8], [5, 10]]
+        },
+        "active_stem_states": {
+          "birth": ["Yang Earth (Hidden Stem)"],
+          "tomb": [
+            "Yin Fire (Heavenly Stem)",
+            "Yin Earth (Earth Stem)"
+          ]
+        },
+        "auspicious_patterns": [
+          "Door Generates Palace",
+          "Heaven False"
+        ],
+        "inauspicious_patterns": ["Yin Fire Marvel Enters Tomb"]
+      },
+      "Kan 1 (North)": {
+        "heavenly_stem": "Yin Earth",
+        "hidden_stem": "Yin Water",
+        "earth_stem": "Yin Wood",
+        "star": "Responsibility Star",
+        "door": "Blockade Door",
+        "deity": "Chief (Value Symbol)",
+        "door_strength": "Dead",
+        "star_strength": {
+          "season": "Resting",
+          "palace": "Prosperous"
+        },
+        "palace_state": "Strengthening",
+        "plate_location": "Outer",
+        "base_position": {
+          "trigram": "Kun 8",
+          "deity": "Chief (Value Symbol)",
+          "door": "Rest Door",
+          "star": "Wagtail Star",
+          "earthly_branches": ["Rat"],
+          "numbers": [[6, 1], [1, 6]]
+        },
+        "active_stem_states": {},
+        "auspicious_patterns": ["Palace Generates Door"],
+        "inauspicious_patterns": []
+      },
+      "Qian 6 (Northwest)": {
+        "heavenly_stem": "Yin Wood",
+        "hidden_stem": "Yin Fire",
+        "earth_stem": "Yin Metal",
+        "star": "Wagtail Star",
+        "door": "Injury Door",
+        "deity": "Coiling Snake",
+        "door_strength": "Dead",
+        "star_strength": {
+          "season": "Obsolete",
+          "palace": "Obsolete"
+        },
+        "palace_state": "Prosperous",
+        "plate_location": "Inner",
+        "base_position": {
+          "trigram": "Gen 7",
+          "deity": "Nine Heavens",
+          "door": "Open Door",
+          "star": "Heart Star",
+          "earthly_branches": ["Dog", "Pig"],
+          "numbers": [[1, 6], [4, 9]]
+        },
+        "active_stem_states": {
+          "tomb": ["Yin Wood (Heavenly Stem)"]
+        },
+        "auspicious_patterns": [],
+        "inauspicious_patterns": [
+          "Azure Dragon Flees",
+          "Yin Wood Marvel Enters Tomb",
+          "Palace Oppresses Door",
+          "Three Marvels Restricted"
+        ]
+      }
+    }
+  }
+}
