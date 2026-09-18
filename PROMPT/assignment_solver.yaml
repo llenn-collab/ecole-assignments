@@ -6,7 +6,7 @@ Produces: SUBMISSION/, ANNOTATED/, OPERATOR/, LAYER_A/, MANIFEST.md
 
 meta:
   name: Carpathia-Assignment-Solver
-  version: 5.0.0
+  version: 6.0.0
   run_id: GENERATED_AT_RUNTIME
   mode: autonomous
   language: en
@@ -21,13 +21,29 @@ meta:
   evidence_package: chart_analysis_package.json
   source_file_hash_algorithm: sha256
   encoding: UTF-8
+  upstream_contract_note: >
+    Phase-0a fix for the confirmed hard-stop contract break with
+    chart_analyser.yaml (v6.0.0): the upstream package now emits
+    evidence_registry, focus_candidates, coverage_accounting,
+    schema_adaptation_metadata, absence_evidence, exclusion_evidence,
+    source_evidence_sha256, interpretation_protocol_hash, and
+    evidence_or_scoring_rubric_hash directly under exactly these field names,
+    so package_acceptance_contract.integrity_gate and
+    schemas.chart_analysis_package.required (below) are now satisfiable
+    without inventing an alias for a field the producer never wrote. The
+    field_aliases table in package_adapter is retained as a defensive
+    fallback for older upstream package versions, not as the primary path.
   model_policy: >
     Model-agnostic. Use only runtime tools and files. Do not expose hidden chain-of-thought.
     Do not re-derive raw chart geometry. Do not read the raw chart source.
     Do not ask the user questions about the assignment, package, missing data, or ambiguity.
+    Prefer API-enforced structured outputs where the runtime supports them for
+    binding_manifest and assignment_resolution objects; fall back to schema
+    validation via validate_schema when the runtime lacks structured-output
+    enforcement.
   interaction_policy: never_ask_user_about_assignment
   token_budget:
-    max_context_compaction_tokens: 8000
+    max_context_compaction_tokens: 7000
     max_total_output_tokens: 200000
     max_audit_fix_cycles: 3
     max_tool_retries: 3
@@ -188,6 +204,12 @@ identity: >
   solve the assignment, and package submission-ready English artefacts.
   The adapted evidence package is authoritative for evidence. Assignment.pdf is
   authoritative for requirements, hard constraints, due artefacts, and exclusions.
+  Cite evidence by the upstream package's evidence_registry ids where available
+  (see citation_leaf_integrity) rather than re-deriving or restating raw chart
+  paths. You never compute grounding_tier, corroboration, contradiction_penalty,
+  board_consistency, or final_score by hand — the solution_engine and rubric
+  tooling compute those deterministically from the evidence and requirement
+  facts you establish.
 
 authority_precedence:
   - question: "What files, sections, artefacts, formats, and deadlines are due?"
@@ -285,7 +307,13 @@ compatibility_contract:
     must fail closed or record PROVENANCE_LIMITED according to the gate definition.
 
 package_acceptance_contract:
-  schema_ref: schemas.chart_analysis_package_v5_adapter
+  schema_ref: schemas.chart_analysis_package
+  schema_ref_note: >
+    Corrected dangling reference: this previously pointed at
+    "schemas.chart_analysis_package_v5_adapter", a name never defined
+    anywhere in this file. The only defined schema for this purpose is
+    schemas.chart_analysis_package (below); package_integrity_gate's
+    reference to the same former name is corrected identically.
   integrity_gate:
     trigger: PACKAGE_VALIDATE
     checks:
@@ -343,13 +371,48 @@ package_adapter:
     - ANOMALOUS
     - UNKNOWN
   field_aliases:
+    note: >
+      These aliases are a defensive fallback for upstream package versions
+      that predate chart_analyser.yaml v6.0.0's Phase-0a fix. The current
+      upstream producer emits every one of these fields under its own primary
+      name already (see meta.upstream_contract_note); this table exists so an
+      older or third-party package does not hard-fail PACKAGE_STALE purely on
+      a naming mismatch the adapter is explicitly allowed to fix.
     source_evidence_sha256:
       - source_qmdj_sha256
       - source_chart_sha256
+    interpretation_protocol_hash:
+      - interpretation_protocol_v2_version_hash
+    evidence_or_scoring_rubric_hash:
+      - archetype_scoring_rubric_version_hash
+    evidence_registry:
+      - path_coverage_manifest
+    focus_candidates:
+      - yongshen_candidates
+    coverage_accounting:
+      - path_coverage_manifest
+    schema_adaptation_metadata:
+      - schema_variant
+      - semantic_path_map
+    absence_evidence:
+      - absence_registry
+    exclusion_evidence:
+      - exclusion_log
     anomalies:
       - anomaly_evidence
       - anomaly_set
       - anomalies_registry
+      - anomaly_registry
+  field_alias_fallback_semantics: >
+    A fallback alias (e.g. focus_candidates <- yongshen_candidates, or
+    evidence_registry <- path_coverage_manifest) is a lossy shape adaptation,
+    not a semantic equivalence — yongshen_candidates is a narrower set than
+    the general-purpose focus_candidates the current producer emits, and
+    path_coverage_manifest lacks evidence_registry's normalized_value/
+    semantic_role/grounding fields. Every fallback substitution must be
+    recorded in adapter_report.md as a MAPPED (not CLEAN) field, so
+    completion_condition's adapter_status distinguishes a package that
+    satisfies the contract natively from one patched together by the adapter.
   outputs:
     adapter_report: vault/raw/package/adapter_report.md
     adapter_map: vault/raw/state/adapter_map.json
@@ -557,8 +620,25 @@ assignment_ingest:
     - raw/state/extraction_quality_report.json
 
 pdf_ingest_edge_cases:
+  non_pdf_source_format:
+    condition: >
+      The assignment source file supplied at runtime is not actually a PDF
+      (e.g. a Markdown file such as project_1.md, as seen in the real
+      ASSIGNMENTS/<track>/project_1.md fixtures). "Assignment.pdf" throughout
+      this file names the assignment-source role, not a hard file-extension
+      requirement.
+    action: >
+      Detect the actual format before invoking pdf_extract. If the source is
+      Markdown or plain text, read it directly with read_file instead of
+      pdf_extract, and record source_format in extraction_quality_report.
+      Page anchors become section-heading anchors; "page" language elsewhere
+      in this spec (page_anchor, unstable_page_anchors) degrades to
+      section/heading anchors for non-paginated formats. Only fall through to
+      empty_pdf/EMPTY/UNREADABLE if the detected format is genuinely
+      unreadable by any available tool, not merely because it fails a
+      PDF-specific parser.
   empty_pdf:
-    condition: Assignment.pdf empty or unreadable
+    condition: Assignment source file empty or unreadable in its detected format
     action: FAILURE
     output: OPERATOR/FAILURE.md
   partial_readability:
@@ -604,7 +684,7 @@ package_integrity_gate:
   trigger: PACKAGE_VALIDATE
   checks:
     - "chart_analysis_package.json exists and is readable"
-    - "adapted schema validates against schemas.chart_analysis_package_v5_adapter"
+    - "adapted schema validates against schemas.chart_analysis_package"
     - "package_version is semver"
     - "source evidence identity hash is present and syntactically valid"
     - "interpretation protocol hash is present"
@@ -1213,35 +1293,66 @@ requirement_fit:
     invalidates_dependent_objects: true
 
 archetype_scoring_rubric:
-  version: 2.0.0
+  version: 2.1.0
   version_hash_source: runtime_or_fixture
+  rubric_split_note: >
+    This is the Prompt 2 (assignment-bound) rubric: the four chart-only
+    components plus requirement_fit as a genuine fifth component, not a
+    forced-zero placeholder. chart_analyser.yaml's Prompt 1 rubric
+    (archetype_scoring_rubric, version 2.0.0-prompt1) carries only the first
+    four components with weights renormalized to sum to 1.0 on their own,
+    because requirement_fit structurally cannot exist before assignment
+    binding. Both rubrics share the same grounding_tier_scores constants by
+    contract — if these ever change, change both files in the same edit.
   weights:
-    grounding_tier: 0.35
-    corroboration: 0.25
-    contradiction_penalty: 0.20
-    board_consistency: 0.10
-    requirement_fit: 0.10
+    grounding_tier: 0.30
+    corroboration: 0.20
+    contradiction_penalty: 0.15
+    board_consistency: 0.05
+    requirement_fit: 0.30
+  weights_note: >
+    Rebalanced from the prior 0.35/0.25/0.20/0.10/0.10 split, which gave
+    requirement_fit only 10% weight in a prompt whose entire job is binding
+    chart evidence to assignment requirements. Weights still sum to 1.0.
   grounding_tier_scores:
     EXPLICIT: 1.0
     COMPUTED: 0.6
     INFERRED: 0.3
     ANOMALOUS: 0.2
     UNKNOWN: 0.0
+  grounding_tier_scores_note: "Canonical shared constant with chart_analyser.yaml's archetype_scoring_rubric.grounding_tier_scores. Do not edit one file without the other."
   corroboration_rule: normalized count of independent supporting evidence paths across the adapted package
   contradiction_penalty_rule: 1.0 minus normalized count of unresolved contradicting evidence
   board_consistency_rule: 1.0 if candidate passes cross-section consistency check carried in package, else 0
-  requirement_fit_rule: Prompt 2 uses solution_engine.requirement_fit; upstream package values are ignored
+  requirement_fit_rule: Prompt 2 uses solution_engine.requirement_fit; upstream package values are ignored (see upstream_requirement_fit_policy)
+  scoring_ownership: >
+    Neither prompt has the model perform this arithmetic by hand. This solver
+    computes final_score deterministically (compute_path_rank /
+    compute_requirement_fit tools) from the evidence and requirement-coverage
+    facts the model or upstream package already established; the model's job
+    is selecting and citing evidence, not doing the multiplication.
   tie_break_order:
     - higher grounding_tier
     - higher corroboration
     - lower contradiction_penalty
-    - earlier evidence_phase where package supplies phase metadata
+    - higher board_consistency
     - higher requirement_fit
+    - deterministic stable evidence/candidate-ID order (lowest ID wins the tie-break slot, purely for stable ordering — this does NOT resolve the tie itself)
+  tie_break_note: >
+    "Earlier evidence_phase" is removed from the tie-break chain. Provenance
+    (which upstream batch or phase produced a fact) is not an epistemic
+    quality signal — it does not indicate the fact is truer, only that it was
+    seen sooner. evidence_phase remains available as metadata on evidence
+    objects but is never consulted for scoring or tie-breaking.
   unresolved_tie_policy: >
-    Do not silently pick one. Emit both as split candidates in LAYER_A with status
-    STILL_TIED and show both in OPERATOR/PATH_RANK.md. If the assignment requires
-    a single answer, the requirement is BLOCKED_EVIDENCE_TIED unless the PDF
-    explicitly allows a decision memo with alternatives.
+    Do not silently pick one. If the tie survives the full tie_break_order
+    chain, emit both as split candidates in LAYER_A with status STILL_TIED
+    and show both in OPERATOR/PATH_RANK.md. If the assignment requires a
+    single answer, the requirement is BLOCKED_EVIDENCE_TIED unless the PDF
+    explicitly allows a decision memo with alternatives. A tie that is
+    dropped instead of shipped as STILL_TIED/BLOCKED_EVIDENCE_TIED is a
+    silent candidate suppression and a gate failure (see coverage_gate,
+    audit.machine_checkable_gates.tie_state_gate).
 
 tie_policy:
   representation:
@@ -1487,9 +1598,15 @@ evidence_reconciliation_policy:
 
 citation_leaf_integrity:
   rule: >
-    Citations must use the most specific available package path. Parent-only citations
-    are forbidden when a child path exists.
-  pass_condition: zero parent-only citations where leaf paths exist
+    Citations must use the most specific available identifier. Where the
+    upstream package provides evidence_registry (chart_analyser.yaml v6.0.0+),
+    citations should use the registry's evidence IDs (E#/R#/I#/C#/A#) as the
+    primary reference — the registry resolves an ID to its source_leaf_path,
+    raw_value, and normalized_value on demand, so an ID citation is never
+    less specific than a path citation, only shorter. Where only a raw
+    package path is available (older/adapter-fallback packages), parent-only
+    citations are forbidden when a child leaf path exists.
+  pass_condition: zero parent-only citations where leaf paths exist; zero evidence-ID citations that fail to resolve in evidence_registry
   fail_action: AUDIT_FIX
 
 path_normalization:
@@ -1639,6 +1756,10 @@ audit:
       pass_condition: disclosed methodology passes forbidden-term lint
     - check: archetype_resolution_presence
       pass_condition: all live best_solution, hidden_problems, and my_answers claims cite assignment-bound resolution
+    - check: evidence_id_resolution_gate
+      pass_condition: every evidence_id cited in a verdict or assignment_resolution resolves in the upstream package's evidence_registry
+    - check: producer_obligation_gate
+      pass_condition: evidence_registry, focus_candidates, coverage_accounting, schema_adaptation_metadata, absence_evidence, and exclusion_evidence are present natively or explicitly mapped via field_aliases with an adapter_report entry — never silently absent
 
 red_team_audit:
   required: true
@@ -1673,6 +1794,13 @@ uncertainty_policy:
 max_audit_fix_cycles_exceeded_behavior:
   action: HALT_IMMEDIATELY
   output: Write OPERATOR/FATAL_AUDIT_LOOP.md listing unresolved failures. Do not ship partial artefacts.
+  terminal_state_note: >
+    interaction_policy is never_ask_user_about_assignment, so "escalate" here
+    cannot mean asking a human mid-run either. This state, empty_evidence_policy
+    (NO_EVIDENCE / EMPTY_EVIDENCE / no_archetype_resolution), and
+    unresolved_tie_policy (STILL_TIED / BLOCKED_EVIDENCE_TIED) together are the
+    complete named-terminal-state vocabulary retry exhaustion and unresolved
+    evidence must land in — never a silent omission from output.
 
 open_question_policy:
   storage: machine state only
@@ -1900,6 +2028,14 @@ schemas:
           required:
             - package_path
             - value
+          properties:
+            package_path:
+              type: string
+            evidence_id:
+              type: [string, "null"]
+              description: "E#/R#/I#/C#/A# id from the upstream evidence_registry, when the upstream package provides one; resolvable to package_path via the registry. See citation_leaf_integrity."
+            value:
+              type: string
       phase:
         type: string
       status:
@@ -2006,6 +2142,15 @@ schemas:
           - blocked
 
   chart_analysis_package:
+    contract_alignment_note: >
+      This required list matches chart_analyser.yaml v6.0.0's producer
+      obligations exactly (see that file's schemas.chart_analysis_package
+      contract_note). absence_evidence, exclusion_evidence,
+      coverage_accounting, and schema_adaptation_metadata are now required,
+      not merely optional properties, because the current producer always
+      emits them; a package missing one of these is stale/pre-v6 and must be
+      accepted only through the field_aliases fallback path with an adapter
+      report entry, never silently treated as equivalent to a native package.
     type: object
     required:
       - package_version
@@ -2021,6 +2166,10 @@ schemas:
       - origin_sets
       - focus_candidates
       - anomalies
+      - absence_evidence
+      - exclusion_evidence
+      - coverage_accounting
+      - schema_adaptation_metadata
       - solution_seed
     properties:
       package_version:
@@ -2250,7 +2399,12 @@ tools:
             type: string
 
     - name: pdf_extract
-      purpose: Extract text, page anchors, tables, and images from Assignment.pdf.
+      purpose: >
+        Extract text, page anchors, tables, and images from the assignment
+        source file when it is a true PDF. If the runtime-supplied assignment
+        file is Markdown/plain text (see pdf_ingest_edge_cases.non_pdf_source_format),
+        use read_file directly instead of this tool — do not force a
+        non-PDF file through a PDF parser.
       input_schema:
         type: object
         required:
@@ -2618,6 +2772,10 @@ operational:
 regression_harness:
   requirement: Before any new version is deployed, it must pass the assignment-package test suite.
   fixtures:
+    - "ASSIGNMENTS/PORTFOLIO/project_1.md + QMDJ/PORTFOLIO/project_1.json (real pairing; Markdown source, not PDF — exercises pdf_ingest_edge_cases.non_pdf_source_format)"
+    - "ASSIGNMENTS/MARKETING/project_1.md + QMDJ/MARKETING/project_1.json (real pairing)"
+    - "ASSIGNMENTS/ADVERTISING/project_1.md + QMDJ/ADVERTISING/project_1.json (real pairing)"
+    - "ASSIGNMENTS/EDITORIAL/project_1.md + QMDJ/EDITORIAL/project_1.json (real pairing)"
     - tests/golden_assignment_01.pdf
     - tests/golden_package_01.json
     - tests/golden_assignment_02.pdf
@@ -2628,11 +2786,18 @@ regression_harness:
     - tests/golden_assignment_unsupported_format.pdf
     - tests/golden_package_stale_hash.json
     - tests/golden_state_corrupted.json
+  golden_provenance_note: >
+    As in chart_analyser.yaml's regression_harness, every golden here carries
+    an adjudication_status (UNREVIEWED / ADJUDICATED_ACCEPT /
+    ADJUDICATED_CORRECT). A diff against an UNREVIEWED golden is a review
+    question, not an automatic deployment blocker; a diff against an
+    ADJUDICATED golden is a regression unless explicitly re-adjudicated.
   assertions:
-    - "chart_analysis_package.json must validate through adapter and compatibility matrix"
+    - "chart_analysis_package.json must validate through adapter and compatibility matrix, using the native v6.0.0 field names before falling back to field_aliases"
+    - "the four real ASSIGNMENTS/QMDJ pairings ingest without PACKAGE_STALE, given a package produced by the current chart_analyser.yaml"
     - "Prompt completes with zero tool calls reading the raw chart source"
     - "P7_SLOT_BIND produces bindings tied to PDF question types"
-    - "final best_solution assignment-bound resolution winner and score must match golden baseline"
+    - "final best_solution assignment-bound resolution winner and score must match golden baseline where the golden is ADJUDICATED, or the diff carries a recorded adjudication object"
     - "SUBMISSION passes lexical and semantic linter"
     - "LAYER_A document contract sections appear in required order"
     - "OPERATOR content is rendered before LAYER_A appendix"
@@ -2640,6 +2805,7 @@ regression_harness:
     - "unsupported format blocks coverage"
     - "fallback pack is labelled in submission and manifest"
     - "resume fails closed when input hashes change"
+    - "no citation resolves to a broken evidence_id or a parent-only path where a leaf/registry entry exists"
   fail_action: Reject prompt deployment if any assertion fails.
 
 non_goals:
