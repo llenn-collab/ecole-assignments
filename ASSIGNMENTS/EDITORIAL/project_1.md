@@ -27,3 +27,9 @@ you cant choose topics that are chosen by someone else, before you. first come, 
 ### My Ideas [somewhat discussed with the mentor]: 
 - "Acceleration at its finest."; how NASA, from 1958 to 1969 went from having a person walk on the earth to be able to stand on the moon, in just within 11 years. Along with being the apex in the field, in which they had a late start.
 - "For the People, of the Future"; [this one was not much refined] the extreme volatile vision of NASA, changing/upgrading over the years. it basically is/was for the people of the future, on how humanity would be able to sustain beyond earth, or life beyond earth.
+
+### Class Timeline [till now]
+
+- choose a topic
+- organise larger content buckets
+- finalise content structure
