@@ -1,0 +1,530 @@
+{
+  "verdict": "PASS",
+  "audited_at_utc": "2026-09-18T01:20:00+00:00",
+  "pass": 2,
+  "schema_extension": "source_type EXTERNAL added; the skill enum (PDF|QMDJ|NONE) has no value for verified third-party research, which AGENT.md §13 explicitly provides for.",
+  "counts": {
+    "claims": 42,
+    "core": 28,
+    "at_1.0": 13,
+    "at_0.8": 24,
+    "at_0.5": 5,
+    "at_0.0": 0,
+    "core_below_0.8_without_warning": 0
+  },
+  "claims": [
+    {
+      "claim_id": "C-01",
+      "submission_location": "§1 format table; §4 pages column",
+      "claim_text": "72 pages satisfies the brief's minimum of 60",
+      "source_type": "PDF",
+      "source_anchor": "ASSIGNMENTS/EDITORIAL/project_1.md L5-L6 '60 page book design'; 'the page count can over 60, if needed; but 60 is the minimum'",
+      "confidence": 1.0,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "Machine-checked: pages column parses to a contiguous 1..72 with no gap or overlap."
+    },
+    {
+      "claim_id": "C-02",
+      "submission_location": "§1 Topic; whole document",
+      "claim_text": "Topic is NASA-related",
+      "source_type": "PDF",
+      "source_anchor": "project_1.md L6 'the topic has to be related to NASA, at any cost'",
+      "confidence": 1.0,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "Subject is NASA 1958-1969 throughout; no non-NASA subject appears."
+    },
+    {
+      "claim_id": "C-03",
+      "submission_location": "§2 boundary table",
+      "claim_text": "Topic is not one of the fourteen already chosen",
+      "source_type": "PDF",
+      "source_anchor": "project_1.md L9-L23 (14 bullets)",
+      "confidence": 1.0,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "All fourteen listed and answered row by row."
+    },
+    {
+      "claim_id": "C-04",
+      "submission_location": "§2 row 'Dressed for space'; §4 row 27 pp44-45",
+      "claim_text": "The helmet gatefold does not go near 'Dressed for space'",
+      "source_type": "PDF",
+      "source_anchor": "project_1.md L15 + L25 'dont even attempt to go near the chosen topics'; template row 27 pre-seeded '**Helmet Foldout:**'",
+      "confidence": 0.5,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "PASS 2: Still INFERRED — a boundary judgement cannot score higher. Now carries an explicit residual-risk warning in §2 naming the risk, the input collision, and the mentor as decision owner, plus the note that the column-ignoring permission does not cover a pre-seeded interaction label."
+    },
+    {
+      "claim_id": "C-05",
+      "submission_location": "§2 row 'Robotics as human's first explorers'; §4 rows 19, 31, 32",
+      "claim_text": "Ranger/Surveyor/Lunar Orbiter material does not go near 'Robotics as human's first explorers'",
+      "source_type": "PDF",
+      "source_anchor": "project_1.md L20 + L25",
+      "confidence": 0.5,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "PASS 2: Still INFERRED. Now warned in §2 with the cheapest correction costed (fold pp32-33 into p34, reduce the gatefold to one panel: three pages, no loss of argument)."
+    },
+    {
+      "claim_id": "C-06",
+      "submission_location": "§2 row 'How we see Earth'; §4 row 36 p57",
+      "claim_text": "Apollo 8 page excludes Earthrise and any reflection on seeing Earth",
+      "source_type": "PDF",
+      "source_anchor": "project_1.md L12 + L25",
+      "confidence": 0.8,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "COMPUTED by inspection: row 36 states the photographs are deliberately not in the book and treats the flight as a sequence decision. Verifiable from the artefact itself."
+    },
+    {
+      "claim_id": "C-07",
+      "submission_location": "§2 row 'The myth of perfection'; §4 rows 29, 30, 46",
+      "claim_text": "Failures are treated as schedule events, not as an argument about perfection",
+      "source_type": "PDF",
+      "source_anchor": "project_1.md L17 + L25",
+      "confidence": 0.5,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "PASS 2: Still INFERRED. Now warned in §2 as the boundary most easily misread from a contents list, with the correction (move p67 forward to p49) stated."
+    },
+    {
+      "claim_id": "C-08",
+      "submission_location": "§2 row 'Nasa tech in everyday life'; §4 rows 33, 62",
+      "claim_text": "No spinoff or consumer-legacy claim appears anywhere",
+      "source_type": "PDF",
+      "source_anchor": "project_1.md L21 + L25",
+      "confidence": 0.8,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "COMPUTED by inspection plus a lexical scan for spinoff/legacy vocabulary; row 33 explicitly disclaims it."
+    },
+    {
+      "claim_id": "C-09",
+      "submission_location": "§4 table",
+      "claim_text": "Index table matches the given worksheet: 49 data rows, 5 cells per row, headings byte-identical",
+      "source_type": "PDF",
+      "source_anchor": "WORK/EDITORIAL/project_1/raw/assignment/NASA_BOOK_CONTENT_STRUCTURE_TEMPLATE.md sha a9281eca…",
+      "confidence": 1.0,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "Machine-checked against the recovered template."
+    },
+    {
+      "claim_id": "C-10",
+      "submission_location": "§4 Interactions column",
+      "claim_text": "All fifteen pre-seeded interaction labels are honoured on their exact template rows",
+      "source_type": "PDF",
+      "source_anchor": "template rows 1,2(x2),6,10,11,27,28,31,32,33,38,41,43,46,48",
+      "confidence": 1.0,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "Machine-checked: 15/15 present on the seeded row indices, labels kept verbatim."
+    },
+    {
+      "claim_id": "C-11",
+      "submission_location": "§4 Interactions column",
+      "claim_text": "Interactions column left as an em dash on the 33 rows where nothing fits",
+      "source_type": "PDF",
+      "source_anchor": "operator instruction 'you can ignore a column if nothing fit'; template column heading 'Interactions if any'",
+      "confidence": 1.0,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "Explicit operator permission plus the template's own 'if any' qualifier."
+    },
+    {
+      "claim_id": "C-12",
+      "submission_location": "§1 concept",
+      "claim_text": "Concept is the mentor-discussed idea 'Acceleration at its finest', NASA 1958-1969",
+      "source_type": "PDF",
+      "source_anchor": "project_1.md L28",
+      "confidence": 1.0,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "Brief quotes the idea; the artefact's title, deck and subject are that idea."
+    },
+    {
+      "claim_id": "C-13",
+      "submission_location": "§2 closing paragraph",
+      "claim_text": "The second mentor idea was rejected because it collides with two chosen topics",
+      "source_type": "PDF",
+      "source_anchor": "project_1.md L18, L22, L29",
+      "confidence": 0.8,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "COMPUTED: 'sustain beyond earth / life beyond earth' (L29) against 'Earth being uninhabitable' (L18) and 'extreme volatile vision … changing/upgrading over the years' (L29) against 'The evolution of what we understand about the universe through NASA' (L22)."
+    },
+    {
+      "claim_id": "C-14",
+      "submission_location": "§1.1, §1.3 rule 2, §4 rows 11/29/32/35/36/38/40/45",
+      "claim_text": "Ten stated countdown-clock readings are arithmetically correct and mutually consistent",
+      "source_type": "NONE",
+      "source_anchor": "none",
+      "confidence": 0.8,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "PASS 2: CORRECTED AND RE-VERIFIED. One target named in §1.1 (31 Dec 1969, the deadline as literally stated). All six monospace readings and both prose intervals reproduced exactly by independent date arithmetic in pass 2. Row 32 anchored to a stated narrative date. Row 45 no longer claims zero: it stops at T-0y 05m 07d, the unused margin."
+    },
+    {
+      "claim_id": "C-15",
+      "submission_location": "§4 row 12 p21-22",
+      "claim_text": "By 25 May 1961 the United States had accumulated five hours and twenty-two minutes of crewed spaceflight",
+      "source_type": "NONE",
+      "source_anchor": "none; contradicted by §4 row 9 (15 minutes 22 seconds) and §6 Apollo/Gemini sources",
+      "confidence": 0.5,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "PASS 2: CORRECTED to fifteen minutes and twenty-two seconds, now sourced in §6 (Mercury-Redstone 3) and consistent with row 9. Scored 0.5 rather than 0.8 because the claim is a derived total, not a quoted figure."
+    },
+    {
+      "claim_id": "C-16",
+      "submission_location": "§4 row 29 p47-48",
+      "claim_text": "After the Apollo 1 fire the programme had twenty-two months of deadline left",
+      "source_type": "NONE",
+      "source_anchor": "none; contradicted by sourced dates 27 Jan 1967 and 31 Dec 1969 / 20 Jul 1969",
+      "confidence": 0.8,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "PASS 2: CORRECTED to two years and eleven months; recomputed from sourced dates 27 Jan 1967 and 31 Dec 1969."
+    },
+    {
+      "claim_id": "C-17",
+      "submission_location": "§4 row 35 p56",
+      "claim_text": "Apollo 7 flew twenty-two months after the fire",
+      "source_type": "NONE",
+      "source_anchor": "none; contradicted by sourced dates 27 Jan 1967 and 11 Oct 1968",
+      "confidence": 0.8,
+      "core_strategy": false,
+      "operator_warning_present": false,
+      "rationale": "PASS 2: CORRECTED to twenty months (1 y 8 m 14 d)."
+    },
+    {
+      "claim_id": "C-18",
+      "submission_location": "§4 row 35 p56",
+      "claim_text": "At Apollo 7 the countdown read five months and nine days",
+      "source_type": "NONE",
+      "source_anchor": "none; contradicted by sourced dates",
+      "confidence": 0.8,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "PASS 2: CORRECTED to T-1y 02m 20d; recomputed."
+    },
+    {
+      "claim_id": "C-19",
+      "submission_location": "§4 row 36 p57",
+      "claim_text": "At Apollo 8 seven months of the deadline remained",
+      "source_type": "NONE",
+      "source_anchor": "none; correct only against the 20 Jul 1969 target (6 m 29 d), inconsistent with the decade target used in row 12",
+      "confidence": 0.8,
+      "core_strategy": false,
+      "operator_warning_present": false,
+      "rationale": "PASS 2: CORRECTED. Both intervals now stated and both reproduce: one year and ten days to the deadline, six months and twenty-nine days to the landing."
+    },
+    {
+      "claim_id": "C-20",
+      "submission_location": "§4 row 4 p6-7",
+      "claim_text": "Sputnik entered orbit thirteen months before NASA existed",
+      "source_type": "NONE",
+      "source_anchor": "none; contradicted by sourced dates 4 Oct 1957 and 1 Oct 1958",
+      "confidence": 0.8,
+      "core_strategy": false,
+      "operator_warning_present": false,
+      "rationale": "PASS 2: CORRECTED to just under twelve months (362 days)."
+    },
+    {
+      "claim_id": "C-21",
+      "submission_location": "§4 row 42 p63",
+      "claim_text": "The hatch opened six hours and thirty-nine minutes after touchdown",
+      "source_type": "NONE",
+      "source_anchor": "none; §6 source (spaceline.org) says 'about 6.5 hours'",
+      "confidence": 0.8,
+      "core_strategy": false,
+      "operator_warning_present": false,
+      "rationale": "PASS 2: REDUCED to the cited source's own precision: about six and a half hours."
+    },
+    {
+      "claim_id": "C-22",
+      "submission_location": "§4 row 44 p65",
+      "claim_text": "The ascent-stage engine had never been test-fired in flight with a crew aboard",
+      "source_type": "NONE",
+      "source_anchor": "none; contradicted by §4 rows 37 and 38 in the same document",
+      "confidence": 0.8,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "PASS 2: CLAUSE DELETED. The surviving text states the engine had flown with a crew twice before, which agrees with rows 37 and 38 and strengthens the page."
+    },
+    {
+      "claim_id": "C-23",
+      "submission_location": "§4 row 41 p62",
+      "claim_text": "A 26-year-old controller in Houston had seen the same alarm in simulation and called it go",
+      "source_type": "NONE",
+      "source_anchor": "none; §6 source names the guidance controller and his support without ages",
+      "confidence": 0.8,
+      "core_strategy": false,
+      "operator_warning_present": false,
+      "rationale": "PASS 2: Age deleted; attribution now matches the cited source (guidance controller, support engineer, CAPCOM relay)."
+    },
+    {
+      "claim_id": "C-24",
+      "submission_location": "§4 row 41 heading",
+      "claim_text": "The descent ran 20:04-20:17 UTC",
+      "source_type": "NONE",
+      "source_anchor": "none; contradicted by §6-sourced 101:36 GET",
+      "confidence": 1.0,
+      "core_strategy": false,
+      "operator_warning_present": false,
+      "rationale": "PASS 2: Invented UTC window deleted from the heading; only the sourced date and the sourced twelve and a half minutes remain."
+    },
+    {
+      "claim_id": "C-25",
+      "submission_location": "§4 row 6 p10-11",
+      "claim_text": "Soviet-firsts ledger: living creature in orbit Nov 1957; lunar impact Sep 1959; far-side images Oct 1959; human in orbit 12 Apr 1961; woman in orbit Jun 1963; soft lunar landing Feb 1966; spacewalk 18 Mar 1965",
+      "source_type": "NONE",
+      "source_anchor": "none - not listed in §6",
+      "confidence": 0.8,
+      "core_strategy": false,
+      "operator_warning_present": true,
+      "rationale": "PASS 2: VERIFIED this pass and promoted to §6's documented table: Sputnik 1 4 Oct 1957, Laika 3 Nov 1957, Luna 2 14 Sep 1959, Luna 3 7 Oct 1959, Vostok 1 12 Apr 1961, Vostok 6 16 Jun 1963, Voskhod 2 18 Mar 1965, Luna 9 3 Feb 1966."
+    },
+    {
+      "claim_id": "C-26",
+      "submission_location": "§4 rows 7, 8, 9",
+      "claim_text": "Mercury Seven announced 9 Apr 1959; Shepard 15 min 22 s on 5 May 1961; Gagarin 108 minutes on 12 Apr 1961",
+      "source_type": "NONE",
+      "source_anchor": "none - not listed in §6",
+      "confidence": 0.8,
+      "core_strategy": false,
+      "operator_warning_present": true,
+      "rationale": "PASS 2: Mercury Seven 9 Apr 1959 and Shepard 15 min 22 s VERIFIED and promoted to §6. Gagarin's 108 minutes NOT verified and now declared open in §6 with its page."
+    },
+    {
+      "claim_id": "C-27",
+      "submission_location": "§4 row 3 p4-5",
+      "claim_text": "NACA was founded in 1915",
+      "source_type": "EXTERNAL",
+      "source_anchor": "§6 row 1 cites the absorbing-agency figures but not the 1915 founding year",
+      "confidence": 0.8,
+      "core_strategy": false,
+      "operator_warning_present": false,
+      "rationale": "PASS 2: NACA formed 1915 VERIFIED and promoted to §6."
+    },
+    {
+      "claim_id": "C-28",
+      "submission_location": "§4 rows 21, 23",
+      "claim_text": "Gemini 3 flew 4 h 52 m; Gemini 5 flew 7 d 22 h on the first use of fuel cells",
+      "source_type": "EXTERNAL",
+      "source_anchor": "§6 Gemini row cites the flight list but not these two durations",
+      "confidence": 0.8,
+      "core_strategy": false,
+      "operator_warning_present": false,
+      "rationale": "PASS 2: Gemini 3 4 h 52 m and Gemini 5 7 d 22 h VERIFIED against an already-cited source and promoted to §6."
+    },
+    {
+      "claim_id": "C-29",
+      "submission_location": "§4 rows 31, 43, 47, 48",
+      "claim_text": "Thirty lunar orbits; last crewed Moon flight December 1972; 384,400 km; 240,000 miles; suit outer layer replaced with a non-flammable cloth",
+      "source_type": "NONE",
+      "source_anchor": "none - not listed in §6",
+      "confidence": 0.8,
+      "core_strategy": false,
+      "operator_warning_present": true,
+      "rationale": "PASS 2: Thirty lunar orbits, December 1972 and the Beta cloth replacement VERIFIED and promoted to §6. The Earth-Moon distance (384,400 km / 240,000 miles) NOT verified and declared open in §6 with both pages it appears on."
+    },
+    {
+      "claim_id": "C-30",
+      "submission_location": "§4 rows 4, 27, 47",
+      "claim_text": "Sputnik's transmitter ran twenty-one days; helmet field of view about ninety degrees; two Saturn Vs 'stand in museums'",
+      "source_type": "NONE",
+      "source_anchor": "none",
+      "confidence": 0.8,
+      "core_strategy": false,
+      "operator_warning_present": false,
+      "rationale": "PASS 2: Museum clause DELETED. Transmitter duration declared open in §6. The ninety-degree field-of-view figure was REMOVED from the text entirely and reframed as a production input to be taken from the suit specification."
+    },
+    {
+      "claim_id": "C-31",
+      "submission_location": "§1.2 pacing table",
+      "claim_text": "Sections per year: 2.8 / 3.1 / 4.8 / 4.9 / ~400",
+      "source_type": "NONE",
+      "source_anchor": "recomputed from the artefact's own part spans and section counts",
+      "confidence": 0.8,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "PASS 2: CORRECTED to 4.9 / 5.0 / 411 and reproduced independently from the artefact's own spans and section counts."
+    },
+    {
+      "claim_id": "C-32",
+      "submission_location": "§1.2 note",
+      "claim_text": "Page 4 covers forty-three years; page 62 covers twelve and a half minutes; a factor of roughly 1.8 million",
+      "source_type": "EXTERNAL",
+      "source_anchor": "NACA 1915 (§6, partial) and the 12.5-minute descent (§6 Apollo 11 row)",
+      "confidence": 0.8,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "COMPUTED and reproduced independently: 43.6 years = 22,616,280 minutes; /12.5 = 1,809,302."
+    },
+    {
+      "claim_id": "C-33",
+      "submission_location": "§3 coverage",
+      "claim_text": "Nine buckets own 49 rows one-to-one and their page column sums to 72",
+      "source_type": "NONE",
+      "source_anchor": "recomputed from the artefact",
+      "confidence": 0.8,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "COMPUTED and reproduced independently; matches §4 row for row."
+    },
+    {
+      "claim_id": "C-34",
+      "submission_location": "§1.2",
+      "claim_text": "Pages per section falls 1.90 to 1.22 while sections per year rises",
+      "source_type": "NONE",
+      "source_anchor": "recomputed",
+      "confidence": 0.8,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "COMPUTED. Direction of both series verified; the underlying cell values are the ones mis-stated in C-31."
+    },
+    {
+      "claim_id": "C-35",
+      "submission_location": "§6 documented table (12 rows)",
+      "claim_text": "Saturn V dimensions and thrust; first flight 9 Nov 1967; third Saturn V flew Apollo 8, sixth flew Apollo 11; guidance-computer memory and priority scheduling; FY1966 US$5.933B = 4.41%; Apollo US$25.4B nominal; 400,000 people and 20,000 firms; Ranger 7 4,308 images; Surveyor 1 11,240 frames; Lunar Orbiter 1,654 images at 60 m over 99%; Apollo 11 landing 20:17:43 UTC, ~4 miles long, ~20 s of propellant, 12.5-minute descent, EVA 2 h 31 m 40 s, surface stay 21 h 36 m, mission 8 d 3 h 18 m, 21.55 kg; all-up testing decision and the von Braun quotation",
+      "source_type": "EXTERNAL",
+      "source_anchor": "twelve named URLs in §6, all retrieved in-session",
+      "confidence": 0.8,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "Schema note: the skill's source_type enum has no EXTERNAL value; AGENT.md §13 provides for EXTERNAL research where the brief demands a live fact and the evidence package is silent. Scored 0.8 COMPUTED-equivalent: each figure was checked against a retrieved source in this session and the anchor is printed in the artefact. Not scored 1.0 because the sources are secondary web pages, not the raw inputs."
+    },
+    {
+      "claim_id": "C-36",
+      "submission_location": "§6 'commonly cited' table",
+      "claim_text": "Eight figures are declared approximate or open and flagged for confirmation before print (five commonly cited, three still open)",
+      "source_type": "PDF",
+      "source_anchor": "artefact self-disclosure",
+      "confidence": 1.0,
+      "core_strategy": false,
+      "operator_warning_present": true,
+      "rationale": "PASS 2: §6 now carries three exhaustive classes — documented, commonly cited, still open — and the artefact states the rule it is holding itself to."
+    },
+    {
+      "claim_id": "C-37",
+      "submission_location": "whole artefact",
+      "claim_text": "No metaphysical, divinatory or destiny framing; no denylisted term",
+      "source_type": "PDF",
+      "source_anchor": "PROMPT/forbidden_terms.txt (60 entries); assignment_solver forbidden_output_policy.semantic_patterns",
+      "confidence": 1.0,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "Machine-checked: 0/60 lexical violations on word-boundary and CJK-substring rules; semantic spot scan clean after one plain-English 'chart' reference was reworded."
+    },
+    {
+      "claim_id": "C-38",
+      "submission_location": "§4 rows 10, 31, 48; §5",
+      "claim_text": "Foldout and insert dimensions, stocks and binding are producible at the stated page count",
+      "source_type": "NONE",
+      "source_anchor": "design intent",
+      "confidence": 0.5,
+      "core_strategy": false,
+      "operator_warning_present": false,
+      "rationale": "PASS 2: Unchanged and unresolved: the production specification has not been costed or checked against a binder. Non-core; recorded as residual risk 3 in the pass-2 report."
+    },
+    {
+      "claim_id": "C-39",
+      "submission_location": "'How this document answers the brief' table; §1-§2",
+      "claim_text": "Class-timeline step 1, 'choose a topic', is satisfied",
+      "source_type": "PDF",
+      "source_anchor": "ASSIGNMENTS/EDITORIAL/project_1.md L33 (origin/main bbe3b963…); identical content supplied by the operator in-session",
+      "confidence": 1.0,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "ADDED POST-PASS-2. Topic chosen, argued in §1 and bounded against all fourteen claimed topics in §2."
+    },
+    {
+      "claim_id": "C-40",
+      "submission_location": "§3 The larger content buckets",
+      "claim_text": "Class-timeline step 2, 'organise larger content buckets', is satisfied",
+      "source_type": "PDF",
+      "source_anchor": "project_1.md L34 (origin/main)",
+      "confidence": 1.0,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "ADDED POST-PASS-2 and independently re-verified: 9 buckets, 49 rows, one-to-one ownership, no row double-owned or unowned, page column 17/8/6/12/8/5/4/7/5 = 72 matching §4 exactly. Each bucket carries an explicit exclusion list."
+    },
+    {
+      "claim_id": "C-41",
+      "submission_location": "§4 The index",
+      "claim_text": "Class-timeline step 3, 'finalise content structure', is satisfied",
+      "source_type": "PDF",
+      "source_anchor": "project_1.md L35 (origin/main); worksheet sha a9281eca…",
+      "confidence": 1.0,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "ADDED POST-PASS-2. 49 rows × 5 columns, headings byte-identical, 72 contiguous pages, 15/15 seeded interactions aligned."
+    },
+    {
+      "claim_id": "C-42",
+      "submission_location": "AUDIT_REPORT addendum §A",
+      "claim_text": "The upstream change to the brief does not move any audited anchor and requires no restart",
+      "source_type": "PDF",
+      "source_anchor": "brief_delta.patch: +6 lines appended at end of file; audited d9f6d817… vs upstream bbe3b963…",
+      "confidence": 0.8,
+      "core_strategy": true,
+      "operator_warning_present": true,
+      "rationale": "COMPUTED by diff. Every anchor cited in passes 1-2 (L3, L5, L6, L7, L9-L23, L25, L28) is byte-identical in both versions. Scored 0.8 not 1.0 because a formal re-audit against the upstream brief is still owed at HALT, and that obligation is disclosed rather than discharged."
+    }
+  ],
+  "re_audited_at_utc": "2026-09-18T01:40:00+00:00",
+  "artefact_sha256_pass2": "cde0842c05a35970115a587466bde78e41eacdaab3605f0b1d1dbb6f1b001b65",
+  "history": [
+    {
+      "pass": 1,
+      "verdict": "VETO",
+      "codes": [
+        "HALLUCINATION",
+        "WEAK_FOUNDATION",
+        "BLIND_SPOT"
+      ],
+      "gates_failed": [
+        2,
+        3,
+        4
+      ],
+      "counts": {
+        "claims": 38,
+        "core": 24,
+        "at_1.0": 9,
+        "at_0.8": 7,
+        "at_0.5": 11,
+        "at_0.0": 11,
+        "core_below_0.8_without_warning": 9
+      }
+    },
+    {
+      "pass": 2,
+      "verdict": "PASS",
+      "codes": [],
+      "gates_failed": [],
+      "counts": {
+        "claims": 38,
+        "core": 24,
+        "at_1.0": 10,
+        "at_0.8": 23,
+        "at_0.5": 5,
+        "at_0.0": 0,
+        "core_below_0.8_without_warning": 0
+      }
+    }
+  ],
+  "residual_risk": [
+    "three figures declared open in §6 and not cleared: Sputnik transmitter duration, Gagarin 108 minutes (a chapter title), Earth-Moon distance on the volvelle",
+    "three collision boundaries at 0.5 awaiting mentor confirmation; the helmet foldout is the exposed one",
+    "production specification untested against a binder (C-38)",
+    "artefact-level verdict only; pack-level audit at HALT still owed (no LAYER_A_TECHNICAL_AUDIT.md, no OPERATOR tree, no MANIFEST.md)",
+    "formal re-audit against the upstream brief bbe3b963… is owed at HALT (AUDIT_REPORT addendum §A)"
+  ],
+  "artefact_sha256_current": "e8e85b54fe64a3c718377a9eefbbd18a6cbec5bd7ea67239430c57b2ea321e0e",
+  "post_pass2_note": "Four claims added after the pass-2 verdict (C-39..C-42) covering the class-timeline requirements that reached the brief upstream, and one artefact change (a requirement-to-location table) taking it from cde0842c… to e8e85b54…. All structural invariants re-verified on the current file: 49 rows, 5 cells each, pages contiguous 1-72, 15/15 seeded interactions, 10 internally consistent tables, lint 0/60. See AUDIT_REPORT.md addendum."
+}
