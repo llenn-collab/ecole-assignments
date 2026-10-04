@@ -1,0 +1,13 @@
+{
+  "CAP": "CAP-01",
+  "batch": "B5",
+  "call_index": 21,
+  "cost": 14,
+  "in": [
+    "project_3.json"
+  ],
+  "max_out_tokens": 100,
+  "out": "fingerprint",
+  "over_cap": false,
+  "status": "OK"
+}

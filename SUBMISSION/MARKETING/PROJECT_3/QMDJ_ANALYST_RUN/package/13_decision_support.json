@@ -1,0 +1,86 @@
+{
+  "section": "13_decision_support",
+  "decision_guard": [
+    "A concentrated reading may not be used to justify concentrating spend on a single surface without a separate reach case.",
+    "If the deliverable requires a large-volume launch, this claim is the first to be re-tested against the reach claim C003.",
+    "Reach built here is display-reach; it must not be reported as trust or conversion.",
+    "Private-channel value is slow; it may not be used to promise a fast conversion ramp.",
+    "Do not use this claim to argue against partnership itself; it constrains the message, not the alliance.",
+    "Friction markers forbid forcing, not acting; nothing in this claim forbids trying a method once and measuring it.",
+    "The centre's own marker is favourable to the guest and unfavourable to the host; do not read this as a licence for aggressive comparative positioning.",
+    "A connected structure argues for one system, not for one channel; the claim says nothing about which route is fastest.",
+    "A bridged axis is a channel, not a recommendation; it says the two ends can speak, not that they agree.",
+    "Branch-to-palace binding is derived from the chart's own stage annotations; it may not be extended into weekdays, hours or campaign dates.",
+    "Do not read maximum stage as permission to launch without preparation; the house in this palace presses its gate.",
+    "Divergence is a recorded state, not an invitation to pick the flattering half; both halves must appear in any recommendation that cites this claim.",
+    "A depleted substrate argues for sequenced effort, not for delaying the start indefinitely."
+  ],
+  "validation_path": [
+    "Publish one cycle of content built on the two selected objectives and read the response against the metric classes in 13_decision_support.metric_classes.",
+    "Test the privateness claim (C004) by comparing private saves/direct responses with public engagement on the same piece.",
+    "Test the announcement claim (C005) by keeping one partnership campaign message low-key and comparing its reach with one broadcast-style push.",
+    "Test the friction claim (C006) by refusing to enter any contest or pile-on for one cycle and recording what changes."
+  ],
+  "metric_classes": [
+    {
+      "objective": "awareness through display",
+      "metric_class": "reach",
+      "chart_basis": [
+        "E086",
+        "E085"
+      ]
+    },
+    {
+      "objective": "education through the governing star",
+      "metric_class": "saves and returns to a piece",
+      "chart_basis": [
+        "E005",
+        "E022",
+        "E075"
+      ]
+    },
+    {
+      "objective": "quiet support",
+      "metric_class": "private interactions (saves, direct messages)",
+      "chart_basis": [
+        "E074"
+      ]
+    },
+    {
+      "objective": "entry",
+      "metric_class": "link clicks from discovery surfaces",
+      "chart_basis": [
+        "E097"
+      ]
+    },
+    {
+      "objective": "alliance",
+      "metric_class": "co-created pieces and partner mentions",
+      "chart_basis": [
+        "E023"
+      ]
+    },
+    {
+      "objective": "participation",
+      "metric_class": "comments that continue a conversation (not volume)",
+      "chart_basis": [
+        "E024"
+      ]
+    },
+    {
+      "objective": "health of the friction registers",
+      "metric_class": "argument threads and complaints per cycle, tracked as a stop signal",
+      "chart_basis": [
+        "E050",
+        "E064"
+      ]
+    }
+  ],
+  "case_horizon": {
+    "timeframe": "The assignment cycle: a two-week content horizon, submitted 5th October 2026. This is a CASE timeframe (a deliverable deadline), not chart timing.",
+    "deliverable": "the assignment's own cycle: a two-week content plan submitted on 5th October 2026",
+    "boundary": "this is the horizon the answer must speak to; it is not chart timing and supports no claim about dates"
+  },
+  "bounded_recommendation": "Run one cycle on two objectives only (awareness through display; education through the governing star), route value through quiet channels, keep the alliance channel two-way rather than broadcast, and treat the three friction registers as places to measure rather than to push.",
+  "uncertainty": "every statement above is a tradition-conditional reading of structure; the recommendation is bounded by the guards and is not a prediction."
+}

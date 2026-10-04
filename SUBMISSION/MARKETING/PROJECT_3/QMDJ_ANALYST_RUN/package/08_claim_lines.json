@@ -1,0 +1,625 @@
+{
+  "section": "08_claim_lines",
+  "claim_lines": [
+    "CLAIM|C001|batch=B3|claims=I001,I014|disp=ADDRESSED|certainty=0.91",
+    "CLAIM|C002|batch=B3|claims=I002|disp=ADDRESSED|certainty=0.90",
+    "CLAIM|C003|batch=B3|claims=I003,I015|disp=ADDRESSED|certainty=0.96",
+    "CLAIM|C004|batch=B3|claims=I004|disp=ADDRESSED|certainty=0.86",
+    "CLAIM|C005|batch=B3|claims=I005|disp=ADDRESSED|certainty=0.97",
+    "CLAIM|C006|batch=B3|claims=I006|disp=ADDRESSED|certainty=0.86",
+    "CLAIM|C007|batch=B3|claims=I007|disp=ADDRESSED|certainty=0.95",
+    "CLAIM|C008|batch=B3|claims=I008|disp=ADDRESSED|certainty=0.84",
+    "CLAIM|C009|batch=B3|claims=I009|disp=ADDRESSED|certainty=0.81",
+    "CLAIM|C010|batch=B4|claims=I010|disp=ADDRESSED|certainty=0.81",
+    "CLAIM|C011|batch=B3|claims=I011,I016|disp=ADDRESSED|certainty=0.96",
+    "CLAIM|C012|batch=B4|claims=I012|disp=ADDRESSED|certainty=0.97",
+    "CLAIM|C013|batch=B4|claims=I013|disp=ADDRESSED|certainty=0.86"
+  ],
+  "claims": [
+    {
+      "claim_id": "C001",
+      "label": "Single point of gravity",
+      "batch": "B3",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "no rebutting candidate in the legal candidate set; competing arcs (dispersed, two-centres) have no chart support",
+      "archetype": "ARC-CENTRE-OF-GRAVITY",
+      "archetype_basis": "explicit chart_field zhi_fu and zhi_shi both name palace 1; day stem present on that palace's heaven plate",
+      "selected_candidate": "ARC-CENTRE-OF-GRAVITY",
+      "candidates": [
+        {
+          "id": "ARC-DISPERSED",
+          "label": "the moment's instruments are spread across palaces",
+          "supported": false
+        },
+        {
+          "id": "ARC-TWO-CENTRES",
+          "label": "two competing centres of gravity",
+          "supported": false
+        }
+      ],
+      "cited_E": [
+        "E005",
+        "E006",
+        "E012",
+        "E013",
+        "E019",
+        "E020",
+        "E021",
+        "E022",
+        "E017"
+      ],
+      "cited_R": [],
+      "contradicting_E": [],
+      "i_atoms": [
+        "I001",
+        "I014"
+      ],
+      "disposition": "ADDRESSED",
+      "confidence": 0.91,
+      "grounding_tier": "explicit_chart",
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "decision_guard": "A concentrated reading may not be used to justify concentrating spend on a single surface without a separate reach case.",
+      "uncertainty": "low",
+      "limitations": "Concentration is a structural observation; it does not by itself rank which surface should receive the concentration."
+    },
+    {
+      "claim_id": "C002",
+      "label": "Restraint as the operating mode",
+      "batch": "B3",
+      "rank_status": "bounded",
+      "claim_rank_reason": "the reach palace keeps a competing operating mode alive; A003 and A004 both challenge a restraint-only reading",
+      "archetype": "ARC-RESTRAINT-MODE",
+      "archetype_basis": "duty gate office (closing/blocking) plus governing star office (teaching/assistance)",
+      "selected_candidate": "ARC-RESTRAINT-MODE",
+      "candidates": [
+        {
+          "id": "ARC-VOLUME-MODE",
+          "label": "the moment rewards volume and repetition",
+          "supported": false
+        },
+        {
+          "id": "ARC-STEALTH-MODE",
+          "label": "the moment rewards invisibility",
+          "supported": false
+        }
+      ],
+      "cited_E": [
+        "E005",
+        "E006",
+        "E012",
+        "E022"
+      ],
+      "cited_R": [
+        "R002"
+      ],
+      "contradicting_E": [
+        "E086"
+      ],
+      "i_atoms": [
+        "I002"
+      ],
+      "disposition": "ADDRESSED",
+      "confidence": 0.9,
+      "grounding_tier": "explicit_chart",
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "decision_guard": "If the deliverable requires a large-volume launch, this claim is the first to be re-tested against the reach claim C003.",
+      "uncertainty": "medium",
+      "limitations": "The contrary palace 8 display cluster (E085, E086, E095) is left visible and carries the reach function; the two readings coexist by palace, not by contradiction."
+    },
+    {
+      "claim_id": "C003",
+      "label": "Display is the reach engine",
+      "batch": "B3",
+      "rank_status": "bounded",
+      "claim_rank_reason": "A001 (teaching-led reach) and A002 (alliance reach) are live alternatives; the display reading is not the only route",
+      "archetype": "ARC-VISIBILITY-ENGINE",
+      "archetype_basis": "display gate + widest-reach deity + radiance star co-located with a cooperation-favourable stem pair",
+      "selected_candidate": "ARC-VISIBILITY-ENGINE",
+      "candidates": [
+        {
+          "id": "ARC-PAID-REACH-ENGINE",
+          "label": "paid distribution is the reach engine",
+          "supported": false
+        },
+        {
+          "id": "ARC-COLLAB-REACH-ENGINE",
+          "label": "co-created distribution is the reach engine",
+          "supported": true
+        }
+      ],
+      "cited_E": [
+        "E085",
+        "E086",
+        "E091",
+        "E093",
+        "E095"
+      ],
+      "cited_R": [
+        "R008"
+      ],
+      "contradicting_E": [],
+      "i_atoms": [
+        "I003",
+        "I015"
+      ],
+      "disposition": "ADDRESSED",
+      "confidence": 0.96,
+      "grounding_tier": "explicit_chart",
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "decision_guard": "Reach built here is display-reach; it must not be reported as trust or conversion.",
+      "uncertainty": "low",
+      "limitations": "The marker 丙加乙 names cooperation; it does not name a platform or a format."
+    },
+    {
+      "claim_id": "C004",
+      "label": "Value accrues through quiet channels",
+      "batch": "B3",
+      "rank_status": "bounded",
+      "claim_rank_reason": "the same palace's stems sit at the cut-off and death stages, so the channel is favourable in kind but depleted in force",
+      "archetype": "ARC-PRIVATE-GAIN",
+      "archetype_basis": "generation gate + hidden-support deity + reliability star in a gate-feeds-house palace under the yin-favouring stem pair",
+      "selected_candidate": "ARC-PRIVATE-GAIN",
+      "candidates": [
+        {
+          "id": "ARC-PUBLIC-GAIN",
+          "label": "value accrues through public, high-visibility channels",
+          "supported": false
+        },
+        {
+          "id": "ARC-PRIVATE-GAIN",
+          "label": "value accrues through private, low-noise channels",
+          "supported": true
+        }
+      ],
+      "cited_E": [
+        "E074",
+        "E075",
+        "E080",
+        "E082",
+        "E084"
+      ],
+      "cited_R": [
+        "R006"
+      ],
+      "contradicting_E": [
+        "E077",
+        "E078"
+      ],
+      "i_atoms": [
+        "I004"
+      ],
+      "disposition": "ADDRESSED",
+      "confidence": 0.86,
+      "grounding_tier": "explicit_chart",
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "decision_guard": "Private-channel value is slow; it may not be used to promise a fast conversion ramp.",
+      "uncertainty": "medium",
+      "limitations": "The same palace's stems sit at the cut-off and death stages (E077, E078): the channel is favourable in kind but currently depleted in force."
+    },
+    {
+      "claim_id": "C005",
+      "label": "Announcement through the alliance channel fails",
+      "batch": "B3",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "no candidate can be supported against it; the alliance deity itself remains visible as counterweight",
+      "archetype": "ARC-BROKEN-BROADCAST",
+      "archetype_basis": "alliance deity co-located with the message-sinks marker and a locked three-qi in a house that presses its gate",
+      "selected_candidate": "ARC-BROKEN-BROADCAST",
+      "candidates": [
+        {
+          "id": "ARC-WORKING-BROADCAST",
+          "label": "the alliance channel carries announcements well",
+          "supported": false
+        },
+        {
+          "id": "ARC-QUIET-ALLIANCE",
+          "label": "the alliance channel works only for quiet, two-way contact",
+          "supported": false
+        }
+      ],
+      "cited_E": [
+        "E023",
+        "E024",
+        "E029",
+        "E030",
+        "E031",
+        "E032"
+      ],
+      "cited_R": [
+        "R003"
+      ],
+      "contradicting_E": [],
+      "i_atoms": [
+        "I005"
+      ],
+      "disposition": "ADDRESSED",
+      "confidence": 0.97,
+      "grounding_tier": "explicit_chart",
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "decision_guard": "Do not use this claim to argue against partnership itself; it constrains the message, not the alliance.",
+      "uncertainty": "medium",
+      "limitations": "The marker is polarity-tagged inauspicious in the register; the alliance deity in the same palace is tagged favourable. Both stay visible."
+    },
+    {
+      "claim_id": "C006",
+      "label": "Three friction registers",
+      "batch": "B3",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "the friction palaces also carry sprouting and maturing stages, which limits rather than rebuts the reading",
+      "archetype": "ARC-FRICTION-ZONE",
+      "archetype_basis": "enumeration of palace-gate relations and stem pairs across palaces 3, 4 and 6",
+      "selected_candidate": "ARC-FRICTION-ZONE",
+      "candidates": [
+        {
+          "id": "ARC-UNIFORM-FIELD",
+          "label": "the field is uniform and any palace can be forced",
+          "supported": false
+        },
+        {
+          "id": "ARC-FRICTION-ZONE",
+          "label": "three palaces are friction registers",
+          "supported": true
+        }
+      ],
+      "cited_E": [
+        "E035",
+        "E036",
+        "E042",
+        "E043",
+        "E045",
+        "E049",
+        "E050",
+        "E055",
+        "E057",
+        "E063",
+        "E064",
+        "E069",
+        "E071"
+      ],
+      "cited_R": [
+        "R005"
+      ],
+      "contradicting_E": [
+        "E038",
+        "E041"
+      ],
+      "i_atoms": [
+        "I006"
+      ],
+      "disposition": "ADDRESSED",
+      "confidence": 0.86,
+      "grounding_tier": "explicit_chart",
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "decision_guard": "Friction markers forbid forcing, not acting; nothing in this claim forbids trying a method once and measuring it.",
+      "uncertainty": "low",
+      "limitations": "The counter-evidence is explicit: the same palaces carry sprouting and maturing stages (E038, E041), so the registers are impeded rather than dead."
+    },
+    {
+      "claim_id": "C007",
+      "label": "The centre is held under contest",
+      "batch": "B3",
+      "rank_status": "bounded",
+      "claim_rank_reason": "A004 is a live alternative: the centre's own marker is favourable to the guest and unfavourable to the host, so a challenger posture is not excluded by the chart",
+      "archetype": "ARC-CONTESTED-CENTRE",
+      "archetype_basis": "centre palace marker register (doubled conflict stem) and its single lodging edge",
+      "selected_candidate": "ARC-CONTESTED-CENTRE",
+      "candidates": [
+        {
+          "id": "ARC-NEUTRAL-CENTRE",
+          "label": "the centre is neutral and carries no disposition",
+          "supported": false
+        },
+        {
+          "id": "ARC-CONTESTED-CENTRE",
+          "label": "the centre carries a contest disposition",
+          "supported": true
+        }
+      ],
+      "cited_E": [
+        "E060",
+        "E061",
+        "E062",
+        "E047"
+      ],
+      "cited_R": [
+        "R004"
+      ],
+      "contradicting_E": [],
+      "i_atoms": [
+        "I007"
+      ],
+      "disposition": "ADDRESSED",
+      "confidence": 0.95,
+      "grounding_tier": "explicit_chart",
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "decision_guard": "The centre's own marker is favourable to the guest and unfavourable to the host; do not read this as a licence for aggressive comparative positioning.",
+      "uncertainty": "medium",
+      "limitations": "The centre has no gate and no deity in this chart, so the disposition cannot be stated through a gate office."
+    },
+    {
+      "claim_id": "C008",
+      "label": "One closed circulation",
+      "batch": "B3",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "graph closure verified by CAP-09 over all nine traces",
+      "archetype": "ARC-CONNECTED-SYSTEM",
+      "archetype_basis": "graph closure of the identical-stem value traces",
+      "selected_candidate": "ARC-CONNECTED-SYSTEM",
+      "candidates": [
+        {
+          "id": "ARC-SILO-STRUCTURE",
+          "label": "the chart contains disconnected islands",
+          "supported": false
+        },
+        {
+          "id": "ARC-CONNECTED-SYSTEM",
+          "label": "every palace is reachable from every other by one route",
+          "supported": true
+        }
+      ],
+      "cited_E": [
+        "E013",
+        "E021",
+        "E033",
+        "E040",
+        "E046",
+        "E047",
+        "E051",
+        "E058",
+        "E060",
+        "E065",
+        "E072",
+        "E076",
+        "E083",
+        "E087",
+        "E094",
+        "E098"
+      ],
+      "cited_R": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ],
+      "contradicting_E": [],
+      "i_atoms": [
+        "I008"
+      ],
+      "disposition": "ADDRESSED",
+      "confidence": 0.84,
+      "grounding_tier": "computed_structure",
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "decision_guard": "A connected structure argues for one system, not for one channel; the claim says nothing about which route is fastest.",
+      "uncertainty": "low",
+      "limitations": "The ring is a relation over stem values only; it is not a claim about timing or about the strength of each edge."
+    },
+    {
+      "claim_id": "C009",
+      "label": "Two axes are already bridged",
+      "batch": "B3",
+      "rank_status": "bounded",
+      "claim_rank_reason": "only two oppositions exist under the chart's own opposition rule; the claim cannot be extended to the other pairings",
+      "archetype": "ARC-BRIDGED-AXES",
+      "archetype_basis": "both Luoshu opposition pairs coincide with an identical-stem trace",
+      "selected_candidate": "ARC-BRIDGED-AXES",
+      "candidates": [
+        {
+          "id": "ARC-OPEN-AXES",
+          "label": "the opposition axes are open cuts",
+          "supported": false
+        },
+        {
+          "id": "ARC-BRIDGED-AXES",
+          "label": "the opposition axes are bridged by value",
+          "supported": true
+        }
+      ],
+      "cited_E": [
+        "E021",
+        "E051",
+        "E065",
+        "E081"
+      ],
+      "cited_R": [
+        "R002",
+        "R007"
+      ],
+      "contradicting_E": [],
+      "i_atoms": [
+        "I009"
+      ],
+      "disposition": "ADDRESSED",
+      "confidence": 0.81,
+      "grounding_tier": "computed_structure",
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "decision_guard": "A bridged axis is a channel, not a recommendation; it says the two ends can speak, not that they agree.",
+      "uncertainty": "medium",
+      "limitations": "Only two of the six Luoshu axis relations exist in this chart's opposition rule; the other pairings are not oppositions at all."
+    },
+    {
+      "claim_id": "C010",
+      "label": "Temporal weight sits twice on palace 7",
+      "batch": "B4",
+      "rank_status": "bounded",
+      "claim_rank_reason": "structural only: the chart supplies no civil date or clock time",
+      "archetype": "ARC-DOUBLED-TEMPORAL-SIGNATURE",
+      "archetype_basis": "month and hour pillars share the branch the chart binds to palace 7",
+      "selected_candidate": "ARC-DOUBLED-TEMPORAL-SIGNATURE",
+      "candidates": [
+        {
+          "id": "ARC-EVEN-TEMPORAL-SPREAD",
+          "label": "the four pillars spread evenly across palaces",
+          "supported": false
+        },
+        {
+          "id": "ARC-DOUBLED-TEMPORAL-SIGNATURE",
+          "label": "one palace receives two pillar signatures",
+          "supported": true
+        }
+      ],
+      "cited_E": [
+        "E007",
+        "E008",
+        "E009",
+        "E010",
+        "E078",
+        "E100"
+      ],
+      "cited_R": [],
+      "contradicting_E": [],
+      "i_atoms": [
+        "I010"
+      ],
+      "disposition": "ADDRESSED",
+      "confidence": 0.81,
+      "grounding_tier": "computed_structure",
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "decision_guard": "Branch-to-palace binding is derived from the chart's own stage annotations; it may not be extended into weekdays, hours or campaign dates.",
+      "uncertainty": "medium",
+      "limitations": "The chart supplies no civil date or clock time, so the temporal reading is structural only."
+    },
+    {
+      "claim_id": "C011",
+      "label": "The opening is real but pressed",
+      "batch": "B3",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "the pressed-opening reading is supported by two independent marker classes (house-gate relation and stem pair)",
+      "archetype": "ARC-PRESSED-OPENING",
+      "archetype_basis": "opening gate in a house that presses it, with maximum-stage stems and a gradual-reveal marker",
+      "selected_candidate": "ARC-PRESSED-OPENING",
+      "candidates": [
+        {
+          "id": "ARC-CLEAN-OPENING",
+          "label": "the opening is unobstructed",
+          "supported": false
+        },
+        {
+          "id": "ARC-PRESSED-OPENING",
+          "label": "the opening exists but is pressed",
+          "supported": true
+        }
+      ],
+      "cited_E": [
+        "E097",
+        "E099",
+        "E100",
+        "E102",
+        "E104",
+        "E106"
+      ],
+      "cited_R": [],
+      "contradicting_E": [],
+      "i_atoms": [
+        "I011",
+        "I016"
+      ],
+      "disposition": "ADDRESSED",
+      "confidence": 0.96,
+      "grounding_tier": "explicit_chart",
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "decision_guard": "Do not read maximum stage as permission to launch without preparation; the house in this palace presses its gate.",
+      "uncertainty": "medium",
+      "limitations": "The gradual-reveal marker is a general reading; the chart does not state a schedule."
+    },
+    {
+      "claim_id": "C012",
+      "label": "Subject stem and subject seat diverge",
+      "batch": "B4",
+      "rank_status": "bounded",
+      "claim_rank_reason": "depends on assumption A-001 (subject binding); retained with an explicit uncertainty marker",
+      "archetype": "ARC-DIVERGENT-SUBJECT",
+      "archetype_basis": "day stem placement on the heaven plate of one palace, day branch bound to another",
+      "selected_candidate": "ARC-DIVERGENT-SUBJECT",
+      "candidates": [
+        {
+          "id": "ARC-SUBJECT-KEYSTONE-ONLY",
+          "label": "the subject sits entirely in the keystone palace",
+          "supported": false
+        },
+        {
+          "id": "ARC-SUBJECT-FRICTION-ONLY",
+          "label": "the subject sits entirely in the friction house",
+          "supported": false
+        },
+        {
+          "id": "ARC-DIVERGENT-SUBJECT",
+          "label": "the subject's stem and seat occupy different palaces",
+          "supported": true
+        }
+      ],
+      "cited_E": [
+        "E007",
+        "E021",
+        "E051",
+        "E063",
+        "E064",
+        "E066"
+      ],
+      "cited_R": [
+        "R002"
+      ],
+      "contradicting_E": [],
+      "i_atoms": [
+        "I012"
+      ],
+      "disposition": "ADDRESSED",
+      "confidence": 0.97,
+      "grounding_tier": "explicit_chart",
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "decision_guard": "Divergence is a recorded state, not an invitation to pick the flattering half; both halves must appear in any recommendation that cites this claim.",
+      "uncertainty": "low",
+      "limitations": "The stem-and-branch reading follows the standard subject binding declared in the dependency assumptions; that binding is assumption-indexed."
+    },
+    {
+      "claim_id": "C013",
+      "label": "Auspicious combination on a depleted substrate",
+      "batch": "B4",
+      "rank_status": "bounded",
+      "claim_rank_reason": "the doubled hidden-plate marker corroborates the combination but does not strengthen the substrate reading",
+      "archetype": "ARC-SEED-UNDER-FROST",
+      "archetype_basis": "twelve-stage readings for the two stems that form the keystone combination, plus the same stage in the adjacent bridged palace",
+      "selected_candidate": "ARC-SEED-UNDER-FROST",
+      "candidates": [
+        {
+          "id": "ARC-FULL-STOREHOUSE",
+          "label": "the keystone palace is fully provisioned",
+          "supported": false
+        },
+        {
+          "id": "ARC-SEED-UNDER-FROST",
+          "label": "the combination is favourable but the substrate is depleted",
+          "supported": true
+        }
+      ],
+      "cited_E": [
+        "E014",
+        "E015",
+        "E017",
+        "E027",
+        "E053"
+      ],
+      "cited_R": [
+        "R002"
+      ],
+      "contradicting_E": [
+        "E016",
+        "E018"
+      ],
+      "i_atoms": [
+        "I013"
+      ],
+      "disposition": "ADDRESSED",
+      "confidence": 0.86,
+      "grounding_tier": "explicit_chart",
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "decision_guard": "A depleted substrate argues for sequenced effort, not for delaying the start indefinitely.",
+      "uncertainty": "medium",
+      "limitations": "The doubled marker (E016, E018) restates the combination on the hidden plate; it is corroboration of the same reading, not a second finding."
+    }
+  ]
+}

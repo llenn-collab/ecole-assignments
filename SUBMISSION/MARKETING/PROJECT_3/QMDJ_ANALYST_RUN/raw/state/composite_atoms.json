@@ -1,0 +1,349 @@
+{
+  "atom_count": 42,
+  "atoms": [
+    {
+      "atom_type": "deity",
+      "path": "palaces/kan_1/palace_elements[0]",
+      "raw": "值符",
+      "role": null,
+      "value": "值符"
+    },
+    {
+      "atom_type": "door",
+      "path": "palaces/kan_1/palace_elements[1]",
+      "raw": "杜门",
+      "role": null,
+      "value": "杜门"
+    },
+    {
+      "atom_type": "star",
+      "path": "palaces/kan_1/palace_elements[2]",
+      "raw": "天辅",
+      "role": null,
+      "value": "天辅"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/kan_1/palace_elements[4]",
+      "raw": "天盘辛",
+      "role": "heaven_stem",
+      "value": "辛"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/kan_1/palace_elements[5]",
+      "raw": "地盘丁",
+      "role": "earth_stem",
+      "value": "丁"
+    },
+    {
+      "atom_type": "deity",
+      "path": "palaces/kun_2/palace_elements[0]",
+      "raw": "六合",
+      "role": null,
+      "value": "六合"
+    },
+    {
+      "atom_type": "door",
+      "path": "palaces/kun_2/palace_elements[1]",
+      "raw": "休门",
+      "role": null,
+      "value": "休门"
+    },
+    {
+      "atom_type": "star",
+      "path": "palaces/kun_2/palace_elements[2]",
+      "raw": "天蓬",
+      "role": null,
+      "value": "天蓬"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/kun_2/palace_elements[4]",
+      "raw": "天盘丁",
+      "role": "heaven_stem",
+      "value": "丁"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/kun_2/palace_elements[5]",
+      "raw": "地盘癸",
+      "role": "earth_stem",
+      "value": "癸"
+    },
+    {
+      "atom_type": "deity",
+      "path": "palaces/zhen_3/palace_elements[0]",
+      "raw": "九地",
+      "role": null,
+      "value": "九地"
+    },
+    {
+      "atom_type": "door",
+      "path": "palaces/zhen_3/palace_elements[1]",
+      "raw": "死门",
+      "role": null,
+      "value": "死门"
+    },
+    {
+      "atom_type": "star",
+      "path": "palaces/zhen_3/palace_elements[2]",
+      "raw": "天芮",
+      "role": null,
+      "value": "天芮"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/zhen_3/palace_elements[4]",
+      "raw": "天盘癸",
+      "role": "heaven_stem",
+      "value": "癸"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/zhen_3/palace_elements[5]",
+      "raw": "地盘壬",
+      "role": "earth_stem",
+      "value": "壬"
+    },
+    {
+      "atom_type": "deity",
+      "path": "palaces/xun_4/palace_elements[0]",
+      "raw": "玄武",
+      "role": null,
+      "value": "玄武"
+    },
+    {
+      "atom_type": "door",
+      "path": "palaces/xun_4/palace_elements[1]",
+      "raw": "惊门",
+      "role": null,
+      "value": "惊门"
+    },
+    {
+      "atom_type": "star",
+      "path": "palaces/xun_4/palace_elements[2]",
+      "raw": "天柱",
+      "role": null,
+      "value": "天柱"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/xun_4/palace_elements[4]",
+      "raw": "天盘戊",
+      "role": "heaven_stem",
+      "value": "戊"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/xun_4/palace_elements[5]",
+      "raw": "地盘辛",
+      "role": "earth_stem",
+      "value": "辛"
+    },
+    {
+      "atom_type": "star",
+      "path": "palaces/center_5/palace_elements[0]",
+      "raw": "天禽",
+      "role": null,
+      "value": "天禽"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/center_5/palace_elements[2]",
+      "raw": "地盘庚",
+      "role": "earth_stem",
+      "value": "庚"
+    },
+    {
+      "atom_type": "deity",
+      "path": "palaces/qian_6/palace_elements[0]",
+      "raw": "腾蛇",
+      "role": null,
+      "value": "腾蛇"
+    },
+    {
+      "atom_type": "door",
+      "path": "palaces/qian_6/palace_elements[1]",
+      "raw": "伤门",
+      "role": null,
+      "value": "伤门"
+    },
+    {
+      "atom_type": "star",
+      "path": "palaces/qian_6/palace_elements[2]",
+      "raw": "天冲",
+      "role": null,
+      "value": "天冲"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/qian_6/palace_elements[4]",
+      "raw": "天盘壬",
+      "role": "heaven_stem",
+      "value": "壬"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/qian_6/palace_elements[5]",
+      "raw": "地盘己",
+      "role": "earth_stem",
+      "value": "己"
+    },
+    {
+      "atom_type": "deity",
+      "path": "palaces/dui_7/palace_elements[0]",
+      "raw": "太阴",
+      "role": null,
+      "value": "太阴"
+    },
+    {
+      "atom_type": "door",
+      "path": "palaces/dui_7/palace_elements[1]",
+      "raw": "生门",
+      "role": null,
+      "value": "生门"
+    },
+    {
+      "atom_type": "star",
+      "path": "palaces/dui_7/palace_elements[2]",
+      "raw": "天任",
+      "role": null,
+      "value": "天任"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/dui_7/palace_elements[4]",
+      "raw": "天盘乙",
+      "role": "heaven_stem",
+      "value": "乙"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/dui_7/palace_elements[5]",
+      "raw": "地盘戊",
+      "role": "earth_stem",
+      "value": "戊"
+    },
+    {
+      "atom_type": "deity",
+      "path": "palaces/gen_8/palace_elements[0]",
+      "raw": "九天",
+      "role": null,
+      "value": "九天"
+    },
+    {
+      "atom_type": "door",
+      "path": "palaces/gen_8/palace_elements[1]",
+      "raw": "景门",
+      "role": null,
+      "value": "景门"
+    },
+    {
+      "atom_type": "star",
+      "path": "palaces/gen_8/palace_elements[2]",
+      "raw": "天英",
+      "role": null,
+      "value": "天英"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/gen_8/palace_elements[4]",
+      "raw": "天盘丙",
+      "role": "heaven_stem",
+      "value": "丙"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/gen_8/palace_elements[5]",
+      "raw": "地盘乙",
+      "role": "earth_stem",
+      "value": "乙"
+    },
+    {
+      "atom_type": "deity",
+      "path": "palaces/li_9/palace_elements[0]",
+      "raw": "白虎",
+      "role": null,
+      "value": "白虎"
+    },
+    {
+      "atom_type": "door",
+      "path": "palaces/li_9/palace_elements[1]",
+      "raw": "开门",
+      "role": null,
+      "value": "开门"
+    },
+    {
+      "atom_type": "star",
+      "path": "palaces/li_9/palace_elements[2]",
+      "raw": "天心",
+      "role": null,
+      "value": "天心"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/li_9/palace_elements[4]",
+      "raw": "天盘己",
+      "role": "heaven_stem",
+      "value": "己"
+    },
+    {
+      "atom_type": "stem_ref",
+      "path": "palaces/li_9/palace_elements[5]",
+      "raw": "地盘丙",
+      "role": "earth_stem",
+      "value": "丙"
+    }
+  ],
+  "cap": "CAP-07",
+  "composite_count": 51,
+  "typing_rule": "subject=role, relation=implicit field, target=value",
+  "unparseable": [
+    {
+      "path": "palaces/kan_1/palace_elements[3]",
+      "raw": "坎1宫",
+      "reason": "NO_TYPED_ATOM"
+    },
+    {
+      "path": "palaces/kun_2/palace_elements[3]",
+      "raw": "坤2宫",
+      "reason": "NO_TYPED_ATOM"
+    },
+    {
+      "path": "palaces/zhen_3/palace_elements[3]",
+      "raw": "震3宫",
+      "reason": "NO_TYPED_ATOM"
+    },
+    {
+      "path": "palaces/xun_4/palace_elements[3]",
+      "raw": "巽4宫",
+      "reason": "NO_TYPED_ATOM"
+    },
+    {
+      "path": "palaces/center_5/palace_elements[1]",
+      "raw": "中5宫",
+      "reason": "NO_TYPED_ATOM"
+    },
+    {
+      "path": "palaces/qian_6/palace_elements[3]",
+      "raw": "乾6宫",
+      "reason": "NO_TYPED_ATOM"
+    },
+    {
+      "path": "palaces/dui_7/palace_elements[3]",
+      "raw": "兑7宫",
+      "reason": "NO_TYPED_ATOM"
+    },
+    {
+      "path": "palaces/gen_8/palace_elements[3]",
+      "raw": "艮8宫",
+      "reason": "NO_TYPED_ATOM"
+    },
+    {
+      "path": "palaces/li_9/palace_elements[3]",
+      "raw": "离9宫",
+      "reason": "NO_TYPED_ATOM"
+    }
+  ]
+}

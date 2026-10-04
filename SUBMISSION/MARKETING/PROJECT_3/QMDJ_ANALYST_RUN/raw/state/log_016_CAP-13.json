@@ -1,0 +1,13 @@
+{
+  "CAP": "CAP-13",
+  "batch": "B5",
+  "call_index": 16,
+  "cost": 12,
+  "in": [
+    "renders/claim_lines.txt,renders/cmap_lines.txt,renders/rt_lines.txt"
+  ],
+  "max_out_tokens": 60,
+  "out": "grammar_check",
+  "over_cap": false,
+  "status": "OK"
+}

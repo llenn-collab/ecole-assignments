@@ -1,0 +1,14 @@
+{
+  "CAP": "CAP-14",
+  "batch": "B5",
+  "call_index": 18,
+  "cost": 31,
+  "in": [
+    "evidence_registry",
+    "/home/user/ecole-assignments/SUBMISSION/MARKETING/PROJECT_3/QMDJ_ANALYST_RUN/authored/ledger_sidecar.json"
+  ],
+  "max_out_tokens": 300,
+  "out": "ledger_reconcile",
+  "over_cap": false,
+  "status": "OK"
+}

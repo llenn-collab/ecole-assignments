@@ -1,0 +1,13 @@
+{
+  "CAP": "CAP-16",
+  "batch": "B5",
+  "call_index": 19,
+  "cost": 31,
+  "in": [
+    "all_state"
+  ],
+  "max_out_tokens": 400,
+  "out": "self_audit",
+  "over_cap": false,
+  "status": "OK"
+}

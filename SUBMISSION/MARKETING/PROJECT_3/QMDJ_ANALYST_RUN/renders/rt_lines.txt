@@ -1,0 +1,12 @@
+RT|A001|criticizes=C001|kind=support|status=live
+RT|A001|criticizes=C002|kind=support|status=live
+RT|A001|criticizes=C003|kind=alternative|status=live
+RT|A001|criticizes=C007|kind=rebut|status=live
+RT|A002|criticizes=C003|kind=rebut|status=live
+RT|A002|criticizes=C005|kind=support|status=live
+RT|A002|criticizes=C007|kind=support|status=live
+RT|A003|criticizes=C002|kind=rebut|status=live
+RT|A003|criticizes=C006|kind=support|status=live
+RT|A004|criticizes=C002|kind=alternative|status=live
+RT|A004|criticizes=C006|kind=rebut|status=superseded
+RT|A004|criticizes=C007|kind=alternative|status=live

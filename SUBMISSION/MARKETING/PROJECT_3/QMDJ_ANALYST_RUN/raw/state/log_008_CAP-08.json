@@ -1,0 +1,13 @@
+{
+  "CAP": "CAP-08",
+  "batch": "B2",
+  "call_index": 8,
+  "cost": 32,
+  "in": [
+    "palaces"
+  ],
+  "max_out_tokens": 150,
+  "out": "luoshu_geometry",
+  "over_cap": false,
+  "status": "OK"
+}

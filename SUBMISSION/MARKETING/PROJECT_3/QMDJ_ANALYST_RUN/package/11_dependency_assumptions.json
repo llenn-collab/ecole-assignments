@@ -1,0 +1,544 @@
+{
+  "section": "11_dependency_assumptions",
+  "assumption_index": [
+    {
+      "id": "A-001",
+      "class": "subject_binding",
+      "authority_tier": 4,
+      "statement": "The day stem stands for the subject (the brand and the person running it); the hour stem stands for the matter at hand (the campaign / the content programme).",
+      "basis": "standard QMDJ subject/matter binding; the chart supplies day 辛亥 and hour 丁酉 as explicit fields (E007, E008).",
+      "used_by": [
+        "C012",
+        "C013"
+      ],
+      "risk": "medium",
+      "guard": "If a different binding is used, the subject claims (C012) must be re-derived; the structural claims do not depend on it."
+    },
+    {
+      "id": "A-002",
+      "class": "channel_mapping",
+      "authority_tier": 4,
+      "statement": "Gate and deity offices map to media behaviour classes, not to named platforms. The mapping table is declared below.",
+      "basis": "annex A-patterns gate register (classical office of each gate); the chart supplies the gates.",
+      "used_by": [
+        "C003",
+        "C004",
+        "C006",
+        "C011",
+        "Q4"
+      ],
+      "risk": "high",
+      "guard": "The chart names no platform and never can; any platform name in the deliverable is an illustration inside this assumption, not a chart finding."
+    },
+    {
+      "id": "A-003",
+      "class": "content_function_mapping",
+      "authority_tier": 4,
+      "statement": "Gate/star offices map to content functions used to derive pillars (teaching, display, quiet proof, alliance, restraint).",
+      "basis": "annex A-patterns gate register + star offices as used in the marker register.",
+      "used_by": [
+        "Q3",
+        "Q6"
+      ],
+      "risk": "medium",
+      "guard": "Pillars are labelled by function first and by example second; the example is the assignment's own worked archetype (A-007)."
+    },
+    {
+      "id": "A-004",
+      "class": "metric_mapping",
+      "authority_tier": 4,
+      "statement": "Gate offices map to KPI classes: opening -> entry metrics, view/display -> reach, hidden support -> private accumulation (saves), generation -> value metrics, alliance -> collaboration count, rest -> comment quality.",
+      "basis": "annex A-patterns gate register.",
+      "used_by": [
+        "Q11"
+      ],
+      "risk": "medium",
+      "guard": "No metric values or benchmarks are supplied; only the metric class and the objective it serves."
+    },
+    {
+      "id": "A-005",
+      "class": "creator_mapping",
+      "authority_tier": 4,
+      "statement": "Deity offices map to creator classes: hidden support -> nano/micro educators, alliance -> micro partners, radiance/highest -> macro, contest -> controversy-driving creators (excluded).",
+      "basis": "annex A-patterns deity register.",
+      "used_by": [
+        "Q9"
+      ],
+      "risk": "high",
+      "guard": "No creator is named from the chart; creator identity is an unresolved unknown (UNK01-UNK04 block), delivered as a rubric plus two slots."
+    },
+    {
+      "id": "A-006",
+      "class": "objective_mapping",
+      "authority_tier": 4,
+      "statement": "The two selected primary objectives (awareness through display; education through the governing star) are read from the two most heavily marked favourable palaces rather than from the whole field.",
+      "basis": "palace 1 (E005, E006, E012, E022) and palace 8 (E085, E086, E095).",
+      "used_by": [
+        "Q1"
+      ],
+      "risk": "medium",
+      "guard": "Community and conversion are explicitly not selected as primary; their chart support and their limits are recorded in the alignment ledger."
+    },
+    {
+      "id": "A-007",
+      "class": "illustration_source",
+      "authority_tier": 4,
+      "statement": "Where an example is needed, the deliverable uses the worked example supplied inside the assignment document itself (a better-for-you snack context: 'Snack Smarter', '4 PM office hunger'). It is labelled SOURCE_EXAMPLE and is not a chart finding and not a statement about the student's brand.",
+      "basis": "case context: suggested_slide_structure[2].content_pillars_example and suggested_slide_structure[5].example.",
+      "used_by": [
+        "Q3",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q10"
+      ],
+      "risk": "low",
+      "guard": "Every illustrated row carries a substitution slot so the student's own brand from Assignment 1 replaces it without touching the strategy."
+    },
+    {
+      "id": "A-008",
+      "class": "protocol_derivation",
+      "authority_tier": 4,
+      "statement": "The 25-batch coverage protocol is derived from the charter's own protocol section and B3 topic list because annex A-coverage was not supplied.",
+      "basis": "charter law 29 + protocol B0-B5/P6/RT + B3 topic enumeration.",
+      "used_by": [
+        "B0"
+      ],
+      "risk": "medium",
+      "guard": "Batch count and topic order are listed explicitly so a supplied annex can be diffed against them."
+    },
+    {
+      "id": "A-009",
+      "class": "catalog_stand_in",
+      "authority_tier": 4,
+      "statement": "The pattern catalog and archetype rubric are the sanctioned minimum-viable stand-in declared in CONFIG/marker_reference.json: three pattern classes (stem combination, gate reconciliation, structural marker) and four archetype families (concentration, visibility, private gain, friction).",
+      "basis": "charter annex A-patterns / A-archetypes permission to port a minimum viable stand-in.",
+      "used_by": [
+        "B4",
+        "P6"
+      ],
+      "risk": "medium",
+      "guard": "Every archetype label in the package lists its competing candidates and its rejection reasons, so a supplied rubric can re-rank them."
+    },
+    {
+      "id": "A-010",
+      "class": "facet_ranking",
+      "authority_tier": 4,
+      "statement": "The seven analysed facets are ranked by DECISION_RELEVANCE against the brief's own evaluation criteria (AMEND-01 supersedes the v1 SOURCE_DEPENDENCY_ORDER fallback); the remaining four are registered as deferred.",
+      "basis": "CONFIG/context_amendment.json -> facet_ranking; the source supplies 11 facets and its 4 evaluation criteria select 7.",
+      "used_by": [
+        "02_case_context_digest",
+        "09_case_alignment"
+      ],
+      "risk": "medium",
+      "guard": "Deferral is recorded per facet with its claim count and tag tally; if the operator promotes an execution facet, the criterion must be re-applied and the deferral list rewritten."
+    },
+    {
+      "id": "A-011",
+      "class": "unk_guard",
+      "authority_tier": 4,
+      "statement": "The structural subject statement (C012) is retained with an explicit uncertainty marker and does not assert anything about the real persona; the persona remains UNK02.",
+      "basis": "CAP-19 step 3 applied to UNK02.",
+      "used_by": [
+        "C012"
+      ],
+      "risk": "medium",
+      "guard": "Any text that would describe the persona is replaced by a slot; the delivery notes flag this explicitly."
+    },
+    {
+      "id": "A-012",
+      "class": "cost_metric",
+      "authority_tier": 4,
+      "statement": "Call cost is measured as the whitespace-token count of each capability's printed summary; the cap's max_out_tokens is enforced against that count.",
+      "basis": "no tokenizer is available in this runtime; the metric is declared in CONFIG/run_config.json.",
+      "used_by": [
+        "15_tool_event_log"
+      ],
+      "risk": "low",
+      "guard": "Costs are reproducible: the same summary text yields the same count."
+    },
+    {
+      "id": "A-013",
+      "class": "context_authority",
+      "authority_tier": 6,
+      "statement": "AMEND-01 records the operator's declaration that the assignment brief is the case context and the reason the chart was cast. It re-classifies the ingestion path to free_prose and fills the six case-context slots; every filled row stays tagged DECOMPOSED.",
+      "basis": "charter case_context_ingest.accept_formats + free_text_fallback; operator declaration",
+      "used_by": [
+        "02_case_context_digest",
+        "09_case_alignment",
+        "13_decision_support"
+      ],
+      "risk": "low",
+      "guard": "The v1 CONTEXT_DEGRADED stamp is retained in the package; no derived row acquires veto power; no chart-layer product may change on account of this amendment (cc1/cc2)."
+    }
+  ],
+  "mapping_tables": {
+    "gate_media_behaviour": [
+      {
+        "gate": "开门",
+        "office": "opening, entry, opportunity",
+        "media_behaviour": "discovery surfaces where a new visitor arrives cold"
+      },
+      {
+        "gate": "休门",
+        "office": "rest, recourse, pause",
+        "media_behaviour": "low-pressure, browse-at-leisure surfaces"
+      },
+      {
+        "gate": "生门",
+        "office": "generation, value produced",
+        "media_behaviour": "surfaces where interest converts quietly (saves, returns, direct messages)"
+      },
+      {
+        "gate": "伤门",
+        "office": "contest, injury to what is struck",
+        "media_behaviour": "argument and pile-on surfaces: named as friction"
+      },
+      {
+        "gate": "杜门",
+        "office": "closing, blocking, concealment",
+        "media_behaviour": "inside-the-room surfaces: subscriptions, long-form, depth"
+      },
+      {
+        "gate": "景门",
+        "office": "view, display, documents",
+        "media_behaviour": "visual, screen-first, performative surfaces"
+      },
+      {
+        "gate": "死门",
+        "office": "ending, closure, stagnation",
+        "media_behaviour": "surfaces where a message stops travelling: named as friction"
+      },
+      {
+        "gate": "惊门",
+        "office": "alarm, fright, dispute",
+        "media_behaviour": "outrage and rumour surfaces: excluded by this chart"
+      }
+    ],
+    "star_office": [
+      {
+        "star": "天辅",
+        "office": "assistance, teaching, scholarly support"
+      },
+      {
+        "star": "天蓬",
+        "office": "large movement, boldness, expansion with risk"
+      },
+      {
+        "star": "天芮",
+        "office": "difficulty, illness, the lesson that has to be learned"
+      },
+      {
+        "star": "天柱",
+        "office": "speech, argument, the breaking word"
+      },
+      {
+        "star": "天禽",
+        "office": "the centre, holding the middle"
+      },
+      {
+        "star": "天心",
+        "office": "strategy, medicine, precision design"
+      },
+      {
+        "star": "天任",
+        "office": "bearing loads, reliability, service"
+      },
+      {
+        "star": "天英",
+        "office": "radiance, fame, display"
+      },
+      {
+        "star": "天冲",
+        "office": "impulse, charge, the sudden move"
+      }
+    ],
+    "deity_office": [
+      {
+        "deity": "值符",
+        "office": "legitimate authority, that which cannot be disputed"
+      },
+      {
+        "deity": "腾蛇",
+        "office": "entanglement, repetitive reversal, restless change"
+      },
+      {
+        "deity": "太阴",
+        "office": "hidden support, quiet assistance, that which works unannounced"
+      },
+      {
+        "deity": "六合",
+        "office": "alliance, pairing, agreement, joining"
+      },
+      {
+        "deity": "白虎",
+        "office": "force, pressure, the strict edge"
+      },
+      {
+        "deity": "玄武",
+        "office": "opacity, doubt, concealment that misleads"
+      },
+      {
+        "deity": "九地",
+        "office": "burial, shelter, deep holding"
+      },
+      {
+        "deity": "九天",
+        "office": "the highest reach, the widest span, elevation"
+      }
+    ]
+  },
+  "i_atoms": [
+    {
+      "id": "I001",
+      "claim_id": "C001",
+      "premises": [
+        "E005",
+        "E006",
+        "E012",
+        "E021",
+        "E022"
+      ],
+      "rule": "CAP-04 role resolution + explicit chart_field match",
+      "text": "The governing spirit (zhi_fu = TianFu) and the duty gate (zhi_shi = Du men) named in chart_info both resolve to palace 1, and palace 1 also holds the day stem Xin on the heaven plate."
+    },
+    {
+      "id": "I002",
+      "claim_id": "C002",
+      "premises": [
+        "E022",
+        "E012",
+        "E005",
+        "E006"
+      ],
+      "rule": "AR-palette: star/deity/gate names carry their classical office (annex A-patterns marker register)",
+      "text": "The two instruments that define the moment are an educational star and a restraining gate, so the operating mode is teaching carried out selectively."
+    },
+    {
+      "id": "I003",
+      "claim_id": "C003",
+      "premises": [
+        "E085",
+        "E086",
+        "E095",
+        "E091",
+        "E093"
+      ],
+      "rule": "AR-palette: gate/star office + palace-gate relation",
+      "text": "One palace holds the display gate, the widest-reach deity and the radiance star together with a cooperation-favourable stem pair and a house that is fed by the gate."
+    },
+    {
+      "id": "I004",
+      "claim_id": "C004",
+      "premises": [
+        "E074",
+        "E075",
+        "E080",
+        "E082",
+        "E084"
+      ],
+      "rule": "AR-palette: gate/star/deity office",
+      "text": "A generation gate sits with the hidden-support deity and the reliability star in a house that returns value for effort, under a stem pair explicitly said to favour the quiet party."
+    },
+    {
+      "id": "I005",
+      "claim_id": "C005",
+      "premises": [
+        "E023",
+        "E029",
+        "E031",
+        "E032"
+      ],
+      "rule": "AR-palette: marker polarity (ten-stem register)",
+      "text": "The alliance deity and the rest gate share a palace with the Vermilion-Bird-drowns marker and a locked three-qi, so joining is favoured while announcement is not."
+    },
+    {
+      "id": "I006",
+      "claim_id": "C006",
+      "premises": [
+        "E042",
+        "E043",
+        "E045",
+        "E055",
+        "E057",
+        "E069",
+        "E071"
+      ],
+      "rule": "cap: marker class enumeration across palaces",
+      "text": "Three of the nine palaces carry a marker set whose classical reading is obstruction, repetition or breakage when action is forced."
+    },
+    {
+      "id": "I007",
+      "claim_id": "C007",
+      "premises": [
+        "E060",
+        "E061",
+        "E062",
+        "E047"
+      ],
+      "rule": "CAP-08 centre lodging + marker register",
+      "text": "The centre palace holds no gate and no deity; its only content is a doubled conflict stem, and its lone relation runs to the palace that hosts the same stem."
+    },
+    {
+      "id": "I008",
+      "claim_id": "C008",
+      "premises": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ],
+      "rule": "CAP-09 value trace, graph closure",
+      "text": "The nine identical-stem traces form one closed ring over the eight outer palaces with a single spur to the centre, so the chart has no isolated component."
+    },
+    {
+      "id": "I009",
+      "claim_id": "C009",
+      "premises": [
+        "R002",
+        "R007"
+      ],
+      "rule": "CAP-08 opposition rule (annex A-tables: opposition only 1-4 and 6-9)",
+      "text": "Both Luoshu oppositions in this chart carry an identical-stem trace, so the two structural axes are bridged rather than opposed."
+    },
+    {
+      "id": "I010",
+      "claim_id": "C010",
+      "premises": [
+        "E007",
+        "E008",
+        "E009",
+        "E010",
+        "E078",
+        "E100"
+      ],
+      "rule": "derived structure: palace-branch binding taken from the chart's own twelve-stage annotations",
+      "text": "The month and hour pillars share the branch that the chart binds to palace 7, while the day pillar binds to palace 6 and the year to palace 9."
+    },
+    {
+      "id": "I011",
+      "claim_id": "C011",
+      "premises": [
+        "E097",
+        "E099",
+        "E100",
+        "E102",
+        "E104"
+      ],
+      "rule": "AR-palette: gate office + palace-gate relation + marker register",
+      "text": "The opening gate carries maximum-stage stems but its house presses the gate and its stem pair is described as dark first and light afterwards."
+    },
+    {
+      "id": "I012",
+      "claim_id": "C012",
+      "premises": [
+        "E007",
+        "E021",
+        "E051",
+        "E064",
+        "E066"
+      ],
+      "rule": "explicit chart fields: day stem vs day branch placement",
+      "text": "The day stem sits on the heaven plate of the keystone palace while the day branch binds to the wound-gate palace, so the subject's active nature and its seat diverge."
+    },
+    {
+      "id": "I013",
+      "claim_id": "C013",
+      "premises": [
+        "E014",
+        "E015",
+        "E027",
+        "E053"
+      ],
+      "rule": "chart-inline twelve-stage readings",
+      "text": "The keystone combination holds a sprouting stem beside an exhausted one, and the same depleted stage appears in the two adjacent palaces."
+    },
+    {
+      "id": "I014",
+      "claim_id": "C001",
+      "premises": [
+        "E019",
+        "E020"
+      ],
+      "rule": "chart-inline special combination readings",
+      "text": "The keystone palace is additionally marked by hidden patronage and by a house that feeds its gate."
+    },
+    {
+      "id": "I015",
+      "claim_id": "C003",
+      "premises": [
+        "E085",
+        "E086"
+      ],
+      "rule": "AR-palette: deity/gate office",
+      "text": "Display paired with the highest of the eight spirits is the chart's widest-reach pairing."
+    },
+    {
+      "id": "I016",
+      "claim_id": "C011",
+      "premises": [
+        "E106",
+        "E100"
+      ],
+      "rule": "AR-palette: star office",
+      "text": "The strategy star sitting in the maximum-stage house makes the opening function a matter of design rather than luck."
+    }
+  ],
+  "a_atoms": [
+    {
+      "id": "A001",
+      "scenario": "Concentrated, teaching-led build",
+      "activating_condition": "the strategy keeps one voice and one educational core, and routes reach through display while routing value through quiet channels",
+      "chart_basis": [
+        "E005",
+        "E006",
+        "E022",
+        "E086",
+        "E075"
+      ],
+      "rank": 1,
+      "scenario_condition": "if the brand can sustain a single consistent educational voice for the full cycle"
+    },
+    {
+      "id": "A002",
+      "scenario": "Alliance-led build with announcement messaging",
+      "activating_condition": "the strategy leans on partnership and community while pushing announcement-style campaign messages through it",
+      "chart_basis": [
+        "E023",
+        "E029",
+        "E032"
+      ],
+      "rank": 2,
+      "scenario_condition": "if a launch date forces broadcast messaging into the alliance channel"
+    },
+    {
+      "id": "A003",
+      "scenario": "Volume-led build",
+      "activating_condition": "the strategy is judged on frequency and coverage instead of selectivity and depth",
+      "chart_basis": [
+        "E012",
+        "E006"
+      ],
+      "rank": 3,
+      "scenario_condition": "if the calendar is filled to a daily cadence without a measurement plan"
+    },
+    {
+      "id": "A004",
+      "scenario": "Forced-entry build",
+      "activating_condition": "the strategy competes directly in the friction registers, or tries to win the centre by confrontation",
+      "chart_basis": [
+        "E057",
+        "E061",
+        "E071",
+        "E104"
+      ],
+      "rank": 4,
+      "scenario_condition": "if the brand defines itself against a named competitor in tone as well as in positioning"
+    }
+  ]
+}

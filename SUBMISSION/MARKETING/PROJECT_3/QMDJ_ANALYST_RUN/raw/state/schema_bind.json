@@ -1,0 +1,19 @@
+{
+  "bind": "V1: chart_info{ganzhi, zhi_fu, zhi_shi, solar_term, system, method, type} + palaces{<trigram>_<n>: {palace_name, palace_elements[], interpretations[]}}",
+  "cap": "CAP-03",
+  "confidence": "high",
+  "matched_variant": "V1",
+  "palace_key_style": "<trigram_pinyin>_<canonical_number>",
+  "schema_adapter_supplied": false,
+  "top_level_keys": [
+    "chart_info",
+    "palaces"
+  ],
+  "unresolved_ambiguities": [
+    "palace_elements[] is an untyped string array; element roles resolved by CAP-04/CAP-07",
+    "centre palace has no door/deity entries: absence is factual, not an error",
+    "'type' repeats Yin Dun 7 Ju plus rotation and does not contradict zhi_fu/zhi_shi",
+    "frozen_tables.yaml not supplied: annex A-tables fallback used for identity lookup"
+  ],
+  "unsafe": false
+}

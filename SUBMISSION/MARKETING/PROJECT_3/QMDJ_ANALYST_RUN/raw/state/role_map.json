@@ -1,0 +1,227 @@
+{
+  "blocked_core_roles": [],
+  "cap": "CAP-04",
+  "role_state_line": "pillars=RESOLVED palaces_root=RESOLVED palace_identity=RESOLVED heaven_stem=RESOLVED earth_stem=RESOLVED star=RESOLVED door=RESOLVED deity=RESOLVED hosted_stem=RESOLVED zhi_fu=RESOLVED zhi_shi=RESOLVED solar_term=RESOLVED interpretations=RESOLVED void=UNRESOLVED horse=UNRESOLVED board_layout=RESOLVED",
+  "role_states": [
+    {
+      "core": true,
+      "coverage": "FULL",
+      "declared_presence": "explicit",
+      "expect": "one",
+      "found_paths_count": 4,
+      "required_count": 1,
+      "role": "pillars",
+      "sample_paths": [
+        "chart_info/ganzhi/year",
+        "chart_info/ganzhi/month",
+        "chart_info/ganzhi/day"
+      ],
+      "state": "RESOLVED"
+    },
+    {
+      "core": true,
+      "coverage": "FULL",
+      "declared_presence": "explicit",
+      "expect": "one",
+      "found_paths_count": 1,
+      "required_count": 1,
+      "role": "palaces_root",
+      "sample_paths": [
+        "palaces"
+      ],
+      "state": "RESOLVED"
+    },
+    {
+      "core": true,
+      "coverage": "FULL",
+      "declared_presence": "explicit",
+      "expect": "per_palace",
+      "found_paths_count": 9,
+      "required_count": 9,
+      "role": "palace_identity",
+      "sample_paths": [
+        "palaces/kan_1/palace_name",
+        "palaces/kun_2/palace_name",
+        "palaces/zhen_3/palace_name"
+      ],
+      "state": "RESOLVED"
+    },
+    {
+      "core": true,
+      "coverage": "PARTIAL(8/9)",
+      "declared_presence": "explicit",
+      "expect": "per_palace",
+      "found_paths_count": 8,
+      "required_count": 9,
+      "role": "heaven_stem",
+      "sample_paths": [
+        "palaces/kan_1/palace_elements[4]",
+        "palaces/kun_2/palace_elements[4]",
+        "palaces/zhen_3/palace_elements[4]"
+      ],
+      "state": "RESOLVED"
+    },
+    {
+      "core": true,
+      "coverage": "FULL",
+      "declared_presence": "explicit",
+      "expect": "per_palace",
+      "found_paths_count": 9,
+      "required_count": 9,
+      "role": "earth_stem",
+      "sample_paths": [
+        "palaces/kan_1/palace_elements[5]",
+        "palaces/kun_2/palace_elements[5]",
+        "palaces/zhen_3/palace_elements[5]"
+      ],
+      "state": "RESOLVED"
+    },
+    {
+      "core": true,
+      "coverage": "FULL",
+      "declared_presence": "explicit",
+      "expect": "per_palace",
+      "found_paths_count": 9,
+      "required_count": 9,
+      "role": "star",
+      "sample_paths": [
+        "palaces/kan_1/palace_elements[2]",
+        "palaces/kun_2/palace_elements[2]",
+        "palaces/zhen_3/palace_elements[2]"
+      ],
+      "state": "RESOLVED"
+    },
+    {
+      "core": true,
+      "coverage": "PARTIAL(8/9)",
+      "declared_presence": "explicit",
+      "expect": "per_palace",
+      "found_paths_count": 8,
+      "required_count": 9,
+      "role": "door",
+      "sample_paths": [
+        "palaces/kan_1/palace_elements[1]",
+        "palaces/kun_2/palace_elements[1]",
+        "palaces/zhen_3/palace_elements[1]"
+      ],
+      "state": "RESOLVED"
+    },
+    {
+      "core": false,
+      "coverage": "PARTIAL(8/9)",
+      "declared_presence": "partial",
+      "expect": "per_palace",
+      "found_paths_count": 8,
+      "required_count": 9,
+      "role": "deity",
+      "sample_paths": [
+        "palaces/kan_1/palace_elements[0]",
+        "palaces/kun_2/palace_elements[0]",
+        "palaces/zhen_3/palace_elements[0]"
+      ],
+      "state": "RESOLVED"
+    },
+    {
+      "core": false,
+      "coverage": "PARTIAL(1/9)",
+      "declared_presence": "partial",
+      "expect": "per_palace",
+      "found_paths_count": 1,
+      "required_count": 9,
+      "role": "hosted_stem",
+      "sample_paths": [
+        "palaces/zhen_3/interpretations[1]/condition"
+      ],
+      "state": "RESOLVED"
+    },
+    {
+      "core": false,
+      "coverage": "FULL",
+      "declared_presence": "explicit",
+      "expect": "one",
+      "found_paths_count": 1,
+      "required_count": 1,
+      "role": "zhi_fu",
+      "sample_paths": [
+        "chart_info/zhi_fu"
+      ],
+      "state": "RESOLVED"
+    },
+    {
+      "core": false,
+      "coverage": "FULL",
+      "declared_presence": "explicit",
+      "expect": "one",
+      "found_paths_count": 1,
+      "required_count": 1,
+      "role": "zhi_shi",
+      "sample_paths": [
+        "chart_info/zhi_shi"
+      ],
+      "state": "RESOLVED"
+    },
+    {
+      "core": false,
+      "coverage": "FULL",
+      "declared_presence": "explicit",
+      "expect": "one",
+      "found_paths_count": 1,
+      "required_count": 1,
+      "role": "solar_term",
+      "sample_paths": [
+        "chart_info/solar_term"
+      ],
+      "state": "RESOLVED"
+    },
+    {
+      "core": false,
+      "coverage": "FULL",
+      "declared_presence": "partial",
+      "expect": "per_palace",
+      "found_paths_count": 9,
+      "required_count": 9,
+      "role": "interpretations",
+      "sample_paths": [
+        "palaces/kan_1/interpretations",
+        "palaces/kun_2/interpretations",
+        "palaces/zhen_3/interpretations"
+      ],
+      "state": "RESOLVED"
+    },
+    {
+      "core": false,
+      "coverage": "NONE",
+      "declared_presence": "absent",
+      "expect": "per_palace",
+      "found_paths_count": 0,
+      "required_count": 9,
+      "role": "void",
+      "sample_paths": [],
+      "state": "UNRESOLVED"
+    },
+    {
+      "core": false,
+      "coverage": "NONE",
+      "declared_presence": "absent",
+      "expect": "per_palace",
+      "found_paths_count": 0,
+      "required_count": 9,
+      "role": "horse",
+      "sample_paths": [],
+      "state": "UNRESOLVED"
+    },
+    {
+      "core": false,
+      "coverage": "FULL",
+      "declared_presence": "partial",
+      "expect": "one",
+      "found_paths_count": 1,
+      "required_count": 1,
+      "role": "board_layout",
+      "sample_paths": [
+        "chart_info/type"
+      ],
+      "state": "RESOLVED"
+    }
+  ]
+}

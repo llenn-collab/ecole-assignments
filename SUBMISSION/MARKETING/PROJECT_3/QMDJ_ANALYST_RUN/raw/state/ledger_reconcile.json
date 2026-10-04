@@ -1,0 +1,311 @@
+{
+  "all_balance": true,
+  "anomalies": [],
+  "cap": "CAP-14",
+  "closure_line": "0:10 1:14 2:14 3:16 4:13 5:8 6:13 7:13 8:13 9:13 global:None",
+  "orphan_check": {
+    "method": "batch-cited IDs vs registry (CAP-16 re-run)",
+    "result": "see CAP-16 self_audit"
+  },
+  "palace_tallies": [
+    {
+      "absent": 0,
+      "balances": true,
+      "closure_equation": "10 live (6 addressed + 4 deferred) + 0 absent = 10",
+      "palace": 0,
+      "parts": {
+        "addressed": 6,
+        "anomaly": 0,
+        "corroborated": 0,
+        "deferred": 4,
+        "excluded": 0,
+        "unparseable": 0
+      },
+      "registry_ids_in_palace": 10,
+      "summation": {
+        "groups": [
+          {
+            "addressed": 6,
+            "deferred": 3
+          },
+          {
+            "deferred": 1
+          }
+        ],
+        "method": "enumerated_addends<=9",
+        "sum": 10
+      },
+      "total": 10
+    },
+    {
+      "absent": 2,
+      "balances": true,
+      "closure_equation": "12 live (9 addressed + 2 corroborated + 1 deferred) + 2 absent = 14",
+      "palace": 1,
+      "parts": {
+        "addressed": 9,
+        "anomaly": 0,
+        "corroborated": 2,
+        "deferred": 1,
+        "excluded": 0,
+        "unparseable": 0
+      },
+      "registry_ids_in_palace": 12,
+      "summation": {
+        "groups": [
+          {
+            "addressed": 9
+          },
+          {
+            "corroborated": 2,
+            "deferred": 1
+          }
+        ],
+        "method": "enumerated_addends<=9",
+        "sum": 12
+      },
+      "total": 14
+    },
+    {
+      "absent": 2,
+      "balances": true,
+      "closure_equation": "12 live (8 addressed + 4 deferred) + 2 absent = 14",
+      "palace": 2,
+      "parts": {
+        "addressed": 8,
+        "anomaly": 0,
+        "corroborated": 0,
+        "deferred": 4,
+        "excluded": 0,
+        "unparseable": 0
+      },
+      "registry_ids_in_palace": 12,
+      "summation": {
+        "groups": [
+          {
+            "addressed": 8,
+            "deferred": 1
+          },
+          {
+            "deferred": 3
+          }
+        ],
+        "method": "enumerated_addends<=9",
+        "sum": 12
+      },
+      "total": 14
+    },
+    {
+      "absent": 2,
+      "balances": true,
+      "closure_equation": "14 live (8 addressed + 1 corroborated + 5 deferred) + 2 absent = 16",
+      "palace": 3,
+      "parts": {
+        "addressed": 8,
+        "anomaly": 0,
+        "corroborated": 1,
+        "deferred": 5,
+        "excluded": 0,
+        "unparseable": 0
+      },
+      "registry_ids_in_palace": 14,
+      "summation": {
+        "groups": [
+          {
+            "addressed": 8,
+            "corroborated": 1
+          },
+          {
+            "deferred": 5
+          }
+        ],
+        "method": "enumerated_addends<=9",
+        "sum": 14
+      },
+      "total": 16
+    },
+    {
+      "absent": 2,
+      "balances": true,
+      "closure_equation": "11 live (7 addressed + 1 corroborated + 3 deferred) + 2 absent = 13",
+      "palace": 4,
+      "parts": {
+        "addressed": 7,
+        "anomaly": 0,
+        "corroborated": 1,
+        "deferred": 3,
+        "excluded": 0,
+        "unparseable": 0
+      },
+      "registry_ids_in_palace": 11,
+      "summation": {
+        "groups": [
+          {
+            "addressed": 7,
+            "corroborated": 1,
+            "deferred": 1
+          },
+          {
+            "deferred": 2
+          }
+        ],
+        "method": "enumerated_addends<=9",
+        "sum": 11
+      },
+      "total": 13
+    },
+    {
+      "absent": 5,
+      "balances": true,
+      "closure_equation": "3 live (3 addressed) + 5 absent = 8",
+      "palace": 5,
+      "parts": {
+        "addressed": 3,
+        "anomaly": 0,
+        "corroborated": 0,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0
+      },
+      "registry_ids_in_palace": 3,
+      "summation": {
+        "groups": [
+          {
+            "addressed": 3
+          }
+        ],
+        "method": "enumerated_addends<=9",
+        "sum": 3
+      },
+      "total": 8
+    },
+    {
+      "absent": 2,
+      "balances": true,
+      "closure_equation": "11 live (7 addressed + 2 corroborated + 2 deferred) + 2 absent = 13",
+      "palace": 6,
+      "parts": {
+        "addressed": 7,
+        "anomaly": 0,
+        "corroborated": 2,
+        "deferred": 2,
+        "excluded": 0,
+        "unparseable": 0
+      },
+      "registry_ids_in_palace": 11,
+      "summation": {
+        "groups": [
+          {
+            "addressed": 7,
+            "corroborated": 2
+          },
+          {
+            "deferred": 2
+          }
+        ],
+        "method": "enumerated_addends<=9",
+        "sum": 11
+      },
+      "total": 13
+    },
+    {
+      "absent": 2,
+      "balances": true,
+      "closure_equation": "11 live (9 addressed + 2 deferred) + 2 absent = 13",
+      "palace": 7,
+      "parts": {
+        "addressed": 9,
+        "anomaly": 0,
+        "corroborated": 0,
+        "deferred": 2,
+        "excluded": 0,
+        "unparseable": 0
+      },
+      "registry_ids_in_palace": 11,
+      "summation": {
+        "groups": [
+          {
+            "addressed": 9
+          },
+          {
+            "deferred": 2
+          }
+        ],
+        "method": "enumerated_addends<=9",
+        "sum": 11
+      },
+      "total": 13
+    },
+    {
+      "absent": 2,
+      "balances": true,
+      "closure_equation": "11 live (7 addressed + 1 corroborated + 3 deferred) + 2 absent = 13",
+      "palace": 8,
+      "parts": {
+        "addressed": 7,
+        "anomaly": 0,
+        "corroborated": 1,
+        "deferred": 3,
+        "excluded": 0,
+        "unparseable": 0
+      },
+      "registry_ids_in_palace": 11,
+      "summation": {
+        "groups": [
+          {
+            "addressed": 7,
+            "corroborated": 1,
+            "deferred": 1
+          },
+          {
+            "deferred": 2
+          }
+        ],
+        "method": "enumerated_addends<=9",
+        "sum": 11
+      },
+      "total": 13
+    },
+    {
+      "absent": 2,
+      "balances": true,
+      "closure_equation": "11 live (7 addressed + 2 corroborated + 2 deferred) + 2 absent = 13",
+      "palace": 9,
+      "parts": {
+        "addressed": 7,
+        "anomaly": 0,
+        "corroborated": 2,
+        "deferred": 2,
+        "excluded": 0,
+        "unparseable": 0
+      },
+      "registry_ids_in_palace": 11,
+      "summation": {
+        "groups": [
+          {
+            "addressed": 7,
+            "corroborated": 2
+          },
+          {
+            "deferred": 2
+          }
+        ],
+        "method": "enumerated_addends<=9",
+        "sum": 11
+      },
+      "total": 13
+    },
+    {
+      "absent": 0,
+      "balances": true,
+      "closure_equation": "0 global absent slots",
+      "note": "no global absent slot beyond the per-palace rows in this run",
+      "palace": "global"
+    }
+  ],
+  "totals": {
+    "absent_slots": 21,
+    "closed_slots": 127,
+    "live_atoms": 106
+  }
+}

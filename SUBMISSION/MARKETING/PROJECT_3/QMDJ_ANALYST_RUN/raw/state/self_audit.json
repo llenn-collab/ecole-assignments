@@ -1,0 +1,19 @@
+{
+  "cap": "CAP-16",
+  "checklist": {
+    "GAP_REPORT_present_and_empty_for_clean_render": null,
+    "claim_line_count_matches_claim_records": true,
+    "every_ERICA_id_cited_resolves_in_registry": true,
+    "every_claim_has_chart_citations_and_none_cites_case_context": true,
+    "every_live_verdict_cites_archetype_resolution_or_no_competing_candidate": true,
+    "every_palace_has_exactly_one_board_card_and_one_ledger_tally": true,
+    "every_question_facet_has_case_alignment_row_including_zero_rows": true,
+    "every_required_semantic_role_has_recorded_state": true,
+    "no_emulated_product_contradicts_explicit_field_without_anomaly": true
+  },
+  "open_items": [
+    "GAP_REPORT_present_and_empty_for_clean_render"
+  ],
+  "passes": 8,
+  "unresolved_citations": []
+}

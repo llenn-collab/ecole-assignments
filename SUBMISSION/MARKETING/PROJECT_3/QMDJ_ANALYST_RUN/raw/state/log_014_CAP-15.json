@@ -1,0 +1,13 @@
+{
+  "CAP": "CAP-15",
+  "batch": "P6",
+  "call_index": 14,
+  "cost": 266,
+  "in": [
+    "claim_set.json"
+  ],
+  "max_out_tokens": 250,
+  "out": "score_card",
+  "over_cap": true,
+  "status": "OK"
+}

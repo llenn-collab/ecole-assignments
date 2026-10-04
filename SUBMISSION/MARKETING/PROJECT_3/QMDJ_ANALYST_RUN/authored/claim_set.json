@@ -1,0 +1,1594 @@
+{
+  "workbook": {
+    "author": "QMDJ Chart Analyst run QMDJ-P3-001",
+    "compiler_version": "qmdj-analyst/1.0.0",
+    "note": "Authored interpretation layer. Every claim cites explicit chart evidence (E) or computed relations (R). No claim cites the case context as support (law 51 / cc2). Scores are produced by CAP-15, never authored here.",
+    "language_register": "en with Chinese chart terms verbatim"
+  },
+  "q_slots": [
+    {
+      "id": "Q1",
+      "facet": "what content must achieve for the brand",
+      "status": "PRIMARY",
+      "source_quote": "What does content need to achieve for your brand? Choose 1 - 2 primary objectives"
+    },
+    {
+      "id": "Q2",
+      "facet": "how the brand should communicate online (core message, tone, principles)",
+      "status": "PRIMARY",
+      "source_quote": "Define how the brand should communicate online"
+    },
+    {
+      "id": "Q3",
+      "facet": "3-5 content pillars, each with a purpose",
+      "status": "PRIMARY",
+      "source_quote": "Develop 3 - 5 content pillars for the brand. Each pillar should have a clear purpose."
+    },
+    {
+      "id": "Q4",
+      "facet": "2-3 primary platforms, justified by audience behaviour",
+      "status": "PRIMARY",
+      "source_quote": "Choose 2 - 3 primary social platforms"
+    },
+    {
+      "id": "Q5",
+      "facet": "one idea adapted across the selected platforms",
+      "status": "PRIMARY",
+      "source_quote": "Choose one content idea/campaign and show how it would change across the selected platforms"
+    },
+    {
+      "id": "Q6",
+      "facet": "5-6 content concepts incl. two visual executions",
+      "status": "PRIMARY",
+      "source_quote": "Develop 5 - 6 actual content ideas ... At least 2 ideas should be developed visually"
+    },
+    {
+      "id": "Q7",
+      "facet": "one hero campaign idea (insight -> big idea -> message -> execution)",
+      "status": "PRIMARY",
+      "source_quote": "Develop one larger social/content idea for the brand"
+    },
+    {
+      "id": "Q8",
+      "facet": "community and engagement mechanisms",
+      "status": "DEFERRED",
+      "source_quote": "How will your brand turn followers into participants?"
+    },
+    {
+      "id": "Q9",
+      "facet": "creator/influencer strategy and two recommended creators",
+      "status": "DEFERRED",
+      "source_quote": "Define: Who should be the influencer for my brand?"
+    },
+    {
+      "id": "Q10",
+      "facet": "two-week content calendar with cadence rationale",
+      "status": "DEFERRED",
+      "source_quote": "Create a 2 week content plan ... Frequency should have a rationale"
+    },
+    {
+      "id": "Q11",
+      "facet": "5-7 metrics, each tied to an objective, plus a one-month read",
+      "status": "DEFERRED",
+      "source_quote": "Students define 5 - 7 metrics they would track. But they must connect each metric to an objective."
+    }
+  ],
+  "facet_cap": {
+    "limit": 7,
+    "overload": true,
+    "anomaly": "QUESTION_OVERLOAD (raised on AMEND-01)",
+    "ranking_criterion": "DECISION_RELEVANCE rank v2",
+    "ranking_key": "the brief's own evaluation criteria: strategic relevance, creative thinking, platform understanding, integration",
+    "reason": "11 facets detected; the decision_needed slot is now populated from the brief (AMEND-01, DECOMPOSED), so facets are ranked by decision relevance against the brief's own evaluation criteria. Q1-Q7 map onto the four criteria; Q8-Q11 are execution support and are deferred.",
+    "ranking_basis": "CONFIG/context_amendment.json -> facet_ranking",
+    "primary": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5",
+      "Q6",
+      "Q7"
+    ],
+    "deferred": [
+      "Q8",
+      "Q9",
+      "Q10",
+      "Q11"
+    ]
+  },
+  "i_atoms": [
+    {
+      "id": "I001",
+      "claim_id": "C001",
+      "premises": [
+        "E005",
+        "E006",
+        "E012",
+        "E021",
+        "E022"
+      ],
+      "rule": "CAP-04 role resolution + explicit chart_field match",
+      "text": "The governing spirit (zhi_fu = TianFu) and the duty gate (zhi_shi = Du men) named in chart_info both resolve to palace 1, and palace 1 also holds the day stem Xin on the heaven plate."
+    },
+    {
+      "id": "I002",
+      "claim_id": "C002",
+      "premises": [
+        "E022",
+        "E012",
+        "E005",
+        "E006"
+      ],
+      "rule": "AR-palette: star/deity/gate names carry their classical office (annex A-patterns marker register)",
+      "text": "The two instruments that define the moment are an educational star and a restraining gate, so the operating mode is teaching carried out selectively."
+    },
+    {
+      "id": "I003",
+      "claim_id": "C003",
+      "premises": [
+        "E085",
+        "E086",
+        "E095",
+        "E091",
+        "E093"
+      ],
+      "rule": "AR-palette: gate/star office + palace-gate relation",
+      "text": "One palace holds the display gate, the widest-reach deity and the radiance star together with a cooperation-favourable stem pair and a house that is fed by the gate."
+    },
+    {
+      "id": "I004",
+      "claim_id": "C004",
+      "premises": [
+        "E074",
+        "E075",
+        "E080",
+        "E082",
+        "E084"
+      ],
+      "rule": "AR-palette: gate/star/deity office",
+      "text": "A generation gate sits with the hidden-support deity and the reliability star in a house that returns value for effort, under a stem pair explicitly said to favour the quiet party."
+    },
+    {
+      "id": "I005",
+      "claim_id": "C005",
+      "premises": [
+        "E023",
+        "E029",
+        "E031",
+        "E032"
+      ],
+      "rule": "AR-palette: marker polarity (ten-stem register)",
+      "text": "The alliance deity and the rest gate share a palace with the Vermilion-Bird-drowns marker and a locked three-qi, so joining is favoured while announcement is not."
+    },
+    {
+      "id": "I006",
+      "claim_id": "C006",
+      "premises": [
+        "E042",
+        "E043",
+        "E045",
+        "E055",
+        "E057",
+        "E069",
+        "E071"
+      ],
+      "rule": "cap: marker class enumeration across palaces",
+      "text": "Three of the nine palaces carry a marker set whose classical reading is obstruction, repetition or breakage when action is forced."
+    },
+    {
+      "id": "I007",
+      "claim_id": "C007",
+      "premises": [
+        "E060",
+        "E061",
+        "E062",
+        "E047"
+      ],
+      "rule": "CAP-08 centre lodging + marker register",
+      "text": "The centre palace holds no gate and no deity; its only content is a doubled conflict stem, and its lone relation runs to the palace that hosts the same stem."
+    },
+    {
+      "id": "I008",
+      "claim_id": "C008",
+      "premises": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ],
+      "rule": "CAP-09 value trace, graph closure",
+      "text": "The nine identical-stem traces form one closed ring over the eight outer palaces with a single spur to the centre, so the chart has no isolated component."
+    },
+    {
+      "id": "I009",
+      "claim_id": "C009",
+      "premises": [
+        "R002",
+        "R007"
+      ],
+      "rule": "CAP-08 opposition rule (annex A-tables: opposition only 1-4 and 6-9)",
+      "text": "Both Luoshu oppositions in this chart carry an identical-stem trace, so the two structural axes are bridged rather than opposed."
+    },
+    {
+      "id": "I010",
+      "claim_id": "C010",
+      "premises": [
+        "E007",
+        "E008",
+        "E009",
+        "E010",
+        "E078",
+        "E100"
+      ],
+      "rule": "derived structure: palace-branch binding taken from the chart's own twelve-stage annotations",
+      "text": "The month and hour pillars share the branch that the chart binds to palace 7, while the day pillar binds to palace 6 and the year to palace 9."
+    },
+    {
+      "id": "I011",
+      "claim_id": "C011",
+      "premises": [
+        "E097",
+        "E099",
+        "E100",
+        "E102",
+        "E104"
+      ],
+      "rule": "AR-palette: gate office + palace-gate relation + marker register",
+      "text": "The opening gate carries maximum-stage stems but its house presses the gate and its stem pair is described as dark first and light afterwards."
+    },
+    {
+      "id": "I012",
+      "claim_id": "C012",
+      "premises": [
+        "E007",
+        "E021",
+        "E051",
+        "E064",
+        "E066"
+      ],
+      "rule": "explicit chart fields: day stem vs day branch placement",
+      "text": "The day stem sits on the heaven plate of the keystone palace while the day branch binds to the wound-gate palace, so the subject's active nature and its seat diverge."
+    },
+    {
+      "id": "I013",
+      "claim_id": "C013",
+      "premises": [
+        "E014",
+        "E015",
+        "E027",
+        "E053"
+      ],
+      "rule": "chart-inline twelve-stage readings",
+      "text": "The keystone combination holds a sprouting stem beside an exhausted one, and the same depleted stage appears in the two adjacent palaces."
+    },
+    {
+      "id": "I014",
+      "claim_id": "C001",
+      "premises": [
+        "E019",
+        "E020"
+      ],
+      "rule": "chart-inline special combination readings",
+      "text": "The keystone palace is additionally marked by hidden patronage and by a house that feeds its gate."
+    },
+    {
+      "id": "I015",
+      "claim_id": "C003",
+      "premises": [
+        "E085",
+        "E086"
+      ],
+      "rule": "AR-palette: deity/gate office",
+      "text": "Display paired with the highest of the eight spirits is the chart's widest-reach pairing."
+    },
+    {
+      "id": "I016",
+      "claim_id": "C011",
+      "premises": [
+        "E106",
+        "E100"
+      ],
+      "rule": "AR-palette: star office",
+      "text": "The strategy star sitting in the maximum-stage house makes the opening function a matter of design rather than luck."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C001",
+      "label": "Single point of gravity",
+      "batch": "B3",
+      "live": true,
+      "archetype": "ARC-CENTRE-OF-GRAVITY",
+      "archetype_basis": "explicit chart_field zhi_fu and zhi_shi both name palace 1; day stem present on that palace's heaven plate",
+      "candidates": [
+        {
+          "id": "ARC-DISPERSED",
+          "label": "the moment's instruments are spread across palaces",
+          "supported": false
+        },
+        {
+          "id": "ARC-TWO-CENTRES",
+          "label": "two competing centres of gravity",
+          "supported": false
+        }
+      ],
+      "selected_candidate": "ARC-CENTRE-OF-GRAVITY",
+      "no_competing_candidate": false,
+      "cited_E": [
+        "E005",
+        "E006",
+        "E012",
+        "E013",
+        "E019",
+        "E020",
+        "E021",
+        "E022",
+        "E017"
+      ],
+      "cited_R": [],
+      "contradicting_E": [],
+      "citation_class": [
+        "explicit_chart"
+      ],
+      "i_atoms": [
+        "I001",
+        "I014"
+      ],
+      "disposition": "ADDRESSED",
+      "decision_guard": "A concentrated reading may not be used to justify concentrating spend on a single surface without a separate reach case.",
+      "uncertainty": "low",
+      "limitations": "Concentration is a structural observation; it does not by itself rank which surface should receive the concentration.",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "no rebutting candidate in the legal candidate set; competing arcs (dispersed, two-centres) have no chart support"
+    },
+    {
+      "claim_id": "C002",
+      "label": "Restraint as the operating mode",
+      "batch": "B3",
+      "live": true,
+      "archetype": "ARC-RESTRAINT-MODE",
+      "archetype_basis": "duty gate office (closing/blocking) plus governing star office (teaching/assistance)",
+      "candidates": [
+        {
+          "id": "ARC-VOLUME-MODE",
+          "label": "the moment rewards volume and repetition",
+          "supported": false
+        },
+        {
+          "id": "ARC-STEALTH-MODE",
+          "label": "the moment rewards invisibility",
+          "supported": false
+        }
+      ],
+      "selected_candidate": "ARC-RESTRAINT-MODE",
+      "no_competing_candidate": false,
+      "cited_E": [
+        "E005",
+        "E006",
+        "E012",
+        "E022"
+      ],
+      "cited_R": [
+        "R002"
+      ],
+      "contradicting_E": [
+        "E086"
+      ],
+      "citation_class": [
+        "explicit_chart"
+      ],
+      "i_atoms": [
+        "I002"
+      ],
+      "disposition": "ADDRESSED",
+      "decision_guard": "If the deliverable requires a large-volume launch, this claim is the first to be re-tested against the reach claim C003.",
+      "uncertainty": "medium",
+      "limitations": "The contrary palace 8 display cluster (E085, E086, E095) is left visible and carries the reach function; the two readings coexist by palace, not by contradiction.",
+      "rank_status": "bounded",
+      "claim_rank_reason": "the reach palace keeps a competing operating mode alive; A003 and A004 both challenge a restraint-only reading"
+    },
+    {
+      "claim_id": "C003",
+      "label": "Display is the reach engine",
+      "batch": "B3",
+      "live": true,
+      "archetype": "ARC-VISIBILITY-ENGINE",
+      "archetype_basis": "display gate + widest-reach deity + radiance star co-located with a cooperation-favourable stem pair",
+      "candidates": [
+        {
+          "id": "ARC-PAID-REACH-ENGINE",
+          "label": "paid distribution is the reach engine",
+          "supported": false
+        },
+        {
+          "id": "ARC-COLLAB-REACH-ENGINE",
+          "label": "co-created distribution is the reach engine",
+          "supported": true
+        }
+      ],
+      "selected_candidate": "ARC-VISIBILITY-ENGINE",
+      "no_competing_candidate": false,
+      "cited_E": [
+        "E085",
+        "E086",
+        "E091",
+        "E093",
+        "E095"
+      ],
+      "cited_R": [
+        "R008"
+      ],
+      "contradicting_E": [],
+      "citation_class": [
+        "explicit_chart",
+        "computed_structure"
+      ],
+      "i_atoms": [
+        "I003",
+        "I015"
+      ],
+      "disposition": "ADDRESSED",
+      "decision_guard": "Reach built here is display-reach; it must not be reported as trust or conversion.",
+      "uncertainty": "low",
+      "limitations": "The marker 丙加乙 names cooperation; it does not name a platform or a format.",
+      "rank_status": "bounded",
+      "claim_rank_reason": "A001 (teaching-led reach) and A002 (alliance reach) are live alternatives; the display reading is not the only route"
+    },
+    {
+      "claim_id": "C004",
+      "label": "Value accrues through quiet channels",
+      "batch": "B3",
+      "live": true,
+      "archetype": "ARC-PRIVATE-GAIN",
+      "archetype_basis": "generation gate + hidden-support deity + reliability star in a gate-feeds-house palace under the yin-favouring stem pair",
+      "candidates": [
+        {
+          "id": "ARC-PUBLIC-GAIN",
+          "label": "value accrues through public, high-visibility channels",
+          "supported": false
+        },
+        {
+          "id": "ARC-PRIVATE-GAIN",
+          "label": "value accrues through private, low-noise channels",
+          "supported": true
+        }
+      ],
+      "selected_candidate": "ARC-PRIVATE-GAIN",
+      "no_competing_candidate": false,
+      "cited_E": [
+        "E074",
+        "E075",
+        "E080",
+        "E082",
+        "E084"
+      ],
+      "cited_R": [
+        "R006"
+      ],
+      "contradicting_E": [
+        "E077",
+        "E078"
+      ],
+      "citation_class": [
+        "explicit_chart"
+      ],
+      "i_atoms": [
+        "I004"
+      ],
+      "disposition": "ADDRESSED",
+      "decision_guard": "Private-channel value is slow; it may not be used to promise a fast conversion ramp.",
+      "uncertainty": "medium",
+      "limitations": "The same palace's stems sit at the cut-off and death stages (E077, E078): the channel is favourable in kind but currently depleted in force.",
+      "rank_status": "bounded",
+      "claim_rank_reason": "the same palace's stems sit at the cut-off and death stages, so the channel is favourable in kind but depleted in force"
+    },
+    {
+      "claim_id": "C005",
+      "label": "Announcement through the alliance channel fails",
+      "batch": "B3",
+      "live": true,
+      "archetype": "ARC-BROKEN-BROADCAST",
+      "archetype_basis": "alliance deity co-located with the message-sinks marker and a locked three-qi in a house that presses its gate",
+      "candidates": [
+        {
+          "id": "ARC-WORKING-BROADCAST",
+          "label": "the alliance channel carries announcements well",
+          "supported": false
+        },
+        {
+          "id": "ARC-QUIET-ALLIANCE",
+          "label": "the alliance channel works only for quiet, two-way contact",
+          "supported": false
+        }
+      ],
+      "selected_candidate": "ARC-BROKEN-BROADCAST",
+      "no_competing_candidate": false,
+      "cited_E": [
+        "E023",
+        "E024",
+        "E029",
+        "E030",
+        "E031",
+        "E032"
+      ],
+      "cited_R": [
+        "R003"
+      ],
+      "contradicting_E": [],
+      "citation_class": [
+        "explicit_chart"
+      ],
+      "i_atoms": [
+        "I005"
+      ],
+      "disposition": "ADDRESSED",
+      "decision_guard": "Do not use this claim to argue against partnership itself; it constrains the message, not the alliance.",
+      "uncertainty": "medium",
+      "limitations": "The marker is polarity-tagged inauspicious in the register; the alliance deity in the same palace is tagged favourable. Both stay visible.",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "no candidate can be supported against it; the alliance deity itself remains visible as counterweight"
+    },
+    {
+      "claim_id": "C006",
+      "label": "Three friction registers",
+      "batch": "B3",
+      "live": true,
+      "archetype": "ARC-FRICTION-ZONE",
+      "archetype_basis": "enumeration of palace-gate relations and stem pairs across palaces 3, 4 and 6",
+      "candidates": [
+        {
+          "id": "ARC-UNIFORM-FIELD",
+          "label": "the field is uniform and any palace can be forced",
+          "supported": false
+        },
+        {
+          "id": "ARC-FRICTION-ZONE",
+          "label": "three palaces are friction registers",
+          "supported": true
+        }
+      ],
+      "selected_candidate": "ARC-FRICTION-ZONE",
+      "no_competing_candidate": false,
+      "cited_E": [
+        "E035",
+        "E036",
+        "E042",
+        "E043",
+        "E045",
+        "E049",
+        "E050",
+        "E055",
+        "E057",
+        "E063",
+        "E064",
+        "E069",
+        "E071"
+      ],
+      "cited_R": [
+        "R005"
+      ],
+      "contradicting_E": [
+        "E038",
+        "E041"
+      ],
+      "citation_class": [
+        "explicit_chart"
+      ],
+      "i_atoms": [
+        "I006"
+      ],
+      "disposition": "ADDRESSED",
+      "decision_guard": "Friction markers forbid forcing, not acting; nothing in this claim forbids trying a method once and measuring it.",
+      "uncertainty": "low",
+      "limitations": "The counter-evidence is explicit: the same palaces carry sprouting and maturing stages (E038, E041), so the registers are impeded rather than dead.",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "the friction palaces also carry sprouting and maturing stages, which limits rather than rebuts the reading"
+    },
+    {
+      "claim_id": "C007",
+      "label": "The centre is held under contest",
+      "batch": "B3",
+      "live": true,
+      "archetype": "ARC-CONTESTED-CENTRE",
+      "archetype_basis": "centre palace marker register (doubled conflict stem) and its single lodging edge",
+      "candidates": [
+        {
+          "id": "ARC-NEUTRAL-CENTRE",
+          "label": "the centre is neutral and carries no disposition",
+          "supported": false
+        },
+        {
+          "id": "ARC-CONTESTED-CENTRE",
+          "label": "the centre carries a contest disposition",
+          "supported": true
+        }
+      ],
+      "selected_candidate": "ARC-CONTESTED-CENTRE",
+      "no_competing_candidate": false,
+      "cited_E": [
+        "E060",
+        "E061",
+        "E062",
+        "E047"
+      ],
+      "cited_R": [
+        "R004"
+      ],
+      "contradicting_E": [],
+      "citation_class": [
+        "explicit_chart",
+        "computed_structure"
+      ],
+      "i_atoms": [
+        "I007"
+      ],
+      "disposition": "ADDRESSED",
+      "decision_guard": "The centre's own marker is favourable to the guest and unfavourable to the host; do not read this as a licence for aggressive comparative positioning.",
+      "uncertainty": "medium",
+      "limitations": "The centre has no gate and no deity in this chart, so the disposition cannot be stated through a gate office.",
+      "rank_status": "bounded",
+      "claim_rank_reason": "A004 is a live alternative: the centre's own marker is favourable to the guest and unfavourable to the host, so a challenger posture is not excluded by the chart"
+    },
+    {
+      "claim_id": "C008",
+      "label": "One closed circulation",
+      "batch": "B3",
+      "live": true,
+      "archetype": "ARC-CONNECTED-SYSTEM",
+      "archetype_basis": "graph closure of the identical-stem value traces",
+      "candidates": [
+        {
+          "id": "ARC-SILO-STRUCTURE",
+          "label": "the chart contains disconnected islands",
+          "supported": false
+        },
+        {
+          "id": "ARC-CONNECTED-SYSTEM",
+          "label": "every palace is reachable from every other by one route",
+          "supported": true
+        }
+      ],
+      "selected_candidate": "ARC-CONNECTED-SYSTEM",
+      "no_competing_candidate": false,
+      "cited_E": [
+        "E013",
+        "E021",
+        "E033",
+        "E040",
+        "E046",
+        "E047",
+        "E051",
+        "E058",
+        "E060",
+        "E065",
+        "E072",
+        "E076",
+        "E083",
+        "E087",
+        "E094",
+        "E098"
+      ],
+      "cited_R": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ],
+      "contradicting_E": [],
+      "citation_class": [
+        "computed_structure"
+      ],
+      "i_atoms": [
+        "I008"
+      ],
+      "disposition": "ADDRESSED",
+      "decision_guard": "A connected structure argues for one system, not for one channel; the claim says nothing about which route is fastest.",
+      "uncertainty": "low",
+      "limitations": "The ring is a relation over stem values only; it is not a claim about timing or about the strength of each edge.",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "graph closure verified by CAP-09 over all nine traces"
+    },
+    {
+      "claim_id": "C009",
+      "label": "Two axes are already bridged",
+      "batch": "B3",
+      "live": true,
+      "archetype": "ARC-BRIDGED-AXES",
+      "archetype_basis": "both Luoshu opposition pairs coincide with an identical-stem trace",
+      "candidates": [
+        {
+          "id": "ARC-OPEN-AXES",
+          "label": "the opposition axes are open cuts",
+          "supported": false
+        },
+        {
+          "id": "ARC-BRIDGED-AXES",
+          "label": "the opposition axes are bridged by value",
+          "supported": true
+        }
+      ],
+      "selected_candidate": "ARC-BRIDGED-AXES",
+      "no_competing_candidate": false,
+      "cited_E": [
+        "E021",
+        "E051",
+        "E065",
+        "E081"
+      ],
+      "cited_R": [
+        "R002",
+        "R007"
+      ],
+      "contradicting_E": [],
+      "citation_class": [
+        "computed_structure"
+      ],
+      "i_atoms": [
+        "I009"
+      ],
+      "disposition": "ADDRESSED",
+      "decision_guard": "A bridged axis is a channel, not a recommendation; it says the two ends can speak, not that they agree.",
+      "uncertainty": "medium",
+      "limitations": "Only two of the six Luoshu axis relations exist in this chart's opposition rule; the other pairings are not oppositions at all.",
+      "rank_status": "bounded",
+      "claim_rank_reason": "only two oppositions exist under the chart's own opposition rule; the claim cannot be extended to the other pairings"
+    },
+    {
+      "claim_id": "C010",
+      "label": "Temporal weight sits twice on palace 7",
+      "batch": "B4",
+      "live": true,
+      "archetype": "ARC-DOUBLED-TEMPORAL-SIGNATURE",
+      "archetype_basis": "month and hour pillars share the branch the chart binds to palace 7",
+      "candidates": [
+        {
+          "id": "ARC-EVEN-TEMPORAL-SPREAD",
+          "label": "the four pillars spread evenly across palaces",
+          "supported": false
+        },
+        {
+          "id": "ARC-DOUBLED-TEMPORAL-SIGNATURE",
+          "label": "one palace receives two pillar signatures",
+          "supported": true
+        }
+      ],
+      "selected_candidate": "ARC-DOUBLED-TEMPORAL-SIGNATURE",
+      "no_competing_candidate": false,
+      "cited_E": [
+        "E007",
+        "E008",
+        "E009",
+        "E010",
+        "E078",
+        "E100"
+      ],
+      "cited_R": [],
+      "contradicting_E": [],
+      "citation_class": [
+        "computed_structure"
+      ],
+      "i_atoms": [
+        "I010"
+      ],
+      "disposition": "ADDRESSED",
+      "decision_guard": "Branch-to-palace binding is derived from the chart's own stage annotations; it may not be extended into weekdays, hours or campaign dates.",
+      "uncertainty": "medium",
+      "limitations": "The chart supplies no civil date or clock time, so the temporal reading is structural only.",
+      "rank_status": "bounded",
+      "claim_rank_reason": "structural only: the chart supplies no civil date or clock time"
+    },
+    {
+      "claim_id": "C011",
+      "label": "The opening is real but pressed",
+      "batch": "B3",
+      "live": true,
+      "archetype": "ARC-PRESSED-OPENING",
+      "archetype_basis": "opening gate in a house that presses it, with maximum-stage stems and a gradual-reveal marker",
+      "candidates": [
+        {
+          "id": "ARC-CLEAN-OPENING",
+          "label": "the opening is unobstructed",
+          "supported": false
+        },
+        {
+          "id": "ARC-PRESSED-OPENING",
+          "label": "the opening exists but is pressed",
+          "supported": true
+        }
+      ],
+      "selected_candidate": "ARC-PRESSED-OPENING",
+      "no_competing_candidate": false,
+      "cited_E": [
+        "E097",
+        "E099",
+        "E100",
+        "E102",
+        "E104",
+        "E106"
+      ],
+      "cited_R": [],
+      "contradicting_E": [],
+      "citation_class": [
+        "explicit_chart"
+      ],
+      "i_atoms": [
+        "I011",
+        "I016"
+      ],
+      "disposition": "ADDRESSED",
+      "decision_guard": "Do not read maximum stage as permission to launch without preparation; the house in this palace presses its gate.",
+      "uncertainty": "medium",
+      "limitations": "The gradual-reveal marker is a general reading; the chart does not state a schedule.",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "the pressed-opening reading is supported by two independent marker classes (house-gate relation and stem pair)"
+    },
+    {
+      "claim_id": "C012",
+      "label": "Subject stem and subject seat diverge",
+      "batch": "B4",
+      "live": true,
+      "archetype": "ARC-DIVERGENT-SUBJECT",
+      "archetype_basis": "day stem placement on the heaven plate of one palace, day branch bound to another",
+      "candidates": [
+        {
+          "id": "ARC-SUBJECT-KEYSTONE-ONLY",
+          "label": "the subject sits entirely in the keystone palace",
+          "supported": false
+        },
+        {
+          "id": "ARC-SUBJECT-FRICTION-ONLY",
+          "label": "the subject sits entirely in the friction house",
+          "supported": false
+        },
+        {
+          "id": "ARC-DIVERGENT-SUBJECT",
+          "label": "the subject's stem and seat occupy different palaces",
+          "supported": true
+        }
+      ],
+      "selected_candidate": "ARC-DIVERGENT-SUBJECT",
+      "no_competing_candidate": false,
+      "cited_E": [
+        "E007",
+        "E021",
+        "E051",
+        "E063",
+        "E064",
+        "E066"
+      ],
+      "cited_R": [
+        "R002"
+      ],
+      "contradicting_E": [],
+      "citation_class": [
+        "explicit_chart",
+        "computed_structure"
+      ],
+      "i_atoms": [
+        "I012"
+      ],
+      "disposition": "ADDRESSED",
+      "decision_guard": "Divergence is a recorded state, not an invitation to pick the flattering half; both halves must appear in any recommendation that cites this claim.",
+      "uncertainty": "low",
+      "limitations": "The stem-and-branch reading follows the standard subject binding declared in the dependency assumptions; that binding is assumption-indexed.",
+      "rank_status": "bounded",
+      "claim_rank_reason": "depends on assumption A-001 (subject binding); retained with an explicit uncertainty marker"
+    },
+    {
+      "claim_id": "C013",
+      "label": "Auspicious combination on a depleted substrate",
+      "batch": "B4",
+      "live": true,
+      "archetype": "ARC-SEED-UNDER-FROST",
+      "archetype_basis": "twelve-stage readings for the two stems that form the keystone combination, plus the same stage in the adjacent bridged palace",
+      "candidates": [
+        {
+          "id": "ARC-FULL-STOREHOUSE",
+          "label": "the keystone palace is fully provisioned",
+          "supported": false
+        },
+        {
+          "id": "ARC-SEED-UNDER-FROST",
+          "label": "the combination is favourable but the substrate is depleted",
+          "supported": true
+        }
+      ],
+      "selected_candidate": "ARC-SEED-UNDER-FROST",
+      "no_competing_candidate": false,
+      "cited_E": [
+        "E014",
+        "E015",
+        "E017",
+        "E027",
+        "E053"
+      ],
+      "cited_R": [
+        "R002"
+      ],
+      "contradicting_E": [
+        "E016",
+        "E018"
+      ],
+      "citation_class": [
+        "explicit_chart"
+      ],
+      "i_atoms": [
+        "I013"
+      ],
+      "disposition": "ADDRESSED",
+      "decision_guard": "A depleted substrate argues for sequenced effort, not for delaying the start indefinitely.",
+      "uncertainty": "medium",
+      "limitations": "The doubled marker (E016, E018) restates the combination on the hidden plate; it is corroboration of the same reading, not a second finding.",
+      "rank_status": "bounded",
+      "claim_rank_reason": "the doubled hidden-plate marker corroborates the combination but does not strengthen the substrate reading"
+    }
+  ],
+  "a_atoms": [
+    {
+      "id": "A001",
+      "scenario": "Concentrated, teaching-led build",
+      "activating_condition": "the strategy keeps one voice and one educational core, and routes reach through display while routing value through quiet channels",
+      "chart_basis": [
+        "E005",
+        "E006",
+        "E022",
+        "E086",
+        "E075"
+      ],
+      "rank": 1,
+      "scenario_condition": "if the brand can sustain a single consistent educational voice for the full cycle"
+    },
+    {
+      "id": "A002",
+      "scenario": "Alliance-led build with announcement messaging",
+      "activating_condition": "the strategy leans on partnership and community while pushing announcement-style campaign messages through it",
+      "chart_basis": [
+        "E023",
+        "E029",
+        "E032"
+      ],
+      "rank": 2,
+      "scenario_condition": "if a launch date forces broadcast messaging into the alliance channel"
+    },
+    {
+      "id": "A003",
+      "scenario": "Volume-led build",
+      "activating_condition": "the strategy is judged on frequency and coverage instead of selectivity and depth",
+      "chart_basis": [
+        "E012",
+        "E006"
+      ],
+      "rank": 3,
+      "scenario_condition": "if the calendar is filled to a daily cadence without a measurement plan"
+    },
+    {
+      "id": "A004",
+      "scenario": "Forced-entry build",
+      "activating_condition": "the strategy competes directly in the friction registers, or tries to win the centre by confrontation",
+      "chart_basis": [
+        "E057",
+        "E061",
+        "E071",
+        "E104"
+      ],
+      "rank": 4,
+      "scenario_condition": "if the brand defines itself against a named competitor in tone as well as in positioning"
+    }
+  ],
+  "cmap_rows": [
+    {
+      "claim_id": "C001",
+      "Q": "Q1",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E005",
+        "E006",
+        "E019",
+        "E020"
+      ]
+    },
+    {
+      "claim_id": "C003",
+      "Q": "Q1",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E085",
+        "E086",
+        "E095"
+      ]
+    },
+    {
+      "claim_id": "C002",
+      "Q": "Q1",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E012",
+        "E022"
+      ]
+    },
+    {
+      "claim_id": "C007",
+      "Q": "Q1",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E061"
+      ]
+    },
+    {
+      "claim_id": "C005",
+      "Q": "Q1",
+      "tag": "NO_CHART_SUPPORT",
+      "chart_citation_ids": []
+    },
+    {
+      "claim_id": "C005",
+      "Q": "Q2",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E029",
+        "E030"
+      ]
+    },
+    {
+      "claim_id": "C002",
+      "Q": "Q2",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E005",
+        "E006",
+        "E022"
+      ]
+    },
+    {
+      "claim_id": "C013",
+      "Q": "Q2",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E014",
+        "E015"
+      ]
+    },
+    {
+      "claim_id": "C006",
+      "Q": "Q2",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E049",
+        "E050"
+      ]
+    },
+    {
+      "claim_id": "C004",
+      "Q": "Q2",
+      "tag": "NO_CHART_SUPPORT",
+      "chart_citation_ids": []
+    },
+    {
+      "claim_id": "C001",
+      "Q": "Q3",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E022",
+        "E020"
+      ]
+    },
+    {
+      "claim_id": "C003",
+      "Q": "Q3",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E086",
+        "E085"
+      ]
+    },
+    {
+      "claim_id": "C004",
+      "Q": "Q3",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E075",
+        "E074"
+      ]
+    },
+    {
+      "claim_id": "C005",
+      "Q": "Q3",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E023"
+      ]
+    },
+    {
+      "claim_id": "C002",
+      "Q": "Q3",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E012"
+      ]
+    },
+    {
+      "claim_id": "C007",
+      "Q": "Q3",
+      "tag": "NO_CHART_SUPPORT",
+      "chart_citation_ids": []
+    },
+    {
+      "claim_id": "C003",
+      "Q": "Q4",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E085",
+        "E086",
+        "E095"
+      ]
+    },
+    {
+      "claim_id": "C002",
+      "Q": "Q4",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E012",
+        "E022"
+      ]
+    },
+    {
+      "claim_id": "C004",
+      "Q": "Q4",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E074",
+        "E082"
+      ]
+    },
+    {
+      "claim_id": "C005",
+      "Q": "Q4",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E023"
+      ]
+    },
+    {
+      "claim_id": "C006",
+      "Q": "Q4",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E050",
+        "E064"
+      ]
+    },
+    {
+      "claim_id": "C009",
+      "Q": "Q4",
+      "tag": "NO_CHART_SUPPORT",
+      "chart_citation_ids": []
+    },
+    {
+      "claim_id": "C001",
+      "Q": "Q5",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E017",
+        "E019"
+      ]
+    },
+    {
+      "claim_id": "C008",
+      "Q": "Q5",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ]
+    },
+    {
+      "claim_id": "C010",
+      "Q": "Q5",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E078"
+      ]
+    },
+    {
+      "claim_id": "C011",
+      "Q": "Q5",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E097",
+        "E102"
+      ]
+    },
+    {
+      "claim_id": "C004",
+      "Q": "Q6",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E075",
+        "E074",
+        "E084"
+      ]
+    },
+    {
+      "claim_id": "C003",
+      "Q": "Q6",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E091",
+        "E086"
+      ]
+    },
+    {
+      "claim_id": "C002",
+      "Q": "Q6",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E022",
+        "E005"
+      ]
+    },
+    {
+      "claim_id": "C006",
+      "Q": "Q6",
+      "tag": "NO_CHART_SUPPORT",
+      "chart_citation_ids": []
+    },
+    {
+      "claim_id": "C001",
+      "Q": "Q7",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E017",
+        "E018",
+        "E019",
+        "E020"
+      ]
+    },
+    {
+      "claim_id": "C011",
+      "Q": "Q7",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E097",
+        "E102",
+        "E104"
+      ]
+    },
+    {
+      "claim_id": "C013",
+      "Q": "Q7",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E014",
+        "E015"
+      ]
+    },
+    {
+      "claim_id": "C012",
+      "Q": "Q7",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E021",
+        "E066"
+      ]
+    },
+    {
+      "claim_id": "C005",
+      "Q": "Q8",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E023",
+        "E029"
+      ]
+    },
+    {
+      "claim_id": "C004",
+      "Q": "Q8",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E074",
+        "E075",
+        "E082"
+      ]
+    },
+    {
+      "claim_id": "C006",
+      "Q": "Q8",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E063",
+        "E064"
+      ]
+    },
+    {
+      "claim_id": "C005",
+      "Q": "Q9",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E023"
+      ]
+    },
+    {
+      "claim_id": "C004",
+      "Q": "Q9",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E074",
+        "E084"
+      ]
+    },
+    {
+      "claim_id": "C002",
+      "Q": "Q9",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E022"
+      ]
+    },
+    {
+      "claim_id": "C010",
+      "Q": "Q10",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E008",
+        "E009",
+        "E078"
+      ]
+    },
+    {
+      "claim_id": "C002",
+      "Q": "Q10",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E012",
+        "E006"
+      ]
+    },
+    {
+      "claim_id": "C013",
+      "Q": "Q10",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E014",
+        "E015"
+      ]
+    },
+    {
+      "claim_id": "C006",
+      "Q": "Q10",
+      "tag": "NO_CHART_SUPPORT",
+      "chart_citation_ids": []
+    },
+    {
+      "claim_id": "C003",
+      "Q": "Q11",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E086",
+        "E085",
+        "E095"
+      ]
+    },
+    {
+      "claim_id": "C004",
+      "Q": "Q11",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E074",
+        "E075"
+      ]
+    },
+    {
+      "claim_id": "C011",
+      "Q": "Q11",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E097",
+        "E104"
+      ]
+    },
+    {
+      "claim_id": "C001",
+      "Q": "Q11",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E019"
+      ]
+    },
+    {
+      "claim_id": "C009",
+      "Q": "Q11",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "R007"
+      ]
+    },
+    {
+      "claim_id": "C012",
+      "Q": "Q11",
+      "tag": "CONTRADICTS_KNOWN",
+      "chart_citation_ids": []
+    }
+  ],
+  "conk": [
+    {
+      "id": "CONK01",
+      "statement": "The deliverable is a marketing assignment titled '2: Content & Social Media Strategy'.",
+      "source": "case context: assignment.title / assignment.subtitle",
+      "authority_class": "CONK_DECOMPOSED",
+      "conflict_semantics": "POTENTIAL_CONFLICT (a conflict would be reported, not used as a veto)"
+    },
+    {
+      "id": "CONK02",
+      "statement": "The submission format is a presentation (PPT/PDF/slides) that continues the same document as the previous assignment.",
+      "source": "case context: assignment.submission",
+      "authority_class": "CONK_DECOMPOSED",
+      "conflict_semantics": "POTENTIAL_CONFLICT (a conflict would be reported, not used as a veto)"
+    },
+    {
+      "id": "CONK03",
+      "statement": "The strategy must build on a strategic foundation created in Assignment 1.",
+      "source": "case context: assignment.assignment_objective",
+      "authority_class": "CONK_DECOMPOSED",
+      "conflict_semantics": "POTENTIAL_CONFLICT (a conflict would be reported, not used as a veto)"
+    },
+    {
+      "id": "CONK04",
+      "statement": "A brand and a target persona exist for the student and are defined outside the supplied material.",
+      "source": "case context: assignment_objective + slide 4 note referencing the persona created in Assignment 1",
+      "authority_class": "CONK_DECOMPOSED",
+      "conflict_semantics": "POTENTIAL_CONFLICT (a conflict would be reported, not used as a veto)"
+    }
+  ],
+  "unk": [
+    {
+      "id": "UNK01",
+      "prohibition": "The brand's identity, category and positioning must not be assumed or resolved.",
+      "source": "not present anywhere in the supplied material"
+    },
+    {
+      "id": "UNK02",
+      "prohibition": "The persona's attributes must not be assumed or resolved.",
+      "source": "not present anywhere in the supplied material"
+    },
+    {
+      "id": "UNK03",
+      "prohibition": "The brand's current channel mix and performance data must not be assumed or resolved.",
+      "source": "not present anywhere in the supplied material"
+    },
+    {
+      "id": "UNK04",
+      "prohibition": "Whether a product launch is planned must not be assumed or resolved.",
+      "source": "not present anywhere in the supplied material"
+    }
+  ],
+  "CONK_conflicts": [],
+  "rt_rows": [
+    {
+      "id": "A001",
+      "criticizes": "C001",
+      "kind": "support",
+      "status": "live",
+      "text": "A concentrated, teaching-led build is the scenario the keystone palace activates; it supports the single-gravity claim rather than competing with it."
+    },
+    {
+      "id": "A001",
+      "criticizes": "C002",
+      "kind": "support",
+      "status": "live",
+      "text": "Teaching from behind a closed door is exactly the restraint reading; the alternative (volume) has no palace of its own."
+    },
+    {
+      "id": "A001",
+      "criticizes": "C003",
+      "kind": "alternative",
+      "status": "live",
+      "text": "Teaching-led reach competes with display-led reach: the governing star suggests the audience arrives to learn, not to watch."
+    },
+    {
+      "id": "A001",
+      "criticizes": "C007",
+      "kind": "rebut",
+      "status": "live",
+      "text": "A build that never enters the centre is not affected by the centre's contest disposition; the claim bounds the strategy only if the strategy fights for the middle."
+    },
+    {
+      "id": "A002",
+      "criticizes": "C005",
+      "kind": "support",
+      "status": "live",
+      "text": "The alliance scenario confirms that joining is favoured while announcement is not."
+    },
+    {
+      "id": "A002",
+      "criticizes": "C003",
+      "kind": "rebut",
+      "status": "live",
+      "text": "If reach arrives through partners rather than through display, the display palace is a supporting engine, not the engine."
+    },
+    {
+      "id": "A002",
+      "criticizes": "C007",
+      "kind": "support",
+      "status": "live",
+      "text": "An alliance-led build that pushes announcements into the alliance channel walks straight into the broken-broadcast marker."
+    },
+    {
+      "id": "A003",
+      "criticizes": "C002",
+      "kind": "rebut",
+      "status": "live",
+      "text": "A volume-led build directly contradicts the restraint reading; the chart answers it with the duty gate sitting in the keystone palace."
+    },
+    {
+      "id": "A003",
+      "criticizes": "C006",
+      "kind": "support",
+      "status": "live",
+      "text": "High cadence runs the calendar straight through the three friction registers; the scenario is the practical test of the friction claim."
+    },
+    {
+      "id": "A004",
+      "criticizes": "C002",
+      "kind": "alternative",
+      "status": "live",
+      "text": "A challenger posture uses the centre's own disposition, which is favourable to the guest and to attack; it is an alternative operating mode, not a violation of the chart."
+    },
+    {
+      "id": "A004",
+      "criticizes": "C007",
+      "kind": "alternative",
+      "status": "live",
+      "text": "The centre's marker favours the attacking guest; what it excludes is reading the centre as neutral, not entering it as a challenger."
+    },
+    {
+      "id": "A004",
+      "criticizes": "C006",
+      "kind": "rebut",
+      "status": "superseded",
+      "text": "Forced entry into the friction registers is rebutted by the fold: three palaces carry breakage markers and the fold leaves no candidate standing."
+    }
+  ],
+  "unk_guards": [
+    {
+      "claim_id": "C012",
+      "unk_id": "UNK02",
+      "resolves": false,
+      "action": "uncertainty_marker_only",
+      "note": "C012 states a structural divergence inside the chart only. It makes no statement about the persona, so it does not resolve UNK02; the persona slot remains open."
+    }
+  ],
+  "context_amendment": {
+    "id": "AMEND-01",
+    "record": "CONFIG/context_amendment.json",
+    "context_status_v2": "CONTEXT_FREE_PROSE_ACCEPTED",
+    "context_status_v1_retained": "CONTEXT_DEGRADED",
+    "slots_filled": [
+      "casting_reason",
+      "question",
+      "subject",
+      "domain",
+      "timeframe_of_interest",
+      "decision_needed"
+    ],
+    "row_tag": "DECOMPOSED",
+    "authority_note": "rows derived from prose never enter CONK/UNK at full authority; CONK01-CONK04 are re-stamped CONK_DECOMPOSED and carry POTENTIAL_CONFLICT semantics instead of veto"
+  }
+}
