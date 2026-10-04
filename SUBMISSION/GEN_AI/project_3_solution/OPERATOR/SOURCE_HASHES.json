@@ -1,0 +1,16 @@
+{
+  "brief": {
+    "path": "ASSIGNMENTS/GEN_AI/project_3.yaml",
+    "sha256": "5f641d01f096e6a1de5b2654da30bc6048085999214ce203fcb93388bae39cc0"
+  },
+  "research_pack": {
+    "path": "ASSIGNMENTS/GEN_AI/project_3_research.yaml",
+    "sha256": "88a687279df66203dc86f5ba3b96860e5207149d6a7bd25a04c1f0f8d4c3f5b1"
+  },
+  "chart_package_seal": {
+    "path": "SUBMISSION/GEN_AI/project_3/package/seal.json",
+    "package_source_sha256": "20dc73a91a46c4dca78cca6fc9bc7520b91c7b16d9edb18fb93f76d1e8360a15"
+  },
+  "raw_chart_source_read": false,
+  "guard": "DENY_READ QMDJ/ enforced by tools/guarded.py; denied attempts logged"
+}

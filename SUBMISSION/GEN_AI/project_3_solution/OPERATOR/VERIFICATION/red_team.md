@@ -1,0 +1,20 @@
+# Red Team — adversarial passes over this package
+
+| # | Probe | Target | Finding | Outcome |
+|---|---|---|---|---|
+| 001 | adversarial_rederivation | BSC-001 | An equally supportable opposite reading exists: the same evidence (stored core, concealed deity, late phases) supports a purely quiet, low-signal brand with no campaign voice at all. Adjudication: the shipped direction survives only because the brief requires a campaign with a hero shot and a plan of action — a brand with no public face cannot satisfy REQ-017–021. Not a tie: the constraint decides. | resolved_by_requirements |
+| 002 | citation_integrity | all deliverables | Every chart citation in SUBMISSION resolves in the adapted registry; abstract/chart ids never appear in SUBMISSION (they appear only in ANNOTATED, LAYER_A and OPERATOR). | pass |
+| 003 | leaf_citation_discipline | bindings | No parent-only citations: each binding cites leaf evidence atoms (E/R) or a claim id with its own support list. Zero LEAF_CITATION anomalies. | pass |
+| 004 | coverage_check | requirement ledger | All must-level requirements are COVERED; the four must_not rows are SATISFIED_BY_ABSENCE with recorded proof; should-level rows are covered or carried with reasons. | pass |
+| 005 | hard_constraint_satisfaction | BSC-004 | One candidate is vetoed by the audience-invention constraint and was never shipped as a live direction; the veto is recorded in OPERATOR. | pass_with_veto |
+| 006 | blocked_requirement_review | requirement ledger | No must-level requirement is blocked. One input gap (mood-board pin identity, HP-008) is declared and does not block any requirement, because the referenced visual styles are named with their research basis. | pass_with_gap |
+| 007 | fallback_transparency | package | No fallback pack was used: the brief specifies its deliverables, so requirement-bound coverage applies. fallback_mode=false everywhere. | not_applicable |
+| 008 | pdf_anchor_fidelity | requirement registry | Source is a structured document, not a PDF: page anchors were degraded to section anchors and the source format is recorded. No quoted requirement text was paraphrased in the registry — all quotes are verbatim. | pass |
+| 009 | anomaly_suppression | chart package consumption | The adapted package's anomalies, invalid chains, gap rows, two unconfirmed explicit markers and the board-verification gap are all carried into LAYER_A and OPERATOR, and drive HP-001/HP-004/HP-006. Nothing was suppressed to clean the answer. | pass |
+| 010 | package_staleness_check | inputs | Brief, research pack and chart package hashes are recorded in the manifest. The chart source was never read by this run (the path guard denies it); the package seal verifies. | pass |
+| 011 | unsupported_format_review | deliverables | All deliverables are markdown/text, which the runtime supports. No non-text artefact (logo artwork, key visual bitmap) is claimed or shipped; the logo exclusion is terminal. | pass |
+| 012 | tie_review | best_solution | No unresolved tie: the winner leads the runner-up on requirement coverage and on the differentiation criterion; no tie group was dropped or silently resolved. | pass |
+| 013 | requirement_map_completeness | CMAP | Every requirement facet carries exactly one alignment row, including the facets whose only honest answer is NO_CHART_SUPPORT (product facts, price, audience, mood-board pin identity, and any timing figure). Zero rows are shown as zeros. | pass |
+| 014 | conflict_review | known facts | One draft direction (a name chosen to fit the brand's register rather than the research) was CONFLICT_WITH_KNOWN against the brief's traceability requirement and the research attestation. It was downgraded and kept visible rather than rewritten. | pass_with_downgrade |
+
+Every probe ran against the shipped artefacts, not against intentions. Two probes end in `pass_with_veto` and `pass_with_downgrade` because the honest outcome was not a clean pass — the veto and the downgraded draft are both kept visible in the operator tree.

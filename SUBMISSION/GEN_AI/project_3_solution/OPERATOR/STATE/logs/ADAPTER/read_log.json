@@ -1,0 +1,347 @@
+{
+ "phase_read_attempts": 68,
+ "reads_denied": 0,
+ "read_log": [
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/seal.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/00_package_manifest.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/03_chart_overview.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/04_palace_identity_resolution.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/05_structure_evidence.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/06_palace_coverage_matrix.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/07_pattern_state_registry.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/09_case_alignment.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/10_solution_hypotheses.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/11_dependency_assumptions.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/12_uncertainty_limits.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/14_gap_report.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/15_tool_event_log.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/16_provenance_appendix.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/08_claim_lines.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/ledger.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/PROMPT/qmdj_chart_analyst_charter.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/config/archetype_rubric.yaml",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/13_decision_support.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/13_decision_support.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/README.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/raw/board_card.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/raw/source_fingerprint.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/review/red_team.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/review/red_team.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/atoms_E.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/atoms_R.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/case_context_digest.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/case_status.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/claims.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/claims_resolved.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/cmap.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/composites.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/coverage_batches.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/evidence_registry.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/ledger.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/normalized_fields.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/palace_identity.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/patterns.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/pillars.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/roles.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/scorecard.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/self_audit.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/validation.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/work/wiki_index.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/full_report.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/00_package_manifest.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/01_validity_boundary.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/02_case_context_digest.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/03_chart_overview.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/04_palace_identity_resolution.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/05_structure_evidence.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/06_palace_coverage_matrix.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/07_pattern_state_registry.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/08_claim_lines.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/09_case_alignment.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/10_solution_hypotheses.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/11_dependency_assumptions.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/12_uncertainty_limits.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/13_decision_support.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/14_gap_report.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/15_tool_event_log.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/16_provenance_appendix.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/sections/17_pattern_for_reuse.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/renders/bounded_renders.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/renders/brief_1_brand.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/renders/brief_2_product.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3/package/renders/brief_3_campaign.md",
+   "allowed": true,
+   "code": "OK"
+  }
+ ],
+ "note": "written at the end of adapter.py; the log is this phase's own accounting"
+}

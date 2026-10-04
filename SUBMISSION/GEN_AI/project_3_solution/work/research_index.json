@@ -1,0 +1,866 @@
+{
+  "source_format": "market_research_report",
+  "source_path": "ASSIGNMENTS/GEN_AI/project_3_research.yaml",
+  "index_count": 74,
+  "rows": [
+    {
+      "id": "RS-001",
+      "locator": "Part 1 · Market Size and Trajectory",
+      "heading": "Market Size and Trajectory",
+      "kind": "section",
+      "excerpt": "The global ready-to-drink (RTD) coffee market reached an estimated valuation between $28.45 billion and $29.40 billion in 2024–2025, and is projected to expand to between $42.50 billion and $59.79 billion over the next d",
+      "table_caption": "Retail Format & Product Tier — Distribution, Revenue Mix, and Growth",
+      "table_headers": [
+        "Retail Format & Product Tier",
+        "Primary Distribution Channels",
+        "Share of RTD Revenue Mix",
+        "Projected 5-Year CAGR"
+      ],
+      "item_headings": []
+    },
+    {
+      "id": "RS-002",
+      "locator": "Part 1 · The Shift: Authority to Mass",
+      "heading": "The Shift: Authority to Mass",
+      "kind": "section",
+      "excerpt": "The category traces an evolutionary arc of cultural democratization: the migration from (the creative, uncompromising, exclusive authority of the craft roaster) to (the receptive, ubiquitous, scalable reality of mass com",
+      "table_caption": "Evolutionary Phases of RTD Coffee",
+      "table_headers": [
+        "Evolutionary Phase",
+        "Historical Epoch",
+        "Defining Operational & Brand Dynamics"
+      ],
+      "item_headings": []
+    },
+    {
+      "id": "RS-003",
+      "locator": "Part 1 · The Threshold",
+      "heading": "The Threshold",
+      "kind": "section",
+      "excerpt": "The retail shelf has breached the threshold of sustainable category navigation, entering a state of hyper-saturation. Within the past three years, grocery cold cases have transformed from organized merchandising sections",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-004",
+      "locator": "Part 1 · The Anxiety: Latent Consumer Tension",
+      "heading": "The Anxiety: Latent Consumer Tension",
+      "kind": "section",
+      "excerpt": "Beneath the commercial expansion of premium RTD coffee lies the \"Anxiety\" — an unspoken undercurrent of consumer skepticism regarding freshness, price integrity, and industrial processing. While marketing narratives depi",
+      "table_caption": "Processing Paradigms — Chemical, Microbiological, and Sensory Trade-Offs",
+      "table_headers": [
+        "Processing Paradigm",
+        "Chemical & Microbiological Profile",
+        "Sensory & Quality Trade-Offs"
+      ],
+      "item_headings": [
+        "The Lyons Magnus National Contamination Recall (2022)",
+        "The Death Wish Nitro Cold Brew Recall (2017)",
+        "Absence of Federal Standard of Identity"
+      ]
+    },
+    {
+      "id": "RS-005",
+      "locator": "Part 1 · The Anxiety: Latent Consumer Tension · The Lyons Magnus National Contamination Recall (2022)",
+      "heading": "The Lyons Magnus National Contamination Recall (2022)",
+      "kind": "item",
+      "excerpt": "Over 80 commercial RTD products — including cartons and cans produced for Stumptown, Oatly, Intelligentsia, Cafe Grumpy, and Premier Protein — were voluntarily recalled due to systematic breaches in commercial sterility ",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-006",
+      "locator": "Part 1 · The Anxiety: Latent Consumer Tension · The Death Wish Nitro Cold Brew Recall (2017)",
+      "heading": "The Death Wish Nitro Cold Brew Recall (2017)",
+      "kind": "item",
+      "excerpt": "Death Wish Coffee recalled its 11-ounce nitro cold brew cans after failing to validate a retort kill step for a low-acid, nitrogenated beverage in hermetically sealed packaging, highlighting the tension between rapid DTC",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-007",
+      "locator": "Part 1 · The Anxiety: Latent Consumer Tension · Absence of Federal Standard of Identity",
+      "heading": "Absence of Federal Standard of Identity",
+      "kind": "item",
+      "excerpt": "The FDA enforces no legal \"Standard of Identity\" defining what constitutes \"Cold Brew.\" Industrial manufacturers can brew low-grade Robusta beans using conventional high-temperature hot brewing, rapidly chill the output ",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-008",
+      "locator": "Part 2 · Competitive matrix",
+      "heading": "Competitive matrix",
+      "kind": "table",
+      "excerpt": "",
+      "table_caption": null,
+      "table_headers": [
+        "Brand & Heritage",
+        "Positioning Statement & Core Identity",
+        "Design System & Visual Vernacular",
+        "Market Position & Ownership"
+      ],
+      "item_headings": []
+    },
+    {
+      "id": "RS-009",
+      "locator": "Part 2 · Brand profile · La Colombe: The Industrialized Artisan",
+      "heading": "La Colombe: The Industrialized Artisan",
+      "kind": "brand_profile",
+      "excerpt": "La Colombe positions its RTD business around replicating the tactile, foam-forward sensory experience of a freshly poured cafe draft latte. Guided by the retail ethos \"From Our Café To Your Everyday\" and supported by mar",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-010",
+      "locator": "Part 2 · Brand profile · Stumptown Coffee Roasters: The Displaced Originator",
+      "heading": "Stumptown Coffee Roasters: The Displaced Originator",
+      "kind": "brand_profile",
+      "excerpt": "Stumptown represents the historical vanguard of Third Wave cold extraction. Its identity centers on rugged Pacific Northwest counterculture, analog warmth, and direct-trade sourcing purity. Founded in 1999 on Division St",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-011",
+      "locator": "Part 2 · Brand profile · Blue Bottle Coffee: The Monastic Minimalist",
+      "heading": "Blue Bottle Coffee: The Monastic Minimalist",
+      "kind": "brand_profile",
+      "excerpt": "Blue Bottle embodies sensory purity, architectural discipline, and hyper-curated restraint. Sourcing inspiration from traditional Japanese kissaten coffee houses, the brand champions hospitality, freshness, and the remov",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-012",
+      "locator": "Part 2 · Brand profile · Rise Brewing Co: The Energetic Innovator",
+      "heading": "Rise Brewing Co: The Energetic Innovator",
+      "kind": "brand_profile",
+      "excerpt": "Rise positions itself at the intersection of natural functional energy, organic certification, and plant-based indulgence. It aims to deliver a velvety, low-acid, draft-beer mouthfeel powered by organic oat milk and nitr",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-013",
+      "locator": "Part 2 · Brand profile · Chameleon Organic Coffee: The Commoditized Pioneer",
+      "heading": "Chameleon Organic Coffee: The Commoditized Pioneer",
+      "kind": "brand_profile",
+      "excerpt": "Chameleon represents accessible, pantry-staple organic cold brew. Its identity emphasizes slow steeping, Austin independent culture, and versatile home-consumption formats. Founded in Austin, Texas in 2010 by Chris Campb",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-014",
+      "locator": "Part 2 · Brand profile · High Brew Coffee: The Kinetic Utilitarian",
+      "heading": "High Brew Coffee: The Kinetic Utilitarian",
+      "kind": "brand_profile",
+      "excerpt": "High Brew rejects third-wave artisanal pretension, aligning its product with on-the-go functional performance. It positions canned cold brew as an everyday natural alternative to artificial energy drinks and carbonated s",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-015",
+      "locator": "Part 2 · Brand profile · Califia Farms: The Plant-Based Aesthetician",
+      "heading": "Califia Farms: The Plant-Based Aesthetician",
+      "kind": "brand_profile",
+      "excerpt": "Califia Farms approaches the RTD coffee category through the lens of plant-based culinary indulgence. It crafts almond, oat, and coconut milk cold-brew lattes designed to provide a rich cafe experience without dairy fats",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-016",
+      "locator": "Part 3 · Demographics",
+      "heading": "Demographics",
+      "kind": "section",
+      "excerpt": "The premium ready-to-drink coffee consumer base is anchored primarily within Millennial and older Generation Z cohorts (ages 20 to 42), with secondary adoption expanding among high-income, urban Generation X professional",
+      "table_caption": "Target Buyer Segments",
+      "table_headers": [
+        "Target Buyer",
+        "Demographic Profile & Geography",
+        "Core Purchase Motivations & Formats",
+        "Aesthetic & Status Signaler / Preferred Brands"
+      ],
+      "item_headings": []
+    },
+    {
+      "id": "RS-017",
+      "locator": "Part 3 · Psychographics: Moon Governance (Emotional, Cyclical, Ritual)",
+      "heading": "Psychographics: Moon Governance (Emotional, Cyclical, Ritual)",
+      "kind": "section",
+      "excerpt": "Rather than functioning as a transactional dose of caffeine, the consumption of premium RTD coffee operates under Moon Governance — it is emotional, cyclical, and deeply ritualized.",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": [
+        "The Morning Boundary Marker",
+        "The Mid-Afternoon Pivot (2:30 PM)",
+        "Identity Signaling and Visual Culture",
+        "Structural Substitution Dynamics"
+      ]
+    },
+    {
+      "id": "RS-018",
+      "locator": "Part 3 · Psychographics: Moon Governance (Emotional, Cyclical, Ritual) · The Morning Boundary Marker",
+      "heading": "The Morning Boundary Marker",
+      "kind": "item",
+      "excerpt": "For the premium consumer, the initial sip of iced coffee is not merely a wake-up call; it is a psychological boundary marker. Cracking the tab of a chilled, pressurized can signals the shift from private rest to active p",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-019",
+      "locator": "Part 3 · Psychographics: Moon Governance (Emotional, Cyclical, Ritual) · The Mid-Afternoon Pivot (2:30 PM)",
+      "heading": "The Mid-Afternoon Pivot (2:30 PM)",
+      "kind": "item",
+      "excerpt": "The second purchasing peak occurs during the mid-afternoon energy trough. At this hour, the purchase fulfills an emotional need: a micro-respite from sustained cognitive labor. It is framed as an earned indulgence, a por",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-020",
+      "locator": "Part 3 · Psychographics: Moon Governance (Emotional, Cyclical, Ritual) · Identity Signaling and Visual Culture",
+      "heading": "Identity Signaling and Visual Culture",
+      "kind": "item",
+      "excerpt": "The handheld beverage container has become an expressive lifestyle accessory. Carrying an understated, matte-finished can of Blue Bottle or an illustrated can of La Colombe telegraphs cultural fluency, design sensibility",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-021",
+      "locator": "Part 3 · Psychographics: Moon Governance (Emotional, Cyclical, Ritual) · Structural Substitution Dynamics",
+      "heading": "Structural Substitution Dynamics",
+      "kind": "item",
+      "excerpt": "The premium RTD beverage replaces several legacy habits: It replaces the daily, time-consuming cafe visit for hybrid workers who desire specialty quality without waiting in line. It displaces conventional carbonated soft",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-022",
+      "locator": "Part 3 · Decision Factors",
+      "heading": "Decision Factors",
+      "kind": "section",
+      "excerpt": "",
+      "table_caption": "Evaluation Priorities",
+      "table_headers": [
+        "Evaluation Priority",
+        "Sensory & Structural Attribute",
+        "Underlying Consumer Expectation"
+      ],
+      "item_headings": []
+    },
+    {
+      "id": "RS-023",
+      "locator": "Part 3 · The Questions: The Silent Internal Monologue",
+      "heading": "The Questions: The Silent Internal Monologue",
+      "kind": "section",
+      "excerpt": "When a shopper stands before the refrigerated case, hand outstretched toward a $5.99 can of cold brew, an internal dialogue occurs between perceived brand prestige and pragmatic valuation:",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "RS-024",
+      "locator": "Part 4 · Packaging Formats and Semiotic Significance",
+      "heading": "Packaging Formats and Semiotic Significance",
+      "kind": "section",
+      "excerpt": "Color Coding systems within the category are organized into distinct semiotic families:",
+      "table_caption": "Container Format — Structural Specification and Semiotic Codes",
+      "table_headers": [
+        "Container Format",
+        "Structural Specification",
+        "Semiotic Codes"
+      ],
+      "item_headings": [
+        "Wood Coding (Raw Kraft, Warm Oat, Muted Sage, Terracotta, Ochre)",
+        "Earth Coding (Warm Cream, Rich Caramel, Mocha Brown, Latte Foam)",
+        "Fire Coding (Neon Orange, Aggressive Crimson, Electric Yellow)"
+      ]
+    },
+    {
+      "id": "RS-025",
+      "locator": "Part 4 · Packaging Formats and Semiotic Significance · Wood Coding (Raw Kraft, Warm Oat, Muted Sage, Terracotta, Ochre)",
+      "heading": "Wood Coding (Raw Kraft, Warm Oat, Muted Sage, Terracotta, Ochre)",
+      "kind": "item",
+      "excerpt": "Utilized by Califia Farms, Minor Figures, and plant-based lattes. Communicates agricultural origins, oat field provenance, dietary health, and low environmental impact.",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-026",
+      "locator": "Part 4 · Packaging Formats and Semiotic Significance · Earth Coding (Warm Cream, Rich Caramel, Mocha Brown, Latte Foam)",
+      "heading": "Earth Coding (Warm Cream, Rich Caramel, Mocha Brown, Latte Foam)",
+      "kind": "item",
+      "excerpt": "Codes for indulgence, dairy comfort, smooth mouthfeel, and low acidity. Used to reassure mainstream consumers that the liquid is creamy and sweet rather than bitter.",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-027",
+      "locator": "Part 4 · Packaging Formats and Semiotic Significance · Fire Coding (Neon Orange, Aggressive Crimson, Electric Yellow)",
+      "heading": "Fire Coding (Neon Orange, Aggressive Crimson, Electric Yellow)",
+      "kind": "item",
+      "excerpt": "Utilized by High Brew and energy-crossover brands. Signals intense stimulation, caffeine volume, speed, and athletic utility. This palette is largely avoided by super-premium craft roasters, as it reads as synthetic and ",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-028",
+      "locator": "Part 4 · Typography",
+      "heading": "Typography",
+      "kind": "section",
+      "excerpt": "Typography serves as the primary gateway determining whether an RTD product is perceived as artisanal craft, high-luxury minimalism, or commercial fuel:",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": [
+        "Mid-Century Workwear & Nostalgic Serifs",
+        "Swiss Modernist & Grotesque Sans-Serifs",
+        "Soft Humanist Serifs",
+        "Heavy Distressed Industrial Gothic"
+      ]
+    },
+    {
+      "id": "RS-029",
+      "locator": "Part 4 · Typography · Mid-Century Workwear & Nostalgic Serifs",
+      "heading": "Mid-Century Workwear & Nostalgic Serifs",
+      "kind": "item",
+      "excerpt": "Rendered through arched layouts, Cooper Black, Windsor, Hobo, or weathered hand-painted display faces (e.g., Stumptown, Chameleon). Evokes the era of early trade roasters, manual labor, and traditional craftsmanship.",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-030",
+      "locator": "Part 4 · Typography · Swiss Modernist & Grotesque Sans-Serifs",
+      "heading": "Swiss Modernist & Grotesque Sans-Serifs",
+      "kind": "item",
+      "excerpt": "Typified by crisp, geometric, tracked-out sans-serifs such as Helvetica Neue, Univers, or custom architectural fonts (e.g., Blue Bottle, Minor Figures). This typography strips away emotion in favor of objective clarity a",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-031",
+      "locator": "Part 4 · Typography · Soft Humanist Serifs",
+      "heading": "Soft Humanist Serifs",
+      "kind": "item",
+      "excerpt": "Utilizing refined, high-contrast editorial serifs with sweeping swashes (e.g., Califia Farms). Evokes modern lifestyle editorial design, culinary romance, and gentle wellness.",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-032",
+      "locator": "Part 4 · Typography · Heavy Distressed Industrial Gothic",
+      "heading": "Heavy Distressed Industrial Gothic",
+      "kind": "item",
+      "excerpt": "Tall, condensed, aggressive typefaces with hard angles (e.g., High Brew, Black Rifle). Signals functional horsepower, utilitarian endurance, and masculine mass-market positioning.",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-033",
+      "locator": "Part 4 · Photography and Art Direction Codes",
+      "heading": "Photography and Art Direction Codes",
+      "kind": "section",
+      "excerpt": "",
+      "table_caption": "Production Dimensions — Premium Craft vs. Mass Commercial Paradigms",
+      "table_headers": [
+        "Production Dimension",
+        "Premium Craft Paradigm",
+        "Mass Commercial Paradigm"
+      ],
+      "item_headings": []
+    },
+    {
+      "id": "RS-034",
+      "locator": "Part 4 · Material and Tactile Sensoria",
+      "heading": "Material and Tactile Sensoria",
+      "kind": "section",
+      "excerpt": "Premium signaling in RTD packaging relies heavily on haptic and material qualities:",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": [
+        "Matte Soft-Touch Finishes",
+        "Tactile Substrates",
+        "Metallic Restraint",
+        "The Condensation Cue"
+      ]
+    },
+    {
+      "id": "RS-035",
+      "locator": "Part 4 · Material and Tactile Sensoria · Matte Soft-Touch Finishes",
+      "heading": "Matte Soft-Touch Finishes",
+      "kind": "item",
+      "excerpt": "High-end canned cold brews use matte, micro-textured varnish or tactile paper labels instead of standard high-gloss shrink sleeves. This surface feel creates a chalky, velvet texture in the hand that reduces reflective g",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-036",
+      "locator": "Part 4 · Material and Tactile Sensoria · Tactile Substrates",
+      "heading": "Tactile Substrates",
+      "kind": "item",
+      "excerpt": "Paperboard cartons and applied labels use uncoated, fibrous kraft or textured, cotton-rich paper stocks reminiscent of wine bottles, signaling small-scale batch production and organic integrity.",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-037",
+      "locator": "Part 4 · Material and Tactile Sensoria · Metallic Restraint",
+      "heading": "Metallic Restraint",
+      "kind": "item",
+      "excerpt": "While mass energy brands utilize garish holographic foils, premium RTD brands employ restrained brushed silver (the exposed aluminum can wall itself) or micro- embossed matte-gold foil stamps denoting origin lots, harves",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-038",
+      "locator": "Part 4 · Material and Tactile Sensoria · The Condensation Cue",
+      "heading": "The Condensation Cue",
+      "kind": "item",
+      "excerpt": "Premium beverage imagery relies on natural condensation beads running down a matte container. Semiotically, this communicates internal temperature, absolute freshness, and cold refreshment without relying on synthetic ic",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-039",
+      "locator": "Part 4 · Label Information Architecture",
+      "heading": "Label Information Architecture",
+      "kind": "section",
+      "excerpt": "The visual layout of a premium RTD label is defined by restraint and clear typographic hierarchy:",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": [
+        "Minimal Front-of-Pack (FoP)",
+        "Process Transparency",
+        "Restrained Certifications"
+      ]
+    },
+    {
+      "id": "RS-040",
+      "locator": "Part 4 · Label Information Architecture · Minimal Front-of-Pack (FoP)",
+      "heading": "Minimal Front-of-Pack (FoP)",
+      "kind": "item",
+      "excerpt": "Leading premium brands limit front panel communication to three core elements: the brand mark, the product category (e.g., \"Cold Brew,\" \"Nitro Latte\"), and a singular distinguishing parameter (e.g., \"Single Origin Colomb",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-041",
+      "locator": "Part 4 · Label Information Architecture · Process Transparency",
+      "heading": "Process Transparency",
+      "kind": "item",
+      "excerpt": "Rather than making broad claims like \"Delicious Hand-Crafted Brew,\" premium labels provide specific extraction and sourcing details: \"Steeped for 18 hours at 38°F,\" \"Washed Process Arabica,\" or \"Bourbon & Caturra Varieta",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-042",
+      "locator": "Part 4 · Label Information Architecture · Restrained Certifications",
+      "heading": "Restrained Certifications",
+      "kind": "item",
+      "excerpt": "Third-party certifications (USDA Organic, Fair Trade Certified, B-Corp, Non-GMO Project Verified) are rendered at small scales in subdued monochrome palettes near the barcode, functioning as quiet validations for discern",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-043",
+      "locator": "Part 5 · Historical Evolution of Category Advertising",
+      "heading": "Historical Evolution of Category Advertising",
+      "kind": "section",
+      "excerpt": "",
+      "table_caption": "Advertising Eras",
+      "table_headers": [
+        "Advertising Era",
+        "Core Positioning Theme",
+        "Primary Media Channels",
+        "Dominant Tone of Voice"
+      ],
+      "item_headings": []
+    },
+    {
+      "id": "RS-044",
+      "locator": "Part 5 · Tone of Voice Archetypes",
+      "heading": "Tone of Voice Archetypes",
+      "kind": "section",
+      "excerpt": "",
+      "table_caption": "Brand Voice Archetypes",
+      "table_headers": [
+        "Brand Voice Archetype",
+        "Representative Brands",
+        "Characteristic Messaging & Copy Style"
+      ],
+      "item_headings": []
+    },
+    {
+      "id": "RS-045",
+      "locator": "Part 5 · Casting, Representation, and Human Energy",
+      "heading": "Casting, Representation, and Human Energy",
+      "kind": "section",
+      "excerpt": "The human presence within premium RTD coffee campaigns has shifted from fast-paced commercial activity toward calm, contemplative lifestyle portraiture:",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": [
+        "Casting Direction",
+        "Action versus Reflection",
+        "Product Interaction"
+      ]
+    },
+    {
+      "id": "RS-046",
+      "locator": "Part 5 · Casting, Representation, and Human Energy · Casting Direction",
+      "heading": "Casting Direction",
+      "kind": "item",
+      "excerpt": "Talent skews toward authentic creatives, architects, ceramicists, tech-adjacent professionals, and naturalists aged 24 to 38. Styling is understated and intentional: unironed raw linens, textured knitwear, architectural ",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-047",
+      "locator": "Part 5 · Casting, Representation, and Human Energy · Action versus Reflection",
+      "heading": "Action versus Reflection",
+      "kind": "item",
+      "excerpt": "Mass energy drinks and legacy corporate coffees portray their protagonists running through airports, dancing, or high-fiving colleagues in bright corporate spaces. Premium RTD creative depicts reflective, quiet moments: ",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-048",
+      "locator": "Part 5 · Casting, Representation, and Human Energy · Product Interaction",
+      "heading": "Product Interaction",
+      "kind": "item",
+      "excerpt": "The can is treated as a natural extension of personal style rather than an aggressively brandished prop. Talent is rarely shown grinning with the can pushed directly into the camera lens; instead, the can rests naturally",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-049",
+      "locator": "Part 5 · Film, Motion, and Sonic Branding",
+      "heading": "Film, Motion, and Sonic Branding",
+      "kind": "section",
+      "excerpt": "In video campaigns and high-end social storytelling, production approaches reflect specialized art-house aesthetics:",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": [
+        "Cinematography",
+        "Pacing and Movement",
+        "Sound Design and Sonic Identity"
+      ]
+    },
+    {
+      "id": "RS-050",
+      "locator": "Part 5 · Film, Motion, and Sonic Branding · Cinematography",
+      "heading": "Cinematography",
+      "kind": "item",
+      "excerpt": "Directors use 16mm or 35mm film stock, or digital sensors paired with vintage anamorphic lenses, to achieve soft highlight halation, organic grain, and shallow depths of field. The color grade is desaturated and warm, pr",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-051",
+      "locator": "Part 5 · Film, Motion, and Sonic Branding · Pacing and Movement",
+      "heading": "Pacing and Movement",
+      "kind": "item",
+      "excerpt": "Cameras move using slow, continuous tracking shots or lock off on compositions, allowing human action to unfold naturally across the frame. Rapid-fire cuts and kinetic speed ramps common in soda marketing are avoided.",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-052",
+      "locator": "Part 5 · Film, Motion, and Sonic Branding · Sound Design and Sonic Identity",
+      "heading": "Sound Design and Sonic Identity",
+      "kind": "item",
+      "excerpt": "Creative campaigns avoid upbeat commercial pop tracks, opting instead for minimal ambient compositions, solo piano, modern jazz, or rhythmic indie-folk instrumentation. Sound design foregrounds organic, tactile audio: th",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-053",
+      "locator": "Part 6 · Discovery Moments",
+      "heading": "Discovery Moments",
+      "kind": "section",
+      "excerpt": "",
+      "table_caption": "Entry Vectors — Triggers, Friction Points, and Conversion Mechanisms",
+      "table_headers": [
+        "Entry Vector",
+        "Triggering Context & Friction Point",
+        "Primary Psychological Conversion Mechanism"
+      ],
+      "item_headings": []
+    },
+    {
+      "id": "RS-054",
+      "locator": "Part 6 · Dos and Don'ts — Constraints & Sensitivities: Legal, Regulatory, and Food Science Boundaries",
+      "heading": "Dos and Don'ts — Constraints & Sensitivities: Legal, Regulatory, and Food Science Boundaries",
+      "kind": "section",
+      "excerpt": "",
+      "table_caption": "Structural Barriers — Consumer Hesitation and Mitigation",
+      "table_headers": [
+        "Structural Barrier",
+        "Consumer Hesitation & Root Doubt",
+        "Conversion Trigger & Mitigation Strategy"
+      ],
+      "item_headings": []
+    },
+    {
+      "id": "RS-055",
+      "locator": "Part 6 · Cultural Sensitivities",
+      "heading": "Cultural Sensitivities",
+      "kind": "section",
+      "excerpt": "",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": [
+        "Avoiding Coffee Elitism",
+        "Sourcing Integrity and Economic Ethics",
+        "Cultural Gentrification"
+      ]
+    },
+    {
+      "id": "RS-056",
+      "locator": "Part 6 · Cultural Sensitivities · Avoiding Coffee Elitism",
+      "heading": "Avoiding Coffee Elitism",
+      "kind": "item",
+      "excerpt": "A brand that adopts an overly precious, patronizing tone — demanding that consumers appreciate \"notes of fermented elderberry and wet slate\" — alienates the mass grocery shopper who simply wants a smooth, refreshing morn",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-057",
+      "locator": "Part 6 · Cultural Sensitivities · Sourcing Integrity and Economic Ethics",
+      "heading": "Sourcing Integrity and Economic Ethics",
+      "kind": "item",
+      "excerpt": "Today's premium beverage consumers are increasingly sensitive to greenwashing. Simply stamping a generic, unverified \"Direct Trade\" claim on a label invites skepticism. Brands should provide verifiable supply-chain trans",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-058",
+      "locator": "Part 6 · Cultural Sensitivities · Cultural Gentrification",
+      "heading": "Cultural Gentrification",
+      "kind": "item",
+      "excerpt": "Premium coffee packaging that leans heavily into urban industrial themes can sometimes read as an ungrounded appropriation of blue-collar culture. Modern visual storytelling should celebrate the agricultural producers an",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-059",
+      "locator": "Part 6 · Strategic Brand Guardrails",
+      "heading": "Strategic Brand Guardrails",
+      "kind": "section",
+      "excerpt": "",
+      "table_caption": "Creative Direction Directives & Prohibitions",
+      "table_headers": [
+        "Strategic Dimension",
+        "Creative Direction: Directives & Prohibitions"
+      ],
+      "item_headings": []
+    },
+    {
+      "id": "RS-060",
+      "locator": "Part 7 · Q1 · The Freshness-Industrialization Paradox",
+      "heading": "The Freshness-Industrialization Paradox",
+      "kind": "question_answer",
+      "excerpt": "The central unresolved tension in the premium ready-to-drink coffee category is the Freshness-Industrialization Paradox. Third-wave coffee built its reputation on freshness, ephemeral aromatics, light-roast single-origin",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-061",
+      "locator": "Part 7 · Q2 · What visual cues instantly say 'premium RTD coffee' vs. 'basic iced coffee'?",
+      "heading": "What visual cues instantly say 'premium RTD coffee' vs. 'basic iced coffee'?",
+      "kind": "question_answer",
+      "excerpt": "What visual cues instantly say 'premium RTD coffee' vs. 'basic iced coffee'?",
+      "table_caption": "Visual & Material Touchpoints — Super-Premium vs. Mass Commodity Signifiers",
+      "table_headers": [
+        "Visual & Material Touchpoint",
+        "Super-Premium Signifiers ($5.50 – $7.50)",
+        "Mass Commodity Signifiers ($2.00 – $3.50)"
+      ],
+      "item_headings": []
+    },
+    {
+      "id": "RS-062",
+      "locator": "Part 7 · Q3 · What has changed in how this category looks and speaks over the past 5 years?",
+      "heading": "What has changed in how this category looks and speaks over the past 5 years?",
+      "kind": "question_answer",
+      "excerpt": "Over the past five years, the category's aesthetic and verbal identity has shifted across three key dimensions:",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": [
+        "From Nostalgic Heritage to Architectural Minimalism",
+        "From Craft Process to Functional Formulation",
+        "From Sole Coffee Purism to Textural Hybridization"
+      ]
+    },
+    {
+      "id": "RS-063",
+      "locator": "Part 7 · Q3 · From Nostalgic Heritage to Architectural Minimalism",
+      "heading": "From Nostalgic Heritage to Architectural Minimalism",
+      "kind": "item",
+      "excerpt": "The visual language of the late 2010s was dominated by Third-Wave rustic cues: kraft paper labels, typewriter fonts, woodblock prints, hand-lettered sign-painter typography, and Portland-style workwear branding (as seen ",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-064",
+      "locator": "Part 7 · Q3 · From Craft Process to Functional Formulation",
+      "heading": "From Craft Process to Functional Formulation",
+      "kind": "item",
+      "excerpt": "Five years ago, brand messaging centered on brewing techniques: \"Slow-steeped for 24 hours,\" \"Dual-stage cold filtration,\" or \"Single-origin micro-lot.\" While process remains relevant, current marketing highlights functi",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-065",
+      "locator": "Part 7 · Q3 · From Sole Coffee Purism to Textural Hybridization",
+      "heading": "From Sole Coffee Purism to Textural Hybridization",
+      "kind": "item",
+      "excerpt": "In 2018, the conversation was led by purists championing single-origin black coffee. Driven by Generation Z consumer preferences and modern cafe culture, cold coffee is now increasingly viewed as a flexible canvas for te",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-066",
+      "locator": "Part 7 · Q4 · Where is there a gap between what brands are doing and what buyers actually want?",
+      "heading": "Where is there a gap between what brands are doing and what buyers actually want?",
+      "kind": "question_answer",
+      "excerpt": "The primary category whitespace lies in the unaddressed demand for Pure, True-Cold Single-Origin Terroir with Radical Sourcing Transparency — delivered without industrial retort off-notes, masking agents, or corporate bl",
+      "table_caption": "Market Gaps — Brand Behavior vs. Buyer Desire",
+      "table_headers": [
+        "What Brands Are Doing",
+        "What Buyers Actually Want"
+      ],
+      "item_headings": []
+    },
+    {
+      "id": "RS-067",
+      "locator": "Part 7 · Q5 · If launching a new premium RTD coffee tomorrow, what are the biggest mistakes to avoid?",
+      "heading": "If launching a new premium RTD coffee tomorrow, what are the biggest mistakes to avoid?",
+      "kind": "question_answer",
+      "excerpt": "If launching a new premium RTD coffee tomorrow, what are the biggest mistakes to avoid?",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": [
+        "Do not launch with vague, generic artisanal buzzwords",
+        "Avoid hyper-kinetic, aggressive hustle-culture slogans",
+        "Do not produce an elegant, hyper-minimalist can with inferior liquid",
+        "Do not rely solely on 'Organic, Plant-Based, Eco-Friendly' positioning",
+        "Do not use cheap industrial retort canning lines"
+      ]
+    },
+    {
+      "id": "RS-068",
+      "locator": "Part 7 · Q5 · Do not launch with vague, generic artisanal buzzwords",
+      "heading": "Do not launch with vague, generic artisanal buzzwords",
+      "kind": "item",
+      "excerpt": "Avoid terms like \"Master-Crafted,\" \"Small Batch,\" \"Artisanal Selection,\" or \"Hand-Roasted.\" Modern consumers view these unsubstantiated marketing phrases as meaningless filler. If your packaging claims exceptional qualit",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-069",
+      "locator": "Part 7 · Q5 · Avoid hyper-kinetic, aggressive hustle-culture slogans",
+      "heading": "Avoid hyper-kinetic, aggressive hustle-culture slogans",
+      "kind": "item",
+      "excerpt": "Do not use phrases like \"UNLEASH YOUR GRIND,\" \"HIGH-IMPACT ENERGY,\" or \"CRUSH YOUR DAY.\" This high-stimulant, gym-culture tone devalues the premium coffee experience, dragging the product down to the level of commodity c",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-070",
+      "locator": "Part 7 · Q5 · Do not produce an elegant, hyper-minimalist can with inferior liquid",
+      "heading": "Do not produce an elegant, hyper-minimalist can with inferior liquid",
+      "kind": "item",
+      "excerpt": "If the liquid inside is a bitter, burnt, shelf-stable retort extract, the brand loses credibility. When an educated buyer pays $6.00 for a sophisticated can, takes a sip, and tastes over-cooked industrial coffee, the bra",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-071",
+      "locator": "Part 7 · Q5 · Do not rely solely on 'Organic, Plant-Based, Eco-Friendly' positioning",
+      "heading": "Do not rely solely on 'Organic, Plant-Based, Eco-Friendly' positioning",
+      "kind": "item",
+      "excerpt": "Today, clean ingredients and sustainable plant bases are baseline category expectations. If the coffee lacks a distinctive flavor profile, ethical packaging alone will not drive sustained repeat purchases.",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-072",
+      "locator": "Part 7 · Q5 · Do not use cheap industrial retort canning lines",
+      "heading": "Do not use cheap industrial retort canning lines",
+      "kind": "item",
+      "excerpt": "Do not sacrifice flavor for 12 months of ambient shelf stability. Instead, invest in advanced cold-chain distribution, high-pressure processing (HPP), or specialized micro-filtration methods that preserve delicate aromat",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-073",
+      "locator": "Part 7 · Q6 · What would a premium RTD coffee brand look and feel like?",
+      "heading": "What would a premium RTD coffee brand look and feel like?",
+      "kind": "question_answer",
+      "excerpt": "What would a premium RTD coffee brand look and feel like?",
+      "table_caption": null,
+      "table_headers": null,
+      "item_headings": []
+    },
+    {
+      "id": "RS-074",
+      "locator": "Part 7 · Q6 · brand concept: AURA COLD EXTRACTION",
+      "heading": "brand concept: AURA COLD EXTRACTION",
+      "kind": "brand_concept",
+      "excerpt": "",
+      "table_caption": "Strategic Brand Dimensions",
+      "table_headers": [
+        "Strategic Brand Dimension",
+        "Conceptual Realization: 'AURA COLD EXTRACTION'"
+      ],
+      "item_headings": []
+    }
+  ]
+}

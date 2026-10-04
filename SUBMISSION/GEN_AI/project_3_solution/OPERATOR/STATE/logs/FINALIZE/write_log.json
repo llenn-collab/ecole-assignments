@@ -1,0 +1,107 @@
+{
+ "phase_write_attempts": 20,
+ "writes_denied": 0,
+ "write_log": [
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/STATE/pdf_ingest.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/STATE/pdf_ingest.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/STATE/second_tally.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/STATE/second_tally.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/GAP_REGISTER.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/GAP_REGISTER.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/HARD_CONSTRAINT_VETO.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/HARD_CONSTRAINT_VETO.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/ANOMALY_LOG.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/ANOMALY_LOG.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/STATE/machine_state.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/STATE/machine_state.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/VERIFICATION/gates.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/VERIFICATION/gates.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/VERIFICATION/red_team.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/VERIFICATION/red_team.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/VERIFICATION/red_team.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/VERIFICATION/red_team.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/SOURCE_HASHES.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/SOURCE_HASHES.json",
+   "allowed": true,
+   "code": "OK"
+  }
+ ],
+ "note": "snapshot taken inside finalize.py before the layer-A appendix and the manifest; the manifest carries the run's final status"
+}

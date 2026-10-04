@@ -1,0 +1,724 @@
+{
+  "requirements": [
+    {
+      "requirement_id": "REQ-001",
+      "must_level": "must",
+      "slug": "input_assignment_1_research_summary",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-001"
+      ],
+      "deliverables": [
+        "DEL-010"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-002",
+      "must_level": "must",
+      "slug": "input_insight_list",
+      "coverage_status": "SUBSTITUTED_INPUT_DECLARED",
+      "terminal_state": "DECLARED_OPEN",
+      "satisfaction": "partial_with_explicit_evidence",
+      "bindings": [
+        "BIND-002"
+      ],
+      "deliverables": [
+        "DEL-010"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-003",
+      "must_level": "must",
+      "slug": "input_pinterest_mood_board",
+      "coverage_status": "SUBSTITUTED_INPUT_DECLARED",
+      "terminal_state": "DECLARED_OPEN",
+      "satisfaction": "partial_with_explicit_evidence",
+      "bindings": [
+        "BIND-003"
+      ],
+      "deliverables": [
+        "DEL-007"
+      ],
+      "gap_row": "GAP-002"
+    },
+    {
+      "requirement_id": "REQ-004",
+      "must_level": "must",
+      "slug": "traceability_requirement",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-004"
+      ],
+      "deliverables": [
+        "DEL-005"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-005",
+      "must_level": "must",
+      "slug": "before_you_start_umbrella",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-005"
+      ],
+      "deliverables": [
+        "DEL-001"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-006",
+      "must_level": "must",
+      "slug": "what_you_re_producing_three_distinct_briefs_umbrella",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-006"
+      ],
+      "deliverables": [
+        "DEL-001"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-007",
+      "must_level": "must",
+      "slug": "brief_1_brand_idea_philosophy_core_idea_1_2_sentences",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-007"
+      ],
+      "deliverables": [
+        "DEL-002"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-008",
+      "must_level": "must",
+      "slug": "brief_1_brand_idea_philosophy_philosophy_point_of_view",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-008"
+      ],
+      "deliverables": [
+        "DEL-002"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-009",
+      "must_level": "must",
+      "slug": "brief_1_brand_idea_philosophy_positioning_statement",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-009"
+      ],
+      "deliverables": [
+        "DEL-002"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-010",
+      "must_level": "must",
+      "slug": "brief_1_brand_idea_philosophy_personality_tone_of_voice",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-010"
+      ],
+      "deliverables": [
+        "DEL-002"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-011",
+      "must_level": "must",
+      "slug": "brief_1_brand_idea_philosophy_name_rationale",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-011"
+      ],
+      "deliverables": [
+        "DEL-002"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-012",
+      "must_level": "must",
+      "slug": "brief_1_brand_idea_philosophy_logo_direction_not_the_logo_itself_a_brief_for_it",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-012"
+      ],
+      "deliverables": [
+        "DEL-002",
+        "DEL-007"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-013",
+      "must_level": "must",
+      "slug": "brief_2_product_packaging_product_definition",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-013"
+      ],
+      "deliverables": [
+        "DEL-003"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-014",
+      "must_level": "must",
+      "slug": "brief_2_product_packaging_packaging_direction",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-014"
+      ],
+      "deliverables": [
+        "DEL-003",
+        "DEL-007"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-015",
+      "must_level": "must",
+      "slug": "brief_2_product_packaging_functional_to_emotional_bridge",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-015"
+      ],
+      "deliverables": [
+        "DEL-003"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-016",
+      "must_level": "must",
+      "slug": "brief_2_product_packaging_shelf_competitive_differentiation",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-016"
+      ],
+      "deliverables": [
+        "DEL-003"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-017",
+      "must_level": "must",
+      "slug": "brief_3_ad_campaign_creative_brief_campaign_concept_the_big_idea",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-017"
+      ],
+      "deliverables": [
+        "DEL-004",
+        "DEL-006"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-018",
+      "must_level": "must",
+      "slug": "brief_3_ad_campaign_creative_brief_hero_shot_direction",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-018"
+      ],
+      "deliverables": [
+        "DEL-004"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-019",
+      "must_level": "must",
+      "slug": "brief_3_ad_campaign_creative_brief_stage_environment",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-019"
+      ],
+      "deliverables": [
+        "DEL-004"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-020",
+      "must_level": "must",
+      "slug": "brief_3_ad_campaign_creative_brief_models_casting_direction",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-020"
+      ],
+      "deliverables": [
+        "DEL-004"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-021",
+      "must_level": "must",
+      "slug": "brief_3_ad_campaign_creative_brief_plan_of_action_creative_direction_sequence",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-021"
+      ],
+      "deliverables": [
+        "DEL-004",
+        "DEL-007"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-022",
+      "must_level": "must",
+      "slug": "brief_3_ad_campaign_creative_brief_production_requirements",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-022"
+      ],
+      "deliverables": [
+        "DEL-004",
+        "DEL-008"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-023",
+      "must_level": "should",
+      "slug": "brief_3_ad_campaign_creative_brief_umbrella",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-023"
+      ],
+      "deliverables": [
+        "DEL-004"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-024",
+      "must_level": "must",
+      "slug": "coherence_check_do_this_before_submitting_umbrella",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-024"
+      ],
+      "deliverables": [
+        "DEL-005"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-025",
+      "must_level": "must",
+      "slug": "deliverable_submission_umbrella",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-025"
+      ],
+      "deliverables": [
+        "DEL-001"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-026",
+      "must_level": "should",
+      "slug": "evaluation_criteria_traceability",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-026"
+      ],
+      "deliverables": [
+        "DEL-005"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-027",
+      "must_level": "should",
+      "slug": "evaluation_criteria_specificity",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-027"
+      ],
+      "deliverables": [
+        "DEL-004"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-028",
+      "must_level": "should",
+      "slug": "evaluation_criteria_internal_consistency",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-028"
+      ],
+      "deliverables": [
+        "DEL-005"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-029",
+      "must_level": "should",
+      "slug": "evaluation_criteria_production_realism",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-029"
+      ],
+      "deliverables": [
+        "DEL-008",
+        "DEL-009"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-030",
+      "must_level": "should",
+      "slug": "evaluation_criteria_differentiation",
+      "coverage_status": "COVERED",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-030"
+      ],
+      "deliverables": [
+        "DEL-003"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-031",
+      "must_level": "must_not",
+      "slug": "exclusion_logo_artwork",
+      "coverage_status": "SATISFIED_BY_ABSENCE",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-031"
+      ],
+      "deliverables": [
+        "DEL-002"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-032",
+      "must_level": "must_not",
+      "slug": "prohibition_new_audience",
+      "coverage_status": "SATISFIED_BY_ABSENCE",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-032"
+      ],
+      "deliverables": [
+        "DEL-002"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-033",
+      "must_level": "must_not",
+      "slug": "prohibition_logo_style",
+      "coverage_status": "SATISFIED_BY_ABSENCE",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-033"
+      ],
+      "deliverables": [
+        "DEL-002"
+      ],
+      "gap_row": null
+    },
+    {
+      "requirement_id": "REQ-034",
+      "must_level": "must_not",
+      "slug": "prohibition_untraced_decisions",
+      "coverage_status": "SATISFIED_BY_ABSENCE",
+      "terminal_state": "TERMINAL_SATISFIED",
+      "satisfaction": "full",
+      "bindings": [
+        "BIND-034"
+      ],
+      "deliverables": [
+        "DEL-005"
+      ],
+      "gap_row": null
+    }
+  ],
+  "deliverables": [
+    {
+      "id": "DEL-001",
+      "name": "00_cover_and_index.md",
+      "format": "md",
+      "audience": "all three recipients (strategist, packaging designer, director)",
+      "must_or_should": "must",
+      "except_logo": false,
+      "source_requirement_ids": [
+        "REQ-005",
+        "REQ-006",
+        "REQ-025"
+      ],
+      "output_path": "SUBMISSION/00_cover_and_index.md",
+      "supported_by_runtime": true,
+      "status": "PLANNED"
+    },
+    {
+      "id": "DEL-002",
+      "name": "01_brief_1_brand_idea_and_philosophy.md",
+      "format": "md",
+      "audience": "brand strategist",
+      "must_or_should": "must",
+      "except_logo": true,
+      "source_requirement_ids": [
+        "REQ-007",
+        "REQ-008",
+        "REQ-009",
+        "REQ-010",
+        "REQ-011",
+        "REQ-012",
+        "REQ-031",
+        "REQ-032",
+        "REQ-033"
+      ],
+      "output_path": "SUBMISSION/01_brief_1_brand_idea_and_philosophy.md",
+      "supported_by_runtime": true,
+      "status": "PLANNED"
+    },
+    {
+      "id": "DEL-003",
+      "name": "02_brief_2_product_and_packaging.md",
+      "format": "md",
+      "audience": "packaging designer",
+      "must_or_should": "must",
+      "except_logo": false,
+      "source_requirement_ids": [
+        "REQ-013",
+        "REQ-014",
+        "REQ-015",
+        "REQ-016",
+        "REQ-030"
+      ],
+      "output_path": "SUBMISSION/02_brief_2_product_and_packaging.md",
+      "supported_by_runtime": true,
+      "status": "PLANNED"
+    },
+    {
+      "id": "DEL-004",
+      "name": "03_brief_3_ad_campaign.md",
+      "format": "md",
+      "audience": "director / producer",
+      "must_or_should": "must",
+      "except_logo": false,
+      "source_requirement_ids": [
+        "REQ-017",
+        "REQ-018",
+        "REQ-019",
+        "REQ-020",
+        "REQ-021",
+        "REQ-022",
+        "REQ-023",
+        "REQ-027"
+      ],
+      "output_path": "SUBMISSION/03_brief_3_ad_campaign.md",
+      "supported_by_runtime": true,
+      "status": "PLANNED"
+    },
+    {
+      "id": "DEL-005",
+      "name": "04_coherence_check.md",
+      "format": "md",
+      "audience": "the person assembling the submission",
+      "must_or_should": "must",
+      "except_logo": false,
+      "source_requirement_ids": [
+        "REQ-004",
+        "REQ-024",
+        "REQ-026",
+        "REQ-028",
+        "REQ-034"
+      ],
+      "output_path": "SUBMISSION/04_coherence_check.md",
+      "supported_by_runtime": true,
+      "status": "PLANNED"
+    },
+    {
+      "id": "DEL-006",
+      "name": "05_logline.md",
+      "format": "md",
+      "audience": "campaign / copy",
+      "must_or_should": "must",
+      "except_logo": false,
+      "source_requirement_ids": [
+        "REQ-017"
+      ],
+      "output_path": "SUBMISSION/05_logline.md",
+      "supported_by_runtime": true,
+      "status": "PLANNED"
+    },
+    {
+      "id": "DEL-007",
+      "name": "06_mood_board_index.md",
+      "format": "md",
+      "audience": "design + campaign",
+      "must_or_should": "must",
+      "except_logo": false,
+      "source_requirement_ids": [
+        "REQ-003",
+        "REQ-012",
+        "REQ-014",
+        "REQ-021"
+      ],
+      "output_path": "SUBMISSION/06_mood_board_index.md",
+      "supported_by_runtime": true,
+      "status": "PLANNED"
+    },
+    {
+      "id": "DEL-008",
+      "name": "07_production_and_ai_workflow.md",
+      "format": "md",
+      "audience": "producer",
+      "must_or_should": "must",
+      "except_logo": false,
+      "source_requirement_ids": [
+        "REQ-022",
+        "REQ-029"
+      ],
+      "output_path": "SUBMISSION/07_production_and_ai_workflow.md",
+      "supported_by_runtime": true,
+      "status": "PLANNED"
+    },
+    {
+      "id": "DEL-009",
+      "name": "08_risks_and_how_they_are_handled.md",
+      "format": "md",
+      "audience": "producer + strategist",
+      "must_or_should": "should",
+      "except_logo": false,
+      "source_requirement_ids": [
+        "REQ-029"
+      ],
+      "output_path": "SUBMISSION/08_risks_and_how_they_are_handled.md",
+      "supported_by_runtime": true,
+      "status": "PLANNED"
+    },
+    {
+      "id": "DEL-010",
+      "name": "09_research_reference_index.md",
+      "format": "md",
+      "audience": "the person assembling the submission",
+      "must_or_should": "must",
+      "except_logo": false,
+      "source_requirement_ids": [
+        "REQ-001",
+        "REQ-002"
+      ],
+      "output_path": "SUBMISSION/09_research_reference_index.md",
+      "supported_by_runtime": true,
+      "status": "PLANNED"
+    }
+  ],
+  "counts": {
+    "must": {
+      "total": 24,
+      "covered": 22,
+      "uncovered": 0,
+      "blocked": 0,
+      "closed": true
+    },
+    "must_not": {
+      "total": 4,
+      "satisfied_by_absence": 4,
+      "closed": true
+    },
+    "should": {
+      "total": 6,
+      "covered": 6,
+      "uncovered": 0,
+      "closed": true
+    },
+    "addend_groups": [
+      24,
+      4,
+      6
+    ],
+    "second_tally_required": true,
+    "second_tally": {
+      "must": 24,
+      "must_not": 4,
+      "should": 6
+    },
+    "pass": true
+  }
+}

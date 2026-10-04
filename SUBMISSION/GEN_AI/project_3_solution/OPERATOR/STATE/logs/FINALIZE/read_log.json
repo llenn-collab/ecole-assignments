@@ -1,0 +1,67 @@
+{
+ "phase_read_attempts": 12,
+ "reads_denied": 0,
+ "read_log": [
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/work/requirements.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/work/research_index.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/work/adapted_package_view.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/work/bindings.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/work/requirement_ledger.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/work/gates.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/work/candidates_scored.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/work/evidence_ledger.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/work/hidden_problems_resolved.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/STATE/machine_state.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/ASSIGNMENTS/GEN_AI/project_3.yaml",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/ASSIGNMENTS/GEN_AI/project_3_research.yaml",
+   "allowed": true,
+   "code": "OK"
+  }
+ ],
+ "note": "snapshot taken inside finalize.py before the layer-A appendix and the manifest; the manifest carries the run's final status"
+}

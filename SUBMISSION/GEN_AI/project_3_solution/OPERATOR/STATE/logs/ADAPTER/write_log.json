@@ -1,0 +1,37 @@
+{
+ "phase_write_attempts": 6,
+ "writes_denied": 0,
+ "write_log": [
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/work/adapted_package_view.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/work/adapted_package_view.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/ADAPTER/adapter_map.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/ADAPTER/adapter_map.json",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/ADAPTER/adapter_report.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/OPERATOR/ADAPTER/adapter_report.md",
+   "allowed": true,
+   "code": "OK"
+  }
+ ],
+ "note": "written at the end of adapter.py; the log is this phase's own accounting"
+}
