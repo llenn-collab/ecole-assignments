@@ -1,0 +1,194 @@
+{
+  "cap": "CAP-15",
+  "source_format": "YAML (non-PDF)",
+  "anchor_policy": "page anchors degrade to section anchors (charter pdf_edge_cases)",
+  "requirement_count": 17,
+  "facets_cap": 40,
+  "overload": false,
+  "deliverables_detected": [
+    "presentation deck continuing the Part 1 document",
+    "2 visual mock-ups inside the deck",
+    "2-week content calendar",
+    "measurement framework"
+  ],
+  "logo_boundary": {
+    "logo_artwork": "EXCLUDED (none required by the brief)",
+    "written_design_direction": "ALLOWED"
+  },
+  "extraction_quality": {
+    "status": "COMPLETE",
+    "notes": "brief is machine-readable YAML; no OCR; no unreadable pages; no table instability"
+  },
+  "requirements": [
+    {
+      "id": "REQ-001",
+      "quoted_text": "Individual assignment; Presentation - PPT/PDF/Google slides (continue with the same format as last assignment, in the same document)",
+      "page_anchor": "assignment.format + assignment.submission",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "deck_continuation",
+      "must_level": "must",
+      "except_logo": true,
+      "note": "the deck must continue the same document as the previous assignment"
+    },
+    {
+      "id": "REQ-002",
+      "quoted_text": "recommended_length: No recommended length of slides, but an outline is given below. Feel free to increase/ decrease the number of slides as per your content.",
+      "page_anchor": "assignment.recommended_length",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "slide_count",
+      "must_level": "may",
+      "except_logo": true,
+      "note": ""
+    },
+    {
+      "id": "REQ-003",
+      "quoted_text": "Using the strategic foundation created in Assignment 1, develop a content and social media strategy that shows how your brand will attract, engage and build relationships with its target audience.",
+      "page_anchor": "assignment.assignment_objective",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "strategy",
+      "must_level": "must",
+      "except_logo": true,
+      "note": ""
+    },
+    {
+      "id": "REQ-004",
+      "quoted_text": "Content Marketing Objective. What does content need to achieve for your brand? | {\"\\\"Choose 1 - 2 primary objectives, such as\": \"\\\"\"}",
+      "page_anchor": "assignment.suggested_slide_structure[slide 1]",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "content_section",
+      "must_level": "must",
+      "except_logo": true,
+      "note": ""
+    },
+    {
+      "id": "REQ-005",
+      "quoted_text": "Brand Story & Communication. Define how the brand should communicate online. | {\"\\\"Include\": \"\\\"\"}",
+      "page_anchor": "assignment.suggested_slide_structure[slide 2]",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "content_section",
+      "must_level": "must",
+      "except_logo": true,
+      "note": ""
+    },
+    {
+      "id": "REQ-006",
+      "quoted_text": "Content Pillars. Develop 3 - 5 content pillars for the brand. | Each pillar should have a clear purpose. | {\"\\\"Example for a fictional healthy snack brand\": \"\\\"\"}",
+      "page_anchor": "assignment.suggested_slide_structure[slide 3]",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "content_section",
+      "must_level": "must",
+      "except_logo": true,
+      "note": ""
+    },
+    {
+      "id": "REQ-007",
+      "quoted_text": "Platform Strategy. {\"\\\"Choose 2 - 3 primary social platforms. For each\": \"\\\"\"}",
+      "page_anchor": "assignment.suggested_slide_structure[slide 4]",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "content_section",
+      "must_level": "must",
+      "except_logo": true,
+      "note": ""
+    },
+    {
+      "id": "REQ-008",
+      "quoted_text": "One Idea, Different Platforms. Choose one content idea/campaign and show how it would change across the selected platforms. | {\"\\\"For example\": \"\\\"\"}",
+      "page_anchor": "assignment.suggested_slide_structure[slide 5]",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "content_section",
+      "must_level": "must",
+      "except_logo": true,
+      "note": ""
+    },
+    {
+      "id": "REQ-009",
+      "quoted_text": "Content Concepts. Develop 5 - 6 actual content ideas. | {\"\\\"Each idea should specify\": \"\\\"\"} | Content Idea -> Content Pillar -> Platform -> Format -> Objective",
+      "page_anchor": "assignment.suggested_slide_structure[slide 6]",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "content_section",
+      "must_level": "must",
+      "except_logo": true,
+      "note": ""
+    },
+    {
+      "id": "REQ-010",
+      "quoted_text": "Hero Content / Campaign Idea. Develop one larger social/content idea for the brand. | {\"\\\"It could be\": \"\\\"\"}",
+      "page_anchor": "assignment.suggested_slide_structure[slide 7]",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "content_section",
+      "must_level": "must",
+      "except_logo": true,
+      "note": ""
+    },
+    {
+      "id": "REQ-011",
+      "quoted_text": "Community & Engagement Strategy. How will your brand turn followers into participants? | {\"\\\"Recommend 3 - 4 mechanisms, such as\": \"\\\"\"}",
+      "page_anchor": "assignment.suggested_slide_structure[slide 8]",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "content_section",
+      "must_level": "must",
+      "except_logo": true,
+      "note": ""
+    },
+    {
+      "id": "REQ-012",
+      "quoted_text": "Influencer / Creator Strategy. {\"\\\"Define\": \"Who should be the influencer for my brand?\\\"\"} | {\"\\\"Include\": \"\\\"\"}",
+      "page_anchor": "assignment.suggested_slide_structure[slide 9]",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "content_section",
+      "must_level": "must",
+      "except_logo": true,
+      "note": ""
+    },
+    {
+      "id": "REQ-013",
+      "quoted_text": "Two-Week Content Calendar. {\"\\\"Create a 2 week content plan. Ex\": \"\\\"\"}",
+      "page_anchor": "assignment.suggested_slide_structure[slide 10]",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "content_section",
+      "must_level": "must",
+      "except_logo": true,
+      "note": ""
+    },
+    {
+      "id": "REQ-014",
+      "quoted_text": "Measurement & Success. Students define 5 - 7 metrics they would track. | But they must connect each metric to an objective. | {\"\\\"For example\": \"\\\"\"}",
+      "page_anchor": "assignment.suggested_slide_structure[slide 11]",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "content_section",
+      "must_level": "must",
+      "except_logo": true,
+      "note": ""
+    },
+    {
+      "id": "REQ-015",
+      "quoted_text": "1. Content marketing objective(s); 2. Brand message + tone of voice; 3. 3 - 5 content pillars; 4. Platform strategy; 5. One idea adapted across platforms; 6. 5 - 6 content concepts + minimum 2 visual executions; 7. One hero campaign / content idea; 8. Community engagement strategy; 9. Creator/influencer strategy + 2 recommended creators; 10. 2-week content calendar; 11. Measurement framework",
+      "page_anchor": "assignment.assignment_checklist",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "checklist",
+      "must_level": "must",
+      "except_logo": true,
+      "note": "11 items; each must be traceable in the deck"
+    },
+    {
+      "id": "REQ-016",
+      "quoted_text": "{\"\\\"1. Strategic relevance\": \"Does the content make sense for this brand, this consumer and this objective?\\\"\"}; {\"\\\"2. Creative thinking\": \"Are the ideas interesting and distinctive rather than generic social-media content?\\\"\"}; {\"\\\"3. Platform understanding\": \"Have they understood that different platforms require different behaviours and formats?\\\"\"}; {\"\\\"4. Integration\": \"Does everything feel like it belongs to one coherent brand strategy?\\\"\"}",
+      "page_anchor": "assignment.evaluation_criteria",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "quality_bar",
+      "must_level": "should",
+      "except_logo": true,
+      "note": ""
+    },
+    {
+      "id": "REQ-017",
+      "quoted_text": "5th October 2026",
+      "page_anchor": "assignment.submission_date",
+      "page_anchor_type": "section (YAML source)",
+      "artefact_type": "deadline",
+      "must_level": "must",
+      "except_logo": true,
+      "note": ""
+    }
+  ]
+}

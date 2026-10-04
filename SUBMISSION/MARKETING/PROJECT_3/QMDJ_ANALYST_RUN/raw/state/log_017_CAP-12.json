@@ -1,0 +1,14 @@
+{
+  "CAP": "CAP-12",
+  "batch": "B5",
+  "call_index": 17,
+  "cost": 36,
+  "in": [
+    "evidence_registry",
+    "claim_set.json"
+  ],
+  "max_out_tokens": 1200,
+  "out": "board_digest",
+  "over_cap": false,
+  "status": "OK"
+}

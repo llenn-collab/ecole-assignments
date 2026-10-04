@@ -1,0 +1,430 @@
+{
+  "cap": "CAP-17",
+  "degradation_decision": "CONTEXT_DEGRADED",
+  "derived_rows_tag": "DECOMPOSED",
+  "instruction_like_markers": [],
+  "missing_required_keys": [
+    "casting_reason",
+    "question",
+    "subject",
+    "domain",
+    "timeframe_of_interest",
+    "decision_needed"
+  ],
+  "no_slots_inferred_from_prose": "CAP-17 step 3: no slot beyond the text was inferred",
+  "parsed_top_level_keys": [
+    "assignment"
+  ],
+  "provenance_stamp_count": 209,
+  "schema_exact_match": false,
+  "slot_map": {
+    "assignment": {
+      "raw_key": "assignment",
+      "value": {
+        "assignment_checklist": [
+          "1. Content marketing objective(s)",
+          "2. Brand message + tone of voice",
+          "3. 3 - 5 content pillars",
+          "4. Platform strategy",
+          "5. One idea adapted across platforms",
+          "6. 5 - 6 content concepts + minimum 2 visual executions",
+          "7. One hero campaign / content idea",
+          "8. Community engagement strategy",
+          "9. Creator/influencer strategy + 2 recommended creators",
+          "10. 2-week content calendar",
+          "11. Measurement framework"
+        ],
+        "assignment_objective": "Using the strategic foundation created in Assignment 1, develop a content and social media strategy that shows how your brand will attract, engage and build relationships with its target audience.",
+        "evaluation_criteria": {
+          "criteria": [
+            {
+              "\"1. Strategic relevance": "Does the content make sense for this brand, this consumer and this objective?\""
+            },
+            {
+              "\"2. Creative thinking": "Are the ideas interesting and distinctive rather than generic social-media content?\""
+            },
+            {
+              "\"3. Platform understanding": "Have they understood that different platforms require different behaviours and formats?\""
+            },
+            {
+              "\"4. Integration": "Does everything feel like it belongs to one coherent brand strategy?\""
+            }
+          ],
+          "heading": "This assignment will be evaluated on -"
+        },
+        "format": "Individual assignment",
+        "recommended_length": "No recommended length of slides, but an outline is given below. Feel free to increase/ decrease the number of slides as per your content.",
+        "submission": "Presentation - PPT/PDF/Google slides (continue with the same format as last assignment, in the same document)",
+        "submission_date": "5th October 2026",
+        "subtitle": "Build your brand's digital content ecosystem",
+        "suggested_slide_structure": [
+          {
+            "content": [
+              "What does content need to achieve for your brand?",
+              {
+                "\"Choose 1 - 2 primary objectives, such as": "\""
+              }
+            ],
+            "explanation": "You should then explain why these objectives matter for your brand and audience.",
+            "primary_objectives_examples": [
+              "Build awareness",
+              "Educate consumers",
+              "Build credibility/trust",
+              "Generate engagement",
+              "Drive consideration",
+              "Build community",
+              "Generate website traffic",
+              "Support conversion"
+            ],
+            "slide": "1",
+            "title": "Content Marketing Objective"
+          },
+          {
+            "communication_principles": {
+              "description": "What should your brand communication always / never feel like?",
+              "example": {
+                "always": [
+                  "Simple",
+                  "encouraging",
+                  "relatable"
+                ],
+                "never": [
+                  "Preachy",
+                  "technical",
+                  "judgmental"
+                ]
+              }
+            },
+            "content": [
+              "Define how the brand should communicate online.",
+              {
+                "\"Include": "\""
+              }
+            ],
+            "core_brand_message": "What is the one idea you want consumers to associate with the brand?",
+            "sample_copy": "You can include 3 - 5 sample lines of copy to demonstrate the tone. (This is where our Gymshark tone- of- voice discussion can be referred to, and used)",
+            "slide": "2",
+            "title": "Brand Story & Communication",
+            "tone_of_voice": {
+              "description": "Choose 3- 4 characteristics, for example:",
+              "examples": [
+                "Playful",
+                "Bold",
+                "Conversational",
+                "Optimistic"
+              ]
+            }
+          },
+          {
+            "content": [
+              "Develop 3 - 5 content pillars for the brand.",
+              "Each pillar should have a clear purpose.",
+              {
+                "\"Example for a fictional healthy snack brand": "\""
+              }
+            ],
+            "content_pillars_example": {
+              "columns": [
+                "Content Pillar",
+                "Purpose",
+                "Example"
+              ],
+              "rows": [
+                {
+                  "content_pillar": "Snack Smarter",
+                  "example": "Understanding food labels",
+                  "purpose": "Education"
+                },
+                {
+                  "content_pillar": "Real Life Hunger",
+                  "example": "4 PM office hunger",
+                  "purpose": "Relatability"
+                },
+                {
+                  "content_pillar": "Product Stories",
+                  "example": "Ingredient/product stories",
+                  "purpose": "Consideration"
+                },
+                {
+                  "content_pillar": "Community",
+                  "example": "Customer snack routines",
+                  "purpose": "Engagement"
+                },
+                {
+                  "content_pillar": "Culture &amp;amp; Trends",
+                  "example": "Memes/trending moments",
+                  "purpose": "Relevance"
+                }
+              ]
+            },
+            "explanation": "You must explain: Why would the target audience care about this content? (This prevents content pillars from becoming generic buckets like \\\"Product\\\", \\\"Educational\\\", \\\"Fun\\\")",
+            "slide": "3",
+            "title": "Content Pillars"
+          },
+          {
+            "content": [
+              {
+                "\"Choose 2 - 3 primary social platforms. For each": "\""
+              }
+            ],
+            "note": "You do not need to be everywhere. Choosing not to use a platform is also a strategic decision. You should justify your selection based on the persona created in Assignment 1.",
+            "platform_table": {
+              "columns": [
+                "Platform",
+                "Audience Behaviour",
+                "Role for Brand",
+                "Content Formats"
+              ],
+              "rows": [
+                {
+                  "audience_behaviour": "Discovery & entertainment",
+                  "content_formats": "Reels, Stories, Carousels",
+                  "platform": "Instagram",
+                  "role_for_brand": "Awareness + engagement"
+                },
+                {
+                  "audience_behaviour": "Learning/deeper consumption",
+                  "content_formats": "Shorts, long-form video",
+                  "platform": "YouTube",
+                  "role_for_brand": "Education"
+                },
+                {
+                  "audience_behaviour": "Professional discovery",
+                  "content_formats": "Posts, carousels, articles",
+                  "platform": "LinkedIn",
+                  "role_for_brand": "Credibility"
+                }
+              ]
+            },
+            "slide": "4",
+            "title": "Platform Strategy"
+          },
+          {
+            "content": [
+              "Choose one content idea/campaign and show how it would change across the selected platforms.",
+              {
+                "\"For example": "\""
+              }
+            ],
+            "example": {
+              "campaign": "New Product Launch",
+              "executions": [
+                {
+                  "execution": "15-second visually driven Reel",
+                  "platform": "Instagram"
+                },
+                {
+                  "execution": "Behind-the-scenes/product story",
+                  "platform": "YouTube"
+                },
+                {
+                  "execution": "Founder story explaining why the product was created",
+                  "platform": "LinkedIn"
+                }
+              ]
+            },
+            "principle": "The core idea stays consistent, but the execution changes according to platform behaviour.",
+            "slide": "5",
+            "title": "One Idea, Different Platforms"
+          },
+          {
+            "content": [
+              "Develop 5 - 6 actual content ideas.",
+              {
+                "\"Each idea should specify": "\""
+              },
+              "Content Idea -> Content Pillar -> Platform -> Format -> Objective"
+            ],
+            "example": {
+              "content_idea": "What's Actually in Your 4 PM Snack?",
+              "content_pillar": "Snack Smarter",
+              "format": "Carousel",
+              "objective": "Education + Saves",
+              "platform": "Instagram"
+            },
+            "requirement": "At least 2 ideas should be developed visually as rough mock-ups/storyboards.",
+            "slide": "6",
+            "title": "Content Concepts"
+          },
+          {
+            "content": [
+              "Develop one larger social/content idea for the brand.",
+              {
+                "\"It could be": "\""
+              }
+            ],
+            "could_be": [
+              "Product launch",
+              "Brand campaign",
+              "Cultural moment",
+              "Social challenge",
+              "Educational series",
+              "Community initiative"
+            ],
+            "include": [
+              "Insight -> Big Idea -> Key Message -> Execution"
+            ],
+            "note": "(You don't need to create a fully integrated campaign yet. The objective is to demonstrate that you can move from consumer insight -> creative idea)",
+            "slide": "7",
+            "title": "Hero Content / Campaign Idea"
+          },
+          {
+            "content": [
+              "How will your brand turn followers into participants?",
+              {
+                "\"Recommend 3 - 4 mechanisms, such as": "\""
+              }
+            ],
+            "explanation": "For each, briefly explain why someone would participate.",
+            "mechanisms_examples": [
+              "Polls/questions",
+              "UGC Challenges",
+              "Comment engagement",
+              "Customer features",
+              "Live sessions",
+              "Community events",
+              "Reviews/testimonials"
+            ],
+            "slide": "8",
+            "title": "Community & Engagement Strategy"
+          },
+          {
+            "content": [
+              {
+                "\"Define": "Who should be the influencer for my brand?\""
+              },
+              {
+                "\"Include": "\""
+              }
+            ],
+            "include": [
+              "Type of creator Nano / Micro / Macro / Celebrity",
+              "Content category",
+              "Audience profile",
+              "Why they are credible for the brand",
+              "Role in the strategy"
+            ],
+            "slide": "9",
+            "then": [
+              "Recommend 2 actual creators",
+              {
+                "\"For each creator, explain": "Why this person + why this brand? Not: \\\"They have 2 million followers.\\\" (The quality of the fit matters more than the follower count)\""
+              }
+            ],
+            "title": "Influencer / Creator Strategy"
+          },
+          {
+            "calendar_table": {
+              "columns": [
+                "Day",
+                "Platform",
+                "Content",
+                "Format",
+                "Pillar",
+                "Objective"
+              ],
+              "rows": [
+                {
+                  "content": "Educational",
+                  "day": "Mon",
+                  "format": "Carousel",
+                  "objective": "Saves",
+                  "pillar": "Education",
+                  "platform": "Instagram"
+                },
+                {
+                  "content": "—",
+                  "day": "Tue",
+                  "format": "—",
+                  "objective": "—",
+                  "pillar": "—",
+                  "platform": "—"
+                },
+                {
+                  "content": "Creator Workout",
+                  "day": "Wed",
+                  "format": "Reel",
+                  "objective": "Engagement",
+                  "pillar": "Community",
+                  "platform": "Instagram"
+                },
+                {
+                  "content": "Product Story",
+                  "day": "Thu",
+                  "format": "Short",
+                  "objective": "Consideration",
+                  "pillar": "Product",
+                  "platform": "YouTube"
+                }
+              ]
+            },
+            "content": [
+              {
+                "\"Create a 2 week content plan. Ex": "\""
+              }
+            ],
+            "note": "(Do not post just to fill the calendar. Frequency should have a rationale)",
+            "slide": "10",
+            "title": "Two-Week Content Calendar"
+          },
+          {
+            "answer": "Then answer: After one month, how would you know whether your strategy is working? (No need for any advanced analytics yet)",
+            "closing": "Strategy first. Design second. Every creative decision should have a reason.",
+            "content": [
+              "Students define 5 - 7 metrics they would track.",
+              "But they must connect each metric to an objective.",
+              {
+                "\"For example": "\""
+              }
+            ],
+            "measurement_table": {
+              "columns": [
+                "Objective",
+                "KPI"
+              ],
+              "rows": [
+                {
+                  "kpi": "Reach",
+                  "objective": "Awareness"
+                },
+                {
+                  "kpi": "Saves",
+                  "objective": "Content relevance"
+                },
+                {
+                  "kpi": "Shares",
+                  "objective": "Advocacy"
+                },
+                {
+                  "kpi": "Comments / UGC",
+                  "objective": "Community"
+                },
+                {
+                  "kpi": "Link clicks / CTR",
+                  "objective": "Traffic"
+                }
+              ]
+            },
+            "slide": "11",
+            "title": "Measurement & Success"
+          }
+        ],
+        "title": "2: Content & Social Media Strategy"
+      }
+    }
+  },
+  "source_file": "project_3.yaml",
+  "structured_schema_required_keys": [
+    "casting_reason",
+    "question",
+    "subject",
+    "domain",
+    "timeframe_of_interest",
+    "decision_needed",
+    "known_facts",
+    "unknowns",
+    "relevance_hint",
+    "do_not_say"
+  ],
+  "unrecognized_keys": []
+}

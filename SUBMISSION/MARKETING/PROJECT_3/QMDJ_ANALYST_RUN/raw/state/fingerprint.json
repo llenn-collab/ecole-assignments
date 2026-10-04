@@ -1,0 +1,14 @@
+{
+  "byte_length": 14937,
+  "cap": "CAP-01",
+  "content_sha256": "c6e0b8940051e8380e37d883f0624315bcdbf4f65596304ca0cf6f76e50fd0b6",
+  "fingerprint_string": "project_3.json|14937|2|chart_info,palaces",
+  "id_derivation": "sha256",
+  "recompute_rule": "recomputed at every phase boundary; mismatch -> SOURCE_CHANGED",
+  "source_file": "project_3.json",
+  "top_level_key_count": 2,
+  "top_level_keys_sorted": [
+    "chart_info",
+    "palaces"
+  ]
+}

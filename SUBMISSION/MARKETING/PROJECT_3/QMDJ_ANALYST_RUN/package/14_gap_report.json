@@ -1,0 +1,147 @@
+{
+  "section": "14_gap_report",
+  "mandatory": true,
+  "gap_count": 20,
+  "gaps": [
+    {
+      "id": "G001",
+      "path": "schema_adapter.yaml (variants)",
+      "why_unaddressed": "declared by the charter as a cold input; not present in the supplied material",
+      "owner_phase": "B0",
+      "resolution": "supply the file; the stand-in used is named in 11_dependency_assumptions"
+    },
+    {
+      "id": "G002",
+      "path": "frozen_tables.yaml",
+      "why_unaddressed": "declared by the charter as a cold input; not present in the supplied material",
+      "owner_phase": "B0",
+      "resolution": "supply the file; the stand-in used is named in 11_dependency_assumptions"
+    },
+    {
+      "id": "G003",
+      "path": "wiki_articles corpus",
+      "why_unaddressed": "declared by the charter as a cold input; not present in the supplied material",
+      "owner_phase": "B0",
+      "resolution": "supply the file; the stand-in used is named in 11_dependency_assumptions"
+    },
+    {
+      "id": "G004",
+      "path": "semantic_protocol_raw.json",
+      "why_unaddressed": "declared by the charter as a cold input; not present in the supplied material",
+      "owner_phase": "B0",
+      "resolution": "supply the file; the stand-in used is named in 11_dependency_assumptions"
+    },
+    {
+      "id": "G005",
+      "path": "pattern_catalog annex A-patterns",
+      "why_unaddressed": "declared by the charter as a cold input; not present in the supplied material",
+      "owner_phase": "B0",
+      "resolution": "supply the file; the stand-in used is named in 11_dependency_assumptions"
+    },
+    {
+      "id": "G006",
+      "path": "archetype_scoring_rubric annex A-archetypes",
+      "why_unaddressed": "declared by the charter as a cold input; not present in the supplied material",
+      "owner_phase": "B0",
+      "resolution": "supply the file; the stand-in used is named in 11_dependency_assumptions"
+    },
+    {
+      "id": "G007",
+      "path": "coverage_control annex A-coverage",
+      "why_unaddressed": "declared by the charter as a cold input; not present in the supplied material",
+      "owner_phase": "B0",
+      "resolution": "supply the file; the stand-in used is named in 11_dependency_assumptions"
+    },
+    {
+      "id": "G008",
+      "path": "schema_adapter.yaml",
+      "why_unaddressed": "no variant registry supplied; least-contradicted bind used",
+      "owner_phase": "B1",
+      "resolution": "ANOMALY:SCHEMA_AMBIGUITY was NOT raised because the bind is high-confidence (exact 2-key match, uniform palace key style); a supplied adapter can confirm it"
+    },
+    {
+      "id": "G009",
+      "path": "frozen_tables.yaml",
+      "why_unaddressed": "no frozen tables supplied; annex A-tables fallback used for identity lookups",
+      "owner_phase": "B2",
+      "resolution": "diff annex A-tables against the supplied frozen_tables.yaml"
+    },
+    {
+      "id": "G010",
+      "path": "palaces 1-9 / role void",
+      "why_unaddressed": "no void (xun-kong) field exists in the chart; recorded ABSENT",
+      "owner_phase": "B1",
+      "resolution": "none: absence is factual, not a defect"
+    },
+    {
+      "id": "G011",
+      "path": "palaces 1-9 / role horse",
+      "why_unaddressed": "no horse (yi-ma) field exists in the chart; recorded ABSENT",
+      "owner_phase": "B1",
+      "resolution": "none: absence is factual, not a defect"
+    },
+    {
+      "id": "G012",
+      "path": "palace 5 / heaven stem, gate, deity",
+      "why_unaddressed": "the centre carries only a star, a palace label and an earth-plate stem",
+      "owner_phase": "B2",
+      "resolution": "none: absence is factual; the centre's relation set is the lodging graph only"
+    },
+    {
+      "id": "G013",
+      "path": "Q8-Q11 (community, creators, calendar, measurement)",
+      "why_unaddressed": "4 of 11 facets exceed the CAP-17 seven-facet cap and were deferred by the declared ranking criterion A-010",
+      "owner_phase": "P5",
+      "resolution": "the delivered strategy document addresses them as carried-forward content; no new chart claim was created for them"
+    },
+    {
+      "id": "G014",
+      "path": "case_context / schema shape",
+      "why_unaddressed": "the supplied case context matches no charter schema key; it is ingested through the free_prose path (AMEND-01) rather than as schema keys",
+      "owner_phase": "P5",
+      "resolution": "closed by AMEND-01; the v1 CONTEXT_DEGRADED stamp is retained in 02_case_context_digest for audit"
+    },
+    {
+      "id": "G015",
+      "path": "case_context / DECOMPOSED authority",
+      "why_unaddressed": "every row decomposed from the brief carries DECOMPOSED authority, so CONK01-CONK04 can raise POTENTIAL_CONFLICT but cannot veto a verdict",
+      "owner_phase": "P5",
+      "resolution": "no live verdict conflicts with any CONK row, so no claim moves; if the operator wants veto-grade constraints, re-supply them as schema keys"
+    },
+    {
+      "id": "G016",
+      "path": "case_context / brand and persona",
+      "why_unaddressed": "the brief names the brand and the persona as existing in Assignment 1, which was not supplied; both remain declared unknowns (UNK01, UNK02) and are not resolved by the chart",
+      "owner_phase": "P5",
+      "resolution": "supply Assignment 1; it will populate the CONK set and the deliverable's slots - it cannot change any chart claim (cc1/cc2)"
+    },
+    {
+      "id": "G017",
+      "path": "creator identity (UNK01/UNK04 guard)",
+      "why_unaddressed": "the chart cannot name a person or a brand; naming a real creator would be an invented fact",
+      "owner_phase": "P5",
+      "resolution": "supply the Assignment-1 brand and persona; the creator rubric then returns 2 named fits by search"
+    },
+    {
+      "id": "G018",
+      "path": "temporal binding",
+      "why_unaddressed": "the chart supplies pillars but no civil date or clock time, so no weekday, hour or campaign-date timing can be derived",
+      "owner_phase": "B4",
+      "resolution": "supply the cast timestamp if calendar timing is required"
+    },
+    {
+      "id": "G019",
+      "path": "grammar gate",
+      "why_unaddressed": "no gaps: every emitted claim, CMAP and RT line passed the grammar",
+      "owner_phase": "B5",
+      "resolution": "none"
+    },
+    {
+      "id": "G020",
+      "path": "anomaly/QUESTION_OVERLOAD",
+      "why_unaddressed": "11 facets detected against the charter's 7-facet cap; the 7 most decision-relevant (Q1-Q7) are analysed under criterion DECISION_RELEVANCE and Q8-Q11 are listed as deferred. Raised on amendment AMEND-01: the v1 run reported the cap inside the digest but did not log the anomaly code CAP-17 step 4 requires.",
+      "owner_phase": "P5",
+      "resolution": "see 15_tool_event_log"
+    }
+  ]
+}

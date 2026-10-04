@@ -1,0 +1,12 @@
+{
+  "CAP": "CAP-01",
+  "call_index": 1,
+  "in": [
+    "brief",
+    "package",
+    "part1"
+  ],
+  "out": "fingerprint",
+  "cost": 51,
+  "status": "OK"
+}

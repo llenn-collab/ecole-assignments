@@ -1,0 +1,14 @@
+{
+  "CAP": "CAP-10",
+  "batch": "B3",
+  "call_index": 9,
+  "cost": 26,
+  "in": [
+    "palaces",
+    "/home/user/ecole-assignments/SUBMISSION/MARKETING/PROJECT_3/QMDJ_ANALYST_RUN/CONFIG/marker_reference.json"
+  ],
+  "max_out_tokens": 300,
+  "out": "pattern_hits",
+  "over_cap": false,
+  "status": "OK"
+}

@@ -1,0 +1,52 @@
+{
+  "section": "00_package_manifest",
+  "status": "partial",
+  "status_reason": "all 25 coverage batches completed; the package is PARTIAL because the gap register is non-empty by construction: several cold annexes declared by the charter were not supplied, four facets are deferred, and the case context is degraded.",
+  "coverage_complete": true,
+  "batches_expected": 25,
+  "batches_completed": 25,
+  "tool_health": "ok - every declared capability executed as a real process; no tool failure, no cost overrun",
+  "cap_calls_used": 21,
+  "cap_call_budget": 60,
+  "package_version": "7.0",
+  "runtime_mode": "TOOLS_PRESENT",
+  "context_status": "CONTEXT_FREE_PROSE_ACCEPTED",
+  "context_status_v1_retained": "CONTEXT_DEGRADED",
+  "context_amendment": {
+    "id": "AMEND-01",
+    "issued_by": "operator (chart caster)",
+    "operator_declaration": "The assignment brief IS the case context, and it is the reason the chart was cast.",
+    "record": "CONFIG/context_amendment.json"
+  },
+  "anomaly_count": 1,
+  "gap_count": 20,
+  "render_gate": {
+    "GAP_REPORT_present": true,
+    "GAP_REPORT_empty": false,
+    "decision": "partial_render",
+    "note": "CAP-16 requires the gap report to be present; it must be empty only for a clean render. This run is honest-partial, so the report ships non-empty and the manifest says partial."
+  },
+  "hot_header": {
+    "run_id": "QMDJ-P3-001",
+    "package_version": "7.0",
+    "charter": {
+      "path": "PROMPT/qmdj_chart_analyst_charter.md",
+      "version": "v7.0"
+    },
+    "compiler_version": "qmdj-analyst/1.0.0",
+    "language_register": "en with Chinese chart terms verbatim (pinyin/gloss on first use)",
+    "runtime_mode": "TOOLS_PRESENT",
+    "cost_metric": "whitespace_tokens: count of non-space runs in the cap's returned summary object (stand-in for a tokenizer; deterministic)",
+    "sources": {
+      "chart": "QMDJ/MARKETING/project_3.json",
+      "case_context": "ASSIGNMENTS/MARKETING/project_3.yaml",
+      "charter": "PROMPT/qmdj_chart_analyst_charter.md"
+    },
+    "status_vocabulary": [
+      "ok",
+      "partial",
+      "blocked",
+      "failed"
+    ]
+  }
+}

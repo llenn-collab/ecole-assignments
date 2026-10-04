@@ -1,0 +1,138 @@
+{
+  "cap": "CAP-15",
+  "scored": [
+    {
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "citation_count": 9,
+      "claim_id": "C001",
+      "confidence": 0.91,
+      "contradiction_penalty": 0.0,
+      "corroboration_tally": 1,
+      "grounding_tier": "explicit_chart"
+    },
+    {
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "citation_count": 5,
+      "claim_id": "C002",
+      "confidence": 0.9,
+      "contradiction_penalty": 0.05,
+      "corroboration_tally": 5,
+      "grounding_tier": "explicit_chart"
+    },
+    {
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "citation_count": 6,
+      "claim_id": "C003",
+      "confidence": 0.96,
+      "contradiction_penalty": 0.0,
+      "corroboration_tally": 6,
+      "grounding_tier": "explicit_chart"
+    },
+    {
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "citation_count": 6,
+      "claim_id": "C004",
+      "confidence": 0.86,
+      "contradiction_penalty": 0.1,
+      "corroboration_tally": 6,
+      "grounding_tier": "explicit_chart"
+    },
+    {
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "citation_count": 7,
+      "claim_id": "C005",
+      "confidence": 0.97,
+      "contradiction_penalty": 0.0,
+      "corroboration_tally": 7,
+      "grounding_tier": "explicit_chart"
+    },
+    {
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "citation_count": 14,
+      "claim_id": "C006",
+      "confidence": 0.86,
+      "contradiction_penalty": 0.1,
+      "corroboration_tally": 6,
+      "grounding_tier": "explicit_chart"
+    },
+    {
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "citation_count": 5,
+      "claim_id": "C007",
+      "confidence": 0.95,
+      "contradiction_penalty": 0.0,
+      "corroboration_tally": 5,
+      "grounding_tier": "explicit_chart"
+    },
+    {
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "citation_count": 25,
+      "claim_id": "C008",
+      "confidence": 0.84,
+      "contradiction_penalty": 0.0,
+      "corroboration_tally": 9,
+      "grounding_tier": "computed_structure"
+    },
+    {
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "citation_count": 6,
+      "claim_id": "C009",
+      "confidence": 0.81,
+      "contradiction_penalty": 0.0,
+      "corroboration_tally": 6,
+      "grounding_tier": "computed_structure"
+    },
+    {
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "citation_count": 6,
+      "claim_id": "C010",
+      "confidence": 0.81,
+      "contradiction_penalty": 0.0,
+      "corroboration_tally": 6,
+      "grounding_tier": "computed_structure"
+    },
+    {
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "citation_count": 6,
+      "claim_id": "C011",
+      "confidence": 0.96,
+      "contradiction_penalty": 0.0,
+      "corroboration_tally": 6,
+      "grounding_tier": "explicit_chart"
+    },
+    {
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "citation_count": 7,
+      "claim_id": "C012",
+      "confidence": 0.97,
+      "contradiction_penalty": 0.0,
+      "corroboration_tally": 7,
+      "grounding_tier": "explicit_chart"
+    },
+    {
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-15/v1",
+      "citation_count": 6,
+      "claim_id": "C013",
+      "confidence": 0.86,
+      "contradiction_penalty": 0.1,
+      "corroboration_tally": 6,
+      "grounding_tier": "explicit_chart"
+    }
+  ],
+  "scoring_table": {
+    "clamp": [
+      0.1,
+      1.0
+    ],
+    "count_rule": "enumerated addends <= 9 per group (law 46); no free multi-digit arithmetic",
+    "steps": {
+      "contradiction": "-0.05 per contradicting citation up to 9",
+      "corroboration": "+0.01 per corroborating citation up to 9"
+    },
+    "tier_base": {
+      "assumption_indexed": 0.45,
+      "computed_structure": 0.75,
+      "explicit_chart": 0.9
+    }
+  }
+}

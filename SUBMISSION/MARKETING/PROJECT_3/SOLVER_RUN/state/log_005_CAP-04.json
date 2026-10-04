@@ -1,0 +1,10 @@
+{
+  "CAP": "CAP-04",
+  "call_index": 5,
+  "in": [
+    "brief_decompose"
+  ],
+  "out": "requirement_resolve",
+  "cost": 230,
+  "status": "OK"
+}

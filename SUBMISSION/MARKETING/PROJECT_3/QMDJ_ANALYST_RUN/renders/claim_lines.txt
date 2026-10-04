@@ -1,0 +1,13 @@
+CLAIM|C001|batch=B3|claims=I001,I014|disp=ADDRESSED|certainty=0.91
+CLAIM|C002|batch=B3|claims=I002|disp=ADDRESSED|certainty=0.90
+CLAIM|C003|batch=B3|claims=I003,I015|disp=ADDRESSED|certainty=0.96
+CLAIM|C004|batch=B3|claims=I004|disp=ADDRESSED|certainty=0.86
+CLAIM|C005|batch=B3|claims=I005|disp=ADDRESSED|certainty=0.97
+CLAIM|C006|batch=B3|claims=I006|disp=ADDRESSED|certainty=0.86
+CLAIM|C007|batch=B3|claims=I007|disp=ADDRESSED|certainty=0.95
+CLAIM|C008|batch=B3|claims=I008|disp=ADDRESSED|certainty=0.84
+CLAIM|C009|batch=B3|claims=I009|disp=ADDRESSED|certainty=0.81
+CLAIM|C010|batch=B4|claims=I010|disp=ADDRESSED|certainty=0.81
+CLAIM|C011|batch=B3|claims=I011,I016|disp=ADDRESSED|certainty=0.96
+CLAIM|C012|batch=B4|claims=I012|disp=ADDRESSED|certainty=0.97
+CLAIM|C013|batch=B4|claims=I013|disp=ADDRESSED|certainty=0.86

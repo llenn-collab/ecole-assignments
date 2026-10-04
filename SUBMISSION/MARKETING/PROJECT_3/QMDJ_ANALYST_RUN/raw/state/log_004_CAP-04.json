@@ -1,0 +1,14 @@
+{
+  "CAP": "CAP-04",
+  "batch": "B1",
+  "call_index": 4,
+  "cost": 25,
+  "in": [
+    "chart",
+    "roles"
+  ],
+  "max_out_tokens": 200,
+  "out": "role_map",
+  "over_cap": false,
+  "status": "OK"
+}

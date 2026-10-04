@@ -1,0 +1,10 @@
+{
+  "CAP": "CAP-14",
+  "call_index": 15,
+  "in": [
+    "all_state"
+  ],
+  "out": "self_audit",
+  "cost": 33,
+  "status": "OK"
+}

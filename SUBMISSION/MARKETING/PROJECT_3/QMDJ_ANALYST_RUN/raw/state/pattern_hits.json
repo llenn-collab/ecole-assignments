@@ -1,0 +1,601 @@
+{
+  "cap": "CAP-10",
+  "catalog_source": "annex A-patterns minimum viable stand-in (pattern_catalog not supplied); reference rows read from /home/user/ecole-assignments/SUBMISSION/MARKETING/PROJECT_3/QMDJ_ANALYST_RUN/CONFIG/marker_reference.json",
+  "computed_patterns": [
+    {
+      "hit_count": 18,
+      "hits": [
+        {
+          "palace": 1,
+          "path": "palaces/kan_1/palace_elements[4]",
+          "role": "heaven_stem",
+          "stem": "辛"
+        },
+        {
+          "palace": 1,
+          "path": "palaces/kan_1/palace_elements[5]",
+          "role": "earth_stem",
+          "stem": "丁"
+        },
+        {
+          "palace": 2,
+          "path": "palaces/kun_2/palace_elements[4]",
+          "role": "heaven_stem",
+          "stem": "丁"
+        },
+        {
+          "palace": 2,
+          "path": "palaces/kun_2/palace_elements[5]",
+          "role": "earth_stem",
+          "stem": "癸"
+        },
+        {
+          "palace": 3,
+          "path": "palaces/zhen_3/palace_elements[4]",
+          "role": "heaven_stem",
+          "stem": "癸"
+        },
+        {
+          "palace": 3,
+          "path": "palaces/zhen_3/palace_elements[5]",
+          "role": "earth_stem",
+          "stem": "壬"
+        },
+        {
+          "palace": 3,
+          "path": "palaces/zhen_3/interpretations[1]/condition",
+          "role": "hosted_stem",
+          "stem": "庚"
+        },
+        {
+          "palace": 4,
+          "path": "palaces/xun_4/palace_elements[4]",
+          "role": "heaven_stem",
+          "stem": "戊"
+        },
+        {
+          "palace": 4,
+          "path": "palaces/xun_4/palace_elements[5]",
+          "role": "earth_stem",
+          "stem": "辛"
+        },
+        {
+          "palace": 5,
+          "path": "palaces/center_5/palace_elements[2]",
+          "role": "earth_stem",
+          "stem": "庚"
+        },
+        {
+          "palace": 6,
+          "path": "palaces/qian_6/palace_elements[4]",
+          "role": "heaven_stem",
+          "stem": "壬"
+        },
+        {
+          "palace": 6,
+          "path": "palaces/qian_6/palace_elements[5]",
+          "role": "earth_stem",
+          "stem": "己"
+        },
+        {
+          "palace": 7,
+          "path": "palaces/dui_7/palace_elements[4]",
+          "role": "heaven_stem",
+          "stem": "乙"
+        },
+        {
+          "palace": 7,
+          "path": "palaces/dui_7/palace_elements[5]",
+          "role": "earth_stem",
+          "stem": "戊"
+        },
+        {
+          "palace": 8,
+          "path": "palaces/gen_8/palace_elements[4]",
+          "role": "heaven_stem",
+          "stem": "丙"
+        },
+        {
+          "palace": 8,
+          "path": "palaces/gen_8/palace_elements[5]",
+          "role": "earth_stem",
+          "stem": "乙"
+        },
+        {
+          "palace": 9,
+          "path": "palaces/li_9/palace_elements[4]",
+          "role": "heaven_stem",
+          "stem": "己"
+        },
+        {
+          "palace": 9,
+          "path": "palaces/li_9/palace_elements[5]",
+          "role": "earth_stem",
+          "stem": "丙"
+        }
+      ],
+      "pattern_id": "P3-COMBO",
+      "state": "live"
+    },
+    {
+      "hit_count": 18,
+      "hits": [
+        {
+          "lower": "丁",
+          "marker": "天盘干 辛加丁 形成『狱神得奇』",
+          "meaning": "辛为狱神丁为星奇。经商获利倍增，囚人逢天赦获释。罪人释放、官人转机。",
+          "palace": 1,
+          "path": "palaces/kan_1/interpretations[3]/condition",
+          "upper": "辛"
+        },
+        {
+          "lower": "丁",
+          "marker": "暗干干 辛加丁 形成『狱神得奇』",
+          "meaning": "辛为狱神丁为星奇。经商获利倍增，囚人逢天赦获释。罪人释放、官人转机。",
+          "palace": 1,
+          "path": "palaces/kan_1/interpretations[4]/condition",
+          "upper": "辛"
+        },
+        {
+          "lower": "癸",
+          "marker": "天盘干 丁加癸 形成『朱雀投江』",
+          "meaning": "文书口舌是非，经官动府。朱雀遇癸水冲克，消息如沉江中，音信不到。",
+          "palace": 2,
+          "path": "palaces/kun_2/interpretations[3]/condition",
+          "upper": "丁"
+        },
+        {
+          "lower": "癸",
+          "marker": "暗干干 丁加癸 形成『朱雀投江』",
+          "meaning": "文书口舌是非，经官动府。朱雀遇癸水冲克，消息如沉江中，音信不到。",
+          "palace": 2,
+          "path": "palaces/kun_2/interpretations[4]/condition",
+          "upper": "丁"
+        },
+        {
+          "lower": "壬",
+          "marker": "天盘干 癸加壬 形成『复见螣蛇』",
+          "meaning": "嫁娶重婚，后嫁可能无子。事物反复波折，可能更换合作方。重复犯错不改。",
+          "palace": 3,
+          "path": "palaces/zhen_3/interpretations[4]/condition",
+          "upper": "癸"
+        },
+        {
+          "lower": "壬",
+          "marker": "寄宫干 庚加壬 形成『太白退位』",
+          "meaning": "壬水泄庚金。远行迷失道路，男女音信难通。移荡格：谋事迂回曲折，主换地方。",
+          "palace": 3,
+          "path": "palaces/zhen_3/interpretations[5]/condition",
+          "upper": "庚"
+        },
+        {
+          "lower": "壬",
+          "marker": "暗干干 癸加壬 形成『复见螣蛇』",
+          "meaning": "嫁娶重婚，后嫁可能无子。事物反复波折，可能更换合作方。重复犯错不改。",
+          "palace": 3,
+          "path": "palaces/zhen_3/interpretations[6]/condition",
+          "upper": "癸"
+        },
+        {
+          "lower": "辛",
+          "marker": "天盘干 戊加辛 形成『青龙折足』",
+          "meaning": "辛金泄戊土。吉事成凶，动必受伤。主足疾骨折之灾。",
+          "palace": 4,
+          "path": "palaces/xun_4/interpretations[3]/condition",
+          "upper": "戊"
+        },
+        {
+          "lower": "辛",
+          "marker": "暗干干 戊加辛 形成『青龙折足』",
+          "meaning": "辛金泄戊土。吉事成凶，动必受伤。主足疾骨折之灾。",
+          "palace": 4,
+          "path": "palaces/xun_4/interpretations[4]/condition",
+          "upper": "戊"
+        },
+        {
+          "lower": "庚",
+          "marker": "暗干干 庚加庚 形成『太白同宫』",
+          "meaning": "又名战格。二庚太白并临。凡事难遂争斗不休，官灾横祸。利客不利主，利攻不利守。",
+          "palace": 5,
+          "path": "palaces/center_5/interpretations[0]/condition",
+          "upper": "庚"
+        },
+        {
+          "lower": "己",
+          "marker": "天盘干 壬加己 形成『凶蛇入狱』",
+          "meaning": "大祸将成，夫妻不睦。难以脱身，阴谋纠缠。词讼理亏，不宜妄动。",
+          "palace": 6,
+          "path": "palaces/qian_6/interpretations[3]/condition",
+          "upper": "壬"
+        },
+        {
+          "lower": "己",
+          "marker": "暗干干 壬加己 形成『凶蛇入狱』",
+          "meaning": "大祸将成，夫妻不睦。难以脱身，阴谋纠缠。词讼理亏，不宜妄动。",
+          "palace": 6,
+          "path": "palaces/qian_6/interpretations[4]/condition",
+          "upper": "壬"
+        },
+        {
+          "lower": "戊",
+          "marker": "天盘干 乙加戊 形成『利阴害阳』",
+          "meaning": "利阴人（女子），不利阳人（男子）。门吉尚可谋，门凶或迫则破财伤人。",
+          "palace": 7,
+          "path": "palaces/dui_7/interpretations[3]/condition",
+          "upper": "乙"
+        },
+        {
+          "lower": "戊",
+          "marker": "暗干干 乙加戊 形成『利阴害阳』",
+          "meaning": "利阴人（女子），不利阳人（男子）。门吉尚可谋，门凶或迫则破财伤人。",
+          "palace": 7,
+          "path": "palaces/dui_7/interpretations[4]/condition",
+          "upper": "乙"
+        },
+        {
+          "lower": "乙",
+          "marker": "天盘干 丙加乙 形成『日月并行』",
+          "meaning": "丙乙两奇相佐，阴阳调和。公私谋划合宜顺利，特别利于合作事务。",
+          "palace": 8,
+          "path": "palaces/gen_8/interpretations[3]/condition",
+          "upper": "丙"
+        },
+        {
+          "lower": "乙",
+          "marker": "暗干干 丙加乙 形成『日月并行』",
+          "meaning": "丙乙两奇相佐，阴阳调和。公私谋划合宜顺利，特别利于合作事务。",
+          "palace": 8,
+          "path": "palaces/gen_8/interpretations[4]/condition",
+          "upper": "丙"
+        },
+        {
+          "lower": "丙",
+          "marker": "天盘干 己加丙 形成『火悖地户』",
+          "meaning": "火炎土燥，主阻碍纠缠。男子遇小人相害，女子易有感情是非。先暗后明。",
+          "palace": 9,
+          "path": "palaces/li_9/interpretations[3]/condition",
+          "upper": "己"
+        },
+        {
+          "lower": "丙",
+          "marker": "暗干干 己加丙 形成『火悖地户』",
+          "meaning": "火炎土燥，主阻碍纠缠。男子遇小人相害，女子易有感情是非。先暗后明。",
+          "palace": 9,
+          "path": "palaces/li_9/interpretations[4]/condition",
+          "upper": "己"
+        }
+      ],
+      "pattern_id": "P3-GATE",
+      "state": "live"
+    },
+    {
+      "hit_count": 53,
+      "hits": [
+        {
+          "marker": "天辛 处于 '长生' (于子)",
+          "meaning": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+          "palace": "kan_1",
+          "path": "palaces/kan_1/interpretations[0]/condition"
+        },
+        {
+          "marker": "地丁 处于 '绝' (于子)",
+          "meaning": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。",
+          "palace": "kan_1",
+          "path": "palaces/kan_1/interpretations[1]/condition"
+        },
+        {
+          "marker": "暗辛 处于 '长生' (于子)",
+          "meaning": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+          "palace": "kan_1",
+          "path": "palaces/kan_1/interpretations[2]/condition"
+        },
+        {
+          "marker": "天盘干 辛加丁 形成『狱神得奇』",
+          "meaning": "辛为狱神丁为星奇。经商获利倍增，囚人逢天赦获释。罪人释放、官人转机。",
+          "palace": "kan_1",
+          "path": "palaces/kan_1/interpretations[3]/condition"
+        },
+        {
+          "marker": "暗干干 辛加丁 形成『狱神得奇』",
+          "meaning": "辛为狱神丁为星奇。经商获利倍增，囚人逢天赦获释。罪人释放、官人转机。",
+          "palace": "kan_1",
+          "path": "palaces/kan_1/interpretations[4]/condition"
+        },
+        {
+          "marker": "玉女守门",
+          "meaning": "丁为玉女。值使门正好飞到地盘丁所在宫位，玉女暗中护佑。极利婚姻、宴会、喜乐、和合、阴私之事，万事遂心。有贵人暗中相助。",
+          "palace": "kan_1",
+          "path": "palaces/kan_1/interpretations[5]/condition"
+        },
+        {
+          "marker": "宫生门",
+          "meaning": "环境(宫)主动生旺人事(门)。天降好运、得贵人相助、毫不费力。环境助力,万事如意。大吉之格。",
+          "palace": "kan_1",
+          "path": "palaces/kan_1/interpretations[6]/condition"
+        },
+        {
+          "marker": "天丁 处于 '冠带' (于未) 且 '沐浴' (于申)",
+          "meaning": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名桃花、败地。形体尚柔弱，易受外界诱惑与动摇，主风流、洗涤、异性缘与不稳。",
+          "palace": "kun_2",
+          "path": "palaces/kun_2/interpretations[0]/condition"
+        },
+        {
+          "marker": "地癸 处于 '墓' (于未) 且 '死' (于申)",
+          "meaning": "又名库。入墓归库，能量被包覆封存。主被套牢、暗昧不出、能力受限与阻滞。；生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。",
+          "palace": "kun_2",
+          "path": "palaces/kun_2/interpretations[1]/condition"
+        },
+        {
+          "marker": "暗丁 处于 '冠带' (于未) 且 '沐浴' (于申)",
+          "meaning": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名桃花、败地。形体尚柔弱，易受外界诱惑与动摇，主风流、洗涤、异性缘与不稳。",
+          "palace": "kun_2",
+          "path": "palaces/kun_2/interpretations[2]/condition"
+        },
+        {
+          "marker": "天盘干 丁加癸 形成『朱雀投江』",
+          "meaning": "文书口舌是非，经官动府。朱雀遇癸水冲克，消息如沉江中，音信不到。",
+          "palace": "kun_2",
+          "path": "palaces/kun_2/interpretations[3]/condition"
+        },
+        {
+          "marker": "暗干干 丁加癸 形成『朱雀投江』",
+          "meaning": "文书口舌是非，经官动府。朱雀遇癸水冲克，消息如沉江中，音信不到。",
+          "palace": "kun_2",
+          "path": "palaces/kun_2/interpretations[4]/condition"
+        },
+        {
+          "marker": "宫迫门",
+          "meaning": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。",
+          "palace": "kun_2",
+          "path": "palaces/kun_2/interpretations[5]/condition"
+        },
+        {
+          "marker": "三奇受制",
+          "meaning": "三奇受到相克之干的压制。奇能虽在,却被锁住无法发挥。主贵人帮不上忙,能力受限。",
+          "palace": "kun_2",
+          "path": "palaces/kun_2/interpretations[6]/condition"
+        },
+        {
+          "marker": "天癸 处于 '长生' (于卯)",
+          "meaning": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+          "palace": "zhen_3",
+          "path": "palaces/zhen_3/interpretations[0]/condition"
+        },
+        {
+          "marker": "寄庚 处于 '胎' (于卯)",
+          "meaning": "天地交泰，受气成胎。如胎儿孕育，隐秀形体，形局待发，充满生机与希望。",
+          "palace": "zhen_3",
+          "path": "palaces/zhen_3/interpretations[1]/condition"
+        },
+        {
+          "marker": "地壬 处于 '死' (于卯)",
+          "meaning": "生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。",
+          "palace": "zhen_3",
+          "path": "palaces/zhen_3/interpretations[2]/condition"
+        },
+        {
+          "marker": "暗癸 处于 '长生' (于卯)",
+          "meaning": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+          "palace": "zhen_3",
+          "path": "palaces/zhen_3/interpretations[3]/condition"
+        },
+        {
+          "marker": "天盘干 癸加壬 形成『复见螣蛇』",
+          "meaning": "嫁娶重婚，后嫁可能无子。事物反复波折，可能更换合作方。重复犯错不改。",
+          "palace": "zhen_3",
+          "path": "palaces/zhen_3/interpretations[4]/condition"
+        },
+        {
+          "marker": "寄宫干 庚加壬 形成『太白退位』",
+          "meaning": "壬水泄庚金。远行迷失道路，男女音信难通。移荡格：谋事迂回曲折，主换地方。",
+          "palace": "zhen_3",
+          "path": "palaces/zhen_3/interpretations[5]/condition"
+        },
+        {
+          "marker": "暗干干 癸加壬 形成『复见螣蛇』",
+          "meaning": "嫁娶重婚，后嫁可能无子。事物反复波折，可能更换合作方。重复犯错不改。",
+          "palace": "zhen_3",
+          "path": "palaces/zhen_3/interpretations[6]/condition"
+        },
+        {
+          "marker": "宫迫门",
+          "meaning": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。",
+          "palace": "zhen_3",
+          "path": "palaces/zhen_3/interpretations[7]/condition"
+        },
+        {
+          "marker": "天戊 处于 '冠带' (于辰) 且 '临官' (于巳)",
+          "meaning": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+          "palace": "xun_4",
+          "path": "palaces/xun_4/interpretations[0]/condition"
+        },
+        {
+          "marker": "地辛 处于 '墓' (于辰) 且 '死' (于巳)",
+          "meaning": "又名库。入墓归库，能量被包覆封存。主被套牢、暗昧不出、能力受限与阻滞。；生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。",
+          "palace": "xun_4",
+          "path": "palaces/xun_4/interpretations[1]/condition"
+        },
+        {
+          "marker": "暗戊 处于 '冠带' (于辰) 且 '临官' (于巳)",
+          "meaning": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+          "palace": "xun_4",
+          "path": "palaces/xun_4/interpretations[2]/condition"
+        },
+        {
+          "marker": "天盘干 戊加辛 形成『青龙折足』",
+          "meaning": "辛金泄戊土。吉事成凶，动必受伤。主足疾骨折之灾。",
+          "palace": "xun_4",
+          "path": "palaces/xun_4/interpretations[3]/condition"
+        },
+        {
+          "marker": "暗干干 戊加辛 形成『青龙折足』",
+          "meaning": "辛金泄戊土。吉事成凶，动必受伤。主足疾骨折之灾。",
+          "palace": "xun_4",
+          "path": "palaces/xun_4/interpretations[4]/condition"
+        },
+        {
+          "marker": "门迫宫",
+          "meaning": "人事(门)克制环境(宫)。强行作为、吃力不讨好、引发环境反噬。吉门被迫吉减半,凶门被迫加倍凶。",
+          "palace": "xun_4",
+          "path": "palaces/xun_4/interpretations[5]/condition"
+        },
+        {
+          "marker": "暗干干 庚加庚 形成『太白同宫』",
+          "meaning": "又名战格。二庚太白并临。凡事难遂争斗不休，官灾横祸。利客不利主，利攻不利守。",
+          "palace": "center_5",
+          "path": "palaces/center_5/interpretations[0]/condition"
+        },
+        {
+          "marker": "天壬 处于 '冠带' (于戌) 且 '临官' (于亥)",
+          "meaning": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+          "palace": "qian_6",
+          "path": "palaces/qian_6/interpretations[0]/condition"
+        },
+        {
+          "marker": "地己 处于 '养' (于戌) 且 '胎' (于亥)",
+          "meaning": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；天地交泰，受气成胎。如胎儿孕育，隐秀形体，形局待发，充满生机与希望。",
+          "palace": "qian_6",
+          "path": "palaces/qian_6/interpretations[1]/condition"
+        },
+        {
+          "marker": "暗壬 处于 '冠带' (于戌) 且 '临官' (于亥)",
+          "meaning": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+          "palace": "qian_6",
+          "path": "palaces/qian_6/interpretations[2]/condition"
+        },
+        {
+          "marker": "天盘干 壬加己 形成『凶蛇入狱』",
+          "meaning": "大祸将成，夫妻不睦。难以脱身，阴谋纠缠。词讼理亏，不宜妄动。",
+          "palace": "qian_6",
+          "path": "palaces/qian_6/interpretations[3]/condition"
+        },
+        {
+          "marker": "暗干干 壬加己 形成『凶蛇入狱』",
+          "meaning": "大祸将成，夫妻不睦。难以脱身，阴谋纠缠。词讼理亏，不宜妄动。",
+          "palace": "qian_6",
+          "path": "palaces/qian_6/interpretations[4]/condition"
+        },
+        {
+          "marker": "宫迫门",
+          "meaning": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。",
+          "palace": "qian_6",
+          "path": "palaces/qian_6/interpretations[5]/condition"
+        },
+        {
+          "marker": "天乙 处于 '绝' (于酉)",
+          "meaning": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。",
+          "palace": "dui_7",
+          "path": "palaces/dui_7/interpretations[0]/condition"
+        },
+        {
+          "marker": "地戊 处于 '死' (于酉)",
+          "meaning": "生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。",
+          "palace": "dui_7",
+          "path": "palaces/dui_7/interpretations[1]/condition"
+        },
+        {
+          "marker": "暗乙 处于 '绝' (于酉)",
+          "meaning": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。",
+          "palace": "dui_7",
+          "path": "palaces/dui_7/interpretations[2]/condition"
+        },
+        {
+          "marker": "天盘干 乙加戊 形成『利阴害阳』",
+          "meaning": "利阴人（女子），不利阳人（男子）。门吉尚可谋，门凶或迫则破财伤人。",
+          "palace": "dui_7",
+          "path": "palaces/dui_7/interpretations[3]/condition"
+        },
+        {
+          "marker": "暗干干 乙加戊 形成『利阴害阳』",
+          "meaning": "利阴人（女子），不利阳人（男子）。门吉尚可谋，门凶或迫则破财伤人。",
+          "palace": "dui_7",
+          "path": "palaces/dui_7/interpretations[4]/condition"
+        },
+        {
+          "marker": "门生宫",
+          "meaning": "人事(门)主动生旺环境(宫)。有付出有回报,顺水推舟。行动与环境和谐,做事顺达。加三奇更吉。",
+          "palace": "dui_7",
+          "path": "palaces/dui_7/interpretations[5]/condition"
+        },
+        {
+          "marker": "天丙 处于 '养' (于丑) 且 '长生' (于寅)",
+          "meaning": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+          "palace": "gen_8",
+          "path": "palaces/gen_8/interpretations[0]/condition"
+        },
+        {
+          "marker": "地乙 处于 '衰' (于丑) 且 '帝旺' (于寅)",
+          "meaning": "旺极而衰，能量开始走下坡路。气势渐退，宜守不宜攻，凡事需谦逊谨慎。；能量达到极盛。如帝王临朝，盛极一时；唯需防物极必反、盛极而衰。",
+          "palace": "gen_8",
+          "path": "palaces/gen_8/interpretations[1]/condition"
+        },
+        {
+          "marker": "暗丙 处于 '养' (于丑) 且 '长生' (于寅)",
+          "meaning": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+          "palace": "gen_8",
+          "path": "palaces/gen_8/interpretations[2]/condition"
+        },
+        {
+          "marker": "天盘干 丙加乙 形成『日月并行』",
+          "meaning": "丙乙两奇相佐，阴阳调和。公私谋划合宜顺利，特别利于合作事务。",
+          "palace": "gen_8",
+          "path": "palaces/gen_8/interpretations[3]/condition"
+        },
+        {
+          "marker": "暗干干 丙加乙 形成『日月并行』",
+          "meaning": "丙乙两奇相佐，阴阳调和。公私谋划合宜顺利，特别利于合作事务。",
+          "palace": "gen_8",
+          "path": "palaces/gen_8/interpretations[4]/condition"
+        },
+        {
+          "marker": "门生宫",
+          "meaning": "人事(门)主动生旺环境(宫)。有付出有回报,顺水推舟。行动与环境和谐,做事顺达。加三奇更吉。",
+          "palace": "gen_8",
+          "path": "palaces/gen_8/interpretations[5]/condition"
+        },
+        {
+          "marker": "天己 处于 '临官' (于午)",
+          "meaning": "又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+          "palace": "li_9",
+          "path": "palaces/li_9/interpretations[0]/condition"
+        },
+        {
+          "marker": "地丙 处于 '帝旺' (于午)",
+          "meaning": "能量达到极盛。如帝王临朝，盛极一时；唯需防物极必反、盛极而衰。",
+          "palace": "li_9",
+          "path": "palaces/li_9/interpretations[1]/condition"
+        },
+        {
+          "marker": "暗己 处于 '临官' (于午)",
+          "meaning": "又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+          "palace": "li_9",
+          "path": "palaces/li_9/interpretations[2]/condition"
+        },
+        {
+          "marker": "天盘干 己加丙 形成『火悖地户』",
+          "meaning": "火炎土燥，主阻碍纠缠。男子遇小人相害，女子易有感情是非。先暗后明。",
+          "palace": "li_9",
+          "path": "palaces/li_9/interpretations[3]/condition"
+        },
+        {
+          "marker": "暗干干 己加丙 形成『火悖地户』",
+          "meaning": "火炎土燥，主阻碍纠缠。男子遇小人相害，女子易有感情是非。先暗后明。",
+          "palace": "li_9",
+          "path": "palaces/li_9/interpretations[4]/condition"
+        },
+        {
+          "marker": "宫迫门",
+          "meaning": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。",
+          "palace": "li_9",
+          "path": "palaces/li_9/interpretations[5]/condition"
+        }
+      ],
+      "pattern_id": "P3-STRUCT",
+      "state": "live"
+    }
+  ],
+  "explicit_marker_count": 53,
+  "null_results": [],
+  "pattern_summary": "P3-COMBO=18 P3-GATE=18 P3-STRUCT=53",
+  "reconciliation": "computed stem-pair enumeration (P3-GATE) matches every explicit marker containing X加Y; no conflict between explicit and computed layers (law 26: explicit ranks first, computed reconciles)"
+}

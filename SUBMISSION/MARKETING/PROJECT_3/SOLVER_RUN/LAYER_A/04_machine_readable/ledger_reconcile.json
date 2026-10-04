@@ -1,0 +1,70 @@
+{
+  "cap": "CAP-09",
+  "evidence_disposition": {
+    "corroborated": 8,
+    "deferred": 65,
+    "used": 42
+  },
+  "evidence_total": 115,
+  "registry_total": 115,
+  "evidence_balances": true,
+  "enumerated_groups": [
+    {
+      "corroborated": 8,
+      "deferred": 1
+    },
+    {
+      "deferred": 9
+    },
+    {
+      "deferred": 9
+    },
+    {
+      "deferred": 9
+    },
+    {
+      "deferred": 9
+    },
+    {
+      "deferred": 9
+    },
+    {
+      "deferred": 9
+    },
+    {
+      "deferred": 9
+    },
+    {
+      "deferred": 1,
+      "used": 8
+    },
+    {
+      "used": 9
+    },
+    {
+      "used": 9
+    },
+    {
+      "used": 9
+    },
+    {
+      "used": 7
+    }
+  ],
+  "requirement_closure": {
+    "must": {
+      "n": 15,
+      "terminal_satisfied": 15
+    },
+    "may": {
+      "n": 1,
+      "terminal_satisfied": 1
+    },
+    "should": {
+      "n": 1,
+      "terminal_satisfied": 1
+    }
+  },
+  "closure_equation": "must 15 = satisfied 15 + uncovered 0 + blocked 0; should 1 satisfied; must_not 0 as satisfied-by-absence",
+  "gap_rows": []
+}

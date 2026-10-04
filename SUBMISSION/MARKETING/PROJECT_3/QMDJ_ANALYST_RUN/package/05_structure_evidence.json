@@ -1,0 +1,1970 @@
+{
+  "section": "05_structure_evidence",
+  "id_derivation_mode": "sha256 content address",
+  "e_atom_count": 106,
+  "e_atoms": [
+    {
+      "content_hash": "edbf4f4f9512359d5071d0cf5e9706b2787ffa29ad2e25925f0ad03774633e0f",
+      "field_code": "CI",
+      "id": "E001",
+      "id_derivation": "sha256",
+      "palace_canonical": 0,
+      "role": "chart_field:method",
+      "source_path": "chart_info/method",
+      "type": "E",
+      "value": "Qimen Dunjia Chart"
+    },
+    {
+      "content_hash": "2fc1199f11615741fd7d15b57aae63d6cea1e1e1ada43e919a1d762013fa4378",
+      "field_code": "CI",
+      "id": "E002",
+      "id_derivation": "sha256",
+      "palace_canonical": 0,
+      "role": "chart_field:solar_term",
+      "source_path": "chart_info/solar_term",
+      "type": "E",
+      "value": "秋分, 上 Yuan"
+    },
+    {
+      "content_hash": "eb33c583c6b00556556df01c0ebc4c06193b67d152ba90f07b82ef7c4bdad2f0",
+      "field_code": "CI",
+      "id": "E003",
+      "id_derivation": "sha256",
+      "palace_canonical": 0,
+      "role": "chart_field:system",
+      "source_path": "chart_info/system",
+      "type": "E",
+      "value": "Yi Dun - Lun Cang Jia"
+    },
+    {
+      "content_hash": "8cf57819e3f720a9bba93c8526dfb63f6de4b8480843fe82f52edbe3e7f12c42",
+      "field_code": "CI",
+      "id": "E004",
+      "id_derivation": "sha256",
+      "palace_canonical": 0,
+      "role": "chart_field:type",
+      "source_path": "chart_info/type",
+      "type": "E",
+      "value": "Hourly Rotating Qimen, Yin Dun 7 Ju"
+    },
+    {
+      "content_hash": "d5d604cbd62b465b27ec72f3c2986af478aba5d7901198ee99101b450bb66789",
+      "field_code": "CI",
+      "id": "E005",
+      "id_derivation": "sha256",
+      "palace_canonical": 0,
+      "role": "chart_field:zhi_fu",
+      "source_path": "chart_info/zhi_fu",
+      "type": "E",
+      "value": "天辅 falling in Palace 1"
+    },
+    {
+      "content_hash": "c16ab9fc1170f9e24d9c76c1216aa0ebbdb48d268c474a1d462f0ff2780e00f0",
+      "field_code": "CI",
+      "id": "E006",
+      "id_derivation": "sha256",
+      "palace_canonical": 0,
+      "role": "chart_field:zhi_shi",
+      "source_path": "chart_info/zhi_shi",
+      "type": "E",
+      "value": "杜门 falling in Palace 1"
+    },
+    {
+      "content_hash": "eee584537a0677439ecbd876c5cfe26ac5f63d45cd86a46057db3a91c711ddd1",
+      "field_code": "PILLAR",
+      "id": "E007",
+      "id_derivation": "sha256",
+      "palace_canonical": 0,
+      "role": "pillar:day",
+      "source_path": "chart_info/ganzhi/day",
+      "type": "E",
+      "value": "辛亥"
+    },
+    {
+      "content_hash": "7502a91501a26ef518fa36a6e950f3b56ae1287bda332146ad940acbdb86313c",
+      "field_code": "PILLAR",
+      "id": "E008",
+      "id_derivation": "sha256",
+      "palace_canonical": 0,
+      "role": "pillar:hour",
+      "source_path": "chart_info/ganzhi/hour",
+      "type": "E",
+      "value": "丁酉"
+    },
+    {
+      "content_hash": "05930b1e6051a858f47c3c1673132dcb069f81b9b1d6167b3d02d896b1bad507",
+      "field_code": "PILLAR",
+      "id": "E009",
+      "id_derivation": "sha256",
+      "palace_canonical": 0,
+      "role": "pillar:month",
+      "source_path": "chart_info/ganzhi/month",
+      "type": "E",
+      "value": "丁酉"
+    },
+    {
+      "content_hash": "a07dfbf5c923bec988652b476a6e75795c9a483de09b4e1b8b27034ea788cb34",
+      "field_code": "PILLAR",
+      "id": "E010",
+      "id_derivation": "sha256",
+      "palace_canonical": 0,
+      "role": "pillar:year",
+      "source_path": "chart_info/ganzhi/year",
+      "type": "E",
+      "value": "丙午"
+    },
+    {
+      "content_hash": "69f023dbad4ef6412683aa247df8c1aa619e1b094efcd362f4c6c8998d8d5005",
+      "field_code": "DE",
+      "id": "E011",
+      "id_derivation": "sha256",
+      "palace_canonical": 1,
+      "role": "deity",
+      "source_path": "palaces/kan_1/palace_elements[0]",
+      "type": "E",
+      "value": "值符"
+    },
+    {
+      "content_hash": "3e16fe60428087f4dc057a914aa4b66a95073fea7aafbeddfbaeb0748d9d8826",
+      "field_code": "DO",
+      "id": "E012",
+      "id_derivation": "sha256",
+      "palace_canonical": 1,
+      "role": "door",
+      "source_path": "palaces/kan_1/palace_elements[1]",
+      "type": "E",
+      "value": "杜门"
+    },
+    {
+      "content_hash": "e6ba4700270bc95d23d327c001b69ca69749286df115c30ea492905a22605806",
+      "field_code": "ES",
+      "id": "E013",
+      "id_derivation": "sha256",
+      "palace_canonical": 1,
+      "role": "earth_stem",
+      "source_path": "palaces/kan_1/palace_elements[5]",
+      "type": "E",
+      "value": "丁"
+    },
+    {
+      "content_hash": "b97e2630ffcf56adc200b5da939cb8129ef928ebe57ffbcf455d6e41748b19ed",
+      "field_code": "EX",
+      "id": "E014",
+      "id_derivation": "sha256",
+      "palace_canonical": 1,
+      "role": "explicit_marker",
+      "source_path": "palaces/kan_1/interpretations[0]/condition",
+      "type": "E",
+      "value": "天辛 处于 '长生' (于子)"
+    },
+    {
+      "content_hash": "c36cce90b0c5e2d160cabe13bb38e0d8c1e1834e60b2511273eed91f5719db28",
+      "field_code": "EX",
+      "id": "E015",
+      "id_derivation": "sha256",
+      "palace_canonical": 1,
+      "role": "explicit_marker",
+      "source_path": "palaces/kan_1/interpretations[1]/condition",
+      "type": "E",
+      "value": "地丁 处于 '绝' (于子)"
+    },
+    {
+      "content_hash": "11250002cc12c6a313fc411fae84adbb46a30a055b38f552268beac2aade4c81",
+      "field_code": "EX",
+      "id": "E016",
+      "id_derivation": "sha256",
+      "palace_canonical": 1,
+      "role": "explicit_marker",
+      "source_path": "palaces/kan_1/interpretations[2]/condition",
+      "type": "E",
+      "value": "暗辛 处于 '长生' (于子)"
+    },
+    {
+      "content_hash": "8c72573a53eabd627f0dc5e8fe116533341201c745db0255084f84b3755a3738",
+      "field_code": "EX",
+      "id": "E017",
+      "id_derivation": "sha256",
+      "palace_canonical": 1,
+      "role": "explicit_marker",
+      "source_path": "palaces/kan_1/interpretations[3]/condition",
+      "type": "E",
+      "value": "天盘干 辛加丁 形成『狱神得奇』"
+    },
+    {
+      "content_hash": "de12e566363f06694b0f23cd03ee3d94863067ce26f1f2810a13f8ad0a7d55f7",
+      "field_code": "EX",
+      "id": "E018",
+      "id_derivation": "sha256",
+      "palace_canonical": 1,
+      "role": "explicit_marker",
+      "source_path": "palaces/kan_1/interpretations[4]/condition",
+      "type": "E",
+      "value": "暗干干 辛加丁 形成『狱神得奇』"
+    },
+    {
+      "content_hash": "de1b1896523868da2b685c525691f610a34d5d495cd025cf55bdb76fe47974c5",
+      "field_code": "EX",
+      "id": "E019",
+      "id_derivation": "sha256",
+      "palace_canonical": 1,
+      "role": "explicit_marker",
+      "source_path": "palaces/kan_1/interpretations[5]/condition",
+      "type": "E",
+      "value": "玉女守门"
+    },
+    {
+      "content_hash": "2cab6033642d3fe5e28c47be18e6e897d0ec71739fa6afe0da0ac93f66ca4646",
+      "field_code": "EX",
+      "id": "E020",
+      "id_derivation": "sha256",
+      "palace_canonical": 1,
+      "role": "explicit_marker",
+      "source_path": "palaces/kan_1/interpretations[6]/condition",
+      "type": "E",
+      "value": "宫生门"
+    },
+    {
+      "content_hash": "0e3e57ccf21bb321a6b5b3efe642ade7dd2cd122b82a1d0a70091e992fec5e68",
+      "field_code": "HS",
+      "id": "E021",
+      "id_derivation": "sha256",
+      "palace_canonical": 1,
+      "role": "heaven_stem",
+      "source_path": "palaces/kan_1/palace_elements[4]",
+      "type": "E",
+      "value": "辛"
+    },
+    {
+      "content_hash": "f2856326b89fd071144a4bea1257b53eecffc32aeaac22809a45d6aeb69a0316",
+      "field_code": "ST",
+      "id": "E022",
+      "id_derivation": "sha256",
+      "palace_canonical": 1,
+      "role": "star",
+      "source_path": "palaces/kan_1/palace_elements[2]",
+      "type": "E",
+      "value": "天辅"
+    },
+    {
+      "content_hash": "45d59d9595fe6580139e482c6b5ef5bdabbd37a90c991755d0a0469c16be0a5b",
+      "field_code": "DE",
+      "id": "E023",
+      "id_derivation": "sha256",
+      "palace_canonical": 2,
+      "role": "deity",
+      "source_path": "palaces/kun_2/palace_elements[0]",
+      "type": "E",
+      "value": "六合"
+    },
+    {
+      "content_hash": "f138bfdf1d3f931511166d57301e1f3fadf5be05d343e75c0660b7cc4bd226d8",
+      "field_code": "DO",
+      "id": "E024",
+      "id_derivation": "sha256",
+      "palace_canonical": 2,
+      "role": "door",
+      "source_path": "palaces/kun_2/palace_elements[1]",
+      "type": "E",
+      "value": "休门"
+    },
+    {
+      "content_hash": "f6ea9d24c1cc16f2aede9a7f8afb2aec80eec7a44c4ab80bd9f3cbeb556ac994",
+      "field_code": "ES",
+      "id": "E025",
+      "id_derivation": "sha256",
+      "palace_canonical": 2,
+      "role": "earth_stem",
+      "source_path": "palaces/kun_2/palace_elements[5]",
+      "type": "E",
+      "value": "癸"
+    },
+    {
+      "content_hash": "213f387bebd6ec904f2370d0981103fd0f23c6627be9b5d5fe31b344b04e341e",
+      "field_code": "EX",
+      "id": "E026",
+      "id_derivation": "sha256",
+      "palace_canonical": 2,
+      "role": "explicit_marker",
+      "source_path": "palaces/kun_2/interpretations[0]/condition",
+      "type": "E",
+      "value": "天丁 处于 '冠带' (于未) 且 '沐浴' (于申)"
+    },
+    {
+      "content_hash": "53eae27ffb42e5faa67c8cc23088a69d8c972b76ec17125ce7230d5c593e16f8",
+      "field_code": "EX",
+      "id": "E027",
+      "id_derivation": "sha256",
+      "palace_canonical": 2,
+      "role": "explicit_marker",
+      "source_path": "palaces/kun_2/interpretations[1]/condition",
+      "type": "E",
+      "value": "地癸 处于 '墓' (于未) 且 '死' (于申)"
+    },
+    {
+      "content_hash": "8afa89c5e40a13e80bf48f1cedc25b80c81f03c263a2f9befd7e57e78c0ef329",
+      "field_code": "EX",
+      "id": "E028",
+      "id_derivation": "sha256",
+      "palace_canonical": 2,
+      "role": "explicit_marker",
+      "source_path": "palaces/kun_2/interpretations[2]/condition",
+      "type": "E",
+      "value": "暗丁 处于 '冠带' (于未) 且 '沐浴' (于申)"
+    },
+    {
+      "content_hash": "528711086cba7c2db82c2922b205ee36adcf584aec61c8b0f7edadb607358378",
+      "field_code": "EX",
+      "id": "E029",
+      "id_derivation": "sha256",
+      "palace_canonical": 2,
+      "role": "explicit_marker",
+      "source_path": "palaces/kun_2/interpretations[3]/condition",
+      "type": "E",
+      "value": "天盘干 丁加癸 形成『朱雀投江』"
+    },
+    {
+      "content_hash": "2eb8a845349b6e548b1976790c2ef1d7cfa3bade4c07984555d0324849991b2c",
+      "field_code": "EX",
+      "id": "E030",
+      "id_derivation": "sha256",
+      "palace_canonical": 2,
+      "role": "explicit_marker",
+      "source_path": "palaces/kun_2/interpretations[4]/condition",
+      "type": "E",
+      "value": "暗干干 丁加癸 形成『朱雀投江』"
+    },
+    {
+      "content_hash": "f0f2d2fb3fd155bb00394d6529e6f8acdaa50b3e2be039ad627cb12cf368c8d3",
+      "field_code": "EX",
+      "id": "E031",
+      "id_derivation": "sha256",
+      "palace_canonical": 2,
+      "role": "explicit_marker",
+      "source_path": "palaces/kun_2/interpretations[5]/condition",
+      "type": "E",
+      "value": "宫迫门"
+    },
+    {
+      "content_hash": "e20c1b524199e22bcf30bca482c2bc710c6e6212014a2d3716c9d883a53dad93",
+      "field_code": "EX",
+      "id": "E032",
+      "id_derivation": "sha256",
+      "palace_canonical": 2,
+      "role": "explicit_marker",
+      "source_path": "palaces/kun_2/interpretations[6]/condition",
+      "type": "E",
+      "value": "三奇受制"
+    },
+    {
+      "content_hash": "0d0426342295ed4af95c7c52c568fd9f66f627f64ab604ce8e3d0e7c0f82a9cc",
+      "field_code": "HS",
+      "id": "E033",
+      "id_derivation": "sha256",
+      "palace_canonical": 2,
+      "role": "heaven_stem",
+      "source_path": "palaces/kun_2/palace_elements[4]",
+      "type": "E",
+      "value": "丁"
+    },
+    {
+      "content_hash": "64120b8d3e0ec0e34040e9d99f18281328d7e688d37c52462f51fcf51145b04d",
+      "field_code": "ST",
+      "id": "E034",
+      "id_derivation": "sha256",
+      "palace_canonical": 2,
+      "role": "star",
+      "source_path": "palaces/kun_2/palace_elements[2]",
+      "type": "E",
+      "value": "天蓬"
+    },
+    {
+      "content_hash": "8d5780b1cc5e693244a4ab1f909b19f79095e7bd9c985b39f0202e9ef5f0e04d",
+      "field_code": "DE",
+      "id": "E035",
+      "id_derivation": "sha256",
+      "palace_canonical": 3,
+      "role": "deity",
+      "source_path": "palaces/zhen_3/palace_elements[0]",
+      "type": "E",
+      "value": "九地"
+    },
+    {
+      "content_hash": "03c83353c9856d818e13c6f79ba02dbfa2115e9202df374b4a91872a6787a88d",
+      "field_code": "DO",
+      "id": "E036",
+      "id_derivation": "sha256",
+      "palace_canonical": 3,
+      "role": "door",
+      "source_path": "palaces/zhen_3/palace_elements[1]",
+      "type": "E",
+      "value": "死门"
+    },
+    {
+      "content_hash": "0a94a206e9d6237b924d132a0f655c19c77ef61aad0d91e797da97df04e9c53b",
+      "field_code": "ES",
+      "id": "E037",
+      "id_derivation": "sha256",
+      "palace_canonical": 3,
+      "role": "earth_stem",
+      "source_path": "palaces/zhen_3/palace_elements[5]",
+      "type": "E",
+      "value": "壬"
+    },
+    {
+      "content_hash": "b2a5d8f9efcb7e3a047efe05343eba6b0189bf53eef04203f7fa538a97fa6f80",
+      "field_code": "EX",
+      "id": "E038",
+      "id_derivation": "sha256",
+      "palace_canonical": 3,
+      "role": "explicit_marker",
+      "source_path": "palaces/zhen_3/interpretations[0]/condition",
+      "type": "E",
+      "value": "天癸 处于 '长生' (于卯)"
+    },
+    {
+      "content_hash": "4b8afac2c77b87884a8815de5678838e3a052bdfc0f6232da09cde97ae8c5dde",
+      "field_code": "EX",
+      "id": "E039",
+      "id_derivation": "sha256",
+      "palace_canonical": 3,
+      "role": "explicit_marker",
+      "source_path": "palaces/zhen_3/interpretations[1]/condition",
+      "type": "E",
+      "value": "寄庚 处于 '胎' (于卯)"
+    },
+    {
+      "content_hash": "515221c6a39158d21aa2dcdd2e9894ac44a9258e038ec131fb4deb42754bbd91",
+      "field_code": "EX",
+      "id": "E040",
+      "id_derivation": "sha256",
+      "palace_canonical": 3,
+      "role": "explicit_marker",
+      "source_path": "palaces/zhen_3/interpretations[2]/condition",
+      "type": "E",
+      "value": "地壬 处于 '死' (于卯)"
+    },
+    {
+      "content_hash": "798eb7afbebb9174fc23730ec08ce6751bb263b4f9569b5b0e5669d64a719aed",
+      "field_code": "EX",
+      "id": "E041",
+      "id_derivation": "sha256",
+      "palace_canonical": 3,
+      "role": "explicit_marker",
+      "source_path": "palaces/zhen_3/interpretations[3]/condition",
+      "type": "E",
+      "value": "暗癸 处于 '长生' (于卯)"
+    },
+    {
+      "content_hash": "4803188dbfb07b868b34a96f87d3e10fe827d0984da031770ac8849891c8cccf",
+      "field_code": "EX",
+      "id": "E042",
+      "id_derivation": "sha256",
+      "palace_canonical": 3,
+      "role": "explicit_marker",
+      "source_path": "palaces/zhen_3/interpretations[4]/condition",
+      "type": "E",
+      "value": "天盘干 癸加壬 形成『复见螣蛇』"
+    },
+    {
+      "content_hash": "27870f833ce15411258786c5579897069711eedc751043118f31a0af16b60fcb",
+      "field_code": "EX",
+      "id": "E043",
+      "id_derivation": "sha256",
+      "palace_canonical": 3,
+      "role": "explicit_marker",
+      "source_path": "palaces/zhen_3/interpretations[5]/condition",
+      "type": "E",
+      "value": "寄宫干 庚加壬 形成『太白退位』"
+    },
+    {
+      "content_hash": "e8135920fcbbb7f2b5519d9edcdb8e8a75833153e2abab82e87687bb25cbfe65",
+      "field_code": "EX",
+      "id": "E044",
+      "id_derivation": "sha256",
+      "palace_canonical": 3,
+      "role": "explicit_marker",
+      "source_path": "palaces/zhen_3/interpretations[6]/condition",
+      "type": "E",
+      "value": "暗干干 癸加壬 形成『复见螣蛇』"
+    },
+    {
+      "content_hash": "2254444f809ed17bbd33f55abeceec6a6ebb6a3a78cb58f922b8dc1be629b372",
+      "field_code": "EX",
+      "id": "E045",
+      "id_derivation": "sha256",
+      "palace_canonical": 3,
+      "role": "explicit_marker",
+      "source_path": "palaces/zhen_3/interpretations[7]/condition",
+      "type": "E",
+      "value": "宫迫门"
+    },
+    {
+      "content_hash": "a2b91202c1676f3e10eea19571339cd200d815f8de8eb343e558e605c1e82ff4",
+      "field_code": "HS",
+      "id": "E046",
+      "id_derivation": "sha256",
+      "palace_canonical": 3,
+      "role": "heaven_stem",
+      "source_path": "palaces/zhen_3/palace_elements[4]",
+      "type": "E",
+      "value": "癸"
+    },
+    {
+      "content_hash": "9c2804d304904f7a51082649b61389c508bdfcb3edd0b5e8ad915b22b959e722",
+      "field_code": "HX",
+      "id": "E047",
+      "id_derivation": "sha256",
+      "palace_canonical": 3,
+      "role": "hosted_stem",
+      "source_path": "palaces/zhen_3/interpretations[1]/condition",
+      "type": "E",
+      "value": "庚"
+    },
+    {
+      "content_hash": "fb8bc70e9bfdee1e412630bbd32899ac25cf6c4f9b5796f035e16b70bf27f446",
+      "field_code": "ST",
+      "id": "E048",
+      "id_derivation": "sha256",
+      "palace_canonical": 3,
+      "role": "star",
+      "source_path": "palaces/zhen_3/palace_elements[2]",
+      "type": "E",
+      "value": "天芮"
+    },
+    {
+      "content_hash": "a54f0df07ce888b2215fd3125488fd2517a658928866f5636b978350e6a28efc",
+      "field_code": "DE",
+      "id": "E049",
+      "id_derivation": "sha256",
+      "palace_canonical": 4,
+      "role": "deity",
+      "source_path": "palaces/xun_4/palace_elements[0]",
+      "type": "E",
+      "value": "玄武"
+    },
+    {
+      "content_hash": "ef235fe7b1c66e214243f90118161378149f1107ca241fd9bfa3ea816b297c72",
+      "field_code": "DO",
+      "id": "E050",
+      "id_derivation": "sha256",
+      "palace_canonical": 4,
+      "role": "door",
+      "source_path": "palaces/xun_4/palace_elements[1]",
+      "type": "E",
+      "value": "惊门"
+    },
+    {
+      "content_hash": "134caa3b8c98723a09dece77fabae20239ebc3550b4b1161f8520deaab3f8d3c",
+      "field_code": "ES",
+      "id": "E051",
+      "id_derivation": "sha256",
+      "palace_canonical": 4,
+      "role": "earth_stem",
+      "source_path": "palaces/xun_4/palace_elements[5]",
+      "type": "E",
+      "value": "辛"
+    },
+    {
+      "content_hash": "b70a8e078f50a85715e2c839fa3457edcb766bdf79cbbc307c1dbd26610a3b6d",
+      "field_code": "EX",
+      "id": "E052",
+      "id_derivation": "sha256",
+      "palace_canonical": 4,
+      "role": "explicit_marker",
+      "source_path": "palaces/xun_4/interpretations[0]/condition",
+      "type": "E",
+      "value": "天戊 处于 '冠带' (于辰) 且 '临官' (于巳)"
+    },
+    {
+      "content_hash": "df641ae82c43212debe821cc7061482001ec6db0d0e1e1c1bac159d223b15e98",
+      "field_code": "EX",
+      "id": "E053",
+      "id_derivation": "sha256",
+      "palace_canonical": 4,
+      "role": "explicit_marker",
+      "source_path": "palaces/xun_4/interpretations[1]/condition",
+      "type": "E",
+      "value": "地辛 处于 '墓' (于辰) 且 '死' (于巳)"
+    },
+    {
+      "content_hash": "650ba679d9682ab4287fab9725e52603e753baaedd9987d7fbf2aa9d32ef5ef6",
+      "field_code": "EX",
+      "id": "E054",
+      "id_derivation": "sha256",
+      "palace_canonical": 4,
+      "role": "explicit_marker",
+      "source_path": "palaces/xun_4/interpretations[2]/condition",
+      "type": "E",
+      "value": "暗戊 处于 '冠带' (于辰) 且 '临官' (于巳)"
+    },
+    {
+      "content_hash": "7f3fee719705d2f4f2ee0276a70c4d7eca7828e14f276258d09e9c31e567f134",
+      "field_code": "EX",
+      "id": "E055",
+      "id_derivation": "sha256",
+      "palace_canonical": 4,
+      "role": "explicit_marker",
+      "source_path": "palaces/xun_4/interpretations[3]/condition",
+      "type": "E",
+      "value": "天盘干 戊加辛 形成『青龙折足』"
+    },
+    {
+      "content_hash": "a1b9e3c5ddbddb6d4f95af9e29dfb1923c1de64c465656b1978bad60d06aa1b0",
+      "field_code": "EX",
+      "id": "E056",
+      "id_derivation": "sha256",
+      "palace_canonical": 4,
+      "role": "explicit_marker",
+      "source_path": "palaces/xun_4/interpretations[4]/condition",
+      "type": "E",
+      "value": "暗干干 戊加辛 形成『青龙折足』"
+    },
+    {
+      "content_hash": "ff476c4c377503a24998fb17c40ee3b3fdc778cabd2444706f9f2b87a92eecab",
+      "field_code": "EX",
+      "id": "E057",
+      "id_derivation": "sha256",
+      "palace_canonical": 4,
+      "role": "explicit_marker",
+      "source_path": "palaces/xun_4/interpretations[5]/condition",
+      "type": "E",
+      "value": "门迫宫"
+    },
+    {
+      "content_hash": "ef622d05fcb2a1a10afbe56e36b541e0d608a6f884fdaec0e81f96f4cd4d973e",
+      "field_code": "HS",
+      "id": "E058",
+      "id_derivation": "sha256",
+      "palace_canonical": 4,
+      "role": "heaven_stem",
+      "source_path": "palaces/xun_4/palace_elements[4]",
+      "type": "E",
+      "value": "戊"
+    },
+    {
+      "content_hash": "116f58fd36c06c64b4c75f9ba10b3227289eacdb1c1993d5d8bf4ea44f760777",
+      "field_code": "ST",
+      "id": "E059",
+      "id_derivation": "sha256",
+      "palace_canonical": 4,
+      "role": "star",
+      "source_path": "palaces/xun_4/palace_elements[2]",
+      "type": "E",
+      "value": "天柱"
+    },
+    {
+      "content_hash": "ecab95fffd53e3a982d6e5079eb46d11904e885d41e8b442434cad11af19d5f7",
+      "field_code": "ES",
+      "id": "E060",
+      "id_derivation": "sha256",
+      "palace_canonical": 5,
+      "role": "earth_stem",
+      "source_path": "palaces/center_5/palace_elements[2]",
+      "type": "E",
+      "value": "庚"
+    },
+    {
+      "content_hash": "f4ce493dc27231966327a4d0909ad85d56e5c01fdf262470b6ab2aa808d99042",
+      "field_code": "EX",
+      "id": "E061",
+      "id_derivation": "sha256",
+      "palace_canonical": 5,
+      "role": "explicit_marker",
+      "source_path": "palaces/center_5/interpretations[0]/condition",
+      "type": "E",
+      "value": "暗干干 庚加庚 形成『太白同宫』"
+    },
+    {
+      "content_hash": "12517b57d45d3c1fd3509b9c6f74163db1d88dcb7a83be6edc62088eefd0328a",
+      "field_code": "ST",
+      "id": "E062",
+      "id_derivation": "sha256",
+      "palace_canonical": 5,
+      "role": "star",
+      "source_path": "palaces/center_5/palace_elements[0]",
+      "type": "E",
+      "value": "天禽"
+    },
+    {
+      "content_hash": "5f7ebe485e1c701fbaa3c8330279166bf12a035b2e8a4ea6392e7b91c54fb95b",
+      "field_code": "DE",
+      "id": "E063",
+      "id_derivation": "sha256",
+      "palace_canonical": 6,
+      "role": "deity",
+      "source_path": "palaces/qian_6/palace_elements[0]",
+      "type": "E",
+      "value": "腾蛇"
+    },
+    {
+      "content_hash": "c8d6b9c4d46f088a0b0bb6357424605f8b0c5b4d74e2dfc647742b296b5b58e8",
+      "field_code": "DO",
+      "id": "E064",
+      "id_derivation": "sha256",
+      "palace_canonical": 6,
+      "role": "door",
+      "source_path": "palaces/qian_6/palace_elements[1]",
+      "type": "E",
+      "value": "伤门"
+    },
+    {
+      "content_hash": "4b336c63425967542403656e15547bf2d988e8ad24d0b913aa977a28611f6f29",
+      "field_code": "ES",
+      "id": "E065",
+      "id_derivation": "sha256",
+      "palace_canonical": 6,
+      "role": "earth_stem",
+      "source_path": "palaces/qian_6/palace_elements[5]",
+      "type": "E",
+      "value": "己"
+    },
+    {
+      "content_hash": "8658e26f3174c84012173deee29905ddb0e0d71ad2e77907ebcf8926e97279a9",
+      "field_code": "EX",
+      "id": "E066",
+      "id_derivation": "sha256",
+      "palace_canonical": 6,
+      "role": "explicit_marker",
+      "source_path": "palaces/qian_6/interpretations[0]/condition",
+      "type": "E",
+      "value": "天壬 处于 '冠带' (于戌) 且 '临官' (于亥)"
+    },
+    {
+      "content_hash": "ab05c59b43c623782c1389bd9f00af65cc42855ed9c1d7443de7359f3123975c",
+      "field_code": "EX",
+      "id": "E067",
+      "id_derivation": "sha256",
+      "palace_canonical": 6,
+      "role": "explicit_marker",
+      "source_path": "palaces/qian_6/interpretations[1]/condition",
+      "type": "E",
+      "value": "地己 处于 '养' (于戌) 且 '胎' (于亥)"
+    },
+    {
+      "content_hash": "6bce7de1865744a847add95e786332a2812b71c669b2fa1b7156aa8fc5b9ef33",
+      "field_code": "EX",
+      "id": "E068",
+      "id_derivation": "sha256",
+      "palace_canonical": 6,
+      "role": "explicit_marker",
+      "source_path": "palaces/qian_6/interpretations[2]/condition",
+      "type": "E",
+      "value": "暗壬 处于 '冠带' (于戌) 且 '临官' (于亥)"
+    },
+    {
+      "content_hash": "f034cb97b291f12e94e3ef646f3853852c7b7d93c1f9f08bdc01f015c09c20d3",
+      "field_code": "EX",
+      "id": "E069",
+      "id_derivation": "sha256",
+      "palace_canonical": 6,
+      "role": "explicit_marker",
+      "source_path": "palaces/qian_6/interpretations[3]/condition",
+      "type": "E",
+      "value": "天盘干 壬加己 形成『凶蛇入狱』"
+    },
+    {
+      "content_hash": "9463de643bec0df54dbac2c51914808185e638ec5167c9a9cf4d681772dcd46f",
+      "field_code": "EX",
+      "id": "E070",
+      "id_derivation": "sha256",
+      "palace_canonical": 6,
+      "role": "explicit_marker",
+      "source_path": "palaces/qian_6/interpretations[4]/condition",
+      "type": "E",
+      "value": "暗干干 壬加己 形成『凶蛇入狱』"
+    },
+    {
+      "content_hash": "85c109ef7401fcc87ce36db734b380f624b4136740980940a1bdfd807b8d92c3",
+      "field_code": "EX",
+      "id": "E071",
+      "id_derivation": "sha256",
+      "palace_canonical": 6,
+      "role": "explicit_marker",
+      "source_path": "palaces/qian_6/interpretations[5]/condition",
+      "type": "E",
+      "value": "宫迫门"
+    },
+    {
+      "content_hash": "7b7b74314cb4a39ca92e25293c99211dbacd0b9dde547355f00bd7db3d1759cc",
+      "field_code": "HS",
+      "id": "E072",
+      "id_derivation": "sha256",
+      "palace_canonical": 6,
+      "role": "heaven_stem",
+      "source_path": "palaces/qian_6/palace_elements[4]",
+      "type": "E",
+      "value": "壬"
+    },
+    {
+      "content_hash": "e7a3fc22f848216b93001351e771433924f522bcc799962271600a96a63867e2",
+      "field_code": "ST",
+      "id": "E073",
+      "id_derivation": "sha256",
+      "palace_canonical": 6,
+      "role": "star",
+      "source_path": "palaces/qian_6/palace_elements[2]",
+      "type": "E",
+      "value": "天冲"
+    },
+    {
+      "content_hash": "acb77dc7aed907f2158f22dfefd78a80fff48ce37f046d0f09fbbc3c3c5d1a29",
+      "field_code": "DE",
+      "id": "E074",
+      "id_derivation": "sha256",
+      "palace_canonical": 7,
+      "role": "deity",
+      "source_path": "palaces/dui_7/palace_elements[0]",
+      "type": "E",
+      "value": "太阴"
+    },
+    {
+      "content_hash": "1ba3bd6c4e8c25049b4f6a2b753b8506515e957eab4c030a343bdc4369126774",
+      "field_code": "DO",
+      "id": "E075",
+      "id_derivation": "sha256",
+      "palace_canonical": 7,
+      "role": "door",
+      "source_path": "palaces/dui_7/palace_elements[1]",
+      "type": "E",
+      "value": "生门"
+    },
+    {
+      "content_hash": "3f6964d1e39c09f906691420f6741d2c8d3189bc32ad1bce683d7cafd61cf38c",
+      "field_code": "ES",
+      "id": "E076",
+      "id_derivation": "sha256",
+      "palace_canonical": 7,
+      "role": "earth_stem",
+      "source_path": "palaces/dui_7/palace_elements[5]",
+      "type": "E",
+      "value": "戊"
+    },
+    {
+      "content_hash": "15f1a87fcd8b6718e3110c58055a3263b0595229afbfed133000b2ce3091efb2",
+      "field_code": "EX",
+      "id": "E077",
+      "id_derivation": "sha256",
+      "palace_canonical": 7,
+      "role": "explicit_marker",
+      "source_path": "palaces/dui_7/interpretations[0]/condition",
+      "type": "E",
+      "value": "天乙 处于 '绝' (于酉)"
+    },
+    {
+      "content_hash": "f9cdba8c2be0caa3a2e9b1ddda3660d333105250050ac92e38ece5698ef23c76",
+      "field_code": "EX",
+      "id": "E078",
+      "id_derivation": "sha256",
+      "palace_canonical": 7,
+      "role": "explicit_marker",
+      "source_path": "palaces/dui_7/interpretations[1]/condition",
+      "type": "E",
+      "value": "地戊 处于 '死' (于酉)"
+    },
+    {
+      "content_hash": "a5962cf6ccd14e8c0fbc924f56594cbd2d16fa2381686dfe23b61115183cf1af",
+      "field_code": "EX",
+      "id": "E079",
+      "id_derivation": "sha256",
+      "palace_canonical": 7,
+      "role": "explicit_marker",
+      "source_path": "palaces/dui_7/interpretations[2]/condition",
+      "type": "E",
+      "value": "暗乙 处于 '绝' (于酉)"
+    },
+    {
+      "content_hash": "021c70e150470f7b5264ae73437a56c49cc87b516b32694510c1cfabe1225ed4",
+      "field_code": "EX",
+      "id": "E080",
+      "id_derivation": "sha256",
+      "palace_canonical": 7,
+      "role": "explicit_marker",
+      "source_path": "palaces/dui_7/interpretations[3]/condition",
+      "type": "E",
+      "value": "天盘干 乙加戊 形成『利阴害阳』"
+    },
+    {
+      "content_hash": "74795f3b8378830581a34e424bfb6833f605519a704e8e777c1d2b5042e13aeb",
+      "field_code": "EX",
+      "id": "E081",
+      "id_derivation": "sha256",
+      "palace_canonical": 7,
+      "role": "explicit_marker",
+      "source_path": "palaces/dui_7/interpretations[4]/condition",
+      "type": "E",
+      "value": "暗干干 乙加戊 形成『利阴害阳』"
+    },
+    {
+      "content_hash": "5ce5e085968dc302bae1fb432830ed4ba80287e9654872345418861ee9d7a094",
+      "field_code": "EX",
+      "id": "E082",
+      "id_derivation": "sha256",
+      "palace_canonical": 7,
+      "role": "explicit_marker",
+      "source_path": "palaces/dui_7/interpretations[5]/condition",
+      "type": "E",
+      "value": "门生宫"
+    },
+    {
+      "content_hash": "12f74cc26ed06715d939423f1fe03897184e5f1f51c3c12cfe4a04bf221eb1e8",
+      "field_code": "HS",
+      "id": "E083",
+      "id_derivation": "sha256",
+      "palace_canonical": 7,
+      "role": "heaven_stem",
+      "source_path": "palaces/dui_7/palace_elements[4]",
+      "type": "E",
+      "value": "乙"
+    },
+    {
+      "content_hash": "7ac24595136a323d6c2f921a419875a5bb4d772612592cadcfc1e4f08fae895e",
+      "field_code": "ST",
+      "id": "E084",
+      "id_derivation": "sha256",
+      "palace_canonical": 7,
+      "role": "star",
+      "source_path": "palaces/dui_7/palace_elements[2]",
+      "type": "E",
+      "value": "天任"
+    },
+    {
+      "content_hash": "8ea640b8eda00dc84f4165bf77d0802fcbcda209b294e70bc6aafee81c874427",
+      "field_code": "DE",
+      "id": "E085",
+      "id_derivation": "sha256",
+      "palace_canonical": 8,
+      "role": "deity",
+      "source_path": "palaces/gen_8/palace_elements[0]",
+      "type": "E",
+      "value": "九天"
+    },
+    {
+      "content_hash": "535adfec25b4d934d73e47abaecbc7c4af85d60882a71d7796fd61abb901591f",
+      "field_code": "DO",
+      "id": "E086",
+      "id_derivation": "sha256",
+      "palace_canonical": 8,
+      "role": "door",
+      "source_path": "palaces/gen_8/palace_elements[1]",
+      "type": "E",
+      "value": "景门"
+    },
+    {
+      "content_hash": "ee8053a8f2d2a60355a89df5adcbe8b33fd5d80b268e253925813d82b5ef4db8",
+      "field_code": "ES",
+      "id": "E087",
+      "id_derivation": "sha256",
+      "palace_canonical": 8,
+      "role": "earth_stem",
+      "source_path": "palaces/gen_8/palace_elements[5]",
+      "type": "E",
+      "value": "乙"
+    },
+    {
+      "content_hash": "0c3e6c410f53d75d46a18f9f40e9d07c6dbd90db22be2e1df2f86f89bdbc7c84",
+      "field_code": "EX",
+      "id": "E088",
+      "id_derivation": "sha256",
+      "palace_canonical": 8,
+      "role": "explicit_marker",
+      "source_path": "palaces/gen_8/interpretations[0]/condition",
+      "type": "E",
+      "value": "天丙 处于 '养' (于丑) 且 '长生' (于寅)"
+    },
+    {
+      "content_hash": "ffbc46c3d2c76cc3bdad6b86f7f4283cefc8e95c06886d01b3dc99a803171977",
+      "field_code": "EX",
+      "id": "E089",
+      "id_derivation": "sha256",
+      "palace_canonical": 8,
+      "role": "explicit_marker",
+      "source_path": "palaces/gen_8/interpretations[1]/condition",
+      "type": "E",
+      "value": "地乙 处于 '衰' (于丑) 且 '帝旺' (于寅)"
+    },
+    {
+      "content_hash": "0b4defc9a8724d835c02e58e727559b25060df8b9b606dc3e5fa29cded8930e0",
+      "field_code": "EX",
+      "id": "E090",
+      "id_derivation": "sha256",
+      "palace_canonical": 8,
+      "role": "explicit_marker",
+      "source_path": "palaces/gen_8/interpretations[2]/condition",
+      "type": "E",
+      "value": "暗丙 处于 '养' (于丑) 且 '长生' (于寅)"
+    },
+    {
+      "content_hash": "fb306735dd51d1183d5a9435248e6696b7a54cd81a890951bf5969674ea0c2db",
+      "field_code": "EX",
+      "id": "E091",
+      "id_derivation": "sha256",
+      "palace_canonical": 8,
+      "role": "explicit_marker",
+      "source_path": "palaces/gen_8/interpretations[3]/condition",
+      "type": "E",
+      "value": "天盘干 丙加乙 形成『日月并行』"
+    },
+    {
+      "content_hash": "fcab1b05662f2e8ed65669f37bdc56c98be08625908b463e5bba34f6d00a62a4",
+      "field_code": "EX",
+      "id": "E092",
+      "id_derivation": "sha256",
+      "palace_canonical": 8,
+      "role": "explicit_marker",
+      "source_path": "palaces/gen_8/interpretations[4]/condition",
+      "type": "E",
+      "value": "暗干干 丙加乙 形成『日月并行』"
+    },
+    {
+      "content_hash": "ca9ef2d25d12f526ee5eb75c0c0fd8ece14245123e3f921ed654c51c0b2fd06a",
+      "field_code": "EX",
+      "id": "E093",
+      "id_derivation": "sha256",
+      "palace_canonical": 8,
+      "role": "explicit_marker",
+      "source_path": "palaces/gen_8/interpretations[5]/condition",
+      "type": "E",
+      "value": "门生宫"
+    },
+    {
+      "content_hash": "67fd2e2ee468a208695060c4d508fa244aad4b011e3846592f51cc447d1c8723",
+      "field_code": "HS",
+      "id": "E094",
+      "id_derivation": "sha256",
+      "palace_canonical": 8,
+      "role": "heaven_stem",
+      "source_path": "palaces/gen_8/palace_elements[4]",
+      "type": "E",
+      "value": "丙"
+    },
+    {
+      "content_hash": "046d79e13486aa9797721fd1f7b4d1ee4d5e09c32f5327c6d1946264d9a63ea6",
+      "field_code": "ST",
+      "id": "E095",
+      "id_derivation": "sha256",
+      "palace_canonical": 8,
+      "role": "star",
+      "source_path": "palaces/gen_8/palace_elements[2]",
+      "type": "E",
+      "value": "天英"
+    },
+    {
+      "content_hash": "cb2c3ae9b38cf46fe08a52585c4313c9730360aa47d2d553dc84ecf10272235e",
+      "field_code": "DE",
+      "id": "E096",
+      "id_derivation": "sha256",
+      "palace_canonical": 9,
+      "role": "deity",
+      "source_path": "palaces/li_9/palace_elements[0]",
+      "type": "E",
+      "value": "白虎"
+    },
+    {
+      "content_hash": "a794fbfd9c3e6a64f75aa13267fc9cb601cd5e0059df3eab6129afc6fab60c59",
+      "field_code": "DO",
+      "id": "E097",
+      "id_derivation": "sha256",
+      "palace_canonical": 9,
+      "role": "door",
+      "source_path": "palaces/li_9/palace_elements[1]",
+      "type": "E",
+      "value": "开门"
+    },
+    {
+      "content_hash": "bbf73f0a4f97a1848b7368c3365aee3a640df728519fbb204e1fa568f71a1dc2",
+      "field_code": "ES",
+      "id": "E098",
+      "id_derivation": "sha256",
+      "palace_canonical": 9,
+      "role": "earth_stem",
+      "source_path": "palaces/li_9/palace_elements[5]",
+      "type": "E",
+      "value": "丙"
+    },
+    {
+      "content_hash": "4a50a99761476ad81008f11612a00f7733398200a94bb354814d4db4feca08d6",
+      "field_code": "EX",
+      "id": "E099",
+      "id_derivation": "sha256",
+      "palace_canonical": 9,
+      "role": "explicit_marker",
+      "source_path": "palaces/li_9/interpretations[0]/condition",
+      "type": "E",
+      "value": "天己 处于 '临官' (于午)"
+    },
+    {
+      "content_hash": "1f8554dbd5ba52c8ffe9fe26a881cbb67cf37e98021bf2334a67e0621cf6b625",
+      "field_code": "EX",
+      "id": "E100",
+      "id_derivation": "sha256",
+      "palace_canonical": 9,
+      "role": "explicit_marker",
+      "source_path": "palaces/li_9/interpretations[1]/condition",
+      "type": "E",
+      "value": "地丙 处于 '帝旺' (于午)"
+    },
+    {
+      "content_hash": "05d47e94087af900d05a8fc019c7a1dc20c5e68b5f4482fe49815d2c172d98d6",
+      "field_code": "EX",
+      "id": "E101",
+      "id_derivation": "sha256",
+      "palace_canonical": 9,
+      "role": "explicit_marker",
+      "source_path": "palaces/li_9/interpretations[2]/condition",
+      "type": "E",
+      "value": "暗己 处于 '临官' (于午)"
+    },
+    {
+      "content_hash": "4614ae1267c6f4daa6703b4e05356083638da3af38109b3f92e17b2bf677f837",
+      "field_code": "EX",
+      "id": "E102",
+      "id_derivation": "sha256",
+      "palace_canonical": 9,
+      "role": "explicit_marker",
+      "source_path": "palaces/li_9/interpretations[3]/condition",
+      "type": "E",
+      "value": "天盘干 己加丙 形成『火悖地户』"
+    },
+    {
+      "content_hash": "96214e1194533e55c7caeec8d9d5c8d36f5c3205f0a88f3260704efefb1ecc26",
+      "field_code": "EX",
+      "id": "E103",
+      "id_derivation": "sha256",
+      "palace_canonical": 9,
+      "role": "explicit_marker",
+      "source_path": "palaces/li_9/interpretations[4]/condition",
+      "type": "E",
+      "value": "暗干干 己加丙 形成『火悖地户』"
+    },
+    {
+      "content_hash": "725028c240d818d0b4c4a630541df13019ede49e5ec1438cac92f96d8fec9c49",
+      "field_code": "EX",
+      "id": "E104",
+      "id_derivation": "sha256",
+      "palace_canonical": 9,
+      "role": "explicit_marker",
+      "source_path": "palaces/li_9/interpretations[5]/condition",
+      "type": "E",
+      "value": "宫迫门"
+    },
+    {
+      "content_hash": "e858d90b15b73be67aeb7502f63f8c3fe2442fbf961e975ba643fe3b6067ac0f",
+      "field_code": "HS",
+      "id": "E105",
+      "id_derivation": "sha256",
+      "palace_canonical": 9,
+      "role": "heaven_stem",
+      "source_path": "palaces/li_9/palace_elements[4]",
+      "type": "E",
+      "value": "己"
+    },
+    {
+      "content_hash": "bca348beba89aae56e988ad2568dc1920c330d8c1a358968c0dd85e5115449d6",
+      "field_code": "ST",
+      "id": "E106",
+      "id_derivation": "sha256",
+      "palace_canonical": 9,
+      "role": "star",
+      "source_path": "palaces/li_9/palace_elements[2]",
+      "type": "E",
+      "value": "天心"
+    }
+  ],
+  "r_atom_count": 9,
+  "r_atoms": [
+    {
+      "content_hash": "a14c003f69aaf6d520403c627e740d123277332cec15182ae6f54e9bb209ebf7",
+      "id": "R001",
+      "members_E": [
+        "E013",
+        "E033"
+      ],
+      "palaces": [
+        1,
+        2
+      ],
+      "relation_type": "R.IDENTICAL_STEM",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/kan_1/palace_elements[5]",
+        "palaces/kun_2/palace_elements[4]"
+      ],
+      "stem_value": "丁",
+      "trace": "value_trace(丁): ES@1(earth_stem) == HS@2(heaven_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "070362b5aee105432482c717fd46c0a498adf13e3b1a98d36dba9ed8317a321d",
+      "id": "R002",
+      "members_E": [
+        "E021",
+        "E051"
+      ],
+      "palaces": [
+        1,
+        4
+      ],
+      "relation_type": "R.IDENTICAL_STEM_ON_AXIS",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/kan_1/palace_elements[4]",
+        "palaces/xun_4/palace_elements[5]"
+      ],
+      "stem_value": "辛",
+      "trace": "value_trace(辛): HS@1(heaven_stem) == ES@4(earth_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "5c2bfdefc7a85d1016197ebd67de2fc4b25683ff3f576492fcfc9b0e59bab09e",
+      "id": "R003",
+      "members_E": [
+        "E025",
+        "E046"
+      ],
+      "palaces": [
+        2,
+        3
+      ],
+      "relation_type": "R.IDENTICAL_STEM",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/kun_2/palace_elements[5]",
+        "palaces/zhen_3/palace_elements[4]"
+      ],
+      "stem_value": "癸",
+      "trace": "value_trace(癸): ES@2(earth_stem) == HS@3(heaven_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "9a44e038b9c6c78d3453e83c089e52048a94545cfa9a3dc182e77cd11bbca036",
+      "id": "R004",
+      "members_E": [
+        "E047",
+        "E060"
+      ],
+      "palaces": [
+        3,
+        5
+      ],
+      "relation_type": "R.IDENTICAL_STEM_LODGING",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/center_5/palace_elements[2]",
+        "palaces/zhen_3/interpretations[1]/condition"
+      ],
+      "stem_value": "庚",
+      "trace": "value_trace(庚): HX@3(hosted_stem) == ES@5(earth_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "53aa94e5ed464fac7a3c085473b0b9cbaeffa20e241e0d1cfda6eba6a5e1c7f4",
+      "id": "R005",
+      "members_E": [
+        "E037",
+        "E072"
+      ],
+      "palaces": [
+        3,
+        6
+      ],
+      "relation_type": "R.IDENTICAL_STEM",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/qian_6/palace_elements[4]",
+        "palaces/zhen_3/palace_elements[5]"
+      ],
+      "stem_value": "壬",
+      "trace": "value_trace(壬): ES@3(earth_stem) == HS@6(heaven_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "5e98814a0d933df889529dedae34edc1cbabab9fbb9866bdb3928e6d603c104b",
+      "id": "R006",
+      "members_E": [
+        "E058",
+        "E076"
+      ],
+      "palaces": [
+        4,
+        7
+      ],
+      "relation_type": "R.IDENTICAL_STEM",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/dui_7/palace_elements[5]",
+        "palaces/xun_4/palace_elements[4]"
+      ],
+      "stem_value": "戊",
+      "trace": "value_trace(戊): HS@4(heaven_stem) == ES@7(earth_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "c7a3f09b46c9a2f956aedca16b770852b76fee7956d48be1c9cc9c7bf02ea1b3",
+      "id": "R007",
+      "members_E": [
+        "E065",
+        "E105"
+      ],
+      "palaces": [
+        6,
+        9
+      ],
+      "relation_type": "R.IDENTICAL_STEM_ON_AXIS",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/li_9/palace_elements[4]",
+        "palaces/qian_6/palace_elements[5]"
+      ],
+      "stem_value": "己",
+      "trace": "value_trace(己): ES@6(earth_stem) == HS@9(heaven_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "026d0472ec723c622acedcf5345d54dce0ad9c0267bc4e01b6ee9f5f78956df6",
+      "id": "R008",
+      "members_E": [
+        "E083",
+        "E087"
+      ],
+      "palaces": [
+        7,
+        8
+      ],
+      "relation_type": "R.IDENTICAL_STEM",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/dui_7/palace_elements[4]",
+        "palaces/gen_8/palace_elements[5]"
+      ],
+      "stem_value": "乙",
+      "trace": "value_trace(乙): HS@7(heaven_stem) == ES@8(earth_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "61f0e9beec0a2cae5182380fc7ce002679b47643932b80fb7fc178d6de75125c",
+      "id": "R009",
+      "members_E": [
+        "E094",
+        "E098"
+      ],
+      "palaces": [
+        8,
+        9
+      ],
+      "relation_type": "R.IDENTICAL_STEM",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/gen_8/palace_elements[4]",
+        "palaces/li_9/palace_elements[5]"
+      ],
+      "stem_value": "丙",
+      "trace": "value_trace(丙): HS@8(heaven_stem) == ES@9(earth_stem); matched by FIELD VALUE, not array position"
+    }
+  ],
+  "trace_graph": {
+    "classification": "single closed circulation over the 8-palace outer ring plus 1 centre spur(s)",
+    "closed_walk": [
+      1,
+      2,
+      3,
+      6,
+      9,
+      8,
+      7,
+      4
+    ],
+    "closed_walk_len": 8,
+    "degree": {
+      "1": 2,
+      "2": 2,
+      "3": 3,
+      "4": 2,
+      "5": 1,
+      "6": 2,
+      "7": 2,
+      "8": 2,
+      "9": 2
+    },
+    "edge_count": 9,
+    "nodes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "off_ring_nodes": [
+      5
+    ],
+    "ring_regular": true
+  },
+  "ganzhi": {
+    "cap": "CAP-05",
+    "parsed": [],
+    "rule": "split on space/hyphen into exactly two tokens; never guess",
+    "unparseable": [
+      {
+        "path": "chart_info/ganzhi/year",
+        "raw": "丙午",
+        "reason": "TOKEN_COUNT=1",
+        "slot": "year",
+        "state": "UNPARSEABLE"
+      },
+      {
+        "path": "chart_info/ganzhi/month",
+        "raw": "丁酉",
+        "reason": "TOKEN_COUNT=1",
+        "slot": "month",
+        "state": "UNPARSEABLE"
+      },
+      {
+        "path": "chart_info/ganzhi/day",
+        "raw": "辛亥",
+        "reason": "TOKEN_COUNT=1",
+        "slot": "day",
+        "state": "UNPARSEABLE"
+      },
+      {
+        "path": "chart_info/ganzhi/hour",
+        "raw": "丁酉",
+        "reason": "TOKEN_COUNT=1",
+        "slot": "hour",
+        "state": "UNPARSEABLE"
+      }
+    ]
+  },
+  "stem_norms": {
+    "cap": "CAP-06",
+    "stem_count": 18,
+    "stem_norms": {
+      "center_5.earth_stem": {
+        "canonical": "Geng",
+        "element": "metal",
+        "heavenly_stem_raw": "庚",
+        "polarity": "yang",
+        "raw": "庚",
+        "slot": "center_5.earth_stem",
+        "source_path": "palaces/center_5/palace_elements[2]",
+        "state": "OK"
+      },
+      "dui_7.earth_stem": {
+        "canonical": "Wu",
+        "element": "earth",
+        "heavenly_stem_raw": "戊",
+        "polarity": "yang",
+        "raw": "戊",
+        "slot": "dui_7.earth_stem",
+        "source_path": "palaces/dui_7/palace_elements[5]",
+        "state": "OK"
+      },
+      "dui_7.heaven_stem": {
+        "canonical": "Yi",
+        "element": "wood",
+        "heavenly_stem_raw": "乙",
+        "polarity": "yin",
+        "raw": "乙",
+        "slot": "dui_7.heaven_stem",
+        "source_path": "palaces/dui_7/palace_elements[4]",
+        "state": "OK"
+      },
+      "gen_8.earth_stem": {
+        "canonical": "Yi",
+        "element": "wood",
+        "heavenly_stem_raw": "乙",
+        "polarity": "yin",
+        "raw": "乙",
+        "slot": "gen_8.earth_stem",
+        "source_path": "palaces/gen_8/palace_elements[5]",
+        "state": "OK"
+      },
+      "gen_8.heaven_stem": {
+        "canonical": "Bing",
+        "element": "fire",
+        "heavenly_stem_raw": "丙",
+        "polarity": "yang",
+        "raw": "丙",
+        "slot": "gen_8.heaven_stem",
+        "source_path": "palaces/gen_8/palace_elements[4]",
+        "state": "OK"
+      },
+      "kan_1.earth_stem": {
+        "canonical": "Ding",
+        "element": "fire",
+        "heavenly_stem_raw": "丁",
+        "polarity": "yin",
+        "raw": "丁",
+        "slot": "kan_1.earth_stem",
+        "source_path": "palaces/kan_1/palace_elements[5]",
+        "state": "OK"
+      },
+      "kan_1.heaven_stem": {
+        "canonical": "Xin",
+        "element": "metal",
+        "heavenly_stem_raw": "辛",
+        "polarity": "yin",
+        "raw": "辛",
+        "slot": "kan_1.heaven_stem",
+        "source_path": "palaces/kan_1/palace_elements[4]",
+        "state": "OK"
+      },
+      "kun_2.earth_stem": {
+        "canonical": "Gui",
+        "element": "water",
+        "heavenly_stem_raw": "癸",
+        "polarity": "yin",
+        "raw": "癸",
+        "slot": "kun_2.earth_stem",
+        "source_path": "palaces/kun_2/palace_elements[5]",
+        "state": "OK"
+      },
+      "kun_2.heaven_stem": {
+        "canonical": "Ding",
+        "element": "fire",
+        "heavenly_stem_raw": "丁",
+        "polarity": "yin",
+        "raw": "丁",
+        "slot": "kun_2.heaven_stem",
+        "source_path": "palaces/kun_2/palace_elements[4]",
+        "state": "OK"
+      },
+      "li_9.earth_stem": {
+        "canonical": "Bing",
+        "element": "fire",
+        "heavenly_stem_raw": "丙",
+        "polarity": "yang",
+        "raw": "丙",
+        "slot": "li_9.earth_stem",
+        "source_path": "palaces/li_9/palace_elements[5]",
+        "state": "OK"
+      },
+      "li_9.heaven_stem": {
+        "canonical": "Ji",
+        "element": "earth",
+        "heavenly_stem_raw": "己",
+        "polarity": "yin",
+        "raw": "己",
+        "slot": "li_9.heaven_stem",
+        "source_path": "palaces/li_9/palace_elements[4]",
+        "state": "OK"
+      },
+      "qian_6.earth_stem": {
+        "canonical": "Ji",
+        "element": "earth",
+        "heavenly_stem_raw": "己",
+        "polarity": "yin",
+        "raw": "己",
+        "slot": "qian_6.earth_stem",
+        "source_path": "palaces/qian_6/palace_elements[5]",
+        "state": "OK"
+      },
+      "qian_6.heaven_stem": {
+        "canonical": "Ren",
+        "element": "water",
+        "heavenly_stem_raw": "壬",
+        "polarity": "yang",
+        "raw": "壬",
+        "slot": "qian_6.heaven_stem",
+        "source_path": "palaces/qian_6/palace_elements[4]",
+        "state": "OK"
+      },
+      "xun_4.earth_stem": {
+        "canonical": "Xin",
+        "element": "metal",
+        "heavenly_stem_raw": "辛",
+        "polarity": "yin",
+        "raw": "辛",
+        "slot": "xun_4.earth_stem",
+        "source_path": "palaces/xun_4/palace_elements[5]",
+        "state": "OK"
+      },
+      "xun_4.heaven_stem": {
+        "canonical": "Wu",
+        "element": "earth",
+        "heavenly_stem_raw": "戊",
+        "polarity": "yang",
+        "raw": "戊",
+        "slot": "xun_4.heaven_stem",
+        "source_path": "palaces/xun_4/palace_elements[4]",
+        "state": "OK"
+      },
+      "zhen_3.earth_stem": {
+        "canonical": "Ren",
+        "element": "water",
+        "heavenly_stem_raw": "壬",
+        "polarity": "yang",
+        "raw": "壬",
+        "slot": "zhen_3.earth_stem",
+        "source_path": "palaces/zhen_3/palace_elements[5]",
+        "state": "OK"
+      },
+      "zhen_3.heaven_stem": {
+        "canonical": "Gui",
+        "element": "water",
+        "heavenly_stem_raw": "癸",
+        "polarity": "yin",
+        "raw": "癸",
+        "slot": "zhen_3.heaven_stem",
+        "source_path": "palaces/zhen_3/palace_elements[4]",
+        "state": "OK"
+      },
+      "zhen_3.hosted_stem": {
+        "canonical": "Geng",
+        "element": "metal",
+        "heavenly_stem_raw": "庚",
+        "polarity": "yang",
+        "raw": "庚",
+        "slot": "zhen_3.hosted_stem",
+        "source_path": "palaces/zhen_3/interpretations[1]/condition",
+        "state": "OK"
+      }
+    },
+    "unparseable": [],
+    "vocabulary": "jia..gui with polarity + element; partial matches forbidden"
+  },
+  "composite_atoms": {
+    "atom_count": 42,
+    "atoms": [
+      {
+        "atom_type": "deity",
+        "path": "palaces/kan_1/palace_elements[0]",
+        "raw": "值符",
+        "role": null,
+        "value": "值符"
+      },
+      {
+        "atom_type": "door",
+        "path": "palaces/kan_1/palace_elements[1]",
+        "raw": "杜门",
+        "role": null,
+        "value": "杜门"
+      },
+      {
+        "atom_type": "star",
+        "path": "palaces/kan_1/palace_elements[2]",
+        "raw": "天辅",
+        "role": null,
+        "value": "天辅"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/kan_1/palace_elements[4]",
+        "raw": "天盘辛",
+        "role": "heaven_stem",
+        "value": "辛"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/kan_1/palace_elements[5]",
+        "raw": "地盘丁",
+        "role": "earth_stem",
+        "value": "丁"
+      },
+      {
+        "atom_type": "deity",
+        "path": "palaces/kun_2/palace_elements[0]",
+        "raw": "六合",
+        "role": null,
+        "value": "六合"
+      },
+      {
+        "atom_type": "door",
+        "path": "palaces/kun_2/palace_elements[1]",
+        "raw": "休门",
+        "role": null,
+        "value": "休门"
+      },
+      {
+        "atom_type": "star",
+        "path": "palaces/kun_2/palace_elements[2]",
+        "raw": "天蓬",
+        "role": null,
+        "value": "天蓬"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/kun_2/palace_elements[4]",
+        "raw": "天盘丁",
+        "role": "heaven_stem",
+        "value": "丁"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/kun_2/palace_elements[5]",
+        "raw": "地盘癸",
+        "role": "earth_stem",
+        "value": "癸"
+      },
+      {
+        "atom_type": "deity",
+        "path": "palaces/zhen_3/palace_elements[0]",
+        "raw": "九地",
+        "role": null,
+        "value": "九地"
+      },
+      {
+        "atom_type": "door",
+        "path": "palaces/zhen_3/palace_elements[1]",
+        "raw": "死门",
+        "role": null,
+        "value": "死门"
+      },
+      {
+        "atom_type": "star",
+        "path": "palaces/zhen_3/palace_elements[2]",
+        "raw": "天芮",
+        "role": null,
+        "value": "天芮"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/zhen_3/palace_elements[4]",
+        "raw": "天盘癸",
+        "role": "heaven_stem",
+        "value": "癸"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/zhen_3/palace_elements[5]",
+        "raw": "地盘壬",
+        "role": "earth_stem",
+        "value": "壬"
+      },
+      {
+        "atom_type": "deity",
+        "path": "palaces/xun_4/palace_elements[0]",
+        "raw": "玄武",
+        "role": null,
+        "value": "玄武"
+      },
+      {
+        "atom_type": "door",
+        "path": "palaces/xun_4/palace_elements[1]",
+        "raw": "惊门",
+        "role": null,
+        "value": "惊门"
+      },
+      {
+        "atom_type": "star",
+        "path": "palaces/xun_4/palace_elements[2]",
+        "raw": "天柱",
+        "role": null,
+        "value": "天柱"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/xun_4/palace_elements[4]",
+        "raw": "天盘戊",
+        "role": "heaven_stem",
+        "value": "戊"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/xun_4/palace_elements[5]",
+        "raw": "地盘辛",
+        "role": "earth_stem",
+        "value": "辛"
+      },
+      {
+        "atom_type": "star",
+        "path": "palaces/center_5/palace_elements[0]",
+        "raw": "天禽",
+        "role": null,
+        "value": "天禽"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/center_5/palace_elements[2]",
+        "raw": "地盘庚",
+        "role": "earth_stem",
+        "value": "庚"
+      },
+      {
+        "atom_type": "deity",
+        "path": "palaces/qian_6/palace_elements[0]",
+        "raw": "腾蛇",
+        "role": null,
+        "value": "腾蛇"
+      },
+      {
+        "atom_type": "door",
+        "path": "palaces/qian_6/palace_elements[1]",
+        "raw": "伤门",
+        "role": null,
+        "value": "伤门"
+      },
+      {
+        "atom_type": "star",
+        "path": "palaces/qian_6/palace_elements[2]",
+        "raw": "天冲",
+        "role": null,
+        "value": "天冲"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/qian_6/palace_elements[4]",
+        "raw": "天盘壬",
+        "role": "heaven_stem",
+        "value": "壬"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/qian_6/palace_elements[5]",
+        "raw": "地盘己",
+        "role": "earth_stem",
+        "value": "己"
+      },
+      {
+        "atom_type": "deity",
+        "path": "palaces/dui_7/palace_elements[0]",
+        "raw": "太阴",
+        "role": null,
+        "value": "太阴"
+      },
+      {
+        "atom_type": "door",
+        "path": "palaces/dui_7/palace_elements[1]",
+        "raw": "生门",
+        "role": null,
+        "value": "生门"
+      },
+      {
+        "atom_type": "star",
+        "path": "palaces/dui_7/palace_elements[2]",
+        "raw": "天任",
+        "role": null,
+        "value": "天任"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/dui_7/palace_elements[4]",
+        "raw": "天盘乙",
+        "role": "heaven_stem",
+        "value": "乙"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/dui_7/palace_elements[5]",
+        "raw": "地盘戊",
+        "role": "earth_stem",
+        "value": "戊"
+      },
+      {
+        "atom_type": "deity",
+        "path": "palaces/gen_8/palace_elements[0]",
+        "raw": "九天",
+        "role": null,
+        "value": "九天"
+      },
+      {
+        "atom_type": "door",
+        "path": "palaces/gen_8/palace_elements[1]",
+        "raw": "景门",
+        "role": null,
+        "value": "景门"
+      },
+      {
+        "atom_type": "star",
+        "path": "palaces/gen_8/palace_elements[2]",
+        "raw": "天英",
+        "role": null,
+        "value": "天英"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/gen_8/palace_elements[4]",
+        "raw": "天盘丙",
+        "role": "heaven_stem",
+        "value": "丙"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/gen_8/palace_elements[5]",
+        "raw": "地盘乙",
+        "role": "earth_stem",
+        "value": "乙"
+      },
+      {
+        "atom_type": "deity",
+        "path": "palaces/li_9/palace_elements[0]",
+        "raw": "白虎",
+        "role": null,
+        "value": "白虎"
+      },
+      {
+        "atom_type": "door",
+        "path": "palaces/li_9/palace_elements[1]",
+        "raw": "开门",
+        "role": null,
+        "value": "开门"
+      },
+      {
+        "atom_type": "star",
+        "path": "palaces/li_9/palace_elements[2]",
+        "raw": "天心",
+        "role": null,
+        "value": "天心"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/li_9/palace_elements[4]",
+        "raw": "天盘己",
+        "role": "heaven_stem",
+        "value": "己"
+      },
+      {
+        "atom_type": "stem_ref",
+        "path": "palaces/li_9/palace_elements[5]",
+        "raw": "地盘丙",
+        "role": "earth_stem",
+        "value": "丙"
+      }
+    ],
+    "cap": "CAP-07",
+    "composite_count": 51,
+    "typing_rule": "subject=role, relation=implicit field, target=value",
+    "unparseable": [
+      {
+        "path": "palaces/kan_1/palace_elements[3]",
+        "raw": "坎1宫",
+        "reason": "NO_TYPED_ATOM"
+      },
+      {
+        "path": "palaces/kun_2/palace_elements[3]",
+        "raw": "坤2宫",
+        "reason": "NO_TYPED_ATOM"
+      },
+      {
+        "path": "palaces/zhen_3/palace_elements[3]",
+        "raw": "震3宫",
+        "reason": "NO_TYPED_ATOM"
+      },
+      {
+        "path": "palaces/xun_4/palace_elements[3]",
+        "raw": "巽4宫",
+        "reason": "NO_TYPED_ATOM"
+      },
+      {
+        "path": "palaces/center_5/palace_elements[1]",
+        "raw": "中5宫",
+        "reason": "NO_TYPED_ATOM"
+      },
+      {
+        "path": "palaces/qian_6/palace_elements[3]",
+        "raw": "乾6宫",
+        "reason": "NO_TYPED_ATOM"
+      },
+      {
+        "path": "palaces/dui_7/palace_elements[3]",
+        "raw": "兑7宫",
+        "reason": "NO_TYPED_ATOM"
+      },
+      {
+        "path": "palaces/gen_8/palace_elements[3]",
+        "raw": "艮8宫",
+        "reason": "NO_TYPED_ATOM"
+      },
+      {
+        "path": "palaces/li_9/palace_elements[3]",
+        "raw": "离9宫",
+        "reason": "NO_TYPED_ATOM"
+      }
+    ]
+  },
+  "provenance_rule": "every atom carries its source_path and its content_hash; no atom was created without a chart path"
+}

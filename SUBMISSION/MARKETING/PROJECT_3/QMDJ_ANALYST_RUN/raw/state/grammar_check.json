@@ -1,0 +1,458 @@
+{
+  "cap": "CAP-13",
+  "checked": 75,
+  "checked_detail": [
+    {
+      "file": "renders/claim_lines.txt",
+      "kind": "CLAIM",
+      "line": 1,
+      "ok": true
+    },
+    {
+      "file": "renders/claim_lines.txt",
+      "kind": "CLAIM",
+      "line": 2,
+      "ok": true
+    },
+    {
+      "file": "renders/claim_lines.txt",
+      "kind": "CLAIM",
+      "line": 3,
+      "ok": true
+    },
+    {
+      "file": "renders/claim_lines.txt",
+      "kind": "CLAIM",
+      "line": 4,
+      "ok": true
+    },
+    {
+      "file": "renders/claim_lines.txt",
+      "kind": "CLAIM",
+      "line": 5,
+      "ok": true
+    },
+    {
+      "file": "renders/claim_lines.txt",
+      "kind": "CLAIM",
+      "line": 6,
+      "ok": true
+    },
+    {
+      "file": "renders/claim_lines.txt",
+      "kind": "CLAIM",
+      "line": 7,
+      "ok": true
+    },
+    {
+      "file": "renders/claim_lines.txt",
+      "kind": "CLAIM",
+      "line": 8,
+      "ok": true
+    },
+    {
+      "file": "renders/claim_lines.txt",
+      "kind": "CLAIM",
+      "line": 9,
+      "ok": true
+    },
+    {
+      "file": "renders/claim_lines.txt",
+      "kind": "CLAIM",
+      "line": 10,
+      "ok": true
+    },
+    {
+      "file": "renders/claim_lines.txt",
+      "kind": "CLAIM",
+      "line": 11,
+      "ok": true
+    },
+    {
+      "file": "renders/claim_lines.txt",
+      "kind": "CLAIM",
+      "line": 12,
+      "ok": true
+    },
+    {
+      "file": "renders/claim_lines.txt",
+      "kind": "CLAIM",
+      "line": 13,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 1,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 2,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 3,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 4,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 5,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 6,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 7,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 8,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 9,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 10,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 11,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 12,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 13,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 14,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 15,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 16,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 17,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 18,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 19,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 20,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 21,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 22,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 23,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 24,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 25,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 26,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 27,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 28,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 29,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 30,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 31,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 32,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 33,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 34,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 35,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 36,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 37,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 38,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 39,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 40,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 41,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 42,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 43,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 44,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 45,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 46,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 47,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 48,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 49,
+      "ok": true
+    },
+    {
+      "file": "renders/cmap_lines.txt",
+      "kind": "CMAP",
+      "line": 50,
+      "ok": true
+    },
+    {
+      "file": "renders/rt_lines.txt",
+      "kind": "RT",
+      "line": 1,
+      "ok": true
+    },
+    {
+      "file": "renders/rt_lines.txt",
+      "kind": "RT",
+      "line": 2,
+      "ok": true
+    },
+    {
+      "file": "renders/rt_lines.txt",
+      "kind": "RT",
+      "line": 3,
+      "ok": true
+    },
+    {
+      "file": "renders/rt_lines.txt",
+      "kind": "RT",
+      "line": 4,
+      "ok": true
+    },
+    {
+      "file": "renders/rt_lines.txt",
+      "kind": "RT",
+      "line": 5,
+      "ok": true
+    },
+    {
+      "file": "renders/rt_lines.txt",
+      "kind": "RT",
+      "line": 6,
+      "ok": true
+    },
+    {
+      "file": "renders/rt_lines.txt",
+      "kind": "RT",
+      "line": 7,
+      "ok": true
+    },
+    {
+      "file": "renders/rt_lines.txt",
+      "kind": "RT",
+      "line": 8,
+      "ok": true
+    },
+    {
+      "file": "renders/rt_lines.txt",
+      "kind": "RT",
+      "line": 9,
+      "ok": true
+    },
+    {
+      "file": "renders/rt_lines.txt",
+      "kind": "RT",
+      "line": 10,
+      "ok": true
+    },
+    {
+      "file": "renders/rt_lines.txt",
+      "kind": "RT",
+      "line": 11,
+      "ok": true
+    },
+    {
+      "file": "renders/rt_lines.txt",
+      "kind": "RT",
+      "line": 12,
+      "ok": true
+    }
+  ],
+  "id_width_violations": [],
+  "rejected": []
+}

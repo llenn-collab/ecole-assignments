@@ -1,0 +1,101 @@
+{
+  "note": "Required semantic roles for CAP-04 role_resolve. Core roles blocking B1 are marked core=true. 'expect' is per_palace or one; 'presence' is explicit | absent | partial (presence is a declaration about the chart, verified by CAP-04). The 'board_layout' role binds to chart_info.type (the chart names its layout explicitly); its declared presence is 'partial' because a full board-layout block (ju number, dun direction) is not a separate field.",
+  "roles": {
+    "pillars": {
+      "key": "chart_info.ganzhi",
+      "expect": "one",
+      "presence": "explicit",
+      "core": true
+    },
+    "palaces_root": {
+      "key": "palaces",
+      "expect": "one",
+      "presence": "explicit",
+      "core": true
+    },
+    "palace_identity": {
+      "key": "palace_name",
+      "expect": "per_palace",
+      "presence": "explicit",
+      "core": true
+    },
+    "heaven_stem": {
+      "key": "heaven_stem",
+      "expect": "per_palace",
+      "presence": "explicit",
+      "core": true
+    },
+    "earth_stem": {
+      "key": "earth_stem",
+      "expect": "per_palace",
+      "presence": "explicit",
+      "core": true
+    },
+    "star": {
+      "key": "star",
+      "expect": "per_palace",
+      "presence": "explicit",
+      "core": true
+    },
+    "door": {
+      "key": "door",
+      "expect": "per_palace",
+      "presence": "explicit",
+      "core": true
+    },
+    "deity": {
+      "key": "deity",
+      "expect": "per_palace",
+      "presence": "partial",
+      "core": false
+    },
+    "hosted_stem": {
+      "key": "hosted_stem",
+      "expect": "per_palace",
+      "presence": "partial",
+      "core": false
+    },
+    "zhi_fu": {
+      "key": "chart_info.zhi_fu",
+      "expect": "one",
+      "presence": "explicit",
+      "core": false
+    },
+    "zhi_shi": {
+      "key": "chart_info.zhi_shi",
+      "expect": "one",
+      "presence": "explicit",
+      "core": false
+    },
+    "solar_term": {
+      "key": "chart_info.solar_term",
+      "expect": "one",
+      "presence": "explicit",
+      "core": false
+    },
+    "interpretations": {
+      "key": "interpretations",
+      "expect": "per_palace",
+      "presence": "partial",
+      "core": false
+    },
+    "void": {
+      "key": "void",
+      "expect": "per_palace",
+      "presence": "absent",
+      "core": false
+    },
+    "horse": {
+      "key": "horse",
+      "expect": "per_palace",
+      "presence": "absent",
+      "core": false
+    },
+    "board_layout": {
+      "key": "chart_info.type",
+      "expect": "one",
+      "presence": "partial",
+      "core": false
+    }
+  }
+}

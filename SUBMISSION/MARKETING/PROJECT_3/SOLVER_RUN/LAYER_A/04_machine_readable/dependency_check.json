@@ -1,0 +1,28 @@
+{
+  "cap": "CAP-12",
+  "depends_on_edges": [
+    {
+      "from": "V-001",
+      "to": "adapted_package_view/evidence_registry",
+      "type": "evidence"
+    },
+    {
+      "from": "V-004",
+      "to": "brief_facts/CONK08",
+      "type": "hard_constraint"
+    },
+    {
+      "from": "V-003",
+      "to": "brief_facts/CONK09",
+      "type": "hard_constraint"
+    },
+    {
+      "from": "V-009",
+      "to": "live_facts/creator_verification",
+      "type": "external_fact"
+    }
+  ],
+  "stale_dependencies": [],
+  "supersessions": [],
+  "pass": true
+}

@@ -1,0 +1,96 @@
+{
+  "CONK_count": 4,
+  "UNK_count": 4,
+  "cap": "CAP-19",
+  "conflict_register": [],
+  "downgrade_rule": "CONK hit -> CONFLICT_WITH_KNOWN + rejected; UNK resolution -> strip + CHART_SUGGESTS + assumption_index",
+  "results": [
+    {
+      "CONK_hits": [],
+      "UNK_hits": [],
+      "claim_id": "C001",
+      "status": "clean"
+    },
+    {
+      "CONK_hits": [],
+      "UNK_hits": [],
+      "claim_id": "C002",
+      "status": "clean"
+    },
+    {
+      "CONK_hits": [],
+      "UNK_hits": [],
+      "claim_id": "C003",
+      "status": "clean"
+    },
+    {
+      "CONK_hits": [],
+      "UNK_hits": [],
+      "claim_id": "C004",
+      "status": "clean"
+    },
+    {
+      "CONK_hits": [],
+      "UNK_hits": [],
+      "claim_id": "C005",
+      "status": "clean"
+    },
+    {
+      "CONK_hits": [],
+      "UNK_hits": [],
+      "claim_id": "C006",
+      "status": "clean"
+    },
+    {
+      "CONK_hits": [],
+      "UNK_hits": [],
+      "claim_id": "C007",
+      "status": "clean"
+    },
+    {
+      "CONK_hits": [],
+      "UNK_hits": [],
+      "claim_id": "C008",
+      "status": "clean"
+    },
+    {
+      "CONK_hits": [],
+      "UNK_hits": [],
+      "claim_id": "C009",
+      "status": "clean"
+    },
+    {
+      "CONK_hits": [],
+      "UNK_hits": [],
+      "claim_id": "C010",
+      "status": "clean"
+    },
+    {
+      "CONK_hits": [],
+      "UNK_hits": [],
+      "claim_id": "C011",
+      "status": "clean"
+    },
+    {
+      "CONK_hits": [],
+      "UNK_hits": [],
+      "claim_id": "C012",
+      "status": "clean"
+    },
+    {
+      "CONK_hits": [],
+      "UNK_hits": [],
+      "claim_id": "C013",
+      "status": "clean"
+    }
+  ],
+  "unk_guards": [
+    {
+      "action": "uncertainty_marker_only",
+      "claim_id": "C012",
+      "note": "C012 states a structural divergence inside the chart only. It makes no statement about the persona, so it does not resolve UNK02; the persona slot remains open.",
+      "resolves": false,
+      "unk_id": "UNK02"
+    }
+  ]
+}

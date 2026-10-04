@@ -1,0 +1,659 @@
+{
+  "cap": "CAP-07",
+  "card_count": 17,
+  "cards": [
+    {
+      "binding_id": "BIND-001",
+      "requirement_id": "REQ-001",
+      "in_scope_ids": [
+        "E001"
+      ],
+      "card": [
+        {
+          "evidence_id": "E001",
+          "class": "chart_field:method",
+          "value": "Qimen Dunjia Chart",
+          "package_path": "05_structure_evidence/e_atoms/E001",
+          "grounding": "EXPLICIT"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-002",
+      "requirement_id": "REQ-002",
+      "in_scope_ids": [],
+      "card": [],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-003",
+      "requirement_id": "REQ-003",
+      "in_scope_ids": [
+        "E005",
+        "E006"
+      ],
+      "card": [
+        {
+          "evidence_id": "E005",
+          "class": "chart_field:zhi_fu",
+          "value": "天辅 falling in Palace 1",
+          "package_path": "05_structure_evidence/e_atoms/E005",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E006",
+          "class": "chart_field:zhi_shi",
+          "value": "杜门 falling in Palace 1",
+          "package_path": "05_structure_evidence/e_atoms/E006",
+          "grounding": "EXPLICIT"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-004",
+      "requirement_id": "REQ-004",
+      "in_scope_ids": [
+        "E005",
+        "E022",
+        "E086",
+        "E085",
+        "E095",
+        "E012"
+      ],
+      "card": [
+        {
+          "evidence_id": "E005",
+          "class": "chart_field:zhi_fu",
+          "value": "天辅 falling in Palace 1",
+          "package_path": "05_structure_evidence/e_atoms/E005",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E022",
+          "class": "star",
+          "value": "天辅",
+          "package_path": "05_structure_evidence/e_atoms/E022",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E086",
+          "class": "door",
+          "value": "景门",
+          "package_path": "05_structure_evidence/e_atoms/E086",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E085",
+          "class": "deity",
+          "value": "九天",
+          "package_path": "05_structure_evidence/e_atoms/E085",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E095",
+          "class": "star",
+          "value": "天英",
+          "package_path": "05_structure_evidence/e_atoms/E095",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E012",
+          "class": "door",
+          "value": "杜门",
+          "package_path": "05_structure_evidence/e_atoms/E012",
+          "grounding": "EXPLICIT"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-005",
+      "requirement_id": "REQ-005",
+      "in_scope_ids": [
+        "E017",
+        "E019",
+        "E020",
+        "E029",
+        "E074",
+        "E012"
+      ],
+      "card": [
+        {
+          "evidence_id": "E017",
+          "class": "explicit_marker",
+          "value": "天盘干 辛加丁 形成『狱神得奇』",
+          "package_path": "05_structure_evidence/e_atoms/E017",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E019",
+          "class": "explicit_marker",
+          "value": "玉女守门",
+          "package_path": "05_structure_evidence/e_atoms/E019",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E020",
+          "class": "explicit_marker",
+          "value": "宫生门",
+          "package_path": "05_structure_evidence/e_atoms/E020",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E029",
+          "class": "explicit_marker",
+          "value": "天盘干 丁加癸 形成『朱雀投江』",
+          "package_path": "05_structure_evidence/e_atoms/E029",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E074",
+          "class": "deity",
+          "value": "太阴",
+          "package_path": "05_structure_evidence/e_atoms/E074",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E012",
+          "class": "door",
+          "value": "杜门",
+          "package_path": "05_structure_evidence/e_atoms/E012",
+          "grounding": "EXPLICIT"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-006",
+      "requirement_id": "REQ-006",
+      "in_scope_ids": [
+        "E022",
+        "E086",
+        "E074",
+        "E012",
+        "E055",
+        "E057"
+      ],
+      "card": [
+        {
+          "evidence_id": "E022",
+          "class": "star",
+          "value": "天辅",
+          "package_path": "05_structure_evidence/e_atoms/E022",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E086",
+          "class": "door",
+          "value": "景门",
+          "package_path": "05_structure_evidence/e_atoms/E086",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E074",
+          "class": "deity",
+          "value": "太阴",
+          "package_path": "05_structure_evidence/e_atoms/E074",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E012",
+          "class": "door",
+          "value": "杜门",
+          "package_path": "05_structure_evidence/e_atoms/E012",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E055",
+          "class": "explicit_marker",
+          "value": "天盘干 戊加辛 形成『青龙折足』",
+          "package_path": "05_structure_evidence/e_atoms/E055",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E057",
+          "class": "explicit_marker",
+          "value": "门迫宫",
+          "package_path": "05_structure_evidence/e_atoms/E057",
+          "grounding": "EXPLICIT"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-007",
+      "requirement_id": "REQ-007",
+      "in_scope_ids": [
+        "E085",
+        "E086",
+        "E095",
+        "E022",
+        "E074",
+        "E050"
+      ],
+      "card": [
+        {
+          "evidence_id": "E085",
+          "class": "deity",
+          "value": "九天",
+          "package_path": "05_structure_evidence/e_atoms/E085",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E086",
+          "class": "door",
+          "value": "景门",
+          "package_path": "05_structure_evidence/e_atoms/E086",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E095",
+          "class": "star",
+          "value": "天英",
+          "package_path": "05_structure_evidence/e_atoms/E095",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E022",
+          "class": "star",
+          "value": "天辅",
+          "package_path": "05_structure_evidence/e_atoms/E022",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E074",
+          "class": "deity",
+          "value": "太阴",
+          "package_path": "05_structure_evidence/e_atoms/E074",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E050",
+          "class": "door",
+          "value": "惊门",
+          "package_path": "05_structure_evidence/e_atoms/E050",
+          "grounding": "EXPLICIT"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-008",
+      "requirement_id": "REQ-008",
+      "in_scope_ids": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ],
+      "card": [
+        {
+          "evidence_id": "R001",
+          "class": "relation:R.IDENTICAL_STEM",
+          "value": "丁 shared",
+          "package_path": "05_structure_evidence/r_atoms/R001",
+          "grounding": "COMPUTED"
+        },
+        {
+          "evidence_id": "R002",
+          "class": "relation:R.IDENTICAL_STEM_ON_AXIS",
+          "value": "辛 shared",
+          "package_path": "05_structure_evidence/r_atoms/R002",
+          "grounding": "COMPUTED"
+        },
+        {
+          "evidence_id": "R003",
+          "class": "relation:R.IDENTICAL_STEM",
+          "value": "癸 shared",
+          "package_path": "05_structure_evidence/r_atoms/R003",
+          "grounding": "COMPUTED"
+        },
+        {
+          "evidence_id": "R004",
+          "class": "relation:R.IDENTICAL_STEM_LODGING",
+          "value": "庚 shared",
+          "package_path": "05_structure_evidence/r_atoms/R004",
+          "grounding": "COMPUTED"
+        },
+        {
+          "evidence_id": "R005",
+          "class": "relation:R.IDENTICAL_STEM",
+          "value": "壬 shared",
+          "package_path": "05_structure_evidence/r_atoms/R005",
+          "grounding": "COMPUTED"
+        },
+        {
+          "evidence_id": "R006",
+          "class": "relation:R.IDENTICAL_STEM",
+          "value": "戊 shared",
+          "package_path": "05_structure_evidence/r_atoms/R006",
+          "grounding": "COMPUTED"
+        },
+        {
+          "evidence_id": "R007",
+          "class": "relation:R.IDENTICAL_STEM_ON_AXIS",
+          "value": "己 shared",
+          "package_path": "05_structure_evidence/r_atoms/R007",
+          "grounding": "COMPUTED"
+        },
+        {
+          "evidence_id": "R008",
+          "class": "relation:R.IDENTICAL_STEM",
+          "value": "乙 shared",
+          "package_path": "05_structure_evidence/r_atoms/R008",
+          "grounding": "COMPUTED"
+        },
+        {
+          "evidence_id": "R009",
+          "class": "relation:R.IDENTICAL_STEM",
+          "value": "丙 shared",
+          "package_path": "05_structure_evidence/r_atoms/R009",
+          "grounding": "COMPUTED"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-009",
+      "requirement_id": "REQ-009",
+      "in_scope_ids": [
+        "E022",
+        "E086",
+        "E074",
+        "E055"
+      ],
+      "card": [
+        {
+          "evidence_id": "E022",
+          "class": "star",
+          "value": "天辅",
+          "package_path": "05_structure_evidence/e_atoms/E022",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E086",
+          "class": "door",
+          "value": "景门",
+          "package_path": "05_structure_evidence/e_atoms/E086",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E074",
+          "class": "deity",
+          "value": "太阴",
+          "package_path": "05_structure_evidence/e_atoms/E074",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E055",
+          "class": "explicit_marker",
+          "value": "天盘干 戊加辛 形成『青龙折足』",
+          "package_path": "05_structure_evidence/e_atoms/E055",
+          "grounding": "EXPLICIT"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-010",
+      "requirement_id": "REQ-010",
+      "in_scope_ids": [
+        "E014",
+        "E015",
+        "E029",
+        "E097",
+        "E102"
+      ],
+      "card": [
+        {
+          "evidence_id": "E014",
+          "class": "explicit_marker",
+          "value": "天辛 处于 '长生' (于子)",
+          "package_path": "05_structure_evidence/e_atoms/E014",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E015",
+          "class": "explicit_marker",
+          "value": "地丁 处于 '绝' (于子)",
+          "package_path": "05_structure_evidence/e_atoms/E015",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E029",
+          "class": "explicit_marker",
+          "value": "天盘干 丁加癸 形成『朱雀投江』",
+          "package_path": "05_structure_evidence/e_atoms/E029",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E097",
+          "class": "door",
+          "value": "开门",
+          "package_path": "05_structure_evidence/e_atoms/E097",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E102",
+          "class": "explicit_marker",
+          "value": "天盘干 己加丙 形成『火悖地户』",
+          "package_path": "05_structure_evidence/e_atoms/E102",
+          "grounding": "EXPLICIT"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-011",
+      "requirement_id": "REQ-011",
+      "in_scope_ids": [
+        "E023",
+        "E024",
+        "E029",
+        "E074",
+        "E055"
+      ],
+      "card": [
+        {
+          "evidence_id": "E023",
+          "class": "deity",
+          "value": "六合",
+          "package_path": "05_structure_evidence/e_atoms/E023",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E024",
+          "class": "door",
+          "value": "休门",
+          "package_path": "05_structure_evidence/e_atoms/E024",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E029",
+          "class": "explicit_marker",
+          "value": "天盘干 丁加癸 形成『朱雀投江』",
+          "package_path": "05_structure_evidence/e_atoms/E029",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E074",
+          "class": "deity",
+          "value": "太阴",
+          "package_path": "05_structure_evidence/e_atoms/E074",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E055",
+          "class": "explicit_marker",
+          "value": "天盘干 戊加辛 形成『青龙折足』",
+          "package_path": "05_structure_evidence/e_atoms/E055",
+          "grounding": "EXPLICIT"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-012",
+      "requirement_id": "REQ-012",
+      "in_scope_ids": [
+        "E074",
+        "E084",
+        "E091",
+        "E050"
+      ],
+      "card": [
+        {
+          "evidence_id": "E074",
+          "class": "deity",
+          "value": "太阴",
+          "package_path": "05_structure_evidence/e_atoms/E074",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E084",
+          "class": "star",
+          "value": "天任",
+          "package_path": "05_structure_evidence/e_atoms/E084",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E091",
+          "class": "explicit_marker",
+          "value": "天盘干 丙加乙 形成『日月并行』",
+          "package_path": "05_structure_evidence/e_atoms/E091",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E050",
+          "class": "door",
+          "value": "惊门",
+          "package_path": "05_structure_evidence/e_atoms/E050",
+          "grounding": "EXPLICIT"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-013",
+      "requirement_id": "REQ-013",
+      "in_scope_ids": [
+        "E012",
+        "E024",
+        "E075",
+        "E006"
+      ],
+      "card": [
+        {
+          "evidence_id": "E012",
+          "class": "door",
+          "value": "杜门",
+          "package_path": "05_structure_evidence/e_atoms/E012",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E024",
+          "class": "door",
+          "value": "休门",
+          "package_path": "05_structure_evidence/e_atoms/E024",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E075",
+          "class": "door",
+          "value": "生门",
+          "package_path": "05_structure_evidence/e_atoms/E075",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E006",
+          "class": "chart_field:zhi_shi",
+          "value": "杜门 falling in Palace 1",
+          "package_path": "05_structure_evidence/e_atoms/E006",
+          "grounding": "EXPLICIT"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-014",
+      "requirement_id": "REQ-014",
+      "in_scope_ids": [
+        "E086",
+        "E074",
+        "E097",
+        "E050"
+      ],
+      "card": [
+        {
+          "evidence_id": "E086",
+          "class": "door",
+          "value": "景门",
+          "package_path": "05_structure_evidence/e_atoms/E086",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E074",
+          "class": "deity",
+          "value": "太阴",
+          "package_path": "05_structure_evidence/e_atoms/E074",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E097",
+          "class": "door",
+          "value": "开门",
+          "package_path": "05_structure_evidence/e_atoms/E097",
+          "grounding": "EXPLICIT"
+        },
+        {
+          "evidence_id": "E050",
+          "class": "door",
+          "value": "惊门",
+          "package_path": "05_structure_evidence/e_atoms/E050",
+          "grounding": "EXPLICIT"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-015",
+      "requirement_id": "REQ-015",
+      "in_scope_ids": [
+        "E001"
+      ],
+      "card": [
+        {
+          "evidence_id": "E001",
+          "class": "chart_field:method",
+          "value": "Qimen Dunjia Chart",
+          "package_path": "05_structure_evidence/e_atoms/E001",
+          "grounding": "EXPLICIT"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-016",
+      "requirement_id": "REQ-016",
+      "in_scope_ids": [],
+      "card": [],
+      "truncated": false
+    },
+    {
+      "binding_id": "BIND-017",
+      "requirement_id": "REQ-017",
+      "in_scope_ids": [],
+      "card": [],
+      "truncated": false
+    }
+  ],
+  "truncations": [],
+  "note": "an ID list is not a card: value, class, grounding and package path are inlined for every in-scope id"
+}

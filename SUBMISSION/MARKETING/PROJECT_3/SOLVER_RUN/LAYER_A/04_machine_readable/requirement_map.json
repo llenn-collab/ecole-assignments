@@ -1,0 +1,221 @@
+{
+  "cap": "CAP-16",
+  "rows": [
+    {
+      "line": "CMAP|BIND-001|REQ-001|DIRECT|E001",
+      "binding_id": "BIND-001",
+      "REQ": "REQ-001",
+      "tag": "DIRECT",
+      "citations": [
+        "E001"
+      ]
+    },
+    {
+      "line": "CMAP|BIND-002|REQ-002|NO_CHART_SUPPORT|NONE",
+      "binding_id": "BIND-002",
+      "REQ": "REQ-002",
+      "tag": "NO_CHART_SUPPORT",
+      "citations": []
+    },
+    {
+      "line": "CMAP|BIND-003|REQ-003|DIRECT|E005,E006",
+      "binding_id": "BIND-003",
+      "REQ": "REQ-003",
+      "tag": "DIRECT",
+      "citations": [
+        "E005",
+        "E006"
+      ]
+    },
+    {
+      "line": "CMAP|BIND-004|REQ-004|DIRECT|E005,E022,E086,E085,E095,E012",
+      "binding_id": "BIND-004",
+      "REQ": "REQ-004",
+      "tag": "DIRECT",
+      "citations": [
+        "E005",
+        "E022",
+        "E086",
+        "E085",
+        "E095",
+        "E012"
+      ]
+    },
+    {
+      "line": "CMAP|BIND-005|REQ-005|DIRECT|E017,E019,E020,E029,E074,E012",
+      "binding_id": "BIND-005",
+      "REQ": "REQ-005",
+      "tag": "DIRECT",
+      "citations": [
+        "E017",
+        "E019",
+        "E020",
+        "E029",
+        "E074",
+        "E012"
+      ]
+    },
+    {
+      "line": "CMAP|BIND-006|REQ-006|DIRECT|E022,E086,E074,E012,E055,E057",
+      "binding_id": "BIND-006",
+      "REQ": "REQ-006",
+      "tag": "DIRECT",
+      "citations": [
+        "E022",
+        "E086",
+        "E074",
+        "E012",
+        "E055",
+        "E057"
+      ]
+    },
+    {
+      "line": "CMAP|BIND-007|REQ-007|DIRECT|E085,E086,E095,E022,E074,E050",
+      "binding_id": "BIND-007",
+      "REQ": "REQ-007",
+      "tag": "DIRECT",
+      "citations": [
+        "E085",
+        "E086",
+        "E095",
+        "E022",
+        "E074",
+        "E050"
+      ]
+    },
+    {
+      "line": "CMAP|BIND-008|REQ-008|DIRECT|R001,R002,R003,R004,R005,R006,R007,R008,R009",
+      "binding_id": "BIND-008",
+      "REQ": "REQ-008",
+      "tag": "DIRECT",
+      "citations": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ]
+    },
+    {
+      "line": "CMAP|BIND-009|REQ-009|DIRECT|E022,E086,E074,E055",
+      "binding_id": "BIND-009",
+      "REQ": "REQ-009",
+      "tag": "DIRECT",
+      "citations": [
+        "E022",
+        "E086",
+        "E074",
+        "E055"
+      ]
+    },
+    {
+      "line": "CMAP|BIND-010|REQ-010|DIRECT|E014,E015,E029,E097,E102",
+      "binding_id": "BIND-010",
+      "REQ": "REQ-010",
+      "tag": "DIRECT",
+      "citations": [
+        "E014",
+        "E015",
+        "E029",
+        "E097",
+        "E102"
+      ]
+    },
+    {
+      "line": "CMAP|BIND-011|REQ-011|DIRECT|E023,E024,E029,E074,E055",
+      "binding_id": "BIND-011",
+      "REQ": "REQ-011",
+      "tag": "DIRECT",
+      "citations": [
+        "E023",
+        "E024",
+        "E029",
+        "E074",
+        "E055"
+      ]
+    },
+    {
+      "line": "CMAP|BIND-012|REQ-012|DIRECT|E074,E084,E091,E050",
+      "binding_id": "BIND-012",
+      "REQ": "REQ-012",
+      "tag": "DIRECT",
+      "citations": [
+        "E074",
+        "E084",
+        "E091",
+        "E050"
+      ]
+    },
+    {
+      "line": "CMAP|BIND-013|REQ-013|DIRECT|E012,E024,E075,E006",
+      "binding_id": "BIND-013",
+      "REQ": "REQ-013",
+      "tag": "DIRECT",
+      "citations": [
+        "E012",
+        "E024",
+        "E075",
+        "E006"
+      ]
+    },
+    {
+      "line": "CMAP|BIND-014|REQ-014|DIRECT|E086,E074,E097,E050",
+      "binding_id": "BIND-014",
+      "REQ": "REQ-014",
+      "tag": "DIRECT",
+      "citations": [
+        "E086",
+        "E074",
+        "E097",
+        "E050"
+      ]
+    },
+    {
+      "line": "CMAP|BIND-015|REQ-015|INDIRECT|E001",
+      "binding_id": "BIND-015",
+      "REQ": "REQ-015",
+      "tag": "INDIRECT",
+      "citations": [
+        "E001"
+      ]
+    },
+    {
+      "line": "CMAP|BIND-016|REQ-016|NO_CHART_SUPPORT|NONE",
+      "binding_id": "BIND-016",
+      "REQ": "REQ-016",
+      "tag": "NO_CHART_SUPPORT",
+      "citations": []
+    },
+    {
+      "line": "CMAP|BIND-017|REQ-017|NO_CHART_SUPPORT|NONE",
+      "binding_id": "BIND-017",
+      "REQ": "REQ-017",
+      "tag": "NO_CHART_SUPPORT",
+      "citations": []
+    }
+  ],
+  "invalid_rows": [],
+  "tag_tally": [
+    {
+      "tag": "DIRECT",
+      "rows": 13
+    },
+    {
+      "tag": "INDIRECT",
+      "rows": 1
+    },
+    {
+      "tag": "NO_CHART_SUPPORT",
+      "rows": 3
+    },
+    {
+      "tag": "CONTRADICTS_KNOWN",
+      "rows": 0
+    }
+  ],
+  "zero_rows_present": true
+}

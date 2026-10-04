@@ -1,0 +1,14 @@
+{
+  "CAP": "CAP-11",
+  "batch": "B3",
+  "call_index": 10,
+  "cost": 28,
+  "in": [
+    "chart",
+    "roles"
+  ],
+  "max_out_tokens": 250,
+  "out": "evidence_registry",
+  "over_cap": false,
+  "status": "OK"
+}

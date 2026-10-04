@@ -1,0 +1,30 @@
+{
+  "cap": "CAP-01",
+  "inputs": [
+    {
+      "name": "assignment_brief",
+      "file": "project_3.yaml",
+      "bytes": 10478,
+      "sha256": "1002fdad1907adceff87c6b1d3507e4eb3a3827a1e729d86054f937d4f26a423"
+    },
+    {
+      "name": "chart_analysis_package",
+      "file": "qmdj_analysis_package.json",
+      "bytes": 309543,
+      "sha256": "011d3b5fa4d168d2c0cd7ddf5b568e55636dc70c2747ff76cdfcb34d534df3b5"
+    },
+    {
+      "name": "prior_submission_part1",
+      "file": "project_1.pdf",
+      "bytes": 2952805,
+      "sha256": "472329e5c512573a0e5f22f4a526763b68e660c6608a897d357f6b7dcd9d1da1"
+    },
+    {
+      "name": "part1_extracted_facts",
+      "file": "part1_facts.json",
+      "bytes": 8500,
+      "sha256": "9786265243601a5b7fc0c83df85600ecabc37e737350c0935bb1c64c76fd883f"
+    }
+  ],
+  "fingerprint": "project_3.yaml:1002fdad1907adce|qmdj_analysis_package.json:011d3b5fa4d168d2|project_1.pdf:472329e5c512573a|part1_facts.json:9786265243601a5b"
+}

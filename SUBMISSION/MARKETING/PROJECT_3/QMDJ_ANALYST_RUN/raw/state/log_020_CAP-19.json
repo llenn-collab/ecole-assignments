@@ -1,0 +1,13 @@
+{
+  "CAP": "CAP-19",
+  "batch": "B5",
+  "call_index": 20,
+  "cost": 158,
+  "in": [
+    "claim_set.json"
+  ],
+  "max_out_tokens": 200,
+  "out": "conflict_check",
+  "over_cap": false,
+  "status": "OK"
+}

@@ -1,0 +1,144 @@
+{
+  "cap": "CAP-08",
+  "opposition_rule": "opposition exists only for 1-4 and 6-9",
+  "palace_blocks": [
+    {
+      "canonical": 1,
+      "identity": {
+        "direction": "N",
+        "element": "water",
+        "star_home": "TianPeng 天蓬",
+        "trigram": "Kan 坎"
+      },
+      "lodging": null,
+      "name_number_mismatches": [],
+      "opposites": [
+        4
+      ],
+      "raw_key": "kan_1",
+      "raw_palace_name": "坎 1 Palace"
+    },
+    {
+      "canonical": 2,
+      "identity": {
+        "direction": "SW",
+        "element": "earth",
+        "star_home": "TianRui 天芮",
+        "trigram": "Kun 坤"
+      },
+      "lodging": null,
+      "name_number_mismatches": [],
+      "opposites": [],
+      "raw_key": "kun_2",
+      "raw_palace_name": "坤 2 Palace"
+    },
+    {
+      "canonical": 3,
+      "identity": {
+        "direction": "E",
+        "element": "wood",
+        "star_home": "TianChong 天冲",
+        "trigram": "Zhen 震"
+      },
+      "lodging": null,
+      "name_number_mismatches": [],
+      "opposites": [],
+      "raw_key": "zhen_3",
+      "raw_palace_name": "震 3 Palace"
+    },
+    {
+      "canonical": 4,
+      "identity": {
+        "direction": "SE",
+        "element": "wood",
+        "star_home": "TianFu 天辅",
+        "trigram": "Xun 巽"
+      },
+      "lodging": null,
+      "name_number_mismatches": [],
+      "opposites": [
+        1
+      ],
+      "raw_key": "xun_4",
+      "raw_palace_name": "巽 4 Palace"
+    },
+    {
+      "canonical": 5,
+      "identity": {
+        "direction": "centre",
+        "element": "earth",
+        "star_home": "TianQin 天禽",
+        "trigram": "(centre)"
+      },
+      "lodging": "centre: relation set is the lodging GRAPH to all eight palaces; centre has no opposite (law 10)",
+      "name_number_mismatches": [],
+      "opposites": [],
+      "raw_key": "center_5",
+      "raw_palace_name": "中 5 Palace"
+    },
+    {
+      "canonical": 6,
+      "identity": {
+        "direction": "NW",
+        "element": "metal",
+        "star_home": "TianXin 天心",
+        "trigram": "Qian 乾"
+      },
+      "lodging": null,
+      "name_number_mismatches": [],
+      "opposites": [
+        9
+      ],
+      "raw_key": "qian_6",
+      "raw_palace_name": "乾 6 Palace"
+    },
+    {
+      "canonical": 7,
+      "identity": {
+        "direction": "W",
+        "element": "metal",
+        "star_home": "TianZhu 天柱",
+        "trigram": "Dui 兑"
+      },
+      "lodging": null,
+      "name_number_mismatches": [],
+      "opposites": [],
+      "raw_key": "dui_7",
+      "raw_palace_name": "兑 7 Palace"
+    },
+    {
+      "canonical": 8,
+      "identity": {
+        "direction": "NE",
+        "element": "earth",
+        "star_home": "TianRen 天任",
+        "trigram": "Gen 艮"
+      },
+      "lodging": null,
+      "name_number_mismatches": [],
+      "opposites": [],
+      "raw_key": "gen_8",
+      "raw_palace_name": "艮 8 Palace"
+    },
+    {
+      "canonical": 9,
+      "identity": {
+        "direction": "S",
+        "element": "fire",
+        "star_home": "TianYing 天英",
+        "trigram": "Li 离"
+      },
+      "lodging": null,
+      "name_number_mismatches": [],
+      "opposites": [
+        6
+      ],
+      "raw_key": "li_9",
+      "raw_palace_name": "离 9 Palace"
+    }
+  ],
+  "palace_count": 9,
+  "palace_index_line": "1:Kan/N 2:Kun/SW 3:Zhen/E 4:Xun/SE 5:(centre)/centre 6:Qian/NW 7:Dui/W 8:Gen/NE 9:Li/S",
+  "table_source": "annex A-tables (frozen_tables.yaml not supplied)",
+  "trajectory": "1->2->3->4->(5)->6->7->8->9"
+}

@@ -1,0 +1,62 @@
+{
+  "run_id": "QMDJ-P3-001",
+  "run_folder": "SUBMISSION/MARKETING/PROJECT_3/QMDJ_ANALYST_RUN",
+  "runtime_mode": "TOOLS_PRESENT",
+  "runtime_resolution_note": "At run start the analyst inspected its own tool surface: shell execution and file tools are available -> runtime_mode = TOOLS_PRESENT. Mode is recorded here and in 00_package_manifest; it is never flipped mid-run (ANOMALY:MODE_FLIP).",
+  "charter": {
+    "path": "PROMPT/qmdj_chart_analyst_charter.md",
+    "adopted_as": "run system prompt / governing contract",
+    "version_declared": "v7.0"
+  },
+  "compiler_version": "qmdj-analyst/1.0.0",
+  "package_version": "7.0",
+  "language_register": "en with Chinese chart terms verbatim (pinyin/gloss on first use)",
+  "sources": {
+    "chart": "QMDJ/MARKETING/project_3.json",
+    "case_context": "ASSIGNMENTS/MARKETING/project_3.yaml",
+    "charter": "PROMPT/qmdj_chart_analyst_charter.md"
+  },
+  "status_vocabulary": [
+    "ok",
+    "partial",
+    "blocked",
+    "failed"
+  ],
+  "cost_metric": "whitespace_tokens: count of non-space runs in the cap's returned summary object (stand-in for a tokenizer; deterministic)",
+  "retry_bounds": {
+    "max_retries_per_claim": 1,
+    "max_retries_per_batch": 1,
+    "max_retries_per_p6_or_rt": 1,
+    "max_cap_calls_per_run": 60
+  },
+  "determinism": {
+    "id_derivation": "sha256 content address; IDs assigned by sorting atoms within type on content_hash (byte-identical across runs for identical inputs)",
+    "ordering": "all collections sorted by canonical key before emission",
+    "timestamps": "no wall-clock timestamps anywhere in emitted artifacts"
+  },
+  "tool_provisioning": {
+    "note": "The charter's annex A-tools declares Tier-0/Tier-2 bindings but the harness's external binaries are not present in this repository checkout. Under TOOLS_PRESENT the bindings were provisioned as deterministic run-local executables (tools/*.py) so that CAP lines become real tool invocations and tool output is the authority (law 33). Products are stamped authority=TOOL_OUTPUT (real process output), not EMULATED_TOOL.",
+    "stamps": {
+      "tool_products": "authority=TOOL_OUTPUT",
+      "scores": "SCORE_SOURCE=TIER0_TOOL<cap_id>/v1"
+    }
+  },
+  "cold_inputs_declared_by_charter_but_not_supplied": [
+    "schema_adapter.yaml (variants)",
+    "frozen_tables.yaml",
+    "wiki_articles corpus",
+    "semantic_protocol_raw.json",
+    "pattern_catalog annex A-patterns",
+    "archetype_scoring_rubric annex A-archetypes",
+    "coverage_control annex A-coverage"
+  ],
+  "degradation_policy": "Unsupplied cold inputs are never invented: they degrade only the layers that need them (schema_bind -> least-contradicted bind + ANOMALY:SCHEMA_AMBIGUITY; frozen tables -> annex A-tables fallback flagged in provenance; pattern catalog -> sanctioned minimum-viable stand-in; archetype rubric -> structure-only labels; coverage control -> B0 units derived from the charter, flagged; protocol classes -> BLOCKED). All degradations are listed in 14_gap_report.",
+  "lens_amendments": [
+    {
+      "id": "AMEND-01",
+      "record": "CONFIG/context_amendment.json",
+      "effect": "case_context ingestion re-classified from schema-mismatch (CONTEXT_DEGRADED) to free_prose accepted (CONTEXT_FREE_PROSE_ACCEPTED); six slots filled as DECOMPOSED",
+      "chart_layer": "untouched"
+    }
+  ]
+}

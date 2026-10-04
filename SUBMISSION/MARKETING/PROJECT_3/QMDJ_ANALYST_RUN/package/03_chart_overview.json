@@ -1,0 +1,422 @@
+{
+  "section": "03_chart_overview",
+  "metadata": {
+    "run_id": "QMDJ-P3-001",
+    "package_version": "7.0",
+    "charter": {
+      "path": "PROMPT/qmdj_chart_analyst_charter.md",
+      "version": "v7.0"
+    },
+    "compiler_version": "qmdj-analyst/1.0.0",
+    "language_register": "en with Chinese chart terms verbatim (pinyin/gloss on first use)",
+    "runtime_mode": "TOOLS_PRESENT",
+    "cost_metric": "whitespace_tokens: count of non-space runs in the cap's returned summary object (stand-in for a tokenizer; deterministic)",
+    "sources": {
+      "chart": "QMDJ/MARKETING/project_3.json",
+      "case_context": "ASSIGNMENTS/MARKETING/project_3.yaml",
+      "charter": "PROMPT/qmdj_chart_analyst_charter.md"
+    },
+    "status_vocabulary": [
+      "ok",
+      "partial",
+      "blocked",
+      "failed"
+    ]
+  },
+  "source_fingerprint": {
+    "byte_length": 14937,
+    "cap": "CAP-01",
+    "content_sha256": "c6e0b8940051e8380e37d883f0624315bcdbf4f65596304ca0cf6f76e50fd0b6",
+    "fingerprint_string": "project_3.json|14937|2|chart_info,palaces",
+    "id_derivation": "sha256",
+    "recompute_rule": "recomputed at every phase boundary; mismatch -> SOURCE_CHANGED",
+    "source_file": "project_3.json",
+    "top_level_key_count": 2,
+    "top_level_keys_sorted": [
+      "chart_info",
+      "palaces"
+    ]
+  },
+  "normalization_summary": {
+    "normalization": "NFC + trim",
+    "value_leaf_count": 176,
+    "string_leaves_changed": 0,
+    "absence_tally": {
+      "FALSE": 0,
+      "NULL": 0
+    },
+    "raw_writeback": "none (law 30)"
+  },
+  "schema_bind": {
+    "bind": "V1: chart_info{ganzhi, zhi_fu, zhi_shi, solar_term, system, method, type} + palaces{<trigram>_<n>: {palace_name, palace_elements[], interpretations[]}}",
+    "cap": "CAP-03",
+    "confidence": "high",
+    "matched_variant": "V1",
+    "palace_key_style": "<trigram_pinyin>_<canonical_number>",
+    "schema_adapter_supplied": false,
+    "top_level_keys": [
+      "chart_info",
+      "palaces"
+    ],
+    "unresolved_ambiguities": [
+      "palace_elements[] is an untyped string array; element roles resolved by CAP-04/CAP-07",
+      "centre palace has no door/deity entries: absence is factual, not an error",
+      "'type' repeats Yin Dun 7 Ju plus rotation and does not contradict zhi_fu/zhi_shi",
+      "frozen_tables.yaml not supplied: annex A-tables fallback used for identity lookup"
+    ],
+    "unsafe": false
+  },
+  "board_card": [
+    {
+      "palace": 1,
+      "raw_key": "kan_1",
+      "trigram": "Kan 坎",
+      "direction": "N",
+      "house_element": "water",
+      "deity": "值符",
+      "gate": "杜门",
+      "star": "天辅",
+      "heaven_stem": "辛",
+      "earth_stem": "丁",
+      "hosted_stem": null,
+      "opposites": [
+        4
+      ],
+      "evidence_ids": [
+        "E011",
+        "E012",
+        "E013",
+        "E014",
+        "E015",
+        "E016",
+        "E017",
+        "E018",
+        "E019",
+        "E020",
+        "E021",
+        "E022"
+      ]
+    },
+    {
+      "palace": 2,
+      "raw_key": "kun_2",
+      "trigram": "Kun 坤",
+      "direction": "SW",
+      "house_element": "earth",
+      "deity": "六合",
+      "gate": "休门",
+      "star": "天蓬",
+      "heaven_stem": "丁",
+      "earth_stem": "癸",
+      "hosted_stem": null,
+      "opposites": [],
+      "evidence_ids": [
+        "E023",
+        "E024",
+        "E025",
+        "E026",
+        "E027",
+        "E028",
+        "E029",
+        "E030",
+        "E031",
+        "E032",
+        "E033",
+        "E034"
+      ]
+    },
+    {
+      "palace": 3,
+      "raw_key": "zhen_3",
+      "trigram": "Zhen 震",
+      "direction": "E",
+      "house_element": "wood",
+      "deity": "九地",
+      "gate": "死门",
+      "star": "天芮",
+      "heaven_stem": "癸",
+      "earth_stem": "壬",
+      "hosted_stem": "庚",
+      "opposites": [],
+      "evidence_ids": [
+        "E035",
+        "E036",
+        "E037",
+        "E038",
+        "E039",
+        "E040",
+        "E041",
+        "E042",
+        "E043",
+        "E044",
+        "E045",
+        "E046",
+        "E047",
+        "E048"
+      ]
+    },
+    {
+      "palace": 4,
+      "raw_key": "xun_4",
+      "trigram": "Xun 巽",
+      "direction": "SE",
+      "house_element": "wood",
+      "deity": "玄武",
+      "gate": "惊门",
+      "star": "天柱",
+      "heaven_stem": "戊",
+      "earth_stem": "辛",
+      "hosted_stem": null,
+      "opposites": [
+        1
+      ],
+      "evidence_ids": [
+        "E049",
+        "E050",
+        "E051",
+        "E052",
+        "E053",
+        "E054",
+        "E055",
+        "E056",
+        "E057",
+        "E058",
+        "E059"
+      ]
+    },
+    {
+      "palace": 5,
+      "raw_key": "center_5",
+      "trigram": "(centre)",
+      "direction": "centre",
+      "house_element": "earth",
+      "deity": null,
+      "gate": null,
+      "star": "天禽",
+      "heaven_stem": null,
+      "earth_stem": "庚",
+      "hosted_stem": null,
+      "opposites": [],
+      "evidence_ids": [
+        "E060",
+        "E061",
+        "E062"
+      ]
+    },
+    {
+      "palace": 6,
+      "raw_key": "qian_6",
+      "trigram": "Qian 乾",
+      "direction": "NW",
+      "house_element": "metal",
+      "deity": "腾蛇",
+      "gate": "伤门",
+      "star": "天冲",
+      "heaven_stem": "壬",
+      "earth_stem": "己",
+      "hosted_stem": null,
+      "opposites": [
+        9
+      ],
+      "evidence_ids": [
+        "E063",
+        "E064",
+        "E065",
+        "E066",
+        "E067",
+        "E068",
+        "E069",
+        "E070",
+        "E071",
+        "E072",
+        "E073"
+      ]
+    },
+    {
+      "palace": 7,
+      "raw_key": "dui_7",
+      "trigram": "Dui 兑",
+      "direction": "W",
+      "house_element": "metal",
+      "deity": "太阴",
+      "gate": "生门",
+      "star": "天任",
+      "heaven_stem": "乙",
+      "earth_stem": "戊",
+      "hosted_stem": null,
+      "opposites": [],
+      "evidence_ids": [
+        "E074",
+        "E075",
+        "E076",
+        "E077",
+        "E078",
+        "E079",
+        "E080",
+        "E081",
+        "E082",
+        "E083",
+        "E084"
+      ]
+    },
+    {
+      "palace": 8,
+      "raw_key": "gen_8",
+      "trigram": "Gen 艮",
+      "direction": "NE",
+      "house_element": "earth",
+      "deity": "九天",
+      "gate": "景门",
+      "star": "天英",
+      "heaven_stem": "丙",
+      "earth_stem": "乙",
+      "hosted_stem": null,
+      "opposites": [],
+      "evidence_ids": [
+        "E085",
+        "E086",
+        "E087",
+        "E088",
+        "E089",
+        "E090",
+        "E091",
+        "E092",
+        "E093",
+        "E094",
+        "E095"
+      ]
+    },
+    {
+      "palace": 9,
+      "raw_key": "li_9",
+      "trigram": "Li 离",
+      "direction": "S",
+      "house_element": "fire",
+      "deity": "白虎",
+      "gate": "开门",
+      "star": "天心",
+      "heaven_stem": "己",
+      "earth_stem": "丙",
+      "hosted_stem": null,
+      "opposites": [
+        6
+      ],
+      "evidence_ids": [
+        "E096",
+        "E097",
+        "E098",
+        "E099",
+        "E100",
+        "E101",
+        "E102",
+        "E103",
+        "E104",
+        "E105",
+        "E106"
+      ]
+    }
+  ],
+  "root_register": {
+    "governing_spirit_zhi_fu": {
+      "value": "TianFu 天辅",
+      "palace": 1,
+      "evidence": [
+        "E005",
+        "E022"
+      ]
+    },
+    "duty_gate_zhi_shi": {
+      "value": "Du men 杜门",
+      "palace": 1,
+      "evidence": [
+        "E006",
+        "E012"
+      ]
+    },
+    "day_pillar": {
+      "value": "Xin Hai 辛亥",
+      "evidence": [
+        "E007"
+      ]
+    },
+    "hour_pillar": {
+      "value": "Ding You 丁酉",
+      "evidence": [
+        "E008"
+      ]
+    },
+    "month_pillar": {
+      "value": "Ding You 丁酉",
+      "evidence": [
+        "E009"
+      ]
+    },
+    "year_pillar": {
+      "value": "Bing Wu 丙午",
+      "evidence": [
+        "E010"
+      ]
+    },
+    "solar_term": {
+      "value": "秋分, 上 Yuan (Autumn Equinox, upper yuan)",
+      "evidence": [
+        "E002"
+      ]
+    },
+    "system": {
+      "value": "Yi Dun - Lun Cang Jia; Hourly Rotating Qimen, Yin Dun 7 Ju",
+      "evidence": [
+        "E001",
+        "E003",
+        "E004"
+      ]
+    },
+    "centre": {
+      "palace": 5,
+      "content": [
+        "TianQin 天禽",
+        "earth-plate Geng 庚"
+      ],
+      "evidence": [
+        "E060",
+        "E061",
+        "E062"
+      ]
+    },
+    "trace_ring": {
+      "ring": [
+        1,
+        2,
+        3,
+        6,
+        9,
+        8,
+        7,
+        4
+      ],
+      "spur": [
+        [
+          3,
+          5
+        ]
+      ],
+      "edges": 9
+    }
+  },
+  "anomaly_log": [
+    {
+      "call_index": 11,
+      "code": "QUESTION_OVERLOAD",
+      "detail": "11 facets detected against the charter's 7-facet cap; the 7 most decision-relevant (Q1-Q7) are analysed under criterion DECISION_RELEVANCE and Q8-Q11 are listed as deferred. Raised on amendment AMEND-01: the v1 run reported the cap inside the digest but did not log the anomaly code CAP-17 step 4 requires.",
+      "path": "02_case_context_digest",
+      "phase": "P5",
+      "raised_by": "AMEND-01"
+    }
+  ],
+  "invalid_chains": [],
+  "source_paths": [
+    "QMDJ/MARKETING/project_3.json",
+    "ASSIGNMENTS/MARKETING/project_3.yaml",
+    "PROMPT/qmdj_chart_analyst_charter.md"
+  ]
+}

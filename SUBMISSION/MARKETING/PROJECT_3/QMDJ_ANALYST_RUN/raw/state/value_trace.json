@@ -1,0 +1,266 @@
+{
+  "cap": "CAP-09",
+  "r_atom_count": 9,
+  "r_atoms": [
+    {
+      "content_hash": "a14c003f69aaf6d520403c627e740d123277332cec15182ae6f54e9bb209ebf7",
+      "id": "R001",
+      "members_E": [
+        "E013",
+        "E033"
+      ],
+      "palaces": [
+        1,
+        2
+      ],
+      "relation_type": "R.IDENTICAL_STEM",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/kan_1/palace_elements[5]",
+        "palaces/kun_2/palace_elements[4]"
+      ],
+      "stem_value": "丁",
+      "trace": "value_trace(丁): ES@1(earth_stem) == HS@2(heaven_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "070362b5aee105432482c717fd46c0a498adf13e3b1a98d36dba9ed8317a321d",
+      "id": "R002",
+      "members_E": [
+        "E021",
+        "E051"
+      ],
+      "palaces": [
+        1,
+        4
+      ],
+      "relation_type": "R.IDENTICAL_STEM_ON_AXIS",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/kan_1/palace_elements[4]",
+        "palaces/xun_4/palace_elements[5]"
+      ],
+      "stem_value": "辛",
+      "trace": "value_trace(辛): HS@1(heaven_stem) == ES@4(earth_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "5c2bfdefc7a85d1016197ebd67de2fc4b25683ff3f576492fcfc9b0e59bab09e",
+      "id": "R003",
+      "members_E": [
+        "E025",
+        "E046"
+      ],
+      "palaces": [
+        2,
+        3
+      ],
+      "relation_type": "R.IDENTICAL_STEM",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/kun_2/palace_elements[5]",
+        "palaces/zhen_3/palace_elements[4]"
+      ],
+      "stem_value": "癸",
+      "trace": "value_trace(癸): ES@2(earth_stem) == HS@3(heaven_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "9a44e038b9c6c78d3453e83c089e52048a94545cfa9a3dc182e77cd11bbca036",
+      "id": "R004",
+      "members_E": [
+        "E047",
+        "E060"
+      ],
+      "palaces": [
+        3,
+        5
+      ],
+      "relation_type": "R.IDENTICAL_STEM_LODGING",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/center_5/palace_elements[2]",
+        "palaces/zhen_3/interpretations[1]/condition"
+      ],
+      "stem_value": "庚",
+      "trace": "value_trace(庚): HX@3(hosted_stem) == ES@5(earth_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "53aa94e5ed464fac7a3c085473b0b9cbaeffa20e241e0d1cfda6eba6a5e1c7f4",
+      "id": "R005",
+      "members_E": [
+        "E037",
+        "E072"
+      ],
+      "palaces": [
+        3,
+        6
+      ],
+      "relation_type": "R.IDENTICAL_STEM",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/qian_6/palace_elements[4]",
+        "palaces/zhen_3/palace_elements[5]"
+      ],
+      "stem_value": "壬",
+      "trace": "value_trace(壬): ES@3(earth_stem) == HS@6(heaven_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "5e98814a0d933df889529dedae34edc1cbabab9fbb9866bdb3928e6d603c104b",
+      "id": "R006",
+      "members_E": [
+        "E058",
+        "E076"
+      ],
+      "palaces": [
+        4,
+        7
+      ],
+      "relation_type": "R.IDENTICAL_STEM",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/dui_7/palace_elements[5]",
+        "palaces/xun_4/palace_elements[4]"
+      ],
+      "stem_value": "戊",
+      "trace": "value_trace(戊): HS@4(heaven_stem) == ES@7(earth_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "c7a3f09b46c9a2f956aedca16b770852b76fee7956d48be1c9cc9c7bf02ea1b3",
+      "id": "R007",
+      "members_E": [
+        "E065",
+        "E105"
+      ],
+      "palaces": [
+        6,
+        9
+      ],
+      "relation_type": "R.IDENTICAL_STEM_ON_AXIS",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/li_9/palace_elements[4]",
+        "palaces/qian_6/palace_elements[5]"
+      ],
+      "stem_value": "己",
+      "trace": "value_trace(己): ES@6(earth_stem) == HS@9(heaven_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "026d0472ec723c622acedcf5345d54dce0ad9c0267bc4e01b6ee9f5f78956df6",
+      "id": "R008",
+      "members_E": [
+        "E083",
+        "E087"
+      ],
+      "palaces": [
+        7,
+        8
+      ],
+      "relation_type": "R.IDENTICAL_STEM",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/dui_7/palace_elements[4]",
+        "palaces/gen_8/palace_elements[5]"
+      ],
+      "stem_value": "乙",
+      "trace": "value_trace(乙): HS@7(heaven_stem) == ES@8(earth_stem); matched by FIELD VALUE, not array position"
+    },
+    {
+      "content_hash": "61f0e9beec0a2cae5182380fc7ce002679b47643932b80fb7fc178d6de75125c",
+      "id": "R009",
+      "members_E": [
+        "E094",
+        "E098"
+      ],
+      "palaces": [
+        8,
+        9
+      ],
+      "relation_type": "R.IDENTICAL_STEM",
+      "rule_citation": "CAP-09 / law 11",
+      "source_paths": [
+        "palaces/gen_8/palace_elements[4]",
+        "palaces/li_9/palace_elements[5]"
+      ],
+      "stem_value": "丙",
+      "trace": "value_trace(丙): HS@8(heaven_stem) == ES@9(earth_stem); matched by FIELD VALUE, not array position"
+    }
+  ],
+  "stem_value_index": {
+    "丁": [
+      "E013",
+      "E033"
+    ],
+    "丙": [
+      "E094",
+      "E098"
+    ],
+    "乙": [
+      "E083",
+      "E087"
+    ],
+    "壬": [
+      "E037",
+      "E072"
+    ],
+    "己": [
+      "E065",
+      "E105"
+    ],
+    "庚": [
+      "E047",
+      "E060"
+    ],
+    "戊": [
+      "E058",
+      "E076"
+    ],
+    "癸": [
+      "E025",
+      "E046"
+    ],
+    "辛": [
+      "E021",
+      "E051"
+    ]
+  },
+  "trace_graph": {
+    "classification": "single closed circulation over the 8-palace outer ring plus 1 centre spur(s)",
+    "closed_walk": [
+      1,
+      2,
+      3,
+      6,
+      9,
+      8,
+      7,
+      4
+    ],
+    "closed_walk_len": 8,
+    "degree": {
+      "1": 2,
+      "2": 2,
+      "3": 3,
+      "4": 2,
+      "5": 1,
+      "6": 2,
+      "7": 2,
+      "8": 2,
+      "9": 2
+    },
+    "edge_count": 9,
+    "nodes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "off_ring_nodes": [
+      5
+    ],
+    "ring_regular": true
+  },
+  "trace_summary": "edges=9 ring=1-2-3-6-9-8-7-4 spur=3-5"
+}
