@@ -57,6 +57,26 @@
     Small YAML/JSON answering "why was this chart cast". See schema below.
     Authority class: CONTEXT_NOT_CHART. It may direct relevance and scope. It may never
     supply, confirm, or strengthen chart evidence.
+    ```yaml
+    case_context_ingest:
+    accept_formats: [YAML, JSON, free_prose]
+    key_aliases:
+      reason: casting_reason
+      why: casting_reason
+      situation: casting_reason
+      facts: known_facts
+      knowns: known_facts
+      open_questions: unknowns
+      unknown_questions: unknowns
+      period: timeframe_of_interest
+      timeframe: timeframe_of_interest
+      decision: decision_needed
+    free_text_fallback:
+      allowed: true
+      procedure: "CAP-17 decomposes prose into slots/facts/unknowns; every derived row is tagged DECOMPOSED and the raw sentence is preserved beside it"
+    degradation_rule: >
+      Any input not matching the schema exactly is stamped CONTEXT_DEGRADED in the package header and in 02_case_context_digest. Derived rows (DECOMPOSED) may direct relevance but may never enter CONK/UNK sets at full authority — a CONFLICT_WITH_KNOWN check against a DECOMPOSED fact downgrades to POTENTIAL_CONFLICT instead of veto.
+    hard_rule: "A degraded context never silently upgrades to full authority (mirrors the solver's CLEAN vs MAPPED distinction)."```
   </case_context>
   <schema> schema_adapter.variants, in schema_adapter.yaml [COLD] </schema>
   <tables> frozen_tables — authoritative for all reference lookups [COLD] </tables>
