@@ -1,0 +1,29 @@
+{
+  "rule": "trim keys and string values; absence codes ABSENT|NULL|FALSE kept distinct",
+  "chart_info": {
+    "system": "Yi Dun - Lun Cang Jia",
+    "method": "Qimen Dunjia Chart",
+    "type": "Hourly Rotating Qimen, Yin Dun 7 Ju",
+    "ganzhi": {
+      "year": "丙午",
+      "month": "丁酉",
+      "day": "辛亥",
+      "hour": "乙未"
+    },
+    "zhi_fu": "天辅 falling in Palace 8",
+    "zhi_shi": "杜门 falling in Palace 3",
+    "solar_term": "秋分, 上 Yuan"
+  },
+  "palace_keys": [
+    "kan_1",
+    "kun_2",
+    "zhen_3",
+    "xun_4",
+    "center_5",
+    "qian_6",
+    "dui_7",
+    "gen_8",
+    "li_9"
+  ],
+  "notes": "raw values preserved in raw/board_card.json under _raw"
+}

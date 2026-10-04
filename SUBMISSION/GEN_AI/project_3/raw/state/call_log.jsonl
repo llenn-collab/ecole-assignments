@@ -1,0 +1,15 @@
+{"cap": "CAP-01", "in": "chart", "out": "source_fingerprint", "cost": 70}
+{"cap": "CAP-03", "in": "chart", "out": "board_card", "cost": 1825}
+{"cap": "CAP-02", "in": "chart_info,palaces", "out": "normalized_fields", "cost": 138}
+{"cap": "CAP-04", "in": "board_card", "out": "roles", "cost": 398}
+{"cap": "CAP-05", "in": "chart_info.ganzhi", "out": "pillars", "cost": 191}
+{"cap": "CAP-07", "in": "interpretations.condition", "out": "composites", "cost": 3}
+{"cap": "CAP-08", "in": "palace_elements,chart_info", "out": "palace_identity", "cost": 582}
+{"cap": "CAP-11", "in": "board_card", "out": "atoms", "cost": 7}
+{"cap": "CAP-09", "in": "E_atoms", "out": "value_traces", "cost": 3}
+{"cap": "CAP-11", "in": "E,R", "out": "evidence_registry", "cost": 15431}
+{"cap": "CAP-10", "in": "board_card,catalog", "out": "patterns", "cost": 5992}
+{"cap": "CAP-14", "in": "atoms,registry,patterns", "out": "ledger", "cost": 5059}
+{"cap": "CAP-15", "in": "patterns,registry", "out": "score_card", "cost": 7816}
+{"cap": "CAP-17", "in": "case_context", "out": "case_context_digest", "cost": 2764}
+{"cap": "CAP-16", "in": "all", "out": "self_audit", "cost": 84}

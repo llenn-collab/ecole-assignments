@@ -1,0 +1,262 @@
+{
+  "bounded_recommendation": {
+    "summary": "Build the three briefs on one shared register: a displayed surface that is supported, over a stored core that is withheld; pressure belongs in the frame, not in the promise.",
+    "decision_guard": "All directives are tradition-conditional creative direction. Nothing here selects a name, a price, a material, a vendor or a window.",
+    "next_actions": [
+      "write the three briefs against D001-D016",
+      "fill every trace_slot from Assignment-1 evidence before the brief is considered done",
+      "leave the campaign window blank (ARC-13 blocked)"
+    ]
+  },
+  "directive_sheets": [
+    {
+      "id": "D001",
+      "brief": "Brand Idea & Philosophy",
+      "section": "Core Idea",
+      "directive": "Write the core idea as a pact with a withheld interior: what the brand commits to, and what it deliberately keeps back.",
+      "strength": "bounded",
+      "chart_basis": [
+        "C001"
+      ],
+      "guard": "no outcome promise",
+      "trace_slot": "Assignment-1 research finding (category gap)"
+    },
+    {
+      "id": "D002",
+      "brief": "Brand Idea & Philosophy",
+      "section": "Philosophy / POV",
+      "directive": "Anchor the POV in the inversion on the axis: the category presses against its environment; this brand lets its environment feed the display.",
+      "strength": "bounded",
+      "chart_basis": [
+        "C006",
+        "R001",
+        "R004"
+      ],
+      "guard": "state as direction, never as superiority",
+      "trace_slot": "Assignment-1 insight (category behaviour)"
+    },
+    {
+      "id": "D003",
+      "brief": "Brand Idea & Philosophy",
+      "section": "Positioning Statement",
+      "directive": "Audience and differentiator must be pulled from Assignment 1. The chart supplies only the register of the 'because' clause: supported display over pressed agency.",
+      "strength": "conditional",
+      "chart_basis": [
+        "C006"
+      ],
+      "guard": "audience is never chart-derived",
+      "trace_slot": "Assignment-1 audience research + insight"
+    },
+    {
+      "id": "D004",
+      "brief": "Brand Idea & Philosophy",
+      "section": "Personality & Tone",
+      "directive": "3-5 adjectives from the voice claim: exact, observant, unhurried, self-possessed, warm only where supported.",
+      "strength": "bounded",
+      "chart_basis": [
+        "C002"
+      ],
+      "guard": "each adjective maps to a cited atom",
+      "trace_slot": "mood-board pin (tone)"
+    },
+    {
+      "id": "D005",
+      "brief": "Brand Idea & Philosophy",
+      "section": "Name Rationale",
+      "directive": "Name choice is not chart-derived (C013 is rejected). Argue it from Assignment-1 evidence, then check it against the register in C003.",
+      "strength": "conditional",
+      "chart_basis": [
+        "C003"
+      ],
+      "guard": "no chart-selected name",
+      "trace_slot": "Assignment-1 insight + pin"
+    },
+    {
+      "id": "D006",
+      "brief": "Brand Idea & Philosophy",
+      "section": "Logo Direction",
+      "directive": "Brief a mark that behaves as a made object used in a repeated act; reference 2-3 mood-board styles and one explicit avoid-line.",
+      "strength": "bounded",
+      "chart_basis": [
+        "C003",
+        "E023",
+        "E022"
+      ],
+      "guard": "no literal object or figure from the chart",
+      "trace_slot": "2-3 mood-board pins + 1 avoid reference"
+    },
+    {
+      "id": "D007",
+      "brief": "Product & Packaging",
+      "section": "Product Definition",
+      "directive": "Define format, variants, size and price from Assignment 1. The chart's contribution is the use-register only: value expressed over repeated use.",
+      "strength": "conditional",
+      "chart_basis": [
+        "C004"
+      ],
+      "guard": "NO_CHART_SUPPORT rows must be filled from Assignment-1 research",
+      "trace_slot": "Assignment-1 competitor scan (size/price band)"
+    },
+    {
+      "id": "D008",
+      "brief": "Product & Packaging",
+      "section": "Packaging Direction",
+      "directive": "Design a two-state package: a muted closed read, a warmer opened read, with the focal weight on the stored element.",
+      "strength": "bounded",
+      "chart_basis": [
+        "C005",
+        "E022",
+        "E092",
+        "R017"
+      ],
+      "guard": "no material or colour asserted from the chart",
+      "trace_slot": "mood-board pins (surface / colour)"
+    },
+    {
+      "id": "D009",
+      "brief": "Product & Packaging",
+      "section": "Shelf Standout",
+      "directive": "The standout element is the reserved negative space that makes the second read discoverable at three feet.",
+      "strength": "bounded",
+      "chart_basis": [
+        "C005",
+        "C006",
+        "R045"
+      ],
+      "guard": "one sentence, describable at shelf distance",
+      "trace_slot": "Assignment-1 insight (category shelf/feed sameness)"
+    },
+    {
+      "id": "D010",
+      "brief": "Product & Packaging",
+      "section": "Functional-to-Emotional Bridge",
+      "directive": "Connect one functional choice to the withheld-interior philosophy: the choice that slows the first read is the same choice that pays on the second.",
+      "strength": "bounded",
+      "chart_basis": [
+        "C001",
+        "C005"
+      ],
+      "guard": "no efficacy claim",
+      "trace_slot": "Assignment-1 insight"
+    },
+    {
+      "id": "D011",
+      "brief": "Ad / Campaign",
+      "section": "Big Idea",
+      "directive": "Show pressure resolving into composure. Show the act, not the result.",
+      "strength": "bounded",
+      "chart_basis": [
+        "C007"
+      ],
+      "guard": "no outcome promise (law 22)",
+      "trace_slot": "Assignment-1 insight (audience tension)"
+    },
+    {
+      "id": "D012",
+      "brief": "Ad / Campaign",
+      "section": "Hero Shot",
+      "directive": "One subject, low even light, focal weight on the withheld element; the frame must read without text.",
+      "strength": "bounded",
+      "chart_basis": [
+        "C008"
+      ],
+      "guard": "no claim about any person",
+      "trace_slot": "mood-board pin (light / framing)"
+    },
+    {
+      "id": "D013",
+      "brief": "Ad / Campaign",
+      "section": "Stage / Environment",
+      "directive": "Enclosed stage, one motivated light, one reserved negative space. Not an open field.",
+      "strength": "bounded",
+      "chart_basis": [
+        "C009"
+      ],
+      "guard": "register only; no real location named",
+      "trace_slot": "mood-board pin (set / texture)"
+    },
+    {
+      "id": "D014",
+      "brief": "Ad / Campaign",
+      "section": "Models / Casting",
+      "directive": "Cast hands and gesture; state explicitly that faces are avoided and why.",
+      "strength": "bounded",
+      "chart_basis": [
+        "C010"
+      ],
+      "guard": "casting is a creative choice, never an inference about people",
+      "trace_slot": "Assignment-1 audience research"
+    },
+    {
+      "id": "D015",
+      "brief": "Ad / Campaign",
+      "section": "Plan of Action",
+      "directive": "Order: hero (display pole, growing phases) -> 2-3 supporting -> detail -> motion; pressed-register assets close the set.",
+      "strength": "bounded",
+      "chart_basis": [
+        "C011"
+      ],
+      "guard": "each block carries its phase citation; this is a preference, not a finding",
+      "trace_slot": "mood-board pins per asset"
+    },
+    {
+      "id": "D016",
+      "brief": "Ad / Campaign",
+      "section": "Production Requirements",
+      "directive": "Propose a staged hybrid path: passes with one named human approval gate at the concealed/instrument layer.",
+      "strength": "bounded",
+      "chart_basis": [
+        "C012",
+        "I006"
+      ],
+      "guard": "no budget, vendor or schedule claim",
+      "trace_slot": "course workflow (standardized image/video path)"
+    },
+    {
+      "id": "D017",
+      "brief": "Ad / Campaign",
+      "section": "Window (blocked)",
+      "directive": "Do not state a campaign window. ARC-13 is BLOCKED: the case declares no window and none may be inferred.",
+      "strength": "blocked",
+      "chart_basis": [
+        "GAP-003"
+      ],
+      "guard": "silence is the correct output here",
+      "trace_slot": "operator-supplied window if one exists"
+    }
+  ],
+  "coherence_check": [
+    {
+      "brief": "Brand Idea & Philosophy",
+      "one_line": "The core idea (D001/D002) traces to the axis inversion C006 plus the guarded-alliance claim C001; the research finding it must cite is the category gap identified in Assignment 1.",
+      "chart_basis": [
+        "C001",
+        "C006"
+      ],
+      "trace_slot": "Assignment-1 research finding (category gap) + insight list"
+    },
+    {
+      "brief": "Product & Packaging",
+      "one_line": "The two-state package (D008/D009) traces to the stored-core structure C005 with the caveat that all product facts (D007) are NO_CHART_SUPPORT and come from Assignment 1.",
+      "chart_basis": [
+        "C004",
+        "C005"
+      ],
+      "trace_slot": "Assignment-1 competitor scan + mood-board pins (surface/colour)"
+    },
+    {
+      "brief": "Ad / Campaign",
+      "one_line": "The campaign (D011-D016) traces to the pressure-into-poise claim C007 with hero, stage, casting and sequence each carrying its own chart citation and guard.",
+      "chart_basis": [
+        "C007",
+        "C008",
+        "C009",
+        "C010",
+        "C011",
+        "C012"
+      ],
+      "trace_slot": "Assignment-1 insight (audience tension) + pins per asset"
+    }
+  ],
+  "uncertainty": "bounded: 12 live claims, 0 confirmed, 1 rejected, 31 legal alternative candidates carried as not_rejected"
+}

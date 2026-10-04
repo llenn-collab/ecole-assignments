@@ -1,0 +1,11 @@
+{
+  "pattern_for_reuse": [
+    "1 ANCHOR — ingest once, fingerprint, and write a board card that every later phase reads instead of the source.",
+    "2 REGISTRY — atomise the source into typed atoms with fixed-width ids, and keep registers separate (structural / condition / relation / pillar).",
+    "3 COVER — run the full coverage protocol, tally every atom exactly once, and reconcile at run level, not only per container.",
+    "4 RECONCILE — let explicit markers and computed rules meet in a table; neither overwrites the other, and unconfirmed markers stay visible.",
+    "5 GATE — compute every score and every claim line in a validator, never in prose; the gate must be able to fail.",
+    "6 SEAL — hash the shipped artifacts with the source fingerprints so a reviewer can re-run and compare.",
+    "7 REPORT THE GAPS — a gap report ships even on a clean run: null classes, blocked classes, deferred facets and verification gaps are output, not omissions."
+  ]
+}

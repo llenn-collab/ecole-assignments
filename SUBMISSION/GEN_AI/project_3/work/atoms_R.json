@@ -1,0 +1,1014 @@
+[
+  {
+    "id": "R001",
+    "relation_type": "gate_palace",
+    "members": [
+      "E002"
+    ],
+    "rule": "frozen_tables.gate_palace_rules",
+    "derivation": "R.gate_palace.E002",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 1,
+    "door": "生门",
+    "door_element": "earth",
+    "palace_element": "water",
+    "relation": "门迫宫",
+    "palaces": [
+      1
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R002",
+    "relation_type": "gate_palace",
+    "members": [
+      "E009"
+    ],
+    "rule": "frozen_tables.gate_palace_rules",
+    "derivation": "R.gate_palace.E009",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 2,
+    "door": "惊门",
+    "door_element": "metal",
+    "palace_element": "earth",
+    "relation": "宫生门",
+    "palaces": [
+      2
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R003",
+    "relation_type": "gate_palace",
+    "members": [
+      "E016"
+    ],
+    "rule": "frozen_tables.gate_palace_rules",
+    "derivation": "R.gate_palace.E016",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 3,
+    "door": "杜门",
+    "door_element": "wood",
+    "palace_element": "wood",
+    "relation": "比和",
+    "palaces": [
+      3
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R004",
+    "relation_type": "gate_palace",
+    "members": [
+      "E023"
+    ],
+    "rule": "frozen_tables.gate_palace_rules",
+    "derivation": "R.gate_palace.E023",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 4,
+    "door": "景门",
+    "door_element": "fire",
+    "palace_element": "wood",
+    "relation": "宫生门",
+    "palaces": [
+      4
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R005",
+    "relation_type": "gate_palace",
+    "members": [
+      "E034"
+    ],
+    "rule": "frozen_tables.gate_palace_rules",
+    "derivation": "R.gate_palace.E034",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 6,
+    "door": "休门",
+    "door_element": "water",
+    "palace_element": "metal",
+    "relation": "宫生门",
+    "palaces": [
+      6
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R006",
+    "relation_type": "gate_palace",
+    "members": [
+      "E041"
+    ],
+    "rule": "frozen_tables.gate_palace_rules",
+    "derivation": "R.gate_palace.E041",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 7,
+    "door": "开门",
+    "door_element": "metal",
+    "palace_element": "metal",
+    "relation": "比和",
+    "palaces": [
+      7
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R007",
+    "relation_type": "gate_palace",
+    "members": [
+      "E048"
+    ],
+    "rule": "frozen_tables.gate_palace_rules",
+    "derivation": "R.gate_palace.E048",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 8,
+    "door": "伤门",
+    "door_element": "wood",
+    "palace_element": "earth",
+    "relation": "门迫宫",
+    "palaces": [
+      8
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R008",
+    "relation_type": "gate_palace",
+    "members": [
+      "E055"
+    ],
+    "rule": "frozen_tables.gate_palace_rules",
+    "derivation": "R.gate_palace.E055",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 9,
+    "door": "死门",
+    "door_element": "earth",
+    "palace_element": "fire",
+    "relation": "宫生门",
+    "palaces": [
+      9
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R009",
+    "relation_type": "stem_pair_explicit",
+    "members": [
+      "E005",
+      "E006"
+    ],
+    "rule": "explicit_field_pair",
+    "derivation": "R.stem_pair_explicit.E005+E006",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 1,
+    "pair": "壬丁",
+    "he_combination": "丁壬",
+    "he_rule": "frozen_tables.stem_he",
+    "palaces": [
+      1
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R010",
+    "relation_type": "hidden_pair_explicit",
+    "members": [
+      "E065"
+    ],
+    "rule": "explicit_marker_atom",
+    "derivation": "R.hidden_pair_explicit.E065",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 1,
+    "pair": "乙加丁",
+    "layer": "暗干干",
+    "pattern": "奇仪相佐",
+    "same_stem": false,
+    "palaces": [
+      1
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R011",
+    "relation_type": "stem_pair_explicit",
+    "members": [
+      "E012",
+      "E013"
+    ],
+    "rule": "explicit_field_pair",
+    "derivation": "R.stem_pair_explicit.E012+E013",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 2,
+    "pair": "己癸",
+    "he_combination": null,
+    "he_rule": null,
+    "palaces": [
+      2
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R012",
+    "relation_type": "hidden_pair_explicit",
+    "members": [
+      "E072"
+    ],
+    "rule": "explicit_marker_atom",
+    "derivation": "R.hidden_pair_explicit.E072",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 2,
+    "pair": "戊加癸",
+    "layer": "暗干干",
+    "pattern": "青龙华盖",
+    "same_stem": false,
+    "palaces": [
+      2
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R013",
+    "relation_type": "stem_pair_explicit",
+    "members": [
+      "E019",
+      "E020"
+    ],
+    "rule": "explicit_field_pair",
+    "derivation": "R.stem_pair_explicit.E019+E020",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 3,
+    "pair": "丙壬",
+    "he_combination": null,
+    "he_rule": null,
+    "palaces": [
+      3
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R014",
+    "relation_type": "hidden_pair_explicit",
+    "members": [
+      "E079"
+    ],
+    "rule": "explicit_marker_atom",
+    "derivation": "R.hidden_pair_explicit.E079",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 3,
+    "pair": "辛加壬",
+    "layer": "暗干干",
+    "pattern": "凶蛇入狱",
+    "same_stem": false,
+    "palaces": [
+      3
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R015",
+    "relation_type": "stem_pair_explicit",
+    "members": [
+      "E026",
+      "E027"
+    ],
+    "rule": "explicit_field_pair",
+    "derivation": "R.stem_pair_explicit.E026+E027",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 4,
+    "pair": "癸辛",
+    "he_combination": null,
+    "he_rule": null,
+    "palaces": [
+      4
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R016",
+    "relation_type": "hidden_pair_explicit",
+    "members": [
+      "E088"
+    ],
+    "rule": "explicit_marker_atom",
+    "derivation": "R.hidden_pair_explicit.E088",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 4,
+    "pair": "庚加辛",
+    "layer": "寄宫干",
+    "pattern": "太白重锋",
+    "same_stem": false,
+    "palaces": [
+      4
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R017",
+    "relation_type": "hidden_pair_explicit",
+    "members": [
+      "E089"
+    ],
+    "rule": "explicit_marker_atom",
+    "derivation": "R.hidden_pair_explicit.E089",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 4,
+    "pair": "丙加辛",
+    "layer": "暗干干",
+    "pattern": "日月相会",
+    "same_stem": false,
+    "palaces": [
+      4
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R018",
+    "relation_type": "hidden_pair_explicit",
+    "members": [
+      "E093"
+    ],
+    "rule": "explicit_marker_atom",
+    "derivation": "R.hidden_pair_explicit.E093",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 5,
+    "pair": "庚加庚",
+    "layer": "暗干干",
+    "pattern": "太白同宫",
+    "same_stem": true,
+    "palaces": [
+      5
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R019",
+    "relation_type": "stem_pair_explicit",
+    "members": [
+      "E037",
+      "E038"
+    ],
+    "rule": "explicit_field_pair",
+    "derivation": "R.stem_pair_explicit.E037+E038",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 6,
+    "pair": "乙己",
+    "he_combination": null,
+    "he_rule": null,
+    "palaces": [
+      6
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R020",
+    "relation_type": "hidden_pair_explicit",
+    "members": [
+      "E098"
+    ],
+    "rule": "explicit_marker_atom",
+    "derivation": "R.hidden_pair_explicit.E098",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 6,
+    "pair": "丁加己",
+    "layer": "暗干干",
+    "pattern": "火入勾陈",
+    "same_stem": false,
+    "palaces": [
+      6
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R021",
+    "relation_type": "stem_pair_explicit",
+    "members": [
+      "E044",
+      "E045"
+    ],
+    "rule": "explicit_field_pair",
+    "derivation": "R.stem_pair_explicit.E044+E045",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 7,
+    "pair": "丁戊",
+    "he_combination": null,
+    "he_rule": null,
+    "palaces": [
+      7
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R022",
+    "relation_type": "hidden_pair_explicit",
+    "members": [
+      "E104"
+    ],
+    "rule": "explicit_marker_atom",
+    "derivation": "R.hidden_pair_explicit.E104",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 7,
+    "pair": "己加戊",
+    "layer": "暗干干",
+    "pattern": "犬遇青龙",
+    "same_stem": false,
+    "palaces": [
+      7
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R023",
+    "relation_type": "stem_pair_explicit",
+    "members": [
+      "E051",
+      "E052"
+    ],
+    "rule": "explicit_field_pair",
+    "derivation": "R.stem_pair_explicit.E051+E052",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 8,
+    "pair": "辛乙",
+    "he_combination": null,
+    "he_rule": null,
+    "palaces": [
+      8
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R024",
+    "relation_type": "hidden_pair_explicit",
+    "members": [
+      "E110"
+    ],
+    "rule": "explicit_marker_atom",
+    "derivation": "R.hidden_pair_explicit.E110",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 8,
+    "pair": "壬加乙",
+    "layer": "暗干干",
+    "pattern": "小蛇得势",
+    "same_stem": false,
+    "palaces": [
+      8
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R025",
+    "relation_type": "stem_pair_explicit",
+    "members": [
+      "E058",
+      "E059"
+    ],
+    "rule": "explicit_field_pair",
+    "derivation": "R.stem_pair_explicit.E058+E059",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 9,
+    "pair": "戊丙",
+    "he_combination": null,
+    "he_rule": null,
+    "palaces": [
+      9
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R026",
+    "relation_type": "hidden_pair_explicit",
+    "members": [
+      "E116"
+    ],
+    "rule": "explicit_marker_atom",
+    "derivation": "R.hidden_pair_explicit.E116",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 9,
+    "pair": "癸加丙",
+    "layer": "暗干干",
+    "pattern": "华盖悖师",
+    "same_stem": false,
+    "palaces": [
+      9
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R027",
+    "relation_type": "liu_yi_xing",
+    "members": [
+      "E012"
+    ],
+    "rule": "frozen_tables.liu_yi_xing",
+    "derivation": "R.liu_yi_xing.E012",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 2,
+    "stem": "己",
+    "jiazhi": "甲戌",
+    "xing": "戌刑未",
+    "palaces": [
+      2
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R028",
+    "relation_type": "liu_yi_xing",
+    "members": [
+      "E026"
+    ],
+    "rule": "frozen_tables.liu_yi_xing",
+    "derivation": "R.liu_yi_xing.E026",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 4,
+    "stem": "癸",
+    "jiazhi": "甲寅",
+    "xing": "寅刑巳",
+    "palaces": [
+      4
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R029",
+    "relation_type": "star_tomb",
+    "members": [
+      "E024"
+    ],
+    "rule": "frozen_tables.element_tomb",
+    "derivation": "R.star_tomb.E024",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "palace": 4,
+    "star": "天芮",
+    "star_element": "earth",
+    "tomb_branch": "辰",
+    "palaces": [
+      4
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R030",
+    "relation_type": "triad_family",
+    "members": [
+      "E011"
+    ],
+    "rule": "frozen_tables.triad_families",
+    "derivation": "R.triad_family.E011",
+    "grounding": "computed_structure",
+    "register": "pillar_relation",
+    "palace": 2,
+    "family": "hai_mao_wei",
+    "branches": "亥卯未",
+    "horse_branch": "巳",
+    "member_branch": "未",
+    "palaces": [
+      2
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R031",
+    "relation_type": "triad_family",
+    "members": [
+      "E018"
+    ],
+    "rule": "frozen_tables.triad_families",
+    "derivation": "R.triad_family.E018",
+    "grounding": "computed_structure",
+    "register": "pillar_relation",
+    "palace": 3,
+    "family": "hai_mao_wei",
+    "branches": "亥卯未",
+    "horse_branch": "巳",
+    "member_branch": "卯",
+    "palaces": [
+      3
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R032",
+    "relation_type": "branch_chong",
+    "members": [
+      "E025"
+    ],
+    "rule": "frozen_tables.branch_chong",
+    "derivation": "R.branch_chong.E025",
+    "grounding": "computed_structure",
+    "register": "pillar_relation",
+    "palace": 4,
+    "branch": "巳",
+    "day_branch": "亥",
+    "palaces": [
+      4
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R033",
+    "relation_type": "branch_liuhe",
+    "members": [
+      "E036"
+    ],
+    "rule": "frozen_tables.branch_liuhe",
+    "derivation": "R.branch_liuhe.E036",
+    "grounding": "computed_structure",
+    "register": "pillar_relation",
+    "palace": 6,
+    "branch": "亥",
+    "day_branch": "亥",
+    "palaces": [
+      6
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R034",
+    "relation_type": "triad_family",
+    "members": [
+      "E036"
+    ],
+    "rule": "frozen_tables.triad_families",
+    "derivation": "R.triad_family.E036",
+    "grounding": "computed_structure",
+    "register": "pillar_relation",
+    "palace": 6,
+    "family": "hai_mao_wei",
+    "branches": "亥卯未",
+    "horse_branch": "巳",
+    "member_branch": "亥",
+    "palaces": [
+      6
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R035",
+    "relation_type": "branch_liuhe",
+    "members": [
+      "E050"
+    ],
+    "rule": "frozen_tables.branch_liuhe",
+    "derivation": "R.branch_liuhe.E050",
+    "grounding": "computed_structure",
+    "register": "pillar_relation",
+    "palace": 8,
+    "branch": "寅",
+    "day_branch": "亥",
+    "palaces": [
+      8
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R036",
+    "relation_type": "cross_palace_trace",
+    "members": [
+      "E007",
+      "E037",
+      "E052"
+    ],
+    "rule": "CAP-09 value_trace (field values, never array positions)",
+    "derivation": "R.cross_palace_trace.E007+E037+E052",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "stem": "乙",
+    "palaces": [
+      1,
+      6,
+      8
+    ],
+    "layers": [
+      "hidden_stem",
+      "heaven_stem",
+      "earth_stem"
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R037",
+    "relation_type": "cross_palace_trace",
+    "members": [
+      "E019",
+      "E028",
+      "E059"
+    ],
+    "rule": "CAP-09 value_trace (field values, never array positions)",
+    "derivation": "R.cross_palace_trace.E019+E028+E059",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "stem": "丙",
+    "palaces": [
+      3,
+      4,
+      9
+    ],
+    "layers": [
+      "heaven_stem",
+      "hidden_stem",
+      "earth_stem"
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R038",
+    "relation_type": "cross_palace_trace",
+    "members": [
+      "E006",
+      "E039",
+      "E044"
+    ],
+    "rule": "CAP-09 value_trace (field values, never array positions)",
+    "derivation": "R.cross_palace_trace.E006+E039+E044",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "stem": "丁",
+    "palaces": [
+      1,
+      6,
+      7
+    ],
+    "layers": [
+      "earth_stem",
+      "hidden_stem",
+      "heaven_stem"
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R039",
+    "relation_type": "cross_palace_trace",
+    "members": [
+      "E014",
+      "E045",
+      "E058"
+    ],
+    "rule": "CAP-09 value_trace (field values, never array positions)",
+    "derivation": "R.cross_palace_trace.E014+E045+E058",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "stem": "戊",
+    "palaces": [
+      2,
+      7,
+      9
+    ],
+    "layers": [
+      "hidden_stem",
+      "earth_stem",
+      "heaven_stem"
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R040",
+    "relation_type": "cross_palace_trace",
+    "members": [
+      "E012",
+      "E038",
+      "E046"
+    ],
+    "rule": "CAP-09 value_trace (field values, never array positions)",
+    "derivation": "R.cross_palace_trace.E012+E038+E046",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "stem": "己",
+    "palaces": [
+      2,
+      6,
+      7
+    ],
+    "layers": [
+      "heaven_stem",
+      "earth_stem",
+      "hidden_stem"
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R041",
+    "relation_type": "cross_palace_trace",
+    "members": [
+      "E029",
+      "E032"
+    ],
+    "rule": "CAP-09 value_trace (field values, never array positions)",
+    "derivation": "R.cross_palace_trace.E029+E032",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "stem": "庚",
+    "palaces": [
+      4,
+      5
+    ],
+    "layers": [
+      "lodged_stem",
+      "earth_stem"
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R042",
+    "relation_type": "cross_palace_trace",
+    "members": [
+      "E021",
+      "E027",
+      "E051"
+    ],
+    "rule": "CAP-09 value_trace (field values, never array positions)",
+    "derivation": "R.cross_palace_trace.E021+E027+E051",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "stem": "辛",
+    "palaces": [
+      3,
+      4,
+      8
+    ],
+    "layers": [
+      "hidden_stem",
+      "earth_stem",
+      "heaven_stem"
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R043",
+    "relation_type": "cross_palace_trace",
+    "members": [
+      "E005",
+      "E020",
+      "E053"
+    ],
+    "rule": "CAP-09 value_trace (field values, never array positions)",
+    "derivation": "R.cross_palace_trace.E005+E020+E053",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "stem": "壬",
+    "palaces": [
+      1,
+      3,
+      8
+    ],
+    "layers": [
+      "heaven_stem",
+      "earth_stem",
+      "hidden_stem"
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R044",
+    "relation_type": "cross_palace_trace",
+    "members": [
+      "E013",
+      "E026",
+      "E060"
+    ],
+    "rule": "CAP-09 value_trace (field values, never array positions)",
+    "derivation": "R.cross_palace_trace.E013+E026+E060",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "stem": "癸",
+    "palaces": [
+      2,
+      4,
+      9
+    ],
+    "layers": [
+      "earth_stem",
+      "heaven_stem",
+      "hidden_stem"
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R045",
+    "relation_type": "opposition",
+    "members": [
+      "E004",
+      "E025"
+    ],
+    "rule": "frozen_tables.opposition_pairs",
+    "derivation": "R.opposition.E004+E025",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "pair": [
+      1,
+      4
+    ],
+    "palaces": [
+      1,
+      4
+    ],
+    "visibility": "PRIMARY_ELIGIBLE"
+  },
+  {
+    "id": "R046",
+    "relation_type": "opposition",
+    "members": [
+      "E036",
+      "E057"
+    ],
+    "rule": "frozen_tables.opposition_pairs",
+    "derivation": "R.opposition.E036+E057",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "pair": [
+      6,
+      9
+    ],
+    "palaces": [
+      6,
+      9
+    ],
+    "visibility": "CONTRADICTION_VISIBLE"
+  },
+  {
+    "id": "R047",
+    "relation_type": "lodging_edge",
+    "members": [
+      "E032",
+      "E029"
+    ],
+    "rule": "centre stem re-appears as 寄X in the host palace",
+    "derivation": "R.lodging_edge.E032+E029",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "centre": 5,
+    "host_palace": 4,
+    "carrier_stem": "庚",
+    "centre_holds": "earth_stem",
+    "visibility": "PRIMARY_ELIGIBLE",
+    "palaces": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "R048",
+    "relation_type": "lodging_candidate",
+    "members": [
+      "E011"
+    ],
+    "rule": "frozen cultural convention (canonical centre hosts)",
+    "derivation": "R.lodging_candidate.E011",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "centre": 5,
+    "candidate_palace": 2,
+    "seeded": false,
+    "visibility": "CONTRADICTION_VISIBLE",
+    "palaces": [
+      2
+    ]
+  },
+  {
+    "id": "R049",
+    "relation_type": "lodging_candidate",
+    "members": [
+      "E050"
+    ],
+    "rule": "frozen cultural convention (canonical centre hosts)",
+    "derivation": "R.lodging_candidate.E050",
+    "grounding": "computed_structure",
+    "register": "board_internal",
+    "centre": 5,
+    "candidate_palace": 8,
+    "seeded": false,
+    "visibility": "CONTRADICTION_VISIBLE",
+    "palaces": [
+      8
+    ]
+  }
+]

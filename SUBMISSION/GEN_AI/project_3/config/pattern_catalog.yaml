@@ -1,0 +1,143 @@
+# pattern_catalog — annex A-patterns. Registry only: ids, required evidence classes,
+# deterministic rules, and controlled-term vocabulary for C-atoms. NO findings here.
+# A class absent from the chart yields a null result, not an error.
+catalog_version: PC-1.0
+compute_always: [PAT-01, PAT-02, PAT-03, PAT-04, PAT-05, PAT-27, PAT-28, PAT-31, PAT-32]
+compute_on_explicit_marker: [PAT-06, PAT-07, PAT-08, PAT-09, PAT-10, PAT-11, PAT-12, PAT-13, PAT-14,
+                             PAT-15, PAT-16, PAT-17, PAT-18, PAT-19, PAT-20, PAT-21, PAT-22, PAT-23,
+                             PAT-24, PAT-25, PAT-26]
+class_null_ok: [PAT-29, PAT-30]
+
+# family_opposition: for the contradiction term of the score card (CAP-15 step 2). Deterministic,
+# declared here so the penalty is enumerated rather than argued. A live hit contributes a
+# contradiction point to another hit when the other hit's family appears in this map AND the two
+# sit in the same palace or in an opposition pair (1-4, 6-9).
+family_opposition:
+  gate_vs_palace:   [gate_vs_palace]
+  authority_rise:   [metal_clash, net, concealed_loss, tomb]
+  metal_clash:      [authority_rise, shelter, stem_support]
+  shelter:          [metal_clash, concealed_loss, punishment]
+  concealed_loss:   [authority_rise, shelter, three_wonders]
+  net:              [authority_rise, three_wonders, flexibility]
+  three_wonders:    [net, punishment, tomb, concealed_loss]
+  punishment:       [three_wonders, shelter, flexibility]
+  stem_combination: [stem_clash, net]
+  stem_clash:       [stem_combination, stem_support]
+  stem_support:     [stem_clash, metal_clash]
+  tomb:             [three_wonders, authority_rise]
+  flexibility:      [net, punishment]
+  branch_relations: []
+  axis_anchor:      []
+  absence_class:    []
+
+patterns:
+  - {id: PAT-01, cn: 门迫宫, roman: men_po_gong, family: gate_vs_palace, source: both,
+     required_evidence_classes: [door, palaces_root], rule: "element_controls(door_element, palace_element)",
+     controlled_terms: [pressure, friction, effort_over_yield, adverse_reversal],
+     null_ok: true, gloss: "human agency acts against its environment"}
+  - {id: PAT-02, cn: 宫生门, roman: gong_sheng_men, family: gate_vs_palace, source: both,
+     required_evidence_classes: [door, palaces_root], rule: "element_generates(palace_element, door_element)",
+     controlled_terms: [support, tailwind, low_friction], null_ok: true,
+     gloss: "environment feeds the actor"}
+  - {id: PAT-03, cn: 六仪击刑, roman: liu_yi_ji_xing, family: punishment, source: both,
+     required_evidence_classes: [heaven_stem, earth_stem, hidden_stem, lodged_stem, palaces_root],
+     rule: "six_yi_stem.palace_bound_by_source == frozen_tables.liu_yi_xing[stem].palace",
+     controlled_terms: [penalty, sudden_breakage, self_inflicted_strain], null_ok: true,
+     gloss: "a 仪 sits in its punishment palace"}
+  - {id: PAT-04, cn: 星入墓, roman: xing_ru_mu, family: tomb, source: both,
+     required_evidence_classes: [star, palaces_root],
+     rule: "element_tomb[star_element].palace == palace_canonical",
+     controlled_terms: [stored_energy, exhausted_timing, latency], null_ok: true,
+     gloss: "a star falls into its element's tomb"}
+  - {id: PAT-05, cn: 奇仪相合, roman: qi_yi_xiang_he, family: stem_combination, source: both,
+     required_evidence_classes: [heaven_stem, earth_stem],
+     rule: "pair_in_frozen_tables.stem_he",
+     controlled_terms: [bond, alliance, joint_undertaking, entangling_agreement], null_ok: true,
+     gloss: "heaven and earth stems form a he-combination"}
+  - {id: PAT-06, signature: "壬加丁", cn: 干合蛇刑, roman: gan_he_she_xing, family: stem_combination, source: explicit,
+     required_evidence_classes: [heaven_stem, earth_stem], rule: "explicit marker '壬加丁 干合蛇刑'",
+     controlled_terms: [entangled_deal, deferred_paperwork, brief_relief], null_ok: true}
+  - {id: PAT-07, signature: "乙加丁", cn: 奇仪相佐, roman: qi_yi_xiang_zuo, family: stem_combination, source: explicit,
+     required_evidence_classes: [hidden_stem], rule: "explicit marker '乙加丁 奇仪相佐'",
+     controlled_terms: [assisted_channel, document_favour, fast_track], null_ok: true}
+  - {id: PAT-08, signature: "己加癸", cn: 地刑玄武, roman: di_xing_xuan_wu, family: concealed_loss, source: explicit,
+     required_evidence_classes: [heaven_stem, earth_stem], rule: "explicit marker '己加癸'",
+     controlled_terms: [concealed_loss, exposed_plot, discredit], null_ok: true}
+  - {id: PAT-09, signature: "戊加癸", cn: 青龙华盖, roman: qing_long_hua_gai, family: shelter, source: explicit,
+     required_evidence_classes: [hidden_stem], rule: "explicit marker '戊加癸'",
+     controlled_terms: [sheltered_benefit, conditional_success], null_ok: true}
+  - {id: PAT-10, signature: "丙加壬", cn: 火入天罗, roman: huo_ru_tian_luo, family: net, source: explicit,
+     required_evidence_classes: [heaven_stem, earth_stem], rule: "explicit marker '丙加壬'",
+     controlled_terms: [external_obstruction, escalating_noise], null_ok: true}
+  - {id: PAT-11, signature: "辛加壬", cn: 凶蛇入狱, roman: xiong_she_ru_yu, family: net, source: explicit,
+     required_evidence_classes: [hidden_stem], rule: "explicit marker '辛加壬'",
+     controlled_terms: [leaked_plot, unclosed_matter], null_ok: true}
+  - {id: PAT-12, cn: 三奇升殿, roman: san_qi_sheng_dian, family: three_wonders, source: both,
+     required_evidence_classes: [heaven_stem, palaces_root],
+     rule: "sanqi_home[stem] == palace_canonical",
+     controlled_terms: [throne, authority_in_place, credentials], null_ok: true}
+  - {id: PAT-13, cn: 三奇得使, roman: san_qi_de_shi, family: three_wonders, source: explicit,
+     required_evidence_classes: [heaven_stem, earth_stem], rule: "explicit marker 三奇得使",
+     controlled_terms: [capable_ally, delegated_authority], null_ok: true}
+  - {id: PAT-14, cn: 三奇受制, roman: san_qi_shou_zhi, family: three_wonders, source: explicit,
+     required_evidence_classes: [heaven_stem, earth_stem], rule: "explicit marker 三奇受制",
+     controlled_terms: [locked_capacity, unsupported_ally], null_ok: true}
+  - {id: PAT-15, signature: "癸加辛", cn: 网盖天牢, roman: wang_gai_tian_lao, family: net, source: explicit,
+     required_evidence_classes: [heaven_stem, earth_stem], rule: "explicit marker '癸加辛'",
+     controlled_terms: [confinement, restriction, legal_trap], null_ok: true}
+  - {id: PAT-16, signature: "庚加辛", cn: 太白重锋, roman: tai_bai_chong_feng, family: metal_clash, source: explicit,
+     required_evidence_classes: [lodged_stem, earth_stem], rule: "explicit marker '庚加辛'",
+     controlled_terms: [sharp_edge, conflict_cost, travel_hazard], null_ok: true}
+  - {id: PAT-17, signature: "丙加辛", cn: 日月相会, roman: ri_yue_xiang_hui, family: stem_combination, source: explicit,
+     required_evidence_classes: [hidden_stem, earth_stem], rule: "explicit marker '丙加辛'",
+     controlled_terms: [convergence, workable_agreement], null_ok: true}
+  - {id: PAT-18, signature: "庚加庚", cn: 太白同宫, roman: tai_bai_tong_gong, family: metal_clash, source: explicit,
+     required_evidence_classes: [hidden_stem], rule: "explicit marker '庚加庚 战格'",
+     controlled_terms: [contention, stalemate, guest_advantage], null_ok: true}
+  - {id: PAT-19, signature: "乙加己", cn: 日奇入墓, roman: ri_qi_ru_mu, family: tomb, source: explicit,
+     required_evidence_classes: [heaven_stem, earth_stem], rule: "explicit marker '乙加己'",
+     controlled_terms: [obscured_benefit, buried_document, blunt_day], null_ok: true}
+  - {id: PAT-20, signature: "丁加己", cn: 火入勾陈, roman: huo_ru_gou_chen, family: concealed_loss, source: explicit,
+     required_evidence_classes: [hidden_stem, earth_stem], rule: "explicit marker '丁加己'",
+     controlled_terms: [private_channel, hidden_party], null_ok: true}
+  - {id: PAT-21, signature: "丁加戊", cn: 青龙耀明, roman: qing_long_yao_ming, family: authority_rise, source: explicit,
+     required_evidence_classes: [heaven_stem, earth_stem], rule: "explicit marker '丁加戊'",
+     controlled_terms: [recognition, elevation, patronage], null_ok: true}
+  - {id: PAT-22, signature: "己加戊", cn: 犬遇青龙, roman: quan_yu_qing_long, family: authority_rise, source: explicit,
+     required_evidence_classes: [hidden_stem, earth_stem], rule: "explicit marker '己加戊'",
+     controlled_terms: [conditional_opportunity, door_dependent_outcome], null_ok: true}
+  - {id: PAT-23, signature: "辛加乙", cn: 白虎猖狂, roman: bai_hu_chang_kuang, family: metal_clash, source: explicit,
+     required_evidence_classes: [heaven_stem, earth_stem], rule: "explicit marker '辛加乙'",
+     controlled_terms: [aggressive_breakage, stolen_ground], null_ok: true}
+  - {id: PAT-24, signature: "壬加乙", cn: 小蛇得势, roman: xiao_she_de_shi, family: flexibility, source: explicit,
+     required_evidence_classes: [hidden_stem, earth_stem], rule: "explicit marker '壬加乙'",
+     controlled_terms: [adaptive_gain, dynamic_balance], null_ok: true}
+  - {id: PAT-25, signature: "戊加丙", cn: 青龙转光, roman: qing_long_zhuan_guang, family: authority_rise, source: explicit,
+     required_evidence_classes: [heaven_stem, earth_stem], rule: "explicit marker '戊加丙'",
+     controlled_terms: [turning_fortune, patron_turn], null_ok: true}
+  - {id: PAT-26, signature: "癸加丙", cn: 华盖悖师, roman: hua_gai_bei_shi, family: shelter, source: explicit,
+     required_evidence_classes: [hidden_stem, earth_stem], rule: "explicit marker '癸加丙'",
+     controlled_terms: [discord, self_undoing_action], null_ok: true}
+  - {id: PAT-27, cn: 干相克, named: false, roman: gan_xiang_ke, family: stem_clash, source: computed,
+     required_evidence_classes: [heaven_stem, earth_stem],
+     rule: "element_controls(heaven_stem_element, earth_stem_element)",
+     controlled_terms: [strain, extraction], null_ok: true}
+  - {id: PAT-28, cn: 干相生, named: false, roman: gan_xiang_sheng, family: stem_support, source: computed,
+     required_evidence_classes: [heaven_stem, earth_stem],
+     rule: "element_generates(heaven_stem_element, earth_stem_element)",
+     controlled_terms: [nourishment, handover], null_ok: true}
+  - {id: PAT-29, cn: 空亡, roman: kong_wang, family: absence_class, source: declared_absent,
+     required_evidence_classes: [void], rule: "schema_adapter.void = UNRESOLVED",
+     controlled_terms: [void_unavailable], null_ok: true,
+     note: "class can never be computed from this adapter; ABSENT is a factual report, never support (law 28)"}
+  - {id: PAT-30, cn: 驿马, roman: yi_ma, family: absence_class, source: declared_absent,
+     required_evidence_classes: [horse], rule: "schema_adapter.horse = UNRESOLVED",
+     controlled_terms: [horse_unavailable], null_ok: true}
+  - {id: PAT-31, cn: 支合冲刑, named: false, roman: zhi_he_chong, family: branch_relations, source: computed,
+     required_evidence_classes: [palaces_root, day_pillar],
+     rule: "triad_families / branch_chong / branch_liuhe over palace branches",
+     controlled_terms: [tension_pair, harmonised_pair, triad_family], null_ok: true}
+  - {id: PAT-32, cn: 值符值使, named: false, roman: zhi_fu_zhi_shi, family: axis_anchor, source: both,
+     required_evidence_classes: [star, door, palaces_root],
+     rule: "chart_info.zhi_fu palace vs chart_info.zhi_shi palace vs palace carrying 值符 deity",
+     controlled_terms: [command_axis, execution_axis, axis_mismatch], null_ok: true}

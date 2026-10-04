@@ -1,0 +1,14 @@
+{
+  "analysis_only": true,
+  "no_factual_prediction": true,
+  "no_substitute_for_professional_judgment": true,
+  "not_a_substitute_for_professional_judgment": [
+    "medical",
+    "legal",
+    "financial"
+  ],
+  "stance": "chart-derived claims are traditional interpretive analysis. They are not factual prediction and not a substitute for professional judgment.",
+  "jurisdiction": "This run reads one chart and one case context. It cannot endorse, refute or replace Assignment-1 research; it supplies register, constraint and sequencing only. Every decision in the three briefs still traces to Assignment-1 evidence.",
+  "language_register": "en",
+  "banned_language_scan": "pass (see 15_tool_event_log)"
+}

@@ -1,0 +1,91 @@
+# coverage_control — annex A-coverage: topic_order, protocol-class matrix, blocking rules,
+# visibility tags, digest gates, stop conditions, retry bounds. DATA ONLY (no verdicts).
+coverage_version: CC-1.0
+
+# B0_COVERAGE_CONTRACT (charter): validated before any batch runs.
+B0_COVERAGE_CONTRACT:
+  total_batches: 25
+  max_palace_blocks_per_batch: 3
+  max_parallel_palaces: 2
+  palace_blocking_rules:
+    - "centre (5) blocks every batch whose topic needs a lodging edge: no 5 may run before 5 is lodged"
+    - "a batch may not open a palace whose identity is unresolved (B1 gate)"
+    - "palaces {1,4} carry the primary axis; {5} carries the lodging graph; no batch may re-read the source (law 44) to fill a gap"
+  palace_dependency_chains:
+    - [1, 4]      # axis: 1 <-> 4 (opposition pair, both leaf palaces)
+    - [5, 4]      # lodging: centre 5 lodges into 4 (source: 寄宫干 庚 in Xun4)
+    - [5, 2, 8]   # canonical lodging candidates for centre (坤2/艮8) — must stay visible
+  primary_scope_palaces: [1, 4, 5]
+  contradiction_scope: VISIBLE_AND_ELIGIBLE   # law 28
+  forbidden_scope:
+    - "no claim may rank a palace outside {1,4,5} as primary evidence"
+    - "no EMULATED product may overwrite an explicit chart field"
+    - "no claim may cite case_context as evidence (law 51)"
+  eligible_scope:
+    - E/R/I/A atoms whose palace in {1,4,5}
+    - R-atoms of relation types: axis, opposition, lodging, cross_palace, triad, xing, he
+    - I-atoms derived only from eligible E/R via a cited rule id
+  visibility_tags: [PRIMARY_ELIGIBLE, CONTRADICTION_VISIBLE, CONTEXT_ONLY, FORBIDDEN_RANK, NULL_REGISTER]
+  digest_gates:
+    - "every in-scope ID is inlined with value+role+grounding+visibility"
+    - "an ID list alone is NOT a digest"
+    - "6000 chars max per palace block; truncation explicit"
+  stop_conditions:
+    - "any core role BLOCKED"
+    - "ledger closure equation fails twice"
+    - "cap budget 60 exhausted -> PARTIAL + gap report"
+  retry_bounds: {max_retries_per_claim: 1, max_retries_per_batch: 1, max_retries_per_p6_or_rt: 1, max_cap_calls_per_run: 60}
+
+# 7 topics (law 29) — the complete coverage protocol runs all of them before scoring.
+topic_order:
+  - id: T1
+    name: identity_frame
+    question: "what is this board, who speaks, and in what frame?"
+  - id: T2
+    name: axis
+    question: "what stands on the primary axis 1<->4 and on the 值符/值使 axis?"
+  - id: T3
+    name: axis_opposition
+    question: "what does opposition 1-4 (and 6-9) put in tension?"
+  - id: T4
+    name: axis_lodging
+    question: "how does centre 5 lodge, and what does the lodging graph carry?"
+  - id: T5
+    name: tripled_axis
+    question: "which 三合 families and 冲/合/刑 pairs connect board values?"
+  - id: T6
+    name: child_axis
+    question: "which generative/controlling child edges run between gate, palace, star, stems?"
+  - id: T7
+    name: cross_palace
+    question: "what do stem value traces across palaces say that no single palace says?"
+
+# protocol-class matrix (Tier2 order HC, AX, ZQ, CS, JG, QT)
+protocol_classes:
+  HC: {name: hard_constraints, requires_fields: [known_facts, unknowns, timeframe_of_interest], else: BLOCKED_NEVER_INFERRED}
+  AX: {name: axes_and_geometry, requires_fields: [palaces_root, door, star, deity, stems], else: BLOCKED}
+  ZQ: {name: three_wonders_and_values, requires_fields: [heaven_stem, earth_stem, hidden_stem], else: BLOCKED}
+  CS: {name: cycle_and_phase, requires_fields: [phase_conditions], else: BLOCKED}
+  JG: {name: pattern_registry, requires_fields: [pattern_markers], else: BLOCKED}
+  QT: {name: question_bridge, requires_fields: [question, decision_needed], else: BLOCKED}
+
+# 25 batches = 7 topics x (protocol classes) with explicit palace subsets; see tools/tier0.py
+batch_plan:
+  axis_pairs: [[1,4],[6,9]]
+  layer_order: [deity, door, star, heaven_stem, earth_stem]
+
+# run language register (fixed at run start)
+language_register: en
+question_overload_threshold: 7
+
+# CAP-17 step 4 handling. The case decomposes into 8 facets (> threshold 7), so the run must
+# report the overload, analyse the 7 most decision-relevant facets, and list the rest as deferred.
+facet_handling:
+  overload_condition: QUESTION_OVERLOAD
+  analysed_facets: [Q02, Q03, Q04, Q05, Q06, Q07, Q08]
+  deferred_facets:
+    - id: Q01
+      heading: "Before You Start"
+      reason: "framing facet; its binding content (traceability) is enforced as CONK004 in every claim's validation_path, so no decision depends on analysing it as a separate facet"
+      owner_phase: CAP-17
+      gap_row: GAP-009

@@ -1,0 +1,18 @@
+# wiki_articles — background corpus. Cited by slug only. NEVER strengthens a claim (law 8).
+# Status of every row: STUB — heading + scope line; no doctrine is asserted here.
+corpus_version: WK-1.0
+citation_rule: "background only; cite only where the chart already supports the claim (B5)"
+
+articles:
+  - {slug: qmdj-overview,        title: "Qimen Dunjia: structural overview", scope: "board layers, 4+1 composite, rotating hourly method"}
+  - {slug: jiu-gong-luoshu,      title: "Nine palaces and Luoshu geometry", scope: "palace identity, opposition pairs, why centre has no opposite"}
+  - {slug: san-qi-liu-yi,        title: "Three wonders and six instruments", scope: "乙丙丁 / 戊己庚辛壬癸 vocabulary and axis roles"}
+  - {slug: eight-gates,          title: "Eight gates (doors)", scope: "gate semantics as human-agency register; gate vs palace relations"}
+  - {slug: nine-stars,           title: "Nine stars", scope: "star semantics as timing/environment register"}
+  - {slug: eight-spirits,        title: "Eight spirits (deities)", scope: "deity layer as tone/atmosphere register"}
+  - {slug: heavenly-stems,       title: "Heavenly stems on the board", scope: "heaven vs earth stem, value traces across palaces"}
+  - {slug: jiazi-cycle,          title: "Ganzhi and the sexagenary cycle", scope: "pillar construction, hour/day/month/year relationships"}
+  - {slug: twelve-phases,        title: "Twelve phases (长生 twelve stages)", scope: "phase vocabulary as strength register"}
+  - {slug: pattern-registry,     title: "Composite patterns (格局) as a registry", scope: "patterns as named configurations, not predictions"}
+  - {slug: void-and-horse,       title: "Void and horse markers", scope: "what absence of the marker class means for a reading"}
+  - {slug: interpretation-ethics,title: "Interpretive limits of QMDJ", scope: "why chart-derived statements are tradition-conditional, never factual prediction"}

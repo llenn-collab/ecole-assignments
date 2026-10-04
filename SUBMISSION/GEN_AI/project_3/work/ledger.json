@@ -1,0 +1,971 @@
+{
+  "dispositions": {
+    "E001": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E002": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E003": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E004": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E005": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E006": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E007": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E008": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E009": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E010": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E011": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E012": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E013": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E014": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E015": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E016": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E017": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E018": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E019": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E020": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E021": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E022": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E023": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E024": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E025": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E026": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E027": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E028": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E029": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E030": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E031": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E032": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E033": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E034": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E035": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E036": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E037": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E038": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E039": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E040": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E041": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E042": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E043": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E044": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E045": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E046": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E047": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E048": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E049": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E050": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E051": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E052": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E053": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E054": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E055": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E056": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E057": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E058": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E059": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E060": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E061": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E062": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E063": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E064": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E065": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E066": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E067": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E068": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E069": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E070": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E071": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E072": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E073": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E074": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E075": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E076": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E077": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E078": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E079": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E080": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E081": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E082": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E083": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E084": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E085": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E086": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E087": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E088": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E089": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E090": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E091": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E092": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E093": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "E094": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E095": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E096": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E097": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E098": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E099": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E100": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E101": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E102": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E103": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E104": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E105": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E106": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E107": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E108": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E109": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E110": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E111": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E112": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E113": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E114": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E115": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E116": {
+      "disposition": "CORROBORATED",
+      "reason": "participates in >=2 independent relations/patterns",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "E117": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed atom",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R001": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R002": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R003": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R004": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R005": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R006": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R007": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R008": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R009": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R010": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R011": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R012": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R013": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R014": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R015": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R016": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R017": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R018": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R019": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R020": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R021": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R022": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R023": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R024": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R025": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R026": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R027": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R028": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R029": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R030": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R031": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R032": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R033": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R034": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R035": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R036": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R037": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R038": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R039": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R040": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R041": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R042": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R043": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R044": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R045": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R046": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R047": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    "R048": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    "R049": {
+      "disposition": "ADDRESSED",
+      "reason": "single-support addressed relation",
+      "visibility": "CONTRADICTION_VISIBLE"
+    }
+  },
+  "palace_tallies": {
+    "1": {
+      "addressed": 17,
+      "corroborated": 4,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 21,
+      "sum_of_addends": 21,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 21
+    },
+    "2": {
+      "addressed": 18,
+      "corroborated": 5,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 23,
+      "sum_of_addends": 23,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 23
+    },
+    "3": {
+      "addressed": 18,
+      "corroborated": 4,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 22,
+      "sum_of_addends": 22,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 22
+    },
+    "4": {
+      "addressed": 22,
+      "corroborated": 9,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 31,
+      "sum_of_addends": 31,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 31
+    },
+    "5": {
+      "addressed": 5,
+      "corroborated": 2,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 7,
+      "sum_of_addends": 7,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 7
+    },
+    "6": {
+      "addressed": 17,
+      "corroborated": 5,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 22,
+      "sum_of_addends": 22,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 22
+    },
+    "7": {
+      "addressed": 16,
+      "corroborated": 3,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 19,
+      "sum_of_addends": 19,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 19
+    },
+    "8": {
+      "addressed": 16,
+      "corroborated": 5,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 21,
+      "sum_of_addends": 21,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 21
+    },
+    "9": {
+      "addressed": 16,
+      "corroborated": 4,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 20,
+      "sum_of_addends": 20,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 20
+    }
+  },
+  "run_tally": {
+    "addressed": 125,
+    "corroborated": 41,
+    "deferred": 0,
+    "excluded": 0,
+    "unparseable": 0,
+    "anomaly": 0,
+    "absent": 0
+  }
+}

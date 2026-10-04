@@ -1,0 +1,781 @@
+{
+  "id_derivation_mode": {
+    "structural_and_condition_atoms": "path-derived (CAP-11 id_fallback), fixed-width suffixes",
+    "relations": "path-derived from member ids",
+    "hashing_available_but_unused_for_ids": true,
+    "content_hash_role": "used for the package seal and source fingerprints, never for atom ids"
+  },
+  "registers": {
+    "E100_structural": 18,
+    "R100": 19,
+    "spine_total": 37,
+    "condition_register_in_scope": 18,
+    "pillar_register": 6,
+    "registry_E": 117,
+    "registry_R": 49
+  },
+  "spine_atoms": {
+    "E": [
+      {
+        "id": "E001",
+        "value": "腾蛇",
+        "field": "deity",
+        "path": "palaces.kan_1.palace_elements"
+      },
+      {
+        "id": "E002",
+        "value": "生门",
+        "field": "door",
+        "path": "palaces.kan_1.palace_elements"
+      },
+      {
+        "id": "E003",
+        "value": "天冲",
+        "field": "star",
+        "path": "palaces.kan_1.palace_elements"
+      },
+      {
+        "id": "E004",
+        "value": "坎1宫",
+        "field": "palace_root",
+        "path": "palaces.kan_1.palace_elements"
+      },
+      {
+        "id": "E005",
+        "value": "壬",
+        "field": "heaven_stem",
+        "path": "palaces.kan_1.palace_elements"
+      },
+      {
+        "id": "E006",
+        "value": "丁",
+        "field": "earth_stem",
+        "path": "palaces.kan_1.palace_elements"
+      },
+      {
+        "id": "E007",
+        "value": "乙",
+        "field": "hidden_stem",
+        "path": "palaces.kan_1.interpretations[*].condition(暗X)"
+      },
+      {
+        "id": "E022",
+        "value": "九地",
+        "field": "deity",
+        "path": "palaces.xun_4.palace_elements"
+      },
+      {
+        "id": "E023",
+        "value": "景门",
+        "field": "door",
+        "path": "palaces.xun_4.palace_elements"
+      },
+      {
+        "id": "E024",
+        "value": "天芮",
+        "field": "star",
+        "path": "palaces.xun_4.palace_elements"
+      },
+      {
+        "id": "E025",
+        "value": "巽4宫",
+        "field": "palace_root",
+        "path": "palaces.xun_4.palace_elements"
+      },
+      {
+        "id": "E026",
+        "value": "癸",
+        "field": "heaven_stem",
+        "path": "palaces.xun_4.palace_elements"
+      },
+      {
+        "id": "E027",
+        "value": "辛",
+        "field": "earth_stem",
+        "path": "palaces.xun_4.palace_elements"
+      },
+      {
+        "id": "E028",
+        "value": "丙",
+        "field": "hidden_stem",
+        "path": "palaces.xun_4.interpretations[*].condition(暗X)"
+      },
+      {
+        "id": "E029",
+        "value": "庚",
+        "field": "lodged_stem",
+        "path": "palaces.xun_4.interpretations[*].condition(寄X)"
+      },
+      {
+        "id": "E030",
+        "value": "天禽",
+        "field": "star",
+        "path": "palaces.center_5.palace_elements"
+      },
+      {
+        "id": "E031",
+        "value": "中5宫",
+        "field": "palace_root",
+        "path": "palaces.center_5.palace_elements"
+      },
+      {
+        "id": "E032",
+        "value": "庚",
+        "field": "earth_stem",
+        "path": "palaces.center_5.palace_elements"
+      }
+    ],
+    "R": [
+      {
+        "id": "R001",
+        "type": "gate_palace",
+        "value": "门迫宫",
+        "rule": "frozen_tables.gate_palace_rules",
+        "members": [
+          "E002"
+        ]
+      },
+      {
+        "id": "R004",
+        "type": "gate_palace",
+        "value": "宫生门",
+        "rule": "frozen_tables.gate_palace_rules",
+        "members": [
+          "E023"
+        ]
+      },
+      {
+        "id": "R009",
+        "type": "stem_pair_explicit",
+        "value": "壬丁",
+        "rule": "explicit_field_pair",
+        "members": [
+          "E005",
+          "E006"
+        ]
+      },
+      {
+        "id": "R010",
+        "type": "hidden_pair_explicit",
+        "value": "乙加丁",
+        "rule": "explicit_marker_atom",
+        "members": [
+          "E065"
+        ]
+      },
+      {
+        "id": "R015",
+        "type": "stem_pair_explicit",
+        "value": "癸辛",
+        "rule": "explicit_field_pair",
+        "members": [
+          "E026",
+          "E027"
+        ]
+      },
+      {
+        "id": "R016",
+        "type": "hidden_pair_explicit",
+        "value": "庚加辛",
+        "rule": "explicit_marker_atom",
+        "members": [
+          "E088"
+        ]
+      },
+      {
+        "id": "R017",
+        "type": "hidden_pair_explicit",
+        "value": "丙加辛",
+        "rule": "explicit_marker_atom",
+        "members": [
+          "E089"
+        ]
+      },
+      {
+        "id": "R018",
+        "type": "hidden_pair_explicit",
+        "value": "庚加庚",
+        "rule": "explicit_marker_atom",
+        "members": [
+          "E093"
+        ]
+      },
+      {
+        "id": "R028",
+        "type": "liu_yi_xing",
+        "value": "癸",
+        "rule": "frozen_tables.liu_yi_xing",
+        "members": [
+          "E026"
+        ]
+      },
+      {
+        "id": "R029",
+        "type": "star_tomb",
+        "value": null,
+        "rule": "frozen_tables.element_tomb",
+        "members": [
+          "E024"
+        ]
+      },
+      {
+        "id": "R036",
+        "type": "cross_palace_trace",
+        "value": "乙",
+        "rule": "CAP-09 value_trace (field values, never array positions)",
+        "members": [
+          "E007",
+          "E037",
+          "E052"
+        ]
+      },
+      {
+        "id": "R037",
+        "type": "cross_palace_trace",
+        "value": "丙",
+        "rule": "CAP-09 value_trace (field values, never array positions)",
+        "members": [
+          "E019",
+          "E028",
+          "E059"
+        ]
+      },
+      {
+        "id": "R038",
+        "type": "cross_palace_trace",
+        "value": "丁",
+        "rule": "CAP-09 value_trace (field values, never array positions)",
+        "members": [
+          "E006",
+          "E039",
+          "E044"
+        ]
+      },
+      {
+        "id": "R041",
+        "type": "cross_palace_trace",
+        "value": "庚",
+        "rule": "CAP-09 value_trace (field values, never array positions)",
+        "members": [
+          "E029",
+          "E032"
+        ]
+      },
+      {
+        "id": "R042",
+        "type": "cross_palace_trace",
+        "value": "辛",
+        "rule": "CAP-09 value_trace (field values, never array positions)",
+        "members": [
+          "E021",
+          "E027",
+          "E051"
+        ]
+      },
+      {
+        "id": "R043",
+        "type": "cross_palace_trace",
+        "value": "壬",
+        "rule": "CAP-09 value_trace (field values, never array positions)",
+        "members": [
+          "E005",
+          "E020",
+          "E053"
+        ]
+      },
+      {
+        "id": "R044",
+        "type": "cross_palace_trace",
+        "value": "癸",
+        "rule": "CAP-09 value_trace (field values, never array positions)",
+        "members": [
+          "E013",
+          "E026",
+          "E060"
+        ]
+      },
+      {
+        "id": "R045",
+        "type": "opposition",
+        "value": [
+          1,
+          4
+        ],
+        "rule": "frozen_tables.opposition_pairs",
+        "members": [
+          "E004",
+          "E025"
+        ]
+      },
+      {
+        "id": "R047",
+        "type": "lodging_edge",
+        "value": "庚",
+        "rule": "centre stem re-appears as 寄X in the host palace",
+        "members": [
+          "E032",
+          "E029"
+        ]
+      }
+    ]
+  },
+  "condition_register_in_scope": [
+    {
+      "id": "E061",
+      "value": "天壬 phase=帝旺 branch=子",
+      "path": "palaces.kan_1.interpretations[0].condition",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      }
+    },
+    {
+      "id": "E062",
+      "value": "地丁 phase=绝 branch=子",
+      "path": "palaces.kan_1.interpretations[1].condition",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      }
+    },
+    {
+      "id": "E063",
+      "value": "暗乙 phase=病 branch=子",
+      "path": "palaces.kan_1.interpretations[2].condition",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      }
+    },
+    {
+      "id": "E064",
+      "value": "天盘干:壬加丁『干合蛇刑』",
+      "path": "palaces.kan_1.interpretations[3].condition",
+      "verification": null
+    },
+    {
+      "id": "E065",
+      "value": "暗干干:乙加丁『奇仪相佐』",
+      "path": "palaces.kan_1.interpretations[4].condition",
+      "verification": null
+    },
+    {
+      "id": "E066",
+      "value": "奇仪相合",
+      "path": "palaces.kan_1.interpretations[5].condition",
+      "verification": null
+    },
+    {
+      "id": "E067",
+      "value": "门迫宫",
+      "path": "palaces.kan_1.interpretations[6].condition",
+      "verification": null
+    },
+    {
+      "id": "E083",
+      "value": "天癸 phase=养/胎 branch=辰",
+      "path": "palaces.xun_4.interpretations[0].condition",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      }
+    },
+    {
+      "id": "E084",
+      "value": "寄庚 phase=养/长生 branch=辰",
+      "path": "palaces.xun_4.interpretations[1].condition",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      }
+    },
+    {
+      "id": "E085",
+      "value": "地辛 phase=墓/死 branch=辰",
+      "path": "palaces.xun_4.interpretations[2].condition",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      }
+    },
+    {
+      "id": "E086",
+      "value": "暗丙 phase=冠带/临官 branch=辰",
+      "path": "palaces.xun_4.interpretations[3].condition",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      }
+    },
+    {
+      "id": "E087",
+      "value": "天盘干:癸加辛『网盖天牢』",
+      "path": "palaces.xun_4.interpretations[4].condition",
+      "verification": null
+    },
+    {
+      "id": "E088",
+      "value": "寄宫干:庚加辛『太白重锋』",
+      "path": "palaces.xun_4.interpretations[5].condition",
+      "verification": null
+    },
+    {
+      "id": "E089",
+      "value": "暗干干:丙加辛『日月相会』",
+      "path": "palaces.xun_4.interpretations[6].condition",
+      "verification": null
+    },
+    {
+      "id": "E090",
+      "value": "宫生门",
+      "path": "palaces.xun_4.interpretations[7].condition",
+      "verification": null
+    },
+    {
+      "id": "E091",
+      "value": "六仪击刑",
+      "path": "palaces.xun_4.interpretations[8].condition",
+      "verification": null
+    },
+    {
+      "id": "E092",
+      "value": "星入墓",
+      "path": "palaces.xun_4.interpretations[9].condition",
+      "verification": null
+    },
+    {
+      "id": "E093",
+      "value": "暗干干:庚加庚『太白同宫』",
+      "path": "palaces.center_5.interpretations[0].condition",
+      "verification": null
+    }
+  ],
+  "pillar_register": [
+    {
+      "id": "R030",
+      "type": "triad_family",
+      "palace": [
+        2
+      ],
+      "detail": "hai_mao_wei"
+    },
+    {
+      "id": "R031",
+      "type": "triad_family",
+      "palace": [
+        3
+      ],
+      "detail": "hai_mao_wei"
+    },
+    {
+      "id": "R032",
+      "type": "branch_chong",
+      "palace": [
+        4
+      ],
+      "detail": "巳"
+    },
+    {
+      "id": "R033",
+      "type": "branch_liuhe",
+      "palace": [
+        6
+      ],
+      "detail": "亥"
+    },
+    {
+      "id": "R034",
+      "type": "triad_family",
+      "palace": [
+        6
+      ],
+      "detail": "hai_mao_wei"
+    },
+    {
+      "id": "R035",
+      "type": "branch_liuhe",
+      "palace": [
+        8
+      ],
+      "detail": "寅"
+    }
+  ],
+  "all_atoms": {
+    "E": 117,
+    "R": 49
+  },
+  "digest_blocks": {
+    "1": {
+      "palace": 1,
+      "in_scope_ids": 21,
+      "inlined": 21,
+      "chars": 1848,
+      "truncated": false,
+      "lines": [
+        "E001 | structural/deity | 腾蛇 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E002 | structural/door | 生门 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "E003 | structural/star | 天冲 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E004 | structural/palace_root | 坎1宫 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E005 | structural/heaven_stem | 壬 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "E006 | structural/earth_stem | 丁 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "E007 | structural/hidden_stem | 乙 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E061 | condition/cond | 天壬 phase=帝旺 branch=子 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E062 | condition/cond | 地丁 phase=绝 branch=子 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E063 | condition/cond | 暗乙 phase=病 branch=子 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E064 | condition/cond | 天盘干:壬加丁『干合蛇刑』 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E065 | condition/cond | 暗干干:乙加丁『奇仪相佐』 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "E066 | condition/cond | 奇仪相合 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E067 | condition/cond | 门迫宫 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R001 | board_internal/gate_palace | 门迫宫 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R009 | board_internal/stem_pair_explicit | 壬丁 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R010 | board_internal/hidden_pair_explicit | 乙加丁 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R036 | board_internal/cross_palace_trace | 乙 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R038 | board_internal/cross_palace_trace | 丁 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R043 | board_internal/cross_palace_trace | 壬 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R045 | board_internal/opposition | [1, 4] | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED"
+      ]
+    },
+    "2": {
+      "palace": 2,
+      "in_scope_ids": 23,
+      "inlined": 23,
+      "chars": 2162,
+      "truncated": false,
+      "lines": [
+        "E008 | structural/deity | 白虎 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E009 | structural/door | 惊门 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E010 | structural/star | 天心 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E011 | structural/palace_root | 坤2宫 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E012 | structural/heaven_stem | 己 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E013 | structural/earth_stem | 癸 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E014 | structural/hidden_stem | 戊 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E068 | condition/cond | 天己 phase=冠带/沐浴 branch=未 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E069 | condition/cond | 地癸 phase=墓/死 branch=未 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E070 | condition/cond | 暗戊 phase=衰/病 branch=未 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E071 | condition/cond | 天盘干:己加癸『地刑玄武』 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E072 | condition/cond | 暗干干:戊加癸『青龙华盖』 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E073 | condition/cond | 宫生门 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E074 | condition/cond | 六仪击刑 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R002 | board_internal/gate_palace | 宫生门 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R011 | board_internal/stem_pair_explicit | 己癸 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R012 | board_internal/hidden_pair_explicit | 戊加癸 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R027 | board_internal/liu_yi_xing | 己 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R030 | pillar_relation/triad_family | hai_mao_wei | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R039 | board_internal/cross_palace_trace | 戊 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R040 | board_internal/cross_palace_trace | 己 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R044 | board_internal/cross_palace_trace | 癸 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R048 | board_internal/lodging_candidate | - | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED"
+      ]
+    },
+    "3": {
+      "palace": 3,
+      "in_scope_ids": 22,
+      "inlined": 22,
+      "chars": 2028,
+      "truncated": false,
+      "lines": [
+        "E015 | structural/deity | 九天 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E016 | structural/door | 杜门 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E017 | structural/star | 天英 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E018 | structural/palace_root | 震3宫 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E019 | structural/heaven_stem | 丙 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E020 | structural/earth_stem | 壬 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E021 | structural/hidden_stem | 辛 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E075 | condition/cond | 天丙 phase=沐浴 branch=卯 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E076 | condition/cond | 地壬 phase=死 branch=卯 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E077 | condition/cond | 暗辛 phase=绝 branch=卯 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E078 | condition/cond | 天盘干:丙加壬『火入天罗』 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E079 | condition/cond | 暗干干:辛加壬『凶蛇入狱』 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E080 | condition/cond | 三奇升殿 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E081 | condition/cond | 三奇得使 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E082 | condition/cond | 三奇受制 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R003 | board_internal/gate_palace | 比和 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R013 | board_internal/stem_pair_explicit | 丙壬 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R014 | board_internal/hidden_pair_explicit | 辛加壬 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R031 | pillar_relation/triad_family | hai_mao_wei | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R037 | board_internal/cross_palace_trace | 丙 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R042 | board_internal/cross_palace_trace | 辛 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R043 | board_internal/cross_palace_trace | 壬 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED"
+      ]
+    },
+    "4": {
+      "palace": 4,
+      "in_scope_ids": 31,
+      "inlined": 31,
+      "chars": 2769,
+      "truncated": false,
+      "lines": [
+        "E022 | structural/deity | 九地 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E023 | structural/door | 景门 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "E024 | structural/star | 天芮 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "E025 | structural/palace_root | 巽4宫 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "E026 | structural/heaven_stem | 癸 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "E027 | structural/earth_stem | 辛 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "E028 | structural/hidden_stem | 丙 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "E029 | structural/lodged_stem | 庚 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "E083 | condition/cond | 天癸 phase=养/胎 branch=辰 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E084 | condition/cond | 寄庚 phase=养/长生 branch=辰 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E085 | condition/cond | 地辛 phase=墓/死 branch=辰 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E086 | condition/cond | 暗丙 phase=冠带/临官 branch=辰 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E087 | condition/cond | 天盘干:癸加辛『网盖天牢』 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E088 | condition/cond | 寄宫干:庚加辛『太白重锋』 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "E089 | condition/cond | 暗干干:丙加辛『日月相会』 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "E090 | condition/cond | 宫生门 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E091 | condition/cond | 六仪击刑 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E092 | condition/cond | 星入墓 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R004 | board_internal/gate_palace | 宫生门 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R015 | board_internal/stem_pair_explicit | 癸辛 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R016 | board_internal/hidden_pair_explicit | 庚加辛 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R017 | board_internal/hidden_pair_explicit | 丙加辛 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R028 | board_internal/liu_yi_xing | 癸 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R029 | board_internal/star_tomb | 天芮 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R032 | pillar_relation/branch_chong | 巳 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R037 | board_internal/cross_palace_trace | 丙 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R041 | board_internal/cross_palace_trace | 庚 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R042 | board_internal/cross_palace_trace | 辛 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R044 | board_internal/cross_palace_trace | 癸 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R045 | board_internal/opposition | [1, 4] | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R047 | board_internal/lodging_edge | 庚 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED"
+      ]
+    },
+    "5": {
+      "palace": 5,
+      "in_scope_ids": 7,
+      "inlined": 7,
+      "chars": 622,
+      "truncated": false,
+      "lines": [
+        "E030 | structural/star | 天禽 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E031 | structural/palace_root | 中5宫 | explicit_chart | PRIMARY_ELIGIBLE | ADDRESSED",
+        "E032 | structural/earth_stem | 庚 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "E093 | condition/cond | 暗干干:庚加庚『太白同宫』 | explicit_chart | PRIMARY_ELIGIBLE | CORROBORATED",
+        "R018 | board_internal/hidden_pair_explicit | 庚加庚 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R041 | board_internal/cross_palace_trace | 庚 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R047 | board_internal/lodging_edge | 庚 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED"
+      ]
+    },
+    "6": {
+      "palace": 6,
+      "in_scope_ids": 22,
+      "inlined": 22,
+      "chars": 2073,
+      "truncated": false,
+      "lines": [
+        "E033 | structural/deity | 太阴 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E034 | structural/door | 休门 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E035 | structural/star | 天任 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E036 | structural/palace_root | 乾6宫 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E037 | structural/heaven_stem | 乙 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E038 | structural/earth_stem | 己 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E039 | structural/hidden_stem | 丁 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E094 | condition/cond | 天乙 phase=墓/死 branch=戌 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E095 | condition/cond | 地己 phase=养/胎 branch=戌 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E096 | condition/cond | 暗丁 phase=养/胎 branch=戌 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E097 | condition/cond | 天盘干:乙加己『日奇入墓』 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E098 | condition/cond | 暗干干:丁加己『火入勾陈』 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E099 | condition/cond | 宫生门 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R005 | board_internal/gate_palace | 宫生门 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R019 | board_internal/stem_pair_explicit | 乙己 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R020 | board_internal/hidden_pair_explicit | 丁加己 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R033 | pillar_relation/branch_liuhe | 亥 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R034 | pillar_relation/triad_family | hai_mao_wei | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R036 | board_internal/cross_palace_trace | 乙 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R038 | board_internal/cross_palace_trace | 丁 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R040 | board_internal/cross_palace_trace | 己 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R046 | board_internal/opposition | [6, 9] | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED"
+      ]
+    },
+    "7": {
+      "palace": 7,
+      "in_scope_ids": 19,
+      "inlined": 19,
+      "chars": 1765,
+      "truncated": false,
+      "lines": [
+        "E040 | structural/deity | 六合 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E041 | structural/door | 开门 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E042 | structural/star | 天蓬 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E043 | structural/palace_root | 兑7宫 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E044 | structural/heaven_stem | 丁 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E045 | structural/earth_stem | 戊 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E046 | structural/hidden_stem | 己 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E100 | condition/cond | 天丁 phase=长生 branch=酉 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E101 | condition/cond | 地戊 phase=死 branch=酉 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E102 | condition/cond | 暗己 phase=长生 branch=酉 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E103 | condition/cond | 天盘干:丁加戊『青龙耀明』 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E104 | condition/cond | 暗干干:己加戊『犬遇青龙』 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E105 | condition/cond | 三奇升殿 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R006 | board_internal/gate_palace | 比和 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R021 | board_internal/stem_pair_explicit | 丁戊 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R022 | board_internal/hidden_pair_explicit | 己加戊 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R038 | board_internal/cross_palace_trace | 丁 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R039 | board_internal/cross_palace_trace | 戊 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R040 | board_internal/cross_palace_trace | 己 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED"
+      ]
+    },
+    "8": {
+      "palace": 8,
+      "in_scope_ids": 21,
+      "inlined": 21,
+      "chars": 1964,
+      "truncated": false,
+      "lines": [
+        "E047 | structural/deity | 值符 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E048 | structural/door | 伤门 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E049 | structural/star | 天辅 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E050 | structural/palace_root | 艮8宫 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E051 | structural/heaven_stem | 辛 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E052 | structural/earth_stem | 乙 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E053 | structural/hidden_stem | 壬 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E106 | condition/cond | 天辛 phase=养/胎 branch=丑 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E107 | condition/cond | 地乙 phase=衰/帝旺 branch=丑 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E108 | condition/cond | 暗壬 phase=衰/病 branch=丑 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E109 | condition/cond | 天盘干:辛加乙『白虎猖狂』 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E110 | condition/cond | 暗干干:壬加乙『小蛇得势』 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E111 | condition/cond | 门迫宫 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R007 | board_internal/gate_palace | 门迫宫 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R023 | board_internal/stem_pair_explicit | 辛乙 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R024 | board_internal/hidden_pair_explicit | 壬加乙 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R035 | pillar_relation/branch_liuhe | 寅 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R036 | board_internal/cross_palace_trace | 乙 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R042 | board_internal/cross_palace_trace | 辛 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R043 | board_internal/cross_palace_trace | 壬 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R049 | board_internal/lodging_candidate | - | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED"
+      ]
+    },
+    "9": {
+      "palace": 9,
+      "in_scope_ids": 20,
+      "inlined": 20,
+      "chars": 1862,
+      "truncated": false,
+      "lines": [
+        "E054 | structural/deity | 玄武 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E055 | structural/door | 死门 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E056 | structural/star | 天柱 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E057 | structural/palace_root | 离9宫 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E058 | structural/heaven_stem | 戊 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E059 | structural/earth_stem | 丙 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E060 | structural/hidden_stem | 癸 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E112 | condition/cond | 天戊 phase=帝旺 branch=午 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E113 | condition/cond | 地丙 phase=帝旺 branch=午 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E114 | condition/cond | 暗癸 phase=绝 branch=午 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E115 | condition/cond | 天盘干:戊加丙『青龙转光』 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "E116 | condition/cond | 暗干干:癸加丙『华盖悖师』 | explicit_chart | CONTRADICTION_VISIBLE | CORROBORATED",
+        "E117 | condition/cond | 宫生门 | explicit_chart | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R008 | board_internal/gate_palace | 宫生门 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R025 | board_internal/stem_pair_explicit | 戊丙 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R026 | board_internal/hidden_pair_explicit | 癸加丙 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R037 | board_internal/cross_palace_trace | 丙 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R039 | board_internal/cross_palace_trace | 戊 | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED",
+        "R044 | board_internal/cross_palace_trace | 癸 | computed_structure | PRIMARY_ELIGIBLE | ADDRESSED",
+        "R046 | board_internal/opposition | [6, 9] | computed_structure | CONTRADICTION_VISIBLE | ADDRESSED"
+      ]
+    }
+  },
+  "scope_completeness": {
+    "blocks": 9,
+    "truncated_blocks": [],
+    "rule": "contradiction evidence stays visible even when its palace is out of ranking scope (law 28)"
+  }
+}

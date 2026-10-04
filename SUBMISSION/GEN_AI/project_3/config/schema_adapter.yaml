@@ -1,0 +1,71 @@
+# schema_adapter — CAP-03 bindings for the ingested chart. Variants are tried in order.
+# Binding is by VOCABULARY CLASS, never by array position (law 11).
+adapter_version: SA-1.0
+
+variants:
+  - id: qmdj_yidun_luncang_v1
+    confidence: 1.00
+    match_rule:
+      requires_top_level_keys: [chart_info, palaces]
+      requires_chart_info_keys: [system, method, type, ganzhi, zhi_fu, zhi_shi, solar_term]
+      palace_key_style: '^(kan|kun|zhen|xun|center|qian|dui|gen|li)_([1-9])$'
+      requires_palace_keys: [palace_name, palace_elements, interpretations]
+    role_map:
+      pillars:            {path: chart_info.ganzhi, type: composite_pillar_set, cap: CAP-05}
+      layout:             {path: chart_info.type, type: string, cap: CAP-02}
+      zhi_fu:             {path: chart_info.zhi_fu, type: composite_non_pillar, cap: CAP-07}
+      zhi_shi:            {path: chart_info.zhi_shi, type: composite_non_pillar, cap: CAP-07}
+      solar_term:         {path: chart_info.solar_term, type: composite_non_pillar, cap: CAP-07}
+      palaces_root:       {palace_elements: PALACE_TOKEN, type: luoshu_identity, cap: CAP-08}
+      deity:              {palace_elements: DEITY_TOKEN, type: vocabulary, cap: CAP-02}
+      door:               {palace_elements: DOOR_TOKEN, type: vocabulary, cap: CAP-02}
+      star:               {palace_elements: STAR_TOKEN, type: vocabulary, cap: CAP-02}
+      heaven_stem:        {palace_elements: HEAVEN_STEM_TOKEN, type: stem, cap: CAP-06}
+      earth_stem:         {palace_elements: EARTH_STEM_TOKEN, type: stem, cap: CAP-06}
+      hidden_stem:        {interpretations.condition: HIDDEN_STEM_PREFIX, type: stem, cap: CAP-07}
+      lodged_stem:        {interpretations.condition: LODGED_STEM_PREFIX, type: stem, cap: CAP-07}
+      phase_conditions:   {interpretations.condition: PHASE_PATTERN, type: composite_non_pillar, cap: CAP-07}
+      pattern_markers:    {interpretations.condition: PATTERN_MARKER, type: composite_non_pillar, cap: CAP-07}
+      void:               {state: UNRESOLVED, reason: no void field in source}
+      horse:              {state: UNRESOLVED, reason: no horse field in source}
+      board:              {state: UNRESOLVED, reason: no board/layout array in source}
+
+vocabulary:
+  DEITY_TOKEN: [值符, 腾蛇, 太阴, 六合, 白虎, 勾陈, 玄武, 朱雀, 九地, 九天]
+  DOOR_TOKEN:  [休门, 生门, 伤门, 杜门, 景门, 死门, 惊门, 开门]
+  STAR_TOKEN:  [天蓬, 天任, 天冲, 天辅, 天禽, 天心, 天柱, 天芮, 天英]
+  PALACE_TOKEN: '^[坎坤震巽中乾兑艮离][1-9]宫$'
+  HEAVEN_STEM_TOKEN: '^天盘[甲乙丙丁戊己庚辛壬癸]$'
+  EARTH_STEM_TOKEN:  '^地盘[甲乙丙丁戊己庚辛壬癸]$'
+  HIDDEN_STEM_PREFIX: '^暗[甲乙丙丁戊己庚辛壬癸]'
+  LODGED_STEM_PREFIX: '^寄[甲乙丙丁戊己庚辛壬癸]'
+  PHASE_PATTERN:      '处于'
+  PATTERN_MARKER:     '(形成|格局|奇|刑|迫|佐|合)'
+
+# CAP-07 typing rules for any non-pillar composite string
+composite_split:
+  pillar_separators: [' ', '-']
+  stem_加_rule: '^(天盘干|暗干干|寄宫干|地盘干)\s*([甲乙丙丁戊己庚辛壬癸])加([甲乙丙丁戊己庚辛壬癸])\s*形成『(.+)』$'
+  atom_types: [subject, relation, target, qualifier]
+  on_failure: UNPARSEABLE_FOR_WHOLE_VALUE
+
+# Where a caller must not read: nothing in this source is instruction-bearing, but law 49 still
+# applies — any instruction-like string inside a value is tagged DATA and never obeyed.
+data_tagging: {instruction_like_values: tagged_data_never_obeyed}
+
+# case_context ingest forms (charter <case_context_ingest>): the two recognized shapes
+case_context_ingest:
+  accept_formats: [YAML, JSON, free_prose]
+  flat_schema:                          # charter default: casting_reason/question/known_facts/unknowns...
+    status: CONTEXT_MAPPED
+    row_tag: DIRECT
+  document_shape:                       # recognized structured form for assignment documents
+    matched_when_top_level_keys: [document]
+    required_document_keys: [title, url, source_format, metadata, sections]
+    allowed_section_keys: [heading, level, content, items, note, subsections, table]
+    status: CONTEXT_MAPPED_DOCUMENT_SHAPE
+    row_tag: DECOMPOSED                 # derived rows may direct relevance, never enter CONK/UNK at full authority
+    conk_sources:                       # rows promoted to CONK only where the source states them verbatim
+      - document.metadata.prerequisites
+      - document.metadata.traceability_requirement
+    never_inferred: [domain, timeframe_of_interest, decision_needed, subject]

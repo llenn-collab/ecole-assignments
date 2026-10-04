@@ -1,0 +1,386 @@
+{
+  "cmap_rows": [
+    "CMAP|C001|Q03|DIRECT|E064,E065,E066,R009",
+    "CMAP|C001|Q02|INDIRECT|E064,E065,E066,R009",
+    "CMAP|C002|Q03|DIRECT|E001,E002,E003,R001",
+    "CMAP|C003|Q03|DIRECT|E023,E022,R009,E066",
+    "CMAP|C003|Q06|INDIRECT|E023,E022,R009,E066",
+    "CMAP|C004|Q04|DIRECT|E002,E022,E024,R029",
+    "CMAP|C004|Q04|NO_CHART_SUPPORT|NONE",
+    "CMAP|C004|Q04|NO_CHART_SUPPORT|NONE",
+    "CMAP|C005|Q04|DIRECT|E022,E023,R004,E090",
+    "CMAP|C006|Q04|DIRECT|R045,R001,E067,R004",
+    "CMAP|C006|Q03|INDIRECT|R045,R001,E067,R004",
+    "CMAP|C007|Q05|DIRECT|R001,E067,R004,E090",
+    "CMAP|C007|Q06|INDIRECT|R001,E067,R004,E090",
+    "CMAP|C007|Q08|INDIRECT|R001,E067,R004,E090",
+    "CMAP|C008|Q05|DIRECT|E023,E022,E024,R029",
+    "CMAP|C009|Q05|DIRECT|E022,E023,R004,E025",
+    "CMAP|C010|Q05|DIRECT|E022,E092,E023,E001",
+    "CMAP|C010|Q08|INDIRECT|E022,E092,E023,E001",
+    "CMAP|C011|Q05|DIRECT|E083,E084,E086,E061",
+    "CMAP|C011|Q07|INDIRECT|E083,E084,E086,E061",
+    "CMAP|C012|Q05|DIRECT|R028,E091,R029,E092",
+    "CMAP|C012|Q08|INDIRECT|R028,E091,R029,E092",
+    "CMAP|C013|Q03|CONTRADICTS_KNOWN|NONE",
+    "CMAP|C013|Q06|CONTRADICTS_KNOWN|NONE"
+  ],
+  "row_detail": [
+    {
+      "line": "CMAP|C001|Q03|DIRECT|E064,E065,E066,R009",
+      "claim_id": "C001",
+      "q": "Q03",
+      "tag": "DIRECT",
+      "citations": "E064,E065,E066,R009",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C001|Q02|INDIRECT|E064,E065,E066,R009",
+      "claim_id": "C001",
+      "q": "Q02",
+      "tag": "INDIRECT",
+      "citations": "E064,E065,E066,R009",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C002|Q03|DIRECT|E001,E002,E003,R001",
+      "claim_id": "C002",
+      "q": "Q03",
+      "tag": "DIRECT",
+      "citations": "E001,E002,E003,R001",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C003|Q03|DIRECT|E023,E022,R009,E066",
+      "claim_id": "C003",
+      "q": "Q03",
+      "tag": "DIRECT",
+      "citations": "E023,E022,R009,E066",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C003|Q06|INDIRECT|E023,E022,R009,E066",
+      "claim_id": "C003",
+      "q": "Q06",
+      "tag": "INDIRECT",
+      "citations": "E023,E022,R009,E066",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C004|Q04|DIRECT|E002,E022,E024,R029",
+      "claim_id": "C004",
+      "q": "Q04",
+      "tag": "DIRECT",
+      "citations": "E002,E022,E024,R029",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C004|Q04|NO_CHART_SUPPORT|NONE",
+      "claim_id": "C004",
+      "q": "Q04",
+      "tag": "NO_CHART_SUPPORT",
+      "citations": "NONE",
+      "facet": "format",
+      "note": "format/variants/size are Assignment-1 facts",
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C004|Q04|NO_CHART_SUPPORT|NONE",
+      "claim_id": "C004",
+      "q": "Q04",
+      "tag": "NO_CHART_SUPPORT",
+      "citations": "NONE",
+      "facet": "price",
+      "note": "price band is an Assignment-1 competitor-scan fact",
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C005|Q04|DIRECT|E022,E023,R004,E090",
+      "claim_id": "C005",
+      "q": "Q04",
+      "tag": "DIRECT",
+      "citations": "E022,E023,R004,E090",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C006|Q04|DIRECT|R045,R001,E067,R004",
+      "claim_id": "C006",
+      "q": "Q04",
+      "tag": "DIRECT",
+      "citations": "R045,R001,E067,R004",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C006|Q03|INDIRECT|R045,R001,E067,R004",
+      "claim_id": "C006",
+      "q": "Q03",
+      "tag": "INDIRECT",
+      "citations": "R045,R001,E067,R004",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C007|Q05|DIRECT|R001,E067,R004,E090",
+      "claim_id": "C007",
+      "q": "Q05",
+      "tag": "DIRECT",
+      "citations": "R001,E067,R004,E090",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C007|Q06|INDIRECT|R001,E067,R004,E090",
+      "claim_id": "C007",
+      "q": "Q06",
+      "tag": "INDIRECT",
+      "citations": "R001,E067,R004,E090",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C007|Q08|INDIRECT|R001,E067,R004,E090",
+      "claim_id": "C007",
+      "q": "Q08",
+      "tag": "INDIRECT",
+      "citations": "R001,E067,R004,E090",
+      "facet": "internal_consistency",
+      "note": "the big idea is what makes the three briefs read as one brand",
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C008|Q05|DIRECT|E023,E022,E024,R029",
+      "claim_id": "C008",
+      "q": "Q05",
+      "tag": "DIRECT",
+      "citations": "E023,E022,E024,R029",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C009|Q05|DIRECT|E022,E023,R004,E025",
+      "claim_id": "C009",
+      "q": "Q05",
+      "tag": "DIRECT",
+      "citations": "E022,E023,R004,E025",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C010|Q05|DIRECT|E022,E092,E023,E001",
+      "claim_id": "C010",
+      "q": "Q05",
+      "tag": "DIRECT",
+      "citations": "E022,E092,E023,E001",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C010|Q08|INDIRECT|E022,E092,E023,E001",
+      "claim_id": "C010",
+      "q": "Q08",
+      "tag": "INDIRECT",
+      "citations": "E022,E092,E023,E001",
+      "facet": "specificity",
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C011|Q05|DIRECT|E083,E084,E086,E061",
+      "claim_id": "C011",
+      "q": "Q05",
+      "tag": "DIRECT",
+      "citations": "E083,E084,E086,E061",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C011|Q07|INDIRECT|E083,E084,E086,E061",
+      "claim_id": "C011",
+      "q": "Q07",
+      "tag": "INDIRECT",
+      "citations": "E083,E084,E086,E061",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C012|Q05|DIRECT|R028,E091,R029,E092",
+      "claim_id": "C012",
+      "q": "Q05",
+      "tag": "DIRECT",
+      "citations": "R028,E091,R029,E092",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C012|Q08|INDIRECT|R028,E091,R029,E092",
+      "claim_id": "C012",
+      "q": "Q08",
+      "tag": "INDIRECT",
+      "citations": "R028,E091,R029,E092",
+      "facet": "production_realism",
+      "note": "the staged path is the production-realism contribution; the judgement itself is case-side",
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C013|Q03|CONTRADICTS_KNOWN|NONE",
+      "claim_id": "C013",
+      "q": "Q03",
+      "tag": "CONTRADICTS_KNOWN",
+      "citations": "NONE",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    },
+    {
+      "line": "CMAP|C013|Q06|CONTRADICTS_KNOWN|NONE",
+      "claim_id": "C013",
+      "q": "Q06",
+      "tag": "CONTRADICTS_KNOWN",
+      "citations": "NONE",
+      "facet": null,
+      "note": null,
+      "grammar_ok": true
+    }
+  ],
+  "facet_coverage": {
+    "Q01": {
+      "claims": [],
+      "tags": {
+        "DIRECT": 0,
+        "INDIRECT": 0,
+        "NO_CHART_SUPPORT": 0,
+        "CONTRADICTS_KNOWN": 0
+      },
+      "deferred": true,
+      "reason": "framing facet; its binding content (traceability) is enforced as CONK004 in every claim's validation_path, so no decision depends on analysing it as a separate facet",
+      "gap_row": "GAP-009"
+    },
+    "Q02": {
+      "claims": [
+        "C001"
+      ],
+      "tags": {
+        "DIRECT": 0,
+        "INDIRECT": 1,
+        "NO_CHART_SUPPORT": 0,
+        "CONTRADICTS_KNOWN": 0
+      }
+    },
+    "Q03": {
+      "claims": [
+        "C001",
+        "C002",
+        "C003",
+        "C006",
+        "C013"
+      ],
+      "tags": {
+        "DIRECT": 3,
+        "INDIRECT": 1,
+        "NO_CHART_SUPPORT": 0,
+        "CONTRADICTS_KNOWN": 1
+      }
+    },
+    "Q04": {
+      "claims": [
+        "C004",
+        "C005",
+        "C006"
+      ],
+      "tags": {
+        "DIRECT": 3,
+        "INDIRECT": 0,
+        "NO_CHART_SUPPORT": 2,
+        "CONTRADICTS_KNOWN": 0
+      }
+    },
+    "Q05": {
+      "claims": [
+        "C007",
+        "C008",
+        "C009",
+        "C010",
+        "C011",
+        "C012"
+      ],
+      "tags": {
+        "DIRECT": 6,
+        "INDIRECT": 0,
+        "NO_CHART_SUPPORT": 0,
+        "CONTRADICTS_KNOWN": 0
+      }
+    },
+    "Q06": {
+      "claims": [
+        "C003",
+        "C007",
+        "C013"
+      ],
+      "tags": {
+        "DIRECT": 0,
+        "INDIRECT": 2,
+        "NO_CHART_SUPPORT": 0,
+        "CONTRADICTS_KNOWN": 1
+      }
+    },
+    "Q07": {
+      "claims": [
+        "C011"
+      ],
+      "tags": {
+        "DIRECT": 0,
+        "INDIRECT": 1,
+        "NO_CHART_SUPPORT": 0,
+        "CONTRADICTS_KNOWN": 0
+      }
+    },
+    "Q08": {
+      "claims": [
+        "C007",
+        "C010",
+        "C012"
+      ],
+      "tags": {
+        "DIRECT": 0,
+        "INDIRECT": 3,
+        "NO_CHART_SUPPORT": 0,
+        "CONTRADICTS_KNOWN": 0
+      }
+    }
+  },
+  "tag_tally": {
+    "DIRECT": 12,
+    "INDIRECT": 8,
+    "NO_CHART_SUPPORT": 2,
+    "CONTRADICTS_KNOWN": 2
+  },
+  "deferred_facets": [
+    "Q01"
+  ],
+  "rule": "all four tags are tallied including zeros (cc6); a Qn with zero DIRECT and zero INDIRECT rows is an uncovered facet unless declared deferred"
+}

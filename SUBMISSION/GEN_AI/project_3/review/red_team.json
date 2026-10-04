@@ -1,0 +1,146 @@
+{
+  "red_team": [
+    {
+      "id": "A011",
+      "criticizes": "C001",
+      "kind": "alternative",
+      "status": "live",
+      "finding": "quiet_craft_discipline remains legal: 九地 + star-in-tomb read as craft discipline rather than guarded alliance. Distinguishing test: does the brand's public voice withhold generosity, or slow it down?"
+    },
+    {
+      "id": "A012",
+      "criticizes": "C001",
+      "kind": "rebut",
+      "status": "rebutted",
+      "finding": "Rebutting C001 with centre contention (R018) fails: the centre's contention is intra-centre and its stem lands in the display palace (R047), which supports rather than refutes the alliance reading."
+    },
+    {
+      "id": "A013",
+      "criticizes": "C003",
+      "kind": "alternative",
+      "status": "live",
+      "finding": "visible_authority (explicit rise-to-throne markers at palaces 3 and 7) is a legal contrast direction. It stays live because palace 7's marker is computed-confirmed while palace 3's is EXPLICIT_UNCONFIRMED."
+    },
+    {
+      "id": "A014",
+      "criticizes": "C005",
+      "kind": "alternative",
+      "status": "live",
+      "finding": "muted_shell_over_active_core is legal and cheaper to produce than a staged reveal; the difference is only whether the second state is staged or simultaneous."
+    },
+    {
+      "id": "A015",
+      "criticizes": "C007",
+      "kind": "rebut",
+      "status": "rebutted",
+      "finding": "Rebutting C007 as 'the system is in control' fails: the command axis carries gate pressure and breakage markers, so no control claim survives."
+    },
+    {
+      "id": "A016",
+      "criticizes": "C010",
+      "kind": "alternative",
+      "status": "live",
+      "finding": "product_only is legal and arguably stronger (star-in-tomb). hands_only survives because the impulse star keeps movement in frame; the two differ in whether a human trace is present at all."
+    },
+    {
+      "id": "A017",
+      "criticizes": "C011",
+      "kind": "alternative",
+      "status": "live",
+      "finding": "context_first_then_core is legal. The ordering claim is the weakest live claim in the set; it should be presented to the producer as a preference with its phase citation, not as a finding."
+    },
+    {
+      "id": "A018",
+      "criticizes": "C012",
+      "kind": "alternative",
+      "status": "live",
+      "finding": "ai_led_human_gated is legal: the board's leading star is the tool/learning star. It survives only if a human gate is placed exactly at the instrument/punishment layer."
+    },
+    {
+      "id": "A019",
+      "criticizes": "C004",
+      "kind": "rebut",
+      "status": "rebutted",
+      "finding": "Rebutting C004 with the circulating bright value (R037) fails: a circulating value is not a product format, and the product format is NO_CHART_SUPPORT regardless."
+    },
+    {
+      "id": "A020",
+      "criticizes": "C013",
+      "kind": "alternative",
+      "status": "rebutted",
+      "finding": "The rejected claim cannot be re-argued by adding chart support: the traceability requirement is a hard case constraint, and a chart-selected name fails it by construction."
+    },
+    {
+      "id": "A021",
+      "criticizes": "C002",
+      "kind": "alternative",
+      "status": "live",
+      "finding": "cool_withholding is legal and only differs by degree of warmth; distinguishing test: does a sample line give a reason before an instruction?"
+    },
+    {
+      "id": "A022",
+      "criticizes": "C006",
+      "kind": "alternative",
+      "status": "live",
+      "finding": "layer_led remains legal: the depth deity plus the stored star would let Brief 2 lead with layering instead of the axis inversion."
+    },
+    {
+      "id": "A023",
+      "criticizes": "C008",
+      "kind": "alternative",
+      "status": "live",
+      "finding": "object_only_ritual_frame is legal and stronger on the stored-star evidence; the two hero directions differ only in whether a human trace appears."
+    },
+    {
+      "id": "A024",
+      "criticizes": "C009",
+      "kind": "alternative",
+      "status": "live",
+      "finding": "threshold_interior is legal: an interior edge keeps the 'act' visible and is cheaper to scout than a sealed studio."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "P001",
+      "from": "C001",
+      "direction": "backward",
+      "rule": "PAT_06_COMPOSITION",
+      "status": "ok"
+    },
+    {
+      "id": "P002",
+      "from": "C005",
+      "direction": "forward",
+      "rule": "PAT_02_PAT_04_JOINT",
+      "status": "ok"
+    },
+    {
+      "id": "P003",
+      "from": "C006",
+      "direction": "backward",
+      "rule": "ELEMENT_GENERATION_AXIS",
+      "status": "ok"
+    },
+    {
+      "id": "P004",
+      "from": "C011",
+      "direction": "forward",
+      "rule": "PHASE_SPLIT_SEQUENCING",
+      "status": "ok"
+    },
+    {
+      "id": "P005",
+      "from": "C012",
+      "direction": "backward",
+      "rule": "DEFECT_POINT_STAGING",
+      "status": "ok"
+    },
+    {
+      "id": "P006",
+      "from": "C013",
+      "direction": "backward",
+      "rule": "TRACEABILITY_HARD_CONSTRAINT",
+      "status": "superseded"
+    }
+  ]
+}

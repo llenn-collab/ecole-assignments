@@ -1,0 +1,76 @@
+{
+  "gap_rows": [
+    {
+      "id": "GAP-001",
+      "path": "PAT-29 空亡 (void)",
+      "why_unaddressed": "the source declares no void field; the class cannot be computed from this adapter",
+      "owner_phase": "P6",
+      "resolution": "declared null class; ABSENT, not a defect (law 27)"
+    },
+    {
+      "id": "GAP-002",
+      "path": "PAT-30 驿马 (horse)",
+      "why_unaddressed": "the source declares no horse marker; the day-pillar triad horse is computable in principle but the chart does not seed the class",
+      "owner_phase": "P6",
+      "resolution": "declared null class; ABSENT"
+    },
+    {
+      "id": "GAP-003",
+      "path": "ARC-13 campaign window",
+      "why_unaddressed": "case context declares no timeframe_of_interest, and none may be inferred (law 40/cc5)",
+      "owner_phase": "Tier2 step 1",
+      "resolution": "class BLOCKED; directive D017 tells the writer to leave the window blank"
+    },
+    {
+      "id": "GAP-004",
+      "path": "explicit marker 三奇升殿 at palace 3",
+      "why_unaddressed": "the chart's own definition places 丙 at palace 9; palace 3 carries 丙 with 壬, so the computed rule does not confirm the printed marker",
+      "owner_phase": "P6 reconciliation",
+      "resolution": "marker retained at authority rank 1 and tagged EXPLICIT_UNCONFIRMED; it is outside the ranked spine so it cannot move a claim"
+    },
+    {
+      "id": "GAP-005",
+      "path": "case_context shape",
+      "why_unaddressed": "the case ships as a document, not the flat case_context schema",
+      "owner_phase": "CAP-17",
+      "resolution": "CONTEXT_MAPPED_DOCUMENT_SHAPE; derived rows tagged DECOMPOSED; CONK rows are verbatim strings only"
+    },
+    {
+      "id": "GAP-006",
+      "path": "domain",
+      "why_unaddressed": "the case states no domain and it may not be inferred",
+      "owner_phase": "CAP-17",
+      "resolution": "domain=other with source NOT_STATED"
+    },
+    {
+      "id": "GAP-007",
+      "path": "board arrangement re-derivation",
+      "why_unaddressed": "the run reads the printed board; it does not re-derive the hourly rotation from the hour pillar",
+      "owner_phase": "Tier-0 (out of contract)",
+      "resolution": "declared verification gap, not an assertion of error; every downstream claim inherits it"
+    },
+    {
+      "id": "GAP-008",
+      "path": "product facts (format, variants, size, price)",
+      "why_unaddressed": "not chart-derivable at all",
+      "owner_phase": "CAP-18",
+      "resolution": "NO_CHART_SUPPORT rows on Q04; Assignment-1 evidence is the only admissible source"
+    },
+    {
+      "id": "GAP-009",
+      "path": "case facet Q01 (Before You Start)",
+      "why_unaddressed": "the case decomposes into 8 facets, over the threshold of 7, so CAP-17 step 4 requires a deferral",
+      "owner_phase": "CAP-17",
+      "resolution": "deferred by declared facet_handling; its binding content is enforced as CONK004 in every claim's validation_path"
+    },
+    {
+      "id": "GAP-010",
+      "path": "palace 3 explicit markers (升殿/得使)",
+      "why_unaddressed": "two of the 32 explicit markers are not confirmed by their computed rules",
+      "owner_phase": "P6 reconciliation",
+      "resolution": "kept visible in the explicit-vs-computed table; no claim depends on them"
+    }
+  ],
+  "count": 10,
+  "policy": "a gap report ships even when tools fail; absence is factual reporting, never support (law 28)"
+}

@@ -1,0 +1,332 @@
+{
+  "status": "CONTEXT_MAPPED_DOCUMENT_SHAPE",
+  "ingest_form": "YAML, Google-Docs-flavoured document shape (schema_adapter.case_context_ingest)",
+  "key_aliases_applied": [
+    {
+      "alias": "document.metadata.prerequisites",
+      "canonical": "known_facts",
+      "rows": 3
+    },
+    {
+      "alias": "document.metadata.traceability_requirement",
+      "canonical": "known_facts",
+      "rows": 1
+    }
+  ],
+  "slots": [
+    {
+      "id": "Q01",
+      "heading": "Before You Start",
+      "level": 2,
+      "content": "This assignment doesn't start from a blank page. It starts from Assignment 1 — your research summary, your insight list, and your Pinterest mood board. Every brief you write here has to trace back to something you already found or decided in that assignment. If a choice in this assignment can't be justified by a specific research finding, a specific insight, or a specific pin on your board, it's a guess dressed up as a decision — and it should be reworked until it isn't. The point of this assignment: in the real world, nobody designs directly from a mood board. Someone writes a brief first — a document precise enough that a photographer, a designer, or an AI tool could pick it up and actually produce the right thing without you standing over their shoulder. You're going to write three of those.",
+      "items": [],
+      "note": null,
+      "subsections": [],
+      "table": null,
+      "tag": "DIRECT_SOURCE"
+    },
+    {
+      "id": "Q02",
+      "heading": "What You're Producing: Three Distinct Briefs",
+      "level": 2,
+      "content": "Not one long document — three separate, focused briefs, each doing a different job:",
+      "items": [
+        "Brand Idea & Philosophy Brief — what this brand believes and stands for",
+        "Product & Packaging Brief — what the actual product is and how it presents itself",
+        "Ad/Campaign Creative Brief — how this brand shows up in a campaign, and what it takes to actually produce that"
+      ],
+      "note": "Think of them as three documents you could hand to three different people — a strategist, a packaging designer, and a director — and each would know exactly what to do.",
+      "subsections": [],
+      "table": null,
+      "tag": "DIRECT_SOURCE"
+    },
+    {
+      "id": "Q03",
+      "heading": "Brief 1 — Brand Idea & Philosophy",
+      "level": 2,
+      "content": null,
+      "items": [],
+      "note": null,
+      "subsections": [
+        {
+          "heading": "Core Idea (1–2 sentences)",
+          "content": "What is this brand, in one breath? Not a tagline — the underlying idea.",
+          "items": [],
+          "note": null
+        },
+        {
+          "heading": "Philosophy / Point of View",
+          "content": "Why does this brand exist? What does it believe that others in the category don't say out loud? This should connect directly to a gap or opportunity from your Assignment 1 research (e.g., \\\"every brand in this category talks about performance — we're the only one that talks about ritual\\\").\"",
+          "items": [],
+          "note": null
+        },
+        {
+          "heading": "Positioning Statement",
+          "content": "For [target audience], [brand] is the [category] that [key differentiator], because [reason to believe]. Pull the audience and differentiator directly from your research — don't invent a new audience here.",
+          "items": [],
+          "note": null
+        },
+        {
+          "heading": "Personality & Tone of Voice",
+          "content": "3–5 personality adjectives, and one example line of how the brand would actually talk (a tagline, a social caption, a packaging line).",
+          "items": [],
+          "note": null
+        },
+        {
+          "heading": "Name Rationale",
+          "content": "If you're naming the brand, explain the reasoning in 2–3 sentences — what it signals, why it fits.",
+          "items": [],
+          "note": null
+        },
+        {
+          "heading": "Logo Direction (not the logo itself — a brief for it)",
+          "content": "What does the logo need to communicate? Reference 2–3 visual styles from your mood board that it should draw from, and explicitly state what it should avoid (e.g., \\\"avoid the clinical, all-lowercase sans-serif look most competitors use\\\").",
+          "items": [],
+          "note": null
+        }
+      ],
+      "table": null,
+      "tag": "DIRECT_SOURCE"
+    },
+    {
+      "id": "Q04",
+      "heading": "Brief 2 — Product & Packaging",
+      "level": 2,
+      "content": null,
+      "items": [],
+      "note": null,
+      "subsections": [
+        {
+          "heading": "Product Definition",
+          "content": "What exactly is the product — format, variants, size options, price positioning (mass/premium/luxury) relative to the competitors you researched.",
+          "items": [],
+          "note": null
+        },
+        {
+          "heading": "Packaging Direction",
+          "content": null,
+          "items": [
+            "Materials and structure (what it's made of, shape, how it opens/closes/is held)",
+            "Color and finish, tied to a specific insight or pin from your mood board",
+            "The one shelf-standout element — what makes this recognizable from three feet away in a crowded shelf/feed"
+          ],
+          "note": null
+        },
+        {
+          "heading": "Functional-to-Emotional Bridge",
+          "content": "One paragraph connecting a functional packaging choice to the emotional positioning from Brief 1 (e.g., \\\"the matte, screw-top cap signals ritual and control, reinforcing the 'daily ritual, not a quick fix' philosophy\\\").",
+          "items": [],
+          "note": null
+        },
+        {
+          "heading": "Shelf/Competitive Differentiation",
+          "content": "Placed next to your 3–5 researched competitors, what makes this package unmistakably different — not just \\\"better,\\\" but different in a specific, describable way.",
+          "items": [],
+          "note": null
+        }
+      ],
+      "table": null,
+      "tag": "DIRECT_SOURCE"
+    },
+    {
+      "id": "Q05",
+      "heading": "Brief 3 — Ad / Campaign Creative Brief",
+      "level": 2,
+      "content": "This is the one that will actually get produced — treat it like a real production document.",
+      "items": [],
+      "note": null,
+      "subsections": [
+        {
+          "heading": "Campaign Concept (The Big Idea)",
+          "content": "One or two sentences. What's the idea the whole campaign hangs on?",
+          "items": [],
+          "note": null
+        },
+        {
+          "heading": "Hero Shot Direction",
+          "content": "Describe the single image that best represents this campaign — composition, what's in frame, what's the focal point, what mood it needs to hit. Be specific enough that someone else could shoot or generate it from your description alone.",
+          "items": [],
+          "note": null
+        },
+        {
+          "heading": "Stage / Environment",
+          "content": "Where does this campaign live, visually? A studio setup, a real location, an abstract/surreal environment? Describe lighting, backdrop, and setting in enough detail to brief a location scout or an AI generation prompt.",
+          "items": [],
+          "note": null
+        },
+        {
+          "heading": "Models / Casting Direction",
+          "content": "Who's in this campaign? Age range, look, styling, energy — tied explicitly back to the target audience you researched in Assignment 1. If the campaign deliberately avoids people (product-only, abstract), state that as a choice and explain why.",
+          "items": [],
+          "note": null
+        },
+        {
+          "heading": "Plan of Action — Creative Direction Sequence",
+          "content": "List the actual assets this campaign needs, in order of priority:",
+          "items": [
+            "Hero image",
+            "2–3 supporting/lifestyle shots",
+            "Detail/product-close-up shots",
+            "Any motion/video requirement"
+          ],
+          "note": "For each, note which mood-board reference(s) it's pulling from."
+        },
+        {
+          "heading": "Production Requirements",
+          "content": "What does it actually take to make this real? Cover both paths and pick the one you're proposing:",
+          "items": [
+            "Traditional production: locations, photographer/videographer, stylist, models, props, post-production",
+            "AI-generated production: which tools you'd use at each stage (reference the standardized image/video workflow from earlier in the course) and where a human would still need to intervene for quality or brand consistency"
+          ],
+          "note": null
+        }
+      ],
+      "table": null,
+      "tag": "DIRECT_SOURCE"
+    },
+    {
+      "id": "Q06",
+      "heading": "Coherence Check (Do This Before Submitting)",
+      "level": 2,
+      "content": "For each of the three briefs, answer in one line: which specific research finding, insight, or mood-board pin does this trace back to? If you can't answer that for a major decision in any brief, go back and fix it — this is the check that keeps the whole assignment from becoming three disconnected documents.",
+      "items": [],
+      "note": null,
+      "subsections": [],
+      "table": null,
+      "tag": "DIRECT_SOURCE"
+    },
+    {
+      "id": "Q07",
+      "heading": "Deliverable & Submission",
+      "level": 2,
+      "content": "Submit all three briefs as one package, clearly labeled, plus the one-line coherence answers above each brief.",
+      "items": [],
+      "note": null,
+      "subsections": [],
+      "table": null,
+      "tag": "DIRECT_SOURCE"
+    },
+    {
+      "id": "Q08",
+      "heading": "Evaluation Criteria",
+      "level": 2,
+      "content": null,
+      "items": [],
+      "note": null,
+      "subsections": [],
+      "table": {
+        "headers": [
+          "Criterion",
+          "What I'm looking for"
+        ],
+        "rows": [
+          [
+            "Traceability",
+            "Every major decision across all three briefs connects to something specific from Assignment 1"
+          ],
+          [
+            "Specificity",
+            "Briefs are precise enough that someone else could execute from them without guessing"
+          ],
+          [
+            "Internal consistency",
+            "The brand philosophy, the packaging, and the campaign all feel like they belong to the same brand"
+          ],
+          [
+            "Production realism",
+            "The production requirements are genuinely achievable, or a genuinely thought-through AI-generation path"
+          ],
+          [
+            "Differentiation",
+            "The direction has a specific point of view — it doesn't read like a generic version of the category leader"
+          ]
+        ]
+      },
+      "tag": "DIRECT_SOURCE"
+    }
+  ],
+  "known_facts_CONK": [
+    {
+      "id": "CONK001",
+      "text": "Assignment 1: research summary",
+      "source_path": "document.metadata.prerequisites",
+      "tag": "EXPLICIT"
+    },
+    {
+      "id": "CONK002",
+      "text": "insight list",
+      "source_path": "document.metadata.prerequisites",
+      "tag": "EXPLICIT"
+    },
+    {
+      "id": "CONK003",
+      "text": "Pinterest mood board",
+      "source_path": "document.metadata.prerequisites",
+      "tag": "EXPLICIT"
+    },
+    {
+      "id": "CONK004",
+      "text": "Every brief must trace back to a specific research finding, insight, or mood-board pin from Assignment 1.",
+      "source_path": "document.metadata.traceability_requirement",
+      "tag": "EXPLICIT"
+    }
+  ],
+  "unknowns_UNK": [],
+  "domain": {
+    "value": "other",
+    "source": "NOT_STATED",
+    "note": "no domain key in source; not inferred (law 40)"
+  },
+  "timeframe_of_interest": {
+    "value": null,
+    "code": "NULL",
+    "note": "no window stated in source"
+  },
+  "subject": {
+    "value": "project",
+    "source": "DERIVED_FROM_SOURCE_SHAPE",
+    "note": "source is an assignment document about a brand/product/campaign deliverable"
+  },
+  "decision_needed": {
+    "value": null,
+    "code": "NULL",
+    "note": "not stated as a key; the binding requirement is CONK row on traceability"
+  },
+  "question_facets": 8,
+  "question_overload": true,
+  "facet_handling": {
+    "overload_condition": "QUESTION_OVERLOAD",
+    "analysed_facets": [
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q07",
+      "Q08"
+    ],
+    "deferred_facets": [
+      {
+        "id": "Q01",
+        "heading": "Before You Start",
+        "reason": "framing facet; its binding content (traceability) is enforced as CONK004 in every claim's validation_path, so no decision depends on analysing it as a separate facet",
+        "owner_phase": "CAP-17",
+        "gap_row": "GAP-009"
+      }
+    ]
+  },
+  "conditions": [
+    {
+      "code": "QUESTION_OVERLOAD",
+      "severity": "declared",
+      "handling": "analysed the 7 most decision-relevant facets; deferred facets listed with owner_phase and a gap row (CAP-17 step 4)"
+    }
+  ],
+  "degradation_note": "document shape does not match the flat case_context schema, so rows are derived (DECOMPOSED): they may direct relevance but may never enter CONK/UNK at full authority; a CONFLICT_WITH_KNOWN test against a DECOMPOSED fact downgrades to POTENTIAL_CONFLICT (charter degradation_rule)",
+  "unmatched_keys": {
+    "top": [],
+    "document": [],
+    "sections": []
+  },
+  "degradation_tag": "document-shaped source: rows derived from the document structure are tagged DECOMPOSED and may direct relevance only; CONK rows are verbatim strings from the source"
+}

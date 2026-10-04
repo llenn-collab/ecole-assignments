@@ -1,0 +1,1607 @@
+{
+  "registry": [
+    {
+      "pattern_id": "PAT-01",
+      "cn": "门迫宫",
+      "family": "gate_vs_palace",
+      "palace": 1,
+      "state": "LIVE_COMPUTED+LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E002",
+        "E067"
+      ],
+      "explicit_marker": "门迫宫",
+      "cycle_trace": "P1 (single-palace)",
+      "limits": "human agency acts against its environment",
+      "source": null,
+      "score": 0.65,
+      "grounding_tier": "explicit_chart",
+      "rank": 3
+    },
+    {
+      "pattern_id": "PAT-05",
+      "cn": "奇仪相合",
+      "family": "stem_combination",
+      "palace": 1,
+      "state": "LIVE_COMPUTED+LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E005",
+        "E006",
+        "E066"
+      ],
+      "explicit_marker": "奇仪相合",
+      "cycle_trace": "P1 (single-palace)",
+      "limits": "heaven and earth stems form a he-combination",
+      "source": null,
+      "score": 0.55,
+      "grounding_tier": "explicit_chart",
+      "rank": 18
+    },
+    {
+      "pattern_id": "PAT-06",
+      "cn": "干合蛇刑",
+      "family": "stem_combination",
+      "palace": 1,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E064"
+      ],
+      "explicit_marker": "天盘干 壬加丁『干合蛇刑』",
+      "cycle_trace": "P1 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.55,
+      "grounding_tier": "explicit_chart",
+      "rank": 19
+    },
+    {
+      "pattern_id": "PAT-07",
+      "cn": "奇仪相佐",
+      "family": "stem_combination",
+      "palace": 1,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E065"
+      ],
+      "explicit_marker": "暗干干 乙加丁『奇仪相佐』",
+      "cycle_trace": "P1 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.55,
+      "grounding_tier": "explicit_chart",
+      "rank": 20
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "family": "three_wonders",
+      "palace": 1,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E006"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P1 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.45,
+      "grounding_tier": "computed_structure",
+      "rank": 33
+    },
+    {
+      "pattern_id": "PAT-14",
+      "cn": "三奇受制",
+      "family": "three_wonders",
+      "palace": 1,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E006"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P1 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.45,
+      "grounding_tier": "computed_structure",
+      "rank": 37
+    },
+    {
+      "pattern_id": "PAT-27",
+      "cn": "干相克",
+      "family": "stem_clash",
+      "palace": 1,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E005",
+        "E006"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P1 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.3,
+      "grounding_tier": "computed_structure",
+      "rank": 50
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "family": "gate_vs_palace",
+      "palace": 2,
+      "state": "LIVE_COMPUTED+LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E009",
+        "E073"
+      ],
+      "explicit_marker": "宫生门",
+      "cycle_trace": "P2 (single-palace)",
+      "limits": "environment feeds the actor",
+      "source": null,
+      "score": 0.6,
+      "grounding_tier": "explicit_chart",
+      "rank": 9
+    },
+    {
+      "pattern_id": "PAT-03",
+      "cn": "六仪击刑",
+      "family": "punishment",
+      "palace": 2,
+      "state": "LIVE_COMPUTED+LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E012",
+        "E074"
+      ],
+      "explicit_marker": "六仪击刑",
+      "cycle_trace": "P2 (single-palace)",
+      "limits": "a 仪 sits in its punishment palace",
+      "source": null,
+      "score": 0.5,
+      "grounding_tier": "explicit_chart",
+      "rank": 27
+    },
+    {
+      "pattern_id": "PAT-08",
+      "cn": "地刑玄武",
+      "family": "concealed_loss",
+      "palace": 2,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E071"
+      ],
+      "explicit_marker": "天盘干 己加癸『地刑玄武』",
+      "cycle_trace": "P2 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.5,
+      "grounding_tier": "explicit_chart",
+      "rank": 28
+    },
+    {
+      "pattern_id": "PAT-09",
+      "cn": "青龙华盖",
+      "family": "shelter",
+      "palace": 2,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E072"
+      ],
+      "explicit_marker": "暗干干 戊加癸『青龙华盖』",
+      "cycle_trace": "P2 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.4,
+      "grounding_tier": "explicit_chart",
+      "rank": 41
+    },
+    {
+      "pattern_id": "PAT-27",
+      "cn": "干相克",
+      "family": "stem_clash",
+      "palace": 2,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E012",
+        "E013"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P2 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.55,
+      "grounding_tier": "computed_structure",
+      "rank": 23
+    },
+    {
+      "pattern_id": "PAT-31",
+      "cn": "支合冲刑",
+      "family": "branch_relations",
+      "palace": 2,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E011"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P2 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.5,
+      "grounding_tier": "computed_structure",
+      "rank": 29
+    },
+    {
+      "pattern_id": "PAT-10",
+      "cn": "火入天罗",
+      "family": "net",
+      "palace": 3,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E078"
+      ],
+      "explicit_marker": "天盘干 丙加壬『火入天罗』",
+      "cycle_trace": "P3 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.3,
+      "grounding_tier": "explicit_chart",
+      "rank": 48
+    },
+    {
+      "pattern_id": "PAT-11",
+      "cn": "凶蛇入狱",
+      "family": "net",
+      "palace": 3,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E079"
+      ],
+      "explicit_marker": "暗干干 辛加壬『凶蛇入狱』",
+      "cycle_trace": "P3 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.3,
+      "grounding_tier": "explicit_chart",
+      "rank": 49
+    },
+    {
+      "pattern_id": "PAT-12",
+      "cn": "三奇升殿",
+      "family": "three_wonders",
+      "palace": 3,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E080"
+      ],
+      "explicit_marker": "三奇升殿",
+      "cycle_trace": "P3 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.4,
+      "grounding_tier": "explicit_chart",
+      "rank": 42
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "family": "three_wonders",
+      "palace": 3,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E081"
+      ],
+      "explicit_marker": "三奇得使",
+      "cycle_trace": "P3 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.4,
+      "grounding_tier": "explicit_chart",
+      "rank": 43
+    },
+    {
+      "pattern_id": "PAT-14",
+      "cn": "三奇受制",
+      "family": "three_wonders",
+      "palace": 3,
+      "state": "LIVE_COMPUTED+LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E019",
+        "E082"
+      ],
+      "explicit_marker": "三奇受制",
+      "cycle_trace": "P3 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.4,
+      "grounding_tier": "explicit_chart",
+      "rank": 44
+    },
+    {
+      "pattern_id": "PAT-31",
+      "cn": "支合冲刑",
+      "family": "branch_relations",
+      "palace": 3,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E018"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P3 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.5,
+      "grounding_tier": "computed_structure",
+      "rank": 30
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "family": "gate_vs_palace",
+      "palace": 4,
+      "state": "LIVE_COMPUTED+LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E023",
+        "E090"
+      ],
+      "explicit_marker": "宫生门",
+      "cycle_trace": "P4 (single-palace)",
+      "limits": "environment feeds the actor",
+      "source": null,
+      "score": 0.65,
+      "grounding_tier": "explicit_chart",
+      "rank": 4
+    },
+    {
+      "pattern_id": "PAT-03",
+      "cn": "六仪击刑",
+      "family": "punishment",
+      "palace": 4,
+      "state": "LIVE_COMPUTED+LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E026",
+        "E091"
+      ],
+      "explicit_marker": "六仪击刑",
+      "cycle_trace": "P4 (single-palace)",
+      "limits": "a 仪 sits in its punishment palace",
+      "source": null,
+      "score": 0.35,
+      "grounding_tier": "explicit_chart",
+      "rank": 45
+    },
+    {
+      "pattern_id": "PAT-04",
+      "cn": "星入墓",
+      "family": "tomb",
+      "palace": 4,
+      "state": "LIVE_COMPUTED+LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E024",
+        "E092"
+      ],
+      "explicit_marker": "星入墓",
+      "cycle_trace": "P4 (single-palace)",
+      "limits": "a star falls into its element's tomb",
+      "source": null,
+      "score": 0.35,
+      "grounding_tier": "explicit_chart",
+      "rank": 46
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "family": "three_wonders",
+      "palace": 4,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E028"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P4 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.45,
+      "grounding_tier": "computed_structure",
+      "rank": 34
+    },
+    {
+      "pattern_id": "PAT-14",
+      "cn": "三奇受制",
+      "family": "three_wonders",
+      "palace": 4,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E028"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P4 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.45,
+      "grounding_tier": "computed_structure",
+      "rank": 38
+    },
+    {
+      "pattern_id": "PAT-15",
+      "cn": "网盖天牢",
+      "family": "net",
+      "palace": 4,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E087"
+      ],
+      "explicit_marker": "天盘干 癸加辛『网盖天牢』",
+      "cycle_trace": "P4 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.35,
+      "grounding_tier": "explicit_chart",
+      "rank": 47
+    },
+    {
+      "pattern_id": "PAT-16",
+      "cn": "太白重锋",
+      "family": "metal_clash",
+      "palace": 4,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E088"
+      ],
+      "explicit_marker": "寄宫干 庚加辛『太白重锋』",
+      "cycle_trace": "P4 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.75,
+      "grounding_tier": "explicit_chart",
+      "rank": 1
+    },
+    {
+      "pattern_id": "PAT-17",
+      "cn": "日月相会",
+      "family": "stem_combination",
+      "palace": 4,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E089"
+      ],
+      "explicit_marker": "暗干干 丙加辛『日月相会』",
+      "cycle_trace": "P4 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.55,
+      "grounding_tier": "explicit_chart",
+      "rank": 21
+    },
+    {
+      "pattern_id": "PAT-31",
+      "cn": "支合冲刑",
+      "family": "branch_relations",
+      "palace": 4,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E025"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P4 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.65,
+      "grounding_tier": "computed_structure",
+      "rank": 7
+    },
+    {
+      "pattern_id": "PAT-18",
+      "cn": "太白同宫",
+      "family": "metal_clash",
+      "palace": 5,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E093"
+      ],
+      "explicit_marker": "暗干干 庚加庚『太白同宫』",
+      "cycle_trace": "P5 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.75,
+      "grounding_tier": "explicit_chart",
+      "rank": 2
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "family": "gate_vs_palace",
+      "palace": 6,
+      "state": "LIVE_COMPUTED+LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E034",
+        "E099"
+      ],
+      "explicit_marker": "宫生门",
+      "cycle_trace": "P6 (single-palace)",
+      "limits": "environment feeds the actor",
+      "source": null,
+      "score": 0.65,
+      "grounding_tier": "explicit_chart",
+      "rank": 5
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "family": "three_wonders",
+      "palace": 6,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E037"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P6 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.45,
+      "grounding_tier": "computed_structure",
+      "rank": 35
+    },
+    {
+      "pattern_id": "PAT-19",
+      "cn": "日奇入墓",
+      "family": "tomb",
+      "palace": 6,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E097"
+      ],
+      "explicit_marker": "天盘干 乙加己『日奇入墓』",
+      "cycle_trace": "P6 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.25,
+      "grounding_tier": "explicit_chart",
+      "rank": 51
+    },
+    {
+      "pattern_id": "PAT-20",
+      "cn": "火入勾陈",
+      "family": "concealed_loss",
+      "palace": 6,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E098"
+      ],
+      "explicit_marker": "暗干干 丁加己『火入勾陈』",
+      "cycle_trace": "P6 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.15,
+      "grounding_tier": "explicit_chart",
+      "rank": 52
+    },
+    {
+      "pattern_id": "PAT-27",
+      "cn": "干相克",
+      "family": "stem_clash",
+      "palace": 6,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E037",
+        "E038"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P6 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.6,
+      "grounding_tier": "computed_structure",
+      "rank": 17
+    },
+    {
+      "pattern_id": "PAT-31",
+      "cn": "支合冲刑",
+      "family": "branch_relations",
+      "palace": 6,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E036"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P6 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.55,
+      "grounding_tier": "computed_structure",
+      "rank": 26
+    },
+    {
+      "pattern_id": "PAT-12",
+      "cn": "三奇升殿",
+      "family": "three_wonders",
+      "palace": 7,
+      "state": "LIVE_COMPUTED+LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E044",
+        "E105"
+      ],
+      "explicit_marker": "三奇升殿",
+      "cycle_trace": "P7 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.6,
+      "grounding_tier": "explicit_chart",
+      "rank": 10
+    },
+    {
+      "pattern_id": "PAT-21",
+      "cn": "青龙耀明",
+      "family": "authority_rise",
+      "palace": 7,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E103"
+      ],
+      "explicit_marker": "天盘干 丁加戊『青龙耀明』",
+      "cycle_trace": "P7 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.6,
+      "grounding_tier": "explicit_chart",
+      "rank": 13
+    },
+    {
+      "pattern_id": "PAT-22",
+      "cn": "犬遇青龙",
+      "family": "authority_rise",
+      "palace": 7,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E104"
+      ],
+      "explicit_marker": "暗干干 己加戊『犬遇青龙』",
+      "cycle_trace": "P7 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.6,
+      "grounding_tier": "explicit_chart",
+      "rank": 14
+    },
+    {
+      "pattern_id": "PAT-28",
+      "cn": "干相生",
+      "family": "stem_support",
+      "palace": 7,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E044",
+        "E045"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P7 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.55,
+      "grounding_tier": "computed_structure",
+      "rank": 25
+    },
+    {
+      "pattern_id": "PAT-01",
+      "cn": "门迫宫",
+      "family": "gate_vs_palace",
+      "palace": 8,
+      "state": "LIVE_COMPUTED+LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E048",
+        "E111"
+      ],
+      "explicit_marker": "门迫宫",
+      "cycle_trace": "P8 (single-palace)",
+      "limits": "human agency acts against its environment",
+      "source": null,
+      "score": 0.6,
+      "grounding_tier": "explicit_chart",
+      "rank": 8
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "family": "three_wonders",
+      "palace": 8,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E052"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P8 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.6,
+      "grounding_tier": "computed_structure",
+      "rank": 11
+    },
+    {
+      "pattern_id": "PAT-14",
+      "cn": "三奇受制",
+      "family": "three_wonders",
+      "palace": 8,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E052"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P8 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.6,
+      "grounding_tier": "computed_structure",
+      "rank": 12
+    },
+    {
+      "pattern_id": "PAT-23",
+      "cn": "白虎猖狂",
+      "family": "metal_clash",
+      "palace": 8,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E109"
+      ],
+      "explicit_marker": "天盘干 辛加乙『白虎猖狂』",
+      "cycle_trace": "P8 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.6,
+      "grounding_tier": "explicit_chart",
+      "rank": 15
+    },
+    {
+      "pattern_id": "PAT-24",
+      "cn": "小蛇得势",
+      "family": "flexibility",
+      "palace": 8,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E110"
+      ],
+      "explicit_marker": "暗干干 壬加乙『小蛇得势』",
+      "cycle_trace": "P8 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.6,
+      "grounding_tier": "explicit_chart",
+      "rank": 16
+    },
+    {
+      "pattern_id": "PAT-27",
+      "cn": "干相克",
+      "family": "stem_clash",
+      "palace": 8,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E051",
+        "E052"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P8 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.55,
+      "grounding_tier": "computed_structure",
+      "rank": 24
+    },
+    {
+      "pattern_id": "PAT-31",
+      "cn": "支合冲刑",
+      "family": "branch_relations",
+      "palace": 8,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E050"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P8 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.5,
+      "grounding_tier": "computed_structure",
+      "rank": 31
+    },
+    {
+      "pattern_id": "PAT-32",
+      "cn": "值符值使",
+      "family": "axis_anchor",
+      "palace": 8,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E049"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P8 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.5,
+      "grounding_tier": "computed_structure",
+      "rank": 32
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "family": "gate_vs_palace",
+      "palace": 9,
+      "state": "LIVE_COMPUTED+LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E055",
+        "E117"
+      ],
+      "explicit_marker": "宫生门",
+      "cycle_trace": "P9 (single-palace)",
+      "limits": "environment feeds the actor",
+      "source": null,
+      "score": 0.65,
+      "grounding_tier": "explicit_chart",
+      "rank": 6
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "family": "three_wonders",
+      "palace": 9,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E059"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P9 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.45,
+      "grounding_tier": "computed_structure",
+      "rank": 36
+    },
+    {
+      "pattern_id": "PAT-14",
+      "cn": "三奇受制",
+      "family": "three_wonders",
+      "palace": 9,
+      "state": "LIVE_COMPUTED",
+      "evidence_ids": [
+        "E059"
+      ],
+      "explicit_marker": null,
+      "cycle_trace": "P9 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.45,
+      "grounding_tier": "computed_structure",
+      "rank": 39
+    },
+    {
+      "pattern_id": "PAT-25",
+      "cn": "青龙转光",
+      "family": "authority_rise",
+      "palace": 9,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E115"
+      ],
+      "explicit_marker": "天盘干 戊加丙『青龙转光』",
+      "cycle_trace": "P9 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.45,
+      "grounding_tier": "explicit_chart",
+      "rank": 40
+    },
+    {
+      "pattern_id": "PAT-26",
+      "cn": "华盖悖师",
+      "family": "shelter",
+      "palace": 9,
+      "state": "LIVE_EXPLICIT",
+      "evidence_ids": [
+        "E116"
+      ],
+      "explicit_marker": "暗干干 癸加丙『华盖悖师』",
+      "cycle_trace": "P9 (single-palace)",
+      "limits": "",
+      "source": null,
+      "score": 0.55,
+      "grounding_tier": "explicit_chart",
+      "rank": 22
+    }
+  ],
+  "null_register": [
+    {
+      "pattern_id": "PAT-29",
+      "cn": "空亡",
+      "family": "absence_class",
+      "palace": 0,
+      "match_state": "NULL_CLASS_ABSENT",
+      "evidence_ids": [],
+      "explicit_marker": null,
+      "source_kind": "declared_absent",
+      "note": "void class not in source; ABSENT is factual reporting, not support"
+    },
+    {
+      "pattern_id": "PAT-30",
+      "cn": "驿马",
+      "family": "absence_class",
+      "palace": 0,
+      "match_state": "NULL_CLASS_ABSENT",
+      "evidence_ids": [],
+      "explicit_marker": null,
+      "source_kind": "declared_absent",
+      "note": "horse class not in source; ABSENT is factual reporting, not support"
+    }
+  ],
+  "explicit_vs_computed": [
+    {
+      "pattern_id": "PAT-06",
+      "cn": "干合蛇刑",
+      "palace": 1,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 壬加丁 present in palace 1 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-07",
+      "cn": "奇仪相佐",
+      "palace": 1,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 乙加丁 present in palace 1 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-05",
+      "cn": "奇仪相合",
+      "palace": 1,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-01",
+      "cn": "门迫宫",
+      "palace": 1,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-08",
+      "cn": "地刑玄武",
+      "palace": 2,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 己加癸 present in palace 2 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-09",
+      "cn": "青龙华盖",
+      "palace": 2,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 戊加癸 present in palace 2 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "palace": 2,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-03",
+      "cn": "六仪击刑",
+      "palace": 2,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-10",
+      "cn": "火入天罗",
+      "palace": 3,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 丙加壬 present in palace 3 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-11",
+      "cn": "凶蛇入狱",
+      "palace": 3,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 辛加壬 present in palace 3 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-12",
+      "cn": "三奇升殿",
+      "palace": 3,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": false,
+      "reconciliation": "EXPLICIT_UNCONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "palace": 3,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": false,
+      "reconciliation": "EXPLICIT_UNCONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-14",
+      "cn": "三奇受制",
+      "palace": 3,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-15",
+      "cn": "网盖天牢",
+      "palace": 4,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 癸加辛 present in palace 4 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-16",
+      "cn": "太白重锋",
+      "palace": 4,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 庚加辛 present in palace 4 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-17",
+      "cn": "日月相会",
+      "palace": 4,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 丙加辛 present in palace 4 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "palace": 4,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-03",
+      "cn": "六仪击刑",
+      "palace": 4,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-04",
+      "cn": "星入墓",
+      "palace": 4,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-18",
+      "cn": "太白同宫",
+      "palace": 5,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 庚加庚 present in palace 5 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-19",
+      "cn": "日奇入墓",
+      "palace": 6,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 乙加己 present in palace 6 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-20",
+      "cn": "火入勾陈",
+      "palace": 6,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 丁加己 present in palace 6 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "palace": 6,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-21",
+      "cn": "青龙耀明",
+      "palace": 7,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 丁加戊 present in palace 7 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-22",
+      "cn": "犬遇青龙",
+      "palace": 7,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 己加戊 present in palace 7 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-12",
+      "cn": "三奇升殿",
+      "palace": 7,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-23",
+      "cn": "白虎猖狂",
+      "palace": 8,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 辛加乙 present in palace 8 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-24",
+      "cn": "小蛇得势",
+      "palace": 8,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 壬加乙 present in palace 8 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-01",
+      "cn": "门迫宫",
+      "palace": 8,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-25",
+      "cn": "青龙转光",
+      "palace": 9,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 戊加丙 present in palace 9 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-26",
+      "cn": "华盖悖师",
+      "palace": 9,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "signature 癸加丙 present in palace 9 stem inventory",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "palace": 9,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": true,
+      "reconciliation": "CONFIRMED"
+    }
+  ],
+  "explicit_unconfirmed": [
+    {
+      "pattern_id": "PAT-12",
+      "cn": "三奇升殿",
+      "palace": 3,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": false,
+      "reconciliation": "EXPLICIT_UNCONFIRMED"
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "palace": 3,
+      "authority": "explicit_chart (rank 1, never overwritten)",
+      "confirm_basis": "computed rule key present for this palace",
+      "computed_rule_confirms": false,
+      "reconciliation": "EXPLICIT_UNCONFIRMED"
+    }
+  ],
+  "score_formula": "min(ceiling(tier), base + named + coupling + corroboration + relevance - contradiction)",
+  "score_source": "TIER2_TOOL",
+  "top_ranked": [
+    {
+      "pattern_id": "PAT-16",
+      "cn": "太白重锋",
+      "palace": 4,
+      "family": "metal_clash",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.75,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E088"
+      ],
+      "note": "explicit chart marker",
+      "rank": 1
+    },
+    {
+      "pattern_id": "PAT-18",
+      "cn": "太白同宫",
+      "palace": 5,
+      "family": "metal_clash",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.75,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E093"
+      ],
+      "note": "explicit chart marker",
+      "rank": 2
+    },
+    {
+      "pattern_id": "PAT-01",
+      "cn": "门迫宫",
+      "palace": 1,
+      "family": "gate_vs_palace",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.1,
+        "contradiction_raw": 1
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.65,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E067"
+      ],
+      "note": "explicit chart marker",
+      "rank": 3
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "palace": 4,
+      "family": "gate_vs_palace",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.1,
+        "contradiction_raw": 1
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.65,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E090"
+      ],
+      "note": "explicit chart marker",
+      "rank": 4
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "palace": 6,
+      "family": "gate_vs_palace",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.65,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E099"
+      ],
+      "note": "explicit chart marker",
+      "rank": 5
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "palace": 9,
+      "family": "gate_vs_palace",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.65,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E117"
+      ],
+      "note": "explicit chart marker",
+      "rank": 6
+    },
+    {
+      "pattern_id": "PAT-31",
+      "cn": "支合冲刑",
+      "palace": 4,
+      "family": "branch_relations",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.0,
+        "named_flag": 0,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.65,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E025"
+      ],
+      "note": "chong: 巳 vs day branch 亥",
+      "rank": 7
+    },
+    {
+      "pattern_id": "PAT-01",
+      "cn": "门迫宫",
+      "palace": 8,
+      "family": "gate_vs_palace",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E111"
+      ],
+      "note": "explicit chart marker",
+      "rank": 8
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "palace": 2,
+      "family": "gate_vs_palace",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E073"
+      ],
+      "note": "explicit chart marker",
+      "rank": 9
+    },
+    {
+      "pattern_id": "PAT-12",
+      "cn": "三奇升殿",
+      "palace": 7,
+      "family": "three_wonders",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E105"
+      ],
+      "note": "explicit chart marker",
+      "rank": 10
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "palace": 8,
+      "family": "three_wonders",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E052"
+      ],
+      "note": "乙 served by frozen partner set ['己', '辛']",
+      "rank": 11
+    },
+    {
+      "pattern_id": "PAT-14",
+      "cn": "三奇受制",
+      "palace": 8,
+      "family": "three_wonders",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E052"
+      ],
+      "note": "乙 is restrained by a controlling stem present in the same palace",
+      "rank": 12
+    }
+  ],
+  "catalog_size": 32,
+  "live_instances": 65,
+  "null_classes": 2
+}

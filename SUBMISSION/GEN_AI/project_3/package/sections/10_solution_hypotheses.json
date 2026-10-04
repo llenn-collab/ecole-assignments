@@ -1,0 +1,782 @@
+{
+  "hypotheses": [
+    {
+      "claim_id": "C001",
+      "archetype_id": "ARC-01",
+      "label": "guarded_alliance",
+      "interpretation_basis": "The source pole forms a he-combination under a coiled-spirit marker while the life-gate presses against its own palace; the display pole is fed by its environment but keeps its nourishing star in tomb. Read together: the brand's core idea is a deliberate pact that stays guarded about its generosity.",
+      "chart_support": [
+        "E064",
+        "E065",
+        "E066",
+        "R009",
+        "R001",
+        "E067",
+        "E002",
+        "E001",
+        "E022",
+        "R029",
+        "E092",
+        "R045"
+      ],
+      "case_alignment": [
+        "Q03:DIRECT",
+        "Q02:INDIRECT"
+      ],
+      "supporting": [
+        "E064",
+        "E065",
+        "E066",
+        "R009",
+        "R001",
+        "E067",
+        "E002",
+        "E001",
+        "E022",
+        "R029",
+        "E092",
+        "R045"
+      ],
+      "limiting": [
+        "interpretation is structural; no factual prediction is made",
+        "the he-combination's traditional gloss is register-level, not outcome-level"
+      ],
+      "counterevidence": [
+        "E093",
+        "R028",
+        "E090"
+      ],
+      "decision_guard": "State as tradition-conditional direction only. Do not phrase as a promise about market response (law 22).",
+      "scope": "primary axis {1,4} plus centre 5 lodging edge",
+      "confidence": 0.6,
+      "scenario_condition": "holds while the brand's public voice remains narrower than its internal generosity",
+      "validation_path": "re-check against the Assignment-1 insight list: if a researched insight already claims 'generous' positioning, this claim is CONTRADICTS_KNOWN and must be reworked",
+      "rank_status": "bounded",
+      "uncertainty": "medium",
+      "limitations": [
+        "interpretation is structural; no factual prediction is made",
+        "the he-combination's traditional gloss is register-level, not outcome-level"
+      ],
+      "competing_candidates": [
+        {
+          "label": "quiet_craft_discipline",
+          "status": "not_rejected",
+          "why": "九地 + star-in-tomb support a quiet craft reading; it is not displaced by the pact evidence"
+        },
+        {
+          "label": "corrective_awakening",
+          "status": "rejected",
+          "why": "requires an authority-rise or turnaround pattern on the spine; 青龙耀明/青龙转光 sit in palaces 7 and 9, outside the ranked scope, and no spine atom carries a turn"
+        }
+      ],
+      "conflict_register": null
+    },
+    {
+      "claim_id": "C002",
+      "archetype_id": "ARC-02",
+      "label": "precise_watchful",
+      "interpretation_basis": "Coiled spirit and life-gate sit under gate pressure at the source pole; depth and display sit together at the display pole with the centre's stem lodged into it. The voice register is exact and observant, warm only where the structure allows it.",
+      "chart_support": [
+        "E001",
+        "E002",
+        "E003",
+        "R001",
+        "E022",
+        "E023",
+        "R047",
+        "E032",
+        "E029"
+      ],
+      "case_alignment": [
+        "Q03:DIRECT"
+      ],
+      "supporting": [
+        "E001",
+        "E002",
+        "E003",
+        "R001",
+        "E022",
+        "E023",
+        "R047",
+        "E032",
+        "E029"
+      ],
+      "limiting": [
+        "tone register is the least fact-bound layer of the board; treat as creative direction"
+      ],
+      "counterevidence": [
+        "R004",
+        "R018"
+      ],
+      "decision_guard": "Voice adjectives must trace to a deity/gate/star atom in the shipped package, never to mood (no free invention).",
+      "scope": "primary axis {1,4}",
+      "confidence": 0.6,
+      "scenario_condition": "holds where the brand speaks about its process rather than its effect",
+      "validation_path": "one line of voice copy drafted against C002; if the line promises an outcome, the line fails the guard, not the claim",
+      "rank_status": "bounded",
+      "uncertainty": "medium",
+      "limitations": [
+        "tone register is the least fact-bound layer of the board; treat as creative direction"
+      ],
+      "competing_candidates": [
+        {
+          "label": "warm_directive",
+          "status": "not_rejected",
+          "why": "supported by 宫生门 at the display pole; would need the life-gate to be unopposed, which it is not"
+        },
+        {
+          "label": "cool_withholding",
+          "status": "not_rejected",
+          "why": "supported by 九地 and star-in-tomb; distinguished from this claim only by degree of warmth"
+        }
+      ],
+      "conflict_register": null
+    },
+    {
+      "claim_id": "C003",
+      "archetype_id": "ARC-03",
+      "label": "ritual_mark",
+      "interpretation_basis": "Display gate with a deep-earth deity, a union combination, and a stored core: the name and mark should behave like a made object used in a repeated act, not like an announcement of authority.",
+      "chart_support": [
+        "E023",
+        "E022",
+        "R009",
+        "E066",
+        "R017",
+        "E089",
+        "R004"
+      ],
+      "case_alignment": [
+        "Q03:DIRECT",
+        "Q06:INDIRECT"
+      ],
+      "supporting": [
+        "E023",
+        "E022",
+        "R009",
+        "E066",
+        "R017",
+        "E089",
+        "R004"
+      ],
+      "limiting": [
+        "no literal object, place, or figure may be read off the chart (laws 23-24)"
+      ],
+      "counterevidence": [
+        "E105",
+        "E080",
+        "R028"
+      ],
+      "decision_guard": "A name or mark must never be 'selected by the chart'. The chart supplies register and constraint only; the choice traces to Assignment-1 (see C013, rejected).",
+      "scope": "primary axis {1,4} with contrast from {3,7}",
+      "confidence": 0.55,
+      "scenario_condition": "holds while the mark is used in a repeated act rather than as a burst of signalling",
+      "validation_path": "logo direction must name 2-3 mood-board styles and one explicit avoid-line (brief requirement), each traced to Assignment 1",
+      "rank_status": "bounded",
+      "uncertainty": "medium-high",
+      "limitations": [
+        "no literal object, place, or figure may be read off the chart (laws 23-24)"
+      ],
+      "competing_candidates": [
+        {
+          "label": "visible_authority",
+          "status": "not_rejected",
+          "why": "explicitly supported outside the spine (palaces 3 and 7); legal contrast, not ranked"
+        },
+        {
+          "label": "engineered_softness",
+          "status": "rejected",
+          "why": "no spine atom supports softening; tomb, punishment and pressure markers all point the other way"
+        }
+      ],
+      "conflict_register": null
+    },
+    {
+      "claim_id": "C004",
+      "archetype_id": "ARC-04",
+      "label": "sustained_care",
+      "interpretation_basis": "The life-gate stands at the source pole, the display pole carries the slow-earth star and keeps it in tomb, and the centre's stem is lodged into that same display palace. Structurally the product behaves as something kept and applied over time.",
+      "chart_support": [
+        "E002",
+        "E022",
+        "E024",
+        "R029",
+        "E092",
+        "R041",
+        "R047",
+        "E023",
+        "R004"
+      ],
+      "case_alignment": [
+        "Q04:DIRECT",
+        "Q04:NO_CHART_SUPPORT(format)",
+        "Q04:NO_CHART_SUPPORT(price)"
+      ],
+      "supporting": [
+        "E002",
+        "E022",
+        "E024",
+        "R029",
+        "E092",
+        "R041",
+        "R047",
+        "E023",
+        "R004"
+      ],
+      "limiting": [
+        "product category is supplied by the case as scope only; the chart never names a product"
+      ],
+      "counterevidence": [
+        "E028",
+        "R037"
+      ],
+      "decision_guard": "No medical, therapeutic or bodily claim may be derived (law 23). The star is used strictly as a registry term for a slow earth process.",
+      "scope": "primary axis {1,4} plus centre lodging",
+      "confidence": 0.65,
+      "scenario_condition": "holds while the product's value is expressed in repeated use rather than in a single effect",
+      "validation_path": "product definition (format, variants, size, price) is NOT chart-derivable: those rows carry NO_CHART_SUPPORT and must come from Assignment 1",
+      "rank_status": "bounded",
+      "uncertainty": "medium",
+      "limitations": [
+        "product category is supplied by the case as scope only; the chart never names a product"
+      ],
+      "competing_candidates": [
+        {
+          "label": "contained_remedy",
+          "status": "not_rejected",
+          "why": "supported by the star-in-tomb and the punishment marker: a small, concentrated format reading is legal"
+        },
+        {
+          "label": "restorative_rebuild",
+          "status": "rejected",
+          "why": "requires a turnaround or authority-rise pattern inside the spine; none is present"
+        }
+      ],
+      "conflict_register": null
+    },
+    {
+      "claim_id": "C005",
+      "archetype_id": "ARC-05",
+      "label": "layered_reveal",
+      "interpretation_basis": "A concealing earth deity holds a display gate; the environment feeds that gate; the nourishing core is stored; the hidden brightness sits inside the same palace. The package should be composed in two states — a muted closed state and a warmer opened state.",
+      "chart_support": [
+        "E022",
+        "E023",
+        "R004",
+        "E090",
+        "R029",
+        "R017",
+        "E089",
+        "E028",
+        "E026"
+      ],
+      "case_alignment": [
+        "Q04:DIRECT"
+      ],
+      "supporting": [
+        "E022",
+        "E023",
+        "R004",
+        "E090",
+        "R029",
+        "R017",
+        "E089",
+        "E028",
+        "E026"
+      ],
+      "limiting": [
+        "the chart cannot specify colour; colour must come from the mood board and Assignment-1 insight"
+      ],
+      "counterevidence": [
+        "R028",
+        "E087"
+      ],
+      "decision_guard": "Material statements are creative direction only. No physical fact (substrate, finish, mechanism) may be asserted from the chart (laws 23-24).",
+      "scope": "primary axis {1,4}",
+      "confidence": 0.6,
+      "scenario_condition": "holds while the first read is quiet and the second read rewards attention",
+      "validation_path": "shelf-standout element must be describable in one sentence from three feet away (brief requirement); tie it to one mood-board pin",
+      "rank_status": "bounded",
+      "uncertainty": "medium",
+      "limitations": [
+        "the chart cannot specify colour; colour must come from the mood board and Assignment-1 insight"
+      ],
+      "competing_candidates": [
+        {
+          "label": "muted_shell_over_active_core",
+          "status": "not_rejected",
+          "why": "supported by 九地 + star-in-tomb; differs from this claim only in whether the reveal is staged or simultaneous"
+        },
+        {
+          "label": "overt_signal_low_noise",
+          "status": "rejected",
+          "why": "contradicted by the concealing deity and the stored star"
+        }
+      ],
+      "conflict_register": null
+    },
+    {
+      "claim_id": "C006",
+      "archetype_id": "ARC-06",
+      "label": "opposition_led",
+      "interpretation_basis": "The two poles are a generative pair (water feeds wood) but their local conditions invert: agency presses on the environment at the source pole while the environment feeds agency at the display pole. The difference to lead with is that inversion, not a feature list.",
+      "chart_support": [
+        "R045",
+        "R001",
+        "E067",
+        "R004",
+        "E090",
+        "E004",
+        "E025",
+        "R032"
+      ],
+      "case_alignment": [
+        "Q04:DIRECT",
+        "Q03:INDIRECT"
+      ],
+      "supporting": [
+        "R045",
+        "R001",
+        "E067",
+        "R004",
+        "E090",
+        "E004",
+        "E025"
+      ],
+      "limiting": [
+        "pillar-register relations are tallied separately and never absorbed into the spine count"
+      ],
+      "counterevidence": [
+        "E022",
+        "R029"
+      ],
+      "decision_guard": "The difference must be stated as a describable direction, never as 'better' (brief requirement).",
+      "scope": "primary axis {1,4} with the day-branch chong noted from the pillar register",
+      "confidence": 0.6,
+      "scenario_condition": "holds while the category leads with performance claims that push against the environment",
+      "validation_path": "place the package beside the 3-5 researched competitors and state the inversion in one sentence",
+      "rank_status": "bounded",
+      "uncertainty": "medium",
+      "limitations": [
+        "pillar-register relations are tallied separately and never absorbed into the spine count"
+      ],
+      "competing_candidates": [
+        {
+          "label": "layer_led",
+          "status": "not_rejected",
+          "why": "supported by 九地 + star-in-tomb; a legal second direction for Brief 2"
+        },
+        {
+          "label": "sequence_led",
+          "status": "rejected",
+          "why": "sequencing is another archetype's jurisdiction (ARC-11) and would double-count one structure across two briefs"
+        }
+      ],
+      "conflict_register": null
+    },
+    {
+      "claim_id": "C007",
+      "archetype_id": "ARC-07",
+      "label": "pressure_into_poise",
+      "interpretation_basis": "A pressed gate at the source pole, a fed gate at the display pole, a generative opposition between them, and a stored core in the display palace: the campaign idea is pressure resolved into composure.",
+      "chart_support": [
+        "R001",
+        "E067",
+        "R004",
+        "E090",
+        "R045",
+        "E064",
+        "E065",
+        "R029",
+        "R047",
+        "R017"
+      ],
+      "case_alignment": [
+        "Q05:DIRECT",
+        "Q06:INDIRECT",
+        "Q08:INDIRECT(internal_consistency)"
+      ],
+      "supporting": [
+        "R001",
+        "E067",
+        "R004",
+        "E090",
+        "R045",
+        "E064",
+        "E065",
+        "R029",
+        "R047",
+        "R017"
+      ],
+      "limiting": [
+        "no calendar or venue claim is made anywhere in this campaign direction"
+      ],
+      "counterevidence": [
+        "R028",
+        "R018",
+        "E111"
+      ],
+      "decision_guard": "The big idea must not promise an outcome or a result (law 22).",
+      "scope": "primary axis {1,4} plus centre lodging and the visible command-axis contrast",
+      "confidence": 0.65,
+      "scenario_condition": "holds while the campaign shows the act rather than the result",
+      "validation_path": "hero image briefed from C008 and stage from C009 must both be derivable from this idea without a fourth, unrelated claim",
+      "rank_status": "bounded",
+      "uncertainty": "medium",
+      "limitations": [
+        "no calendar or venue claim is made anywhere in this campaign direction"
+      ],
+      "competing_candidates": [
+        {
+          "label": "return_to_the_source",
+          "status": "not_rejected",
+          "why": "the generative axis supports a return-to-source idea; distinguished from this claim by direction of travel"
+        },
+        {
+          "label": "the_quiet_instrument",
+          "status": "not_rejected",
+          "why": "supported by star-in-tomb + punishment; a legal third direction"
+        }
+      ],
+      "conflict_register": null
+    },
+    {
+      "claim_id": "C008",
+      "archetype_id": "ARC-08",
+      "label": "single_subject_soft_light",
+      "interpretation_basis": "A display gate under a concealing earth deity, with the slow-earth star in tomb: one subject, low and even light, focal weight on what is withheld rather than on what is displayed.",
+      "chart_support": [
+        "E023",
+        "E022",
+        "E024",
+        "R029",
+        "E092",
+        "R004",
+        "R017",
+        "E089"
+      ],
+      "case_alignment": [
+        "Q05:DIRECT"
+      ],
+      "supporting": [
+        "E023",
+        "E022",
+        "E024",
+        "R029",
+        "E092",
+        "R004",
+        "R017",
+        "E089"
+      ],
+      "limiting": [
+        "no claims about the photographed person, body, or condition (law 23)"
+      ],
+      "counterevidence": [
+        "E003",
+        "R001"
+      ],
+      "decision_guard": "Composition language is creative direction. Nothing in this claim describes the world.",
+      "scope": "primary axis {1,4}",
+      "confidence": 0.6,
+      "scenario_condition": "holds while the hero image is readable at thumbnail scale without any text",
+      "validation_path": "generate or shoot two frames (single subject; object-only) and test which one survives the 'no text' rule",
+      "rank_status": "bounded",
+      "uncertainty": "medium-high",
+      "limitations": [
+        "no claims about the photographed person, body, or condition (law 23)"
+      ],
+      "competing_candidates": [
+        {
+          "label": "object_only_ritual_frame",
+          "status": "not_rejected",
+          "why": "strongly supported by star-in-tomb; would remove the human element entirely"
+        },
+        {
+          "label": "figure_in_pressure",
+          "status": "not_rejected",
+          "why": "supported by the impulse star and gate pressure"
+        }
+      ],
+      "conflict_register": null
+    },
+    {
+      "claim_id": "C009",
+      "archetype_id": "ARC-09",
+      "label": "enclosed_studio",
+      "interpretation_basis": "Depth deity, display gate fed by its palace, slow-earth star stored: an enclosed, low-ceilinged stage with a directional light source, rather than an open location.",
+      "chart_support": [
+        "E022",
+        "E023",
+        "R004",
+        "E025",
+        "E024",
+        "R029",
+        "R047"
+      ],
+      "case_alignment": [
+        "Q05:DIRECT"
+      ],
+      "supporting": [
+        "E022",
+        "E023",
+        "R004",
+        "E025",
+        "E024",
+        "R029",
+        "R047"
+      ],
+      "limiting": [
+        "the chart supplies register, not architecture"
+      ],
+      "counterevidence": [
+        "E003",
+        "E067"
+      ],
+      "decision_guard": "Palace direction is contextual only; never state a real location (law 5).",
+      "scope": "primary axis {1,4}",
+      "confidence": 0.65,
+      "scenario_condition": "holds while the set can be built in one controlled space with one motivated light",
+      "validation_path": "location scouting brief or AI prompt must contain: enclosure, single motivated light, one reserved negative space",
+      "rank_status": "bounded",
+      "uncertainty": "medium",
+      "limitations": [
+        "the chart supplies register, not architecture"
+      ],
+      "competing_candidates": [
+        {
+          "label": "threshold_interior",
+          "status": "not_rejected",
+          "why": "an interior edge (door, sill, counter) is equally supported and keeps the 'act' visible"
+        },
+        {
+          "label": "open_field",
+          "status": "rejected",
+          "why": "contradicted by the concealing deity, the stored star, and the slow-earth star"
+        }
+      ],
+      "conflict_register": null
+    },
+    {
+      "claim_id": "C010",
+      "archetype_id": "ARC-10",
+      "label": "hands_only",
+      "interpretation_basis": "The concealing deity and stored star put the human register behind the object register; the impulse star keeps movement in frame. Hands and gesture carry the act without a face.",
+      "chart_support": [
+        "E022",
+        "E092",
+        "E023",
+        "E001",
+        "E003",
+        "R045"
+      ],
+      "case_alignment": [
+        "Q05:DIRECT",
+        "Q08:INDIRECT(specificity)"
+      ],
+      "supporting": [
+        "E022",
+        "E092",
+        "E023",
+        "E001",
+        "E003",
+        "R045"
+      ],
+      "limiting": [
+        "audience fit is a case-side judgement; the chart cannot confirm it"
+      ],
+      "counterevidence": [
+        "E003",
+        "E002"
+      ],
+      "decision_guard": "No inference about any person, body, or condition is permitted; casting here is a stated creative choice (law 23).",
+      "scope": "primary axis {1,4}",
+      "confidence": 0.6,
+      "scenario_condition": "holds while the campaign can be cast from hands and gesture alone",
+      "validation_path": "state the choice explicitly in the brief as a deliberate avoidance of faces, and give the reason",
+      "rank_status": "bounded",
+      "uncertainty": "medium",
+      "limitations": [
+        "audience fit is a case-side judgement; the chart cannot confirm it"
+      ],
+      "competing_candidates": [
+        {
+          "label": "product_only",
+          "status": "not_rejected",
+          "why": "legal and supported by star-in-tomb; removes all human presence"
+        },
+        {
+          "label": "one_calm_figure",
+          "status": "not_rejected",
+          "why": "legal if the figure's stillness is motivated by the stored core"
+        }
+      ],
+      "conflict_register": null
+    },
+    {
+      "claim_id": "C011",
+      "archetype_id": "ARC-11",
+      "label": "core_first_then_context",
+      "interpretation_basis": "The display pole holds the gestating and growing phases while the source pole holds peak-then-cut phases. Build the supported, growing assets first; add the pressed life-register assets afterwards as the closing beat.",
+      "chart_support": [
+        "E083",
+        "E084",
+        "E086",
+        "E061",
+        "E062",
+        "E063",
+        "R004",
+        "R001"
+      ],
+      "case_alignment": [
+        "Q05:DIRECT",
+        "Q07:INDIRECT"
+      ],
+      "supporting": [
+        "E083",
+        "E084",
+        "E086",
+        "E061",
+        "E062",
+        "E063",
+        "R004",
+        "R001"
+      ],
+      "limiting": [
+        "the chart's own time units are not a delivery schedule"
+      ],
+      "counterevidence": [
+        "E061"
+      ],
+      "decision_guard": "Sequence claims cite phase atoms, not preference.",
+      "scope": "primary axis {1,4}",
+      "confidence": 0.65,
+      "scenario_condition": "holds while the production run can hold the pressed-register assets to the end",
+      "validation_path": "asset list ordered: hero, then 2-3 supporting, then detail, then any motion — with the phase citation beside each block",
+      "rank_status": "bounded",
+      "uncertainty": "medium-high",
+      "limitations": [
+        "the chart's own time units are not a delivery schedule"
+      ],
+      "competing_candidates": [
+        {
+          "label": "context_first_then_core",
+          "status": "not_rejected",
+          "why": "the pressed life-gate could set up the display; legal if the story needs a problem first"
+        },
+        {
+          "label": "parallel_build",
+          "status": "rejected",
+          "why": "the phase register is clearly split by pole, so a parallel build would ignore the only sequencing evidence the board offers"
+        }
+      ],
+      "conflict_register": null
+    },
+    {
+      "claim_id": "C012",
+      "archetype_id": "ARC-12",
+      "label": "hybrid_staged",
+      "interpretation_basis": "The defect points sit on the concealed/instrument layer; the command axis is off the spine and pressed; the display pole is the supported one. Proposal: stage the work in passes with a human gate at the instrument/punishment point, rather than committing a single automated chain.",
+      "chart_support": [
+        "R028",
+        "E091",
+        "R029",
+        "E092",
+        "R001",
+        "R004",
+        "R047"
+      ],
+      "case_alignment": [
+        "Q05:DIRECT",
+        "Q08:INDIRECT(production_realism)"
+      ],
+      "supporting": [
+        "R028",
+        "E091",
+        "R029",
+        "E092",
+        "R001",
+        "R004",
+        "R047"
+      ],
+      "limiting": [
+        "the chart cannot select tools or vendors"
+      ],
+      "counterevidence": [
+        "E049",
+        "E109",
+        "E111"
+      ],
+      "decision_guard": "No budget, vendor, or schedule claim is made; the case states none and none may be inferred.",
+      "scope": "primary axis {1,4} with the visible command-axis contrast from {8}",
+      "confidence": 0.6,
+      "scenario_condition": "holds while each pass has one named human approval point and a rollback",
+      "validation_path": "write the pass list with the approval gate marked at the pass that touches the concealed/instrument layer",
+      "rank_status": "bounded",
+      "uncertainty": "medium",
+      "limitations": [
+        "the chart cannot select tools or vendors"
+      ],
+      "competing_candidates": [
+        {
+          "label": "ai_led_human_gated",
+          "status": "not_rejected",
+          "why": "supported by 天辅 as 值符; a legal alternative if the team accepts a human gate at the breakage point"
+        },
+        {
+          "label": "human_led_ai_assisted",
+          "status": "not_rejected",
+          "why": "supported by the punishment marker; more conservative than proposed"
+        }
+      ],
+      "conflict_register": null
+    },
+    {
+      "claim_id": "C013",
+      "archetype_id": "ARC-03",
+      "label": "chart_selected_name",
+      "interpretation_basis": "Draft claim (retained for the record): the chart's union marker and rise-to-throne markers 'select' a brand name.",
+      "chart_support": [],
+      "case_alignment": [
+        "Q03:CONTRADICTS_KNOWN",
+        "Q06:CONTRADICTS_KNOWN"
+      ],
+      "supporting": [],
+      "limiting": [
+        "kept in the package deliberately: a rejection that is visible is stronger than a rejection that is silent"
+      ],
+      "counterevidence": [
+        "CONK004"
+      ],
+      "decision_guard": "Rejected. The chart supplies register and constraint; selection belongs to Assignment-1 evidence.",
+      "scope": "name selection",
+      "confidence": null,
+      "scenario_condition": "n/a",
+      "validation_path": "if a name candidate appears, it must be traced to a named insight or pin, then checked against C003's register, never the reverse",
+      "rank_status": "rejected",
+      "uncertainty": "NA",
+      "limitations": [
+        "kept in the package deliberately: a rejection that is visible is stronger than a rejection that is silent"
+      ],
+      "competing_candidates": [],
+      "conflict_register": {
+        "against": "CONK004",
+        "type": "CONFLICT_WITH_KNOWN",
+        "action": "downgraded to rejected; the verdict was not rewritten to fit (law 52/cc3)",
+        "resolver": "C003 (direction only)",
+        "note": "CONK004 = document.metadata.traceability_requirement (verbatim)"
+      }
+    }
+  ],
+  "candidate_rule": "each live hypothesis is one member of its archetype's closed candidate set (law 41); non-selected legal candidates are carried as not_rejected",
+  "blocked_classes": [
+    {
+      "archetype_id": "ARC-13",
+      "deliverable": "brief_3_window",
+      "state": "BLOCKED",
+      "reason": "requires timeframe_of_interest; the case context declares no window and none may be inferred (law 40, cc5)",
+      "structural_note": "the board's own time frame is explicit and verified: year 丙午, month 丁酉, day 辛亥, hour 乙未, solar term 秋分 上元, 阴遁七局. This is a structural statement about the board, not a client window.",
+      "phase": "Tier2 step 1",
+      "gap_row": "GAP-003"
+    }
+  ]
+}

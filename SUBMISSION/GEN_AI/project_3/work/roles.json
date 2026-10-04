@@ -1,0 +1,93 @@
+{
+  "core_roles_all_resolved": true,
+  "roles": {
+    "palace_1": {
+      "state": "RESOLVED",
+      "path": "palaces.1"
+    },
+    "palace_2": {
+      "state": "RESOLVED",
+      "path": "palaces.2"
+    },
+    "palace_3": {
+      "state": "RESOLVED",
+      "path": "palaces.3"
+    },
+    "palace_4": {
+      "state": "RESOLVED",
+      "path": "palaces.4"
+    },
+    "palace_5": {
+      "state": "RESOLVED",
+      "path": "palaces.5"
+    },
+    "palace_6": {
+      "state": "RESOLVED",
+      "path": "palaces.6"
+    },
+    "palace_7": {
+      "state": "RESOLVED",
+      "path": "palaces.7"
+    },
+    "palace_8": {
+      "state": "RESOLVED",
+      "path": "palaces.8"
+    },
+    "palace_9": {
+      "state": "RESOLVED",
+      "path": "palaces.9"
+    },
+    "pillars": {
+      "state": "RESOLVED",
+      "path": "chart_info.ganzhi",
+      "cap": "CAP-05"
+    },
+    "palaces_root": {
+      "state": "RESOLVED",
+      "path": "palaces.*.palace_elements[palace]",
+      "cap": "CAP-08"
+    },
+    "heaven_stem": {
+      "state": "RESOLVED",
+      "path": "palaces.*.palace_elements[天盘X]",
+      "cap": "CAP-06"
+    },
+    "earth_stem": {
+      "state": "RESOLVED",
+      "path": "palaces.*.palace_elements[地盘X]",
+      "cap": "CAP-06"
+    },
+    "star": {
+      "state": "RESOLVED",
+      "path": "palaces.*.palace_elements[天X]",
+      "cap": "CAP-02"
+    },
+    "door": {
+      "state": "RESOLVED",
+      "path": "palaces.*.palace_elements[X门]",
+      "cap": "CAP-02"
+    },
+    "hidden_stem": {
+      "state": "RESOLVED",
+      "path": "palaces.*.interpretations[condition ^暗X]",
+      "cap": "CAP-07"
+    },
+    "lodged_stem": {
+      "state": "RESOLVED",
+      "path": "palaces.*.interpretations[condition ^寄X]",
+      "cap": "CAP-07"
+    },
+    "void": {
+      "state": "UNRESOLVED",
+      "reason": "no void field in source (non-core; null class)"
+    },
+    "horse": {
+      "state": "UNRESOLVED",
+      "reason": "no horse field in source (non-core; null class)"
+    },
+    "board": {
+      "state": "UNRESOLVED",
+      "reason": "no board/layout array in source (non-core)"
+    }
+  }
+}
