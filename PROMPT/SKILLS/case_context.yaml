@@ -1,0 +1,27 @@
+case_context:
+  version: 1
+  casting_reason: >
+    The chart was cast because [plain description of the real situation: who is asking,
+    what changed in their life, what prompted them to look at this now].
+  question: >
+    [The concrete question, in the querent's own terms.]
+  subject: "self"                # self | other | project | place | event
+  domain: "career"               # career | finance | health | relationship | legal | travel | lost_item | other
+  timeframe_of_interest: "the next three seasonal cycles"
+  decision_needed: >
+    [What decision this reading feeds — e.g. "whether to accept the offer or wait".]
+
+  known_facts:                   # hard constraints; verdicts may not contradict these
+    - "The querent has an existing written offer, dated this month."
+    - "The querent's current engagement ends at the solstice."
+  unknowns:                      # hard prohibitions; the analysis must not resolve these
+    - "Whether the counterparty will raise their number."
+    - "The exact start date of the new role."
+
+  relevance_hint:                # optional
+    palaces: []                  # canonical 1-9
+    roles: []
+  do_not_say: []                 # topics the deliverable must exclude
+
+  language: "en"                 # en | zh
+  register: "formal"             # formal | plain
