@@ -1,0 +1,819 @@
+{
+  "file_role": "solution.json — the solver's solution object. Authored interpretation layer: requirement bindings, verdicts, hidden-problem translations, best-solution candidates and the assumption index. All content is lint-clean for the SUBMISSION scope (no chart terminology, no metaphysical framing); the technical mapping lives in OPERATOR and in the LAYER_A appendix. Scores are produced by CAP-10, never here.",
+  "note_default": "chart-derived only; not yet requirement-bound",
+  "supersessions": [],
+  "dependencies": [
+    {
+      "from": "V-001",
+      "to": "adapted_package_view/evidence_registry",
+      "type": "evidence"
+    },
+    {
+      "from": "V-004",
+      "to": "brief_facts/CONK08",
+      "type": "hard_constraint"
+    },
+    {
+      "from": "V-003",
+      "to": "brief_facts/CONK09",
+      "type": "hard_constraint"
+    },
+    {
+      "from": "V-009",
+      "to": "live_facts/creator_verification",
+      "type": "external_fact"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "ASM-01",
+      "statement": "The assignment brief plus the Part 1 deck together define the campaign frame; Part 1 remains authoritative for the brand because the brief requires the work to build on it.",
+      "risk": "low",
+      "tier": 5
+    },
+    {
+      "id": "ASM-02",
+      "statement": "Structural readings are mapped to content behaviour, not to named platforms. Channel recommendations are therefore behavioural: display-and-discovery, depth, quiet. Named surfaces come from Part 1's own five priorities.",
+      "risk": "medium",
+      "tier": 5
+    },
+    {
+      "id": "ASM-03",
+      "statement": "Two creators are recommended from live public sources, verified by two independent sources each, and presented with their fit reasoning rather than their follower counts.",
+      "risk": "medium",
+      "tier": 5
+    },
+    {
+      "id": "ASM-04",
+      "statement": "Where the brief is silent on a facet (frequency, specific tools), the gap is recorded rather than invented.",
+      "risk": "low",
+      "tier": 5
+    },
+    {
+      "id": "ASM-05",
+      "statement": "Weekday assignment in the two-week calendar is an operational convention, not a structural finding; the source supplies no calendar timing.",
+      "risk": "low",
+      "tier": 5
+    }
+  ],
+  "requirement_bindings": {
+    "REQ-001": {
+      "question_type": "deliverable_or_artefact",
+      "slot": "best_solution",
+      "slide": "continuation",
+      "rule_id": "R-CONTINUATION",
+      "evidence": [
+        "E001"
+      ],
+      "tag": "DIRECT"
+    },
+    "REQ-003": {
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "slide": "all",
+      "rule_id": "R-FOUNDATION",
+      "evidence": [
+        "E005",
+        "E006"
+      ],
+      "tag": "DIRECT"
+    },
+    "REQ-004": {
+      "question_type": "strategy_or_best_path",
+      "slot": "my_answers",
+      "slide": "1",
+      "rule_id": "R-OBJECTIVE-SELECT",
+      "evidence": [
+        "E005",
+        "E022",
+        "E086",
+        "E085",
+        "E095",
+        "E012"
+      ],
+      "tag": "DIRECT"
+    },
+    "REQ-005": {
+      "question_type": "audience_or_tone",
+      "slot": "my_answers",
+      "slide": "2",
+      "rule_id": "R-VOICE-BIND",
+      "evidence": [
+        "E017",
+        "E019",
+        "E020",
+        "E029",
+        "E074",
+        "E012"
+      ],
+      "tag": "DIRECT"
+    },
+    "REQ-006": {
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "slide": "3",
+      "rule_id": "R-PILLAR-FUNCTION",
+      "evidence": [
+        "E022",
+        "E086",
+        "E074",
+        "E012",
+        "E055",
+        "E057"
+      ],
+      "tag": "DIRECT"
+    },
+    "REQ-007": {
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "slide": "4",
+      "rule_id": "R-CHANNEL-BEHAVIOUR",
+      "evidence": [
+        "E085",
+        "E086",
+        "E095",
+        "E022",
+        "E074",
+        "E050"
+      ],
+      "tag": "DIRECT"
+    },
+    "REQ-008": {
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "slide": "5",
+      "rule_id": "R-ONE-IDEA",
+      "evidence": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ],
+      "tag": "DIRECT"
+    },
+    "REQ-009": {
+      "question_type": "deliverable_or_artefact",
+      "slot": "my_answers",
+      "slide": "6",
+      "rule_id": "R-CONCEPT-SET",
+      "evidence": [
+        "E022",
+        "E086",
+        "E074",
+        "E055"
+      ],
+      "tag": "DIRECT"
+    },
+    "REQ-010": {
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "slide": "7",
+      "rule_id": "R-HERO-INSIGHT",
+      "evidence": [
+        "E014",
+        "E015",
+        "E029",
+        "E097",
+        "E102"
+      ],
+      "tag": "DIRECT"
+    },
+    "REQ-011": {
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "slide": "8",
+      "rule_id": "R-COMMUNITY",
+      "evidence": [
+        "E023",
+        "E024",
+        "E029",
+        "E074",
+        "E055"
+      ],
+      "tag": "DIRECT"
+    },
+    "REQ-012": {
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "slide": "9",
+      "rule_id": "R-CREATOR-FIT",
+      "evidence": [
+        "E074",
+        "E084",
+        "E091",
+        "E050"
+      ],
+      "tag": "DIRECT"
+    },
+    "REQ-013": {
+      "question_type": "timeline_or_execution",
+      "slot": "my_answers",
+      "slide": "10",
+      "rule_id": "R-CADENCE",
+      "evidence": [
+        "E012",
+        "E024",
+        "E075",
+        "E006"
+      ],
+      "tag": "DIRECT"
+    },
+    "REQ-014": {
+      "question_type": "profit_or_value",
+      "slot": "my_answers",
+      "slide": "11",
+      "rule_id": "R-METRIC-CLASS",
+      "evidence": [
+        "E086",
+        "E074",
+        "E097",
+        "E050"
+      ],
+      "tag": "DIRECT"
+    },
+    "REQ-015": {
+      "question_type": "deliverable_or_artefact",
+      "slot": "best_solution",
+      "slide": "checklist",
+      "rule_id": "R-COVERAGE",
+      "evidence": [
+        "E001"
+      ],
+      "tag": "INDIRECT"
+    },
+    "REQ-002": {
+      "question_type": "deliverable_or_artefact",
+      "slot": "my_answers",
+      "slide": "all",
+      "rule_id": "R-NO-EVIDENCE",
+      "evidence": [],
+      "tag": "NO_CHART_SUPPORT",
+      "note": "slide-length policy is the brief's own; no evidence speaks to it"
+    },
+    "REQ-016": {
+      "question_type": "quality_bar",
+      "slot": "my_answers",
+      "slide": "all",
+      "rule_id": "R-NO-EVIDENCE",
+      "evidence": [],
+      "tag": "NO_CHART_SUPPORT",
+      "note": "the evaluation bar is the marker's instrument; the submission answers it, evidence does not"
+    },
+    "REQ-017": {
+      "question_type": "timeline_or_execution",
+      "slot": "my_answers",
+      "slide": "all",
+      "rule_id": "R-NO-EVIDENCE",
+      "evidence": [],
+      "tag": "NO_CHART_SUPPORT",
+      "note": "the deadline is fixed by the brief; no evidence bears on it"
+    }
+  },
+  "verdicts": [
+    {
+      "claim_id": "V-001",
+      "slot": "my_answers",
+      "slide": "1",
+      "text_en": "Content should make Off Hours the place the audience goes when the evening will not switch off: authority is earned by teaching, not by claiming.",
+      "polarity": "SUPPORT",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "evidence": [
+        "E005",
+        "E022",
+        "E012"
+      ],
+      "phase": "SOLUTION_ENGINE",
+      "status": "live"
+    },
+    {
+      "claim_id": "V-002",
+      "slot": "my_answers",
+      "slide": "1",
+      "text_en": "Two objectives: awareness through display, and education as the brand's authority. Both are reachable this cycle; community and conversion remain secondary.",
+      "polarity": "SUPPORT",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "evidence": [
+        "E086",
+        "E085",
+        "E095",
+        "E022",
+        "E012"
+      ],
+      "phase": "SOLUTION_ENGINE",
+      "status": "live"
+    },
+    {
+      "claim_id": "V-003",
+      "slot": "hidden_problems",
+      "slide": "7",
+      "text_en": "Pushing announcement-style messaging through partnership and community channels is the structure's named failure mode: the message travels badly and the partner relationship absorbs the cost.",
+      "polarity": "WARN",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "evidence": [
+        "E029",
+        "E031",
+        "E032"
+      ],
+      "phase": "SOLUTION_ENGINE",
+      "status": "live"
+    },
+    {
+      "claim_id": "V-004",
+      "slot": "hidden_problems",
+      "slide": "4",
+      "text_en": "Three registers are structurally costly for this brand: alarm-first framing, argument and pile-on formats, and forced volume. Each is avoided by name rather than by taste.",
+      "polarity": "WARN",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "evidence": [
+        "E050",
+        "E057",
+        "E055",
+        "E064",
+        "E012"
+      ],
+      "phase": "SOLUTION_ENGINE",
+      "status": "live"
+    },
+    {
+      "claim_id": "V-005",
+      "slot": "best_solution",
+      "slide": "3",
+      "text_en": "Five content pillars, each carrying a function the structure actually distinguishes: plain teaching, display, quiet proof, depth, and published refusals.",
+      "polarity": "SUPPORT",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "evidence": [
+        "E022",
+        "E086",
+        "E074",
+        "E012",
+        "E055"
+      ],
+      "phase": "SOLUTION_ENGINE",
+      "status": "live"
+    },
+    {
+      "claim_id": "V-006",
+      "slot": "best_solution",
+      "slide": "4",
+      "text_en": "Channels are chosen by audience behaviour: a display-and-discovery surface, a depth surface, and a private surface - matching the three that Part 1 already operates.",
+      "polarity": "SEQUENCE",
+      "confidence": "MED",
+      "grounding": "COMPUTED",
+      "evidence": [
+        "E085",
+        "E086",
+        "E095",
+        "E022",
+        "E074"
+      ],
+      "phase": "SOLUTION_ENGINE",
+      "status": "live"
+    },
+    {
+      "claim_id": "V-007",
+      "slot": "best_solution",
+      "slide": "5",
+      "text_en": "One idea, executed differently per surface, is the correct architecture: every surface in the plan is reachable from every other, so nothing is a dead end.",
+      "polarity": "SUPPORT",
+      "confidence": "HIGH",
+      "grounding": "COMPUTED",
+      "evidence": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ],
+      "phase": "SOLUTION_ENGINE",
+      "status": "live"
+    },
+    {
+      "claim_id": "V-008",
+      "slot": "best_solution",
+      "slide": "7",
+      "text_en": "The hero idea should show the opening rather than announce it: a small unlock, explained plainly, with the product arriving as the consequence of the teaching.",
+      "polarity": "SUPPORT",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "evidence": [
+        "E017",
+        "E019",
+        "E014",
+        "E102"
+      ],
+      "phase": "SOLUTION_ENGINE",
+      "status": "live"
+    },
+    {
+      "claim_id": "V-009",
+      "slot": "best_solution",
+      "slide": "9",
+      "text_en": "Creator fit is a teaching-and-trust test, not a reach test: practical educators with highly engaged private audiences, chosen by four filters.",
+      "polarity": "SUPPORT",
+      "confidence": "MED",
+      "grounding": "INFERRED",
+      "evidence": [
+        "E074",
+        "E084",
+        "E091"
+      ],
+      "phase": "SOLUTION_ENGINE",
+      "status": "live"
+    },
+    {
+      "claim_id": "V-010",
+      "slot": "timeline",
+      "slide": "10",
+      "text_en": "Cadence should be deliberate and light: fewer, deeper pieces with planned quiet days, one anchor and one visual piece each week.",
+      "polarity": "SEQUENCE",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "evidence": [
+        "E012",
+        "E024",
+        "E075"
+      ],
+      "phase": "SOLUTION_ENGINE",
+      "status": "live"
+    },
+    {
+      "claim_id": "V-011",
+      "slot": "coverage",
+      "slide": "11",
+      "text_en": "Seven metrics, each tied to an objective, including one negative indicator tracked as a stop signal.",
+      "polarity": "SUPPORT",
+      "confidence": "MED",
+      "grounding": "COMPUTED",
+      "evidence": [
+        "E086",
+        "E074",
+        "E097",
+        "E050"
+      ],
+      "phase": "SOLUTION_ENGINE",
+      "status": "live"
+    },
+    {
+      "claim_id": "V-012",
+      "slot": "risk",
+      "slide": "2",
+      "text_en": "The honest insight is not 'people need more rest', it is 'people do not need more energy, they need one thing that works when they have none'. The quiet channel is structurally favourable but currently low-energy, so results will be gradual.",
+      "polarity": "CONSTRAIN",
+      "confidence": "MED",
+      "grounding": "EXPLICIT",
+      "evidence": [
+        "E014",
+        "E015",
+        "E077",
+        "E078"
+      ],
+      "phase": "SOLUTION_ENGINE",
+      "status": "live"
+    }
+  ],
+  "hidden_problems": [
+    {
+      "id": "H-001",
+      "slide": "7",
+      "risk_en": "Partnership announcements under-deliver: messages pushed through alliance and community channels travel badly and consume partner goodwill. Keep those channels two-way and conversational; do not route a launch announcement through them.",
+      "polarity": "WARN",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "evidence": [
+        "E029",
+        "E031",
+        "E032",
+        "E023"
+      ]
+    },
+    {
+      "id": "H-002",
+      "slide": "4",
+      "risk_en": "Alarm, argument and forced volume are the three registers that cost this brand the most: outrage framing, pile-on formats and posting-to-fill-the-calendar each damage trust faster than they build reach.",
+      "polarity": "WARN",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "evidence": [
+        "E050",
+        "E055",
+        "E057",
+        "E064",
+        "E012"
+      ]
+    },
+    {
+      "id": "H-003",
+      "slide": "2",
+      "risk_en": "The quiet channel is favourable in kind but depleted in force: private, low-noise content accumulates slowly. Judging it in month one against display metrics will make a working channel look like a failing one.",
+      "polarity": "CONSTRAIN",
+      "confidence": "MED",
+      "grounding": "EXPLICIT",
+      "evidence": [
+        "E077",
+        "E078",
+        "E080",
+        "E074"
+      ]
+    },
+    {
+      "id": "H-004",
+      "slide": "2",
+      "risk_en": "The opposite failure is also live: a brand that is restrained everywhere can become inaudible. Restraint is the claim discipline, not a ban on being seen - display content carries the reach.",
+      "polarity": "CONSTRAIN",
+      "confidence": "MED",
+      "grounding": "EXPLICIT",
+      "evidence": [
+        "E012",
+        "E086",
+        "E095"
+      ]
+    },
+    {
+      "id": "H-005",
+      "slide": "3",
+      "risk_en": "Head-on contestation is a live option in this structure but it is a deliberate strategic posture, not a default. If Off Hours attacks incumbent categories by name, that is a decision with its own cost - and it is not what Part 1 chose.",
+      "polarity": "CONSTRAIN",
+      "confidence": "MED",
+      "grounding": "EXPLICIT",
+      "evidence": [
+        "E061",
+        "E060"
+      ]
+    },
+    {
+      "id": "H-006",
+      "slide": "9",
+      "risk_en": "Support can be locked: the structure marks a condition in which outside help cannot translate into real assistance. Creator and partner programmes need a self-sufficient core, not a dependency.",
+      "polarity": "WARN",
+      "confidence": "MED",
+      "grounding": "EXPLICIT",
+      "evidence": [
+        "E032",
+        "E031"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "S-01",
+      "slot": "best_solution",
+      "label": "Quiet Authority",
+      "description": "One teaching voice. Display carries reach; depth carries trust; the private channel carries accumulation. Cadence stays deliberate. Creator programme is a small set of practical educators.",
+      "evidence": [
+        "E005",
+        "E022",
+        "E012",
+        "E086",
+        "E074",
+        "E017",
+        "E075",
+        "R001",
+        "R002",
+        "R003"
+      ],
+      "contradicting": [
+        "E077",
+        "E078"
+      ],
+      "board_consistency": true,
+      "hard_violations": [],
+      "audience_fit": 0.9,
+      "requirements": [
+        {
+          "req": "REQ-004",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-005",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-006",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-007",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-008",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-009",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-010",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-011",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-012",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-013",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-014",
+          "must_level": "must",
+          "satisfaction": "full"
+        }
+      ]
+    },
+    {
+      "candidate_id": "S-02",
+      "slot": "best_solution",
+      "label": "Broadcast Reach Sprint",
+      "description": "Launch-week awareness burst: mass display, high-frequency posting, celebrity and macro-creator amplification to build reach fast.",
+      "evidence": [
+        "E086",
+        "E061"
+      ],
+      "contradicting": [
+        "E012",
+        "E029",
+        "E050",
+        "E055",
+        "E057",
+        "E064",
+        "E031"
+      ],
+      "board_consistency": false,
+      "hard_violations": [
+        "Part 1 decision 4: mass awareness is deliberately delayed until pull signals exist",
+        "Part 1 non-priority: celebrity influencer blitzes",
+        "Part 1 non-priority: mass display / broad awareness bursts"
+      ],
+      "audience_fit": 0.2,
+      "requirements": [
+        {
+          "req": "REQ-004",
+          "must_level": "must",
+          "satisfaction": "partial"
+        },
+        {
+          "req": "REQ-007",
+          "must_level": "must",
+          "satisfaction": "unsupported"
+        },
+        {
+          "req": "REQ-013",
+          "must_level": "must",
+          "satisfaction": "partial"
+        },
+        {
+          "req": "REQ-014",
+          "must_level": "must",
+          "satisfaction": "partial"
+        }
+      ]
+    },
+    {
+      "candidate_id": "S-03",
+      "slot": "best_solution",
+      "label": "Advocacy Blitz",
+      "description": "Community-challenge-led growth: competitive user challenges, duets and callouts, with macro creators driving participation.",
+      "evidence": [
+        "E023",
+        "E024"
+      ],
+      "contradicting": [
+        "E055",
+        "E064",
+        "E050",
+        "E057"
+      ],
+      "board_consistency": false,
+      "hard_violations": [
+        "Part 1 non-priority: celebrity influencer blitzes",
+        "Part 1 strategic stance: compete with the habit of not switching off, not with noise"
+      ],
+      "audience_fit": 0.3,
+      "requirements": [
+        {
+          "req": "REQ-011",
+          "must_level": "must",
+          "satisfaction": "partial"
+        },
+        {
+          "req": "REQ-012",
+          "must_level": "must",
+          "satisfaction": "unsupported"
+        }
+      ]
+    },
+    {
+      "candidate_id": "S-04",
+      "slot": "best_solution",
+      "label": "Education-First, Newsletter-Led",
+      "description": "Maximum-depth education: an owned publication carries the strategy, with only light display content. Compliant with every Part 1 constraint, but under-uses the display and discovery capacity Part 1 already built.",
+      "evidence": [
+        "E022",
+        "E012",
+        "E074",
+        "E075"
+      ],
+      "contradicting": [
+        "E086",
+        "E085"
+      ],
+      "board_consistency": true,
+      "hard_violations": [],
+      "audience_fit": 0.8,
+      "requirements": [
+        {
+          "req": "REQ-004",
+          "must_level": "must",
+          "satisfaction": "partial"
+        },
+        {
+          "req": "REQ-005",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-006",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-007",
+          "must_level": "must",
+          "satisfaction": "partial"
+        },
+        {
+          "req": "REQ-008",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-009",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-010",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-011",
+          "must_level": "must",
+          "satisfaction": "partial"
+        },
+        {
+          "req": "REQ-012",
+          "must_level": "must",
+          "satisfaction": "partial"
+        },
+        {
+          "req": "REQ-013",
+          "must_level": "must",
+          "satisfaction": "full"
+        },
+        {
+          "req": "REQ-014",
+          "must_level": "must",
+          "satisfaction": "partial"
+        }
+      ]
+    }
+  ],
+  "selection": {
+    "slot": "best_solution",
+    "winner": "S-01",
+    "margin_note": "S-01 leads on requirement coverage and hard-constraint compliance. S-04 is fully compliant but leaves the display and discovery capacity that Part 1 already operates under-used, so its coverage is partial on four must-level requirements. S-02 and S-03 are vetoed by Part 1's own named non-priorities and by its deliberate phasing of partnerships and mass awareness; they are recorded as rejected with reasons and never shipped as alternatives.",
+    "runner_up": "S-04",
+    "runner_up_rejection_reason": "Lower requirement coverage: the owned publication is the strongest asset but the strategy must also carry awareness, and a newsletter-only plan leaves the discovery surface idle."
+  }
+}

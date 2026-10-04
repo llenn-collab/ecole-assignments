@@ -1,0 +1,11 @@
+{
+  "CAP": "CAP-07",
+  "call_index": 8,
+  "in": [
+    "binding_manifest",
+    "adapted_package_view"
+  ],
+  "out": "cards",
+  "cost": 30,
+  "status": "OK"
+}

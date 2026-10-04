@@ -1,0 +1,16 @@
+CAP|CAP-01|in=brief,package,part1|out=fingerprint|cost=51
+CAP|CAP-02|in=package|out=package_normalize|cost=18
+CAP|CAP-03|in=package,solution_seed|out=adapted_package_view|cost=27
+CAP|CAP-15|in=brief|out=brief_decompose|cost=59
+CAP|CAP-04|in=brief_decompose|out=requirement_resolve|cost=230
+CAP|CAP-06|in=brief_decompose,solution|out=binding_manifest|cost=20
+CAP|CAP-16|in=binding_manifest,adapted_package_view|out=requirement_map|cost=35
+CAP|CAP-07|in=binding_manifest,adapted_package_view|out=cards|cost=30
+CAP|CAP-09|in=adapted_package_view,evidence_ledger|out=ledger_reconcile|cost=60
+CAP|CAP-10|in=solution,adapted_package_view|out=score_card|cost=133
+CAP|CAP-18|in=solution|out=hidden_translate|cost=22
+CAP|CAP-12|in=solution|out=dependency_check|cost=12
+CAP|CAP-17|in=solution,brief_facts|out=conflict_check|cost=179
+CAP|CAP-11|in=submission,annotated,layer_a|out=lint_scan|cost=14
+CAP|CAP-14|in=all_state|out=self_audit|cost=33
+CAP|CAP-13|in=run_tree|out=manifest_build|cost=62

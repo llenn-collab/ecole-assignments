@@ -1,0 +1,22 @@
+{
+  "profile": "human-writer skill (PROMPT/SKILLS/human-writer.md)",
+  "scope": "SUBMISSION/",
+  "rules": [
+    "no em dash",
+    "no semicolon",
+    "no asterisk",
+    "no hashtag",
+    "no banned vocabulary"
+  ],
+  "files": {
+    "00_off_hours_content_strategy.md": 0,
+    "03_creator_dossier.md": 0,
+    "04_copy_pack.md": 0,
+    "01_two_week_calendar.csv": 0,
+    "02_measurement_framework.csv": 0,
+    "Off_Hours_Assignment_2_Content_Strategy.pptx": 0,
+    "Off_Hours_Assignment_2_Content_Strategy.pdf": 0
+  },
+  "total_hits": 0,
+  "pass": true
+}

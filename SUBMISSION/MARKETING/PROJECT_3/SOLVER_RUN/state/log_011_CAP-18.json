@@ -1,0 +1,10 @@
+{
+  "CAP": "CAP-18",
+  "call_index": 11,
+  "in": [
+    "solution"
+  ],
+  "out": "hidden_translate",
+  "cost": 22,
+  "status": "OK"
+}

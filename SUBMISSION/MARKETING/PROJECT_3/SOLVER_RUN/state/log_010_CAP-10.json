@@ -1,0 +1,11 @@
+{
+  "CAP": "CAP-10",
+  "call_index": 10,
+  "in": [
+    "solution",
+    "adapted_package_view"
+  ],
+  "out": "score_card",
+  "cost": 133,
+  "status": "OK"
+}

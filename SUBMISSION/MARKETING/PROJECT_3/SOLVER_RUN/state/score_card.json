@@ -1,0 +1,91 @@
+{
+  "cap": "CAP-10",
+  "weights": {
+    "grounding_tier": 0.3,
+    "corroboration": 0.2,
+    "contradiction_penalty": 0.15,
+    "board_consistency": 0.05,
+    "requirement_fit": 0.3
+  },
+  "requirement_weights": {
+    "must": 1.0,
+    "should": 0.6,
+    "may": 0.3
+  },
+  "scored_candidates": [
+    {
+      "candidate_id": "S-01",
+      "slot": "best_solution",
+      "grounding_tier": "COMPUTED",
+      "supporting_evidence_count": 10,
+      "corroboration": 1.0,
+      "contradiction_penalty": 0.7778,
+      "board_consistency_pass": true,
+      "requirement_coverage": 1.0,
+      "hard_constraint_compliance": 1.0,
+      "audience_and_tone_fit": 0.9,
+      "requirement_fit_score": 0.98,
+      "final_score": 0.8407,
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-10/v1",
+      "rank": 1
+    },
+    {
+      "candidate_id": "S-04",
+      "slot": "best_solution",
+      "grounding_tier": "EXPLICIT",
+      "supporting_evidence_count": 4,
+      "corroboration": 0.4444,
+      "contradiction_penalty": 0.7778,
+      "board_consistency_pass": true,
+      "requirement_coverage": 0.7727,
+      "hard_constraint_compliance": 1.0,
+      "audience_and_tone_fit": 0.8,
+      "requirement_fit_score": 0.8691,
+      "final_score": 0.8163,
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-10/v1",
+      "rank": 2
+    },
+    {
+      "candidate_id": "S-03",
+      "slot": "best_solution",
+      "grounding_tier": "EXPLICIT",
+      "supporting_evidence_count": 2,
+      "corroboration": 0.2222,
+      "contradiction_penalty": 0.5556,
+      "board_consistency_pass": false,
+      "requirement_coverage": 0.25,
+      "hard_constraint_compliance": 0.0,
+      "audience_and_tone_fit": 0.3,
+      "requirement_fit_score": 0.0,
+      "final_score": 0.4278,
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-10/v1",
+      "rank": 3
+    },
+    {
+      "candidate_id": "S-02",
+      "slot": "best_solution",
+      "grounding_tier": "EXPLICIT",
+      "supporting_evidence_count": 2,
+      "corroboration": 0.2222,
+      "contradiction_penalty": 0.2222,
+      "board_consistency_pass": false,
+      "requirement_coverage": 0.375,
+      "hard_constraint_compliance": 0.0,
+      "audience_and_tone_fit": 0.2,
+      "requirement_fit_score": 0.0,
+      "final_score": 0.3778,
+      "SCORE_SOURCE": "TIER0_TOOL_CAP-10/v1",
+      "rank": 4
+    }
+  ],
+  "winner": "S-01",
+  "tie_state": "RESOLVED",
+  "selection_note": {
+    "slot": "best_solution",
+    "winner": "S-01",
+    "margin_note": "S-01 leads on requirement coverage and hard-constraint compliance. S-04 is fully compliant but leaves the display and discovery capacity that Part 1 already operates under-used, so its coverage is partial on four must-level requirements. S-02 and S-03 are vetoed by Part 1's own named non-priorities and by its deliberate phasing of partnerships and mass awareness; they are recorded as rejected with reasons and never shipped as alternatives.",
+    "runner_up": "S-04",
+    "runner_up_rejection_reason": "Lower requirement coverage: the owned publication is the strongest asset but the strategy must also carry awareness, and a newsletter-only plan leaves the discovery surface idle."
+  },
+  "upstream_score_policy": "IGNORED_UPSTREAM_SCORE"
+}

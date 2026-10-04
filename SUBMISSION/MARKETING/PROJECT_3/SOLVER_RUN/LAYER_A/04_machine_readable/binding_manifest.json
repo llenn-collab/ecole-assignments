@@ -1,0 +1,314 @@
+{
+  "cap": "CAP-06",
+  "binding_count": 17,
+  "bindings": [
+    {
+      "binding_id": "BIND-001",
+      "requirement_id": "REQ-001",
+      "question_type": "deliverable_or_artefact",
+      "slot": "best_solution",
+      "deck_slide": "continuation",
+      "rule_id": "R-CONTINUATION",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [
+        "E001"
+      ],
+      "must_level": "must",
+      "tag": "DIRECT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-002",
+      "requirement_id": "REQ-002",
+      "question_type": "deliverable_or_artefact",
+      "slot": "my_answers",
+      "deck_slide": "all",
+      "rule_id": "R-NO-EVIDENCE",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [],
+      "must_level": "may",
+      "tag": "NO_CHART_SUPPORT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-003",
+      "requirement_id": "REQ-003",
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "deck_slide": "all",
+      "rule_id": "R-FOUNDATION",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [
+        "E005",
+        "E006"
+      ],
+      "must_level": "must",
+      "tag": "DIRECT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-004",
+      "requirement_id": "REQ-004",
+      "question_type": "strategy_or_best_path",
+      "slot": "my_answers",
+      "deck_slide": "1",
+      "rule_id": "R-OBJECTIVE-SELECT",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [
+        "E005",
+        "E022",
+        "E086",
+        "E085",
+        "E095",
+        "E012"
+      ],
+      "must_level": "must",
+      "tag": "DIRECT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-005",
+      "requirement_id": "REQ-005",
+      "question_type": "audience_or_tone",
+      "slot": "my_answers",
+      "deck_slide": "2",
+      "rule_id": "R-VOICE-BIND",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [
+        "E017",
+        "E019",
+        "E020",
+        "E029",
+        "E074",
+        "E012"
+      ],
+      "must_level": "must",
+      "tag": "DIRECT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-006",
+      "requirement_id": "REQ-006",
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "deck_slide": "3",
+      "rule_id": "R-PILLAR-FUNCTION",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [
+        "E022",
+        "E086",
+        "E074",
+        "E012",
+        "E055",
+        "E057"
+      ],
+      "must_level": "must",
+      "tag": "DIRECT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-007",
+      "requirement_id": "REQ-007",
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "deck_slide": "4",
+      "rule_id": "R-CHANNEL-BEHAVIOUR",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [
+        "E085",
+        "E086",
+        "E095",
+        "E022",
+        "E074",
+        "E050"
+      ],
+      "must_level": "must",
+      "tag": "DIRECT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-008",
+      "requirement_id": "REQ-008",
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "deck_slide": "5",
+      "rule_id": "R-ONE-IDEA",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ],
+      "must_level": "must",
+      "tag": "DIRECT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-009",
+      "requirement_id": "REQ-009",
+      "question_type": "deliverable_or_artefact",
+      "slot": "my_answers",
+      "deck_slide": "6",
+      "rule_id": "R-CONCEPT-SET",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [
+        "E022",
+        "E086",
+        "E074",
+        "E055"
+      ],
+      "must_level": "must",
+      "tag": "DIRECT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-010",
+      "requirement_id": "REQ-010",
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "deck_slide": "7",
+      "rule_id": "R-HERO-INSIGHT",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [
+        "E014",
+        "E015",
+        "E029",
+        "E097",
+        "E102"
+      ],
+      "must_level": "must",
+      "tag": "DIRECT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-011",
+      "requirement_id": "REQ-011",
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "deck_slide": "8",
+      "rule_id": "R-COMMUNITY",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [
+        "E023",
+        "E024",
+        "E029",
+        "E074",
+        "E055"
+      ],
+      "must_level": "must",
+      "tag": "DIRECT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-012",
+      "requirement_id": "REQ-012",
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "deck_slide": "9",
+      "rule_id": "R-CREATOR-FIT",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [
+        "E074",
+        "E084",
+        "E091",
+        "E050"
+      ],
+      "must_level": "must",
+      "tag": "DIRECT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-013",
+      "requirement_id": "REQ-013",
+      "question_type": "timeline_or_execution",
+      "slot": "my_answers",
+      "deck_slide": "10",
+      "rule_id": "R-CADENCE",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [
+        "E012",
+        "E024",
+        "E075",
+        "E006"
+      ],
+      "must_level": "must",
+      "tag": "DIRECT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-014",
+      "requirement_id": "REQ-014",
+      "question_type": "profit_or_value",
+      "slot": "my_answers",
+      "deck_slide": "11",
+      "rule_id": "R-METRIC-CLASS",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [
+        "E086",
+        "E074",
+        "E097",
+        "E050"
+      ],
+      "must_level": "must",
+      "tag": "DIRECT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-015",
+      "requirement_id": "REQ-015",
+      "question_type": "deliverable_or_artefact",
+      "slot": "best_solution",
+      "deck_slide": "checklist",
+      "rule_id": "R-COVERAGE",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [
+        "E001"
+      ],
+      "must_level": "must",
+      "tag": "INDIRECT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-016",
+      "requirement_id": "REQ-016",
+      "question_type": "quality_bar",
+      "slot": "my_answers",
+      "deck_slide": "all",
+      "rule_id": "R-NO-EVIDENCE",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [],
+      "must_level": "should",
+      "tag": "NO_CHART_SUPPORT",
+      "status": "bound"
+    },
+    {
+      "binding_id": "BIND-017",
+      "requirement_id": "REQ-017",
+      "question_type": "timeline_or_execution",
+      "slot": "my_answers",
+      "deck_slide": "all",
+      "rule_id": "R-NO-EVIDENCE",
+      "candidate_id": "CAND-PRIMARY",
+      "evidence": [],
+      "must_level": "must",
+      "tag": "NO_CHART_SUPPORT",
+      "status": "bound"
+    }
+  ],
+  "unmatched_required_questions": [],
+  "question_types_used": [
+    "audience_or_tone",
+    "deliverable_or_artefact",
+    "design_direction",
+    "profit_or_value",
+    "quality_bar",
+    "strategy_or_best_path",
+    "timeline_or_execution"
+  ]
+}

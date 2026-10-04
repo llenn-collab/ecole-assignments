@@ -1,0 +1,144 @@
+{
+  "cap": "CAP-17",
+  "verdict_checks": [
+    {
+      "claim_id": "V-001",
+      "status": "clean",
+      "conflict_with": [],
+      "resolves_unknown": []
+    },
+    {
+      "claim_id": "V-002",
+      "status": "clean",
+      "conflict_with": [],
+      "resolves_unknown": []
+    },
+    {
+      "claim_id": "V-003",
+      "status": "conflict",
+      "conflict_with": [
+        "CONK09"
+      ],
+      "resolves_unknown": []
+    },
+    {
+      "claim_id": "V-004",
+      "status": "conflict",
+      "conflict_with": [
+        "CONK08"
+      ],
+      "resolves_unknown": []
+    },
+    {
+      "claim_id": "V-005",
+      "status": "clean",
+      "conflict_with": [],
+      "resolves_unknown": []
+    },
+    {
+      "claim_id": "V-006",
+      "status": "clean",
+      "conflict_with": [],
+      "resolves_unknown": []
+    },
+    {
+      "claim_id": "V-007",
+      "status": "clean",
+      "conflict_with": [],
+      "resolves_unknown": []
+    },
+    {
+      "claim_id": "V-008",
+      "status": "clean",
+      "conflict_with": [],
+      "resolves_unknown": []
+    },
+    {
+      "claim_id": "V-009",
+      "status": "clean",
+      "conflict_with": [],
+      "resolves_unknown": [
+        "UNK02"
+      ]
+    },
+    {
+      "claim_id": "V-010",
+      "status": "clean",
+      "conflict_with": [],
+      "resolves_unknown": []
+    },
+    {
+      "claim_id": "V-011",
+      "status": "clean",
+      "conflict_with": [],
+      "resolves_unknown": []
+    },
+    {
+      "claim_id": "V-012",
+      "status": "clean",
+      "conflict_with": [],
+      "resolves_unknown": []
+    }
+  ],
+  "conflicts": [
+    {
+      "claim_id": "V-003",
+      "status": "conflict",
+      "conflict_with": [
+        "CONK09"
+      ],
+      "resolves_unknown": []
+    },
+    {
+      "claim_id": "V-004",
+      "status": "conflict",
+      "conflict_with": [
+        "CONK08"
+      ],
+      "resolves_unknown": []
+    }
+  ],
+  "unknown_resolutions": [
+    {
+      "claim_id": "V-009",
+      "status": "clean",
+      "conflict_with": [],
+      "resolves_unknown": [
+        "UNK02"
+      ]
+    }
+  ],
+  "assumption_index": [
+    {
+      "id": "ASM-01",
+      "statement": "The assignment brief plus the Part 1 deck together define the campaign frame; Part 1 remains authoritative for the brand because the brief requires the work to build on it.",
+      "risk": "low",
+      "tier": 5
+    },
+    {
+      "id": "ASM-02",
+      "statement": "Structural readings are mapped to content behaviour, not to named platforms. Channel recommendations are therefore behavioural: display-and-discovery, depth, quiet. Named surfaces come from Part 1's own five priorities.",
+      "risk": "medium",
+      "tier": 5
+    },
+    {
+      "id": "ASM-03",
+      "statement": "Two creators are recommended from live public sources, verified by two independent sources each, and presented with their fit reasoning rather than their follower counts.",
+      "risk": "medium",
+      "tier": 5
+    },
+    {
+      "id": "ASM-04",
+      "statement": "Where the brief is silent on a facet (frequency, specific tools), the gap is recorded rather than invented.",
+      "risk": "low",
+      "tier": 5
+    },
+    {
+      "id": "ASM-05",
+      "statement": "Weekday assignment in the two-week calendar is an operational convention, not a structural finding; the source supplies no calendar timing.",
+      "risk": "low",
+      "tier": 5
+    }
+  ],
+  "pass": true
+}

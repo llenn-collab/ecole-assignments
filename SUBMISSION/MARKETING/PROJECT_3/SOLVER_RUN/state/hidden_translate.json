@@ -1,0 +1,94 @@
+{
+  "cap": "CAP-18",
+  "translated_risks": [
+    {
+      "id": "H-001",
+      "risk_en": "Partnership announcements under-deliver: messages pushed through alliance and community channels travel badly and consume partner goodwill. Keep those channels two-way and conversational; do not route a launch announcement through them.",
+      "polarity": "WARN",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "evidence_chain": [
+        "E029",
+        "E031",
+        "E032",
+        "E023"
+      ],
+      "translation_rule": "CAP-18: preserve polarity/confidence/grounding; never raise certainty; chart wording is not carried into the submission",
+      "deck_slide": "7"
+    },
+    {
+      "id": "H-002",
+      "risk_en": "Alarm, argument and forced volume are the three registers that cost this brand the most: outrage framing, pile-on formats and posting-to-fill-the-calendar each damage trust faster than they build reach.",
+      "polarity": "WARN",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "evidence_chain": [
+        "E050",
+        "E055",
+        "E057",
+        "E064",
+        "E012"
+      ],
+      "translation_rule": "CAP-18: preserve polarity/confidence/grounding; never raise certainty; chart wording is not carried into the submission",
+      "deck_slide": "4"
+    },
+    {
+      "id": "H-003",
+      "risk_en": "The quiet channel is favourable in kind but depleted in force: private, low-noise content accumulates slowly. Judging it in month one against display metrics will make a working channel look like a failing one.",
+      "polarity": "CONSTRAIN",
+      "confidence": "MED",
+      "grounding": "EXPLICIT",
+      "evidence_chain": [
+        "E077",
+        "E078",
+        "E080",
+        "E074"
+      ],
+      "translation_rule": "CAP-18: preserve polarity/confidence/grounding; never raise certainty; chart wording is not carried into the submission",
+      "deck_slide": "2"
+    },
+    {
+      "id": "H-004",
+      "risk_en": "The opposite failure is also live: a brand that is restrained everywhere can become inaudible. Restraint is the claim discipline, not a ban on being seen - display content carries the reach.",
+      "polarity": "CONSTRAIN",
+      "confidence": "MED",
+      "grounding": "EXPLICIT",
+      "evidence_chain": [
+        "E012",
+        "E086",
+        "E095"
+      ],
+      "translation_rule": "CAP-18: preserve polarity/confidence/grounding; never raise certainty; chart wording is not carried into the submission",
+      "deck_slide": "2"
+    },
+    {
+      "id": "H-005",
+      "risk_en": "Head-on contestation is a live option in this structure but it is a deliberate strategic posture, not a default. If Off Hours attacks incumbent categories by name, that is a decision with its own cost - and it is not what Part 1 chose.",
+      "polarity": "CONSTRAIN",
+      "confidence": "MED",
+      "grounding": "EXPLICIT",
+      "evidence_chain": [
+        "E061",
+        "E060"
+      ],
+      "translation_rule": "CAP-18: preserve polarity/confidence/grounding; never raise certainty; chart wording is not carried into the submission",
+      "deck_slide": "3"
+    },
+    {
+      "id": "H-006",
+      "risk_en": "Support can be locked: the structure marks a condition in which outside help cannot translate into real assistance. Creator and partner programmes need a self-sufficient core, not a dependency.",
+      "polarity": "WARN",
+      "confidence": "MED",
+      "grounding": "EXPLICIT",
+      "evidence_chain": [
+        "E032",
+        "E031"
+      ],
+      "translation_rule": "CAP-18: preserve polarity/confidence/grounding; never raise certainty; chart wording is not carried into the submission",
+      "deck_slide": "9"
+    }
+  ],
+  "polarity_preserved": true,
+  "certainty_raised": false,
+  "risk_line": "H-001(WARN,HIGH) | H-002(WARN,HIGH) | H-003(CONSTRAIN,MED) | H-004(CONSTRAIN,MED) | H-005(CONSTRAIN,MED) | H-006(WARN,MED)"
+}
