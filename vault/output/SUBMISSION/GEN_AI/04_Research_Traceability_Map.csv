@@ -1,0 +1,28 @@
+decision_id,brief,decision,trace_type,trace_ref,source_location_in_research
+D1.1,B1,Core idea: batch production record printed on pack,finding,R-04,Part 1 'The Shift' — semantic dilution of craft into surface signifiers
+D1.2,B1,Philosophy: factory legibility over farm myth,ffinding,R-05,Part 1 'The Anxiety' — skepticism on freshness/processing; Part 7 'Freshness-Industrialization Paradox'
+D1.3,B1,Anti-claim positioning (no adjectives on FoP),insight,IN-05,Part 1 'The Threshold' — claim inflation kills signal utility
+D1.4,B1,Positioning audience: urban 25–40 case shoppers,finding,R-08,Part 3 'Demographics' — Millennial/Gen-Z refrigerated-case buyers
+D1.5,B1,$4.50–6.00 premium price justification,finding,R-09,Part 3 'Decision Factors' — willingness-to-pay band and quality proof
+D1.6,B1,Tone: candid/precise registers chosen as open lane,finding,R-12,Part 5 'Tone of Voice Archetypes'
+D1.7,B1,Name signals boundary ritual not throughput,insight,IN-04,Part 3 'Moon Governance' — Morning Boundary Marker / Mid-Afternoon Pivot
+D1.8,B1,Logo avoids lowercase-clinical + heritage clutter,ffinding,R-13,Part 4 'Typography' codes + 'Restrained Certifications'
+D2.1,B2,Glass bottle as hero format,finding,R-07,Part 1 format table — glass tier 34.2% projected CAGR in natural grocers
+D2.2,B2,Unpasteurized 21-day cold chain as product truth,finding,R-05,Part 1 'The Anxiety'; Phase 1 amber-bottle precedent (Part 1 'The Shift')
+D2.3,B2,Oat-milk variant on demand curve,finding,R-06,Part 1 — clean-label plant-milk draft lattes as premium growth engine
+D2.4,B2,Ink-blue/cream/red palette vs shelf beige,insight,IN-05,Part 1 'The Threshold' — neutral oat tones/muted pastels uniformity
+D2.5,B2,Batch Panel standout element,insight,IN-06,Part 1 'The Threshold' + Part 4 'Minimal FoP' — one dominant element at three feet
+D2.6,B2,Tactile uncoated label choice,finding,R-14,Part 4 'Material and Tactile Sensoria' — tactile substrates under-used vs soft-touch saturation
+D2.7,B2,Break-the-seal ritual beat,insight,IN-04,Part 3 ritual moments; Part 4 'Condensation Cue' adjacency
+D2.8,B2,Competitor differentiation set (5 archetypes),finding,R-10,Part 2 'Major Players' + Part 1 four entry vectors
+D2.9,B2,DTC multi-pack subscription channel,finding,R-06b,Part 1 — DTC constrained by cold-chain weight but proven for subscription discovery
+D3.1,B3,'Proof of Morning' documentary register,finding,R-11,Part 5 'Historical Evolution of Category Advertising' — kinetic escalation leaves quiet lane open
+D3.2,B3,Hero = blue-hour kitchen boundary moment,insight,IN-04,Part 3 'Morning Boundary Marker'
+D3.3,B3,Condensation realism in shot spec,finding,R-15,Part 4 'The Condensation Cue' — freshness proxy code
+D3.4,B3,Casting mirrors researched audience exactly,finding,R-08,Part 3 'Demographics' + Part 5 'Casting Direction'
+D3.5,B3,Deliberate (non-hustle) energy on set,insight,IN-07,Part 7 guardrails — avoid hyper-kinetic hustle-culture slogans
+D3.6,B3,Real locations over abstract environments,finding,R-16,Part 5 'Action versus Reflection' + Part 4 art-direction codes
+D3.7,B3,Ambient restrained sound design,finding,R-17,Part 5 'Sound Design and Sonic Identity'
+D3.8,B3,Hybrid traditional+AI production path,finding,R-18,Part 7 'Do not launch with…' guardrails — elegant can/inferior liquid warning; authenticity requirement
+D3.9,B3,AI text-legibility gate on Batch Panel,constraint,C-01,Part 6 'Legal, Regulatory' — claim substantiation; no federal standard of identity (Part 1)
+D3.10,B3,No generated product geometry,constraint,C-02,Part 6 sourcing-integrity guardrails; consumer-trust findings Part 1 'The Anxiety'
