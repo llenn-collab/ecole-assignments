@@ -1,0 +1,188 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "BSC-001",
+      "label": "Guarded Pact — the shipped direction",
+      "archetype_id": "ARC-01",
+      "grounding_tier": "EXPLICIT",
+      "supporting_evidence_count": 12,
+      "contradicting_evidence_count": 3,
+      "board_consistency_pass": true,
+      "requirement_fit_score": 0.9328,
+      "final_score": 0.9048,
+      "requirement_fit_components": {
+        "requirement_coverage": 0.9819,
+        "hard_constraint_compliance": 1.0,
+        "audience_and_tone_fit": 0.7,
+        "weighted_satisfied": 27.1,
+        "weighted_relevant": 27.6
+      },
+      "scoring_terms": {
+        "grounding_tier": 1.0,
+        "corroboration": 1.0,
+        "contradiction_penalty": 0.5,
+        "board_consistency": 1.0,
+        "addend_count": 5
+      },
+      "hard_constraint_violations": [],
+      "rejection_reason": null,
+      "selected": true,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "coverage_detail_count": 30,
+      "rank": 1,
+      "margin_note": "selected on requirement_fit 0.9328 vs runner-up 0.9212 (gap 0.0116); the runner-up is not a winner because it gives up the differentiation requirement (REQ-016/REQ-030), not because it was wrong."
+    },
+    {
+      "candidate_id": "BSC-002",
+      "label": "Muted Shell Over an Active Core",
+      "archetype_id": "ARC-05",
+      "grounding_tier": "EXPLICIT",
+      "supporting_evidence_count": 8,
+      "contradicting_evidence_count": 2,
+      "board_consistency_pass": true,
+      "requirement_fit_score": 0.9212,
+      "final_score": 0.8597,
+      "requirement_fit_components": {
+        "requirement_coverage": 0.9529,
+        "hard_constraint_compliance": 1.0,
+        "audience_and_tone_fit": 0.7,
+        "weighted_satisfied": 26.3,
+        "weighted_relevant": 27.6
+      },
+      "scoring_terms": {
+        "grounding_tier": 1.0,
+        "corroboration": 0.6667,
+        "contradiction_penalty": 0.6667,
+        "board_consistency": 1.0,
+        "addend_count": 5
+      },
+      "hard_constraint_violations": [],
+      "rejection_reason": "compliant but outranked; retained as a legal alternative candidate",
+      "selected": false,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "coverage_detail_count": 30,
+      "rank": 2
+    },
+    {
+      "candidate_id": "BSC-005",
+      "label": "The Quiet Instrument — craft-discipline direction",
+      "archetype_id": "ARC-01",
+      "grounding_tier": "EXPLICIT",
+      "supporting_evidence_count": 7,
+      "contradicting_evidence_count": 3,
+      "board_consistency_pass": true,
+      "requirement_fit_score": 0.8794,
+      "final_score": 0.8055,
+      "requirement_fit_components": {
+        "requirement_coverage": 0.8986,
+        "hard_constraint_compliance": 1.0,
+        "audience_and_tone_fit": 0.6,
+        "weighted_satisfied": 24.8,
+        "weighted_relevant": 27.6
+      },
+      "scoring_terms": {
+        "grounding_tier": 1.0,
+        "corroboration": 0.5833,
+        "contradiction_penalty": 0.5,
+        "board_consistency": 1.0,
+        "addend_count": 5
+      },
+      "hard_constraint_violations": [],
+      "rejection_reason": "Compliant but weaker on requirement coverage: it satisfies the object and pack requirements while leaving the philosophy (REQ-008) and coherence requirements thinly answered — the brand would have no reason to exist beyond its hardware.",
+      "selected": false,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "coverage_detail_count": 30,
+      "rank": 3
+    },
+    {
+      "candidate_id": "BSC-003",
+      "label": "Visible Authority — heritage-led craft",
+      "archetype_id": "ARC-03",
+      "grounding_tier": "COMPUTED",
+      "supporting_evidence_count": 6,
+      "contradicting_evidence_count": 5,
+      "board_consistency_pass": false,
+      "requirement_fit_score": 0.8461,
+      "final_score": 0.5588,
+      "requirement_fit_components": {
+        "requirement_coverage": 0.8152,
+        "hard_constraint_compliance": 1.0,
+        "audience_and_tone_fit": 0.6,
+        "weighted_satisfied": 22.5,
+        "weighted_relevant": 27.6
+      },
+      "scoring_terms": {
+        "grounding_tier": 0.6,
+        "corroboration": 0.5,
+        "contradiction_penalty": 0.1667,
+        "board_consistency": 0.0,
+        "addend_count": 5
+      },
+      "hard_constraint_violations": [],
+      "rejection_reason": "Not vetoed, but ranked last of the compliant set: the research shows this register has already been absorbed by the category and diluted (RS-062, RS-063), and it answered none of the buyer's freshness questions.",
+      "selected": false,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "coverage_detail_count": 30,
+      "rank": 4
+    },
+    {
+      "candidate_id": "BSC-004",
+      "label": "Restorative Rebuild — functional recovery angle",
+      "archetype_id": "ARC-04",
+      "grounding_tier": "COMPUTED",
+      "supporting_evidence_count": 4,
+      "contradicting_evidence_count": 4,
+      "board_consistency_pass": false,
+      "requirement_fit_score": 0.0,
+      "final_score": 0.2967,
+      "requirement_fit_components": {
+        "requirement_coverage": 0.8261,
+        "hard_constraint_compliance": 0.0,
+        "audience_and_tone_fit": 0.5,
+        "weighted_satisfied": 22.8,
+        "weighted_relevant": 27.6
+      },
+      "scoring_terms": {
+        "grounding_tier": 0.6,
+        "corroboration": 0.3333,
+        "contradiction_penalty": 0.3333,
+        "board_consistency": 0.0,
+        "addend_count": 5
+      },
+      "hard_constraint_violations": [
+        "REQ-009"
+      ],
+      "rejection_reason": "VETOED by hard constraint (audience invention). It also carries a health-adjacent register the research's regulatory section warns against for plant-input products (RS-054). Recorded in OPERATOR/HARD_CONSTRAINT_VETO.md; never shipped as a live direction.",
+      "selected": false,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "coverage_detail_count": 30,
+      "rank": 5
+    }
+  ],
+  "winner": "BSC-001",
+  "tie_state": "RESOLVED",
+  "formula": {
+    "requirement_coverage": 0.4,
+    "hard_constraint_compliance": 0.4,
+    "audience_and_tone_fit": 0.2
+  },
+  "rubric": {
+    "weights": {
+      "grounding_tier": 0.3,
+      "corroboration": 0.2,
+      "contradiction_penalty": 0.15,
+      "board_consistency": 0.05,
+      "requirement_fit": 0.3
+    },
+    "grounding_tier_scores": {
+      "EXPLICIT": 1.0,
+      "COMPUTED": 0.6,
+      "INFERRED": 0.3,
+      "ANOMALOUS": 0.2,
+      "UNKNOWN": 0.0
+    },
+    "corroboration_saturation": 12,
+    "contradiction_saturation": 6
+  },
+  "SCORE_SOURCE": "TIER2_TOOL"
+}

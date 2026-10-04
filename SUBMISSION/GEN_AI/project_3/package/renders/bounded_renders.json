@@ -1,0 +1,17 @@
+{
+  "full_report": "package/full_report.md",
+  "bounded_renders": [
+    {
+      "brief": "Brand Idea & Philosophy",
+      "path": "package/renders/brief_1_brand.md"
+    },
+    {
+      "brief": "Product & Packaging",
+      "path": "package/renders/brief_2_product.md"
+    },
+    {
+      "brief": "Ad / Campaign Creative",
+      "path": "package/renders/brief_3_campaign.md"
+    }
+  ]
+}

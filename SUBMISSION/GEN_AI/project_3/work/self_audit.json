@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "every_required_semantic_role_has_a_state": true,
+    "every_palace_has_one_board_card": true,
+    "every_palace_has_one_ledger_tally": true,
+    "all_R_members_resolve": true,
+    "source_unchanged_at_phase_boundary": true,
+    "no_emulated_products": true,
+    "case_context_status_recorded": true,
+    "gap_report_required": true
+  },
+  "all_pass": true
+}

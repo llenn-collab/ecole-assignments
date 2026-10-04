@@ -1,0 +1,157 @@
+# frozen_tables — authoritative reference for all lookups (charter annex A-tables).
+# On any conflict between this file and an inline table, THIS FILE WINS.
+# No case data here: tables only. All entries are tradition-registry lookups, not verdicts.
+tables_version: FT-1.0
+
+palace_identity_table:
+  1: {trigram: Kan,   direction: N,  element: water, star_home: TianPeng}
+  2: {trigram: Kun,   direction: SW, element: earth, star_home: TianRui}
+  3: {trigram: Zhen,  direction: E,  element: wood,  star_home: TianChong}
+  4: {trigram: Xun,   direction: SE, element: wood,  star_home: TianFu}
+  5: {trigram: Centre, direction: C, element: earth, star_home: TianQin}
+  6: {trigram: Qian,  direction: NW, element: metal, star_home: TianXin}
+  7: {trigram: Dui,   direction: W,  element: metal, star_home: TianZhu}
+  8: {trigram: Gen,   direction: NE, element: earth, star_home: TianRen}
+  9: {trigram: Li,    direction: S,  element: fire,  star_home: TianYing}
+
+palace_branch:
+  1: [zi]          # 子
+  2: [wei, shen]   # 未, 申
+  3: [mao]         # 卯
+  4: [chen, si]    # 辰, 巳
+  5: []            # centre has no branch (lodging only)
+  6: [xu, hai]     # 戌, 亥
+  7: [you]         # 酉
+  8: [chou, yin]   # 丑, 寅
+  9: [wu]          # 午
+
+opposition_pairs: [[1,4],[6,9]]   # only these; centre 5 has NO opposite (law 10)
+
+# Canonical door IDs are the hanzi themselves: 景 (jing3, "scene") and 惊 (jing1, "startle")
+# are homophones in romanisation, so a roman key would collide. Collision-avoidance rule:
+# any two registry keys whose romanisation is identical must be keyed by hanzi.
+door_element:
+  休门: water
+  生门: earth
+  伤门: wood
+  杜门: wood
+  景门: fire
+  死门: earth
+  惊门: metal
+  开门: metal
+door_roman_alias:
+  休门: XiuMen
+  生门: ShengMen
+  伤门: ShangMen
+  杜门: DuMen
+  景门: JingMen_Scene
+  死门: SiMen
+  惊门: JingMen_Startle
+  开门: KaiMen
+
+star_element:
+  TianPeng:  water
+  TianRen:   earth
+  TianChong: wood
+  TianFu:    wood
+  TianQin:   earth
+  TianXin:   metal
+  TianZhu:   metal
+  TianRui:   earth
+  TianYing:  fire
+
+stem_element:
+  jia: wood
+  yi: wood
+  bing: fire
+  ding: fire
+  wu: earth
+  ji: earth
+  geng: metal
+  xin: metal
+  ren: water
+  gui: water
+
+stem_polarity:   # yang_dun chart, hourly rotating
+  jia: yang
+  yi: yin
+  bing: yang
+  ding: yin
+  wu: yang
+  ji: yin
+  geng: yang
+  xin: yin
+  ren: yang
+  gui: yin
+
+element_cycle:
+  generates: {wood: fire, fire: earth, earth: metal, metal: water, water: wood}
+  controls:  {wood: earth, earth: water, water: fire, fire: metal, metal: wood}
+
+# 天干五合 (he-combinations). 甲己 omitted per 遁甲 (the 甲 does not appear on the board).
+stem_he:
+  yi_geng:  [yi, geng]
+  bing_xin: [bing, xin]
+  ding_ren: [ding, ren]
+  wu_gui:   [wu, gui]
+
+# 六冲 (clashing branches)
+branch_chong: [[zi,wu],[chou,wei],[yin,shen],[mao,you],[chen,xu],[si,hai]]
+# 六合 (harmonising branches)
+branch_liuhe: [[zi,chou],[yin,hai],[mao,xu],[chen,you],[si,shen],[wu,wei]]
+# 三合 (triad families) with the family's 驿马 branch
+triad_families:
+  shen_zi_chen: {branches: [shen,zi,chen], horse: yin}
+  hai_mao_wei:  {branches: [hai,mao,wei],  horse: si}
+  yin_wu_xu:    {branches: [yin,wu,xu],    horse: shen}
+  si_you_chou:  {branches: [si,you,chou],  horse: hai}
+
+# 六仪击刑 — the punishment palaces of the six 仪 (law: deterministic lookup)
+# NB: no inline comments inside flow mappings (parser-safe). Each row: stem -> punishment palace.
+#   戊 甲子 -> 震3 (子刑卯) | 己 甲戌 -> 坤2 (戌刑未) | 庚 甲申 -> 艮8 (申刑寅)
+#   辛 甲午 -> 离9 (午自刑) | 壬 甲辰 -> 巽4 (辰自刑) | 癸 甲寅 -> 巽4 (寅刑巳)
+liu_yi_xing:
+  wu:   {jiazhi: jia_zi,   palace: 3, pairs: [zi, mao]}
+  ji:   {jiazhi: jia_xu,   palace: 2, pairs: [xu, wei]}
+  geng: {jiazhi: jia_shen, palace: 8, pairs: [shen, yin]}
+  xin:  {jiazhi: jia_wu,   palace: 9, pairs: [wu, wu]}
+  ren:  {jiazhi: jia_chen, palace: 4, pairs: [chen, chen]}
+  gui:  {jiazhi: jia_yin,  palace: 4, pairs: [yin, si]}
+
+# 十二长生 (twelve phases) by stem, in palace-branch terms
+twelve_phases:
+  jia: {hai: zhang_sheng, zi: mu_yu, chou: guan_dai, yin: lin_guan, mao: di_wang, chen: shuai, si: bing, wu: si_, wei: mu, shen: jue, you: tai, xu: yang}
+  yi:  {wu: zhang_sheng, si: mu_yu, chen: guan_dai, mao: lin_guan, yin: di_wang, chou: shuai, zi: bing, hai: si_, xu: mu, you: jue, shen: tai, wei: yang}
+  bing: {yin: zhang_sheng, mao: mu_yu, chen: guan_dai, si: lin_guan, wu: di_wang, wei: shuai, shen: bing, you: si_, xu: mu, hai: jue, zi: tai, chou: yang}
+  ding: {you: zhang_sheng, shen: mu_yu, wei: guan_dai, wu: lin_guan, si: di_wang, chen: shuai, mao: bing, yin: si_, chou: mu, zi: jue, hai: tai, xu: yang}
+  wu:  {yin: zhang_sheng, mao: mu_yu, chen: guan_dai, si: lin_guan, wu: di_wang, wei: shuai, shen: bing, you: si_, xu: mu, hai: jue, zi: tai, chou: yang}
+  ji:  {you: zhang_sheng, shen: mu_yu, wei: guan_dai, wu: lin_guan, si: di_wang, chen: shuai, mao: bing, yin: si_, chou: mu, zi: jue, hai: tai, xu: yang}
+  geng: {si: zhang_sheng, wu: mu_yu, wei: guan_dai, shen: lin_guan, you: di_wang, xu: shuai, hai: bing, zi: si_, chou: mu, yin: jue, mao: tai, chen: yang}
+  xin: {zi: zhang_sheng, hai: mu_yu, xu: guan_dai, you: lin_guan, shen: di_wang, wei: shuai, wu: bing, si: si_, chen: mu, mao: jue, yin: tai, chou: yang}
+  ren: {shen: zhang_sheng, you: mu_yu, xu: guan_dai, hai: lin_guan, zi: di_wang, chou: shuai, yin: bing, mao: si_, chen: mu, si: jue, wu: tai, wei: yang}
+  gui: {mao: zhang_sheng, yin: mu_yu, chou: guan_dai, zi: lin_guan, hai: di_wang, xu: shuai, you: bing, shen: si_, wei: mu, wu: jue, si: tai, chen: yang}
+
+# 三奇 rise-to-throne (升殿): 乙->Zhen3, 丙->Li9, 丁->Dui7
+sanqi_home: {yi: 3, bing: 9, ding: 7}
+
+# 三奇得使 (serving officers): 乙+己/辛, 丙+戊/庚, 丁+壬/癸
+sanqi_de_shi:
+  yi:  [ji, xin]
+  bing: [wu, geng]
+  ding: [ren, gui]
+
+# 星入墓 — the tomb palace of the star's element (tomb branch -> palace)
+element_tomb:
+  wood:  {branch: wei,  palace: 2}
+  fire:  {branch: xu,   palace: 6}
+  earth: {branch: chen, palace: 4}
+  metal: {branch: chou, palace: 8}
+  water: {branch: chen, palace: 4}
+
+# gate-vs-palace relation rules (deterministic, computed, never guessed)
+gate_palace_rules:
+  gate_oppresses_palace: "door_element controls palace_element"      # 门迫宫
+  palace_generates_gate: "palace_element generates door_element"     # 宫生门
+  palace_controls_gate:  "palace_element controls door_element"      # 宫克门
+  gate_generates_palace: "door_element generates palace_element"     # 门生宫
+  same_element:          "door_element == palace_element"            # 比和

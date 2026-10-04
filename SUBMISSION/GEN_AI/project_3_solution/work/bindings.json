@@ -1,0 +1,1433 @@
+{
+ "_meta": {
+  "authored_by": "Carpathia Assignment Solver v7.0.0 (member 2), binding the member-1 chart analysis package to the Assignment 3 brief",
+  "runtime_mode": "TOOLS_PRESENT",
+  "inputs": {
+   "brief": "ASSIGNMENTS/GEN_AI/project_3.yaml",
+   "research_pack": "ASSIGNMENTS/GEN_AI/project_3_research.yaml",
+   "chart_analysis_package": "SUBMISSION/GEN_AI/project_3/package (sealed, adapted MAPPED)"
+  },
+  "citation_roles": {
+   "RS-nnn": "Assignment-1 research pack row (the traceability spine every major decision must cite)",
+   "MB-nnn": "mood-board row (reconstructed from the research pack's own art-direction codes; operator to replace titles with the real Pinterest board)",
+   "C-nnn / E-nnn / R-nnn": "chart-analysis evidence ids (tradition-conditional register, never a factual claim)"
+  },
+  "never_in_submission": "chart terminology, founder-story inversion, metaphysical framing, unverifiable claims"
+ },
+ "logline": {
+  "text": "AURA Cold Extraction is the slow-pressed ritual for the space between arriving and beginning — cold brew kept cold, poured close, nothing added, nothing hurried.",
+  "word_count_target": 30,
+  "requirement_ids": [
+   "REQ-017",
+   "REQ-025"
+  ],
+  "chart_evidence": [
+   "C007",
+   "C001"
+  ],
+  "research_evidence": [
+   "RS-066",
+   "RS-069",
+   "RS-070",
+   "RS-074"
+  ],
+  "note": "One line, sentence case, no slogan punctuation. Carries the campaign idea (pressure resolved into composure), the product fact (kept cold), and the category gap (nothing added)."
+ },
+ "positioning": {
+  "statement": "For urban professionals who already read the back of the can, AURA is the cold-chain cold brew that tastes like the extraction it actually is, because the cold it was kept in is printed on the packaging.",
+  "audience": "The Convenience-Driven Ritualist who reads labels: 26–45, hybrid professional, household income above $100K, replaces a daily café run, checks the panel before buying.",
+  "differentiator": "An unbroken, printed cold chain — temperature and time on the surface of the pack — where the category prints adjectives.",
+  "reason_to_believe": "A specific process made legible: extraction hours, holding temperature, exact caffeine per can, batch code, and farm-gate price paid.",
+  "audience_evidence": [
+   "RS-016"
+  ],
+  "differentiator_evidence": [
+   "C006",
+   "C001"
+  ],
+  "reason_to_believe_evidence": [
+   "RS-041",
+   "RS-042",
+   "RS-060",
+   "RS-072",
+   "C004"
+  ],
+  "invents_new_audience": false,
+  "note": "Audience and differentiator are lifted from the research pack, never invented (brief requirement REQ-009)."
+ },
+ "mood_boards": [
+  {
+   "id": "MB-001",
+   "name": "Wabi-Sabi Extraction — quiet asymmetry, raw brushed metal, one imperfect pour",
+   "research_basis": [
+    "RS-011",
+    "RS-030"
+   ],
+   "reconstructed": true
+  },
+  {
+   "id": "MB-002",
+   "name": "Nordic Stillness — cool grey daylight, single softbox, deep shadows",
+   "research_basis": [
+    "RS-033"
+   ],
+   "reconstructed": true
+  },
+  {
+   "id": "MB-003",
+   "name": "Concrete & Timber Threshold — poured concrete, untreated oak, a glass door left ajar",
+   "research_basis": [
+    "RS-033"
+   ],
+   "reconstructed": true
+  },
+  {
+   "id": "MB-004",
+   "name": "Apothecary Heritage — amber glass, medicinal labels, hand-set type",
+   "research_basis": [
+    "RS-010"
+   ],
+   "reconstructed": true,
+   "use": "reference only, avoid direct borrowing"
+  },
+  {
+   "id": "MB-005",
+   "name": "Monastic Ritual — gallery light, white porcelain, a repeated action photographed twice",
+   "research_basis": [
+    "RS-011",
+    "RS-050"
+   ],
+   "reconstructed": true
+  },
+  {
+   "id": "MB-006",
+   "name": "Condensation Macro — beads of water on matte aluminium, frosted band, raking light",
+   "research_basis": [
+    "RS-038",
+    "RS-035"
+   ],
+   "reconstructed": true
+  },
+  {
+   "id": "MB-007",
+   "name": "Editorial Linen Portrait — hands, cuffs, natural skin, no faces",
+   "research_basis": [
+    "RS-046",
+    "RS-048"
+   ],
+   "reconstructed": true
+  },
+  {
+   "id": "MB-008",
+   "name": "Saturation-Era Candour — unvarnished authenticity, documentary framing, no gloss",
+   "research_basis": [
+    "RS-043"
+   ],
+   "reconstructed": true
+  },
+  {
+   "id": "MB-009",
+   "name": "The 2:30 Desk — an earned pause mid-afternoon, notebook open, can within reach",
+   "research_basis": [
+    "RS-019"
+   ],
+   "reconstructed": true
+  },
+  {
+   "id": "MB-010",
+   "name": "Cold Case 7:40 — the refrigerated bay as a wall of sameness, one can that frosts",
+   "research_basis": [
+    "RS-053",
+    "RS-003"
+   ],
+   "reconstructed": true
+  },
+  {
+   "id": "MB-011",
+   "name": "Plant-Forward Pastel — oat tones, sage, carafe curves",
+   "research_basis": [
+    "RS-025",
+    "RS-015"
+   ],
+   "reconstructed": true,
+   "use": "reference only, avoid"
+  },
+  {
+   "id": "MB-012",
+   "name": "Kinetic Fuel — neon orange, speed lines, varsity gothic",
+   "research_basis": [
+    "RS-027",
+    "RS-014"
+   ],
+   "reconstructed": true,
+   "use": "anti-reference, avoid"
+  }
+ ],
+ "briefs": [
+  {
+   "id": "B1",
+   "title": "Brief 1 — Brand Idea & Philosophy",
+   "requirement_ids": [
+    "REQ-006",
+    "REQ-007",
+    "REQ-008",
+    "REQ-009",
+    "REQ-010",
+    "REQ-011",
+    "REQ-012"
+   ],
+   "sections": [
+    {
+     "req": "REQ-007",
+     "title": "Core Idea",
+     "body": [
+      "AURA is a cold-chain cold brew: one micro-lot, slow-pressed, never heat-treated, poured into a two-minute ritual that belongs to whoever opens it.",
+      "It is the brand that keeps the promise the packaging usually breaks — the temperature on the can is the truth on the can."
+     ],
+     "expansion_bullets": [
+      "What it is: cold-extracted coffee, single micro-lot, held cold from press to hand.",
+      "What it does: turns a daily caffeine need into a short, deliberate pause.",
+      "What it refuses: hustle language, mystery adjectives, and any claim the pack cannot show."
+     ],
+     "chart_evidence": [
+      "C001",
+      "C004",
+      "C007"
+     ],
+     "research_evidence": [
+      "RS-060",
+      "RS-066",
+      "RS-074"
+     ],
+     "annotation": "The two-sentence core idea carries the whole brand: a pact with a withheld interior. The chart direction said 'guarded alliance' — committed out loud, private in practice — and the research gap said buyers suspect the liquid behind the design. Both land on the same line: show the cold, keep the rest."
+    },
+    {
+     "req": "REQ-008",
+     "title": "Philosophy / Point of View",
+     "body": [
+      "The category has spent a decade arguing that it is more crafted than the can beside it. Almost none of it will tell you what temperature it was kept at, or how long it was cold before you bought it. That silence is the whole business: freshness is treated as a design cue rather than a fact.",
+      "AURA believes freshness is a temperature, not a claim, and that a ritual is the proof — a small repeated act with a time and a temperature attached. Where the category markets the result, we show the two minutes. Where it promises a mood, we print a process: extraction hours, holding temperature, exact caffeine, batch code, price paid at origin.",
+      "This answers the research gap directly: buyers want verifiable craft, not another minimal can. Our POV is deliberately unglamorous and hard to copy — a competitor can imitate our palette in an afternoon; they cannot imitate a cold chain in a weekend."
+     ],
+     "chart_evidence": [
+      "C006",
+      "C004",
+      "C005"
+     ],
+     "research_evidence": [
+      "RS-060",
+      "RS-062",
+      "RS-066",
+      "RS-072"
+     ],
+     "annotation": "The brief asks for something the category does not say out loud. The research supplied that move literally: 'premium' has been reduced to surface signifiers while the liquid is heat-treated. The chart's structural reading matched it — the visible layer is fed while the core is stored — so the philosophy is written to make the core visible instead of the surface louder."
+    },
+    {
+     "req": "REQ-009",
+     "title": "Positioning Statement",
+     "body": [
+      "**For** urban professionals who already read the back of the can — hybrid workers aged 26–45 who have replaced a daily café run and check a panel before they buy —",
+      "**AURA** is the cold-chain cold brew",
+      "**that** keeps and prints its cold chain, so the taste in the can is the taste on the label,",
+      "**because** the cold chain is the only claim in this category a buyer can actually experience: they hold it, they feel it, they drink it within the hour."
+     ],
+     "audience_source": "Research pack, target buyer table: the Convenience-Driven Ritualist (RS-016).",
+     "differentiator_source": "Research pack, market gaps: brands pasteurise and mask; buyers want unbroken cold and verifiable sourcing (RS-066).",
+     "rtb_source": "Research pack, label architecture and process-transparency codes (RS-041), restraint in certifications (RS-042), the retort/flavour trade-off (RS-060) and the recall history that makes cold-chain validation non-optional (RS-005, RS-072).",
+     "chart_evidence": [
+      "C006"
+     ],
+     "research_evidence": [
+      "RS-016",
+      "RS-066",
+      "RS-041",
+      "RS-060"
+     ],
+     "annotation": "No invented audience: the primary segment is the research pack's own Convenience-Driven Ritualist. The differentiator is the pack's own gap finding, narrowed to something the chart direction can carry: supported surface, stored core."
+    },
+    {
+     "req": "REQ-010",
+     "title": "Personality & Tone of Voice",
+     "adjectives": [
+      {
+       "word": "Exact",
+       "evidence": "Prints hours, temperature and milligrams rather than moods (RS-041, RS-060)."
+      },
+      {
+       "word": "Unhurried",
+       "evidence": "The category's advertising has moved to candour; slowness is the differentiator (RS-043, RS-062)."
+      },
+      {
+       "word": "Self-possessed",
+       "evidence": "Refuses hustle framing outright (RS-069); confidence without exertion (C007)."
+      },
+      {
+       "word": "Observant",
+       "evidence": "Speaks about the act, not the result — the research's casting and action-versus-reflection codes (RS-046, RS-047)."
+      },
+      {
+       "word": "Warm at close range",
+       "evidence": "Warmth is reserved for the moment of use, not the shop window (RS-056: educate with warmth, never gatekeep)."
+      }
+     ],
+     "example_lines": [
+      {
+       "type": "tagline",
+       "line": "Take It Slow."
+      },
+      {
+       "type": "social caption",
+       "line": "Steeped eighteen hours. Held at 38°F. The next two minutes are yours."
+      },
+      {
+       "type": "packaging line",
+       "line": "Cold chain unbroken: pressed cold, shipped cold, sold from the case — never retort-treated."
+      }
+     ],
+     "negative_examples_avoided": [
+      {
+       "avoid": "Crush your day.",
+       "why": "the research names this register as a category error for a premium product (RS-069)."
+      },
+      {
+       "avoid": "Hand-crafted small batch artisan blend.",
+       "why": "unverifiable craft rhetoric the research flags as meaningless to modern buyers (RS-068)."
+      }
+     ],
+     "chart_evidence": [
+      "C002",
+      "C007"
+     ],
+     "research_evidence": [
+      "RS-043",
+      "RS-044",
+      "RS-056",
+      "RS-068",
+      "RS-069"
+     ],
+     "annotation": "Adjectives each carry an evidence line rather than a mood. Chart direction read as precise and watchful; the research gave the vocabulary and the two things the voice must never say."
+    },
+    {
+     "req": "REQ-011",
+     "title": "Name Rationale",
+     "body": [
+      "The name is **AURA Cold Extraction**. An aura is what a thing gives off before it is handled: heat radiates and announces itself, cold withdraws and asks you closer. The name carries the brand's register — quiet authority, a substance with a temperature — and it reads correctly in the two places it will be seen most: on a matte can at three feet and as a line of type above a pour.",
+      "It is deliberately not a heritage name and not a place name: the research shows the heritage register has already been absorbed by the category (RS-062, RS-063), and a geographic name would invite sourcing claims we would rather make with numbers.",
+      "'Cold Extraction' does the positioning work the name alone cannot: it says process, not mood, and it sets up the one promise the pack can prove."
+     ],
+     "attestation": "The name was proposed and worked through in the research pack's own brand concept (RS-074, 'AURA COLD EXTRACTION'). This brief develops that concept; it does not introduce a new name. A check of the pack's competitive matrix and brand profiles found no competing brand trading on 'Aura' (RS-008, RS-009 … RS-015).",
+     "chart_evidence": [
+      "C003"
+     ],
+     "research_evidence": [
+      "RS-074",
+      "RS-062",
+      "RS-063"
+     ],
+     "annotation": "Traceability-safe: the name is attested by the research pack itself, so the Name Rationale requirement is satisfied by Assignment-1 material rather than by a preference. The chart only supplied the register ('a made object used in a repeated act'), never a name."
+    },
+    {
+     "req": "REQ-012",
+     "title": "Logo Direction (a brief for the mark — not the mark itself)",
+     "what_it_must_communicate": [
+      "Temperature before flavour: a mark that reads as cold, precise and handled rather than cold and clinical.",
+      "A repeated action: legible as something used, not something announced.",
+      "Restraint: one mark, one weight, one colour, no badge, no crest, no flourish."
+     ],
+     "visual_styles_from_mood_board": [
+      {
+       "board": "MB-005",
+       "style": "Monastic ritual restraint — symmetry, generous quiet space, nothing decorative (RS-011, RS-050)."
+      },
+      {
+       "board": "MB-001",
+       "style": "Wabi-sabi irregularity — one deliberately imperfect detail (a slightly cut curve or an off-centre dot) that reads at close range (RS-011, RS-030)."
+      },
+      {
+       "board": "MB-002",
+       "style": "Nordic stillness — deep graphite ground, bone-white mark, no gradient or gloss (RS-033)."
+      }
+     ],
+     "explicitly_avoid": [
+      "The category default: clinical all-lowercase geometric sans-serif marks with wide tracking, the look most competitors already use (RS-030, RS-063).",
+      "Heritage sign-painter or distressed gothic type: absorbed by the category (RS-029, RS-032, RS-062).",
+      "Any literal illustration of coffee plant, cup, bean, mountain or water — the mark is a temperature object, not a farm scene.",
+      "Badges, shields, seals, certification clusters, and any mark that cannot survive being printed 14 mm wide in one colour."
+     ],
+     "except_logo": true,
+     "logo_boundary": "This section is written design direction only. No artwork is produced, generated or attached: the brief excludes the artwork itself (REQ-031).",
+     "chart_evidence": [
+      "C003",
+      "E022",
+      "E023"
+     ],
+     "research_evidence": [
+      "RS-030",
+      "RS-063",
+      "RS-029",
+      "RS-032"
+     ],
+     "annotation": "The brief asks for direction, not artwork, and this stays written. The board references are named and each is tied to a research code, because the pack does not carry pin titles — see HP-008 and the mood-board index."
+    }
+   ]
+  },
+  {
+   "id": "B2",
+   "title": "Brief 2 — Product & Packaging",
+   "requirement_ids": [
+    "REQ-013",
+    "REQ-014",
+    "REQ-015",
+    "REQ-016"
+   ],
+   "sections": [
+    {
+     "req": "REQ-013",
+     "title": "Product Definition",
+     "body": [
+      "One product, two variants, both cold-extracted and cold-held. The format is deliberately narrow: this is a brand that would rather be exact than broad."
+     ],
+     "table": {
+      "caption": "Product architecture",
+      "headers": [
+       "Element",
+       "Specification",
+       "Why (source)"
+      ],
+      "rows": [
+       [
+        "Format",
+        "Matte-finish aluminium sleek can, 8.5 fl oz, 204 body profile, full-aperture lid",
+        "The category's premium tier is can-led and portability-led; aluminium also protects aroma (RS-024, RS-001)."
+       ],
+       [
+        "Variant A — Black",
+        "Single-estate washed micro-lot, black, no sugar, no additives, 148 mg caffeine",
+        "Functional delivery expectation is 150–200 mg with a clean finish (RS-022)."
+       ],
+       [
+        "Variant B — Oat",
+        "Same cold extraction, house oat emulsion, no added sugar, no gums, 118 mg caffeine",
+        "Clean-label and plant formats are baseline expectations, not differentiators (RS-022, RS-071)."
+       ],
+       [
+        "Size options",
+        "Single can (8.5 oz) · 4-pack (34 oz total) · no other sizes in year one",
+        "The category sells singles for impulse and multi-packs for routine (RS-021)."
+       ],
+       [
+        "Price positioning",
+        "Single: $5.50 · 4-pack: $19.50 ($4.88 per can)",
+        "Super-premium single-origin band is $5.50–$6.50, daily impulse acceptance is $3.99–$4.99; we enter at the bottom of the super-premium band and no lower (RS-022)."
+       ],
+       [
+        "Tier",
+        "Premium (below Blue Bottle's luxury ceiling, above mass functional)",
+        "The category's price ladder runs from mass commodity to luxury; the gap the research identifies sits in verified craft at a daily price (RS-061, RS-066)."
+       ],
+       [
+        "Distribution constraint",
+        "Refrigerated cold chain only — grocery cold case, café counters, office fridges; no ambient endcap",
+        "Cold-chain integrity is the product's promise; ambient distribution would require heat treatment and invalidate the concept (RS-060, RS-072)."
+       ]
+      ]
+     },
+     "chart_evidence": [
+      "C004",
+      "C005"
+     ],
+     "research_evidence": [
+      "RS-022",
+      "RS-024",
+      "RS-060",
+      "RS-061",
+      "RS-066"
+     ],
+     "annotation": "Every number here is a research fact, not a mood. The chart contributed only the use-register — value expressed over repeated use, a stored core — which is why the product carries exactly two variants, a small format, and a price we can defend on the panel."
+    },
+    {
+     "req": "REQ-014",
+     "title": "Packaging Direction",
+     "material_and_structure": [
+      "Body: heavy-wall aluminium sleek can, 8.5 oz, 204 profile, matte soft-touch lacquer over a continuous obsidian wrap.",
+      "The unprinted band: the top third of the can carries no print at all — bare brushed aluminium, sealed but unfrosted. This is the only structural idea the brand insists on (see below).",
+      "Closure: raw aluminium full-aperture lid with a wide tab. No plastic lip guard, no bolt-on mechanism: nothing that would need explaining.",
+      "Label: uncoated, fibrous paper collar (not a gloss shrink sleeve) wrapped over the lower body, opening along a perforation so the panel can be read flat and kept.",
+      "Facts etched, not printed: batch code, extraction date and the cold-chain window are laser-etched into the base ring so they cannot be reprinted or worn away.",
+      "Secondary: 4-pack is a plain unbleached-board tray, no window, cold-case-ready; nothing about the carton should compete with the can."
+     ],
+     "colour_and_finish": [
+      "Ground: obsidian (deep near-black matte). Mark and type: bone white.",
+      "One warm accent only, used for the temperature line: a faded terracotta-ochre that echoes the kraft/clay family the category uses to signal agriculture, but applied as a single hairline rule rather than a background (RS-025).",
+      "Finish discipline: matte soft-touch on print, raw metal left raw, one micro-embossed detail on the collar (the batch number), no foil, no gloss, no gradient, no holography (RS-035, RS-037).",
+      "Why this colour: the research's colour-discipline table lists the super-premium palette explicitly — raw silver, matte bone-white, slate grey, abyssal obsidian — against the commercial browns and neons of the mass tier (RS-061). Board reference: MB-002 (Nordic stillness) with MB-006 (condensation macro) as the photographic companion."
+     ],
+     "shelf_standout": {
+      "element": "The unprinted frost band.",
+      "three_feet_test": "The can is sold from the refrigerated bay, so the bare aluminium band leaves the case below dew point and frosts. From three feet, in a wall of minimal cans, it is the only object that looks colder than its neighbours and the only one that changes while you watch it. The category prints its restraint; this one behaves.",
+      "supporting_detail": "Above the collar, the frozen band carries the temperature line in a single line of type, so the 'why is it frosty' question answers itself in one second.",
+      "board_reference": "MB-006 (RS-038 — the condensation cue as a premium signal), MB-010 (RS-053)."
+     },
+     "printed_facts_front_of_pack": {
+      "rule": "Three elements only, the research's minimal front-of-pack rule: brand mark, product category, and one distinguishing parameter (RS-040).",
+      "content": "Mark / 'COLD BREW — 8.5 FL OZ' / the parameter line '18 h · 38°F · 148 MG CAFFEINE'."
+     },
+     "chart_evidence": [
+      "C005",
+      "E022",
+      "E092",
+      "R017",
+      "C012"
+     ],
+     "research_evidence": [
+      "RS-035",
+      "RS-037",
+      "RS-038",
+      "RS-040",
+      "RS-061"
+     ],
+     "annotation": "The brief asks for a colour decision tied to a specific insight or pin, and for one shelf element learnable at three feet. Colour follows the research's own super-premium palette; the standout is structural rather than graphic, which also solves the category problem that every competitor can copy a palette but not a temperature behaviour."
+    },
+    {
+     "req": "REQ-015",
+     "title": "Functional-to-Emotional Bridge",
+     "body": [
+      "The band is not decoration; it is the part of the can we left bare because it is the part that behaves. Taken out of the cold case it frosts, cooling the hand before the first sip and giving the drinker the only proof in this category that needs no claim: the can is cold, so the coffee was kept cold. That one decision — less print, more material — is the philosophy made physical. It carries the brand's promise (nothing added, nothing hurried) into the fingers before it reaches the tongue, and it reframes the price: the $5.50 is not buying a mood, it is buying an unbroken chain of custody that starts in the case and ends in the hand."
+     ],
+     "chart_evidence": [
+      "C001",
+      "C005",
+      "R004",
+      "E090"
+     ],
+     "research_evidence": [
+      "RS-038",
+      "RS-060",
+      "RS-066"
+     ],
+     "annotation": "One functional choice (bare aluminium band, cold-case placement) tied to the emotional position (a kept promise you can feel). The chart's structural read — environment feeding the display layer, core stored — is what pointed at 'make the surface behave' rather than 'add a claim'."
+    },
+    {
+     "req": "REQ-016",
+     "title": "Shelf / Competitive Differentiation",
+     "body": [
+      "Placed beside the researched leaders, the package is not better dressed — it is differently governed. Each competitor below owns a visual territory; AURA's territory is behaviour over time."
+     ],
+     "table": {
+      "caption": "Chosen set against the researched competitors (research pack, competitive matrix RS-008)",
+      "headers": [
+       "Competitor",
+       "Their signature move",
+       "What is unmistakably different about ours"
+      ],
+      "rows": [
+       [
+        "Blue Bottle (RS-011)",
+        "Raw brushed-aluminium can, cerulean silhouette, museum-grade emptiness",
+        "Our metal is unprinted and exposed only where it frosts; theirs is printed and stays visually identical in or out of the case."
+       ],
+       [
+        "La Colombe (RS-009)",
+        "Milk-white can, patented nitrogen froth, café draft theatre",
+        "No engineered mechanism and no café mime: the tactile event happens to the pack because of where it is stored, not because of what we built into it."
+       ],
+       [
+        "Stumptown (RS-010)",
+        "Amber glass apothecary heritage and indie credibility",
+        "We deliberately avoid the heritage register: our cold is thermodynamic, not nostalgic."
+       ],
+       [
+        "Rise (RS-012)",
+        "Radiating sunburst, high-key optimism, oat-led energy",
+        "No sunburst, no energy promise: our warmth is a single hairline, our claim is a temperature."
+       ],
+       [
+        "Califia (RS-015)",
+        "Pastel carafe curves and botanical softness",
+        "Straight-wall geometry and one colour: no curves, no botanicals, no lifestyle softness — the pack is a container, the drink is the subject."
+       ]
+      ]
+     },
+     "one_sentence_difference": "In a bay where every can is painted to look cold, ours is the only one that gets colder when it is cold — and the only one that prints the chain that kept it that way.",
+     "chart_evidence": [
+      "C006",
+      "R045",
+      "R001",
+      "R004"
+     ],
+     "research_evidence": [
+      "RS-008",
+      "RS-003",
+      "RS-061"
+     ],
+     "annotation": "Difference stated as a describable behaviour, not as superiority. The chart's axis read (pressed agency at one pole, supported display at the other) is what suggested leading with an inversion the category cannot answer with a redesign."
+    }
+   ]
+  },
+  {
+   "id": "B3",
+   "title": "Brief 3 — Ad / Campaign Creative Brief",
+   "requirement_ids": [
+    "REQ-017",
+    "REQ-018",
+    "REQ-019",
+    "REQ-020",
+    "REQ-021",
+    "REQ-022",
+    "REQ-023"
+   ],
+   "sections": [
+    {
+     "req": "REQ-017",
+     "title": "Campaign Concept (The Big Idea)",
+     "body": [
+      "**Take It Slow.** The campaign shows one person choosing two unhurried minutes inside a fast morning: the cold case, the walk, the bench, the tab, the first sip.",
+      "The category sells the pause as a reward for hustle. We invert it: the pause is not earned, it is claimed. Nothing promises a better day; the day is not in charge of these two minutes."
+     ],
+     "why_it_answers_the_brief": "It is the only idea in the set whose proof is the product itself — every asset can show a temperature, a time or a hand, and no asset needs to say 'premium'.",
+     "chart_evidence": [
+      "C007",
+      "C001",
+      "C006"
+     ],
+     "research_evidence": [
+      "RS-066",
+      "RS-069",
+      "RS-070",
+      "RS-043"
+     ],
+     "annotation": "The campaign idea restates the philosophy as an action. Chart direction (pressure resolving into composure; a pact kept quietly) and the research gap (buyers want ritual, not hustle) agree, so the idea needed no compromise between the two."
+    },
+    {
+     "req": "REQ-018",
+     "title": "Hero Shot Direction",
+     "body": [
+      "One frame, one subject, no face. A hand — linen cuff, one plain metal ring — holds the can at chest height; the other pulls the cuff back from the metal.",
+      "85 mm, f/2.0, camera at sternum height, focus locked on the frosted unprinted band and the grip. The can sits on the left third; the rest is poured concrete and, out of focus, the bright rectangle of a glass door.",
+      "Light: one diffused softbox at 45°, cool daylight balance, deep falloff — directional and tactile rather than the category's flat studio key. The frost band is the focal point, so the eye reads 'something cold is being held' before it reads the brand. No text needed."
+     ],
+     "chart_evidence": [
+      "C008",
+      "E023",
+      "E022",
+      "E092"
+     ],
+     "research_evidence": [
+      "RS-033",
+      "RS-038",
+      "RS-047",
+      "RS-050"
+     ],
+     "annotation": "Deliberately face-free: the research's casting codes describe reflective, unposed moments, and the chart direction read as a hands-and-gesture frame. The brief's 'if the campaign avoids people, explain why' clause is answered by casting hands only — the subject is the two minutes, not a person."
+    },
+    {
+     "req": "REQ-019",
+     "title": "Stage / Environment",
+     "body": [
+      "One enclosed set that reads as a real threshold, not a studio: poured concrete, an oak plank bench, a steel-framed glass door with morning light behind it. One practical source plus day balance, so the frame has one direction of light. Three props only: a small glass, a folded linen cloth, the four-pack tray.",
+      "For the cold-case asset the set gains the edge of a refrigerated bay — three shelves, misted doors, one frosted can among deliberately plain neighbours.",
+      "Explicitly not: an open field, rooftop, skyline, gym, office kitchen, or any interior that codes as wealth; aspirational signage reads as class signalling."
+     ],
+     "chart_evidence": [
+      "C009",
+      "E022",
+      "R004",
+      "E025"
+     ],
+     "research_evidence": [
+      "RS-033",
+      "RS-058",
+      "RS-055",
+      "RS-053"
+     ],
+     "annotation": "Enclosed and low-ceilinged rather than open: the chart direction called for an enclosed stage with one motivated light, and the research supplied the warning against status-coded environments. The set is chosen so the act stays legible in one shot."
+    },
+    {
+     "req": "REQ-020",
+     "title": "Models / Casting Direction",
+     "body": [
+      "Hands and forearms only, one person: 30–40, creative or craft-adjacent, natural nails and skin texture, minimal make-up, one plain ring and one linen or knit cuff in frame.",
+      "Faces are excluded on purpose, not for budget: the subject is a two-minute act anyone can take, and a face turns it into a lifestyle portrait the viewer either matches or does not.",
+      "The rejected alternative: a calm figure in soft daylight is legitimate, but it puts the campaign in the same quiet-lifestyle genre as the category leaders, where our difference reads as one more pretty frame."
+     ],
+     "chart_evidence": [
+      "C010",
+      "E022",
+      "E092",
+      "E001"
+     ],
+     "research_evidence": [
+      "RS-046",
+      "RS-047",
+      "RS-048"
+     ],
+     "annotation": "The brief allows a deliberate no-people campaign if the choice is explained; here the compromise is hands-only, which keeps a human trace with the act and satisfies both the chart read and the research casting codes."
+    },
+    {
+     "req": "REQ-021",
+     "title": "Plan of Action — Creative Direction Sequence",
+     "body": [
+      "Priority order, with the board reference each asset draws from. Nothing ships before the hero is approved."
+     ],
+     "table": {
+      "caption": "Asset sequence",
+      "headers": [
+       "Priority",
+       "Asset",
+       "What it must show",
+       "Board reference"
+      ],
+      "rows": [
+       [
+        "1",
+        "Hero image (1 frame)",
+        "Hand on the frost band, no face, no text needed",
+        "MB-006 + MB-002"
+       ],
+       [
+        "2",
+        "Supporting lifestyle (3 frames)",
+        "(a) the cold case at 7:40, one can frosted among plain neighbours; (b) the 2:30 desk, can within reach, notebook open; (c) the threshold, walking out with the can in hand",
+        "MB-010, MB-009, MB-003"
+       ],
+       [
+        "3",
+        "Detail / product close-ups (3 frames)",
+        "(a) macro of the frost band with laser-etched batch code; (b) the pour into a small glass; (c) the back panel — temperature line, caffeine, farm-gate price, cold-chain window",
+        "MB-006, MB-005, MB-008"
+       ],
+       [
+        "4",
+        "Motion (1 × 15 s + 3 × 6 s cutdowns)",
+        "One continuous take: lift from the case, walk, set down, open, first sip. No cuts, no speed ramps; sound is the tab, the hiss, the pour — no music bed",
+        "MB-008, MB-005"
+       ]
+      ]
+     },
+     "sequence_note": "Build order follows the campaign's own logic: the supported, generative work (hero, supporting, detail) is produced first; the pressed, high-tension frames (the case, the threshold walk) close the set, because they are the ones most likely to need a second pass.",
+     "chart_evidence": [
+      "C011",
+      "E083",
+      "E084",
+      "E061",
+      "R004",
+      "R001"
+     ],
+     "research_evidence": [
+      "RS-049",
+      "RS-051",
+      "RS-052"
+     ],
+     "annotation": "Order is a preference with reasons, not a finding: it follows the chart's phase split (display pole gestating, source pole peak-then-cut) and, independently, the production risk order — the highest-tension frames get the most runway."
+    },
+    {
+     "req": "REQ-022",
+     "title": "Production Requirements",
+     "traditional_path": {
+      "summary": "One studio day plus one pre-light half-day; the set is a small build in a daylight-capable stage, not a location shoot.",
+      "requirements": [
+       "Location: daylight-capable stage or a real threshold interior with a glass door; blackout available for the cold-case frame.",
+       "Crew: photographer (analog-leaning, Comfortable with 85 mm and macro), 1 assistant, 1 digital tech, 1 stylist for texture and wardrobe, 1 drinks stylist for condensation and pour control.",
+       "Talent: 1 hand model (option for 2), booking as an anonymous talent.",
+       "Props: 3 spare cans per variant with matched batch codes, glassware set, linen and knit cuffs, oak bench, plain-neighbour cans for the case frame, lint-free cloths, glycerine-and-water condensation mix.",
+       "Post: grain and halation pass, warm-neutral grade with deep blacks, dust and fingerprint retouch, condensation clean-up, no beauty retouching on hands beyond texture.",
+       "Schedule: pre-pro 1 day · shoot 1.5 days · select 1 day · post 5 days · master delivery 2 days."
+      ]
+     },
+     "ai_generated_path": {
+      "summary": "A staged generation pipeline using the standardised image/video workflow from the course, with a human gate at every pass that touches can geometry, label legibility or brand facts.",
+      "steps": [
+       "1. Reference build (human): lock a private reference set — hero references from MB-006/MB-002, geometry references from real product photography shot on a phone against a neutral wall, and one annotated crop of the parameter line. AI is not used to invent the can.",
+       "2. Image generation (tool): text-to-image for the hero frame with locked camera, light and palette language; three seeds minimum; the human selects on one criterion — does the frost read at thumbnail size.",
+       "3. Composition and product pass (human-led, tool-assisted): composite the photographed can into the generated frame; relight and rebuild the frost band by hand; this pass exists because no generator reliably renders legible small type, a 204-profile rim or a believable dew pattern on a specific alloy.",
+       "4. Supporting and detail frames (tool + human select): generate the three lifestyle frames and the two texture frames; human art-directs, adjusting framing and shadow direction to match the hero.",
+       "5. Motion (tool + human edit): image-to-video for the 15 s take and the three cutdowns; the human edit sets the pacing, removes the generator's tendency to add movement where stillness is the point, and overlays the real product geometry where the frame gets close to the can.",
+       "6. Sound (human): record the tab, the hiss, the pour and the glass set-down; no generated audio in the master.",
+       "7. Colour and grain (tool + human): one grade to the same recipe as the traditional path, so the two paths are visually interchangeable.",
+       "8. Brand-consistency gate (human, non-delegable): a fixed three-point check on every asset — can geometry, frost band, label text — against the reference crop. Any asset that fails is regenerated, not patched."
+      ],
+      "where_a_human_must_intervene": [
+       "Can geometry and rim profile (generators flatten or warp it).",
+       "Small legible type: the temperature line, the caffeine figure and the batch code.",
+       "Any claim on screen: the cold-chain window, the farm-gate price, the caffeine value.",
+       "Final pacing and any frame in which the can is meant to look cold rather than metallic."
+      ]
+     },
+     "proposed_path": "Staged hybrid: the traditional path for the hero frame and the back-panel detail; the AI path for supporting, texture and motion coverage, with the human gate applied at the same three points in both paths.",
+     "why_this_path": "The campaign's whole argument is that the pack can be trusted — the research identifies an elegant can with bad liquid as the category's cardinal failure (RS-070). So the assets in which the pack is the subject (hero, back panel) are photographed; the assets in which the pack is context can be generated, which keeps the schedule and budget realistic without staking the promise on a generator's ability to draw a rim.",
+     "constraints_respected": [
+      "No health, therapeutic or body claim appears in any asset (only what the pack prints).",
+      "Cold-chain distribution is treated as a hard project constraint; if ambient is required, this campaign and this brand cannot be produced as specified (see risk 6).",
+      "The regulatory facts the assets may show — validated cold chain in place of an ambient kill step, exact caffeine per can, no legal standard of identity for 'cold brew' — are taken from the research pack (RS-054)."
+     ],
+     "chart_evidence": [
+      "C012",
+      "R028",
+      "E092",
+      "R004",
+      "C011"
+     ],
+     "research_evidence": [
+      "RS-054",
+      "RS-067",
+      "RS-070",
+      "RS-072",
+      "RS-049"
+     ],
+     "annotation": "Both paths are costed at the level the brief asks for (what it takes to make this real), and the chosen path follows the campaign's own risk: the two frames that carry the promise are photographed, the rest can be generated. The chart direction for production was 'staged passes with a human gate at the instrument layer', which matches the pipeline's three non-delegable checks.",
+     "body": [
+      "Path A is one studio day plus a pre-light half-day: a small build in a daylight-capable stage, not a location shoot.",
+      "Path B is a staged generation pipeline with a human gate at every pass that touches can geometry, label legibility or brand facts; the full steps are in the workflow file.",
+      "Proposed path: staged hybrid. Hero frame and back panel are photographed; supporting, texture and motion coverage are generated, with the same three gates in both paths. The campaign argues the pack can be trusted, so the frames where the pack is the subject are not left to a model."
+     ]
+    }
+   ]
+  }
+ ],
+ "hidden_problems": [
+  {
+   "id": "HP-001",
+   "normal_name": "A single production pass can quietly break the brand's only promise",
+   "statement": "If the campaign is produced in one uninspected pass, the two assets that carry the promise (hero and back panel) are exactly the ones a generator is most likely to get wrong — warped can geometry, fake frost, illegible type. The failure would not look like an error; it would look like a beautiful ad for a product that does not exist.",
+   "polarity": "WARN",
+   "confidence": "MED",
+   "grounding": "COMPUTED",
+   "evidence_chain": [
+    "C012",
+    "E091",
+    "R028",
+    "E092"
+   ],
+   "research_basis": [
+    "RS-070",
+    "RS-072",
+    "RS-005"
+   ],
+   "owner": "Brief 3 / production",
+   "action": "Keep the photographed-hero rule and the three-point human gate (can geometry, frost band, label text) as non-delegable; any asset failing the gate is regenerated, never patched.",
+   "requirement_ids": [
+    "REQ-022",
+    "REQ-026",
+    "REQ-029"
+   ]
+  },
+  {
+   "id": "HP-002",
+   "normal_name": "The two documents can tell two different stories",
+   "statement": "Brief 1 sells restraint and a two-minute ritual; Brief 2 sells a matte object. If Brief 2 opens with the object instead of the decision that shaped it, the package reads as a philosophy bolted to a can.",
+   "polarity": "CONSTRAIN",
+   "confidence": "MED",
+   "grounding": "COMPUTED",
+   "evidence_chain": [
+    "C001",
+    "C005",
+    "C009",
+    "R047"
+   ],
+   "research_basis": [
+    "RS-070",
+    "RS-060"
+   ],
+   "owner": "Coherence / Brief 2",
+   "action": "Brief 2 opens with the same one-decision sentence as Brief 1 ('less print, more material'), and every packaging claim must be showable in one of the campaign's frames.",
+   "requirement_ids": [
+    "REQ-015",
+    "REQ-024",
+    "REQ-028"
+   ]
+  },
+  {
+   "id": "HP-003",
+   "normal_name": "'Ritual' is a spent word in this category",
+   "statement": "The word is already on half the category's packaging and the research flags unverifiable craft language as meaningless to modern buyers. A brand whose differentiator is honesty cannot open with a word it cannot define.",
+   "polarity": "WARN",
+   "confidence": "MED",
+   "grounding": "EXPLICIT",
+   "evidence_chain": [
+    "C005",
+    "C001"
+   ],
+   "research_basis": [
+    "RS-068",
+    "RS-062",
+    "RS-058"
+   ],
+   "owner": "Brief 1 / Brief 2",
+   "action": "Never use 'ritual' alone: every use carries a time or a temperature ('the two-minute ritual', 'steeped eighteen hours'), and the brand's own ritual is defined once, on the pack.",
+   "requirement_ids": [
+    "REQ-008",
+    "REQ-010",
+    "REQ-030"
+   ]
+  },
+  {
+   "id": "HP-004",
+   "normal_name": "The category's default look will absorb the brand's restraint",
+   "statement": "Restraint is now the category's house style: Swiss grotesques, neutral tones, generous space. A brand differentiated only by tasteful restraint would be indistinguishable within a season, which is precisely the failure the research describes.",
+   "polarity": "WARN",
+   "confidence": "HIGH",
+   "grounding": "EXPLICIT",
+   "evidence_chain": [
+    "C006",
+    "C003",
+    "E022",
+    "E023"
+   ],
+   "research_basis": [
+    "RS-061",
+    "RS-063",
+    "RS-030",
+    "RS-003"
+   ],
+   "owner": "Brief 2 / Brief 3",
+   "action": "Treat the unprinted frost band and the printed parameter line as non-negotiables; reject any layout in which the band is covered, printed on, or reduced to a decoration.",
+   "requirement_ids": [
+    "REQ-014",
+    "REQ-016",
+    "REQ-030"
+   ]
+  },
+  {
+   "id": "HP-005",
+   "normal_name": "$5.50 will be read as marketing unless the pack answers the question",
+   "statement": "The research's buyer monologue is explicit: at premium prices the shopper asks whether they are paying for coffee or for a campaign. Design cannot answer that; only printed facts can.",
+   "polarity": "CONSTRAIN",
+   "confidence": "HIGH",
+   "grounding": "EXPLICIT",
+   "evidence_chain": [
+    "C001",
+    "C013",
+    "E064"
+   ],
+   "research_basis": [
+    "RS-023",
+    "RS-041",
+    "RS-066"
+   ],
+   "owner": "Brief 2 / Brief 3",
+   "action": "Print the answers on the surface: extraction hours, holding temperature, exact caffeine, batch window, farm-gate price. If a fact cannot be verified, it does not appear.",
+   "requirement_ids": [
+    "REQ-013",
+    "REQ-014",
+    "REQ-015"
+   ]
+  },
+  {
+   "id": "HP-006",
+   "normal_name": "Ambient distribution would silently cancel the product",
+   "statement": "The concept requires an unbroken cold chain. If the brand is later pushed into ambient shelf distribution, the coffee must be thermally treated, the difference disappears, and the packaging becomes the exact hypocrisy the brand was built against.",
+   "polarity": "WARN",
+   "confidence": "HIGH",
+   "grounding": "COMPUTED",
+   "evidence_chain": [
+    "C012",
+    "R028",
+    "C009",
+    "E092"
+   ],
+   "research_basis": [
+    "RS-060",
+    "RS-072",
+    "RS-005",
+    "RS-006"
+   ],
+   "owner": "Commercial / Brief 3",
+   "action": "State cold chain as a project constraint in the brief, not a preference: no ambient endcap, no unrefrigerated transit, and no launch in a channel that cannot hold 38°F.",
+   "requirement_ids": [
+    "REQ-013",
+    "REQ-022"
+   ]
+  },
+  {
+   "id": "HP-007",
+   "normal_name": "Quiet craft can read as class signalling",
+   "statement": "Restrained, expensive-looking minimalism photographed in designer interiors can read as gatekeeping — the research warns about both coffee elitism and cultural appropriation in premium coffee imagery.",
+   "polarity": "WARN",
+   "confidence": "MED",
+   "grounding": "INFERRED",
+   "evidence_chain": [
+    "C003",
+    "C010",
+    "E022"
+   ],
+   "research_basis": [
+    "RS-055",
+    "RS-056",
+    "RS-058"
+   ],
+   "owner": "Brief 3 / campaign",
+   "action": "Keep the act in semi-public thresholds rather than private luxury interiors; show price and process rather than provenance poetry; educate with warmth, never with a tasting note the drinker cannot repeat.",
+   "requirement_ids": [
+    "REQ-019",
+    "REQ-020",
+    "REQ-030"
+   ]
+  },
+  {
+   "id": "HP-008",
+   "normal_name": "The board and insight list the brief requires are not in the research pack",
+   "statement": "The brief requires every major decision to trace to a research finding, an insight, or a specific mood-board pin. The research pack contains the findings and the insight material, but no mood-board or pin content at all — so any pin reference in this package is a reconstruction from the pack's art-direction codes and must be replaced with the real board before submission.",
+   "polarity": "WARN",
+   "confidence": "HIGH",
+   "grounding": "EXPLICIT",
+   "evidence_chain": [
+    "A003"
+   ],
+   "research_basis": [
+    "RS-024",
+    "RS-033",
+    "RS-034",
+    "RS-045"
+   ],
+   "owner": "Operator / all briefs",
+   "action": "Swap MB-001…MB-012 for the real Pinterest board titles and add the pin URLs; the referenced visual styles are unchanged, only their identifiers are provisional. This is the package's only declared, unavoidable input gap.",
+   "requirement_ids": [
+    "REQ-003",
+    "REQ-012",
+    "REQ-014",
+    "REQ-021"
+   ]
+  }
+ ],
+ "best_solution": [
+  {
+   "id": "BSC-001",
+   "label": "Guarded Pact — the shipped direction",
+   "archetype_id": "ARC-01",
+   "summary": "A brand that commits in public and keeps its core private: exact facts on the surface, the ritual held close. Campaign: 'Take It Slow.'",
+   "grounding_tier": "EXPLICIT",
+   "supporting_evidence_count": 12,
+   "contradicting_evidence_count": 3,
+   "board_consistency_pass": true,
+   "selected": true,
+   "claim_basis": [
+    "C001",
+    "C005",
+    "C012",
+    "C007"
+   ],
+   "hard_constraint_violations": [],
+   "hard_constraint_compliance": 1.0
+  },
+  {
+   "id": "BSC-002",
+   "label": "Muted Shell Over an Active Core",
+   "archetype_id": "ARC-05",
+   "summary": "Same product; packaging plays an almost silent closed state that opens into warmth, instead of the behaving-metal idea.",
+   "grounding_tier": "EXPLICIT",
+   "supporting_evidence_count": 8,
+   "contradicting_evidence_count": 2,
+   "board_consistency_pass": true,
+   "selected": false,
+   "claim_basis": [
+    "C005"
+   ],
+   "hard_constraint_violations": [],
+   "hard_constraint_compliance": 1.0,
+   "runner_up_note": "Legitimate and cheaper to execute, but it gives up the only differentiator the category cannot copy quickly, and it is harder to show in a single camera make (see margin note in the coverage)."
+  },
+  {
+   "id": "BSC-003",
+   "label": "Visible Authority — heritage-led craft",
+   "archetype_id": "ARC-03",
+   "summary": "Lean into the category's craft heritage register: apothecary bottle cues, hand-set type, origin storytelling.",
+   "grounding_tier": "COMPUTED",
+   "supporting_evidence_count": 6,
+   "contradicting_evidence_count": 5,
+   "board_consistency_pass": false,
+   "selected": false,
+   "claim_basis": [
+    "C003"
+   ],
+   "hard_constraint_violations": [],
+   "hard_constraint_compliance": 1.0,
+   "rejection_reason": "Not vetoed, but ranked last of the compliant set: the research shows this register has already been absorbed by the category and diluted (RS-062, RS-063), and it answered none of the buyer's freshness questions."
+  },
+  {
+   "id": "BSC-004",
+   "label": "Restorative Rebuild — functional recovery angle",
+   "archetype_id": "ARC-04",
+   "summary": "Reposition the product at athletic and recovery users as a post-effort functional coffee, with the campaign framed around training and performance.",
+   "grounding_tier": "COMPUTED",
+   "supporting_evidence_count": 4,
+   "contradicting_evidence_count": 4,
+   "board_consistency_pass": false,
+   "selected": false,
+   "claim_basis": [
+    "C004"
+   ],
+   "hard_constraint_violations": [
+    {
+     "constraint": "REQ-009 'pull the audience and differentiator directly from your research — don't invent a new audience here'",
+     "why": "the research's functional-productivity segment is a secondary convenience segment; this direction would require replacing the researched primary audience with an athletic one"
+    }
+   ],
+   "hard_constraint_compliance": 0.0,
+   "rejection_reason": "VETOED by hard constraint (audience invention). It also carries a health-adjacent register the research's regulatory section warns against for plant-input products (RS-054). Recorded in OPERATOR/HARD_CONSTRAINT_VETO.md; never shipped as a live direction."
+  },
+  {
+   "id": "BSC-005",
+   "label": "The Quiet Instrument — craft-discipline direction",
+   "archetype_id": "ARC-01",
+   "summary": "A restrained 'engineered object' brand: the can as a tool, no ceremony, no second-person address.",
+   "grounding_tier": "EXPLICIT",
+   "supporting_evidence_count": 7,
+   "contradicting_evidence_count": 3,
+   "board_consistency_pass": true,
+   "selected": false,
+   "claim_basis": [
+    "C001",
+    "C005"
+   ],
+   "hard_constraint_violations": [],
+   "hard_constraint_compliance": 1.0,
+   "rejection_reason": "Compliant but weaker on requirement coverage: it satisfies the object and pack requirements while leaving the philosophy (REQ-008) and coherence requirements thinly answered — the brand would have no reason to exist beyond its hardware."
+  }
+ ],
+ "red_team": [
+  {
+   "id": "RT-001",
+   "probe": "adversarial_rederivation",
+   "target": "BSC-001",
+   "finding": "An equally supportable opposite reading exists: the same evidence (stored core, concealed deity, late phases) supports a purely quiet, low-signal brand with no campaign voice at all. Adjudication: the shipped direction survives only because the brief requires a campaign with a hero shot and a plan of action — a brand with no public face cannot satisfy REQ-017–021. Not a tie: the constraint decides.",
+   "outcome": "resolved_by_requirements"
+  },
+  {
+   "id": "RT-002",
+   "probe": "citation_integrity",
+   "target": "all deliverables",
+   "finding": "Every chart citation in SUBMISSION resolves in the adapted registry; abstract/chart ids never appear in SUBMISSION (they appear only in ANNOTATED, LAYER_A and OPERATOR).",
+   "outcome": "pass"
+  },
+  {
+   "id": "RT-003",
+   "probe": "leaf_citation_discipline",
+   "target": "bindings",
+   "finding": "No parent-only citations: each binding cites leaf evidence atoms (E/R) or a claim id with its own support list. Zero LEAF_CITATION anomalies.",
+   "outcome": "pass"
+  },
+  {
+   "id": "RT-004",
+   "probe": "coverage_check",
+   "target": "requirement ledger",
+   "finding": "All must-level requirements are COVERED; the four must_not rows are SATISFIED_BY_ABSENCE with recorded proof; should-level rows are covered or carried with reasons.",
+   "outcome": "pass"
+  },
+  {
+   "id": "RT-005",
+   "probe": "hard_constraint_satisfaction",
+   "target": "BSC-004",
+   "finding": "One candidate is vetoed by the audience-invention constraint and was never shipped as a live direction; the veto is recorded in OPERATOR.",
+   "outcome": "pass_with_veto"
+  },
+  {
+   "id": "RT-006",
+   "probe": "blocked_requirement_review",
+   "target": "requirement ledger",
+   "finding": "No must-level requirement is blocked. One input gap (mood-board pin identity, HP-008) is declared and does not block any requirement, because the referenced visual styles are named with their research basis.",
+   "outcome": "pass_with_gap"
+  },
+  {
+   "id": "RT-007",
+   "probe": "fallback_transparency",
+   "target": "package",
+   "finding": "No fallback pack was used: the brief specifies its deliverables, so requirement-bound coverage applies. fallback_mode=false everywhere.",
+   "outcome": "not_applicable"
+  },
+  {
+   "id": "RT-008",
+   "probe": "pdf_anchor_fidelity",
+   "target": "requirement registry",
+   "finding": "Source is a structured document, not a PDF: page anchors were degraded to section anchors and the source format is recorded. No quoted requirement text was paraphrased in the registry — all quotes are verbatim.",
+   "outcome": "pass"
+  },
+  {
+   "id": "RT-009",
+   "probe": "anomaly_suppression",
+   "target": "chart package consumption",
+   "finding": "The adapted package's anomalies, invalid chains, gap rows, two unconfirmed explicit markers and the board-verification gap are all carried into LAYER_A and OPERATOR, and drive HP-001/HP-004/HP-006. Nothing was suppressed to clean the answer.",
+   "outcome": "pass"
+  },
+  {
+   "id": "RT-010",
+   "probe": "package_staleness_check",
+   "target": "inputs",
+   "finding": "Brief, research pack and chart package hashes are recorded in the manifest. The chart source was never read by this run (the path guard denies it); the package seal verifies.",
+   "outcome": "pass"
+  },
+  {
+   "id": "RT-011",
+   "probe": "unsupported_format_review",
+   "target": "deliverables",
+   "finding": "All deliverables are markdown/text, which the runtime supports. No non-text artefact (logo artwork, key visual bitmap) is claimed or shipped; the logo exclusion is terminal.",
+   "outcome": "pass"
+  },
+  {
+   "id": "RT-012",
+   "probe": "tie_review",
+   "target": "best_solution",
+   "finding": "No unresolved tie: the winner leads the runner-up on requirement coverage and on the differentiation criterion; no tie group was dropped or silently resolved.",
+   "outcome": "pass"
+  },
+  {
+   "id": "RT-013",
+   "probe": "requirement_map_completeness",
+   "target": "CMAP",
+   "finding": "Every requirement facet carries exactly one alignment row, including the facets whose only honest answer is NO_CHART_SUPPORT (product facts, price, audience, mood-board pin identity, and any timing figure). Zero rows are shown as zeros.",
+   "outcome": "pass"
+  },
+  {
+   "id": "RT-014",
+   "probe": "conflict_review",
+   "target": "known facts",
+   "finding": "One draft direction (a name chosen to fit the brand's register rather than the research) was CONFLICT_WITH_KNOWN against the brief's traceability requirement and the research attestation. It was downgraded and kept visible rather than rewritten.",
+   "outcome": "pass_with_downgrade"
+  }
+ ],
+ "proposals": [
+  {
+   "id": "P001",
+   "from": "C001",
+   "to": "Brief 1 core idea + Brief 3 tone",
+   "direction": "backward",
+   "rule": "REGISTER_TO_VOICE",
+   "status": "ok"
+  },
+  {
+   "id": "P002",
+   "from": "C004",
+   "to": "Brief 2 product definition (use-register only)",
+   "direction": "forward",
+   "rule": "USE_REGISTER_TRANSFER",
+   "status": "ok"
+  },
+  {
+   "id": "P003",
+   "from": "C005",
+   "to": "Brief 2 packaging architecture",
+   "direction": "forward",
+   "rule": "SHELL_CORE_MAPPING",
+   "status": "ok"
+  },
+  {
+   "id": "P004",
+   "from": "C006",
+   "to": "Brief 2 differentiation + Brief 3 idea",
+   "direction": "backward",
+   "rule": "INVERSION_AS_DIFFERENCE",
+   "status": "ok"
+  },
+  {
+   "id": "P005",
+   "from": "C007",
+   "to": "Brief 3 campaign concept",
+   "direction": "forward",
+   "rule": "PRESSURE_TO_POISE_IDEA",
+   "status": "ok"
+  },
+  {
+   "id": "P006",
+   "from": "C011",
+   "to": "Brief 3 asset sequence",
+   "direction": "forward",
+   "rule": "PHASE_ORDER_SEQUENCE",
+   "status": "ok"
+  },
+  {
+   "id": "P007",
+   "from": "C012",
+   "to": "Brief 3 production pipeline",
+   "direction": "backward",
+   "rule": "STAGED_PASSES_WITH_GATE",
+   "status": "ok"
+  },
+  {
+   "id": "P008",
+   "from": "C013",
+   "to": "name selection",
+   "direction": "backward",
+   "rule": "TRACEABILITY_HARD_CONSTRAINT",
+   "status": "superseded"
+  }
+ ],
+ "coherence": [
+  {
+   "decision": "Brand core idea — a pact kept quietly, facts on the surface",
+   "research": "RS-060 (freshness–industrialization paradox), RS-066 (gap: verifiable craft)",
+   "chart": "C001, C007",
+   "board": "—",
+   "note": "The idea exists because the research found the category's promises unprovable; the chart supplied the register (committed in public, private in core)."
+  },
+  {
+   "decision": "Philosophy — freshness is a temperature, not a claim",
+   "research": "RS-060, RS-062, RS-072",
+   "chart": "C006",
+   "board": "MB-008",
+   "note": "Answers the research gap in one sentence; the chart's axis read (pressed vs supported) is what made 'print the process' the natural move rather than a louder claim."
+  },
+  {
+   "decision": "Audience — Convenience-Driven Ritualist who reads labels",
+   "research": "RS-016",
+   "chart": "—",
+   "board": "—",
+   "note": "Lifted whole from the research's target buyer table; no new audience invented (REQ-009)."
+  },
+  {
+   "decision": "Name — AURA Cold Extraction",
+   "research": "RS-074",
+   "chart": "—",
+   "board": "MB-005",
+   "note": "Attested by the research pack's own brand concept; no competitor in the pack's matrix uses it."
+  },
+  {
+   "decision": "Logo direction — monastic restraint with one irregular detail, never the clinical default",
+   "research": "RS-030, RS-063",
+   "chart": "C003",
+   "board": "MB-005, MB-001, MB-002",
+   "note": "The avoid-line is the research's description of the category's default typographic system."
+  },
+  {
+   "decision": "Product architecture — one can, two variants, 8.5 oz, cold-chain only",
+   "research": "RS-022, RS-024, RS-060",
+   "chart": "C004",
+   "board": "—",
+   "note": "Sizes and price bands are the research's own data; the chart only supported a narrow, repeated-use architecture."
+  },
+  {
+   "decision": "Price — $5.50 single at the bottom of the super-premium band",
+   "research": "RS-022, RS-023",
+   "chart": "—",
+   "board": "—",
+   "note": "Chosen inside the researched band and paired with printed proof, because the research shows price is the buyer's first suspicion."
+  },
+  {
+   "decision": "Packaging colour and finish — obsidian matte, bone type, raw metal kept raw",
+   "research": "RS-061, RS-035, RS-037",
+   "chart": "C005",
+   "board": "MB-002, MB-006",
+   "note": "Colour follows the research's super-premium palette; the raw-metal decision is the chart's 'make the surface behave' read made physical."
+  },
+  {
+   "decision": "Shelf standout — the unprinted frost band",
+   "research": "RS-038, RS-053",
+   "chart": "C005, R004",
+   "board": "MB-006, MB-010",
+   "note": "A structural differentiator no competitor can copy with a palette change."
+  },
+  {
+   "decision": "Campaign idea — Take It Slow",
+   "research": "RS-066, RS-069",
+   "chart": "C007",
+   "board": "MB-008",
+   "note": "Inverts the category's hustle register, which the research names as a premium-positioning error."
+  },
+  {
+   "decision": "Hero, stage and casting — hands only, enclosed threshold, one directional light",
+   "research": "RS-033, RS-046, RS-047",
+   "chart": "C008, C009, C010",
+   "board": "MB-006, MB-003, MB-007",
+   "note": "Faces excluded on purpose; the research's casting codes describe reflective, unposed moments rather than expressive ones."
+  },
+  {
+   "decision": "Production — staged hybrid, photographed hero, generated coverage, three human gates",
+   "research": "RS-070, RS-072, RS-049",
+   "chart": "C012",
+   "board": "MB-008",
+   "note": "The research's cardinal failure (elegant can, bad liquid) is why the pack's own frames are photographed rather than generated."
+  }
+ ],
+ "ai_pipeline": {
+  "workflow_reference": "Standardised image/video generation workflow (course workflow): reference build → generation → product/composition pass → supporting coverage → motion → sound → grade → brand gate",
+  "tool_classes": [
+   "text-to-image generation",
+   "image-to-image / inpainting",
+   "image-to-video",
+   "upscale and grain pass",
+   "colour grade"
+  ],
+  "human_gates": [
+   {
+    "gate": "G1 reference lock",
+    "who": "human, non-delegable",
+    "why": "the can's geometry and label text are brand facts, not prompts"
+   },
+   {
+    "gate": "G2 select",
+    "who": "human",
+    "why": "the frost must read at thumbnail size; generators cannot judge that"
+   },
+   {
+    "gate": "G3 brand-consistency",
+    "who": "human, non-delegable",
+    "why": "three-point check (geometry, frost band, label text); any failure regenerates the asset"
+   }
+  ],
+  "assets_generated_vs_photographed": [
+   {
+    "asset": "Hero image",
+    "path": "photographed",
+    "reason": "carries the promise; label legibility and alloy behaviour must be real"
+   },
+   {
+    "asset": "Back-panel detail",
+    "path": "photographed",
+    "reason": "contains the facts the buyer is asked to trust"
+   },
+   {
+    "asset": "Supporting lifestyle ×3",
+    "path": "generated",
+    "reason": "context frames; no legible type in frame"
+   },
+   {
+    "asset": "Frost macro",
+    "path": "photographed element composited",
+    "reason": "dew on a specific alloy is where generators fail most visibly"
+   },
+   {
+    "asset": "Pour detail",
+    "path": "photographed",
+    "reason": "liquid behaviour is the product"
+   },
+   {
+    "asset": "Motion (15 s + 3 × 6 s)",
+    "path": "generated coverage, human edit",
+    "reason": "pacing and stillness are the idea; generated motion must be cut by a human"
+   },
+   {
+    "asset": "Sound design",
+    "path": "recorded",
+    "reason": "the tab, the hiss and the pour are the campaign's sonic identity"
+   }
+  ]
+ },
+ "veto": [
+  {
+   "id": "VETO-001",
+   "candidate": "BSC-004",
+   "constraint": "REQ-009 — invented audience",
+   "action": "candidate rejected and never shipped as a live direction",
+   "recorded_in": "OPERATOR/HARD_CONSTRAINT_VETO.md"
+  }
+ ],
+ "claim_registers": {
+  "C001": "quiet commitment — open about the facts, private about the interior",
+  "C002": "exact, watchful, unhurried",
+  "C003": "a made object used in a repeated act",
+  "C004": "value expressed over repeated use rather than a one-off",
+  "C005": "a calm exterior over an active core",
+  "C006": "difference taken from the opposite of the category default",
+  "C007": "pressure resolved into composure",
+  "C008": "one subject, one soft directional light",
+  "C009": "an enclosed stage with one working light",
+  "C010": "hands, no faces — action over expression",
+  "C011": "the product first, the context second",
+  "C012": "staged passes with a human check at each one",
+  "C013": "rejected — a name chosen to fit a register rather than the research"
+ },
+ "prohibition_proofs": {
+  "REQ-031": "no artwork exists anywhere in the package: the logo section is written direction only and states the boundary in its own text, even though image generation was available in this run",
+  "REQ-032": "the positioning statement lifts its audience and its differentiator from the Assignment-1 research pack, and the vetoed direction shows what happens to a candidate that tries to invent an audience",
+  "REQ-033": "the logo direction names the category's clinical lowercase sans-serif system as an explicit avoid, alongside heritage gothic and literal coffee imagery",
+  "REQ-034": "every section in all three briefs carries a named research basis, the coherence check repeats the trace decision by decision, and the single untraceable input (the live board) is declared rather than filled"
+ }
+}

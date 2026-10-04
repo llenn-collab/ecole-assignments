@@ -1,0 +1,28 @@
+{
+ "phase": "PDF_INGEST",
+ "source_format": "structured YAML brief (not a paginated PDF)",
+ "pages_available": false,
+ "page_anchors_degraded_to": "section anchors",
+ "extraction_quality": {
+  "header_footer_repeats_stripped": true,
+  "hyphenation_repaired": true,
+  "verbatim_quotes_preserved": true,
+  "artefacts": [
+   "one price band appears as '3.99-4.99' in the source and is quoted exactly as it appears",
+   "tables flattened into row-quotes in the requirement registry"
+  ],
+  "unparsed_regions": 0
+ },
+ "logo_boundary_state": {
+  "exclusion_literal": "Logo Direction (not the logo itself — a brief for it)",
+  "capability": "image generation IS available in this runtime",
+  "capability_was_available_not_used": true,
+  "governing_rule": "the brief's exclusions win over capability; written logo direction only",
+  "terminal": true
+ },
+ "requirement_facets": 34,
+ "must": 24,
+ "must_not": 4,
+ "should": 6,
+ "guard": "G-PDF-INGEST-COMPLETE: PASS"
+}

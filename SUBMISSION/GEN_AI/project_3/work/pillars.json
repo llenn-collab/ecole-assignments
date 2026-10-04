@@ -1,0 +1,46 @@
+{
+  "year": {
+    "raw": "丙午",
+    "stem": "丙",
+    "branch": "午",
+    "stem_roman": "bing",
+    "branch_roman": "wu",
+    "stem_element": "fire",
+    "stem_polarity": "yang",
+    "branch_element": "fire",
+    "parse_state": "OK"
+  },
+  "month": {
+    "raw": "丁酉",
+    "stem": "丁",
+    "branch": "酉",
+    "stem_roman": "ding",
+    "branch_roman": "you",
+    "stem_element": "fire",
+    "stem_polarity": "yin",
+    "branch_element": "metal",
+    "parse_state": "OK"
+  },
+  "day": {
+    "raw": "辛亥",
+    "stem": "辛",
+    "branch": "亥",
+    "stem_roman": "xin",
+    "branch_roman": "hai",
+    "stem_element": "metal",
+    "stem_polarity": "yin",
+    "branch_element": "water",
+    "parse_state": "OK"
+  },
+  "hour": {
+    "raw": "乙未",
+    "stem": "乙",
+    "branch": "未",
+    "stem_roman": "yi",
+    "branch_roman": "wei",
+    "stem_element": "wood",
+    "stem_polarity": "yin",
+    "branch_element": "earth",
+    "parse_state": "OK"
+  }
+}

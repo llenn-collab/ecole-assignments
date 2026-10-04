@@ -1,0 +1,7 @@
+{"cap": "CAP-12", "in": "palace_ids,visibility", "out": "board_digest", "cost": 4639, "phase": "render"}
+{"cap": "CAP-12", "in": "palace_blocks", "out": "board_digest", "cost": 3, "phase": "render"}
+{"cap": "CAP-13", "in": "render_lines", "out": "grammar_check", "cost": 4, "phase": "render"}
+{"cap": "CAP-14", "in": "ledger_at_render", "out": "ledger_reconcile", "cost": 31, "phase": "render"}
+{"cap": "CAP-16", "in": "package", "out": "self_audit", "cost": 84, "phase": "render"}
+{"cap": "CAP-18", "in": "claims,facets", "out": "case_map", "cost": 3, "phase": "render"}
+{"cap": "CAP-19", "in": "verdicts,CONK", "out": "conflict_check", "cost": 78, "phase": "render"}

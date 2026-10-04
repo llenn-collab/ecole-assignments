@@ -1,0 +1,168 @@
+{
+  "palace_identity": {
+    "1": {
+      "canonical": 1,
+      "raw_key_verbatim": "坎1宫",
+      "trigram": "Kan",
+      "direction": "N",
+      "element": "water",
+      "star_home": "TianPeng",
+      "branches": [
+        "zi"
+      ]
+    },
+    "2": {
+      "canonical": 2,
+      "raw_key_verbatim": "坤2宫",
+      "trigram": "Kun",
+      "direction": "SW",
+      "element": "earth",
+      "star_home": "TianRui",
+      "branches": [
+        "wei",
+        "shen"
+      ]
+    },
+    "3": {
+      "canonical": 3,
+      "raw_key_verbatim": "震3宫",
+      "trigram": "Zhen",
+      "direction": "E",
+      "element": "wood",
+      "star_home": "TianChong",
+      "branches": [
+        "mao"
+      ]
+    },
+    "4": {
+      "canonical": 4,
+      "raw_key_verbatim": "巽4宫",
+      "trigram": "Xun",
+      "direction": "SE",
+      "element": "wood",
+      "star_home": "TianFu",
+      "branches": [
+        "chen",
+        "si"
+      ]
+    },
+    "5": {
+      "canonical": 5,
+      "raw_key_verbatim": "中5宫",
+      "trigram": "Centre",
+      "direction": "C",
+      "element": "earth",
+      "star_home": "TianQin",
+      "branches": []
+    },
+    "6": {
+      "canonical": 6,
+      "raw_key_verbatim": "乾6宫",
+      "trigram": "Qian",
+      "direction": "NW",
+      "element": "metal",
+      "star_home": "TianXin",
+      "branches": [
+        "xu",
+        "hai"
+      ]
+    },
+    "7": {
+      "canonical": 7,
+      "raw_key_verbatim": "兑7宫",
+      "trigram": "Dui",
+      "direction": "W",
+      "element": "metal",
+      "star_home": "TianZhu",
+      "branches": [
+        "you"
+      ]
+    },
+    "8": {
+      "canonical": 8,
+      "raw_key_verbatim": "艮8宫",
+      "trigram": "Gen",
+      "direction": "NE",
+      "element": "earth",
+      "star_home": "TianRen",
+      "branches": [
+        "chou",
+        "yin"
+      ]
+    },
+    "9": {
+      "canonical": 9,
+      "raw_key_verbatim": "离9宫",
+      "trigram": "Li",
+      "direction": "S",
+      "element": "fire",
+      "star_home": "TianYing",
+      "branches": [
+        "wu"
+      ]
+    }
+  },
+  "geometry_edges": {
+    "oppositions": [
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "rule": "frozen_tables.opposition_pairs"
+      },
+      {
+        "pair": [
+          6,
+          9
+        ],
+        "rule": "frozen_tables.opposition_pairs"
+      }
+    ],
+    "lodging": {
+      "centre": 5,
+      "lodges_into_from_source": [
+        {
+          "palace": 4,
+          "carrier": "寄庚",
+          "centre_stem": "庚",
+          "source_path": "palaces.xun_4.interpretations[寄庚]"
+        }
+      ],
+      "canonical_candidates": [
+        {
+          "palace": 2,
+          "note": "canonical centre host (坤)"
+        },
+        {
+          "palace": 8,
+          "note": "canonical centre host (艮)"
+        }
+      ],
+      "rule": "centre builds a lodging GRAPH; canonical candidate hosts stay visible even when unseeded"
+    },
+    "centre_opposite": "NONE — structural: centre has no opposite (law 10)"
+  },
+  "zhi_fu_zhi_shi_checks": [
+    {
+      "role": "zhi_fu",
+      "declared": "天辅@8",
+      "carried_star": "天辅",
+      "consistent": true
+    },
+    {
+      "role": "zhi_shi",
+      "declared": "杜门@3",
+      "carried_door": "杜门",
+      "consistent": true
+    },
+    {
+      "role": "zhi_fu_deity",
+      "palaces_carrying_value_deity": [
+        8
+      ],
+      "declared_palace": "8",
+      "consistent": true
+    }
+  ]
+}

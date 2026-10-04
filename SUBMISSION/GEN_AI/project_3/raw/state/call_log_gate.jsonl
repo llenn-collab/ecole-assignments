@@ -1,0 +1,5 @@
+{"cap": "CAP-18", "in": "claims,Qslots", "out": "case_map", "cost": 1198, "phase": "render_gate"}
+{"cap": "CAP-19", "in": "verdicts,CONK", "out": "conflict_register", "cost": 78, "phase": "render_gate"}
+{"cap": "CAP-13", "in": "all_emitted_lines", "out": "grammar_check", "cost": 3, "phase": "render_gate"}
+{"cap": "CAP-14", "in": "ledger_at_render_gate", "out": "ledger_reconcile", "cost": 31, "phase": "render_gate"}
+{"cap": "CAP-16", "in": "package", "out": "self_audit", "cost": 3291, "phase": "render_gate"}

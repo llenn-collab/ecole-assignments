@@ -1,0 +1,872 @@
+{
+  "palace_tallies": {
+    "1": {
+      "addressed": 17,
+      "corroborated": 4,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 21,
+      "sum_of_addends": 21,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 21
+    },
+    "2": {
+      "addressed": 18,
+      "corroborated": 5,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 23,
+      "sum_of_addends": 23,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 23
+    },
+    "3": {
+      "addressed": 18,
+      "corroborated": 4,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 22,
+      "sum_of_addends": 22,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 22
+    },
+    "4": {
+      "addressed": 22,
+      "corroborated": 9,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 31,
+      "sum_of_addends": 31,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 31
+    },
+    "5": {
+      "addressed": 5,
+      "corroborated": 2,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 7,
+      "sum_of_addends": 7,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 7
+    },
+    "6": {
+      "addressed": 17,
+      "corroborated": 5,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 22,
+      "sum_of_addends": 22,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 22
+    },
+    "7": {
+      "addressed": 16,
+      "corroborated": 3,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 19,
+      "sum_of_addends": 19,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 19
+    },
+    "8": {
+      "addressed": 16,
+      "corroborated": 5,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 21,
+      "sum_of_addends": 21,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 21
+    },
+    "9": {
+      "addressed": 16,
+      "corroborated": 4,
+      "deferred": 0,
+      "excluded": 0,
+      "unparseable": 0,
+      "anomaly": 0,
+      "absent": 0,
+      "total": 20,
+      "sum_of_addends": 20,
+      "closure_balanced": true,
+      "count_verified": true,
+      "second_tally": 20
+    }
+  },
+  "run_tally": {
+    "addressed": 125,
+    "corroborated": 41,
+    "deferred": 0,
+    "excluded": 0,
+    "unparseable": 0,
+    "anomaly": 0,
+    "absent": 0
+  },
+  "reconciliation": {
+    "sum_of_palace_totals": 186,
+    "shared_relation_memberships": 20,
+    "sum_minus_shared": 166,
+    "atom_total": 166,
+    "balances": true
+  },
+  "class_level_closure": [
+    {
+      "class": "PAT-29 空亡(void)",
+      "state": "ABSENT",
+      "phase": "P6",
+      "reason": "no void field in source; schema_adapter.void=UNRESOLVED; absence is factual reporting, never support (law 18/27/28)"
+    },
+    {
+      "class": "PAT-30 驿马(horse)",
+      "state": "ABSENT",
+      "phase": "P6",
+      "reason": "no horse field in source; schema_adapter.horse=UNRESOLVED; day-pillar triad horse is computable in principle but the chart does not seed the class"
+    }
+  ],
+  "atom_counts": {
+    "E": 117,
+    "R": 49,
+    "total": 166,
+    "E_structural": 60,
+    "E_condition": 57
+  },
+  "batches": [
+    {
+      "batch": "B01",
+      "topic": "T1",
+      "topic_name": "identity_frame",
+      "protocol_class": "HC",
+      "palaces": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "layers": "identity",
+      "relation_types": [],
+      "in_scope": 51,
+      "tally": {
+        "addressed": 22,
+        "corroborated": 29,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B02",
+      "topic": "T2",
+      "topic_name": "axis",
+      "protocol_class": "AX",
+      "palaces": [
+        1,
+        4
+      ],
+      "layers": "all",
+      "relation_types": [
+        "gate_palace",
+        "stem_pair_explicit"
+      ],
+      "in_scope": 36,
+      "tally": {
+        "addressed": 23,
+        "corroborated": 13,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B03",
+      "topic": "T2",
+      "topic_name": "axis",
+      "protocol_class": "ZQ",
+      "palaces": [
+        1,
+        4
+      ],
+      "layers": "stems",
+      "relation_types": [
+        "cross_palace_trace"
+      ],
+      "in_scope": 14,
+      "tally": {
+        "addressed": 8,
+        "corroborated": 6,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B04",
+      "topic": "T2",
+      "topic_name": "axis",
+      "protocol_class": "JG",
+      "palaces": [
+        1,
+        4
+      ],
+      "layers": "cond",
+      "relation_types": [
+        "hidden_pair_explicit",
+        "same_stem"
+      ],
+      "in_scope": 20,
+      "tally": {
+        "addressed": 17,
+        "corroborated": 3,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B05",
+      "topic": "T2",
+      "topic_name": "axis",
+      "protocol_class": "CS",
+      "palaces": [
+        1,
+        4
+      ],
+      "layers": "cond",
+      "relation_types": [],
+      "in_scope": 17,
+      "tally": {
+        "addressed": 14,
+        "corroborated": 3,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B06",
+      "topic": "T3",
+      "topic_name": "axis_opposition",
+      "protocol_class": "AX",
+      "palaces": [
+        1,
+        4
+      ],
+      "layers": "identity",
+      "relation_types": [
+        "opposition"
+      ],
+      "in_scope": 13,
+      "tally": {
+        "addressed": 5,
+        "corroborated": 8,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B07",
+      "topic": "T3",
+      "topic_name": "axis_opposition",
+      "protocol_class": "AX",
+      "palaces": [
+        6,
+        9
+      ],
+      "layers": "identity",
+      "relation_types": [
+        "opposition"
+      ],
+      "in_scope": 13,
+      "tally": {
+        "addressed": 6,
+        "corroborated": 7,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B08",
+      "topic": "T3",
+      "topic_name": "axis_opposition",
+      "protocol_class": "ZQ",
+      "palaces": [
+        1,
+        4
+      ],
+      "layers": "stems",
+      "relation_types": [
+        "cross_palace_trace"
+      ],
+      "in_scope": 14,
+      "tally": {
+        "addressed": 8,
+        "corroborated": 6,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B09",
+      "topic": "T4",
+      "topic_name": "axis_lodging",
+      "protocol_class": "AX",
+      "palaces": [
+        5,
+        4,
+        2,
+        8
+      ],
+      "layers": "identity",
+      "relation_types": [
+        "lodging_edge",
+        "lodging_candidate"
+      ],
+      "in_scope": 24,
+      "tally": {
+        "addressed": 10,
+        "corroborated": 14,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B10",
+      "topic": "T4",
+      "topic_name": "axis_lodging",
+      "protocol_class": "JG",
+      "palaces": [
+        5
+      ],
+      "layers": "cond",
+      "relation_types": [
+        "same_stem"
+      ],
+      "in_scope": 1,
+      "tally": {
+        "addressed": 0,
+        "corroborated": 1,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B11",
+      "topic": "T4",
+      "topic_name": "axis_lodging",
+      "protocol_class": "ZQ",
+      "palaces": [
+        5,
+        4
+      ],
+      "layers": "stems",
+      "relation_types": [
+        "lodging_edge",
+        "cross_palace_trace"
+      ],
+      "in_scope": 10,
+      "tally": {
+        "addressed": 5,
+        "corroborated": 5,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B12",
+      "topic": "T4",
+      "topic_name": "axis_lodging",
+      "protocol_class": "CS",
+      "palaces": [
+        5
+      ],
+      "layers": "cond",
+      "relation_types": [],
+      "in_scope": 1,
+      "tally": {
+        "addressed": 0,
+        "corroborated": 1,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B13",
+      "topic": "T5",
+      "topic_name": "tripled_axis",
+      "protocol_class": "AX",
+      "palaces": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "layers": "identity",
+      "relation_types": [
+        "triad_family",
+        "branch_liuhe",
+        "branch_chong"
+      ],
+      "in_scope": 57,
+      "tally": {
+        "addressed": 28,
+        "corroborated": 29,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B14",
+      "topic": "T5",
+      "topic_name": "tripled_axis",
+      "protocol_class": "ZQ",
+      "palaces": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "layers": "cond",
+      "relation_types": [
+        "hidden_pair_explicit"
+      ],
+      "in_scope": 67,
+      "tally": {
+        "addressed": 57,
+        "corroborated": 10,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B15",
+      "topic": "T5",
+      "topic_name": "tripled_axis",
+      "protocol_class": "JG",
+      "palaces": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "layers": "cond",
+      "relation_types": [
+        "liu_yi_xing"
+      ],
+      "in_scope": 59,
+      "tally": {
+        "addressed": 49,
+        "corroborated": 10,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B16",
+      "topic": "T5",
+      "topic_name": "tripled_axis",
+      "protocol_class": "CS",
+      "palaces": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "layers": "cond",
+      "relation_types": [],
+      "in_scope": 57,
+      "tally": {
+        "addressed": 47,
+        "corroborated": 10,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B17",
+      "topic": "T6",
+      "topic_name": "child_axis",
+      "protocol_class": "AX",
+      "palaces": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "layers": "all",
+      "relation_types": [
+        "gate_palace"
+      ],
+      "in_scope": 125,
+      "tally": {
+        "addressed": 84,
+        "corroborated": 41,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B18",
+      "topic": "T6",
+      "topic_name": "child_axis",
+      "protocol_class": "ZQ",
+      "palaces": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "layers": "stems",
+      "relation_types": [
+        "stem_pair_explicit"
+      ],
+      "in_scope": 34,
+      "tally": {
+        "addressed": 15,
+        "corroborated": 19,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B19",
+      "topic": "T6",
+      "topic_name": "child_axis",
+      "protocol_class": "CS",
+      "palaces": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "layers": "cond",
+      "relation_types": [
+        "star_tomb"
+      ],
+      "in_scope": 58,
+      "tally": {
+        "addressed": 48,
+        "corroborated": 10,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B20",
+      "topic": "T6",
+      "topic_name": "child_axis",
+      "protocol_class": "JG",
+      "palaces": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "layers": "cond",
+      "relation_types": [],
+      "in_scope": 57,
+      "tally": {
+        "addressed": 47,
+        "corroborated": 10,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B21",
+      "topic": "T7",
+      "topic_name": "cross_palace",
+      "protocol_class": "ZQ",
+      "palaces": [
+        1,
+        4,
+        5
+      ],
+      "layers": "stems",
+      "relation_types": [
+        "cross_palace_trace"
+      ],
+      "in_scope": 15,
+      "tally": {
+        "addressed": 8,
+        "corroborated": 7,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B22",
+      "topic": "T7",
+      "topic_name": "cross_palace",
+      "protocol_class": "ZQ",
+      "palaces": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "layers": "stems",
+      "relation_types": [
+        "cross_palace_trace"
+      ],
+      "in_scope": 35,
+      "tally": {
+        "addressed": 16,
+        "corroborated": 19,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B23",
+      "topic": "T7",
+      "topic_name": "cross_palace",
+      "protocol_class": "QT",
+      "palaces": [
+        1,
+        4,
+        5
+      ],
+      "layers": "all",
+      "relation_types": [],
+      "in_scope": 36,
+      "tally": {
+        "addressed": 21,
+        "corroborated": 15,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B24",
+      "topic": "T7",
+      "topic_name": "cross_palace",
+      "protocol_class": "JG",
+      "palaces": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "layers": "cond",
+      "relation_types": [],
+      "in_scope": 57,
+      "tally": {
+        "addressed": 47,
+        "corroborated": 10,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    },
+    {
+      "batch": "B25",
+      "topic": "T7",
+      "topic_name": "cross_palace",
+      "protocol_class": "AX",
+      "palaces": [
+        1,
+        4,
+        5
+      ],
+      "layers": "all",
+      "relation_types": [
+        "lodging_edge",
+        "opposition"
+      ],
+      "in_scope": 38,
+      "tally": {
+        "addressed": 23,
+        "corroborated": 15,
+        "deferred": 0,
+        "excluded": 0,
+        "unparseable": 0,
+        "anomaly": 0,
+        "absent": 0
+      },
+      "closed": true
+    }
+  ],
+  "closure_equations": {
+    "per_palace": "total = addressed + corroborated + deferred + excluded + unparseable + anomaly + absent",
+    "counting_rule": "enumerated in addend groups of at most nine; second tally recorded (law 46)",
+    "run_level": "sum of palace totals - shared relation memberships = atom total"
+  }
+}

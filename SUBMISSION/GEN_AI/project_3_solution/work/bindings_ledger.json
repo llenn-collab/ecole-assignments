@@ -1,0 +1,780 @@
+{
+  "bindings": [
+    {
+      "id": "BIND-001",
+      "requirement_id": "REQ-001",
+      "must_level": "must",
+      "question_type": "deliverable_or_artefact",
+      "slot": "my_answers",
+      "rule_id": "RULE_DELIVERABLE_OR_ARTEFACT",
+      "chart_citations": [],
+      "research_citations": [
+        "RS-001",
+        "RS-002",
+        "RS-003",
+        "RS-004",
+        "RS-005",
+        "RS-006"
+      ],
+      "evidence_classes": [],
+      "aligned_via": "brief-side facts only; no package evidence exists for this facet"
+    },
+    {
+      "id": "BIND-002",
+      "requirement_id": "REQ-002",
+      "must_level": "must",
+      "question_type": "deliverable_or_artefact",
+      "slot": "my_answers",
+      "rule_id": "RULE_DELIVERABLE_OR_ARTEFACT",
+      "chart_citations": [],
+      "research_citations": [
+        "RS-060",
+        "RS-066",
+        "RS-069"
+      ],
+      "evidence_classes": [],
+      "aligned_via": "brief-side facts only; no package evidence exists for this facet"
+    },
+    {
+      "id": "BIND-003",
+      "requirement_id": "REQ-003",
+      "must_level": "must",
+      "question_type": "deliverable_or_artefact",
+      "slot": "my_answers",
+      "rule_id": "RULE_DELIVERABLE_OR_ARTEFACT",
+      "chart_citations": [],
+      "research_citations": [
+        "RS-010",
+        "RS-011",
+        "RS-024",
+        "RS-033",
+        "RS-034",
+        "RS-038",
+        "RS-045"
+      ],
+      "evidence_classes": [],
+      "aligned_via": "brief-side facts only; no package evidence exists for this facet"
+    },
+    {
+      "id": "BIND-004",
+      "requirement_id": "REQ-004",
+      "must_level": "must",
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "rule_id": "RULE_STRATEGY_OR_BEST_PATH",
+      "chart_citations": [
+        "C001",
+        "C006",
+        "C007",
+        "C012",
+        "C013"
+      ],
+      "research_citations": [
+        "RS-060",
+        "RS-066",
+        "RS-074"
+      ],
+      "evidence_classes": [
+        "claim_C"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-005",
+      "requirement_id": "REQ-005",
+      "must_level": "must",
+      "question_type": "deliverable_or_artefact",
+      "slot": "my_answers",
+      "rule_id": "RULE_DELIVERABLE_OR_ARTEFACT",
+      "chart_citations": [],
+      "research_citations": [],
+      "evidence_classes": [],
+      "aligned_via": "brief-side facts only; no package evidence exists for this facet"
+    },
+    {
+      "id": "BIND-006",
+      "requirement_id": "REQ-006",
+      "must_level": "must",
+      "question_type": "deliverable_or_artefact",
+      "slot": "my_answers",
+      "rule_id": "RULE_DELIVERABLE_OR_ARTEFACT",
+      "chart_citations": [],
+      "research_citations": [],
+      "evidence_classes": [],
+      "aligned_via": "brief-side facts only; no package evidence exists for this facet"
+    },
+    {
+      "id": "BIND-007",
+      "requirement_id": "REQ-007",
+      "must_level": "must",
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "rule_id": "RULE_DESIGN_DIRECTION",
+      "chart_citations": [
+        "C001",
+        "C004",
+        "C007"
+      ],
+      "research_citations": [
+        "RS-060",
+        "RS-066",
+        "RS-074"
+      ],
+      "evidence_classes": [
+        "claim_C"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-008",
+      "requirement_id": "REQ-008",
+      "must_level": "must",
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "rule_id": "RULE_DESIGN_DIRECTION",
+      "chart_citations": [
+        "C001",
+        "C004",
+        "C005",
+        "C006"
+      ],
+      "research_citations": [
+        "RS-058",
+        "RS-060",
+        "RS-062",
+        "RS-066",
+        "RS-068",
+        "RS-072"
+      ],
+      "evidence_classes": [
+        "claim_C"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-009",
+      "requirement_id": "REQ-009",
+      "must_level": "must",
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "rule_id": "RULE_DESIGN_DIRECTION",
+      "chart_citations": [
+        "C006"
+      ],
+      "research_citations": [
+        "RS-016",
+        "RS-041",
+        "RS-060",
+        "RS-066"
+      ],
+      "evidence_classes": [
+        "claim_C"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-010",
+      "requirement_id": "REQ-010",
+      "must_level": "must",
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "rule_id": "RULE_DESIGN_DIRECTION",
+      "chart_citations": [
+        "C001",
+        "C002",
+        "C005",
+        "C007"
+      ],
+      "research_citations": [
+        "RS-043",
+        "RS-044",
+        "RS-056",
+        "RS-058",
+        "RS-062",
+        "RS-068",
+        "RS-069"
+      ],
+      "evidence_classes": [
+        "claim_C"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-011",
+      "requirement_id": "REQ-011",
+      "must_level": "must",
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "rule_id": "RULE_DESIGN_DIRECTION",
+      "chart_citations": [
+        "C003"
+      ],
+      "research_citations": [
+        "RS-062",
+        "RS-063",
+        "RS-074"
+      ],
+      "evidence_classes": [
+        "claim_C"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-012",
+      "requirement_id": "REQ-012",
+      "must_level": "must",
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "rule_id": "RULE_DESIGN_DIRECTION",
+      "chart_citations": [
+        "C003",
+        "E022",
+        "E023"
+      ],
+      "research_citations": [
+        "RS-024",
+        "RS-029",
+        "RS-030",
+        "RS-032",
+        "RS-033",
+        "RS-034",
+        "RS-045",
+        "RS-063"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "structural_E"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-013",
+      "requirement_id": "REQ-013",
+      "must_level": "must",
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "rule_id": "RULE_DESIGN_DIRECTION",
+      "chart_citations": [
+        "C001",
+        "C004",
+        "C005",
+        "C009",
+        "C012",
+        "C013",
+        "E064",
+        "E092",
+        "R028"
+      ],
+      "research_citations": [
+        "RS-005",
+        "RS-006",
+        "RS-022",
+        "RS-023",
+        "RS-024",
+        "RS-041",
+        "RS-060",
+        "RS-061",
+        "RS-066",
+        "RS-072"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "condition_E",
+        "relation_R"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-014",
+      "requirement_id": "REQ-014",
+      "must_level": "must",
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "rule_id": "RULE_DESIGN_DIRECTION",
+      "chart_citations": [
+        "C001",
+        "C003",
+        "C005",
+        "C006",
+        "C012",
+        "C013",
+        "E022",
+        "E023",
+        "E064",
+        "E092",
+        "R017"
+      ],
+      "research_citations": [
+        "RS-003",
+        "RS-023",
+        "RS-024",
+        "RS-030",
+        "RS-033",
+        "RS-034",
+        "RS-035",
+        "RS-037",
+        "RS-038",
+        "RS-040",
+        "RS-041",
+        "RS-045",
+        "RS-061",
+        "RS-063",
+        "RS-066"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "condition_E",
+        "relation_R",
+        "structural_E"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-015",
+      "requirement_id": "REQ-015",
+      "must_level": "must",
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "rule_id": "RULE_DESIGN_DIRECTION",
+      "chart_citations": [
+        "C001",
+        "C005",
+        "C009",
+        "C013",
+        "E064",
+        "E090",
+        "R004",
+        "R047"
+      ],
+      "research_citations": [
+        "RS-023",
+        "RS-038",
+        "RS-041",
+        "RS-060",
+        "RS-066",
+        "RS-070"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "condition_E",
+        "relation_R"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-016",
+      "requirement_id": "REQ-016",
+      "must_level": "must",
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "rule_id": "RULE_STRATEGY_OR_BEST_PATH",
+      "chart_citations": [
+        "C003",
+        "C006",
+        "E022",
+        "E023",
+        "R001",
+        "R004",
+        "R045"
+      ],
+      "research_citations": [
+        "RS-003",
+        "RS-008",
+        "RS-030",
+        "RS-061",
+        "RS-063"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "relation_R",
+        "structural_E"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-017",
+      "requirement_id": "REQ-017",
+      "must_level": "must",
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "rule_id": "RULE_DESIGN_DIRECTION",
+      "chart_citations": [
+        "C001",
+        "C006",
+        "C007"
+      ],
+      "research_citations": [
+        "RS-043",
+        "RS-066",
+        "RS-069",
+        "RS-070"
+      ],
+      "evidence_classes": [
+        "claim_C"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-018",
+      "requirement_id": "REQ-018",
+      "must_level": "must",
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "rule_id": "RULE_DESIGN_DIRECTION",
+      "chart_citations": [
+        "C008",
+        "E022",
+        "E023",
+        "E092"
+      ],
+      "research_citations": [
+        "RS-033",
+        "RS-038",
+        "RS-047",
+        "RS-050"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "condition_E",
+        "structural_E"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-019",
+      "requirement_id": "REQ-019",
+      "must_level": "must",
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "rule_id": "RULE_DESIGN_DIRECTION",
+      "chart_citations": [
+        "C003",
+        "C009",
+        "C010",
+        "E022",
+        "E025",
+        "R004"
+      ],
+      "research_citations": [
+        "RS-033",
+        "RS-053",
+        "RS-055",
+        "RS-056",
+        "RS-058"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "relation_R",
+        "structural_E"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-020",
+      "requirement_id": "REQ-020",
+      "must_level": "must",
+      "question_type": "design_direction",
+      "slot": "best_solution",
+      "rule_id": "RULE_DESIGN_DIRECTION",
+      "chart_citations": [
+        "C003",
+        "C010",
+        "E001",
+        "E022",
+        "E092"
+      ],
+      "research_citations": [
+        "RS-046",
+        "RS-047",
+        "RS-048",
+        "RS-055",
+        "RS-056",
+        "RS-058"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "condition_E",
+        "structural_E"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-021",
+      "requirement_id": "REQ-021",
+      "must_level": "must",
+      "question_type": "timeline_or_execution",
+      "slot": "my_answers",
+      "rule_id": "RULE_TIMELINE_OR_EXECUTION",
+      "chart_citations": [
+        "C011",
+        "E061",
+        "E083",
+        "E084",
+        "R001",
+        "R004"
+      ],
+      "research_citations": [
+        "RS-024",
+        "RS-033",
+        "RS-034",
+        "RS-045",
+        "RS-049",
+        "RS-051",
+        "RS-052"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "condition_E",
+        "relation_R"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-022",
+      "requirement_id": "REQ-022",
+      "must_level": "must",
+      "question_type": "timeline_or_execution",
+      "slot": "my_answers",
+      "rule_id": "RULE_TIMELINE_OR_EXECUTION",
+      "chart_citations": [
+        "C009",
+        "C011",
+        "C012",
+        "E091",
+        "E092",
+        "R004",
+        "R028"
+      ],
+      "research_citations": [
+        "RS-005",
+        "RS-006",
+        "RS-049",
+        "RS-054",
+        "RS-060",
+        "RS-067",
+        "RS-070",
+        "RS-072"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "condition_E",
+        "relation_R"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-023",
+      "requirement_id": "REQ-023",
+      "must_level": "should",
+      "question_type": "deliverable_or_artefact",
+      "slot": "my_answers",
+      "rule_id": "RULE_DELIVERABLE_OR_ARTEFACT",
+      "chart_citations": [],
+      "research_citations": [],
+      "evidence_classes": [],
+      "aligned_via": "brief-side facts only; no package evidence exists for this facet"
+    },
+    {
+      "id": "BIND-024",
+      "requirement_id": "REQ-024",
+      "must_level": "must",
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "rule_id": "RULE_STRATEGY_OR_BEST_PATH",
+      "chart_citations": [
+        "C001",
+        "C005",
+        "C009",
+        "R047"
+      ],
+      "research_citations": [
+        "RS-060",
+        "RS-070"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "relation_R"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-025",
+      "requirement_id": "REQ-025",
+      "must_level": "must",
+      "question_type": "deliverable_or_artefact",
+      "slot": "my_answers",
+      "rule_id": "RULE_DELIVERABLE_OR_ARTEFACT",
+      "chart_citations": [],
+      "research_citations": [],
+      "evidence_classes": [],
+      "aligned_via": "brief-side facts only; no package evidence exists for this facet"
+    },
+    {
+      "id": "BIND-026",
+      "requirement_id": "REQ-026",
+      "must_level": "should",
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "rule_id": "RULE_STRATEGY_OR_BEST_PATH",
+      "chart_citations": [
+        "C012",
+        "E091",
+        "E092",
+        "R028"
+      ],
+      "research_citations": [
+        "RS-005",
+        "RS-070",
+        "RS-072"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "condition_E",
+        "relation_R"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-027",
+      "requirement_id": "REQ-027",
+      "must_level": "should",
+      "question_type": "risk_or_hidden_problem",
+      "slot": "hidden_problems",
+      "rule_id": "RULE_RISK_OR_HIDDEN_PROBLEM",
+      "chart_citations": [],
+      "research_citations": [],
+      "evidence_classes": [],
+      "aligned_via": "brief-side facts only; no package evidence exists for this facet"
+    },
+    {
+      "id": "BIND-028",
+      "requirement_id": "REQ-028",
+      "must_level": "should",
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "rule_id": "RULE_STRATEGY_OR_BEST_PATH",
+      "chart_citations": [
+        "C001",
+        "C005",
+        "C009",
+        "R047"
+      ],
+      "research_citations": [
+        "RS-060",
+        "RS-070"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "relation_R"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-029",
+      "requirement_id": "REQ-029",
+      "must_level": "should",
+      "question_type": "risk_or_hidden_problem",
+      "slot": "hidden_problems",
+      "rule_id": "RULE_RISK_OR_HIDDEN_PROBLEM",
+      "chart_citations": [
+        "C012",
+        "E091",
+        "E092",
+        "R028"
+      ],
+      "research_citations": [
+        "RS-005",
+        "RS-070",
+        "RS-072"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "condition_E",
+        "relation_R"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-030",
+      "requirement_id": "REQ-030",
+      "must_level": "should",
+      "question_type": "strategy_or_best_path",
+      "slot": "best_solution",
+      "rule_id": "RULE_STRATEGY_OR_BEST_PATH",
+      "chart_citations": [
+        "C001",
+        "C003",
+        "C005",
+        "C006",
+        "C010",
+        "E022",
+        "E023"
+      ],
+      "research_citations": [
+        "RS-003",
+        "RS-030",
+        "RS-055",
+        "RS-056",
+        "RS-058",
+        "RS-061",
+        "RS-062",
+        "RS-063",
+        "RS-068"
+      ],
+      "evidence_classes": [
+        "claim_C",
+        "structural_E"
+      ],
+      "aligned_via": "deliverable section authored against the brief requirement"
+    },
+    {
+      "id": "BIND-031",
+      "requirement_id": "REQ-031",
+      "must_level": "must_not",
+      "question_type": "constraint_or_compliance",
+      "slot": "hidden_problems",
+      "rule_id": "RULE_CONSTRAINT_OR_COMPLIANCE",
+      "chart_citations": [],
+      "research_citations": [],
+      "evidence_classes": [],
+      "aligned_via": "brief-side facts only; no package evidence exists for this facet"
+    },
+    {
+      "id": "BIND-032",
+      "requirement_id": "REQ-032",
+      "must_level": "must_not",
+      "question_type": "constraint_or_compliance",
+      "slot": "hidden_problems",
+      "rule_id": "RULE_CONSTRAINT_OR_COMPLIANCE",
+      "chart_citations": [],
+      "research_citations": [],
+      "evidence_classes": [],
+      "aligned_via": "brief-side facts only; no package evidence exists for this facet"
+    },
+    {
+      "id": "BIND-033",
+      "requirement_id": "REQ-033",
+      "must_level": "must_not",
+      "question_type": "constraint_or_compliance",
+      "slot": "hidden_problems",
+      "rule_id": "RULE_CONSTRAINT_OR_COMPLIANCE",
+      "chart_citations": [],
+      "research_citations": [],
+      "evidence_classes": [],
+      "aligned_via": "brief-side facts only; no package evidence exists for this facet"
+    },
+    {
+      "id": "BIND-034",
+      "requirement_id": "REQ-034",
+      "must_level": "must_not",
+      "question_type": "constraint_or_compliance",
+      "slot": "hidden_problems",
+      "rule_id": "RULE_CONSTRAINT_OR_COMPLIANCE",
+      "chart_citations": [],
+      "research_citations": [],
+      "evidence_classes": [],
+      "aligned_via": "brief-side facts only; no package evidence exists for this facet"
+    }
+  ],
+  "count": 34
+}

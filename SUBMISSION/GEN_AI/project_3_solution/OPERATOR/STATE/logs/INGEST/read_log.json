@@ -1,0 +1,6 @@
+{
+ "phase_read_attempts": 0,
+ "reads_denied": 0,
+ "read_log": [],
+ "note": "written at the end of requirements.py; the log is this phase's own accounting"
+}

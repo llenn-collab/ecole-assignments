@@ -1,0 +1,815 @@
+{
+  "cap_calls": [
+    {
+      "cap": "CAP-01",
+      "in": "chart",
+      "out": "source_fingerprint",
+      "cost": 70
+    },
+    {
+      "cap": "CAP-03",
+      "in": "chart",
+      "out": "board_card",
+      "cost": 1825
+    },
+    {
+      "cap": "CAP-02",
+      "in": "chart_info,palaces",
+      "out": "normalized_fields",
+      "cost": 138
+    },
+    {
+      "cap": "CAP-04",
+      "in": "board_card",
+      "out": "roles",
+      "cost": 398
+    },
+    {
+      "cap": "CAP-05",
+      "in": "chart_info.ganzhi",
+      "out": "pillars",
+      "cost": 191
+    },
+    {
+      "cap": "CAP-07",
+      "in": "interpretations.condition",
+      "out": "composites",
+      "cost": 3
+    },
+    {
+      "cap": "CAP-08",
+      "in": "palace_elements,chart_info",
+      "out": "palace_identity",
+      "cost": 582
+    },
+    {
+      "cap": "CAP-11",
+      "in": "board_card",
+      "out": "atoms",
+      "cost": 7
+    },
+    {
+      "cap": "CAP-09",
+      "in": "E_atoms",
+      "out": "value_traces",
+      "cost": 3
+    },
+    {
+      "cap": "CAP-11",
+      "in": "E,R",
+      "out": "evidence_registry",
+      "cost": 15431
+    },
+    {
+      "cap": "CAP-10",
+      "in": "board_card,catalog",
+      "out": "patterns",
+      "cost": 5992
+    },
+    {
+      "cap": "CAP-14",
+      "in": "atoms,registry,patterns",
+      "out": "ledger",
+      "cost": 5059
+    },
+    {
+      "cap": "CAP-15",
+      "in": "patterns,registry",
+      "out": "score_card",
+      "cost": 7816
+    },
+    {
+      "cap": "CAP-17",
+      "in": "case_context",
+      "out": "case_context_digest",
+      "cost": 2764
+    },
+    {
+      "cap": "CAP-16",
+      "in": "all",
+      "out": "self_audit",
+      "cost": 84
+    },
+    {
+      "cap": "CAP-18",
+      "in": "claims,Qslots",
+      "out": "case_map",
+      "cost": 1198,
+      "phase": "render_gate"
+    },
+    {
+      "cap": "CAP-19",
+      "in": "verdicts,CONK",
+      "out": "conflict_register",
+      "cost": 78,
+      "phase": "render_gate"
+    },
+    {
+      "cap": "CAP-13",
+      "in": "all_emitted_lines",
+      "out": "grammar_check",
+      "cost": 3,
+      "phase": "render_gate"
+    },
+    {
+      "cap": "CAP-14",
+      "in": "ledger_at_render_gate",
+      "out": "ledger_reconcile",
+      "cost": 31,
+      "phase": "render_gate"
+    },
+    {
+      "cap": "CAP-16",
+      "in": "package",
+      "out": "self_audit",
+      "cost": 3291,
+      "phase": "render_gate"
+    },
+    {
+      "cap": "CAP-12",
+      "in": "palace_ids,visibility",
+      "out": "board_digest",
+      "cost": 4639,
+      "phase": "render"
+    },
+    {
+      "cap": "CAP-12",
+      "in": "palace_blocks",
+      "out": "board_digest",
+      "cost": 3,
+      "phase": "render"
+    },
+    {
+      "cap": "CAP-13",
+      "in": "render_lines",
+      "out": "grammar_check",
+      "cost": 4,
+      "phase": "render"
+    },
+    {
+      "cap": "CAP-14",
+      "in": "ledger_at_render",
+      "out": "ledger_reconcile",
+      "cost": 31,
+      "phase": "render"
+    },
+    {
+      "cap": "CAP-16",
+      "in": "package",
+      "out": "self_audit",
+      "cost": 84,
+      "phase": "render"
+    },
+    {
+      "cap": "CAP-18",
+      "in": "claims,facets",
+      "out": "case_map",
+      "cost": 3,
+      "phase": "render"
+    },
+    {
+      "cap": "CAP-19",
+      "in": "verdicts,CONK",
+      "out": "conflict_check",
+      "cost": 78,
+      "phase": "render"
+    }
+  ],
+  "cap_budget": {
+    "max": 60,
+    "used": 27
+  },
+  "anomaly_log": [],
+  "conditions": [
+    {
+      "code": "QUESTION_OVERLOAD",
+      "severity": "declared",
+      "handling": "analysed the 7 most decision-relevant facets; deferred facets listed with owner_phase and a gap row (CAP-17 step 4)"
+    }
+  ],
+  "SCORE_SOURCE_stamps": [
+    "TIER2_TOOL"
+  ],
+  "tool_registry": {
+    "declared": [
+      {
+        "binding": "compute_evidence_registry",
+        "kind": "Tier-0"
+      },
+      {
+        "binding": "build_board_digest",
+        "kind": "Tier-0"
+      },
+      {
+        "binding": "expand_claim_lines",
+        "kind": "Tier-0"
+      },
+      {
+        "binding": "compute_path_rank",
+        "kind": "Tier-0"
+      },
+      {
+        "binding": "validate_coverage",
+        "kind": "Tier-0"
+      },
+      {
+        "binding": "luoshu_cycle_mapper",
+        "kind": "Tier-2"
+      },
+      {
+        "binding": "ganzhi_to_luoshu_mapper",
+        "kind": "Tier-2"
+      },
+      {
+        "binding": "five_state_classifier",
+        "kind": "Tier-2"
+      },
+      {
+        "binding": "archetype_compressor",
+        "kind": "Tier-2"
+      },
+      {
+        "binding": "pattern_coverage_detector",
+        "kind": "Tier-2"
+      }
+    ],
+    "used": {
+      "compute_evidence_registry": "CAP-11 (tools/tier0.py:atomize/evidence_registry)",
+      "build_board_digest": "CAP-12 (tools/render_package.py:build_digests)",
+      "expand_claim_lines": "CAP-13/CAP-15 (tools/validate_package.py)",
+      "compute_path_rank": "CAP-15 (tools/tier0.py:score_card)",
+      "validate_coverage": "CAP-14 (tools/tier0.py:batch_and_ledger)",
+      "luoshu_cycle_mapper": "CAP-08 (tools/tier0.py:palace_identity)",
+      "ganzhi_to_luoshu_mapper": "CAP-05/CAP-09 (tools/tier0.py:pillars_and_composites, value traces)",
+      "five_state_classifier": "CAP-10 (tools/tier0.py:patterns, element relations)",
+      "archetype_compressor": "not used — no candidate compression was needed (compression_log empty)",
+      "pattern_coverage_detector": "CAP-10 + P6 (tools/tier0.py:patterns, score_card)"
+    },
+    "note": "Tier-0 names are bound to local implementations shipped in tools/ so any reviewer can re-run them; no EMULATED products"
+  },
+  "render_gate": {
+    "render_gate": "PASS",
+    "checks": {
+      "eligibility_rule_is_palace_based": {
+        "pass": true,
+        "detail": "eligible evidence = all registers inside palaces {1,4,5}; the 37-atom spine is the structural+relation part of it"
+      },
+      "spine_is_37": {
+        "pass": true,
+        "detail": "spine=37 (18 structural E + 19 board-internal R)"
+      },
+      "all_ids_unique": {
+        "pass": true,
+        "detail": "E/R ids collide"
+      },
+      "id_widths_three_digits": {
+        "pass": true,
+        "detail": "non fixed-width id"
+      },
+      "every_id_has_two_or_more_occurrences": {
+        "pass": true,
+        "detail": "registry empty"
+      },
+      "one_disposition_per_atom": {
+        "pass": true,
+        "detail": "atoms=166 dispositioned=166"
+      },
+      "palace_closure_balanced": {
+        "pass": true,
+        "detail": "a palace tally does not close"
+      },
+      "run_reconciliation_balances": {
+        "pass": true,
+        "detail": "{'sum_of_palace_totals': 186, 'shared_relation_memberships': 20, 'sum_minus_shared': 166, 'atom_total': 166, 'balances': True}"
+      },
+      "25_batches_closed": {
+        "pass": true,
+        "detail": "25 batches"
+      },
+      "no_anomalies_open": {
+        "pass": true,
+        "detail": "anomaly log not empty"
+      },
+      "resolve_support_ids_C001": {
+        "pass": true,
+        "detail": "unresolved: []"
+      },
+      "resolve_counter_ids_C001": {
+        "pass": true,
+        "detail": "unresolved counterevidence id"
+      },
+      "support_role_labels_C001": {
+        "pass": true,
+        "detail": "a support entry's role label disagrees with its palace scope (eligible {1,4,5} vs contrast)"
+      },
+      "live_claim_has_spine_support_C001": {
+        "pass": true,
+        "detail": "a live claim must cite at least one spine atom (law 51)"
+      },
+      "live_claim_has_chart_support_C001": {
+        "pass": true,
+        "detail": "claim without chart citation"
+      },
+      "claim_line_grammar_C001": {
+        "pass": true,
+        "detail": "CLAIM|C001|batch=B5|claims=I001,I003|disp=ADDRESSED|certainty=0.60"
+      },
+      "resolve_support_ids_C002": {
+        "pass": true,
+        "detail": "unresolved: []"
+      },
+      "resolve_counter_ids_C002": {
+        "pass": true,
+        "detail": "unresolved counterevidence id"
+      },
+      "support_role_labels_C002": {
+        "pass": true,
+        "detail": "a support entry's role label disagrees with its palace scope (eligible {1,4,5} vs contrast)"
+      },
+      "live_claim_has_spine_support_C002": {
+        "pass": true,
+        "detail": "a live claim must cite at least one spine atom (law 51)"
+      },
+      "live_claim_has_chart_support_C002": {
+        "pass": true,
+        "detail": "claim without chart citation"
+      },
+      "claim_line_grammar_C002": {
+        "pass": true,
+        "detail": "CLAIM|C002|batch=B5|claims=I004|disp=ADDRESSED|certainty=0.60"
+      },
+      "resolve_support_ids_C003": {
+        "pass": true,
+        "detail": "unresolved: []"
+      },
+      "resolve_counter_ids_C003": {
+        "pass": true,
+        "detail": "unresolved counterevidence id"
+      },
+      "support_role_labels_C003": {
+        "pass": true,
+        "detail": "a support entry's role label disagrees with its palace scope (eligible {1,4,5} vs contrast)"
+      },
+      "live_claim_has_spine_support_C003": {
+        "pass": true,
+        "detail": "a live claim must cite at least one spine atom (law 51)"
+      },
+      "live_claim_has_chart_support_C003": {
+        "pass": true,
+        "detail": "claim without chart citation"
+      },
+      "claim_line_grammar_C003": {
+        "pass": true,
+        "detail": "CLAIM|C003|batch=B5|claims=I008|disp=ADDRESSED|certainty=0.55"
+      },
+      "resolve_support_ids_C004": {
+        "pass": true,
+        "detail": "unresolved: []"
+      },
+      "resolve_counter_ids_C004": {
+        "pass": true,
+        "detail": "unresolved counterevidence id"
+      },
+      "support_role_labels_C004": {
+        "pass": true,
+        "detail": "a support entry's role label disagrees with its palace scope (eligible {1,4,5} vs contrast)"
+      },
+      "live_claim_has_spine_support_C004": {
+        "pass": true,
+        "detail": "a live claim must cite at least one spine atom (law 51)"
+      },
+      "live_claim_has_chart_support_C004": {
+        "pass": true,
+        "detail": "claim without chart citation"
+      },
+      "claim_line_grammar_C004": {
+        "pass": true,
+        "detail": "CLAIM|C004|batch=B5|claims=I002,I004|disp=ADDRESSED|certainty=0.65"
+      },
+      "resolve_support_ids_C005": {
+        "pass": true,
+        "detail": "unresolved: []"
+      },
+      "resolve_counter_ids_C005": {
+        "pass": true,
+        "detail": "unresolved counterevidence id"
+      },
+      "support_role_labels_C005": {
+        "pass": true,
+        "detail": "a support entry's role label disagrees with its palace scope (eligible {1,4,5} vs contrast)"
+      },
+      "live_claim_has_spine_support_C005": {
+        "pass": true,
+        "detail": "a live claim must cite at least one spine atom (law 51)"
+      },
+      "live_claim_has_chart_support_C005": {
+        "pass": true,
+        "detail": "claim without chart citation"
+      },
+      "claim_line_grammar_C005": {
+        "pass": true,
+        "detail": "CLAIM|C005|batch=B5|claims=I002|disp=ADDRESSED|certainty=0.60"
+      },
+      "resolve_support_ids_C006": {
+        "pass": true,
+        "detail": "unresolved: []"
+      },
+      "resolve_counter_ids_C006": {
+        "pass": true,
+        "detail": "unresolved counterevidence id"
+      },
+      "support_role_labels_C006": {
+        "pass": true,
+        "detail": "a support entry's role label disagrees with its palace scope (eligible {1,4,5} vs contrast)"
+      },
+      "live_claim_has_spine_support_C006": {
+        "pass": true,
+        "detail": "a live claim must cite at least one spine atom (law 51)"
+      },
+      "live_claim_has_chart_support_C006": {
+        "pass": true,
+        "detail": "claim without chart citation"
+      },
+      "claim_line_grammar_C006": {
+        "pass": true,
+        "detail": "CLAIM|C006|batch=B5|claims=I003|disp=ADDRESSED|certainty=0.60"
+      },
+      "resolve_support_ids_C007": {
+        "pass": true,
+        "detail": "unresolved: []"
+      },
+      "resolve_counter_ids_C007": {
+        "pass": true,
+        "detail": "unresolved counterevidence id"
+      },
+      "support_role_labels_C007": {
+        "pass": true,
+        "detail": "a support entry's role label disagrees with its palace scope (eligible {1,4,5} vs contrast)"
+      },
+      "live_claim_has_spine_support_C007": {
+        "pass": true,
+        "detail": "a live claim must cite at least one spine atom (law 51)"
+      },
+      "live_claim_has_chart_support_C007": {
+        "pass": true,
+        "detail": "claim without chart citation"
+      },
+      "claim_line_grammar_C007": {
+        "pass": true,
+        "detail": "CLAIM|C007|batch=B5|claims=I001,I003,I004|disp=ADDRESSED|certainty=0.65"
+      },
+      "resolve_support_ids_C008": {
+        "pass": true,
+        "detail": "unresolved: []"
+      },
+      "resolve_counter_ids_C008": {
+        "pass": true,
+        "detail": "unresolved counterevidence id"
+      },
+      "support_role_labels_C008": {
+        "pass": true,
+        "detail": "a support entry's role label disagrees with its palace scope (eligible {1,4,5} vs contrast)"
+      },
+      "live_claim_has_spine_support_C008": {
+        "pass": true,
+        "detail": "a live claim must cite at least one spine atom (law 51)"
+      },
+      "live_claim_has_chart_support_C008": {
+        "pass": true,
+        "detail": "claim without chart citation"
+      },
+      "claim_line_grammar_C008": {
+        "pass": true,
+        "detail": "CLAIM|C008|batch=B5|claims=I002|disp=ADDRESSED|certainty=0.60"
+      },
+      "resolve_support_ids_C009": {
+        "pass": true,
+        "detail": "unresolved: []"
+      },
+      "resolve_counter_ids_C009": {
+        "pass": true,
+        "detail": "unresolved counterevidence id"
+      },
+      "support_role_labels_C009": {
+        "pass": true,
+        "detail": "a support entry's role label disagrees with its palace scope (eligible {1,4,5} vs contrast)"
+      },
+      "live_claim_has_spine_support_C009": {
+        "pass": true,
+        "detail": "a live claim must cite at least one spine atom (law 51)"
+      },
+      "live_claim_has_chart_support_C009": {
+        "pass": true,
+        "detail": "claim without chart citation"
+      },
+      "claim_line_grammar_C009": {
+        "pass": true,
+        "detail": "CLAIM|C009|batch=B5|claims=I002,I004|disp=ADDRESSED|certainty=0.65"
+      },
+      "resolve_support_ids_C010": {
+        "pass": true,
+        "detail": "unresolved: []"
+      },
+      "resolve_counter_ids_C010": {
+        "pass": true,
+        "detail": "unresolved counterevidence id"
+      },
+      "support_role_labels_C010": {
+        "pass": true,
+        "detail": "a support entry's role label disagrees with its palace scope (eligible {1,4,5} vs contrast)"
+      },
+      "live_claim_has_spine_support_C010": {
+        "pass": true,
+        "detail": "a live claim must cite at least one spine atom (law 51)"
+      },
+      "live_claim_has_chart_support_C010": {
+        "pass": true,
+        "detail": "claim without chart citation"
+      },
+      "claim_line_grammar_C010": {
+        "pass": true,
+        "detail": "CLAIM|C010|batch=B5|claims=I003|disp=ADDRESSED|certainty=0.60"
+      },
+      "resolve_support_ids_C011": {
+        "pass": true,
+        "detail": "unresolved: []"
+      },
+      "resolve_counter_ids_C011": {
+        "pass": true,
+        "detail": "unresolved counterevidence id"
+      },
+      "support_role_labels_C011": {
+        "pass": true,
+        "detail": "a support entry's role label disagrees with its palace scope (eligible {1,4,5} vs contrast)"
+      },
+      "live_claim_has_spine_support_C011": {
+        "pass": true,
+        "detail": "a live claim must cite at least one spine atom (law 51)"
+      },
+      "live_claim_has_chart_support_C011": {
+        "pass": true,
+        "detail": "claim without chart citation"
+      },
+      "claim_line_grammar_C011": {
+        "pass": true,
+        "detail": "CLAIM|C011|batch=B5|claims=I005|disp=ADDRESSED|certainty=0.65"
+      },
+      "resolve_support_ids_C012": {
+        "pass": true,
+        "detail": "unresolved: []"
+      },
+      "resolve_counter_ids_C012": {
+        "pass": true,
+        "detail": "unresolved counterevidence id"
+      },
+      "support_role_labels_C012": {
+        "pass": true,
+        "detail": "a support entry's role label disagrees with its palace scope (eligible {1,4,5} vs contrast)"
+      },
+      "live_claim_has_spine_support_C012": {
+        "pass": true,
+        "detail": "a live claim must cite at least one spine atom (law 51)"
+      },
+      "live_claim_has_chart_support_C012": {
+        "pass": true,
+        "detail": "claim without chart citation"
+      },
+      "claim_line_grammar_C012": {
+        "pass": true,
+        "detail": "CLAIM|C012|batch=B5|claims=I006,I007|disp=ADDRESSED|certainty=0.60"
+      },
+      "resolve_support_ids_C013": {
+        "pass": true,
+        "detail": "unresolved: []"
+      },
+      "resolve_counter_ids_C013": {
+        "pass": true,
+        "detail": "unresolved counterevidence id"
+      },
+      "support_role_labels_C013": {
+        "pass": true,
+        "detail": "a support entry's role label disagrees with its palace scope (eligible {1,4,5} vs contrast)"
+      },
+      "claim_line_grammar_C013": {
+        "pass": true,
+        "detail": "CLAIM|C013|batch=B5|claims=I001|disp=EXCLUDED|certainty=NA"
+      },
+      "every_live_verdict_has_candidate_record": {
+        "pass": true,
+        "detail": "missing archetype resolution record"
+      },
+      "rejections_are_visible": {
+        "pass": true,
+        "detail": "a rejection must stay in the package rather than be silently dropped"
+      },
+      "cmap_grammar": {
+        "pass": true,
+        "detail": "a CMAP row fails the grammar"
+      },
+      "all_four_tags_in_tally": {
+        "pass": true,
+        "detail": "the ledger tally must show all four case-alignment tags, including zeros (cc6)"
+      },
+      "no_uncovered_facets_except_declared_deferrals": {
+        "pass": true,
+        "detail": "facets with no DIRECT/INDIRECT row: []"
+      },
+      "overload_deferral_declared": {
+        "pass": true,
+        "detail": "a QUESTION_OVERLOAD condition must defer at least one facet, named with an owner phase and a gap row"
+      },
+      "overload_condition_recorded": {
+        "pass": true,
+        "detail": "QUESTION_OVERLOAD must appear in the digest conditions when the overload is raised"
+      },
+      "conflicts_recorded_not_hidden": {
+        "pass": true,
+        "detail": "a rejected claim must carry a conflict-register row"
+      },
+      "no_live_claim_conflicts_with_a_known_fact": {
+        "pass": true,
+        "detail": "a live claim contradicts a known case fact"
+      },
+      "rt_grammar_A011": {
+        "pass": true,
+        "detail": "RT|A011|criticizes=C001|kind=alternative|status=live"
+      },
+      "rt_grammar_A012": {
+        "pass": true,
+        "detail": "RT|A012|criticizes=C001|kind=rebut|status=rebutted"
+      },
+      "rt_grammar_A013": {
+        "pass": true,
+        "detail": "RT|A013|criticizes=C003|kind=alternative|status=live"
+      },
+      "rt_grammar_A014": {
+        "pass": true,
+        "detail": "RT|A014|criticizes=C005|kind=alternative|status=live"
+      },
+      "rt_grammar_A015": {
+        "pass": true,
+        "detail": "RT|A015|criticizes=C007|kind=rebut|status=rebutted"
+      },
+      "rt_grammar_A016": {
+        "pass": true,
+        "detail": "RT|A016|criticizes=C010|kind=alternative|status=live"
+      },
+      "rt_grammar_A017": {
+        "pass": true,
+        "detail": "RT|A017|criticizes=C011|kind=alternative|status=live"
+      },
+      "rt_grammar_A018": {
+        "pass": true,
+        "detail": "RT|A018|criticizes=C012|kind=alternative|status=live"
+      },
+      "rt_grammar_A019": {
+        "pass": true,
+        "detail": "RT|A019|criticizes=C004|kind=rebut|status=rebutted"
+      },
+      "rt_grammar_A020": {
+        "pass": true,
+        "detail": "RT|A020|criticizes=C013|kind=alternative|status=rebutted"
+      },
+      "rt_grammar_A021": {
+        "pass": true,
+        "detail": "RT|A021|criticizes=C002|kind=alternative|status=live"
+      },
+      "rt_grammar_A022": {
+        "pass": true,
+        "detail": "RT|A022|criticizes=C006|kind=alternative|status=live"
+      },
+      "rt_grammar_A023": {
+        "pass": true,
+        "detail": "RT|A023|criticizes=C008|kind=alternative|status=live"
+      },
+      "rt_grammar_A024": {
+        "pass": true,
+        "detail": "RT|A024|criticizes=C009|kind=alternative|status=live"
+      },
+      "rt_covers_every_live_claim": {
+        "pass": true,
+        "detail": "every live claim needs at least one red-team row (law 41)"
+      },
+      "proposal_grammar_P001": {
+        "pass": true,
+        "detail": "PROPOSAL|P001|from=C001|direction=backward|rule=PAT_06_COMPOSITION|status=ok"
+      },
+      "proposal_grammar_P002": {
+        "pass": true,
+        "detail": "PROPOSAL|P002|from=C005|direction=forward|rule=PAT_02_PAT_04_JOINT|status=ok"
+      },
+      "proposal_grammar_P003": {
+        "pass": true,
+        "detail": "PROPOSAL|P003|from=C006|direction=backward|rule=ELEMENT_GENERATION_AXIS|status=ok"
+      },
+      "proposal_grammar_P004": {
+        "pass": true,
+        "detail": "PROPOSAL|P004|from=C011|direction=forward|rule=PHASE_SPLIT_SEQUENCING|status=ok"
+      },
+      "proposal_grammar_P005": {
+        "pass": true,
+        "detail": "PROPOSAL|P005|from=C012|direction=backward|rule=DEFECT_POINT_STAGING|status=ok"
+      },
+      "proposal_grammar_P006": {
+        "pass": true,
+        "detail": "PROPOSAL|P006|from=C013|direction=backward|rule=TRACEABILITY_HARD_CONSTRAINT|status=superseded"
+      },
+      "no_absolute_or_inferential_language": {
+        "pass": true,
+        "detail": "[]"
+      },
+      "no_claim_cites_case_context_as_support": {
+        "pass": true,
+        "detail": "case context may never supply support (cc2/law 51)"
+      },
+      "null_register_is_declared": {
+        "pass": true,
+        "detail": "catalog classes with zero live hits that are NOT declared null-ok: []"
+      },
+      "null_classes_are_absence_not_evidence": {
+        "pass": true,
+        "detail": "absence must be stored as ABSENT, never as a zero-valued atom (law 18)"
+      },
+      "explicit_markers_reconciled": {
+        "pass": true,
+        "detail": "every explicit marker needs a reconciliation row (law 26)"
+      }
+    },
+    "failures": [],
+    "computed": {
+      "live_claims": 12,
+      "rejected_claims": 1,
+      "cmap_rows": 24,
+      "rt_rows": 14,
+      "null_register_classes": [
+        "PAT-29",
+        "PAT-30"
+      ],
+      "deferred_facets": [
+        "Q01"
+      ]
+    }
+  },
+  "wiki_corpus": [
+    {
+      "slug": "qmdj-overview",
+      "status": "STUB",
+      "cited": false
+    },
+    {
+      "slug": "jiu-gong-luoshu",
+      "status": "STUB",
+      "cited": false
+    },
+    {
+      "slug": "san-qi-liu-yi",
+      "status": "STUB",
+      "cited": false
+    },
+    {
+      "slug": "eight-gates",
+      "status": "STUB",
+      "cited": false
+    },
+    {
+      "slug": "nine-stars",
+      "status": "STUB",
+      "cited": false
+    },
+    {
+      "slug": "eight-spirits",
+      "status": "STUB",
+      "cited": false
+    },
+    {
+      "slug": "heavenly-stems",
+      "status": "STUB",
+      "cited": false
+    },
+    {
+      "slug": "jiazi-cycle",
+      "status": "STUB",
+      "cited": false
+    },
+    {
+      "slug": "twelve-phases",
+      "status": "STUB",
+      "cited": false
+    },
+    {
+      "slug": "pattern-registry",
+      "status": "STUB",
+      "cited": false
+    },
+    {
+      "slug": "void-and-horse",
+      "status": "STUB",
+      "cited": false
+    },
+    {
+      "slug": "interpretation-ethics",
+      "status": "STUB",
+      "cited": false
+    }
+  ]
+}

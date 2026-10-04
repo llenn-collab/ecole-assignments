@@ -1,0 +1,27 @@
+{
+  "chart": {
+    "tag": "chart",
+    "path": "QMDJ/GEN_AI/project_3.json",
+    "filename": "project_3.json",
+    "bytes": 16266,
+    "sha256": "20dc73a91a46c4dca78cca6fc9bc7520b91c7b16d9edb18fb93f76d1e8360a15",
+    "top_level_key_count": 2,
+    "top_level_keys": [
+      "chart_info",
+      "palaces"
+    ],
+    "id_derivation_mode": "sha256"
+  },
+  "case_context": {
+    "tag": "case_context",
+    "path": "SUBMISSION/GEN_AI/project_3/raw/case_context.case.yaml",
+    "filename": "case_context.case.yaml",
+    "bytes": 9122,
+    "sha256": "5f641d01f096e6a1de5b2654da30bc6048085999214ce203fcb93388bae39cc0",
+    "top_level_key_count": 1,
+    "top_level_keys": [
+      "document"
+    ],
+    "id_derivation_mode": "path_derived"
+  }
+}

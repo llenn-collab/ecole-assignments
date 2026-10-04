@@ -1,0 +1,86 @@
+{
+  "assumption_ranking": [
+    {
+      "assumption_index": 1,
+      "id": "A001",
+      "type": "jurisdiction",
+      "activating_condition": "any claim that names a symptom, condition or treatment invalidates the reading and must be reworked"
+    },
+    {
+      "assumption_index": 2,
+      "id": "A002",
+      "type": "scope",
+      "activating_condition": "if Assignment-1 research shows the category is saturated with restraint, this assumption fails and the register must be re-argued"
+    },
+    {
+      "assumption_index": 2,
+      "id": "A003",
+      "type": "boundary",
+      "activating_condition": "if the operator re-earmarks the eligibility scope, those markers must be re-run through CAP-14 before any ranking"
+    },
+    {
+      "assumption_index": 1,
+      "id": "A004",
+      "type": "boundary",
+      "activating_condition": "if a claim's support would depend only on pillar-register atoms, the claim is NO_CHART_SUPPORT for the spine and must be downgraded"
+    },
+    {
+      "assumption_index": 1,
+      "id": "A005",
+      "type": "production",
+      "activating_condition": "any cost, timeline or tool-selection statement requires a case-side input that does not exist in this run"
+    }
+  ],
+  "invalid_chains": [
+    {
+      "chain": "C011/C012 (asset sequence, production path) -> campaign window",
+      "type": "INVALID_INTO_UNKNOWN",
+      "why": "the chain would cross an undeclared timeframe_of_interest; the chain is blocked, not resolved",
+      "action": "ARC-13 BLOCKED, gap row GAP-003"
+    }
+  ],
+  "deferred_topics": [
+    {
+      "topic": "campaign window (ARC-13)",
+      "why": "no timeframe in the case",
+      "gap_row": "GAP-003"
+    }
+  ],
+  "blocked_classes": [
+    {
+      "protocol": "Tier2 QT for ARC-13",
+      "reason": "required schema field absent (timeframe_of_interest)"
+    }
+  ],
+  "conflict_register": [
+    {
+      "claim_id": "C013",
+      "against": "CONK004",
+      "type": "CONFLICT_WITH_KNOWN",
+      "action": "verdict downgraded to rejected",
+      "why": "the case's traceability requirement: every major decision must trace to a specific Assignment-1 research finding, insight, or mood-board pin — a chart-selected name can never do that"
+    }
+  ],
+  "conditions": [
+    {
+      "code": "QUESTION_OVERLOAD",
+      "severity": "declared",
+      "handling": "analysed the 7 most decision-relevant facets; deferred facets listed with owner_phase and a gap row (CAP-17 step 4)"
+    }
+  ],
+  "uncertainty_policy": "certainty is computed by tools/validate_package.py from the cited sets under the archetype rubric; it is capped by the grounding tier and reduced by each counterevidence atom",
+  "null_classes": [
+    {
+      "pattern": "PAT-29",
+      "cn": "空亡",
+      "state": "NULL_CLASS_ABSENT",
+      "note": "void class not in source; ABSENT is factual reporting, not support"
+    },
+    {
+      "pattern": "PAT-30",
+      "cn": "驿马",
+      "state": "NULL_CLASS_ABSENT",
+      "note": "horse class not in source; ABSENT is factual reporting, not support"
+    }
+  ]
+}

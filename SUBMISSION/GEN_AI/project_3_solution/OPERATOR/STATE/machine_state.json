@@ -1,0 +1,119 @@
+{
+  "run_id": "assignment-solver-2026-10-04",
+  "runtime_mode": "TOOLS_PRESENT",
+  "inputs": {
+    "brief_sha256": "5f641d01f096e6a1de5b2654da30bc6048085999214ce203fcb93388bae39cc0",
+    "research_sha256": "88a687279df66203dc86f5ba3b96860e5207149d6a7bd25a04c1f0f8d4c3f5b1",
+    "package_source_sha256": "20dc73a91a46c4dca78cca6fc9bc7520b91c7b16d9edb18fb93f76d1e8360a15"
+  },
+  "adapter_status": "MAPPED",
+  "fallback_mode": false,
+  "counters": {
+    "tool_retry_count": 0,
+    "audit_fix_count": 0,
+    "cap_call_count": 57,
+    "cap_call_count_max": 80
+  },
+  "phases": {
+    "INIT": "DONE",
+    "PACKAGE_VALIDATE": "DONE",
+    "PDF_INGEST": "DONE",
+    "FALLBACK_CHECK": "DONE",
+    "P7_SLOT_BIND": "DONE",
+    "SOLUTION_ENGINE": "DONE",
+    "SYNTHESIZE": "DONE",
+    "RENDER_OPERATOR": "DONE"
+  },
+  "requirement_tallies": {
+    "must": {
+      "total": 24,
+      "covered": 22,
+      "uncovered": 0,
+      "blocked": 0,
+      "closed": true
+    },
+    "must_not": {
+      "total": 4,
+      "satisfied_by_absence": 4,
+      "closed": true
+    },
+    "should": {
+      "total": 6,
+      "covered": 6,
+      "uncovered": 0,
+      "closed": true
+    },
+    "addend_groups": [
+      24,
+      4,
+      6
+    ],
+    "second_tally_required": true,
+    "second_tally": {
+      "must": 24,
+      "must_not": 4,
+      "should": 6
+    },
+    "pass": true
+  },
+  "evidence_tallies": {
+    "deferred": 37,
+    "corroborated": 13,
+    "used": 37
+  },
+  "blocked_requirements": [],
+  "tied_requirements": [],
+  "uncovered_requirements": [],
+  "open_anomaly_codes": [],
+  "tie_state": "RESOLVED",
+  "guard_log": [
+    {
+      "guard": "G-INIT-HASHES",
+      "pass": true,
+      "detail": "brief, research pack and package source hashed; brief 5f641d01f096..., research 88a687279df6..."
+    },
+    {
+      "guard": "G-PACKAGE-ACCEPTED",
+      "pass": true,
+      "detail": "adapter_status=MAPPED, seal self-consistent"
+    },
+    {
+      "guard": "G-PDF-INGEST-COMPLETE",
+      "pass": true,
+      "detail": "34 requirement facets, anchors degraded to sections, logo boundary written"
+    },
+    {
+      "guard": "G-PDF-SILENT-DELIVERABLES",
+      "pass": false,
+      "detail": "brief specifies deliverables"
+    },
+    {
+      "guard": "G-BINDING-MANIFEST-COMPLETE",
+      "pass": true,
+      "detail": "34 bindings, all cited, unmatched report written"
+    },
+    {
+      "guard": "G-SOLUTION-FINALIZED",
+      "pass": true,
+      "detail": "winner BSC-001, tie_state RESOLVED, hard-constraint gate pass"
+    },
+    {
+      "guard": "G-VERIFICATION-PASSED",
+      "pass": true,
+      "detail": "coverage, stale, citation, hard-constraint, unsupported-format, logo gates"
+    }
+  ],
+  "input_hashes_verified": true,
+  "phases_pending_at_snapshot": [
+    "RENDER_LAYER_A",
+    "RENDER_SUBMISSION_AND_ANNOTATED",
+    "RENDER_MANIFEST"
+  ],
+  "render_order": [
+    "RENDER_OPERATOR",
+    "RENDER_LAYER_A",
+    "RENDER_SUBMISSION_AND_ANNOTATED",
+    "RENDER_MANIFEST"
+  ],
+  "snapshot_note": "machine state is snapshotted before the render phases so the layer-A appendix hashes stay valid; MANIFEST.md carries the run's final status and artefact count"
+}

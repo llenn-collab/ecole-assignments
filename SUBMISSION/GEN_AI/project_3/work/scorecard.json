@@ -1,0 +1,1586 @@
+{
+  "rows": [
+    {
+      "pattern_id": "PAT-16",
+      "cn": "太白重锋",
+      "palace": 4,
+      "family": "metal_clash",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.75,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E088"
+      ],
+      "note": "explicit chart marker",
+      "rank": 1
+    },
+    {
+      "pattern_id": "PAT-18",
+      "cn": "太白同宫",
+      "palace": 5,
+      "family": "metal_clash",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.75,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E093"
+      ],
+      "note": "explicit chart marker",
+      "rank": 2
+    },
+    {
+      "pattern_id": "PAT-01",
+      "cn": "门迫宫",
+      "palace": 1,
+      "family": "gate_vs_palace",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.1,
+        "contradiction_raw": 1
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.65,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E067"
+      ],
+      "note": "explicit chart marker",
+      "rank": 3
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "palace": 4,
+      "family": "gate_vs_palace",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.1,
+        "contradiction_raw": 1
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.65,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E090"
+      ],
+      "note": "explicit chart marker",
+      "rank": 4
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "palace": 6,
+      "family": "gate_vs_palace",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.65,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E099"
+      ],
+      "note": "explicit chart marker",
+      "rank": 5
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "palace": 9,
+      "family": "gate_vs_palace",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.65,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E117"
+      ],
+      "note": "explicit chart marker",
+      "rank": 6
+    },
+    {
+      "pattern_id": "PAT-31",
+      "cn": "支合冲刑",
+      "palace": 4,
+      "family": "branch_relations",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.0,
+        "named_flag": 0,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.65,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E025"
+      ],
+      "note": "chong: 巳 vs day branch 亥",
+      "rank": 7
+    },
+    {
+      "pattern_id": "PAT-01",
+      "cn": "门迫宫",
+      "palace": 8,
+      "family": "gate_vs_palace",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E111"
+      ],
+      "note": "explicit chart marker",
+      "rank": 8
+    },
+    {
+      "pattern_id": "PAT-02",
+      "cn": "宫生门",
+      "palace": 2,
+      "family": "gate_vs_palace",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E073"
+      ],
+      "note": "explicit chart marker",
+      "rank": 9
+    },
+    {
+      "pattern_id": "PAT-12",
+      "cn": "三奇升殿",
+      "palace": 7,
+      "family": "three_wonders",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E105"
+      ],
+      "note": "explicit chart marker",
+      "rank": 10
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "palace": 8,
+      "family": "three_wonders",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E052"
+      ],
+      "note": "乙 served by frozen partner set ['己', '辛']",
+      "rank": 11
+    },
+    {
+      "pattern_id": "PAT-14",
+      "cn": "三奇受制",
+      "palace": 8,
+      "family": "three_wonders",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E052"
+      ],
+      "note": "乙 is restrained by a controlling stem present in the same palace",
+      "rank": 12
+    },
+    {
+      "pattern_id": "PAT-21",
+      "cn": "青龙耀明",
+      "palace": 7,
+      "family": "authority_rise",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E103"
+      ],
+      "note": "explicit chart marker",
+      "rank": 13
+    },
+    {
+      "pattern_id": "PAT-22",
+      "cn": "犬遇青龙",
+      "palace": 7,
+      "family": "authority_rise",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E104"
+      ],
+      "note": "explicit chart marker",
+      "rank": 14
+    },
+    {
+      "pattern_id": "PAT-23",
+      "cn": "白虎猖狂",
+      "palace": 8,
+      "family": "metal_clash",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E109"
+      ],
+      "note": "explicit chart marker",
+      "rank": 15
+    },
+    {
+      "pattern_id": "PAT-24",
+      "cn": "小蛇得势",
+      "palace": 8,
+      "family": "flexibility",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E110"
+      ],
+      "note": "explicit chart marker",
+      "rank": 16
+    },
+    {
+      "pattern_id": "PAT-27",
+      "cn": "干相克",
+      "palace": 6,
+      "family": "stem_clash",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.0,
+        "named_flag": 0,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.1,
+        "corroboration_raw": 2,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.6,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E037",
+        "E038"
+      ],
+      "note": "乙克己",
+      "rank": 17
+    },
+    {
+      "pattern_id": "PAT-05",
+      "cn": "奇仪相合",
+      "palace": 1,
+      "family": "stem_combination",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.2,
+        "contradiction_raw": 2
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.55,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E066"
+      ],
+      "note": "explicit chart marker",
+      "rank": 18
+    },
+    {
+      "pattern_id": "PAT-06",
+      "cn": "干合蛇刑",
+      "palace": 1,
+      "family": "stem_combination",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.2,
+        "contradiction_raw": 2
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.55,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E064"
+      ],
+      "note": "explicit chart marker",
+      "rank": 19
+    },
+    {
+      "pattern_id": "PAT-07",
+      "cn": "奇仪相佐",
+      "palace": 1,
+      "family": "stem_combination",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.2,
+        "contradiction_raw": 2
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.55,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E065"
+      ],
+      "note": "explicit chart marker",
+      "rank": 20
+    },
+    {
+      "pattern_id": "PAT-17",
+      "cn": "日月相会",
+      "palace": 4,
+      "family": "stem_combination",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.2,
+        "contradiction_raw": 2
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.55,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E089"
+      ],
+      "note": "explicit chart marker",
+      "rank": 21
+    },
+    {
+      "pattern_id": "PAT-26",
+      "cn": "华盖悖师",
+      "palace": 9,
+      "family": "shelter",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.1,
+        "contradiction_raw": 1
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.55,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E116"
+      ],
+      "note": "explicit chart marker",
+      "rank": 22
+    },
+    {
+      "pattern_id": "PAT-27",
+      "cn": "干相克",
+      "palace": 2,
+      "family": "stem_clash",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.0,
+        "named_flag": 0,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.1,
+        "corroboration_raw": 2,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.55,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E012",
+        "E013"
+      ],
+      "note": "己克癸",
+      "rank": 23
+    },
+    {
+      "pattern_id": "PAT-27",
+      "cn": "干相克",
+      "palace": 8,
+      "family": "stem_clash",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.0,
+        "named_flag": 0,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.1,
+        "corroboration_raw": 2,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.55,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E051",
+        "E052"
+      ],
+      "note": "辛克乙",
+      "rank": 24
+    },
+    {
+      "pattern_id": "PAT-28",
+      "cn": "干相生",
+      "palace": 7,
+      "family": "stem_support",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.0,
+        "named_flag": 0,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.1,
+        "corroboration_raw": 2,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.55,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E044",
+        "E045"
+      ],
+      "note": "丁生戊",
+      "rank": 25
+    },
+    {
+      "pattern_id": "PAT-31",
+      "cn": "支合冲刑",
+      "palace": 6,
+      "family": "branch_relations",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.0,
+        "named_flag": 0,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.55,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E036"
+      ],
+      "note": "liuhe: 亥 vs day branch 亥",
+      "rank": 26
+    },
+    {
+      "pattern_id": "PAT-03",
+      "cn": "六仪击刑",
+      "palace": 2,
+      "family": "punishment",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.1,
+        "contradiction_raw": 1
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.5,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E074"
+      ],
+      "note": "explicit chart marker",
+      "rank": 27
+    },
+    {
+      "pattern_id": "PAT-08",
+      "cn": "地刑玄武",
+      "palace": 2,
+      "family": "concealed_loss",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.1,
+        "contradiction_raw": 1
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.5,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E071"
+      ],
+      "note": "explicit chart marker",
+      "rank": 28
+    },
+    {
+      "pattern_id": "PAT-31",
+      "cn": "支合冲刑",
+      "palace": 2,
+      "family": "branch_relations",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.0,
+        "named_flag": 0,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.5,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E011"
+      ],
+      "note": "triad: hai_mao_wei vs day branch 巳",
+      "rank": 29
+    },
+    {
+      "pattern_id": "PAT-31",
+      "cn": "支合冲刑",
+      "palace": 3,
+      "family": "branch_relations",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.0,
+        "named_flag": 0,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.5,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E018"
+      ],
+      "note": "triad: hai_mao_wei vs day branch 巳",
+      "rank": 30
+    },
+    {
+      "pattern_id": "PAT-31",
+      "cn": "支合冲刑",
+      "palace": 8,
+      "family": "branch_relations",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.0,
+        "named_flag": 0,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.5,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E050"
+      ],
+      "note": "liuhe: 寅 vs day branch 亥",
+      "rank": 31
+    },
+    {
+      "pattern_id": "PAT-32",
+      "cn": "值符值使",
+      "palace": 8,
+      "family": "axis_anchor",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.0,
+        "named_flag": 0,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.0,
+        "contradiction_raw": 0
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.5,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E049"
+      ],
+      "note": "值符 on palace 8; 值使(杜门) on palace 3; declared 天辅 falling in Palace 8 / 杜门 falling in Palace 3",
+      "rank": 32
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "palace": 1,
+      "family": "three_wonders",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.30000000000000004,
+        "contradiction_raw": 3
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.45,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E006"
+      ],
+      "note": "丁 served by frozen partner set ['壬', '癸']",
+      "rank": 33
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "palace": 4,
+      "family": "three_wonders",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.30000000000000004,
+        "contradiction_raw": 3
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.45,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E028"
+      ],
+      "note": "丙 served by frozen partner set ['戊', '庚']",
+      "rank": 34
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "palace": 6,
+      "family": "three_wonders",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.2,
+        "contradiction_raw": 2
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.45,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E037"
+      ],
+      "note": "乙 served by frozen partner set ['己', '辛']",
+      "rank": 35
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "palace": 9,
+      "family": "three_wonders",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.2,
+        "contradiction_raw": 2
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.45,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E059"
+      ],
+      "note": "丙 served by frozen partner set ['戊', '庚']",
+      "rank": 36
+    },
+    {
+      "pattern_id": "PAT-14",
+      "cn": "三奇受制",
+      "palace": 1,
+      "family": "three_wonders",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.30000000000000004,
+        "contradiction_raw": 3
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.45,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E006"
+      ],
+      "note": "丁 is restrained by a controlling stem present in the same palace",
+      "rank": 37
+    },
+    {
+      "pattern_id": "PAT-14",
+      "cn": "三奇受制",
+      "palace": 4,
+      "family": "three_wonders",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.30000000000000004,
+        "contradiction_raw": 3
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.45,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E028"
+      ],
+      "note": "丙 is restrained by a controlling stem present in the same palace",
+      "rank": 38
+    },
+    {
+      "pattern_id": "PAT-14",
+      "cn": "三奇受制",
+      "palace": 9,
+      "family": "three_wonders",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.2,
+        "contradiction_raw": 2
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.45,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E059"
+      ],
+      "note": "丙 is restrained by a controlling stem present in the same palace",
+      "rank": 39
+    },
+    {
+      "pattern_id": "PAT-25",
+      "cn": "青龙转光",
+      "palace": 9,
+      "family": "authority_rise",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.2,
+        "contradiction_raw": 2
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.45,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E115"
+      ],
+      "note": "explicit chart marker",
+      "rank": 40
+    },
+    {
+      "pattern_id": "PAT-09",
+      "cn": "青龙华盖",
+      "palace": 2,
+      "family": "shelter",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.2,
+        "contradiction_raw": 2
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.4,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E072"
+      ],
+      "note": "explicit chart marker",
+      "rank": 41
+    },
+    {
+      "pattern_id": "PAT-12",
+      "cn": "三奇升殿",
+      "palace": 3,
+      "family": "three_wonders",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.2,
+        "contradiction_raw": 2
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.4,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E080"
+      ],
+      "note": "explicit chart marker",
+      "rank": 42
+    },
+    {
+      "pattern_id": "PAT-13",
+      "cn": "三奇得使",
+      "palace": 3,
+      "family": "three_wonders",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.2,
+        "contradiction_raw": 2
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.4,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E081"
+      ],
+      "note": "explicit chart marker",
+      "rank": 43
+    },
+    {
+      "pattern_id": "PAT-14",
+      "cn": "三奇受制",
+      "palace": 3,
+      "family": "three_wonders",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.2,
+        "contradiction_raw": 2
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.4,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E082"
+      ],
+      "note": "explicit chart marker",
+      "rank": 44
+    },
+    {
+      "pattern_id": "PAT-03",
+      "cn": "六仪击刑",
+      "palace": 4,
+      "family": "punishment",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.4,
+        "contradiction_raw": 4
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.35,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E091"
+      ],
+      "note": "explicit chart marker",
+      "rank": 45
+    },
+    {
+      "pattern_id": "PAT-04",
+      "cn": "星入墓",
+      "palace": 4,
+      "family": "tomb",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.4,
+        "contradiction_raw": 4
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.35,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E092"
+      ],
+      "note": "explicit chart marker",
+      "rank": 46
+    },
+    {
+      "pattern_id": "PAT-15",
+      "cn": "网盖天牢",
+      "palace": 4,
+      "family": "net",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.4,
+        "contradiction_raw": 4
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.35,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E087"
+      ],
+      "note": "explicit chart marker",
+      "rank": 47
+    },
+    {
+      "pattern_id": "PAT-10",
+      "cn": "火入天罗",
+      "palace": 3,
+      "family": "net",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.30000000000000004,
+        "contradiction_raw": 3
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.3,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E078"
+      ],
+      "note": "explicit chart marker",
+      "rank": 48
+    },
+    {
+      "pattern_id": "PAT-11",
+      "cn": "凶蛇入狱",
+      "palace": 3,
+      "family": "net",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.05,
+        "coupling_raw": 1,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.30000000000000004,
+        "contradiction_raw": 3
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.3,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E079"
+      ],
+      "note": "explicit chart marker",
+      "rank": 49
+    },
+    {
+      "pattern_id": "PAT-27",
+      "cn": "干相克",
+      "palace": 1,
+      "family": "stem_clash",
+      "match_state": "LIVE_COMPUTED",
+      "grounding_tier": "computed_structure",
+      "ceiling": 0.75,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.0,
+        "named_flag": 0,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.1,
+        "corroboration_raw": 2,
+        "relevance_primary_scope": 0.1,
+        "relevance_raw": 1,
+        "contradiction_penalty": -0.4,
+        "contradiction_raw": 4
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.3,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E005",
+        "E006"
+      ],
+      "note": "壬克丁",
+      "rank": 50
+    },
+    {
+      "pattern_id": "PAT-19",
+      "cn": "日奇入墓",
+      "palace": 6,
+      "family": "tomb",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.4,
+        "contradiction_raw": 4
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.25,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E097"
+      ],
+      "note": "explicit chart marker",
+      "rank": 51
+    },
+    {
+      "pattern_id": "PAT-20",
+      "cn": "火入勾陈",
+      "palace": 6,
+      "family": "concealed_loss",
+      "match_state": "LIVE_EXPLICIT",
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "addends": {
+        "base": 0.4,
+        "interpretive_value_named_pattern": 0.1,
+        "named_flag": 1,
+        "coupling": 0.1,
+        "coupling_raw": 2,
+        "corroboration": 0.05,
+        "corroboration_raw": 1,
+        "relevance_primary_scope": 0.0,
+        "relevance_raw": 0,
+        "contradiction_penalty": -0.5,
+        "contradiction_raw": 5
+      },
+      "enumerated_addend_count": 6,
+      "score": 0.15,
+      "SCORE_SOURCE": "TIER2_TOOL",
+      "evidence_ids": [
+        "E098"
+      ],
+      "note": "explicit chart marker",
+      "rank": 52
+    }
+  ],
+  "count": 52,
+  "SCORE_SOURCE": "TIER2_TOOL",
+  "terms": {
+    "base": 0.4,
+    "named_pattern_bonus": 0.1,
+    "coupling_bonus": 0.05,
+    "corroboration_bonus": 0.05,
+    "relevance_bonus": 0.1,
+    "relevance_palaces": [
+      1,
+      4,
+      5
+    ],
+    "contradiction_penalty": 0.1,
+    "formula": "min(ceiling(tier), base + named + coupling + corroboration + relevance - contradiction)"
+  },
+  "formula": "min(ceiling(tier), base + named + coupling + corroboration + relevance - contradiction)"
+}

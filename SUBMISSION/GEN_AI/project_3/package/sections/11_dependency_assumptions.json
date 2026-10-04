@@ -1,0 +1,218 @@
+{
+  "implications": [
+    {
+      "id": "I001",
+      "claim_id": "C001",
+      "direction": "backward",
+      "statement": "At the source pole an alliance is formed and immediately taxed: the he-combination is entangled by the coiled spirit, and the life-gate presses on its own environment.",
+      "premises": [
+        "E064",
+        "E066",
+        "R009",
+        "R001",
+        "E067",
+        "E001",
+        "E002"
+      ],
+      "rule": "named-pattern composition (PAT-06 + PAT-05 + PAT-01 in one palace)",
+      "uncertainty": "medium",
+      "note": "the three markers are explicit; their composition is an inference, not a chart field"
+    },
+    {
+      "id": "I002",
+      "claim_id": "C005",
+      "direction": "forward",
+      "statement": "At the display pole the surface is fed by its environment while the nourishing core is stored: support arrives, but not from the visible layer.",
+      "premises": [
+        "E090",
+        "R004",
+        "E092",
+        "R029",
+        "E022",
+        "E023"
+      ],
+      "rule": "PAT-02 + PAT-04 in one palace with a concealing deity",
+      "uncertainty": "low",
+      "note": "both markers explicitly printed and both independently computed"
+    },
+    {
+      "id": "I003",
+      "claim_id": "C006",
+      "direction": "backward",
+      "statement": "The opposition pair 1-4 is generational, not antagonistic: the palace elements are water and wood, and water generates wood, so the two poles stand in a parent-child relation.",
+      "premises": [
+        "R045",
+        "E004",
+        "E025"
+      ],
+      "rule": "frozen_tables.element_cycle.generates + law 10 opposition geometry",
+      "uncertainty": "low",
+      "note": "structural, no interpretation required"
+    },
+    {
+      "id": "I004",
+      "claim_id": "C012",
+      "direction": "forward",
+      "statement": "The centre's only stem is deposited into the display palace as a lodged stem, so the unexpressed core lands in the work that is shown rather than in the work that is argued.",
+      "premises": [
+        "E032",
+        "E029",
+        "R047",
+        "R041"
+      ],
+      "rule": "lodging graph (centre builds a lodging GRAPH; law 10)",
+      "uncertainty": "medium",
+      "note": "centre has no opposite; this edge is the only source-derived lodging edge"
+    },
+    {
+      "id": "I005",
+      "claim_id": "C011",
+      "direction": "forward",
+      "statement": "The phase register is split by pole: the source pole holds peak-then-cut phases, the display pole holds gestating and growing phases.",
+      "premises": [
+        "E061",
+        "E062",
+        "E063",
+        "E083",
+        "E084",
+        "E086",
+        "E090",
+        "R001"
+      ],
+      "rule": "frozen_tables.twelve_phases, verified against palace branches",
+      "uncertainty": "low",
+      "note": "every phase claim in the source was re-derived from the frozen table and matched"
+    },
+    {
+      "id": "I006",
+      "claim_id": "C012",
+      "direction": "backward",
+      "statement": "Defect points concentrate on the hidden/instrument register: punishment marker, star tomb and gate pressure all sit on the concealed or stored layer.",
+      "premises": [
+        "R028",
+        "R029",
+        "R001",
+        "E091",
+        "E092",
+        "E067"
+      ],
+      "rule": "PAT-03 + PAT-04 + PAT-01 convergence (three independent computations)",
+      "uncertainty": "medium",
+      "note": "this is the strongest negative structure on the axis"
+    },
+    {
+      "id": "I007",
+      "claim_id": "C012",
+      "direction": "backward",
+      "statement": "The command axis of the board sits off the primary axis and is itself pressed: the leading star is the tool/learning star, and its palace carries both gate pressure and a metal-on-wood breakage marker.",
+      "premises": [
+        "E047",
+        "E049",
+        "E048",
+        "E111",
+        "E109",
+        "E050"
+      ],
+      "rule": "PAT-32 (值符/值使 anchor) + PAT-01 + PAT-23 as visible contrast (law 28)",
+      "uncertainty": "medium",
+      "note": "palace 8 is outside the ranked spine by case eligibility; it is cited as contrast and stays eligible for the red team"
+    },
+    {
+      "id": "I008",
+      "claim_id": "C003",
+      "direction": "forward",
+      "statement": "The three wonders circulate off-axis through the board's stem traces while the axis itself holds the receiving end, so the axis reads as a place where value arrives rather than originates.",
+      "premises": [
+        "R037",
+        "R038",
+        "R043",
+        "R042",
+        "R036",
+        "E028",
+        "E007"
+      ],
+      "rule": "CAP-09 stem value traces across palaces",
+      "uncertainty": "medium",
+      "note": "traces are computed from field values, never from array positions"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A001",
+      "type": "jurisdiction",
+      "statement": "The slow-earth star is used strictly as a registry term for a slow earth process; no health, medical or bodily reading is derived from it.",
+      "chart_basis": [
+        "E024",
+        "R029"
+      ],
+      "premises": [],
+      "assumption_index": 1,
+      "activating_condition": "any claim that names a symptom, condition or treatment invalidates the reading and must be reworked"
+    },
+    {
+      "id": "A002",
+      "type": "scope",
+      "statement": "The three briefs are executed for a brand whose category can carry a restraint-led register.",
+      "chart_basis": [
+        "E022",
+        "E092",
+        "E090"
+      ],
+      "premises": [
+        "I002"
+      ],
+      "assumption_index": 2,
+      "activating_condition": "if Assignment-1 research shows the category is saturated with restraint, this assumption fails and the register must be re-argued"
+    },
+    {
+      "id": "A003",
+      "type": "boundary",
+      "statement": "The palace 3 rise-to-throne / service / restraint markers are treated as visible contrast only, never as ranked support.",
+      "chart_basis": [
+        "E080",
+        "E081",
+        "E082",
+        "E018"
+      ],
+      "premises": [],
+      "assumption_index": 2,
+      "activating_condition": "if the operator re-earmarks the eligibility scope, those markers must be re-run through CAP-14 before any ranking"
+    },
+    {
+      "id": "A004",
+      "type": "boundary",
+      "statement": "Pillar-register relations (day-branch chong / liuhe / triad) are reported and cited but never absorbed into the 37-atom spine tally.",
+      "chart_basis": [
+        "R032",
+        "R033",
+        "R034",
+        "R035",
+        "R030",
+        "R031"
+      ],
+      "premises": [],
+      "assumption_index": 1,
+      "activating_condition": "if a claim's support would depend only on pillar-register atoms, the claim is NO_CHART_SUPPORT for the spine and must be downgraded"
+    },
+    {
+      "id": "A005",
+      "type": "production",
+      "statement": "The production path is a creative-direction proposal, not a vendor, budget or schedule decision.",
+      "chart_basis": [
+        "R028",
+        "E092",
+        "R004"
+      ],
+      "premises": [
+        "I006"
+      ],
+      "assumption_index": 1,
+      "activating_condition": "any cost, timeline or tool-selection statement requires a case-side input that does not exist in this run"
+    }
+  ],
+  "assumption_index_ranking": [
+    1,
+    2
+  ],
+  "rule": "inference is permitted only as a labelled assumption with its chart basis attached (law 6); every inference exposes evidence, rule, direction and uncertainty (law 20)"
+}

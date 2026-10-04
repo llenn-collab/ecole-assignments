@@ -1,0 +1,321 @@
+{
+  "blocks": [
+    {
+      "palace": 1,
+      "raw_key_verbatim": "坎1宫",
+      "trigram": "Kan",
+      "direction": "N",
+      "element": "water",
+      "star_home": "TianPeng",
+      "branches": [
+        "zi"
+      ],
+      "role_state": "RESOLVED",
+      "layer_occupancy": {
+        "deity": [
+          "E001"
+        ],
+        "door": [
+          "E002"
+        ],
+        "star": [
+          "E003"
+        ],
+        "stems": [
+          "E005",
+          "E006",
+          "E007"
+        ]
+      }
+    },
+    {
+      "palace": 2,
+      "raw_key_verbatim": "坤2宫",
+      "trigram": "Kun",
+      "direction": "SW",
+      "element": "earth",
+      "star_home": "TianRui",
+      "branches": [
+        "wei",
+        "shen"
+      ],
+      "role_state": "RESOLVED",
+      "layer_occupancy": {
+        "deity": [
+          "E008"
+        ],
+        "door": [
+          "E009"
+        ],
+        "star": [
+          "E010"
+        ],
+        "stems": [
+          "E012",
+          "E013",
+          "E014"
+        ]
+      }
+    },
+    {
+      "palace": 3,
+      "raw_key_verbatim": "震3宫",
+      "trigram": "Zhen",
+      "direction": "E",
+      "element": "wood",
+      "star_home": "TianChong",
+      "branches": [
+        "mao"
+      ],
+      "role_state": "RESOLVED",
+      "layer_occupancy": {
+        "deity": [
+          "E015"
+        ],
+        "door": [
+          "E016"
+        ],
+        "star": [
+          "E017"
+        ],
+        "stems": [
+          "E019",
+          "E020",
+          "E021"
+        ]
+      }
+    },
+    {
+      "palace": 4,
+      "raw_key_verbatim": "巽4宫",
+      "trigram": "Xun",
+      "direction": "SE",
+      "element": "wood",
+      "star_home": "TianFu",
+      "branches": [
+        "chen",
+        "si"
+      ],
+      "role_state": "RESOLVED",
+      "layer_occupancy": {
+        "deity": [
+          "E022"
+        ],
+        "door": [
+          "E023"
+        ],
+        "star": [
+          "E024"
+        ],
+        "stems": [
+          "E026",
+          "E027",
+          "E028",
+          "E029"
+        ]
+      }
+    },
+    {
+      "palace": 5,
+      "raw_key_verbatim": "中5宫",
+      "trigram": "Centre",
+      "direction": "C",
+      "element": "earth",
+      "star_home": "TianQin",
+      "branches": [],
+      "role_state": "RESOLVED",
+      "layer_occupancy": {
+        "deity": [],
+        "door": [],
+        "star": [
+          "E030"
+        ],
+        "stems": [
+          "E032"
+        ]
+      }
+    },
+    {
+      "palace": 6,
+      "raw_key_verbatim": "乾6宫",
+      "trigram": "Qian",
+      "direction": "NW",
+      "element": "metal",
+      "star_home": "TianXin",
+      "branches": [
+        "xu",
+        "hai"
+      ],
+      "role_state": "RESOLVED",
+      "layer_occupancy": {
+        "deity": [
+          "E033"
+        ],
+        "door": [
+          "E034"
+        ],
+        "star": [
+          "E035"
+        ],
+        "stems": [
+          "E037",
+          "E038",
+          "E039"
+        ]
+      }
+    },
+    {
+      "palace": 7,
+      "raw_key_verbatim": "兑7宫",
+      "trigram": "Dui",
+      "direction": "W",
+      "element": "metal",
+      "star_home": "TianZhu",
+      "branches": [
+        "you"
+      ],
+      "role_state": "RESOLVED",
+      "layer_occupancy": {
+        "deity": [
+          "E040"
+        ],
+        "door": [
+          "E041"
+        ],
+        "star": [
+          "E042"
+        ],
+        "stems": [
+          "E044",
+          "E045",
+          "E046"
+        ]
+      }
+    },
+    {
+      "palace": 8,
+      "raw_key_verbatim": "艮8宫",
+      "trigram": "Gen",
+      "direction": "NE",
+      "element": "earth",
+      "star_home": "TianRen",
+      "branches": [
+        "chou",
+        "yin"
+      ],
+      "role_state": "RESOLVED",
+      "layer_occupancy": {
+        "deity": [
+          "E047"
+        ],
+        "door": [
+          "E048"
+        ],
+        "star": [
+          "E049"
+        ],
+        "stems": [
+          "E051",
+          "E052",
+          "E053"
+        ]
+      }
+    },
+    {
+      "palace": 9,
+      "raw_key_verbatim": "离9宫",
+      "trigram": "Li",
+      "direction": "S",
+      "element": "fire",
+      "star_home": "TianYing",
+      "branches": [
+        "wu"
+      ],
+      "role_state": "RESOLVED",
+      "layer_occupancy": {
+        "deity": [
+          "E054"
+        ],
+        "door": [
+          "E055"
+        ],
+        "star": [
+          "E056"
+        ],
+        "stems": [
+          "E058",
+          "E059",
+          "E060"
+        ]
+      }
+    }
+  ],
+  "centre_block_validation": {
+    "palace": 5,
+    "has_opposite": false,
+    "rule": "opposition exists only for 1-4 and 6-9; the centre builds a lodging graph (law 10)",
+    "lodging_graph": {
+      "centre": 5,
+      "lodges_into_from_source": [
+        {
+          "palace": 4,
+          "carrier": "寄庚",
+          "centre_stem": "庚",
+          "source_path": "palaces.xun_4.interpretations[寄庚]"
+        }
+      ],
+      "canonical_candidates": [
+        {
+          "palace": 2,
+          "note": "canonical centre host (坤)"
+        },
+        {
+          "palace": 8,
+          "note": "canonical centre host (艮)"
+        }
+      ],
+      "rule": "centre builds a lodging GRAPH; canonical candidate hosts stay visible even when unseeded"
+    }
+  },
+  "geometry_edges": {
+    "oppositions": [
+      {
+        "pair": [
+          1,
+          4
+        ],
+        "rule": "frozen_tables.opposition_pairs"
+      },
+      {
+        "pair": [
+          6,
+          9
+        ],
+        "rule": "frozen_tables.opposition_pairs"
+      }
+    ],
+    "lodging": {
+      "centre": 5,
+      "lodges_into_from_source": [
+        {
+          "palace": 4,
+          "carrier": "寄庚",
+          "centre_stem": "庚",
+          "source_path": "palaces.xun_4.interpretations[寄庚]"
+        }
+      ],
+      "canonical_candidates": [
+        {
+          "palace": 2,
+          "note": "canonical centre host (坤)"
+        },
+        {
+          "palace": 8,
+          "note": "canonical centre host (艮)"
+        }
+      ],
+      "rule": "centre builds a lodging GRAPH; canonical candidate hosts stay visible even when unseeded"
+    },
+    "centre_opposite": "NONE — structural: centre has no opposite (law 10)"
+  }
+}

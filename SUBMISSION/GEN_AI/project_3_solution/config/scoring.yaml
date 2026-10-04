@@ -1,0 +1,37 @@
+# scoring.yaml — the solver's own constants (rubric 2.1.0 + requirement_fit).
+# Mirror of the analyser rubric constants for the shared terms; a mismatch is a deploy failure
+# (regression R-CONST). Every number a gate or a score uses lives here, never in prose.
+scoring_version: "1.0.0"
+rubric_version: "2.1.0"
+source_evidence_sha256: "20dc73a91a46c4dca78cca6fc9bc7520b91c7b16d9edb18fb93f76d1e8360a15"
+interpretation_protocol_hash: "4d1c0d15b1b2dd0b6b6f0b1e0a5b1d6e0f6c9a2e4b7c8d9e0f1a2b3c4d5e6f70"   # placeholder: replaced at run time by the real hash
+evidence_or_scoring_rubric_hash: ""          # replaced at run time by the real rubric hash
+tie_break_order: [higher_grounding_tier, higher_corroboration, lower_contradiction_penalty,
+                  higher_board_consistency, higher_requirement_fit, stable_lowest_id_ordering]
+tie_break_note: "evidence phase is metadata only and is never consulted for scoring or ties"
+upstream_requirement_fit: IGNORED_UPSTREAM_SCORE
+
+rubric:
+  weights: {grounding_tier: 0.30, corroboration: 0.20, contradiction_penalty: 0.15,
+            board_consistency: 0.05, requirement_fit: 0.30}
+  grounding_tier_scores: {EXPLICIT: 1.0, COMPUTED: 0.6, INFERRED: 0.3, ANOMALOUS: 0.2, UNKNOWN: 0.0}
+  corroboration_saturation: 12        # supporting citations at which the corroboration term saturates
+  contradiction_saturation: 6         # contradicting citations at which the penalty term bottoms out
+
+requirement_fit:
+  weights: {requirement_coverage: 0.40, hard_constraint_compliance: 0.40, audience_and_tone_fit: 0.20}
+  requirement_weights: {must: 1.0, should: 0.6, may: 0.3}
+  satisfaction: {full: 1.0, partial_with_explicit_evidence: 0.5, unsupported: 0.0}
+  edge_rules:
+    - "zero relevant requirements -> 0.0"
+    - "an excluded logo-artwork requirement is never counted as coverable"
+    - "a blocked must requirement forces 0 for any candidate claiming it"
+    - "final = 0 whenever hard_constraint_compliance = 0"
+  audience_and_tone_fit_rule:
+    base: 0.5                         # taken when no audience/tone evidence exists
+    research_anchored_audience: 0.1   # candidate's audience is lifted from the research pack
+    tone_adjectives_evidence_mapped: 0.1
+    cap: 0.8
+
+counters: {tool_retry_count_max: 3, audit_fix_count_max: 3, cap_call_count_max: 80,
+           files_per_batch: 35, chars_per_card: 6000}

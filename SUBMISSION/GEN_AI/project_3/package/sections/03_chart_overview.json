@@ -1,0 +1,382 @@
+{
+  "metadata": {
+    "system": "Yi Dun - Lun Cang Jia",
+    "method": "Qimen Dunjia Chart",
+    "type": "Hourly Rotating Qimen, Yin Dun 7 Ju",
+    "solar_term": "秋分 上元",
+    "chart_file_sha256": "20dc73a91a46c4dca78cca6fc9bc7520b91c7b16d9edb18fb93f76d1e8360a15",
+    "case_file_sha256": "5f641d01f096e6a1de5b2654da30bc6048085999214ce203fcb93388bae39cc0"
+  },
+  "board_reference": {
+    "adapter_variant": "qmdj_yidun_luncang_v1",
+    "adapter_confidence": 1.0,
+    "palace_blocks": 9,
+    "plus_one_centre_validation": true
+  },
+  "root_register": {
+    "case_facets": [
+      "Q01 Before You Start",
+      "Q02 What You're Producing: Three Distinct Briefs",
+      "Q03 Brief 1 — Brand Idea & Philosophy",
+      "Q04 Brief 2 — Product & Packaging",
+      "Q05 Brief 3 — Ad / Campaign Creative Brief",
+      "Q06 Coherence Check (Do This Before Submitting)",
+      "Q07 Deliverable & Submission",
+      "Q08 Evaluation Criteria"
+    ],
+    "deferred_facets": [
+      {
+        "id": "Q01",
+        "heading": "Before You Start",
+        "reason": "framing facet; its binding content (traceability) is enforced as CONK004 in every claim's validation_path, so no decision depends on analysing it as a separate facet",
+        "owner_phase": "CAP-17",
+        "gap_row": "GAP-009"
+      }
+    ],
+    "decision_needed": {
+      "value": null,
+      "code": "NULL",
+      "note": "not stated as a key; the binding requirement is CONK row on traceability"
+    }
+  },
+  "pillars": {
+    "year": {
+      "raw": "丙午",
+      "stem": "丙",
+      "branch": "午",
+      "stem_roman": "bing",
+      "branch_roman": "wu",
+      "stem_element": "fire",
+      "stem_polarity": "yang",
+      "branch_element": "fire",
+      "parse_state": "OK"
+    },
+    "month": {
+      "raw": "丁酉",
+      "stem": "丁",
+      "branch": "酉",
+      "stem_roman": "ding",
+      "branch_roman": "you",
+      "stem_element": "fire",
+      "stem_polarity": "yin",
+      "branch_element": "metal",
+      "parse_state": "OK"
+    },
+    "day": {
+      "raw": "辛亥",
+      "stem": "辛",
+      "branch": "亥",
+      "stem_roman": "xin",
+      "branch_roman": "hai",
+      "stem_element": "metal",
+      "stem_polarity": "yin",
+      "branch_element": "water",
+      "parse_state": "OK"
+    },
+    "hour": {
+      "raw": "乙未",
+      "stem": "乙",
+      "branch": "未",
+      "stem_roman": "yi",
+      "branch_roman": "wei",
+      "stem_element": "wood",
+      "stem_polarity": "yin",
+      "branch_element": "earth",
+      "parse_state": "OK"
+    }
+  },
+  "zhi_fu_zhi_shi_checks": [
+    {
+      "role": "zhi_fu",
+      "declared": "天辅@8",
+      "carried_star": "天辅",
+      "consistent": true
+    },
+    {
+      "role": "zhi_shi",
+      "declared": "杜门@3",
+      "carried_door": "杜门",
+      "consistent": true
+    },
+    {
+      "role": "zhi_fu_deity",
+      "palaces_carrying_value_deity": [
+        8
+      ],
+      "declared_palace": "8",
+      "consistent": true
+    }
+  ],
+  "phase_verification": {
+    "claims_checked": 25,
+    "all_match_frozen_table": true,
+    "all_branches_belong_to_palace": true,
+    "rows": [
+      {
+        "palace": 1,
+        "stem": "壬",
+        "phase": "帝旺",
+        "branch": "子",
+        "phase2": null,
+        "branch2": null,
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 1,
+        "stem": "丁",
+        "phase": "绝",
+        "branch": "子",
+        "phase2": null,
+        "branch2": null,
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 1,
+        "stem": "乙",
+        "phase": "病",
+        "branch": "子",
+        "phase2": null,
+        "branch2": null,
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 2,
+        "stem": "己",
+        "phase": "冠带",
+        "branch": "未",
+        "phase2": "沐浴",
+        "branch2": "申",
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 2,
+        "stem": "癸",
+        "phase": "墓",
+        "branch": "未",
+        "phase2": "死",
+        "branch2": "申",
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 2,
+        "stem": "戊",
+        "phase": "衰",
+        "branch": "未",
+        "phase2": "病",
+        "branch2": "申",
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 3,
+        "stem": "丙",
+        "phase": "沐浴",
+        "branch": "卯",
+        "phase2": null,
+        "branch2": null,
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 3,
+        "stem": "壬",
+        "phase": "死",
+        "branch": "卯",
+        "phase2": null,
+        "branch2": null,
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 3,
+        "stem": "辛",
+        "phase": "绝",
+        "branch": "卯",
+        "phase2": null,
+        "branch2": null,
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 4,
+        "stem": "癸",
+        "phase": "养",
+        "branch": "辰",
+        "phase2": "胎",
+        "branch2": "巳",
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 4,
+        "stem": "庚",
+        "phase": "养",
+        "branch": "辰",
+        "phase2": "长生",
+        "branch2": "巳",
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 4,
+        "stem": "辛",
+        "phase": "墓",
+        "branch": "辰",
+        "phase2": "死",
+        "branch2": "巳",
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 4,
+        "stem": "丙",
+        "phase": "冠带",
+        "branch": "辰",
+        "phase2": "临官",
+        "branch2": "巳",
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 6,
+        "stem": "乙",
+        "phase": "墓",
+        "branch": "戌",
+        "phase2": "死",
+        "branch2": "亥",
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 6,
+        "stem": "己",
+        "phase": "养",
+        "branch": "戌",
+        "phase2": "胎",
+        "branch2": "亥",
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 6,
+        "stem": "丁",
+        "phase": "养",
+        "branch": "戌",
+        "phase2": "胎",
+        "branch2": "亥",
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 7,
+        "stem": "丁",
+        "phase": "长生",
+        "branch": "酉",
+        "phase2": null,
+        "branch2": null,
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 7,
+        "stem": "戊",
+        "phase": "死",
+        "branch": "酉",
+        "phase2": null,
+        "branch2": null,
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 7,
+        "stem": "己",
+        "phase": "长生",
+        "branch": "酉",
+        "phase2": null,
+        "branch2": null,
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 8,
+        "stem": "辛",
+        "phase": "养",
+        "branch": "丑",
+        "phase2": "胎",
+        "branch2": "寅",
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 8,
+        "stem": "乙",
+        "phase": "衰",
+        "branch": "丑",
+        "phase2": "帝旺",
+        "branch2": "寅",
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 8,
+        "stem": "壬",
+        "phase": "衰",
+        "branch": "丑",
+        "phase2": "病",
+        "branch2": "寅",
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 9,
+        "stem": "戊",
+        "phase": "帝旺",
+        "branch": "午",
+        "phase2": null,
+        "branch2": null,
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 9,
+        "stem": "丙",
+        "phase": "帝旺",
+        "branch": "午",
+        "phase2": null,
+        "branch2": null,
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      {
+        "palace": 9,
+        "stem": "癸",
+        "phase": "绝",
+        "branch": "午",
+        "phase2": null,
+        "branch2": null,
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      }
+    ]
+  },
+  "anomaly_log": [],
+  "invalid_chains": [
+    {
+      "chain": "C011/C012 (asset sequence, production path) -> campaign window",
+      "type": "INVALID_INTO_UNKNOWN",
+      "why": "the chain would cross an undeclared timeframe_of_interest; the chain is blocked, not resolved",
+      "action": "ARC-13 BLOCKED, gap row GAP-003"
+    }
+  ],
+  "source_paths": {
+    "chart": "QMDJ/GEN_AI/project_3.json",
+    "case_context": "ASSIGNMENTS/GEN_AI/project_3.yaml",
+    "case_copy_in_package": "raw/case_context.case.yaml"
+  },
+  "verification_gap": "the physical board arrangement (which star/door/stem lands in which palace from the hour pillar) was NOT independently re-derived; see GAP-007"
+}

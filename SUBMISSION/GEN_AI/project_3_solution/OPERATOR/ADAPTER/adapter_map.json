@@ -1,0 +1,66 @@
+{
+  "adapter_version": "1.0.0",
+  "producer": "chart_analyser_v7",
+  "adapter_status": "MAPPED",
+  "field_map_applied": {
+    "evidence_registry": "MAPPED < 05 + 08 + 11 (87 atoms aggregated)",
+    "palaces": "MAPPED < 04_palace_identity_resolution + 06_palace_coverage_matrix",
+    "systems": "EXPLICITLY_EMPTY — 05_structure_evidence contains no `systems` blocks (the analyser v7 package carries no systems register); recorded rather than silently absent (producer_obligation)",
+    "relations": "MAPPED < 05_structure_evidence R atoms",
+    "patterns": "MAPPED < 07_pattern_state_registry",
+    "origin_sets": "MAPPED < 03_chart_overview root_register + board_reference",
+    "focus_candidates": "MAPPED < 10_solution_hypotheses + 09_case_alignment",
+    "anomalies": "MAPPED < 03 + 12 + 14 + 15",
+    "absence_evidence": "MAPPED < 06 class_level_closure + 07 null_register",
+    "exclusion_evidence": "MAPPED < package evidence ledger (work/ledger.json), recorded via seal",
+    "coverage_accounting": "MAPPED < 06_palace_coverage_matrix + 14_gap_report",
+    "schema_adaptation_metadata": "MAPPED < 16_provenance_appendix + 05 registers",
+    "solution_seed": "MAPPED < 10_solution_hypotheses + 13 + 11 + 14"
+  },
+  "field_map_v7_declared": {
+    "evidence_registry": "< 05 + 08 + 11 (aggregated by CAP-03)",
+    "palaces": "< 04 + 06",
+    "systems": "< 05 systems blocks",
+    "relations": "< 05 R atoms",
+    "patterns": "< 07",
+    "origin_sets": "< 03 root_register + board_reference",
+    "focus_candidates": "< 10 + 09 DIRECT/INDIRECT",
+    "anomalies": "< 15 + 03 + invalid_chains",
+    "absence_evidence": "< 14 absent rows + ledger ABSENT",
+    "exclusion_evidence": "< ledger EXCLUDED rows",
+    "coverage_accounting": "< 06 closure equations + gap report",
+    "schema_adaptation_metadata": "< 16 + role_map records",
+    "solution_seed": "< 10"
+  },
+  "renamed_fields": [],
+  "mapped_evidence_classes": {
+    "structural_E": "E-atoms (chart field values)",
+    "condition_E": "the chart's own interpretation lines",
+    "relation_R": "computed relations",
+    "pillar_R": "pillar-register relations",
+    "claim_C": "analyser claims",
+    "implication_I": "analyser implications",
+    "assumption_A": "assumptions"
+  },
+  "unmapped_fields": [
+    {
+      "field": "systems",
+      "reason": "not present in the producer package; explicitly empty"
+    }
+  ],
+  "discarded_metadata_only_fields": [
+    {
+      "field": "16_provenance_appendix.artifact_hashes",
+      "reason": "metadata only; the seal file itself is hashed instead"
+    }
+  ],
+  "preserved_evidence_count": 87,
+  "no_evidence_loss": true,
+  "no_forbidden_mutation": true,
+  "hash_verification": {
+    "seal_present": true,
+    "seal_artifacts_checked": 58,
+    "seal_self_consistent": true
+  },
+  "recorded_mapped_not_clean": "a v7 package adapted to the v6-shaped contract is a lossy shape adaptation, not an equivalence; every field below is stamped MAPPED"
+}

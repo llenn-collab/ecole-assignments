@@ -1,0 +1,3202 @@
+{
+  "E": [
+    {
+      "id": "E001",
+      "register": "structural",
+      "palace": 1,
+      "field_code": "deity",
+      "value": "腾蛇",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kan_1.palace_elements",
+      "derivation": "E.1.deity",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E002",
+      "register": "structural",
+      "palace": 1,
+      "field_code": "door",
+      "value": "生门",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kan_1.palace_elements",
+      "derivation": "E.1.door",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E003",
+      "register": "structural",
+      "palace": 1,
+      "field_code": "star",
+      "value": "天冲",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kan_1.palace_elements",
+      "derivation": "E.1.star",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E004",
+      "register": "structural",
+      "palace": 1,
+      "field_code": "palace_root",
+      "value": "坎1宫",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kan_1.palace_elements",
+      "derivation": "E.1.palace_root",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E005",
+      "register": "structural",
+      "palace": 1,
+      "field_code": "heaven_stem",
+      "value": "壬",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kan_1.palace_elements",
+      "derivation": "E.1.heaven_stem",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E006",
+      "register": "structural",
+      "palace": 1,
+      "field_code": "earth_stem",
+      "value": "丁",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kan_1.palace_elements",
+      "derivation": "E.1.earth_stem",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E007",
+      "register": "structural",
+      "palace": 1,
+      "field_code": "hidden_stem",
+      "value": "乙",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kan_1.interpretations[*].condition(暗X)",
+      "derivation": "E.1.hidden_stem.0",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E008",
+      "register": "structural",
+      "palace": 2,
+      "field_code": "deity",
+      "value": "白虎",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kun_2.palace_elements",
+      "derivation": "E.2.deity",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E009",
+      "register": "structural",
+      "palace": 2,
+      "field_code": "door",
+      "value": "惊门",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kun_2.palace_elements",
+      "derivation": "E.2.door",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E010",
+      "register": "structural",
+      "palace": 2,
+      "field_code": "star",
+      "value": "天心",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kun_2.palace_elements",
+      "derivation": "E.2.star",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E011",
+      "register": "structural",
+      "palace": 2,
+      "field_code": "palace_root",
+      "value": "坤2宫",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kun_2.palace_elements",
+      "derivation": "E.2.palace_root",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E012",
+      "register": "structural",
+      "palace": 2,
+      "field_code": "heaven_stem",
+      "value": "己",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kun_2.palace_elements",
+      "derivation": "E.2.heaven_stem",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E013",
+      "register": "structural",
+      "palace": 2,
+      "field_code": "earth_stem",
+      "value": "癸",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kun_2.palace_elements",
+      "derivation": "E.2.earth_stem",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E014",
+      "register": "structural",
+      "palace": 2,
+      "field_code": "hidden_stem",
+      "value": "戊",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kun_2.interpretations[*].condition(暗X)",
+      "derivation": "E.2.hidden_stem.0",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E015",
+      "register": "structural",
+      "palace": 3,
+      "field_code": "deity",
+      "value": "九天",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.palace_elements",
+      "derivation": "E.3.deity",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E016",
+      "register": "structural",
+      "palace": 3,
+      "field_code": "door",
+      "value": "杜门",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.palace_elements",
+      "derivation": "E.3.door",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E017",
+      "register": "structural",
+      "palace": 3,
+      "field_code": "star",
+      "value": "天英",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.palace_elements",
+      "derivation": "E.3.star",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E018",
+      "register": "structural",
+      "palace": 3,
+      "field_code": "palace_root",
+      "value": "震3宫",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.palace_elements",
+      "derivation": "E.3.palace_root",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E019",
+      "register": "structural",
+      "palace": 3,
+      "field_code": "heaven_stem",
+      "value": "丙",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.palace_elements",
+      "derivation": "E.3.heaven_stem",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E020",
+      "register": "structural",
+      "palace": 3,
+      "field_code": "earth_stem",
+      "value": "壬",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.palace_elements",
+      "derivation": "E.3.earth_stem",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E021",
+      "register": "structural",
+      "palace": 3,
+      "field_code": "hidden_stem",
+      "value": "辛",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.interpretations[*].condition(暗X)",
+      "derivation": "E.3.hidden_stem.0",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E022",
+      "register": "structural",
+      "palace": 4,
+      "field_code": "deity",
+      "value": "九地",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.palace_elements",
+      "derivation": "E.4.deity",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E023",
+      "register": "structural",
+      "palace": 4,
+      "field_code": "door",
+      "value": "景门",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.palace_elements",
+      "derivation": "E.4.door",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E024",
+      "register": "structural",
+      "palace": 4,
+      "field_code": "star",
+      "value": "天芮",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.palace_elements",
+      "derivation": "E.4.star",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E025",
+      "register": "structural",
+      "palace": 4,
+      "field_code": "palace_root",
+      "value": "巽4宫",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.palace_elements",
+      "derivation": "E.4.palace_root",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E026",
+      "register": "structural",
+      "palace": 4,
+      "field_code": "heaven_stem",
+      "value": "癸",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.palace_elements",
+      "derivation": "E.4.heaven_stem",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E027",
+      "register": "structural",
+      "palace": 4,
+      "field_code": "earth_stem",
+      "value": "辛",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.palace_elements",
+      "derivation": "E.4.earth_stem",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E028",
+      "register": "structural",
+      "palace": 4,
+      "field_code": "hidden_stem",
+      "value": "丙",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.interpretations[*].condition(暗X)",
+      "derivation": "E.4.hidden_stem.0",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E029",
+      "register": "structural",
+      "palace": 4,
+      "field_code": "lodged_stem",
+      "value": "庚",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.interpretations[*].condition(寄X)",
+      "derivation": "E.4.lodged_stem.0",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E030",
+      "register": "structural",
+      "palace": 5,
+      "field_code": "star",
+      "value": "天禽",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.center_5.palace_elements",
+      "derivation": "E.5.star",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E031",
+      "register": "structural",
+      "palace": 5,
+      "field_code": "palace_root",
+      "value": "中5宫",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.center_5.palace_elements",
+      "derivation": "E.5.palace_root",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E032",
+      "register": "structural",
+      "palace": 5,
+      "field_code": "earth_stem",
+      "value": "庚",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.center_5.palace_elements",
+      "derivation": "E.5.earth_stem",
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E033",
+      "register": "structural",
+      "palace": 6,
+      "field_code": "deity",
+      "value": "太阴",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.qian_6.palace_elements",
+      "derivation": "E.6.deity",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E034",
+      "register": "structural",
+      "palace": 6,
+      "field_code": "door",
+      "value": "休门",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.qian_6.palace_elements",
+      "derivation": "E.6.door",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E035",
+      "register": "structural",
+      "palace": 6,
+      "field_code": "star",
+      "value": "天任",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.qian_6.palace_elements",
+      "derivation": "E.6.star",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E036",
+      "register": "structural",
+      "palace": 6,
+      "field_code": "palace_root",
+      "value": "乾6宫",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.qian_6.palace_elements",
+      "derivation": "E.6.palace_root",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E037",
+      "register": "structural",
+      "palace": 6,
+      "field_code": "heaven_stem",
+      "value": "乙",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.qian_6.palace_elements",
+      "derivation": "E.6.heaven_stem",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E038",
+      "register": "structural",
+      "palace": 6,
+      "field_code": "earth_stem",
+      "value": "己",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.qian_6.palace_elements",
+      "derivation": "E.6.earth_stem",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E039",
+      "register": "structural",
+      "palace": 6,
+      "field_code": "hidden_stem",
+      "value": "丁",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.qian_6.interpretations[*].condition(暗X)",
+      "derivation": "E.6.hidden_stem.0",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E040",
+      "register": "structural",
+      "palace": 7,
+      "field_code": "deity",
+      "value": "六合",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.dui_7.palace_elements",
+      "derivation": "E.7.deity",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E041",
+      "register": "structural",
+      "palace": 7,
+      "field_code": "door",
+      "value": "开门",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.dui_7.palace_elements",
+      "derivation": "E.7.door",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E042",
+      "register": "structural",
+      "palace": 7,
+      "field_code": "star",
+      "value": "天蓬",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.dui_7.palace_elements",
+      "derivation": "E.7.star",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E043",
+      "register": "structural",
+      "palace": 7,
+      "field_code": "palace_root",
+      "value": "兑7宫",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.dui_7.palace_elements",
+      "derivation": "E.7.palace_root",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E044",
+      "register": "structural",
+      "palace": 7,
+      "field_code": "heaven_stem",
+      "value": "丁",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.dui_7.palace_elements",
+      "derivation": "E.7.heaven_stem",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E045",
+      "register": "structural",
+      "palace": 7,
+      "field_code": "earth_stem",
+      "value": "戊",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.dui_7.palace_elements",
+      "derivation": "E.7.earth_stem",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E046",
+      "register": "structural",
+      "palace": 7,
+      "field_code": "hidden_stem",
+      "value": "己",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.dui_7.interpretations[*].condition(暗X)",
+      "derivation": "E.7.hidden_stem.0",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E047",
+      "register": "structural",
+      "palace": 8,
+      "field_code": "deity",
+      "value": "值符",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.gen_8.palace_elements",
+      "derivation": "E.8.deity",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E048",
+      "register": "structural",
+      "palace": 8,
+      "field_code": "door",
+      "value": "伤门",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.gen_8.palace_elements",
+      "derivation": "E.8.door",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E049",
+      "register": "structural",
+      "palace": 8,
+      "field_code": "star",
+      "value": "天辅",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.gen_8.palace_elements",
+      "derivation": "E.8.star",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E050",
+      "register": "structural",
+      "palace": 8,
+      "field_code": "palace_root",
+      "value": "艮8宫",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.gen_8.palace_elements",
+      "derivation": "E.8.palace_root",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E051",
+      "register": "structural",
+      "palace": 8,
+      "field_code": "heaven_stem",
+      "value": "辛",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.gen_8.palace_elements",
+      "derivation": "E.8.heaven_stem",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E052",
+      "register": "structural",
+      "palace": 8,
+      "field_code": "earth_stem",
+      "value": "乙",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.gen_8.palace_elements",
+      "derivation": "E.8.earth_stem",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E053",
+      "register": "structural",
+      "palace": 8,
+      "field_code": "hidden_stem",
+      "value": "壬",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.gen_8.interpretations[*].condition(暗X)",
+      "derivation": "E.8.hidden_stem.0",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E054",
+      "register": "structural",
+      "palace": 9,
+      "field_code": "deity",
+      "value": "玄武",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.li_9.palace_elements",
+      "derivation": "E.9.deity",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E055",
+      "register": "structural",
+      "palace": 9,
+      "field_code": "door",
+      "value": "死门",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.li_9.palace_elements",
+      "derivation": "E.9.door",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E056",
+      "register": "structural",
+      "palace": 9,
+      "field_code": "star",
+      "value": "天柱",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.li_9.palace_elements",
+      "derivation": "E.9.star",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E057",
+      "register": "structural",
+      "palace": 9,
+      "field_code": "palace_root",
+      "value": "离9宫",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.li_9.palace_elements",
+      "derivation": "E.9.palace_root",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E058",
+      "register": "structural",
+      "palace": 9,
+      "field_code": "heaven_stem",
+      "value": "戊",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.li_9.palace_elements",
+      "derivation": "E.9.heaven_stem",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E059",
+      "register": "structural",
+      "palace": 9,
+      "field_code": "earth_stem",
+      "value": "丙",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.li_9.palace_elements",
+      "derivation": "E.9.earth_stem",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E060",
+      "register": "structural",
+      "palace": 9,
+      "field_code": "hidden_stem",
+      "value": "癸",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.li_9.interpretations[*].condition(暗X)",
+      "derivation": "E.9.hidden_stem.0",
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E061",
+      "register": "condition",
+      "palace": 1,
+      "field_code": "cond",
+      "value": "天壬 phase=帝旺 branch=子",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kan_1.interpretations[0].condition",
+      "derivation": "E.1.cond.0",
+      "typed_atoms": {
+        "layer": "天",
+        "stem": "壬",
+        "phase": "帝旺",
+        "branch": "子",
+        "phase2": null,
+        "branch2": null,
+        "raw": "天壬 处于 '帝旺' (于子)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E062",
+      "register": "condition",
+      "palace": 1,
+      "field_code": "cond",
+      "value": "地丁 phase=绝 branch=子",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kan_1.interpretations[1].condition",
+      "derivation": "E.1.cond.1",
+      "typed_atoms": {
+        "layer": "地",
+        "stem": "丁",
+        "phase": "绝",
+        "branch": "子",
+        "phase2": null,
+        "branch2": null,
+        "raw": "地丁 处于 '绝' (于子)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E063",
+      "register": "condition",
+      "palace": 1,
+      "field_code": "cond",
+      "value": "暗乙 phase=病 branch=子",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kan_1.interpretations[2].condition",
+      "derivation": "E.1.cond.2",
+      "typed_atoms": {
+        "layer": "暗",
+        "stem": "乙",
+        "phase": "病",
+        "branch": "子",
+        "phase2": null,
+        "branch2": null,
+        "raw": "暗乙 处于 '病' (于子)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E064",
+      "register": "condition",
+      "palace": 1,
+      "field_code": "cond",
+      "value": "天盘干:壬加丁『干合蛇刑』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kan_1.interpretations[3].condition",
+      "derivation": "E.1.cond.3",
+      "typed_atoms": {
+        "layer": "天盘干",
+        "a": "壬",
+        "b": "丁",
+        "pattern": "干合蛇刑"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E065",
+      "register": "condition",
+      "palace": 1,
+      "field_code": "cond",
+      "value": "暗干干:乙加丁『奇仪相佐』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kan_1.interpretations[4].condition",
+      "derivation": "E.1.cond.4",
+      "typed_atoms": {
+        "layer": "暗干干",
+        "a": "乙",
+        "b": "丁",
+        "pattern": "奇仪相佐"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E066",
+      "register": "condition",
+      "palace": 1,
+      "field_code": "cond",
+      "value": "奇仪相合",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kan_1.interpretations[5].condition",
+      "derivation": "E.1.cond.5",
+      "typed_atoms": {
+        "marker": "奇仪相合"
+      },
+      "kind": "marker",
+      "verification": null,
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E067",
+      "register": "condition",
+      "palace": 1,
+      "field_code": "cond",
+      "value": "门迫宫",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kan_1.interpretations[6].condition",
+      "derivation": "E.1.cond.6",
+      "typed_atoms": {
+        "marker": "门迫宫"
+      },
+      "kind": "marker",
+      "verification": null,
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E068",
+      "register": "condition",
+      "palace": 2,
+      "field_code": "cond",
+      "value": "天己 phase=冠带/沐浴 branch=未",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kun_2.interpretations[0].condition",
+      "derivation": "E.2.cond.7",
+      "typed_atoms": {
+        "layer": "天",
+        "stem": "己",
+        "phase": "冠带",
+        "branch": "未",
+        "phase2": "沐浴",
+        "branch2": "申",
+        "raw": "天己 处于 '冠带' (于未) 且 '沐浴' (于申)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E069",
+      "register": "condition",
+      "palace": 2,
+      "field_code": "cond",
+      "value": "地癸 phase=墓/死 branch=未",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kun_2.interpretations[1].condition",
+      "derivation": "E.2.cond.8",
+      "typed_atoms": {
+        "layer": "地",
+        "stem": "癸",
+        "phase": "墓",
+        "branch": "未",
+        "phase2": "死",
+        "branch2": "申",
+        "raw": "地癸 处于 '墓' (于未) 且 '死' (于申)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E070",
+      "register": "condition",
+      "palace": 2,
+      "field_code": "cond",
+      "value": "暗戊 phase=衰/病 branch=未",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kun_2.interpretations[2].condition",
+      "derivation": "E.2.cond.9",
+      "typed_atoms": {
+        "layer": "暗",
+        "stem": "戊",
+        "phase": "衰",
+        "branch": "未",
+        "phase2": "病",
+        "branch2": "申",
+        "raw": "暗戊 处于 '衰' (于未) 且 '病' (于申)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E071",
+      "register": "condition",
+      "palace": 2,
+      "field_code": "cond",
+      "value": "天盘干:己加癸『地刑玄武』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kun_2.interpretations[3].condition",
+      "derivation": "E.2.cond.10",
+      "typed_atoms": {
+        "layer": "天盘干",
+        "a": "己",
+        "b": "癸",
+        "pattern": "地刑玄武"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E072",
+      "register": "condition",
+      "palace": 2,
+      "field_code": "cond",
+      "value": "暗干干:戊加癸『青龙华盖』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kun_2.interpretations[4].condition",
+      "derivation": "E.2.cond.11",
+      "typed_atoms": {
+        "layer": "暗干干",
+        "a": "戊",
+        "b": "癸",
+        "pattern": "青龙华盖"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E073",
+      "register": "condition",
+      "palace": 2,
+      "field_code": "cond",
+      "value": "宫生门",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kun_2.interpretations[5].condition",
+      "derivation": "E.2.cond.12",
+      "typed_atoms": {
+        "marker": "宫生门"
+      },
+      "kind": "marker",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E074",
+      "register": "condition",
+      "palace": 2,
+      "field_code": "cond",
+      "value": "六仪击刑",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.kun_2.interpretations[6].condition",
+      "derivation": "E.2.cond.13",
+      "typed_atoms": {
+        "marker": "六仪击刑"
+      },
+      "kind": "marker",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E075",
+      "register": "condition",
+      "palace": 3,
+      "field_code": "cond",
+      "value": "天丙 phase=沐浴 branch=卯",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.interpretations[0].condition",
+      "derivation": "E.3.cond.14",
+      "typed_atoms": {
+        "layer": "天",
+        "stem": "丙",
+        "phase": "沐浴",
+        "branch": "卯",
+        "phase2": null,
+        "branch2": null,
+        "raw": "天丙 处于 '沐浴' (于卯)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E076",
+      "register": "condition",
+      "palace": 3,
+      "field_code": "cond",
+      "value": "地壬 phase=死 branch=卯",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.interpretations[1].condition",
+      "derivation": "E.3.cond.15",
+      "typed_atoms": {
+        "layer": "地",
+        "stem": "壬",
+        "phase": "死",
+        "branch": "卯",
+        "phase2": null,
+        "branch2": null,
+        "raw": "地壬 处于 '死' (于卯)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E077",
+      "register": "condition",
+      "palace": 3,
+      "field_code": "cond",
+      "value": "暗辛 phase=绝 branch=卯",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.interpretations[2].condition",
+      "derivation": "E.3.cond.16",
+      "typed_atoms": {
+        "layer": "暗",
+        "stem": "辛",
+        "phase": "绝",
+        "branch": "卯",
+        "phase2": null,
+        "branch2": null,
+        "raw": "暗辛 处于 '绝' (于卯)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E078",
+      "register": "condition",
+      "palace": 3,
+      "field_code": "cond",
+      "value": "天盘干:丙加壬『火入天罗』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.interpretations[3].condition",
+      "derivation": "E.3.cond.17",
+      "typed_atoms": {
+        "layer": "天盘干",
+        "a": "丙",
+        "b": "壬",
+        "pattern": "火入天罗"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E079",
+      "register": "condition",
+      "palace": 3,
+      "field_code": "cond",
+      "value": "暗干干:辛加壬『凶蛇入狱』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.interpretations[4].condition",
+      "derivation": "E.3.cond.18",
+      "typed_atoms": {
+        "layer": "暗干干",
+        "a": "辛",
+        "b": "壬",
+        "pattern": "凶蛇入狱"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E080",
+      "register": "condition",
+      "palace": 3,
+      "field_code": "cond",
+      "value": "三奇升殿",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.interpretations[5].condition",
+      "derivation": "E.3.cond.19",
+      "typed_atoms": {
+        "marker": "三奇升殿"
+      },
+      "kind": "marker",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E081",
+      "register": "condition",
+      "palace": 3,
+      "field_code": "cond",
+      "value": "三奇得使",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.interpretations[6].condition",
+      "derivation": "E.3.cond.20",
+      "typed_atoms": {
+        "marker": "三奇得使"
+      },
+      "kind": "marker",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E082",
+      "register": "condition",
+      "palace": 3,
+      "field_code": "cond",
+      "value": "三奇受制",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.zhen_3.interpretations[7].condition",
+      "derivation": "E.3.cond.21",
+      "typed_atoms": {
+        "marker": "三奇受制"
+      },
+      "kind": "marker",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E083",
+      "register": "condition",
+      "palace": 4,
+      "field_code": "cond",
+      "value": "天癸 phase=养/胎 branch=辰",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.interpretations[0].condition",
+      "derivation": "E.4.cond.22",
+      "typed_atoms": {
+        "layer": "天",
+        "stem": "癸",
+        "phase": "养",
+        "branch": "辰",
+        "phase2": "胎",
+        "branch2": "巳",
+        "raw": "天癸 处于 '养' (于辰) 且 '胎' (于巳)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E084",
+      "register": "condition",
+      "palace": 4,
+      "field_code": "cond",
+      "value": "寄庚 phase=养/长生 branch=辰",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.interpretations[1].condition",
+      "derivation": "E.4.cond.23",
+      "typed_atoms": {
+        "layer": "寄",
+        "stem": "庚",
+        "phase": "养",
+        "branch": "辰",
+        "phase2": "长生",
+        "branch2": "巳",
+        "raw": "寄庚 处于 '养' (于辰) 且 '长生' (于巳)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E085",
+      "register": "condition",
+      "palace": 4,
+      "field_code": "cond",
+      "value": "地辛 phase=墓/死 branch=辰",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.interpretations[2].condition",
+      "derivation": "E.4.cond.24",
+      "typed_atoms": {
+        "layer": "地",
+        "stem": "辛",
+        "phase": "墓",
+        "branch": "辰",
+        "phase2": "死",
+        "branch2": "巳",
+        "raw": "地辛 处于 '墓' (于辰) 且 '死' (于巳)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E086",
+      "register": "condition",
+      "palace": 4,
+      "field_code": "cond",
+      "value": "暗丙 phase=冠带/临官 branch=辰",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.interpretations[3].condition",
+      "derivation": "E.4.cond.25",
+      "typed_atoms": {
+        "layer": "暗",
+        "stem": "丙",
+        "phase": "冠带",
+        "branch": "辰",
+        "phase2": "临官",
+        "branch2": "巳",
+        "raw": "暗丙 处于 '冠带' (于辰) 且 '临官' (于巳)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E087",
+      "register": "condition",
+      "palace": 4,
+      "field_code": "cond",
+      "value": "天盘干:癸加辛『网盖天牢』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.interpretations[4].condition",
+      "derivation": "E.4.cond.26",
+      "typed_atoms": {
+        "layer": "天盘干",
+        "a": "癸",
+        "b": "辛",
+        "pattern": "网盖天牢"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E088",
+      "register": "condition",
+      "palace": 4,
+      "field_code": "cond",
+      "value": "寄宫干:庚加辛『太白重锋』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.interpretations[5].condition",
+      "derivation": "E.4.cond.27",
+      "typed_atoms": {
+        "layer": "寄宫干",
+        "a": "庚",
+        "b": "辛",
+        "pattern": "太白重锋"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E089",
+      "register": "condition",
+      "palace": 4,
+      "field_code": "cond",
+      "value": "暗干干:丙加辛『日月相会』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.interpretations[6].condition",
+      "derivation": "E.4.cond.28",
+      "typed_atoms": {
+        "layer": "暗干干",
+        "a": "丙",
+        "b": "辛",
+        "pattern": "日月相会"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E090",
+      "register": "condition",
+      "palace": 4,
+      "field_code": "cond",
+      "value": "宫生门",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.interpretations[7].condition",
+      "derivation": "E.4.cond.29",
+      "typed_atoms": {
+        "marker": "宫生门"
+      },
+      "kind": "marker",
+      "verification": null,
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E091",
+      "register": "condition",
+      "palace": 4,
+      "field_code": "cond",
+      "value": "六仪击刑",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.interpretations[8].condition",
+      "derivation": "E.4.cond.30",
+      "typed_atoms": {
+        "marker": "六仪击刑"
+      },
+      "kind": "marker",
+      "verification": null,
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E092",
+      "register": "condition",
+      "palace": 4,
+      "field_code": "cond",
+      "value": "星入墓",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.xun_4.interpretations[9].condition",
+      "derivation": "E.4.cond.31",
+      "typed_atoms": {
+        "marker": "星入墓"
+      },
+      "kind": "marker",
+      "verification": null,
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E093",
+      "register": "condition",
+      "palace": 5,
+      "field_code": "cond",
+      "value": "暗干干:庚加庚『太白同宫』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.center_5.interpretations[0].condition",
+      "derivation": "E.5.cond.32",
+      "typed_atoms": {
+        "layer": "暗干干",
+        "a": "庚",
+        "b": "庚",
+        "pattern": "太白同宫"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "E094",
+      "register": "condition",
+      "palace": 6,
+      "field_code": "cond",
+      "value": "天乙 phase=墓/死 branch=戌",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.qian_6.interpretations[0].condition",
+      "derivation": "E.6.cond.33",
+      "typed_atoms": {
+        "layer": "天",
+        "stem": "乙",
+        "phase": "墓",
+        "branch": "戌",
+        "phase2": "死",
+        "branch2": "亥",
+        "raw": "天乙 处于 '墓' (于戌) 且 '死' (于亥)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E095",
+      "register": "condition",
+      "palace": 6,
+      "field_code": "cond",
+      "value": "地己 phase=养/胎 branch=戌",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.qian_6.interpretations[1].condition",
+      "derivation": "E.6.cond.34",
+      "typed_atoms": {
+        "layer": "地",
+        "stem": "己",
+        "phase": "养",
+        "branch": "戌",
+        "phase2": "胎",
+        "branch2": "亥",
+        "raw": "地己 处于 '养' (于戌) 且 '胎' (于亥)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E096",
+      "register": "condition",
+      "palace": 6,
+      "field_code": "cond",
+      "value": "暗丁 phase=养/胎 branch=戌",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.qian_6.interpretations[2].condition",
+      "derivation": "E.6.cond.35",
+      "typed_atoms": {
+        "layer": "暗",
+        "stem": "丁",
+        "phase": "养",
+        "branch": "戌",
+        "phase2": "胎",
+        "branch2": "亥",
+        "raw": "暗丁 处于 '养' (于戌) 且 '胎' (于亥)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E097",
+      "register": "condition",
+      "palace": 6,
+      "field_code": "cond",
+      "value": "天盘干:乙加己『日奇入墓』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.qian_6.interpretations[3].condition",
+      "derivation": "E.6.cond.36",
+      "typed_atoms": {
+        "layer": "天盘干",
+        "a": "乙",
+        "b": "己",
+        "pattern": "日奇入墓"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E098",
+      "register": "condition",
+      "palace": 6,
+      "field_code": "cond",
+      "value": "暗干干:丁加己『火入勾陈』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.qian_6.interpretations[4].condition",
+      "derivation": "E.6.cond.37",
+      "typed_atoms": {
+        "layer": "暗干干",
+        "a": "丁",
+        "b": "己",
+        "pattern": "火入勾陈"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E099",
+      "register": "condition",
+      "palace": 6,
+      "field_code": "cond",
+      "value": "宫生门",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.qian_6.interpretations[5].condition",
+      "derivation": "E.6.cond.38",
+      "typed_atoms": {
+        "marker": "宫生门"
+      },
+      "kind": "marker",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E100",
+      "register": "condition",
+      "palace": 7,
+      "field_code": "cond",
+      "value": "天丁 phase=长生 branch=酉",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.dui_7.interpretations[0].condition",
+      "derivation": "E.7.cond.39",
+      "typed_atoms": {
+        "layer": "天",
+        "stem": "丁",
+        "phase": "长生",
+        "branch": "酉",
+        "phase2": null,
+        "branch2": null,
+        "raw": "天丁 处于 '长生' (于酉)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E101",
+      "register": "condition",
+      "palace": 7,
+      "field_code": "cond",
+      "value": "地戊 phase=死 branch=酉",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.dui_7.interpretations[1].condition",
+      "derivation": "E.7.cond.40",
+      "typed_atoms": {
+        "layer": "地",
+        "stem": "戊",
+        "phase": "死",
+        "branch": "酉",
+        "phase2": null,
+        "branch2": null,
+        "raw": "地戊 处于 '死' (于酉)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E102",
+      "register": "condition",
+      "palace": 7,
+      "field_code": "cond",
+      "value": "暗己 phase=长生 branch=酉",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.dui_7.interpretations[2].condition",
+      "derivation": "E.7.cond.41",
+      "typed_atoms": {
+        "layer": "暗",
+        "stem": "己",
+        "phase": "长生",
+        "branch": "酉",
+        "phase2": null,
+        "branch2": null,
+        "raw": "暗己 处于 '长生' (于酉)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E103",
+      "register": "condition",
+      "palace": 7,
+      "field_code": "cond",
+      "value": "天盘干:丁加戊『青龙耀明』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.dui_7.interpretations[3].condition",
+      "derivation": "E.7.cond.42",
+      "typed_atoms": {
+        "layer": "天盘干",
+        "a": "丁",
+        "b": "戊",
+        "pattern": "青龙耀明"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E104",
+      "register": "condition",
+      "palace": 7,
+      "field_code": "cond",
+      "value": "暗干干:己加戊『犬遇青龙』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.dui_7.interpretations[4].condition",
+      "derivation": "E.7.cond.43",
+      "typed_atoms": {
+        "layer": "暗干干",
+        "a": "己",
+        "b": "戊",
+        "pattern": "犬遇青龙"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E105",
+      "register": "condition",
+      "palace": 7,
+      "field_code": "cond",
+      "value": "三奇升殿",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.dui_7.interpretations[5].condition",
+      "derivation": "E.7.cond.44",
+      "typed_atoms": {
+        "marker": "三奇升殿"
+      },
+      "kind": "marker",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E106",
+      "register": "condition",
+      "palace": 8,
+      "field_code": "cond",
+      "value": "天辛 phase=养/胎 branch=丑",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.gen_8.interpretations[0].condition",
+      "derivation": "E.8.cond.45",
+      "typed_atoms": {
+        "layer": "天",
+        "stem": "辛",
+        "phase": "养",
+        "branch": "丑",
+        "phase2": "胎",
+        "branch2": "寅",
+        "raw": "天辛 处于 '养' (于丑) 且 '胎' (于寅)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E107",
+      "register": "condition",
+      "palace": 8,
+      "field_code": "cond",
+      "value": "地乙 phase=衰/帝旺 branch=丑",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.gen_8.interpretations[1].condition",
+      "derivation": "E.8.cond.46",
+      "typed_atoms": {
+        "layer": "地",
+        "stem": "乙",
+        "phase": "衰",
+        "branch": "丑",
+        "phase2": "帝旺",
+        "branch2": "寅",
+        "raw": "地乙 处于 '衰' (于丑) 且 '帝旺' (于寅)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E108",
+      "register": "condition",
+      "palace": 8,
+      "field_code": "cond",
+      "value": "暗壬 phase=衰/病 branch=丑",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.gen_8.interpretations[2].condition",
+      "derivation": "E.8.cond.47",
+      "typed_atoms": {
+        "layer": "暗",
+        "stem": "壬",
+        "phase": "衰",
+        "branch": "丑",
+        "phase2": "病",
+        "branch2": "寅",
+        "raw": "暗壬 处于 '衰' (于丑) 且 '病' (于寅)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E109",
+      "register": "condition",
+      "palace": 8,
+      "field_code": "cond",
+      "value": "天盘干:辛加乙『白虎猖狂』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.gen_8.interpretations[3].condition",
+      "derivation": "E.8.cond.48",
+      "typed_atoms": {
+        "layer": "天盘干",
+        "a": "辛",
+        "b": "乙",
+        "pattern": "白虎猖狂"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E110",
+      "register": "condition",
+      "palace": 8,
+      "field_code": "cond",
+      "value": "暗干干:壬加乙『小蛇得势』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.gen_8.interpretations[4].condition",
+      "derivation": "E.8.cond.49",
+      "typed_atoms": {
+        "layer": "暗干干",
+        "a": "壬",
+        "b": "乙",
+        "pattern": "小蛇得势"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E111",
+      "register": "condition",
+      "palace": 8,
+      "field_code": "cond",
+      "value": "门迫宫",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.gen_8.interpretations[5].condition",
+      "derivation": "E.8.cond.50",
+      "typed_atoms": {
+        "marker": "门迫宫"
+      },
+      "kind": "marker",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E112",
+      "register": "condition",
+      "palace": 9,
+      "field_code": "cond",
+      "value": "天戊 phase=帝旺 branch=午",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.li_9.interpretations[0].condition",
+      "derivation": "E.9.cond.51",
+      "typed_atoms": {
+        "layer": "天",
+        "stem": "戊",
+        "phase": "帝旺",
+        "branch": "午",
+        "phase2": null,
+        "branch2": null,
+        "raw": "天戊 处于 '帝旺' (于午)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E113",
+      "register": "condition",
+      "palace": 9,
+      "field_code": "cond",
+      "value": "地丙 phase=帝旺 branch=午",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.li_9.interpretations[1].condition",
+      "derivation": "E.9.cond.52",
+      "typed_atoms": {
+        "layer": "地",
+        "stem": "丙",
+        "phase": "帝旺",
+        "branch": "午",
+        "phase2": null,
+        "branch2": null,
+        "raw": "地丙 处于 '帝旺' (于午)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E114",
+      "register": "condition",
+      "palace": 9,
+      "field_code": "cond",
+      "value": "暗癸 phase=绝 branch=午",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.li_9.interpretations[2].condition",
+      "derivation": "E.9.cond.53",
+      "typed_atoms": {
+        "layer": "暗",
+        "stem": "癸",
+        "phase": "绝",
+        "branch": "午",
+        "phase2": null,
+        "branch2": null,
+        "raw": "暗癸 处于 '绝' (于午)"
+      },
+      "kind": "phase",
+      "verification": {
+        "phase_matches_frozen_table": true,
+        "branch_belongs_to_palace": true
+      },
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E115",
+      "register": "condition",
+      "palace": 9,
+      "field_code": "cond",
+      "value": "天盘干:戊加丙『青龙转光』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.li_9.interpretations[3].condition",
+      "derivation": "E.9.cond.54",
+      "typed_atoms": {
+        "layer": "天盘干",
+        "a": "戊",
+        "b": "丙",
+        "pattern": "青龙转光"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E116",
+      "register": "condition",
+      "palace": 9,
+      "field_code": "cond",
+      "value": "暗干干:癸加丙『华盖悖师』",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.li_9.interpretations[4].condition",
+      "derivation": "E.9.cond.55",
+      "typed_atoms": {
+        "layer": "暗干干",
+        "a": "癸",
+        "b": "丙",
+        "pattern": "华盖悖师"
+      },
+      "kind": "stem_pair",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "E117",
+      "register": "condition",
+      "palace": 9,
+      "field_code": "cond",
+      "value": "宫生门",
+      "grounding": "explicit_chart",
+      "source_path": "palaces.li_9.interpretations[5].condition",
+      "derivation": "E.9.cond.56",
+      "typed_atoms": {
+        "marker": "宫生门"
+      },
+      "kind": "marker",
+      "verification": null,
+      "visibility": "CONTRADICTION_VISIBLE"
+    }
+  ],
+  "R": [
+    {
+      "id": "R001",
+      "relation_type": "gate_palace",
+      "members": [
+        "E002"
+      ],
+      "rule": "frozen_tables.gate_palace_rules",
+      "derivation": "R.gate_palace.E002",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 1,
+      "door": "生门",
+      "door_element": "earth",
+      "palace_element": "water",
+      "relation": "门迫宫",
+      "palaces": [
+        1
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R002",
+      "relation_type": "gate_palace",
+      "members": [
+        "E009"
+      ],
+      "rule": "frozen_tables.gate_palace_rules",
+      "derivation": "R.gate_palace.E009",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 2,
+      "door": "惊门",
+      "door_element": "metal",
+      "palace_element": "earth",
+      "relation": "宫生门",
+      "palaces": [
+        2
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R003",
+      "relation_type": "gate_palace",
+      "members": [
+        "E016"
+      ],
+      "rule": "frozen_tables.gate_palace_rules",
+      "derivation": "R.gate_palace.E016",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 3,
+      "door": "杜门",
+      "door_element": "wood",
+      "palace_element": "wood",
+      "relation": "比和",
+      "palaces": [
+        3
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R004",
+      "relation_type": "gate_palace",
+      "members": [
+        "E023"
+      ],
+      "rule": "frozen_tables.gate_palace_rules",
+      "derivation": "R.gate_palace.E023",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 4,
+      "door": "景门",
+      "door_element": "fire",
+      "palace_element": "wood",
+      "relation": "宫生门",
+      "palaces": [
+        4
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R005",
+      "relation_type": "gate_palace",
+      "members": [
+        "E034"
+      ],
+      "rule": "frozen_tables.gate_palace_rules",
+      "derivation": "R.gate_palace.E034",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 6,
+      "door": "休门",
+      "door_element": "water",
+      "palace_element": "metal",
+      "relation": "宫生门",
+      "palaces": [
+        6
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R006",
+      "relation_type": "gate_palace",
+      "members": [
+        "E041"
+      ],
+      "rule": "frozen_tables.gate_palace_rules",
+      "derivation": "R.gate_palace.E041",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 7,
+      "door": "开门",
+      "door_element": "metal",
+      "palace_element": "metal",
+      "relation": "比和",
+      "palaces": [
+        7
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R007",
+      "relation_type": "gate_palace",
+      "members": [
+        "E048"
+      ],
+      "rule": "frozen_tables.gate_palace_rules",
+      "derivation": "R.gate_palace.E048",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 8,
+      "door": "伤门",
+      "door_element": "wood",
+      "palace_element": "earth",
+      "relation": "门迫宫",
+      "palaces": [
+        8
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R008",
+      "relation_type": "gate_palace",
+      "members": [
+        "E055"
+      ],
+      "rule": "frozen_tables.gate_palace_rules",
+      "derivation": "R.gate_palace.E055",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 9,
+      "door": "死门",
+      "door_element": "earth",
+      "palace_element": "fire",
+      "relation": "宫生门",
+      "palaces": [
+        9
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R009",
+      "relation_type": "stem_pair_explicit",
+      "members": [
+        "E005",
+        "E006"
+      ],
+      "rule": "explicit_field_pair",
+      "derivation": "R.stem_pair_explicit.E005+E006",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 1,
+      "pair": "壬丁",
+      "he_combination": "丁壬",
+      "he_rule": "frozen_tables.stem_he",
+      "palaces": [
+        1
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R010",
+      "relation_type": "hidden_pair_explicit",
+      "members": [
+        "E065"
+      ],
+      "rule": "explicit_marker_atom",
+      "derivation": "R.hidden_pair_explicit.E065",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 1,
+      "pair": "乙加丁",
+      "layer": "暗干干",
+      "pattern": "奇仪相佐",
+      "same_stem": false,
+      "palaces": [
+        1
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R011",
+      "relation_type": "stem_pair_explicit",
+      "members": [
+        "E012",
+        "E013"
+      ],
+      "rule": "explicit_field_pair",
+      "derivation": "R.stem_pair_explicit.E012+E013",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 2,
+      "pair": "己癸",
+      "he_combination": null,
+      "he_rule": null,
+      "palaces": [
+        2
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R012",
+      "relation_type": "hidden_pair_explicit",
+      "members": [
+        "E072"
+      ],
+      "rule": "explicit_marker_atom",
+      "derivation": "R.hidden_pair_explicit.E072",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 2,
+      "pair": "戊加癸",
+      "layer": "暗干干",
+      "pattern": "青龙华盖",
+      "same_stem": false,
+      "palaces": [
+        2
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R013",
+      "relation_type": "stem_pair_explicit",
+      "members": [
+        "E019",
+        "E020"
+      ],
+      "rule": "explicit_field_pair",
+      "derivation": "R.stem_pair_explicit.E019+E020",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 3,
+      "pair": "丙壬",
+      "he_combination": null,
+      "he_rule": null,
+      "palaces": [
+        3
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R014",
+      "relation_type": "hidden_pair_explicit",
+      "members": [
+        "E079"
+      ],
+      "rule": "explicit_marker_atom",
+      "derivation": "R.hidden_pair_explicit.E079",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 3,
+      "pair": "辛加壬",
+      "layer": "暗干干",
+      "pattern": "凶蛇入狱",
+      "same_stem": false,
+      "palaces": [
+        3
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R015",
+      "relation_type": "stem_pair_explicit",
+      "members": [
+        "E026",
+        "E027"
+      ],
+      "rule": "explicit_field_pair",
+      "derivation": "R.stem_pair_explicit.E026+E027",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 4,
+      "pair": "癸辛",
+      "he_combination": null,
+      "he_rule": null,
+      "palaces": [
+        4
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R016",
+      "relation_type": "hidden_pair_explicit",
+      "members": [
+        "E088"
+      ],
+      "rule": "explicit_marker_atom",
+      "derivation": "R.hidden_pair_explicit.E088",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 4,
+      "pair": "庚加辛",
+      "layer": "寄宫干",
+      "pattern": "太白重锋",
+      "same_stem": false,
+      "palaces": [
+        4
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R017",
+      "relation_type": "hidden_pair_explicit",
+      "members": [
+        "E089"
+      ],
+      "rule": "explicit_marker_atom",
+      "derivation": "R.hidden_pair_explicit.E089",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 4,
+      "pair": "丙加辛",
+      "layer": "暗干干",
+      "pattern": "日月相会",
+      "same_stem": false,
+      "palaces": [
+        4
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R018",
+      "relation_type": "hidden_pair_explicit",
+      "members": [
+        "E093"
+      ],
+      "rule": "explicit_marker_atom",
+      "derivation": "R.hidden_pair_explicit.E093",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 5,
+      "pair": "庚加庚",
+      "layer": "暗干干",
+      "pattern": "太白同宫",
+      "same_stem": true,
+      "palaces": [
+        5
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R019",
+      "relation_type": "stem_pair_explicit",
+      "members": [
+        "E037",
+        "E038"
+      ],
+      "rule": "explicit_field_pair",
+      "derivation": "R.stem_pair_explicit.E037+E038",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 6,
+      "pair": "乙己",
+      "he_combination": null,
+      "he_rule": null,
+      "palaces": [
+        6
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R020",
+      "relation_type": "hidden_pair_explicit",
+      "members": [
+        "E098"
+      ],
+      "rule": "explicit_marker_atom",
+      "derivation": "R.hidden_pair_explicit.E098",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 6,
+      "pair": "丁加己",
+      "layer": "暗干干",
+      "pattern": "火入勾陈",
+      "same_stem": false,
+      "palaces": [
+        6
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R021",
+      "relation_type": "stem_pair_explicit",
+      "members": [
+        "E044",
+        "E045"
+      ],
+      "rule": "explicit_field_pair",
+      "derivation": "R.stem_pair_explicit.E044+E045",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 7,
+      "pair": "丁戊",
+      "he_combination": null,
+      "he_rule": null,
+      "palaces": [
+        7
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R022",
+      "relation_type": "hidden_pair_explicit",
+      "members": [
+        "E104"
+      ],
+      "rule": "explicit_marker_atom",
+      "derivation": "R.hidden_pair_explicit.E104",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 7,
+      "pair": "己加戊",
+      "layer": "暗干干",
+      "pattern": "犬遇青龙",
+      "same_stem": false,
+      "palaces": [
+        7
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R023",
+      "relation_type": "stem_pair_explicit",
+      "members": [
+        "E051",
+        "E052"
+      ],
+      "rule": "explicit_field_pair",
+      "derivation": "R.stem_pair_explicit.E051+E052",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 8,
+      "pair": "辛乙",
+      "he_combination": null,
+      "he_rule": null,
+      "palaces": [
+        8
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R024",
+      "relation_type": "hidden_pair_explicit",
+      "members": [
+        "E110"
+      ],
+      "rule": "explicit_marker_atom",
+      "derivation": "R.hidden_pair_explicit.E110",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 8,
+      "pair": "壬加乙",
+      "layer": "暗干干",
+      "pattern": "小蛇得势",
+      "same_stem": false,
+      "palaces": [
+        8
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R025",
+      "relation_type": "stem_pair_explicit",
+      "members": [
+        "E058",
+        "E059"
+      ],
+      "rule": "explicit_field_pair",
+      "derivation": "R.stem_pair_explicit.E058+E059",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 9,
+      "pair": "戊丙",
+      "he_combination": null,
+      "he_rule": null,
+      "palaces": [
+        9
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R026",
+      "relation_type": "hidden_pair_explicit",
+      "members": [
+        "E116"
+      ],
+      "rule": "explicit_marker_atom",
+      "derivation": "R.hidden_pair_explicit.E116",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 9,
+      "pair": "癸加丙",
+      "layer": "暗干干",
+      "pattern": "华盖悖师",
+      "same_stem": false,
+      "palaces": [
+        9
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R027",
+      "relation_type": "liu_yi_xing",
+      "members": [
+        "E012"
+      ],
+      "rule": "frozen_tables.liu_yi_xing",
+      "derivation": "R.liu_yi_xing.E012",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 2,
+      "stem": "己",
+      "jiazhi": "甲戌",
+      "xing": "戌刑未",
+      "palaces": [
+        2
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R028",
+      "relation_type": "liu_yi_xing",
+      "members": [
+        "E026"
+      ],
+      "rule": "frozen_tables.liu_yi_xing",
+      "derivation": "R.liu_yi_xing.E026",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 4,
+      "stem": "癸",
+      "jiazhi": "甲寅",
+      "xing": "寅刑巳",
+      "palaces": [
+        4
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R029",
+      "relation_type": "star_tomb",
+      "members": [
+        "E024"
+      ],
+      "rule": "frozen_tables.element_tomb",
+      "derivation": "R.star_tomb.E024",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "palace": 4,
+      "star": "天芮",
+      "star_element": "earth",
+      "tomb_branch": "辰",
+      "palaces": [
+        4
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R030",
+      "relation_type": "triad_family",
+      "members": [
+        "E011"
+      ],
+      "rule": "frozen_tables.triad_families",
+      "derivation": "R.triad_family.E011",
+      "grounding": "computed_structure",
+      "register": "pillar_relation",
+      "palace": 2,
+      "family": "hai_mao_wei",
+      "branches": "亥卯未",
+      "horse_branch": "巳",
+      "member_branch": "未",
+      "palaces": [
+        2
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R031",
+      "relation_type": "triad_family",
+      "members": [
+        "E018"
+      ],
+      "rule": "frozen_tables.triad_families",
+      "derivation": "R.triad_family.E018",
+      "grounding": "computed_structure",
+      "register": "pillar_relation",
+      "palace": 3,
+      "family": "hai_mao_wei",
+      "branches": "亥卯未",
+      "horse_branch": "巳",
+      "member_branch": "卯",
+      "palaces": [
+        3
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R032",
+      "relation_type": "branch_chong",
+      "members": [
+        "E025"
+      ],
+      "rule": "frozen_tables.branch_chong",
+      "derivation": "R.branch_chong.E025",
+      "grounding": "computed_structure",
+      "register": "pillar_relation",
+      "palace": 4,
+      "branch": "巳",
+      "day_branch": "亥",
+      "palaces": [
+        4
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R033",
+      "relation_type": "branch_liuhe",
+      "members": [
+        "E036"
+      ],
+      "rule": "frozen_tables.branch_liuhe",
+      "derivation": "R.branch_liuhe.E036",
+      "grounding": "computed_structure",
+      "register": "pillar_relation",
+      "palace": 6,
+      "branch": "亥",
+      "day_branch": "亥",
+      "palaces": [
+        6
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R034",
+      "relation_type": "triad_family",
+      "members": [
+        "E036"
+      ],
+      "rule": "frozen_tables.triad_families",
+      "derivation": "R.triad_family.E036",
+      "grounding": "computed_structure",
+      "register": "pillar_relation",
+      "palace": 6,
+      "family": "hai_mao_wei",
+      "branches": "亥卯未",
+      "horse_branch": "巳",
+      "member_branch": "亥",
+      "palaces": [
+        6
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R035",
+      "relation_type": "branch_liuhe",
+      "members": [
+        "E050"
+      ],
+      "rule": "frozen_tables.branch_liuhe",
+      "derivation": "R.branch_liuhe.E050",
+      "grounding": "computed_structure",
+      "register": "pillar_relation",
+      "palace": 8,
+      "branch": "寅",
+      "day_branch": "亥",
+      "palaces": [
+        8
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R036",
+      "relation_type": "cross_palace_trace",
+      "members": [
+        "E007",
+        "E037",
+        "E052"
+      ],
+      "rule": "CAP-09 value_trace (field values, never array positions)",
+      "derivation": "R.cross_palace_trace.E007+E037+E052",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "stem": "乙",
+      "palaces": [
+        1,
+        6,
+        8
+      ],
+      "layers": [
+        "hidden_stem",
+        "heaven_stem",
+        "earth_stem"
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R037",
+      "relation_type": "cross_palace_trace",
+      "members": [
+        "E019",
+        "E028",
+        "E059"
+      ],
+      "rule": "CAP-09 value_trace (field values, never array positions)",
+      "derivation": "R.cross_palace_trace.E019+E028+E059",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "stem": "丙",
+      "palaces": [
+        3,
+        4,
+        9
+      ],
+      "layers": [
+        "heaven_stem",
+        "hidden_stem",
+        "earth_stem"
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R038",
+      "relation_type": "cross_palace_trace",
+      "members": [
+        "E006",
+        "E039",
+        "E044"
+      ],
+      "rule": "CAP-09 value_trace (field values, never array positions)",
+      "derivation": "R.cross_palace_trace.E006+E039+E044",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "stem": "丁",
+      "palaces": [
+        1,
+        6,
+        7
+      ],
+      "layers": [
+        "earth_stem",
+        "hidden_stem",
+        "heaven_stem"
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R039",
+      "relation_type": "cross_palace_trace",
+      "members": [
+        "E014",
+        "E045",
+        "E058"
+      ],
+      "rule": "CAP-09 value_trace (field values, never array positions)",
+      "derivation": "R.cross_palace_trace.E014+E045+E058",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "stem": "戊",
+      "palaces": [
+        2,
+        7,
+        9
+      ],
+      "layers": [
+        "hidden_stem",
+        "earth_stem",
+        "heaven_stem"
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R040",
+      "relation_type": "cross_palace_trace",
+      "members": [
+        "E012",
+        "E038",
+        "E046"
+      ],
+      "rule": "CAP-09 value_trace (field values, never array positions)",
+      "derivation": "R.cross_palace_trace.E012+E038+E046",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "stem": "己",
+      "palaces": [
+        2,
+        6,
+        7
+      ],
+      "layers": [
+        "heaven_stem",
+        "earth_stem",
+        "hidden_stem"
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R041",
+      "relation_type": "cross_palace_trace",
+      "members": [
+        "E029",
+        "E032"
+      ],
+      "rule": "CAP-09 value_trace (field values, never array positions)",
+      "derivation": "R.cross_palace_trace.E029+E032",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "stem": "庚",
+      "palaces": [
+        4,
+        5
+      ],
+      "layers": [
+        "lodged_stem",
+        "earth_stem"
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R042",
+      "relation_type": "cross_palace_trace",
+      "members": [
+        "E021",
+        "E027",
+        "E051"
+      ],
+      "rule": "CAP-09 value_trace (field values, never array positions)",
+      "derivation": "R.cross_palace_trace.E021+E027+E051",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "stem": "辛",
+      "palaces": [
+        3,
+        4,
+        8
+      ],
+      "layers": [
+        "hidden_stem",
+        "earth_stem",
+        "heaven_stem"
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R043",
+      "relation_type": "cross_palace_trace",
+      "members": [
+        "E005",
+        "E020",
+        "E053"
+      ],
+      "rule": "CAP-09 value_trace (field values, never array positions)",
+      "derivation": "R.cross_palace_trace.E005+E020+E053",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "stem": "壬",
+      "palaces": [
+        1,
+        3,
+        8
+      ],
+      "layers": [
+        "heaven_stem",
+        "earth_stem",
+        "hidden_stem"
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R044",
+      "relation_type": "cross_palace_trace",
+      "members": [
+        "E013",
+        "E026",
+        "E060"
+      ],
+      "rule": "CAP-09 value_trace (field values, never array positions)",
+      "derivation": "R.cross_palace_trace.E013+E026+E060",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "stem": "癸",
+      "palaces": [
+        2,
+        4,
+        9
+      ],
+      "layers": [
+        "earth_stem",
+        "heaven_stem",
+        "hidden_stem"
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R045",
+      "relation_type": "opposition",
+      "members": [
+        "E004",
+        "E025"
+      ],
+      "rule": "frozen_tables.opposition_pairs",
+      "derivation": "R.opposition.E004+E025",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "pair": [
+        1,
+        4
+      ],
+      "palaces": [
+        1,
+        4
+      ],
+      "visibility": "PRIMARY_ELIGIBLE"
+    },
+    {
+      "id": "R046",
+      "relation_type": "opposition",
+      "members": [
+        "E036",
+        "E057"
+      ],
+      "rule": "frozen_tables.opposition_pairs",
+      "derivation": "R.opposition.E036+E057",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "pair": [
+        6,
+        9
+      ],
+      "palaces": [
+        6,
+        9
+      ],
+      "visibility": "CONTRADICTION_VISIBLE"
+    },
+    {
+      "id": "R047",
+      "relation_type": "lodging_edge",
+      "members": [
+        "E032",
+        "E029"
+      ],
+      "rule": "centre stem re-appears as 寄X in the host palace",
+      "derivation": "R.lodging_edge.E032+E029",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "centre": 5,
+      "host_palace": 4,
+      "carrier_stem": "庚",
+      "centre_holds": "earth_stem",
+      "visibility": "PRIMARY_ELIGIBLE",
+      "palaces": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "R048",
+      "relation_type": "lodging_candidate",
+      "members": [
+        "E011"
+      ],
+      "rule": "frozen cultural convention (canonical centre hosts)",
+      "derivation": "R.lodging_candidate.E011",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "centre": 5,
+      "candidate_palace": 2,
+      "seeded": false,
+      "visibility": "CONTRADICTION_VISIBLE",
+      "palaces": [
+        2
+      ]
+    },
+    {
+      "id": "R049",
+      "relation_type": "lodging_candidate",
+      "members": [
+        "E050"
+      ],
+      "rule": "frozen cultural convention (canonical centre hosts)",
+      "derivation": "R.lodging_candidate.E050",
+      "grounding": "computed_structure",
+      "register": "board_internal",
+      "centre": 5,
+      "candidate_palace": 8,
+      "seeded": false,
+      "visibility": "CONTRADICTION_VISIBLE",
+      "palaces": [
+        8
+      ]
+    }
+  ],
+  "eligible": {
+    "E100": [
+      "E001",
+      "E002",
+      "E003",
+      "E004",
+      "E005",
+      "E006",
+      "E007",
+      "E022",
+      "E023",
+      "E024",
+      "E025",
+      "E026",
+      "E027",
+      "E028",
+      "E029",
+      "E030",
+      "E031",
+      "E032"
+    ],
+    "R100": [
+      "R001",
+      "R004",
+      "R009",
+      "R010",
+      "R015",
+      "R016",
+      "R017",
+      "R018",
+      "R028",
+      "R029",
+      "R036",
+      "R037",
+      "R038",
+      "R041",
+      "R042",
+      "R043",
+      "R044",
+      "R045",
+      "R047"
+    ],
+    "condition_register_in_scope": [
+      "E061",
+      "E062",
+      "E063",
+      "E064",
+      "E065",
+      "E066",
+      "E067",
+      "E083",
+      "E084",
+      "E085",
+      "E086",
+      "E087",
+      "E088",
+      "E089",
+      "E090",
+      "E091",
+      "E092",
+      "E093"
+    ],
+    "pillar_register": [
+      "R030",
+      "R031",
+      "R032",
+      "R033",
+      "R034",
+      "R035"
+    ],
+    "counts": {
+      "E100_structural": 18,
+      "R100": 19,
+      "spine_total": 37,
+      "condition_register_in_scope": 18,
+      "pillar_register": 6,
+      "registry_E": 117,
+      "registry_R": 49
+    },
+    "definition": "spine = structural E-atoms whose palace in {1,4,5} (chart field values only) plus every board_internal R-atom whose member set touches {1,4,5} (gate_palace, stem pairs, xing, tomb, value traces, opposition, lodging). Relations that bind a palace to an external pillar (day-branch 冲/合/三合) live in the pillar register and are reported, cited and tallied separately. The condition register (E-atoms of class `condition`, the chart's own 判断 lines) is reported separately and is never mixed into one tally. Atoms of palaces outside {1,4,5} stay visible in the full registry and the contradiction register (law 28)."
+  },
+  "phase_check": [
+    {
+      "palace": 1,
+      "stem": "壬",
+      "phase": "帝旺",
+      "branch": "子",
+      "phase2": null,
+      "branch2": null,
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 1,
+      "stem": "丁",
+      "phase": "绝",
+      "branch": "子",
+      "phase2": null,
+      "branch2": null,
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 1,
+      "stem": "乙",
+      "phase": "病",
+      "branch": "子",
+      "phase2": null,
+      "branch2": null,
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 2,
+      "stem": "己",
+      "phase": "冠带",
+      "branch": "未",
+      "phase2": "沐浴",
+      "branch2": "申",
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 2,
+      "stem": "癸",
+      "phase": "墓",
+      "branch": "未",
+      "phase2": "死",
+      "branch2": "申",
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 2,
+      "stem": "戊",
+      "phase": "衰",
+      "branch": "未",
+      "phase2": "病",
+      "branch2": "申",
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 3,
+      "stem": "丙",
+      "phase": "沐浴",
+      "branch": "卯",
+      "phase2": null,
+      "branch2": null,
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 3,
+      "stem": "壬",
+      "phase": "死",
+      "branch": "卯",
+      "phase2": null,
+      "branch2": null,
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 3,
+      "stem": "辛",
+      "phase": "绝",
+      "branch": "卯",
+      "phase2": null,
+      "branch2": null,
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 4,
+      "stem": "癸",
+      "phase": "养",
+      "branch": "辰",
+      "phase2": "胎",
+      "branch2": "巳",
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 4,
+      "stem": "庚",
+      "phase": "养",
+      "branch": "辰",
+      "phase2": "长生",
+      "branch2": "巳",
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 4,
+      "stem": "辛",
+      "phase": "墓",
+      "branch": "辰",
+      "phase2": "死",
+      "branch2": "巳",
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 4,
+      "stem": "丙",
+      "phase": "冠带",
+      "branch": "辰",
+      "phase2": "临官",
+      "branch2": "巳",
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 6,
+      "stem": "乙",
+      "phase": "墓",
+      "branch": "戌",
+      "phase2": "死",
+      "branch2": "亥",
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 6,
+      "stem": "己",
+      "phase": "养",
+      "branch": "戌",
+      "phase2": "胎",
+      "branch2": "亥",
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 6,
+      "stem": "丁",
+      "phase": "养",
+      "branch": "戌",
+      "phase2": "胎",
+      "branch2": "亥",
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 7,
+      "stem": "丁",
+      "phase": "长生",
+      "branch": "酉",
+      "phase2": null,
+      "branch2": null,
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 7,
+      "stem": "戊",
+      "phase": "死",
+      "branch": "酉",
+      "phase2": null,
+      "branch2": null,
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 7,
+      "stem": "己",
+      "phase": "长生",
+      "branch": "酉",
+      "phase2": null,
+      "branch2": null,
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 8,
+      "stem": "辛",
+      "phase": "养",
+      "branch": "丑",
+      "phase2": "胎",
+      "branch2": "寅",
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 8,
+      "stem": "乙",
+      "phase": "衰",
+      "branch": "丑",
+      "phase2": "帝旺",
+      "branch2": "寅",
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 8,
+      "stem": "壬",
+      "phase": "衰",
+      "branch": "丑",
+      "phase2": "病",
+      "branch2": "寅",
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 9,
+      "stem": "戊",
+      "phase": "帝旺",
+      "branch": "午",
+      "phase2": null,
+      "branch2": null,
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 9,
+      "stem": "丙",
+      "phase": "帝旺",
+      "branch": "午",
+      "phase2": null,
+      "branch2": null,
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    },
+    {
+      "palace": 9,
+      "stem": "癸",
+      "phase": "绝",
+      "branch": "午",
+      "phase2": null,
+      "branch2": null,
+      "phase_matches_frozen_table": true,
+      "branch_belongs_to_palace": true
+    }
+  ]
+}

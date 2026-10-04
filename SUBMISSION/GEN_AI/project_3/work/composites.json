@@ -1,0 +1,776 @@
+[
+  {
+    "palace": 1,
+    "source_path": "palaces.kan_1.interpretations[0].condition",
+    "raw": "天壬 处于 '帝旺' (于子)",
+    "atoms": {
+      "layer": "天",
+      "stem": "壬",
+      "phase": "帝旺",
+      "branch": "子",
+      "phase2": null,
+      "branch2": null,
+      "raw": "天壬 处于 '帝旺' (于子)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 1,
+    "source_path": "palaces.kan_1.interpretations[1].condition",
+    "raw": "地丁 处于 '绝' (于子)",
+    "atoms": {
+      "layer": "地",
+      "stem": "丁",
+      "phase": "绝",
+      "branch": "子",
+      "phase2": null,
+      "branch2": null,
+      "raw": "地丁 处于 '绝' (于子)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 1,
+    "source_path": "palaces.kan_1.interpretations[2].condition",
+    "raw": "暗乙 处于 '病' (于子)",
+    "atoms": {
+      "layer": "暗",
+      "stem": "乙",
+      "phase": "病",
+      "branch": "子",
+      "phase2": null,
+      "branch2": null,
+      "raw": "暗乙 处于 '病' (于子)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 1,
+    "source_path": "palaces.kan_1.interpretations[3].condition",
+    "raw": "天盘干 壬加丁 形成『干合蛇刑』",
+    "atoms": {
+      "layer": "天盘干",
+      "a": "壬",
+      "b": "丁",
+      "pattern": "干合蛇刑"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 1,
+    "source_path": "palaces.kan_1.interpretations[4].condition",
+    "raw": "暗干干 乙加丁 形成『奇仪相佐』",
+    "atoms": {
+      "layer": "暗干干",
+      "a": "乙",
+      "b": "丁",
+      "pattern": "奇仪相佐"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 1,
+    "source_path": "palaces.kan_1.interpretations[5].condition",
+    "raw": "奇仪相合",
+    "atoms": {
+      "marker": "奇仪相合"
+    },
+    "kind": "marker",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 1,
+    "source_path": "palaces.kan_1.interpretations[6].condition",
+    "raw": "门迫宫",
+    "atoms": {
+      "marker": "门迫宫"
+    },
+    "kind": "marker",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 2,
+    "source_path": "palaces.kun_2.interpretations[0].condition",
+    "raw": "天己 处于 '冠带' (于未) 且 '沐浴' (于申)",
+    "atoms": {
+      "layer": "天",
+      "stem": "己",
+      "phase": "冠带",
+      "branch": "未",
+      "phase2": "沐浴",
+      "branch2": "申",
+      "raw": "天己 处于 '冠带' (于未) 且 '沐浴' (于申)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 2,
+    "source_path": "palaces.kun_2.interpretations[1].condition",
+    "raw": "地癸 处于 '墓' (于未) 且 '死' (于申)",
+    "atoms": {
+      "layer": "地",
+      "stem": "癸",
+      "phase": "墓",
+      "branch": "未",
+      "phase2": "死",
+      "branch2": "申",
+      "raw": "地癸 处于 '墓' (于未) 且 '死' (于申)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 2,
+    "source_path": "palaces.kun_2.interpretations[2].condition",
+    "raw": "暗戊 处于 '衰' (于未) 且 '病' (于申)",
+    "atoms": {
+      "layer": "暗",
+      "stem": "戊",
+      "phase": "衰",
+      "branch": "未",
+      "phase2": "病",
+      "branch2": "申",
+      "raw": "暗戊 处于 '衰' (于未) 且 '病' (于申)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 2,
+    "source_path": "palaces.kun_2.interpretations[3].condition",
+    "raw": "天盘干 己加癸 形成『地刑玄武』",
+    "atoms": {
+      "layer": "天盘干",
+      "a": "己",
+      "b": "癸",
+      "pattern": "地刑玄武"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 2,
+    "source_path": "palaces.kun_2.interpretations[4].condition",
+    "raw": "暗干干 戊加癸 形成『青龙华盖』",
+    "atoms": {
+      "layer": "暗干干",
+      "a": "戊",
+      "b": "癸",
+      "pattern": "青龙华盖"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 2,
+    "source_path": "palaces.kun_2.interpretations[5].condition",
+    "raw": "宫生门",
+    "atoms": {
+      "marker": "宫生门"
+    },
+    "kind": "marker",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 2,
+    "source_path": "palaces.kun_2.interpretations[6].condition",
+    "raw": "六仪击刑",
+    "atoms": {
+      "marker": "六仪击刑"
+    },
+    "kind": "marker",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 3,
+    "source_path": "palaces.zhen_3.interpretations[0].condition",
+    "raw": "天丙 处于 '沐浴' (于卯)",
+    "atoms": {
+      "layer": "天",
+      "stem": "丙",
+      "phase": "沐浴",
+      "branch": "卯",
+      "phase2": null,
+      "branch2": null,
+      "raw": "天丙 处于 '沐浴' (于卯)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 3,
+    "source_path": "palaces.zhen_3.interpretations[1].condition",
+    "raw": "地壬 处于 '死' (于卯)",
+    "atoms": {
+      "layer": "地",
+      "stem": "壬",
+      "phase": "死",
+      "branch": "卯",
+      "phase2": null,
+      "branch2": null,
+      "raw": "地壬 处于 '死' (于卯)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 3,
+    "source_path": "palaces.zhen_3.interpretations[2].condition",
+    "raw": "暗辛 处于 '绝' (于卯)",
+    "atoms": {
+      "layer": "暗",
+      "stem": "辛",
+      "phase": "绝",
+      "branch": "卯",
+      "phase2": null,
+      "branch2": null,
+      "raw": "暗辛 处于 '绝' (于卯)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 3,
+    "source_path": "palaces.zhen_3.interpretations[3].condition",
+    "raw": "天盘干 丙加壬 形成『火入天罗』",
+    "atoms": {
+      "layer": "天盘干",
+      "a": "丙",
+      "b": "壬",
+      "pattern": "火入天罗"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 3,
+    "source_path": "palaces.zhen_3.interpretations[4].condition",
+    "raw": "暗干干 辛加壬 形成『凶蛇入狱』",
+    "atoms": {
+      "layer": "暗干干",
+      "a": "辛",
+      "b": "壬",
+      "pattern": "凶蛇入狱"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 3,
+    "source_path": "palaces.zhen_3.interpretations[5].condition",
+    "raw": "三奇升殿",
+    "atoms": {
+      "marker": "三奇升殿"
+    },
+    "kind": "marker",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 3,
+    "source_path": "palaces.zhen_3.interpretations[6].condition",
+    "raw": "三奇得使",
+    "atoms": {
+      "marker": "三奇得使"
+    },
+    "kind": "marker",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 3,
+    "source_path": "palaces.zhen_3.interpretations[7].condition",
+    "raw": "三奇受制",
+    "atoms": {
+      "marker": "三奇受制"
+    },
+    "kind": "marker",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 4,
+    "source_path": "palaces.xun_4.interpretations[0].condition",
+    "raw": "天癸 处于 '养' (于辰) 且 '胎' (于巳)",
+    "atoms": {
+      "layer": "天",
+      "stem": "癸",
+      "phase": "养",
+      "branch": "辰",
+      "phase2": "胎",
+      "branch2": "巳",
+      "raw": "天癸 处于 '养' (于辰) 且 '胎' (于巳)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 4,
+    "source_path": "palaces.xun_4.interpretations[1].condition",
+    "raw": "寄庚 处于 '养' (于辰) 且 '长生' (于巳)",
+    "atoms": {
+      "layer": "寄",
+      "stem": "庚",
+      "phase": "养",
+      "branch": "辰",
+      "phase2": "长生",
+      "branch2": "巳",
+      "raw": "寄庚 处于 '养' (于辰) 且 '长生' (于巳)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 4,
+    "source_path": "palaces.xun_4.interpretations[2].condition",
+    "raw": "地辛 处于 '墓' (于辰) 且 '死' (于巳)",
+    "atoms": {
+      "layer": "地",
+      "stem": "辛",
+      "phase": "墓",
+      "branch": "辰",
+      "phase2": "死",
+      "branch2": "巳",
+      "raw": "地辛 处于 '墓' (于辰) 且 '死' (于巳)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 4,
+    "source_path": "palaces.xun_4.interpretations[3].condition",
+    "raw": "暗丙 处于 '冠带' (于辰) 且 '临官' (于巳)",
+    "atoms": {
+      "layer": "暗",
+      "stem": "丙",
+      "phase": "冠带",
+      "branch": "辰",
+      "phase2": "临官",
+      "branch2": "巳",
+      "raw": "暗丙 处于 '冠带' (于辰) 且 '临官' (于巳)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 4,
+    "source_path": "palaces.xun_4.interpretations[4].condition",
+    "raw": "天盘干 癸加辛 形成『网盖天牢』",
+    "atoms": {
+      "layer": "天盘干",
+      "a": "癸",
+      "b": "辛",
+      "pattern": "网盖天牢"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 4,
+    "source_path": "palaces.xun_4.interpretations[5].condition",
+    "raw": "寄宫干 庚加辛 形成『太白重锋』",
+    "atoms": {
+      "layer": "寄宫干",
+      "a": "庚",
+      "b": "辛",
+      "pattern": "太白重锋"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 4,
+    "source_path": "palaces.xun_4.interpretations[6].condition",
+    "raw": "暗干干 丙加辛 形成『日月相会』",
+    "atoms": {
+      "layer": "暗干干",
+      "a": "丙",
+      "b": "辛",
+      "pattern": "日月相会"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 4,
+    "source_path": "palaces.xun_4.interpretations[7].condition",
+    "raw": "宫生门",
+    "atoms": {
+      "marker": "宫生门"
+    },
+    "kind": "marker",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 4,
+    "source_path": "palaces.xun_4.interpretations[8].condition",
+    "raw": "六仪击刑",
+    "atoms": {
+      "marker": "六仪击刑"
+    },
+    "kind": "marker",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 4,
+    "source_path": "palaces.xun_4.interpretations[9].condition",
+    "raw": "星入墓",
+    "atoms": {
+      "marker": "星入墓"
+    },
+    "kind": "marker",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 5,
+    "source_path": "palaces.center_5.interpretations[0].condition",
+    "raw": "暗干干 庚加庚 形成『太白同宫』",
+    "atoms": {
+      "layer": "暗干干",
+      "a": "庚",
+      "b": "庚",
+      "pattern": "太白同宫"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 6,
+    "source_path": "palaces.qian_6.interpretations[0].condition",
+    "raw": "天乙 处于 '墓' (于戌) 且 '死' (于亥)",
+    "atoms": {
+      "layer": "天",
+      "stem": "乙",
+      "phase": "墓",
+      "branch": "戌",
+      "phase2": "死",
+      "branch2": "亥",
+      "raw": "天乙 处于 '墓' (于戌) 且 '死' (于亥)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 6,
+    "source_path": "palaces.qian_6.interpretations[1].condition",
+    "raw": "地己 处于 '养' (于戌) 且 '胎' (于亥)",
+    "atoms": {
+      "layer": "地",
+      "stem": "己",
+      "phase": "养",
+      "branch": "戌",
+      "phase2": "胎",
+      "branch2": "亥",
+      "raw": "地己 处于 '养' (于戌) 且 '胎' (于亥)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 6,
+    "source_path": "palaces.qian_6.interpretations[2].condition",
+    "raw": "暗丁 处于 '养' (于戌) 且 '胎' (于亥)",
+    "atoms": {
+      "layer": "暗",
+      "stem": "丁",
+      "phase": "养",
+      "branch": "戌",
+      "phase2": "胎",
+      "branch2": "亥",
+      "raw": "暗丁 处于 '养' (于戌) 且 '胎' (于亥)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 6,
+    "source_path": "palaces.qian_6.interpretations[3].condition",
+    "raw": "天盘干 乙加己 形成『日奇入墓』",
+    "atoms": {
+      "layer": "天盘干",
+      "a": "乙",
+      "b": "己",
+      "pattern": "日奇入墓"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 6,
+    "source_path": "palaces.qian_6.interpretations[4].condition",
+    "raw": "暗干干 丁加己 形成『火入勾陈』",
+    "atoms": {
+      "layer": "暗干干",
+      "a": "丁",
+      "b": "己",
+      "pattern": "火入勾陈"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 6,
+    "source_path": "palaces.qian_6.interpretations[5].condition",
+    "raw": "宫生门",
+    "atoms": {
+      "marker": "宫生门"
+    },
+    "kind": "marker",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 7,
+    "source_path": "palaces.dui_7.interpretations[0].condition",
+    "raw": "天丁 处于 '长生' (于酉)",
+    "atoms": {
+      "layer": "天",
+      "stem": "丁",
+      "phase": "长生",
+      "branch": "酉",
+      "phase2": null,
+      "branch2": null,
+      "raw": "天丁 处于 '长生' (于酉)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 7,
+    "source_path": "palaces.dui_7.interpretations[1].condition",
+    "raw": "地戊 处于 '死' (于酉)",
+    "atoms": {
+      "layer": "地",
+      "stem": "戊",
+      "phase": "死",
+      "branch": "酉",
+      "phase2": null,
+      "branch2": null,
+      "raw": "地戊 处于 '死' (于酉)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 7,
+    "source_path": "palaces.dui_7.interpretations[2].condition",
+    "raw": "暗己 处于 '长生' (于酉)",
+    "atoms": {
+      "layer": "暗",
+      "stem": "己",
+      "phase": "长生",
+      "branch": "酉",
+      "phase2": null,
+      "branch2": null,
+      "raw": "暗己 处于 '长生' (于酉)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 7,
+    "source_path": "palaces.dui_7.interpretations[3].condition",
+    "raw": "天盘干 丁加戊 形成『青龙耀明』",
+    "atoms": {
+      "layer": "天盘干",
+      "a": "丁",
+      "b": "戊",
+      "pattern": "青龙耀明"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 7,
+    "source_path": "palaces.dui_7.interpretations[4].condition",
+    "raw": "暗干干 己加戊 形成『犬遇青龙』",
+    "atoms": {
+      "layer": "暗干干",
+      "a": "己",
+      "b": "戊",
+      "pattern": "犬遇青龙"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 7,
+    "source_path": "palaces.dui_7.interpretations[5].condition",
+    "raw": "三奇升殿",
+    "atoms": {
+      "marker": "三奇升殿"
+    },
+    "kind": "marker",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 8,
+    "source_path": "palaces.gen_8.interpretations[0].condition",
+    "raw": "天辛 处于 '养' (于丑) 且 '胎' (于寅)",
+    "atoms": {
+      "layer": "天",
+      "stem": "辛",
+      "phase": "养",
+      "branch": "丑",
+      "phase2": "胎",
+      "branch2": "寅",
+      "raw": "天辛 处于 '养' (于丑) 且 '胎' (于寅)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 8,
+    "source_path": "palaces.gen_8.interpretations[1].condition",
+    "raw": "地乙 处于 '衰' (于丑) 且 '帝旺' (于寅)",
+    "atoms": {
+      "layer": "地",
+      "stem": "乙",
+      "phase": "衰",
+      "branch": "丑",
+      "phase2": "帝旺",
+      "branch2": "寅",
+      "raw": "地乙 处于 '衰' (于丑) 且 '帝旺' (于寅)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 8,
+    "source_path": "palaces.gen_8.interpretations[2].condition",
+    "raw": "暗壬 处于 '衰' (于丑) 且 '病' (于寅)",
+    "atoms": {
+      "layer": "暗",
+      "stem": "壬",
+      "phase": "衰",
+      "branch": "丑",
+      "phase2": "病",
+      "branch2": "寅",
+      "raw": "暗壬 处于 '衰' (于丑) 且 '病' (于寅)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 8,
+    "source_path": "palaces.gen_8.interpretations[3].condition",
+    "raw": "天盘干 辛加乙 形成『白虎猖狂』",
+    "atoms": {
+      "layer": "天盘干",
+      "a": "辛",
+      "b": "乙",
+      "pattern": "白虎猖狂"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 8,
+    "source_path": "palaces.gen_8.interpretations[4].condition",
+    "raw": "暗干干 壬加乙 形成『小蛇得势』",
+    "atoms": {
+      "layer": "暗干干",
+      "a": "壬",
+      "b": "乙",
+      "pattern": "小蛇得势"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 8,
+    "source_path": "palaces.gen_8.interpretations[5].condition",
+    "raw": "门迫宫",
+    "atoms": {
+      "marker": "门迫宫"
+    },
+    "kind": "marker",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 9,
+    "source_path": "palaces.li_9.interpretations[0].condition",
+    "raw": "天戊 处于 '帝旺' (于午)",
+    "atoms": {
+      "layer": "天",
+      "stem": "戊",
+      "phase": "帝旺",
+      "branch": "午",
+      "phase2": null,
+      "branch2": null,
+      "raw": "天戊 处于 '帝旺' (于午)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 9,
+    "source_path": "palaces.li_9.interpretations[1].condition",
+    "raw": "地丙 处于 '帝旺' (于午)",
+    "atoms": {
+      "layer": "地",
+      "stem": "丙",
+      "phase": "帝旺",
+      "branch": "午",
+      "phase2": null,
+      "branch2": null,
+      "raw": "地丙 处于 '帝旺' (于午)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 9,
+    "source_path": "palaces.li_9.interpretations[2].condition",
+    "raw": "暗癸 处于 '绝' (于午)",
+    "atoms": {
+      "layer": "暗",
+      "stem": "癸",
+      "phase": "绝",
+      "branch": "午",
+      "phase2": null,
+      "branch2": null,
+      "raw": "暗癸 处于 '绝' (于午)"
+    },
+    "kind": "phase",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 9,
+    "source_path": "palaces.li_9.interpretations[3].condition",
+    "raw": "天盘干 戊加丙 形成『青龙转光』",
+    "atoms": {
+      "layer": "天盘干",
+      "a": "戊",
+      "b": "丙",
+      "pattern": "青龙转光"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 9,
+    "source_path": "palaces.li_9.interpretations[4].condition",
+    "raw": "暗干干 癸加丙 形成『华盖悖师』",
+    "atoms": {
+      "layer": "暗干干",
+      "a": "癸",
+      "b": "丙",
+      "pattern": "华盖悖师"
+    },
+    "kind": "stem_pair",
+    "parse_state": "OK"
+  },
+  {
+    "palace": 9,
+    "source_path": "palaces.li_9.interpretations[5].condition",
+    "raw": "宫生门",
+    "atoms": {
+      "marker": "宫生门"
+    },
+    "kind": "marker",
+    "parse_state": "OK"
+  }
+]

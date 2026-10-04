@@ -1,0 +1,160 @@
+document:
+  title: "Assignment 3: The Brief Set — Brand, Product & Ad Creative"
+  url: "https://docs.google.com/document/u/0/d/1FstVeLWs0kGGKXqMD5JADo240HT6DGSEU1qwe7TeTE8/mobilebasic"
+  source_format: "Google Docs (mobilebasic view)"
+  metadata:
+    assignment_number: 3
+    prerequisites:
+      - "Assignment 1: research summary"
+      - "insight list"
+      - "Pinterest mood board"
+    traceability_requirement: "Every brief must trace back to a specific research finding, insight, or mood-board pin from Assignment 1."
+
+  sections:
+    - heading: "Before You Start"
+      level: 2
+      content: >-
+        This assignment doesn't start from a blank page. It starts from Assignment 1 — your
+        research summary, your insight list, and your Pinterest mood board. Every brief you
+        write here has to trace back to something you already found or decided in that
+        assignment. If a choice in this assignment can't be justified by a specific research
+        finding, a specific insight, or a specific pin on your board, it's a guess dressed up
+        as a decision — and it should be reworked until it isn't. The point of this
+        assignment: in the real world, nobody designs directly from a mood board. Someone
+        writes a brief first — a document precise enough that a photographer, a designer, or
+        an AI tool could pick it up and actually produce the right thing without you standing
+        over their shoulder. You're going to write three of those.
+
+    - heading: "What You're Producing: Three Distinct Briefs"
+      level: 2
+      content: >-
+        Not one long document — three separate, focused briefs, each doing a different job:
+      items:
+        - "Brand Idea & Philosophy Brief — what this brand believes and stands for"
+        - "Product & Packaging Brief — what the actual product is and how it presents itself"
+        - "Ad/Campaign Creative Brief — how this brand shows up in a campaign, and what it takes to actually produce that"
+      note: >-
+        Think of them as three documents you could hand to three different people — a
+        strategist, a packaging designer, and a director — and each would know exactly what to do.
+
+    - heading: "Brief 1 — Brand Idea & Philosophy"
+      level: 2
+      subsections:
+        - heading: "Core Idea (1–2 sentences)"
+          content: "What is this brand, in one breath? Not a tagline — the underlying idea."
+        - heading: "Philosophy / Point of View"
+          content: >-
+            Why does this brand exist? What does it believe that others in the category don't
+            say out loud? This should connect directly to a gap or opportunity from your
+            Assignment 1 research (e.g., \"every brand in this category talks about performance
+            — we're the only one that talks about ritual\")."
+        - heading: "Positioning Statement"
+          content: >-
+            For [target audience], [brand] is the [category] that [key differentiator], because
+            [reason to believe]. Pull the audience and differentiator directly from your
+            research — don't invent a new audience here.
+        - heading: "Personality & Tone of Voice"
+          content: >-
+            3–5 personality adjectives, and one example line of how the brand would actually
+            talk (a tagline, a social caption, a packaging line).
+        - heading: "Name Rationale"
+          content: >-
+            If you're naming the brand, explain the reasoning in 2–3 sentences — what it
+            signals, why it fits.
+        - heading: "Logo Direction (not the logo itself — a brief for it)"
+          content: >-
+            What does the logo need to communicate? Reference 2–3 visual styles from your mood
+            board that it should draw from, and explicitly state what it should avoid (e.g.,
+            \"avoid the clinical, all-lowercase sans-serif look most competitors use\").
+
+    - heading: "Brief 2 — Product & Packaging"
+      level: 2
+      subsections:
+        - heading: "Product Definition"
+          content: >-
+            What exactly is the product — format, variants, size options, price positioning
+            (mass/premium/luxury) relative to the competitors you researched.
+        - heading: "Packaging Direction"
+          items:
+            - "Materials and structure (what it's made of, shape, how it opens/closes/is held)"
+            - "Color and finish, tied to a specific insight or pin from your mood board"
+            - "The one shelf-standout element — what makes this recognizable from three feet away in a crowded shelf/feed"
+        - heading: "Functional-to-Emotional Bridge"
+          content: >-
+            One paragraph connecting a functional packaging choice to the emotional positioning
+            from Brief 1 (e.g., \"the matte, screw-top cap signals ritual and control,
+            reinforcing the 'daily ritual, not a quick fix' philosophy\").
+        - heading: "Shelf/Competitive Differentiation"
+          content: >-
+            Placed next to your 3–5 researched competitors, what makes this package
+            unmistakably different — not just \"better,\" but different in a specific,
+            describable way.
+
+    - heading: "Brief 3 — Ad / Campaign Creative Brief"
+      level: 2
+      content: "This is the one that will actually get produced — treat it like a real production document."
+      subsections:
+        - heading: "Campaign Concept (The Big Idea)"
+          content: "One or two sentences. What's the idea the whole campaign hangs on?"
+        - heading: "Hero Shot Direction"
+          content: >-
+            Describe the single image that best represents this campaign — composition, what's
+            in frame, what's the focal point, what mood it needs to hit. Be specific enough
+            that someone else could shoot or generate it from your description alone.
+        - heading: "Stage / Environment"
+          content: >-
+            Where does this campaign live, visually? A studio setup, a real location, an
+            abstract/surreal environment? Describe lighting, backdrop, and setting in enough
+            detail to brief a location scout or an AI generation prompt.
+        - heading: "Models / Casting Direction"
+          content: >-
+            Who's in this campaign? Age range, look, styling, energy — tied explicitly back to
+            the target audience you researched in Assignment 1. If the campaign deliberately
+            avoids people (product-only, abstract), state that as a choice and explain why.
+        - heading: "Plan of Action — Creative Direction Sequence"
+          content: "List the actual assets this campaign needs, in order of priority:"
+          items:
+            - "Hero image"
+            - "2–3 supporting/lifestyle shots"
+            - "Detail/product-close-up shots"
+            - "Any motion/video requirement"
+          note: "For each, note which mood-board reference(s) it's pulling from."
+        - heading: "Production Requirements"
+          content: >-
+            What does it actually take to make this real? Cover both paths and pick the one
+            you're proposing:
+          items:
+            - "Traditional production: locations, photographer/videographer, stylist, models, props, post-production"
+            - "AI-generated production: which tools you'd use at each stage (reference the standardized image/video workflow from earlier in the course) and where a human would still need to intervene for quality or brand consistency"
+
+    - heading: "Coherence Check (Do This Before Submitting)"
+      level: 2
+      content: >-
+        For each of the three briefs, answer in one line: which specific research finding,
+        insight, or mood-board pin does this trace back to? If you can't answer that for a
+        major decision in any brief, go back and fix it — this is the check that keeps the
+        whole assignment from becoming three disconnected documents.
+
+    - heading: "Deliverable & Submission"
+      level: 2
+      content: >-
+        Submit all three briefs as one package, clearly labeled, plus the one-line coherence
+        answers above each brief.
+
+    - heading: "Evaluation Criteria"
+      level: 2
+      table:
+        headers:
+          - "Criterion"
+          - "What I'm looking for"
+        rows:
+          - - "Traceability"
+            - "Every major decision across all three briefs connects to something specific from Assignment 1"
+          - - "Specificity"
+            - "Briefs are precise enough that someone else could execute from them without guessing"
+          - - "Internal consistency"
+            - "The brand philosophy, the packaging, and the campaign all feel like they belong to the same brand"
+          - - "Production realism"
+            - "The production requirements are genuinely achievable, or a genuinely thought-through AI-generation path"
+          - - "Differentiation"
+            - "The direction has a specific point of view — it doesn't read like a generic version of the category leader"

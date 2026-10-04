@@ -1,0 +1,612 @@
+{
+  "claim_lines": [
+    "CLAIM|C001|batch=B5|claims=I001,I003|disp=ADDRESSED|certainty=0.60",
+    "CLAIM|C002|batch=B5|claims=I004|disp=ADDRESSED|certainty=0.60",
+    "CLAIM|C003|batch=B5|claims=I008|disp=ADDRESSED|certainty=0.55",
+    "CLAIM|C004|batch=B5|claims=I002,I004|disp=ADDRESSED|certainty=0.65",
+    "CLAIM|C005|batch=B5|claims=I002|disp=ADDRESSED|certainty=0.60",
+    "CLAIM|C006|batch=B5|claims=I003|disp=ADDRESSED|certainty=0.60",
+    "CLAIM|C007|batch=B5|claims=I001,I003,I004|disp=ADDRESSED|certainty=0.65",
+    "CLAIM|C008|batch=B5|claims=I002|disp=ADDRESSED|certainty=0.60",
+    "CLAIM|C009|batch=B5|claims=I002,I004|disp=ADDRESSED|certainty=0.65",
+    "CLAIM|C010|batch=B5|claims=I003|disp=ADDRESSED|certainty=0.60",
+    "CLAIM|C011|batch=B5|claims=I005|disp=ADDRESSED|certainty=0.65",
+    "CLAIM|C012|batch=B5|claims=I006,I007|disp=ADDRESSED|certainty=0.60",
+    "CLAIM|C013|batch=B5|claims=I001|disp=EXCLUDED|certainty=NA"
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "archetype_id": "ARC-01",
+      "label": "guarded_alliance",
+      "rank_status": "bounded",
+      "certainty": 0.6,
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "certainty_addends": {
+        "base": 0.45,
+        "support_term": 0.2,
+        "implication_term": 0.1,
+        "counterevidence_penalty": -0.15
+      },
+      "disp": "ADDRESSED",
+      "support": [
+        "E064",
+        "E065",
+        "E066",
+        "R009",
+        "R001",
+        "E067",
+        "E002",
+        "E001",
+        "E022",
+        "R029",
+        "E092",
+        "R045"
+      ],
+      "counterevidence": [
+        "E093",
+        "R028",
+        "E090"
+      ],
+      "premise_implications": [
+        "I001",
+        "I003"
+      ],
+      "competing_candidates": [
+        {
+          "label": "quiet_craft_discipline",
+          "status": "not_rejected",
+          "why": "九地 + star-in-tomb support a quiet craft reading; it is not displaced by the pact evidence"
+        },
+        {
+          "label": "corrective_awakening",
+          "status": "rejected",
+          "why": "requires an authority-rise or turnaround pattern on the spine; 青龙耀明/青龙转光 sit in palaces 7 and 9, outside the ranked scope, and no spine atom carries a turn"
+        }
+      ],
+      "SCORE_SOURCE": "TIER2_TOOL"
+    },
+    {
+      "id": "C002",
+      "archetype_id": "ARC-02",
+      "label": "precise_watchful",
+      "rank_status": "bounded",
+      "certainty": 0.6,
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "certainty_addends": {
+        "base": 0.45,
+        "support_term": 0.2,
+        "implication_term": 0.05,
+        "counterevidence_penalty": -0.1
+      },
+      "disp": "ADDRESSED",
+      "support": [
+        "E001",
+        "E002",
+        "E003",
+        "R001",
+        "E022",
+        "E023",
+        "R047",
+        "E032",
+        "E029"
+      ],
+      "counterevidence": [
+        "R004",
+        "R018"
+      ],
+      "premise_implications": [
+        "I004"
+      ],
+      "competing_candidates": [
+        {
+          "label": "warm_directive",
+          "status": "not_rejected",
+          "why": "supported by 宫生门 at the display pole; would need the life-gate to be unopposed, which it is not"
+        },
+        {
+          "label": "cool_withholding",
+          "status": "not_rejected",
+          "why": "supported by 九地 and star-in-tomb; distinguished from this claim only by degree of warmth"
+        }
+      ],
+      "SCORE_SOURCE": "TIER2_TOOL"
+    },
+    {
+      "id": "C003",
+      "archetype_id": "ARC-03",
+      "label": "ritual_mark",
+      "rank_status": "bounded",
+      "certainty": 0.55,
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "certainty_addends": {
+        "base": 0.45,
+        "support_term": 0.2,
+        "implication_term": 0.05,
+        "counterevidence_penalty": -0.15
+      },
+      "disp": "ADDRESSED",
+      "support": [
+        "E023",
+        "E022",
+        "R009",
+        "E066",
+        "R017",
+        "E089",
+        "R004"
+      ],
+      "counterevidence": [
+        "E105",
+        "E080",
+        "R028"
+      ],
+      "premise_implications": [
+        "I008"
+      ],
+      "competing_candidates": [
+        {
+          "label": "visible_authority",
+          "status": "not_rejected",
+          "why": "explicitly supported outside the spine (palaces 3 and 7); legal contrast, not ranked"
+        },
+        {
+          "label": "engineered_softness",
+          "status": "rejected",
+          "why": "no spine atom supports softening; tomb, punishment and pressure markers all point the other way"
+        }
+      ],
+      "SCORE_SOURCE": "TIER2_TOOL"
+    },
+    {
+      "id": "C004",
+      "archetype_id": "ARC-04",
+      "label": "sustained_care",
+      "rank_status": "bounded",
+      "certainty": 0.65,
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "certainty_addends": {
+        "base": 0.45,
+        "support_term": 0.2,
+        "implication_term": 0.1,
+        "counterevidence_penalty": -0.1
+      },
+      "disp": "ADDRESSED",
+      "support": [
+        "E002",
+        "E022",
+        "E024",
+        "R029",
+        "E092",
+        "R041",
+        "R047",
+        "E023",
+        "R004"
+      ],
+      "counterevidence": [
+        "E028",
+        "R037"
+      ],
+      "premise_implications": [
+        "I002",
+        "I004"
+      ],
+      "competing_candidates": [
+        {
+          "label": "contained_remedy",
+          "status": "not_rejected",
+          "why": "supported by the star-in-tomb and the punishment marker: a small, concentrated format reading is legal"
+        },
+        {
+          "label": "restorative_rebuild",
+          "status": "rejected",
+          "why": "requires a turnaround or authority-rise pattern inside the spine; none is present"
+        }
+      ],
+      "SCORE_SOURCE": "TIER2_TOOL"
+    },
+    {
+      "id": "C005",
+      "archetype_id": "ARC-05",
+      "label": "layered_reveal",
+      "rank_status": "bounded",
+      "certainty": 0.6,
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "certainty_addends": {
+        "base": 0.45,
+        "support_term": 0.2,
+        "implication_term": 0.05,
+        "counterevidence_penalty": -0.1
+      },
+      "disp": "ADDRESSED",
+      "support": [
+        "E022",
+        "E023",
+        "R004",
+        "E090",
+        "R029",
+        "R017",
+        "E089",
+        "E028",
+        "E026"
+      ],
+      "counterevidence": [
+        "R028",
+        "E087"
+      ],
+      "premise_implications": [
+        "I002"
+      ],
+      "competing_candidates": [
+        {
+          "label": "muted_shell_over_active_core",
+          "status": "not_rejected",
+          "why": "supported by 九地 + star-in-tomb; differs from this claim only in whether the reveal is staged or simultaneous"
+        },
+        {
+          "label": "overt_signal_low_noise",
+          "status": "rejected",
+          "why": "contradicted by the concealing deity and the stored star"
+        }
+      ],
+      "SCORE_SOURCE": "TIER2_TOOL"
+    },
+    {
+      "id": "C006",
+      "archetype_id": "ARC-06",
+      "label": "opposition_led",
+      "rank_status": "bounded",
+      "certainty": 0.6,
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "certainty_addends": {
+        "base": 0.45,
+        "support_term": 0.2,
+        "implication_term": 0.05,
+        "counterevidence_penalty": -0.1
+      },
+      "disp": "ADDRESSED",
+      "support": [
+        "R045",
+        "R001",
+        "E067",
+        "R004",
+        "E090",
+        "E004",
+        "E025",
+        "R032"
+      ],
+      "counterevidence": [
+        "E022",
+        "R029"
+      ],
+      "premise_implications": [
+        "I003"
+      ],
+      "competing_candidates": [
+        {
+          "label": "layer_led",
+          "status": "not_rejected",
+          "why": "supported by 九地 + star-in-tomb; a legal second direction for Brief 2"
+        },
+        {
+          "label": "sequence_led",
+          "status": "rejected",
+          "why": "sequencing is another archetype's jurisdiction (ARC-11) and would double-count one structure across two briefs"
+        }
+      ],
+      "SCORE_SOURCE": "TIER2_TOOL"
+    },
+    {
+      "id": "C007",
+      "archetype_id": "ARC-07",
+      "label": "pressure_into_poise",
+      "rank_status": "bounded",
+      "certainty": 0.65,
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "certainty_addends": {
+        "base": 0.45,
+        "support_term": 0.2,
+        "implication_term": 0.15,
+        "counterevidence_penalty": -0.15
+      },
+      "disp": "ADDRESSED",
+      "support": [
+        "R001",
+        "E067",
+        "R004",
+        "E090",
+        "R045",
+        "E064",
+        "E065",
+        "R029",
+        "R047",
+        "R017"
+      ],
+      "counterevidence": [
+        "R028",
+        "R018",
+        "E111"
+      ],
+      "premise_implications": [
+        "I001",
+        "I003",
+        "I004"
+      ],
+      "competing_candidates": [
+        {
+          "label": "return_to_the_source",
+          "status": "not_rejected",
+          "why": "the generative axis supports a return-to-source idea; distinguished from this claim by direction of travel"
+        },
+        {
+          "label": "the_quiet_instrument",
+          "status": "not_rejected",
+          "why": "supported by star-in-tomb + punishment; a legal third direction"
+        }
+      ],
+      "SCORE_SOURCE": "TIER2_TOOL"
+    },
+    {
+      "id": "C008",
+      "archetype_id": "ARC-08",
+      "label": "single_subject_soft_light",
+      "rank_status": "bounded",
+      "certainty": 0.6,
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "certainty_addends": {
+        "base": 0.45,
+        "support_term": 0.2,
+        "implication_term": 0.05,
+        "counterevidence_penalty": -0.1
+      },
+      "disp": "ADDRESSED",
+      "support": [
+        "E023",
+        "E022",
+        "E024",
+        "R029",
+        "E092",
+        "R004",
+        "R017",
+        "E089"
+      ],
+      "counterevidence": [
+        "E003",
+        "R001"
+      ],
+      "premise_implications": [
+        "I002"
+      ],
+      "competing_candidates": [
+        {
+          "label": "object_only_ritual_frame",
+          "status": "not_rejected",
+          "why": "strongly supported by star-in-tomb; would remove the human element entirely"
+        },
+        {
+          "label": "figure_in_pressure",
+          "status": "not_rejected",
+          "why": "supported by the impulse star and gate pressure"
+        }
+      ],
+      "SCORE_SOURCE": "TIER2_TOOL"
+    },
+    {
+      "id": "C009",
+      "archetype_id": "ARC-09",
+      "label": "enclosed_studio",
+      "rank_status": "bounded",
+      "certainty": 0.65,
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "certainty_addends": {
+        "base": 0.45,
+        "support_term": 0.2,
+        "implication_term": 0.1,
+        "counterevidence_penalty": -0.1
+      },
+      "disp": "ADDRESSED",
+      "support": [
+        "E022",
+        "E023",
+        "R004",
+        "E025",
+        "E024",
+        "R029",
+        "R047"
+      ],
+      "counterevidence": [
+        "E003",
+        "E067"
+      ],
+      "premise_implications": [
+        "I002",
+        "I004"
+      ],
+      "competing_candidates": [
+        {
+          "label": "threshold_interior",
+          "status": "not_rejected",
+          "why": "an interior edge (door, sill, counter) is equally supported and keeps the 'act' visible"
+        },
+        {
+          "label": "open_field",
+          "status": "rejected",
+          "why": "contradicted by the concealing deity, the stored star, and the slow-earth star"
+        }
+      ],
+      "SCORE_SOURCE": "TIER2_TOOL"
+    },
+    {
+      "id": "C010",
+      "archetype_id": "ARC-10",
+      "label": "hands_only",
+      "rank_status": "bounded",
+      "certainty": 0.6,
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "certainty_addends": {
+        "base": 0.45,
+        "support_term": 0.2,
+        "implication_term": 0.05,
+        "counterevidence_penalty": -0.1
+      },
+      "disp": "ADDRESSED",
+      "support": [
+        "E022",
+        "E092",
+        "E023",
+        "E001",
+        "E003",
+        "R045"
+      ],
+      "counterevidence": [
+        "E003",
+        "E002"
+      ],
+      "premise_implications": [
+        "I003"
+      ],
+      "competing_candidates": [
+        {
+          "label": "product_only",
+          "status": "not_rejected",
+          "why": "legal and supported by star-in-tomb; removes all human presence"
+        },
+        {
+          "label": "one_calm_figure",
+          "status": "not_rejected",
+          "why": "legal if the figure's stillness is motivated by the stored core"
+        }
+      ],
+      "SCORE_SOURCE": "TIER2_TOOL"
+    },
+    {
+      "id": "C011",
+      "archetype_id": "ARC-11",
+      "label": "core_first_then_context",
+      "rank_status": "bounded",
+      "certainty": 0.65,
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "certainty_addends": {
+        "base": 0.45,
+        "support_term": 0.2,
+        "implication_term": 0.05,
+        "counterevidence_penalty": -0.05
+      },
+      "disp": "ADDRESSED",
+      "support": [
+        "E083",
+        "E084",
+        "E086",
+        "E061",
+        "E062",
+        "E063",
+        "R004",
+        "R001"
+      ],
+      "counterevidence": [
+        "E061"
+      ],
+      "premise_implications": [
+        "I005"
+      ],
+      "competing_candidates": [
+        {
+          "label": "context_first_then_core",
+          "status": "not_rejected",
+          "why": "the pressed life-gate could set up the display; legal if the story needs a problem first"
+        },
+        {
+          "label": "parallel_build",
+          "status": "rejected",
+          "why": "the phase register is clearly split by pole, so a parallel build would ignore the only sequencing evidence the board offers"
+        }
+      ],
+      "SCORE_SOURCE": "TIER2_TOOL"
+    },
+    {
+      "id": "C012",
+      "archetype_id": "ARC-12",
+      "label": "hybrid_staged",
+      "rank_status": "bounded",
+      "certainty": 0.6,
+      "grounding_tier": "explicit_chart",
+      "ceiling": 0.9,
+      "certainty_addends": {
+        "base": 0.45,
+        "support_term": 0.2,
+        "implication_term": 0.1,
+        "counterevidence_penalty": -0.15
+      },
+      "disp": "ADDRESSED",
+      "support": [
+        "R028",
+        "E091",
+        "R029",
+        "E092",
+        "R001",
+        "R004",
+        "R047"
+      ],
+      "counterevidence": [
+        "E049",
+        "E109",
+        "E111"
+      ],
+      "premise_implications": [
+        "I006",
+        "I007"
+      ],
+      "competing_candidates": [
+        {
+          "label": "ai_led_human_gated",
+          "status": "not_rejected",
+          "why": "supported by 天辅 as 值符; a legal alternative if the team accepts a human gate at the breakage point"
+        },
+        {
+          "label": "human_led_ai_assisted",
+          "status": "not_rejected",
+          "why": "supported by the punishment marker; more conservative than proposed"
+        }
+      ],
+      "SCORE_SOURCE": "TIER2_TOOL"
+    },
+    {
+      "id": "C013",
+      "archetype_id": "ARC-03",
+      "label": "chart_selected_name",
+      "rank_status": "rejected",
+      "certainty": null,
+      "grounding_tier": "no_chart_support",
+      "ceiling": 0.75,
+      "certainty_addends": {
+        "base": 0.45,
+        "support_term": 0.0,
+        "implication_term": 0.0,
+        "counterevidence_penalty": -0.05
+      },
+      "disp": "EXCLUDED",
+      "support": [],
+      "counterevidence": [
+        "CONK004"
+      ],
+      "premise_implications": [],
+      "competing_candidates": [],
+      "SCORE_SOURCE": "TIER2_TOOL"
+    }
+  ],
+  "rank_status_tally": {
+    "confirmed": 0,
+    "bounded": 12,
+    "rejected": 1
+  }
+}

@@ -1,0 +1,157 @@
+{
+ "phase_write_attempts": 30,
+ "writes_denied": 0,
+ "write_log": [
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/00_cover_and_index.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/00_cover_and_index.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/01_brief_1_brand_idea_and_philosophy.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/01_brief_1_brand_idea_and_philosophy.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/02_brief_2_product_and_packaging.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/02_brief_2_product_and_packaging.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/03_brief_3_ad_campaign.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/03_brief_3_ad_campaign.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/04_coherence_check.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/04_coherence_check.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/05_logline.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/05_logline.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/06_mood_board_index.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/06_mood_board_index.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/07_production_and_ai_workflow.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/07_production_and_ai_workflow.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/08_risks_and_how_they_are_handled.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/08_risks_and_how_they_are_handled.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/09_research_reference_index.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/SUBMISSION/09_research_reference_index.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/ANNOTATED/01_brief_1_brand_idea_and_philosophy.annotated.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/ANNOTATED/01_brief_1_brand_idea_and_philosophy.annotated.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/ANNOTATED/02_brief_2_product_and_packaging.annotated.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/ANNOTATED/02_brief_2_product_and_packaging.annotated.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/ANNOTATED/03_brief_3_ad_campaign.annotated.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/ANNOTATED/03_brief_3_ad_campaign.annotated.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/ANNOTATED/response_map.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/ANNOTATED/response_map.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/ANNOTATED/position_in_wider_answer.md",
+   "allowed": true,
+   "code": "OK"
+  },
+  {
+   "path": "/home/user/ecole-assignments/SUBMISSION/GEN_AI/project_3_solution/ANNOTATED/position_in_wider_answer.md",
+   "allowed": true,
+   "code": "OK"
+  }
+ ],
+ "note": "written at the end of render.py; the log is this phase's own accounting"
+}

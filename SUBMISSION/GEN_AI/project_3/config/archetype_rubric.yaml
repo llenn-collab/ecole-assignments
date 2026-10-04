@@ -1,0 +1,113 @@
+# archetype_scoring_rubric — annex A-archetypes. Binds chart structure to the deliverable's
+# decision points (the three briefs). Each archetype owns a CLOSED candidate set; nothing
+# outside the set may be emitted as a live claim (law 41). NO findings here.
+rubric_version: AR-1.0
+missing_rubric_effect: "structure-only output"
+
+grounding_tier_lookup:           # CAP-15 step 1 — keyed by citation class
+  explicit_chart:      {tier: 1, ceiling: 0.90}
+  computed_structure:  {tier: 2, ceiling: 0.75}
+  emulated_tool:       {tier: 3, ceiling: 0.60}
+  assumption_indexed:  {tier: 4, ceiling: 0.35}
+
+# P6 / CAP-15 score terms. All terms are data so the score is enumerated, never argued.
+# The relevance term is the only place case context touches a number: cc1 lets it direct WHAT MATTERS,
+# and it never supplies evidence (no case value appears in any citation list).
+score_terms:
+  base: 0.40
+  named_pattern_bonus: 0.10          # pattern carries a classical name (frozen in the catalog as named: true)
+  coupling_bonus: 0.05               # per distinct palace touched, capped at 3
+  corroboration_bonus: 0.05          # per distinct evidence id, capped at 3
+  relevance_bonus: 0.10              # pattern sits in the case's primary scope
+  relevance_palaces: [1, 4, 5]
+  contradiction_penalty: 0.10        # per distinct opposite-family pattern, capped at 9
+  formula: "min(ceiling(tier), base + named + coupling + corroboration + relevance - contradiction)"
+
+confidence_rules:
+  - "certainty <= ceiling(grounding_tier of the strongest citation class in the claim)"
+  - "certainty <= ceiling - 0.05 for each counterevidence atom cited (floor 0.00)"
+  - "certainty = NA when the claim carries counterevidence that the archetype calls decisive"
+  - "no free arithmetic in prose (law 39); every score line carries SCORE_SOURCE"
+
+rank_status_vocabulary: [confirmed, bounded, rejected]
+claim_disposition_vocabulary: [ADDRESSED, CORROBORATED, DEFERRED, EXCLUDED, UNPARSEABLE, ANOMALY, ABSENT]
+
+archetypes:
+  - id: ARC-01
+    deliverable: brief_1_core_idea
+    question: "what is this brand, in one breath?"
+    required_evidence_classes: [board_axis, dominant_pattern_family, gate_relation]
+    competing_candidates: [quiet_craft_discipline, corrective_awakening, guarded_alliance]
+    decision_guard: "must be expressible only in tradition-conditional language (law 22)"
+  - id: ARC-02
+    deliverable: brief_1_voice
+    question: "how does the brand speak?"
+    required_evidence_classes: [deity_layer, gate_relation, star_layer]
+    competing_candidates: [warm_directive, cool_withholding, precise_watchful]
+    decision_guard: "voice adjectives must trace to a deity/gate atom, not to mood"
+  - id: ARC-03
+    deliverable: brief_1_name_logo
+    question: "what may the name and logo signal?"
+    required_evidence_classes: [star_layer, three_wonders_state, gate_relation]
+    competing_candidates: [visible_authority, engineered_softness, ritual_mark]
+    decision_guard: "no literal object, place or person may be read off the chart (law 23/24)"
+  - id: ARC-04
+    deliverable: brief_2_product
+    question: "what is the product's structural role?"
+    required_evidence_classes: [gate_relation, product_gate_presence, stem_pair_state]
+    competing_candidates: [sustained_care, restorative_rebuild, contained_remedy]
+    decision_guard: "product category is supplied by case_context as SCOPE only; chart never names a product"
+  - id: ARC-05
+    deliverable: brief_2_packaging
+    question: "what should the package carry?"
+    required_evidence_classes: [deity_layer, gate_relation, star_layer, tomb_state]
+    competing_candidates: [muted_shell_over_active_core, overt_signal_low_noise, layered_reveal]
+    decision_guard: "material statements are creative direction only; nothing here is a physical fact"
+  - id: ARC-06
+    deliverable: brief_2_differentiation
+    question: "what separates this from the category?"
+    required_evidence_classes: [pattern_contrast_set, axis_opposition]
+    competing_candidates: [opposition_led, layer_led, sequence_led]
+    decision_guard: "difference must cite a contrast between two visible chart regions"
+  - id: ARC-07
+    deliverable: brief_3_big_idea
+    question: "what idea can the campaign hang on?"
+    required_evidence_classes: [three_wonders_state, axis_opposition, gate_relation, star_layer]
+    competing_candidates: [return_to_the_source, the_quiet_instrument, pressure_into_poise]
+    decision_guard: "big idea must not promise an outcome (law 22)"
+  - id: ARC-08
+    deliverable: brief_3_hero_shot
+    question: "what single image carries the campaign?"
+    required_evidence_classes: [star_layer, gate_relation, deity_layer]
+    competing_candidates: [single_subject_soft_light, object_only_ritual_frame, figure_in_pressure]
+    decision_guard: "composition language is creative direction; no claim about the real world"
+  - id: ARC-09
+    deliverable: brief_3_stage
+    question: "where does the campaign live visually?"
+    required_evidence_classes: [palace_direction, star_layer, gate_relation]
+    competing_candidates: [enclosed_studio, threshold_interior, open_field]
+    decision_guard: "direction of palace is contextual only; never a location fact"
+  - id: ARC-10
+    deliverable: brief_3_casting
+    question: "who is in frame, if anyone?"
+    required_evidence_classes: [deity_layer, stem_pair_state]
+    competing_candidates: [product_only, hands_only, one_calm_figure, two_figures_in_tension]
+    decision_guard: "no person, body or condition may be read from the chart (law 23); casting is creative choice"
+  - id: ARC-11
+    deliverable: brief_3_sequence
+    question: "in what order do assets get made?"
+    required_evidence_classes: [cycle_phase_state, gate_relation, axis_opposition]
+    competing_candidates: [core_first_then_context, context_first_then_core, parallel_build]
+    decision_guard: "sequence claim must cite phase atoms, not preference"
+  - id: ARC-12
+    deliverable: brief_3_production
+    question: "which production path is proposed?"
+    required_evidence_classes: [xing_state, gate_relation, tomb_state]
+    competing_candidates: [human_led_ai_assisted, ai_led_human_gated, hybrid_staged]
+    decision_guard: "must respect known_facts (no budget/vendor facts are in the case)"
+  - id: ARC-13
+    deliverable: brief_3_window
+    question: "how does the requested window sit in the board's own time units?"
+    required_evidence_classes: [solar_term, cycle_phase_state, day_pillar]
+    competing_candidates: [window_opens_late, window_is_now, window_misaligned]
+    decision_guard: "absolute calendar claims forbidden; only the chart's own units may be named"

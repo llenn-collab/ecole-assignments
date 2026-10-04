@@ -1,0 +1,232 @@
+{
+  "hidden_problems": [
+    {
+      "id": "HP-001",
+      "normal_name": "A single production pass can quietly break the brand's only promise",
+      "statement": "If the campaign is produced in one uninspected pass, the two assets that carry the promise (hero and back panel) are exactly the ones a generator is most likely to get wrong — warped can geometry, fake frost, illegible type. The failure would not look like an error; it would look like a beautiful ad for a product that does not exist.",
+      "polarity": "WARN",
+      "confidence": "MED",
+      "grounding": "COMPUTED",
+      "evidence_chain": [
+        "C012",
+        "E091",
+        "R028",
+        "E092"
+      ],
+      "research_basis": [
+        "RS-070",
+        "RS-072",
+        "RS-005"
+      ],
+      "owner": "Brief 3 / production",
+      "action": "Keep the photographed-hero rule and the three-point human gate (can geometry, frost band, label text) as non-delegable; any asset failing the gate is regenerated, never patched.",
+      "requirement_ids": [
+        "REQ-022",
+        "REQ-026",
+        "REQ-029"
+      ],
+      "polarity_preserved": true,
+      "certainty_raised": false,
+      "translation_rule": "CAP-18: chart trap -> ordinary project risk, confidence and grounding unchanged"
+    },
+    {
+      "id": "HP-002",
+      "normal_name": "The two documents can tell two different stories",
+      "statement": "Brief 1 sells restraint and a two-minute ritual; Brief 2 sells a matte object. If Brief 2 opens with the object instead of the decision that shaped it, the package reads as a philosophy bolted to a can.",
+      "polarity": "CONSTRAIN",
+      "confidence": "MED",
+      "grounding": "COMPUTED",
+      "evidence_chain": [
+        "C001",
+        "C005",
+        "C009",
+        "R047"
+      ],
+      "research_basis": [
+        "RS-070",
+        "RS-060"
+      ],
+      "owner": "Coherence / Brief 2",
+      "action": "Brief 2 opens with the same one-decision sentence as Brief 1 ('less print, more material'), and every packaging claim must be showable in one of the campaign's frames.",
+      "requirement_ids": [
+        "REQ-015",
+        "REQ-024",
+        "REQ-028"
+      ],
+      "polarity_preserved": true,
+      "certainty_raised": false,
+      "translation_rule": "CAP-18: chart trap -> ordinary project risk, confidence and grounding unchanged"
+    },
+    {
+      "id": "HP-003",
+      "normal_name": "'Ritual' is a spent word in this category",
+      "statement": "The word is already on half the category's packaging and the research flags unverifiable craft language as meaningless to modern buyers. A brand whose differentiator is honesty cannot open with a word it cannot define.",
+      "polarity": "WARN",
+      "confidence": "MED",
+      "grounding": "EXPLICIT",
+      "evidence_chain": [
+        "C005",
+        "C001"
+      ],
+      "research_basis": [
+        "RS-068",
+        "RS-062",
+        "RS-058"
+      ],
+      "owner": "Brief 1 / Brief 2",
+      "action": "Never use 'ritual' alone: every use carries a time or a temperature ('the two-minute ritual', 'steeped eighteen hours'), and the brand's own ritual is defined once, on the pack.",
+      "requirement_ids": [
+        "REQ-008",
+        "REQ-010",
+        "REQ-030"
+      ],
+      "polarity_preserved": true,
+      "certainty_raised": false,
+      "translation_rule": "CAP-18: chart trap -> ordinary project risk, confidence and grounding unchanged"
+    },
+    {
+      "id": "HP-004",
+      "normal_name": "The category's default look will absorb the brand's restraint",
+      "statement": "Restraint is now the category's house style: Swiss grotesques, neutral tones, generous space. A brand differentiated only by tasteful restraint would be indistinguishable within a season, which is precisely the failure the research describes.",
+      "polarity": "WARN",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "evidence_chain": [
+        "C006",
+        "C003",
+        "E022",
+        "E023"
+      ],
+      "research_basis": [
+        "RS-061",
+        "RS-063",
+        "RS-030",
+        "RS-003"
+      ],
+      "owner": "Brief 2 / Brief 3",
+      "action": "Treat the unprinted frost band and the printed parameter line as non-negotiables; reject any layout in which the band is covered, printed on, or reduced to a decoration.",
+      "requirement_ids": [
+        "REQ-014",
+        "REQ-016",
+        "REQ-030"
+      ],
+      "polarity_preserved": true,
+      "certainty_raised": false,
+      "translation_rule": "CAP-18: chart trap -> ordinary project risk, confidence and grounding unchanged"
+    },
+    {
+      "id": "HP-005",
+      "normal_name": "$5.50 will be read as marketing unless the pack answers the question",
+      "statement": "The research's buyer monologue is explicit: at premium prices the shopper asks whether they are paying for coffee or for a campaign. Design cannot answer that; only printed facts can.",
+      "polarity": "CONSTRAIN",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "evidence_chain": [
+        "C001",
+        "C013",
+        "E064"
+      ],
+      "research_basis": [
+        "RS-023",
+        "RS-041",
+        "RS-066"
+      ],
+      "owner": "Brief 2 / Brief 3",
+      "action": "Print the answers on the surface: extraction hours, holding temperature, exact caffeine, batch window, farm-gate price. If a fact cannot be verified, it does not appear.",
+      "requirement_ids": [
+        "REQ-013",
+        "REQ-014",
+        "REQ-015"
+      ],
+      "polarity_preserved": true,
+      "certainty_raised": false,
+      "translation_rule": "CAP-18: chart trap -> ordinary project risk, confidence and grounding unchanged"
+    },
+    {
+      "id": "HP-006",
+      "normal_name": "Ambient distribution would silently cancel the product",
+      "statement": "The concept requires an unbroken cold chain. If the brand is later pushed into ambient shelf distribution, the coffee must be thermally treated, the difference disappears, and the packaging becomes the exact hypocrisy the brand was built against.",
+      "polarity": "WARN",
+      "confidence": "HIGH",
+      "grounding": "COMPUTED",
+      "evidence_chain": [
+        "C012",
+        "R028",
+        "C009",
+        "E092"
+      ],
+      "research_basis": [
+        "RS-060",
+        "RS-072",
+        "RS-005",
+        "RS-006"
+      ],
+      "owner": "Commercial / Brief 3",
+      "action": "State cold chain as a project constraint in the brief, not a preference: no ambient endcap, no unrefrigerated transit, and no launch in a channel that cannot hold 38°F.",
+      "requirement_ids": [
+        "REQ-013",
+        "REQ-022"
+      ],
+      "polarity_preserved": true,
+      "certainty_raised": false,
+      "translation_rule": "CAP-18: chart trap -> ordinary project risk, confidence and grounding unchanged"
+    },
+    {
+      "id": "HP-007",
+      "normal_name": "Quiet craft can read as class signalling",
+      "statement": "Restrained, expensive-looking minimalism photographed in designer interiors can read as gatekeeping — the research warns about both coffee elitism and cultural appropriation in premium coffee imagery.",
+      "polarity": "WARN",
+      "confidence": "MED",
+      "grounding": "INFERRED",
+      "evidence_chain": [
+        "C003",
+        "C010",
+        "E022"
+      ],
+      "research_basis": [
+        "RS-055",
+        "RS-056",
+        "RS-058"
+      ],
+      "owner": "Brief 3 / campaign",
+      "action": "Keep the act in semi-public thresholds rather than private luxury interiors; show price and process rather than provenance poetry; educate with warmth, never with a tasting note the drinker cannot repeat.",
+      "requirement_ids": [
+        "REQ-019",
+        "REQ-020",
+        "REQ-030"
+      ],
+      "polarity_preserved": true,
+      "certainty_raised": false,
+      "translation_rule": "CAP-18: chart trap -> ordinary project risk, confidence and grounding unchanged"
+    },
+    {
+      "id": "HP-008",
+      "normal_name": "The board and insight list the brief requires are not in the research pack",
+      "statement": "The brief requires every major decision to trace to a research finding, an insight, or a specific mood-board pin. The research pack contains the findings and the insight material, but no mood-board or pin content at all — so any pin reference in this package is a reconstruction from the pack's art-direction codes and must be replaced with the real board before submission.",
+      "polarity": "WARN",
+      "confidence": "HIGH",
+      "grounding": "EXPLICIT",
+      "evidence_chain": [
+        "A003"
+      ],
+      "research_basis": [
+        "RS-024",
+        "RS-033",
+        "RS-034",
+        "RS-045"
+      ],
+      "owner": "Operator / all briefs",
+      "action": "Swap MB-001…MB-012 for the real Pinterest board titles and add the pin URLs; the referenced visual styles are unchanged, only their identifiers are provisional. This is the package's only declared, unavoidable input gap.",
+      "requirement_ids": [
+        "REQ-003",
+        "REQ-012",
+        "REQ-014",
+        "REQ-021"
+      ],
+      "polarity_preserved": true,
+      "certainty_raised": false,
+      "translation_rule": "CAP-18: chart trap -> ordinary project risk, confidence and grounding unchanged"
+    }
+  ],
+  "count": 8
+}

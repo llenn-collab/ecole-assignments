@@ -1,0 +1,706 @@
+{
+  "ledger": [
+    {
+      "evidence_id": "A001",
+      "class": "assumption_A",
+      "value": "The slow-earth star is used strictly as a registry term for a slow earth process; no healt",
+      "grounding": "INFERRED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "A002",
+      "class": "assumption_A",
+      "value": "The three briefs are executed for a brand whose category can carry a restraint-led registe",
+      "grounding": "INFERRED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "A003",
+      "class": "assumption_A",
+      "value": "The palace 3 rise-to-throne / service / restraint markers are treated as visible contrast ",
+      "grounding": "INFERRED",
+      "disposition": "corroborated",
+      "reason": "cited by 2 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "A004",
+      "class": "assumption_A",
+      "value": "Pillar-register relations (day-branch chong / liuhe / triad) are reported and cited but ne",
+      "grounding": "INFERRED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "A005",
+      "class": "assumption_A",
+      "value": "The production path is a creative-direction proposal, not a vendor, budget or schedule dec",
+      "grounding": "INFERRED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "C001",
+      "class": "claim_C",
+      "value": "guarded_alliance",
+      "grounding": "EXPLICIT",
+      "disposition": "corroborated",
+      "reason": "cited by 3 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "C002",
+      "class": "claim_C",
+      "value": "precise_watchful",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "C003",
+      "class": "claim_C",
+      "value": "ritual_mark",
+      "grounding": "EXPLICIT",
+      "disposition": "corroborated",
+      "reason": "cited by 2 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "C004",
+      "class": "claim_C",
+      "value": "sustained_care",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "C005",
+      "class": "claim_C",
+      "value": "layered_reveal",
+      "grounding": "EXPLICIT",
+      "disposition": "corroborated",
+      "reason": "cited by 2 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "C006",
+      "class": "claim_C",
+      "value": "opposition_led",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "C007",
+      "class": "claim_C",
+      "value": "pressure_into_poise",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "C008",
+      "class": "claim_C",
+      "value": "single_subject_soft_light",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "C009",
+      "class": "claim_C",
+      "value": "enclosed_studio",
+      "grounding": "EXPLICIT",
+      "disposition": "corroborated",
+      "reason": "cited by 2 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "C010",
+      "class": "claim_C",
+      "value": "hands_only",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "C011",
+      "class": "claim_C",
+      "value": "core_first_then_context",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "C012",
+      "class": "claim_C",
+      "value": "hybrid_staged",
+      "grounding": "EXPLICIT",
+      "disposition": "corroborated",
+      "reason": "cited by 2 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "C013",
+      "class": "claim_C",
+      "value": "chart_selected_name",
+      "grounding": "COMPUTED",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E001",
+      "class": "structural_E",
+      "value": "腾蛇",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E002",
+      "class": "structural_E",
+      "value": "生门",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E003",
+      "class": "structural_E",
+      "value": "天冲",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E004",
+      "class": "structural_E",
+      "value": "坎1宫",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E005",
+      "class": "structural_E",
+      "value": "壬",
+      "grounding": "EXPLICIT",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "E006",
+      "class": "structural_E",
+      "value": "丁",
+      "grounding": "EXPLICIT",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "E007",
+      "class": "structural_E",
+      "value": "乙",
+      "grounding": "EXPLICIT",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "E022",
+      "class": "structural_E",
+      "value": "九地",
+      "grounding": "EXPLICIT",
+      "disposition": "corroborated",
+      "reason": "cited by 3 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E023",
+      "class": "structural_E",
+      "value": "景门",
+      "grounding": "EXPLICIT",
+      "disposition": "corroborated",
+      "reason": "cited by 2 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E024",
+      "class": "structural_E",
+      "value": "天芮",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E025",
+      "class": "structural_E",
+      "value": "巽4宫",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E026",
+      "class": "structural_E",
+      "value": "癸",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E027",
+      "class": "structural_E",
+      "value": "辛",
+      "grounding": "EXPLICIT",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "E028",
+      "class": "structural_E",
+      "value": "丙",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E029",
+      "class": "structural_E",
+      "value": "庚",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E030",
+      "class": "structural_E",
+      "value": "天禽",
+      "grounding": "EXPLICIT",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "E031",
+      "class": "structural_E",
+      "value": "中5宫",
+      "grounding": "EXPLICIT",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "E032",
+      "class": "structural_E",
+      "value": "庚",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E061",
+      "class": "condition_E",
+      "value": "天壬 phase=帝旺 branch=子",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E062",
+      "class": "condition_E",
+      "value": "地丁 phase=绝 branch=子",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E063",
+      "class": "condition_E",
+      "value": "暗乙 phase=病 branch=子",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E064",
+      "class": "condition_E",
+      "value": "天盘干:壬加丁『干合蛇刑』",
+      "grounding": "EXPLICIT",
+      "disposition": "corroborated",
+      "reason": "cited by 2 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E065",
+      "class": "condition_E",
+      "value": "暗干干:乙加丁『奇仪相佐』",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E066",
+      "class": "condition_E",
+      "value": "奇仪相合",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E067",
+      "class": "condition_E",
+      "value": "门迫宫",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E083",
+      "class": "condition_E",
+      "value": "天癸 phase=养/胎 branch=辰",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E084",
+      "class": "condition_E",
+      "value": "寄庚 phase=养/长生 branch=辰",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E085",
+      "class": "condition_E",
+      "value": "地辛 phase=墓/死 branch=辰",
+      "grounding": "EXPLICIT",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "E086",
+      "class": "condition_E",
+      "value": "暗丙 phase=冠带/临官 branch=辰",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E087",
+      "class": "condition_E",
+      "value": "天盘干:癸加辛『网盖天牢』",
+      "grounding": "EXPLICIT",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "E088",
+      "class": "condition_E",
+      "value": "寄宫干:庚加辛『太白重锋』",
+      "grounding": "EXPLICIT",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "E089",
+      "class": "condition_E",
+      "value": "暗干干:丙加辛『日月相会』",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E090",
+      "class": "condition_E",
+      "value": "宫生门",
+      "grounding": "EXPLICIT",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E091",
+      "class": "condition_E",
+      "value": "六仪击刑",
+      "grounding": "EXPLICIT",
+      "disposition": "corroborated",
+      "reason": "cited by 2 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E092",
+      "class": "condition_E",
+      "value": "星入墓",
+      "grounding": "EXPLICIT",
+      "disposition": "corroborated",
+      "reason": "cited by 3 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "E093",
+      "class": "condition_E",
+      "value": "暗干干:庚加庚『太白同宫』",
+      "grounding": "EXPLICIT",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "I001",
+      "class": "implication_I",
+      "value": "At the source pole an alliance is formed and immediately taxed: the he-combination is enta",
+      "grounding": "INFERRED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "I002",
+      "class": "implication_I",
+      "value": "At the display pole the surface is fed by its environment while the nourishing core is sto",
+      "grounding": "INFERRED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "I003",
+      "class": "implication_I",
+      "value": "The opposition pair 1-4 is generational, not antagonistic: the palace elements are water a",
+      "grounding": "INFERRED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "I004",
+      "class": "implication_I",
+      "value": "The centre's only stem is deposited into the display palace as a lodged stem, so the unexp",
+      "grounding": "INFERRED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "I005",
+      "class": "implication_I",
+      "value": "The phase register is split by pole: the source pole holds peak-then-cut phases, the displ",
+      "grounding": "INFERRED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "I006",
+      "class": "implication_I",
+      "value": "Defect points concentrate on the hidden/instrument register: punishment marker, star tomb ",
+      "grounding": "INFERRED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "I007",
+      "class": "implication_I",
+      "value": "The command axis of the board sits off the primary axis and is itself pressed: the leading",
+      "grounding": "INFERRED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "I008",
+      "class": "implication_I",
+      "value": "The three wonders circulate off-axis through the board's stem traces while the axis itself",
+      "grounding": "INFERRED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R001",
+      "class": "relation_R",
+      "value": "门迫宫",
+      "grounding": "COMPUTED",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "R004",
+      "class": "relation_R",
+      "value": "宫生门",
+      "grounding": "COMPUTED",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "R009",
+      "class": "relation_R",
+      "value": "壬丁",
+      "grounding": "COMPUTED",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "R010",
+      "class": "relation_R",
+      "value": "乙加丁",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R015",
+      "class": "relation_R",
+      "value": "癸辛",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R016",
+      "class": "relation_R",
+      "value": "庚加辛",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R017",
+      "class": "relation_R",
+      "value": "丙加辛",
+      "grounding": "COMPUTED",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "R018",
+      "class": "relation_R",
+      "value": "庚加庚",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R028",
+      "class": "relation_R",
+      "value": "癸",
+      "grounding": "COMPUTED",
+      "disposition": "corroborated",
+      "reason": "cited by 3 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "R029",
+      "class": "relation_R",
+      "value": "None",
+      "grounding": "COMPUTED",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "R030",
+      "class": "pillar_R",
+      "value": "hai_mao_wei",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R031",
+      "class": "pillar_R",
+      "value": "hai_mao_wei",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R032",
+      "class": "pillar_R",
+      "value": "巳",
+      "grounding": "COMPUTED",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "R033",
+      "class": "pillar_R",
+      "value": "亥",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R034",
+      "class": "pillar_R",
+      "value": "hai_mao_wei",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R035",
+      "class": "pillar_R",
+      "value": "寅",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R036",
+      "class": "relation_R",
+      "value": "乙",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R037",
+      "class": "relation_R",
+      "value": "丙",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R038",
+      "class": "relation_R",
+      "value": "丁",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R041",
+      "class": "relation_R",
+      "value": "庚",
+      "grounding": "COMPUTED",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "R042",
+      "class": "relation_R",
+      "value": "辛",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R043",
+      "class": "relation_R",
+      "value": "壬",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R044",
+      "class": "relation_R",
+      "value": "癸",
+      "grounding": "COMPUTED",
+      "disposition": "deferred",
+      "reason": "reviewed, not applicable to an assignment requirement (recorded, not discarded)"
+    },
+    {
+      "evidence_id": "R045",
+      "class": "relation_R",
+      "value": "[1, 4]",
+      "grounding": "COMPUTED",
+      "disposition": "used",
+      "reason": "cited by 1 binding(s)/risk entries"
+    },
+    {
+      "evidence_id": "R047",
+      "class": "relation_R",
+      "value": "庚",
+      "grounding": "COMPUTED",
+      "disposition": "corroborated",
+      "reason": "cited by 2 binding(s)/risk entries"
+    }
+  ],
+  "counts": {
+    "deferred": 37,
+    "corroborated": 13,
+    "used": 37
+  },
+  "reviewed": 87
+}

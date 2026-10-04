@@ -1,0 +1,109 @@
+{
+  "hard_constraint_gate": {
+    "pass": true,
+    "vetoed_candidates": [
+      "BSC-004"
+    ],
+    "veto_record": "OPERATOR/HARD_CONSTRAINT_VETO.md"
+  },
+  "coverage_gate": {
+    "must_uncovered": 0,
+    "must_blocked": 0,
+    "must_not_violations": 0,
+    "unsupported_required_formats": 0,
+    "should_uncovered": 0,
+    "declared_input_substitutions": 2,
+    "input_substitution_note": "two prerequisites the brief asks the team to bring (the insight list and the live mood board) were not supplied; the package substitutes the research pack's own insight sections and a reconstructed board, and declares both in the gap register rather than inventing them",
+    "pass": true
+  },
+  "unsupported_format_gate": {
+    "pass": true,
+    "reason": "all deliverables are markdown; no binary deliverable required or claimed"
+  },
+  "logo_gate": {
+    "pass": true,
+    "logo_artwork_shipped": false,
+    "terminal_rows": [
+      "REQ-031"
+    ]
+  },
+  "tie_state": {
+    "pass": true,
+    "state": "RESOLVED",
+    "unresolved_tie_groups": []
+  },
+  "stale_dependency": {
+    "pass": true,
+    "stale_count": 0,
+    "reason": "single pass, no supersession; the analysed package is read-only and immutable"
+  },
+  "citation_leaf_integrity": {
+    "pass": true,
+    "unresolved_citations": 0,
+    "leaf_only": true
+  },
+  "evidence_consumption": {
+    "reviewed": 87,
+    "used": 37,
+    "corroborated": 13,
+    "deferred_with_reason": 37,
+    "pass": true
+  },
+  "no_raw_chart_read": {
+    "pass": true,
+    "denied_reads": 0,
+    "guard": "tools/guarded.py DENY_READ[QMDJ/]"
+  },
+  "fallback_transparency": {
+    "fallback_mode": false,
+    "pass": true,
+    "reason": "the brief specifies its deliverables, so requirement-bound coverage applies"
+  },
+  "producer_obligation": {
+    "pass": true,
+    "systems_slot": "explicitly empty with reason",
+    "other_slots": "native v7 sections mapped via field_map_v7"
+  },
+  "layer_a_contract": {
+    "pass": true,
+    "checked_at": "render",
+    "order_ok": true,
+    "appendix_marker_present": true,
+    "appendix_hashes_match": true,
+    "appendix_broken": [],
+    "plain_english_first": true
+  },
+  "requirement_ledger_closure": {
+    "must": {
+      "total": 24,
+      "covered": 22,
+      "uncovered": 0,
+      "blocked": 0,
+      "closed": true
+    },
+    "must_not": {
+      "total": 4,
+      "satisfied_by_absence": 4,
+      "closed": true
+    },
+    "should": {
+      "total": 6,
+      "covered": 6,
+      "uncovered": 0,
+      "closed": true
+    },
+    "addend_groups": [
+      24,
+      4,
+      6
+    ],
+    "second_tally_required": true,
+    "second_tally": {
+      "must": 24,
+      "must_not": 4,
+      "should": 6
+    },
+    "pass": true
+  },
+  "all_pass": true
+}

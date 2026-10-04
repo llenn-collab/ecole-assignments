@@ -1,0 +1,6 @@
+{
+ "phase_write_attempts": 0,
+ "writes_denied": 0,
+ "write_log": [],
+ "note": "written at the end of requirements.py; the log is this phase's own accounting"
+}
