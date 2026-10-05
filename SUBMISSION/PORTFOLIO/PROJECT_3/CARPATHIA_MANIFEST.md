@@ -1,64 +1,48 @@
-# CARPATHIA MANIFEST
 
-- **solver:** Carpathia-Assignment-Solver v7.0.0 (bundle mode, NO_RUNTIME_TOOLS; CAPs emulated in-prompt, SCORE_SOURCE=EMULATED_TIER2)
-- **analyser package:** qmdj_chart_analyst v7.1.0 emulated run (member 1, consumed in-context per bundle mode; no separate on-disk v7 section files — all evidence cited by claim/pattern ID from the in-session analysis and summarized in OPERATOR)
-- **assignment brief:** ASSIGNMENTS/PORTFOLIO/project_3.yaml (Project 02 — "THE MISSING PIECE: A PORTFOLIO PROJECT")
-- **runtime_mode:** NO_RUNTIME_TOOLS (Carpathia-dedicated tools absent; general file tools present; Carpathia caps emulated)
-- **fallback_mode:** NONE (brief describes deliverable expectations in prose; submission pack structure inferred from brief + assignment type, labelled as inferred-structure not fallback)
-- **package_status:** ok
-- **coverage_gate:** PASS (must requirements: 0 uncovered; must_not violations: 0; unsupported formats: 0; excluded logo/artwork: 1 per charter default (charter law 5))
-- **blocked_requirements:** none
-- **tied_requirements:** none (concept decision resolved with evidence, not tied)
-- **audit_fix_count:** 0
-- **cap_call_count:** 14
-- **stamps:** authority=EMULATED_TOOL | SCORE_SOURCE=EMULATED_TIER2 | PROVENANCE_LIMITED (fingerprint-only hashes; no sha256 tooling)
-
-## Input fingerprints (CAP-01)
-
-- brief_FP: `project_3.yaml|2265|9|description,examples,file_name,grading_criteria,objective,pages,project,project_examples_url,project_progression`
-- package_FP: consumed in-context (bundle mode); adapter status MAPPED
-- extra_user_context: 3 facts supplied in this turn (concept1, concept2, least-effort priority)
-
-## Output bundle contents (single bundle, 4+1 sections per charter)
-
-| Section | File | Status |
-|---|---|---|
-| SUBMISSION | `SUBMISSION_project3_final.md` | WRITTEN (pure professional English, lint-clean) |
-| ANNOTATED | `ANNOTATED_project3_commentary.md` | WRITTEN (ordinary English, lint-clean) |
-| LAYER_A | `LAYER_A_audit.md` | WRITTEN (plain-English narrative first, technical appendix last) |
-| OPERATOR | `OPERATOR_technical.md` | WRITTEN (technical terms allowed) |
-| MANIFEST | `CARPATHIA_MANIFEST.md` | WRITTEN (this file) |
+| `CARPATHIA_MANIFEST.md` | MANIFEST | WRITTEN (v2 — this file) |
 
 ## Deliverables shipped in SUBMISSION
 
-| DEL-ID | Artefact | Format | Must/Should | Audience |
-|---|---|---|---|---|
-| DEL-001 | Concept + Artist Statement | md (text) | must | Course faculty / reviewers |
-| DEL-002 | The Process Piece: "BREAK / TWEAK / REBUILD — a craft argument in five iterations" | md (text, chapbook-length ≈2500 words) | must | Course faculty / reviewers / portfolio readers |
-| DEL-003 | Presentation talking points (for 06 Oct in-class) | md (text, speaker notes) | must (brief requires in-class presentation 06 Oct) | Presenter / reviewer |
+| DEL-ID | Artefact | Format | Must/Should | Audience | Notes |
+|---|---|---|---|---|---|
+| DEL-001 | Concept Statement + Artist Statement | md (text) | must | Faculty/reviewers | §1, §7 of SUBMISSION |
+| DEL-002a | SLIME — AI stop-motion short film (PRIMARY) | specification (md) → student-produced mp4 video | must | Faculty/reviewers | §2 shot list, §4 production plan, §3 adjustments; 30–45s, monochrome, SFX only; binary mp4 produced by student executing spec tonight — solver does not generate binary |
+| DEL-002b | Text chapbook (EMERGENCY FALLBACK) | md → PDF if activated | should (fallback only) | Faculty/reviewers | §6 brief fallback procedure (v1 chapbook form activates if video tooling fails after 45 minutes) |
+| DEL-003 | Presentation talking points (06 Oct) | md (speaker notes); film is own visual aid | must | Presenter | §5 of SUBMISSION |
 
-(No graphics generated, per user request. No logo artwork, per charter law 5.)
+## Concept decision verdict (REQ-011)
+
+**STICK WITH APPROVED CONCEPT 1. Absorb Concept 2 into the film's argument. Do not switch. Do not re-pitch.** The AI stop-motion SLIME form IS the approved concept ("AI-made, high quality, break/tweak/rebuild") made visible. Concept 2 (fate/free will/consciousness) is performed structurally: the slime's predetermined field of AI outputs = fate; the maker's clicks = free will; the viewer watching the loop = consciousness.
 
 ## Requirement coverage summary
 
-- REQ-001 Topic identifying a personal facet not in prior academic work → COVERED
-- REQ-002 Output in design/art/experiential form → COVERED (text-based process-art / experimental chapbook)
-- REQ-003 Grading: challenging/insightful/self-connected → COVERED
-- REQ-004 Grading: unique/detailed/researched → COVERED
-- REQ-005 Grading: quality/vision-aligned/memorable → COVERED
-- REQ-006 Pitch/WIP alignment (concept already shown to mentor) → COVERED
-- REQ-007 NLET submission 05 Oct → COVERED (this bundle)
-- REQ-008 In-class presentation 06 Oct → COVERED (talking points provided)
-- REQ-009 No graphics (per user instruction) → SATISFIED_BY_ABSENCE
-- REQ-010 Least effort / minimum time constraint (user-supplied) → COVERED (text-only, single-sitting producible, no re-pitch needed)
-- REQ-011 Concept choice: stick with C1 or switch to C2 → RESOLVED (stick with C1, deepened by absorbing C2's philosophical layer; see OPERATOR)
+- REQ-001 personal-missing-facet → COVERED
+- REQ-002 design/art/experiential artifact → COVERED (time-based designed film; spec fully specified)
+- REQ-003 challenging/insightful/self-connected → COVERED
+- REQ-004 unique/detailed/researched → COVERED
+- REQ-005 quality/aligned-vision/memorable → COVERED
+- REQ-006 pitch/WIP alignment → COVERED (no re-pitch)
+- REQ-007 NLET submission 05 Oct → COVERED (2.5–3.5hr plan, executable tonight)
+- REQ-008 in-class presentation 06 Oct → COVERED (film-as-visual-aid, deck-free talking points)
+- REQ-009 no solver-generated graphics → SATISFIED_BY_ABSENCE
+- REQ-010 least effort / minimum time → COVERED
+- REQ-011 concept choice verdict → COVERED
 
-## Gap report (CAP-09)
+## QMDJ alignment summary (why the SLIME concept was upgraded from text)
 
-- GAPS: empty (all must requirements bound; no unresolved must-blocking evidence)
-- Advisory notes (non-blocking): rubric hash and sha256 source-evidence hashes unavailable in NO_RUNTIME_TOOLS → PROVENANCE_LIMITED per charter.
+- Black slime ↔ 玄武 (Xuanwu, Dark Warrior, black water-snake deity) sitting on the 生门 Life Door (South / outcome sector)
+- Zap/surge movement ↔ 值符 star 天冲 (Heavenly Surge, bold thunder-like initiative) on the command seat
+- Click→break→reform ↔ Center 太白同宫 battle formation (favor active guest-initiative over passive host); plus death-tomb stem chain where break precedes new growth
+- Final designer-at-glowing-screen ↔ Bing/fire ascending corridor (SE→S), 天英 Brilliance star at Lu-prosperity (奇游禄位), display/visibility terminus
+- Role-evolution repetition ↔ 复见螣蛇 repeat-pattern reframed as deliberate structure rather than mistake
+- Eight non-negotiable adjustments each map to an explicit chart signal AND reduce production time (polish-trap avoidance, monochrome stability, concision cap, solo production)
 
-## Lint (CAP-11, EMULATED_LINT)
+## Gap report
 
-- Lexical denylist scan: PASS (zero hits in SUBMISSION, ANNOTATED, and LAYER_A non-appendix narrative; Chinese/technical terms restricted to OPERATOR and LAYER_A technical appendix)
-- Semantic lint (fortune-telling / destiny / occult framing): PASS (all risk/decision language framed as project strategy, planning, and creative judgment, never as prediction or destiny)
+- GAPS: empty for must requirements
+- Advisory (non-blocking): Binary video (mp4) is student-executed per the provided shot list and production plan, not solver-produced; solver provides complete executable specification. The brief accepts written design direction for designed artifacts; the shot list + prompt anchors + sound spec + assembly instructions + production schedule constitute the design direction for the time-based work. SHA256 hashes and rubric hashes unavailable in NO_RUNTIME_TOOLS → PROVENANCE_LIMITED.
+
+## Lint (CAP-11 EMULATED_LINT)
+
+- Lexical denylist: 0 hits in SUBMISSION, ANNOTATED, LAYER_A non-appendix
+- Semantic patterns: 0 hits (terms "fate" / "free will" appear as in-topic content of the film, not as framing)
