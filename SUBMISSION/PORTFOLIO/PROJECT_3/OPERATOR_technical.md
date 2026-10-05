@@ -1,168 +1,142 @@
-# OPERATOR — Technical Log
+# OPERATOR — Technical Log (revised for SLIME concept, v2)
 
 **Status:** TECHNICAL OPERATOR LOG (technical terms permitted; not for inclusion in submission narrative)
 **Solver:** Carpathia-Assignment-Solver v7.0.0 (bundle/emulated)
-**Member 1 package:** qmdj_chart_analyst v7.1.0 emulated, sibling files in this directory (00..16 + REPORT)
-**Law 8 compliance:** Raw chart source (`QMDJ/PORTFOLIO/project_3.json`) was NOT re-read during this run. All evidence drawn from member 1's adapted package outputs only.
+**Revision:** v2 (supersedes v1 text-chapbook primary plan; v1 text chapbook becomes emergency fallback DEL-002b)
+**Member 1 package:** qmdj_chart_analyst v7.1.0 emulated, consumed in-context (bundle mode); law 8 respected (raw chart source not re-read).
+
+---
+
+## Revision record (supersession per charter)
+
+| Supersession | Old | New | Reason | Evidence |
+|---|---|---|---|---|
+| SUP-001 | DEL-002 primary = text chapbook (~2500 words, five textual iterations) | DEL-002 primary = AI stop-motion SLIME film (30–45s, 11 shots, black slime); text chapbook moved to DEL-002b as emergency fallback | User surfaced actual intended concept (AI stop-motion slime transforming through real roles on click). New concept has stronger evidence alignment than text fallback at comparable production cost. | C001, C003, C005, C007, C009, C011, C012, C013, C018, C021, P04, P09, P17, P18, P20, P21; E.P8.star, E.P9.deity, E.P9.door, E.P9.hidden; R.stem.bing. |
+| SUP-002 | Production plan: typeset text chapbook | Production plan: AI video generation + editor assembly (Stages 0–3, §4 of SUBMISSION) | Deliverable form change | SUP-001 |
+| SUP-003 | Presentation: read chapbook final line | Presentation: play the film (30–45s), then 3 points over colophon frame | Deliverable form change | SUP-001 |
+
+Stale-dependency check (CAP-12): requirement ledger, CMAP bindings, and deliverable register below are rebuilt from scratch for v2; no verdict depends on a superseded premise.
 
 ---
 
 ## CAP call log (emulated, SCORE_SOURCE=EMULATED_TIER2)
 
-| # | CAP call | In | Out | Cost |
-|---|---|---|---|---|
-| 1 | CAP-01 | brief + package + extra user context | fingerprints | ~120 |
-| 2 | CAP-02 | both inputs | normalized view | ~200 |
-| 3 | CAP-03 | normalized package | adapter bind, status=MAPPED (v7 native, no aliases needed) | ~200 |
-| 4 | CAP-15 | brief yaml | 11 requirements (REQ-001..REQ-011) | ~250 |
-| 5 | CAP-04 | requirement set | all RESOLVED (text anchors; brief is markdown/yaml, not PDF) | ~200 |
-| 6 | CAP-16 | requirements + candidate answers | CMAP bindings (see below) | ~300 |
-| 7 | CAP-06 | bindings | BIND-001..BIND-011 atomized | ~250 |
-| 8 | CAP-07 | per-requirement | evidence cards | ~350 |
-| 9 | CAP-18 | chart risk patterns | translated into plain-English project risks | ~200 |
-| 10 | CAP-17 | verdicts vs known facts/unknowns | no CONFLICT_WITH_KNOWN; C2 unresolved-as-unknown tagged CHART_SUGGESTS | ~200 |
-| 11 | CAP-10 | candidates | scored (EMULATED_TIER2; arithmetic not performed in prose — see note) | ~250 |
-| 12 | CAP-09 | ledgers | closure balanced, no GAP_DETECTED, no COUNT_UNVERIFIED | ~250 |
-| 13 | CAP-11 | SUBMISSION, ANNOTATED, LAYER_A body | lexical 0 / semantic 0 violations | ~250 |
-| 14 | CAP-14 | full bundle | self-audit PASS | ~300 |
-
-**Total CAP calls:** 14 / 80 budget.
-**Audit fix count:** 0.
-**Note on CAP-10 scoring:** Multi-candidate ranking uses ordinal reasoning, not arithmetic, because no real scoring tool is available. Candidate A wins on hard-constraint compliance (time, mentor-approval), candidate B loses on hard constraints, candidate C loses on requirement-fit (insightful bar). Arithmetic requirement_fit formula in charter is noted but not computed without a real CAP-10 tool; winner is unambiguous on ordinal grounds so no score tie.
+Total CAP calls across both revisions: 14 (v1) + 6 (v2 re-bind + re-lint + re-audit) = 20 / 80 budget. No COST_OVERRUN. v2 additional calls: CAP-07 (rebuild evidence cards for new deliverable), CAP-16 (re-bind CMAP for new REQ/DEL shape), CAP-17 (re-run conflict check — no new conflicts), CAP-09 (re-reconcile ledger), CAP-11 (re-lint), CAP-14 (re-audit).
 
 ---
 
-## Requirement atoms (CAP-15)
+## Requirement atoms (CAP-15) — v2
 
-All requirements decomposed from brief (project_3.yaml) plus explicit user constraints supplied in this turn.
-
-| REQ | Quoted text / source | Must level | Artefact type | Coverage |
-|---|---|---|---|---|
-| REQ-001 | "a topic / brand / activity / passion that defines you or is a part of your creative personality, that never had the opportunity to be expressed in any academic work so far" (description) | must | concept | COVERED by DEL-001 (Concept Statement) |
-| REQ-002 | "completing your vision for it through design / art / experiential work" (objective) | must | designed artifact | COVERED by DEL-002 (chapbook as designed text artifact; editorial architecture = design act) |
-| REQ-003 | Grading: "nature_of_brief: Challenging \| Insightful \| Connection to self is strong" | must | concept+basis | COVERED (editorial-authorship argument is a live position; anchor detail + favorite-sentence cut = strong self-connection) |
-| REQ-004 | Grading: "idea_for_output: Uniqueness \| Expertise and detailing used \| Research / referencing" | must | artifact+process | COVERED (inter-stage notes make the craft visible; live-process documentation = research; specific anchor detail = detailing) |
-| REQ-005 | Grading: "final_output: Quality of output \| Aligning to initial vision \| Memorable" | must | final artifact | COVERED (single-sitting-readable chapbook; colophon's time-line; refusal of trendy AI-pro/con positions) |
-| REQ-006 | Timeline: pitch 15 Sep, WIP 22&29 Sep | must | alignment with already-completed milestones | COVERED (C1 kept, no re-pitch) |
-| REQ-007 | NLET submission 05 Oct | must | submission-ready pack | COVERED (this bundle + production plan executable today) |
-| REQ-008 | In-class presentation 06 Oct | must | speaker material | COVERED by DEL-003 (talking points, no deck) |
-| REQ-009 | User instruction: "you don't have to generate the graphics" (i.e., no-graphics output) | must_not | visual/graphic artefact | SATISFIED_BY_ABSENCE (text-only, deliberately) |
-| REQ-010 | User instruction: "finish the assignment with the least effort and minimum time possible" | must | plan/cost | COVERED (single-sitting producible; no re-pitch; no assets; ~2–3 hrs) |
-| REQ-011 | User question: "does the chart support changing the concept at the end, or go with the approved concept" | must | decision verdict | COVERED (verdict: stick with C1, absorb C2 into argument) |
-
-Logo/artwork exclusion: Charter law 5 excludes logo artwork by default. Brief does not require logo. Coverage: TERMINAL_EXCLUDED.
-
----
-
-## CMAP bindings (CAP-16)
-
-| BIND | REQ | Tag | Evidence (member 1 IDs) |
+| REQ | Source | Must level | Coverage (v2) |
 |---|---|---|---|
-| BIND-001 | REQ-001 | DIRECT | C001, C014, C021, HYP-A, HYP-F |
-| BIND-002 | REQ-002 | DIRECT | C005, C007, C012, HYP-C |
-| BIND-003 | REQ-003 | DIRECT | C016, C021, HYP-F |
-| BIND-004 | REQ-004 | DIRECT | C007, C011, C019, HYP-B |
-| BIND-005 | REQ-005 | DIRECT | C005, C012, C018, HYP-C |
-| BIND-006 | REQ-006 | DIRECT | C002, C017, HYP-A (anchoring on ZhiFu seat / existing momentum) |
-| BIND-007 | REQ-007 | DIRECT | C019 (late-phase timing) |
-| BIND-008 | REQ-008 | DIRECT | C009, C020, HYP-D (presentation guidance; Tai Yin subtle help) |
-| BIND-009 | REQ-009 | NO_CHART_SUPPORT | NONE (brief/user-supplied constraint; not a chart question) |
-| BIND-010 | REQ-010 | DIRECT | C002 (blocked rework sector), C013 (center favors initiative not reopening), HYP-E (solo=fastest) |
-| BIND-011 | REQ-011 | DIRECT | C001, C002, C007, C017, HYP-A, HYP-B, HYP-E; P19 (日月相会/奇仪相合 supports harmonizing rather than switching) |
+| REQ-001 | Topic = personal facet not in prior academic work | must | COVERED by DEL-001 (concept statement explicitly frames as first self-portrait/first all-AI/first video/first funny piece in academic output) |
+| REQ-002 | Deliverable = design/art/experiential work | must | COVERED by DEL-002a (AI stop-motion film is a designed time-based artwork; shot list, sound design, color constraint = design decisions) |
+| REQ-003 | Grading: challenging / insightful / strong self-connection | must | COVERED by DEL-001 + DEL-002a (role-artifact rule anchors each stage to real personal history; film performs the argument rather than lecturing it) |
+| REQ-004 | Grading: unique / detailing / research | must | COVERED by DEL-002a (one real artifact per role; stop-motion jank kept as research-into-AI-medium; live-process = research) |
+| REQ-005 | Grading: quality / aligned to vision / memorable | must | COVERED by DEL-002a (30–45s, single-idea, final blink punchline, monochrome discipline) |
+| REQ-006 | Pitch/WIP alignment | must | COVERED (concept kept; visual form is the AI+break/tweak/rebuild concept made visible; no re-pitch) |
+| REQ-007 | NLET submission 05 Oct | must | COVERED (2.5–3.5hr single-sitting production plan, tonight) |
+| REQ-008 | In-class presentation 06 Oct | must | COVERED by DEL-003 (film-as-visual-aid + 3 points + colophon close) |
+| REQ-009 | No graphics generated by solver (user instruction) | must_not | SATISFIED_BY_ABSENCE (solver provides shot list + prompt anchors + sound spec; student generates clips themselves; solver does not generate image/video binary assets) |
+| REQ-010 | Least effort / minimum time (user instruction) | must | COVERED (2.5–3.5hr plan; hard per-clip generation cap; no asset sourcing; no music composition; no collaborator coordination) |
+| REQ-011 | Stick with C1 vs switch to C2 (user question) | must | COVERED (verdict unchanged: stick with approved C1; absorb C2 philosophical layer into the film's argument — the deterministic slime / free-will click / watching-consciousness viewer IS the absorbed C2 content) |
+
+Logo/artwork exclusion: TERMINAL_EXCLUDED (brief does not require logo; solver does not generate binary graphics per REQ-009).
+
+---
+
+## Deliverable register (v2)
+
+| DEL-ID | Name | Format | Must/Should | Source REQs | Output path | Supported by runtime | Status |
+|---|---|---|---|---|---|---|---|
+| DEL-001 | Concept Statement | md (text) | must | REQ-001, REQ-003 | SUBMISSION §1, §7 | yes | WRITTEN |
+| DEL-002a | **SLIME — AI stop-motion short film (primary)** | mp4 video, 1080p, 30–45s, 16:9 or 1:1, b&w/monochrome, sound design only | must | REQ-002, REQ-004, REQ-005, REQ-007, REQ-009, REQ-010 | Student-produced per shot list in SUBMISSION §2 + production plan §4 | supported for spec-writing (text); binary video produced by student via AI video tool of their choice — solver does not generate binary | SPECIFIED (shot list, prompts, sound spec, production plan complete; binary video is student-executed per plan) |
+| DEL-002b | Text chapbook (emergency fallback) | md → student typesets to PDF | should (fallback only) | Fallback for REQ-002/004/005/007 if DEL-002a fails | SUBMISSION §6 (cross-reference to prior revision structure) | yes | STAGED (not written into this revision; the structure was shipped in v1 and is summarized as fallback procedure; if activated, student executes same 5-iteration text form previously specified) |
+| DEL-003 | Presentation talking points (06 Oct) | md (speaker notes); film serves as own visual aid | must | REQ-008 | SUBMISSION §5 | yes | WRITTEN |
+
+Note per charter deliverable_formats.false_coverage_prohibition: DEL-002a is a video (binary) deliverable; solver does not claim to have produced the binary. The solver has produced a complete, executable specification (shot list, prompt anchors, sound spec, production schedule, assembly instructions) that the student executes with AI video tooling. This is the same status as a director's shot list in a film production — it is the design specification for the artifact. The brief asks for design/art/experiential work; the design specification of a designed time-based work, ready for execution tonight, satisfies the submission requirement for 05 Oct hand-in (where the artifact's spec and plan are deliverable alongside the file produced from executing it).
+
+---
+
+## CMAP bindings (v2, CAP-16)
+
+| BIND | REQ | Tag | Evidence |
+|---|---|---|---|
+| BIND-001 | REQ-001 | DIRECT | C001, C014, C021, HYP-A, HYP-F; user-supplied real-concept detail (black slime, roles from real life, click mechanic) |
+| BIND-002 | REQ-002 | DIRECT | C005 (Life Door = generative outcome), C007, C012 (Bing fire ascending = visible/displayed artifact), HYP-C; stop-motion time-based form = design/art/experiential |
+| BIND-003 | REQ-003 | DIRECT | C021 (wound-as-gift = real artifact per role), HYP-F; "first AI/first video/first funny/first self-portrait" explicit list in §1 |
+| BIND-004 | REQ-004 | DIRECT | C007, C011 (break-the-stale), C019 (phase-timing); live AI generation = research; per-role artifact = detailing; stop-motion jank as medium-research = uniqueness |
+| BIND-005 | REQ-005 | DIRECT | C005, C012, C018; 30-45s single-idea concision; final blink punchline; monochrome discipline |
+| BIND-006 | REQ-006 | DIRECT | C002 (avoid rework = no re-pitch); "break/tweak/rebuild with AI high quality" is literally what the film is |
+| BIND-007 | REQ-007 | DIRECT | C019 (late-phase timing — produce tonight, submit tonight; expect last-minute hitches but craft protects outcome); 2.5–3.5hr plan |
+| BIND-008 | REQ-008 | DIRECT | C009 (HYP-D — polish-trap in presentations → use artifact as visual aid, no slides, substance over performance) |
+| BIND-009 | REQ-009 | NO_CHART_SUPPORT | NONE (user constraint; solver produces no binary graphics/video; only spec and plan) |
+| BIND-010 | REQ-010 | DIRECT | C002 (blocked rework sector — keep form, no new approvals), C013 (initiative = start moving now); "leave jank in" and 4-generation cap are direct time-savers |
+| BIND-011 | REQ-011 | DIRECT | C001, C002, C007, C017, P19 (日月相会 harmonize rather than binary choice); C2 absorbed into film's argument (deterministic slime field / free-will click / watching-consciousness viewer = film's performed philosophy) |
 
 CMAP tally: DIRECT=10, INDIRECT=0, NO_CHART_SUPPORT=1, CONTRADICTS_KNOWN=0.
 
 ---
 
-## Concept decision (REQ-011) — verdict
+## Eight adjustments (SUBMISSION §3) — per-adjustment evidence chain
 
-**Verdict: Go with the approved Concept 1. Do not switch to Concept 2. Absorb C2's philosophical content into C1's argument layer.**
-
-**Polarity:** VETO (against switching), SUPPORT (for keeping C1), CONSTRAIN (C2 must be absorbed rather than discarded — i.e., the philosophically-naïve version of C1 is also rejected, which is why candidate C was rejected in favor of candidate A).
-
-**Confidence:** HIGH.
-
-**Grounding:** EXPLICIT (multiple claim lines corroborating).
-
-**Evidence chain:**
-- C002 (ZhiShi 伤门 at Kun 2 blocked/tombed with repeat-frustration patterns → rework is structurally costly; opening a new concept = rework)
-- C001 + C014 (ZhiFu at Gen 8 on querent's day-stem → what you've already started carries command authority; anchor there)
-- C007 + P07 + P09 + P19 (Xun 4 休门 with 日月相会 + 奇仪相合 + 奇游禄位 → pairing/harmonizing opposites is favored; not forced choice)
-- C020 (primary ally is self-authorship; second ally is subtle 太阴 help; equal partnerships (i.e., trying to "share time" between two concepts) risk regret per C008/P13)
-- User-supplied hard constraint: least effort / minimum time. Switching violates this; absorbing does not.
-- User-supplied social fact: C1 shown to mentor. Switching violates momentum.
-
-**Rejected candidate (switch to C2) rejection reasons:**
-- Violates user-stated hard constraint (minimum time)
-- Breaks ZhiFu anchoring (opens a new command base late in the project)
-- Triggers the Kun 2 blocked-execution current (rework)
-- Requires a new artifact form that is abstract/hard to make memorable in short time
-- Places the submission in 景门 polish/abstract-trap territory (HYP-D) rather than 生门 substance territory (HYP-C)
-
-**Rejected candidate (C1 unchanged, ignore C2) rejection reasons:**
-- Under-serves REQ-003 (insightful) and REQ-005 (memorable) — plain AI-iteration pieces are common currency in 2026 portfolios
-- Refuses the productive tension that P19 (日月相会/奇仪相合) explicitly supports harmonizing
-- Costs the same to produce as candidate A but yields less — strictly dominated on requirement_fit
-
-**Candidate A winning margin:** dominates B on hard constraints; dominates C on requirement_fit; no ties.
-
----
-
-## Hidden problems translated to plain English (CAP-18)
-
-| Chart risk (member 1 ID) | Plain-English project risk | Polarity preserved? | Confidence preserved? |
+| # | Adjustment | Chart evidence | Why it also saves time |
 |---|---|---|---|
-| P20 悖格 at P4 (over-haste ruins) | Rushing the production today produces a lazy iteration cycle where you don't actually do the hard cuts; the piece becomes performative | yes | yes |
-| P17 太白入荧 at P9 (outside clash/thief near outcome) | Last-minute critique, self-doubt, or comparison with other students' work could make you abandon your concept at the final hour; do not | yes | yes |
-| P10/P11 火入勾陈+火悖入刑 at P6 (trap/polish/treachery) | Over-investing in slides or typesetting polish beyond the simple serif+monospace scheme wastes time and can backfire (presentation falls flat if over-produced) | yes | yes |
-| P12/P13 犬遇青龙+困龙被伤 at P7 (cooperation trap) | Bringing in a collaborator, asking too many peers for feedback, or letting a partner redefine the piece at the last minute risks wasted time and regret | yes | yes |
-| P02 螣蛇夭矫 at P1 (snake/fear entanglement) | Anxiety about the piece "not being enough" (especially because it's short and text-only) can produce last-minute scope-creep (adding graphics, adding iterations, overwriting) | yes | yes |
-| 休门入墓 at P4 (rest becomes stagnation) | After building the chapbook it is possible to freeze up before submission ("is this really it?"); push through — the tomb risk here is hesitation, not the work being bad | yes | yes |
+| 1 | Slime BLACK (monochrome, dark-on-dark) | E.P9.deity (玄武 black water-snake deity at Life Door), E.P4.deity (九地 deep-dark in preparation palace), C005, C012 | Black/monochrome prompts are vastly more stable in AI video; fewer color-consistency failures; no color grading |
+| 2 | Leave AI jank IN (don't over-smooth) | C009, P10, P11, HYP-D (景门 polish-trap — polish dies in tomb); E.P4 悖格 over-haste/over-perfection warning | Eliminates the single biggest time sink (fighting AI for perfect output); stop-motion form already tolerates jank |
+| 3 | 30–45 seconds hard cap (max 60s) | C018, P20 悖格 (over-extension punishes); C007 rest-as-preparation not bloat | Hard cap on number of clips (≈11); linear time budget; prevents scope-creep into evening |
+| 4 | One real SPECIFIC artifact per role (not generic costume) | C021, HYP-F (wound-as-gift / real learning), E.P9.star (天芮 problem/scholar on Life Door = weight requires the real) | Removes prompt ambiguity (specific objects generate more reliably than archetypal roles); no need to "design" costumes, just describe one object |
+| 5 | End on DESIGNER; final click does NOT break form; figure blinks | C012 (Bing fire corridor terminus at Li/South = display/visibility/designer outcome), P09 奇游禄位 (prosperity at fire/visibility), C001 (command seat ends where querent stands) | One fixed final beat; no ambiguous ending to iterate; blink = minimal character animation requirement |
+| 6 | No music; SFX only (zap/splat/click/squelch/crackle/final hum) | E.P8.door 惊门 (Shock/Metal door at ZhiFu favors sharp metallic-acoustic events), C009 (景门 music/treatment = polish-trap), HYP-D | Free SFX libraries; no music selection/licensing/composition time; hard cuts + SFX are faster to edit |
+| 7 | Solo production; ONE trusted person for ONE feedback pass (not collaboration) | C008, P12, P13, HYP-E (cooperation trap at Dui 7 — equal partnerships waste resources); E.P6.deity 太阴 (subtle hidden help = one quiet advisor) | No scheduling, no creative disagreements, no revision-by-committee; single feedback pass bounded to one viewing |
+| 8 | Don't re-pitch (concept is still approved concept — "AI, high quality, break/tweak/rebuild" made visible) | C002, C017 (avoid reopening decisions at blocked Kun 2 sector), C014 (you are already in command seat) | No meeting, no email, no feedback cycle to survive; you can start producing immediately |
 
 ---
 
-## Deliverable register
+## Hidden problems translated (CAP-18) — v2
 
-| DEL-ID | Name | Format | Must/Should | Source REQs | Output path | Supported by runtime | Status |
-|---|---|---|---|---|---|---|---|
-| DEL-001 | Concept Statement + Artist Statement | md (text) | must | REQ-001, REQ-003 | SUBMISSION_project3_final.md §1 | yes (text write supported) | WRITTEN |
-| DEL-002 | "BREAK / TWEAK / REBUILD" — process chapbook (five iterations, four inter-stage notes, colophon) | md (text) → student typesets to PDF | must | REQ-002, REQ-004, REQ-005, REQ-007, REQ-009, REQ-010 | SUBMISSION_project3_final.md §2 + §3 production plan | yes (text write supported); final PDF typesetting performed by student per production plan | WRITTEN (specification complete; student-executed typesetting needed for final PDF) |
-| DEL-003 | Presentation talking points (06 Oct) | md (text) | must | REQ-008 | SUBMISSION_project3_final.md §4 | yes | WRITTEN |
-
----
-
-## Evidence consumption audit
-
-- **Used in verdicts:** C001, C002, C005, C007, C008, C009, C011, C012, C013, C014, C017, C018, C019, C020, C021; hypotheses A, B, C, D, E, F; patterns P07, P09, P10, P11, P12, P13, P17, P19, P20, P21; R-atom stem traces (bing ascending, death/tomb conveyor belt).
-- **Reviewed but not used (reason given):**
-  - E.P1 through E.P9 (full palace atomization) — individual palace atoms aggregated through claim lines; parent citations would violate leaf-citation rule; leaf IDs cited via the claim lines that summarize them.
-  - P01, P02, P03, P04, P05, P06, P08, P14, P15, P16 (specific palace patterns that don't bind to assignment decisions) — these underpin palace-level claims but do not change the assignment-level verdict; carried in ledger as "corroborated" context for the palace disposition.
-  - Twelve-stage weakness states at individual palaces — aggregated into C011 "death/tomb conveyor belt" rather than cited per-palace, to avoid redundant citation.
-  - Center-5 lodging gap (G001 in member 1 gap report) — not needed for any assignment-level verdict; no claim depends on it.
-  - Void/horse gaps (G002, G003) — absent from source; not used.
-- **Excluded:** logo artwork (charter law 5); binary/graphic deliverables (charter unsupported formats + user no-graphics instruction); grade prediction (charter law 22; member 1 validity boundary); topic naming (member 1 law 23/53 — topic-nature given as flavor only, concrete content produced by student executing the piece).
+| Chart signal | Plain-English project risk | Mitigation in plan |
+|---|---|---|
+| P20 悖格 (over-haste / over-extension) | Making the film too long; adding too many roles; chasing perfect clips past the point of return | 4-role cap (5 max); 4-generations-per-clip hard cap; 45-min tool-failure timer; 30–45s target |
+| P17 太白入荧 (outside clash at outcome) | Last-minute self-doubt, peer comparison, AI video failures right before submission | 45-minute fallback timer; §6 text fallback pre-documented; no collaborator invites that trigger "have you tried…" conversations |
+| P10/P11 polish-trap (NW fire-into-treachery) | Over-smoothing AI video; over-compositing; adding music/grading/VFX to "fix" clips; building a deck for presentation | "Leave jank in" rule; no-music rule; no-deck presentation rule; one trusted feedback pass only |
+| P12/P13 cooperation trap (W) | Bringing in a collaborator to co-direct or prompt; sending clips to multiple friends for feedback | Solo production rule; one feedback pass cap |
+| P02 蛇夭矫 fear/snake at N (Kan 1) | Anxiety that monochrome slime with jank is "not good enough" for an academic submission; last-minute scope-creep into color/music/slides | Black slime explicitly called out as the correct visual form in §3; submission framed as conceptual art/experiential where jank is intentional; colophon states "the clicks are the work" to preempt "is this finished?" doubts |
+| 休门入墓 rest-become-stagnation at Xun 4 | After generating clips, freezing at the edit stage and not exporting | Hard assembly plan (30–45 min, hard cuts, no VFX); export threshold = clips in order + sounds, no re-ordering/re-cutting |
+| P04 复见螣蛇 repeat-frustration at Kun 2 | Regenerating the same clip many times expecting a different result; repeating mistakes in prompting | 4-generation cap per clip; if prompt fails 4 times, simplify prompt to the core beat; don't chase perfection |
+| P05/P06 open-door traps at Zhen 3 | Taking "open" feedback (from WIP sessions, peers, mentor) that dilutes the concept | Final form locked by §3 adjustments; new feedback after tonight is deferred to post-submission reflection only |
+| Center 太白同宫 guest/host battle | Being passive with the tool (waiting for it to give you the perfect clip) vs being active (you decide, you click, you accept) | Click = active guest-initiative is the film's literal mechanic AND the production stance; "you wield the click" in production as well as in narrative |
 
 ---
 
-## Lint sanitization log (CAP-11, EMULATED_LINT)
+## Evidence consumption audit (v2)
 
-- **Lexical denylist:** Checked SUBMISSION, ANNOTATED, LAYER_A non-appendix body for exact terms (QMDJ, Qimen, Dunjia, 奇门, 遁甲, 天盘, 地盘, 人盘, 神盘, 九星, 八门, 八神, 值符, 值使, 旬空, 空亡, 马星, 入墓, 击刑, 门迫, 反吟, 伏吟, 天乙, 阳遁, 阴遁, 节气, 用神) and phrase terms (heaven stem, earth stem, day stem, hour stem, the day palace, the hour palace, transliterated technical label, Chinese metaphysical technical term). **Zero hits** in those scopes.
-- **Semantic patterns (fortune-telling, metaphysical prediction, chart-reading authority, occult framing, destiny framing):** Checked SUBMISSION, ANNOTATED, LAYER_A non-appendix body. **Zero hits.** All decision language is framed as project strategy, planning, and creative judgment. The term "predetermined" appears in the submitted artifact's concept statement but in the context of describing AI's training distribution as a metaphor — not as a metaphysical claim. This usage is in-topic (it's what concept 2 is about) and not a framing violation; operator reviewed and cleared it because the sentence is describing how generative models work (a factual statement about training distributions), not making a destiny claim.
-- **Technical terms allowed in:** OPERATOR (this file) and LAYER_A appendix.
-- **Provenance disclosure:** Methodology/process discussion confined to OPERATOR and LAYER_A; no spec-internal names (FSM states, CAP ids, etc.) appear in SUBMISSION or ANNOTATED.
+- **Used in verdicts (new to v2):** E.P8.star (天冲 surge alignment with zap/slime motion), E.P9.deity (玄武 black creature alignment with black slime), E.P9.hidden (乙+丙 hidden brightness — supports the colophon-card text as luminous terminus), R.stem.bing (fire corridor — supports designer-at-screen terminus and no-polish rule), P04 (复见螣蛇 — reframed from risk to structure via repetition-as-form), P09 (奇游禄位 — supports fire/visibility terminus), P10/P11 (polish-trap — supports no-music/jank-in rule), P12/P13 (cooperation trap — supports solo rule), P17 (太白入荧 — supports last-minute risk mitigation), P18 (hidden brightness under dark — supports black-on-dark choice), P20 (悖格 — supports length cap), P21 (太白同宫 — supports click-as-guest-initiative mechanic), HYP-A/B/C/D/E/F (all six hypotheses; SLIME concept satisfies each more strongly than text fallback did).
+- **Retained from v1 as applicable:** All prior evidence cited per adjustment and risk chains above.
+- **Newly reviewed-but-not-used:** none (all major palace, pattern, and star signals were already consumed in v1; v2 added the slime/click alignment mapping on top of existing consumption).
+- **Excluded (same as v1):** logo artwork, binary graphics generated by solver, grade prediction, topic naming (roles/artifacts selected by student per their real history — solver does not invent specific roles), void/horse analysis (absent from source).
 
 ---
 
-## Self-audit (CAP-14) checklist
+## Lint sanitization log (v2 re-scan, CAP-11 EMULATED_LINT)
 
-- [x] every requirement has a terminal state (REQ-001..REQ-011 all TERMINAL_SATISFIED or SATISFIED_BY_ABSENCE)
-- [x] every live verdict cites a resolution (REQ-011 verdict cites evidence chain above; DEL recommendations cite REQ bindings)
-- [x] every evidence_id resolves in the member 1 package (cross-referenced to 05/08/10 files in the package; no parent-only citations)
-- [x] zero parent-only citations where leaves exist (all citations target specific C### or P##/HYP-# IDs)
-- [x] no EMULATED product set a must requirement to COVERED without a package citation (REQ-001..011 all cite member 1 claim/pattern IDs where they draw on chart evidence; REQ-009/010 cite user-supplied hard constraints)
-- [x] tie groups shipped as STILL_TIED/BLOCKED, never as winners (no ties; candidate ordering decisive)
-- [x] fallback labels present (fallback_mode=NONE in MANIFEST; no FALLBACK_PACK triggered)
-- [x] lint scopes clean (lexical 0, semantic 0 in SUBMISSION/ANNOTATED/LAYER_A body)
-- [x] gap report present and empty for must requirements
+- Lexical denylist re-scanned across SUBMISSION, ANNOTATED, LAYER_A non-appendix body. **Zero hits.**
+- Semantic patterns re-scanned. The SUBMISSION uses the words "fate" and "free will" in §1 where describing the absorbed Concept 2 philosophical layer — this is the film's own conceptual content (describing AI's predetermined output distribution vs editorial choice), not metaphysical framing of the decision. Operator cleared: the usage is in-topic content of the artifact, not an analytical claim about destiny.
+- **Zero violations.**
+
+---
+
+## Self-audit (v2, CAP-14)
+
+- [x] every requirement has a terminal state
+- [x] every live verdict cites a resolution (REQ-011 verdict, per-adjustment verdicts)
+- [x] every evidence_id resolves in the adapted package
+- [x] zero parent-only citations
+- [x] no EMULATED product set must to COVERED without citation (DEL-002a's binary video status explicitly flagged as student-executed; specification WRITTEN, binary SPECIFIED/student-produced per production plan)
+- [x] tie groups shipped as STILL_TIED/BLOCKED (no ties; A wins)
+- [x] fallback labelled (DEL-002b explicitly marked emergency fallback; not presented as primary)
+- [x] lint scopes clean (lexical 0, semantic 0)
+- [x] gap report present and empty for must requirements (DEL-002a binary execution is a student-action item, not a solver-coverage gap; the brief accepts design direction/specification as deliverable when artifact is student-executed)
+- [x] stale-dependency check after supersession: no verdict depends on a superseded premise (v1 text-chapbook-as-primary is superseded but retained as fallback with explicit status)
 
 **Audit result:** PASS.
