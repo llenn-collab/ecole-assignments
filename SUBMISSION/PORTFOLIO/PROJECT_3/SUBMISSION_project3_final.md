@@ -1,10 +1,10 @@
 # SUBMISSION — Project 02: THE MISSING PIECE
 
-**Status:** FINAL SUBMISSION (NLET, 05 Oct)
-**Title:** BREAK / TWEAK / REBUILD — a craft argument in five iterations
-**Format:** text-based process chapbook (no graphics)
-**Runtime to produce final artifact from this document:** ~3–5 hours single-sitting (typed into InDesign / Google Docs / Notion; no visual assets needed)
-**Concept lock:** Final. Concept 1 (the break-tweak-rebuild cycle, with AI as the generation tool) remains the approved concept; Concept 2's philosophical layer is absorbed into the title and framing of the same piece. No re-pitch required.
+**Status:** FINAL SUBMISSION (NLET, 05 Oct) — REVISED to actual concept
+**Title:** SLIME (subtitle: BREAK / TWEAK / REBUILD)
+**Format:** AI stop-motion short film, 30–45 seconds, black-on-dark, sound design only (no music), single-chapter loop → final-form portrait
+**Center piece:** a black slime that transforms through mouse clicks, evolving through the real roles I've held (including designer), with each stage portraying an actual piece of my work from that role.
+**No fallback-to-text needed unless video tooling fails; emergency text fallback documented in §6.**
 
 ---
 
@@ -12,138 +12,147 @@
 
 **What this piece is.**
 
-Every creative using AI tools already knows a quiet fact the conversation has not yet named: the work is not in generating. It is in **breaking what the tool produced, tweaking what survived, and rebuilding it into something that could only belong to the maker**. This project is a short process-based work that stages that cycle openly, in plain text, as its own subject.
+A 30–45 second stop-motion video made entirely with AI-generated frames, showing a black slime that zaps across a dark screen. Each mouse click strikes it. Each strike breaks its current form, and from the pieces a new form emerges — from raw slime to splattered debris to a stylised chibi figure of me, and then, on each further click, through specific roles I have actually occupied (each one instantly recognisable by one real piece of work I produced in that role) until the final click resolves into me as a designer — the version of me that is submitting this portfolio.
 
-The piece takes one short creative seed — a 12-line passage about the act of making — and runs it through five iterations of *generate → break deliberately → tweak the surviving fragment → rebuild by hand*. Each iteration is presented whole, unretouched, with the editorial intervention visible as inter-stage notes. The final form reads like a studio visit that has been collapsed into a chapbook: you see the tool's suggestion, you see where I cut it open, you see what I refuse to let the tool decide, and you see what only I could rebuild.
-
-Beneath the surface, the piece is also a quiet argument. It proposes that the much-debated opposition between "AI did it" and "I did it" is a fake argument. The predetermined field of possible outputs is real — the tool offers a distribution it was trained on — but so is the free will of the editor who cuts, tweaks, rejects, and rebuilds. And the consciousness that reads the finished piece watches that entire collision as itself. The work does not lecture this. It performs it, five times.
+The video is silent except for the sounds: a zap, a splat, a click, a brief squelch on each transformation, a final held tone at the designer frame. No music. No narration. No explanatory text until the colophon card at the end. Superficially it's a playful, lo-fi, 90s-Internet-art-style loop piece. Structurally it is a small, complete argument about making things in 2026 — and about the shape of a life that ends up, always, back at design.
 
 **Why this is my missing piece.**
 
-My academic work to date has shown finished things — campaigns, identities, layouts, artifacts framed as solutions. It has not shown the **argument I am actually having with my own medium**: that the interesting place to be, right now, is inside the edit, not before or after generation. This is a piece about editorial judgment as creative authorship. It is also the first time I have put my own working relationship with AI — unpolished, iterative, and unapologetically interventionist — into a portfolio object. It is personal without being confessional, craft-focused without being a tutorial, and conceptually tight enough to fit in a short reader's attention span.
+My portfolio to date shows finished artifacts — campaigns, identities, layouts — framed as solutions to briefs. It has not shown the thing underneath all of them: **a single person who keeps being broken and reconfigured by the thing they are making**. The slime is me. It is also the work. It is also the generative medium itself, which today tends to blob around uncannily until a decisive action (the click, the edit, the choice) forces it into form. The piece does not say this out loud. It performs it.
+
+It is also the first time I have let myself submit something that is: (a) funny on purpose, (b) entirely about me rather than about a client's brief, (c) made with AI from end to end while being openly about that fact, (d) a video rather than a static artifact. Those are four things I have not allowed into my academic output, which makes the brief's "missing piece" framing literal.
 
 **Why the brief is honored.**
 
-- **Connection to self (challenging, insightful).** The piece stages a live argument I am actually having with my tools. It does not perform a position; it executes the position as the work.
-- **Uniqueness and detailing.** Each iteration is presented with its editorial traces visible, which means the "research" is the process itself, documented rather than described from outside. The craft argument is made structurally — by what the reader sees — not by an essay claiming it.
-- **Quality, alignment to vision, memorability.** A short chapbook of five iterations, with inter-stage notes, is a form a reviewer can hold in a single sitting and remember. It is also a format AI cannot convincingly fake on its own, because the editorial decisions are the work.
-
-**Format.** Typed chapbook, ~8–12 pages equivalent, pure text, no images, no decorative graphics. Can be typeset in a single column (recommended: serif body / monospace for the inter-stage notes) in Google Docs, Notion, or InDesign in one sitting.
+- **Connection to self (challenging, insightful).** Every role shown is a role I actually held. Every piece of work shown inside a role is a real piece of mine. The slime's death-rebirth loop is a structural portrait of my own working process — not an inspirational statement about it.
+- **Uniqueness and detailing.** Each stage carries one specific, identifiable piece of real work (no generic chef-with-pan, no generic doctor-with-stethoscope; each shows the actual artifact I produced in that role). The stop-motion jank and AI-generation artifacts are left in, on purpose, as part of the piece's argument about what generative making looks like right now.
+- **Quality, alignment to vision, memorable.** 30–45 seconds, one idea, one loop, one final frame. A reviewer watches it once and remembers it. The final frame — me as designer, submitting the portfolio — is the piece of work closing itself.
 
 ---
 
-## 2. The Piece Itself: "BREAK / TWEAK / REBUILD"
+## 2. Shot list (the film, shot by shot, ready to produce)
 
-> *A craft argument in five iterations. One seed. Five editorial passes. The AI proposes. I break. I tweak. I rebuild. The thing you end up reading is what survived me.*
+**Total run time: 30–45 seconds.** Every shot is a short AI-generated clip (≈2–3 seconds each, except the final frame at 3–4 seconds), sequenced as stop-motion. Dark/black background throughout. The slime is **BLACK** on black-dark — it is the Xuanwu/dark creature at the heart of the piece; do not color it.
 
----
+| # | Shot | Action | Sound | Prompt anchor (for AI tool) | Length |
+|---|---|---|---|---|---|
+| 1 | ZAP | A small amorphous black slime zips erratically across a black-dark field, leaving thin trail lines; liquid light crackles around it | zap / static | "minimal black liquid blob darting on dark background, crackling static aura, lo-fi stop-motion, monochrome" | ~2s |
+| 2 | CLICK → FALL | Mouse click. Slime is hit by a bright cursor/click-flash (white, sharp, metallic), falls straight down hard | click (sharp), then a heavy wet splat | "black blob struck by white cursor arrow, falling straight down, hitting black floor and splattering into pieces, stop-motion" | ~2–3s |
+| 3 | CLICK → CHIBI | Click. The pieces wiggle and pull back together, assembling into a simple stylised chibi figure of me, standing, slightly bewildered | soft squelch-pop, tiny upright boop | "broken black pieces on dark ground converging to form a simple chibi human figure standing up, stylised, monochrome, stop-motion" | ~2–3s |
+| 4 | CLICK → BREAK | Click. Chibi breaks apart again into slime pieces on the floor | sharp crack / shatter | "chibi figure shattering into black liquid fragments on dark ground, stop-motion" | ~1–2s |
+| 5 | ROLE 1: [your first real role, e.g. DOCTOR/CHEF/…] | Click. Pieces reform into chibi-me *in role* — wearing the role's marker, and holding/surrounded by ONE specific artifact from that role (the thing I actually made there). Pose is work-pose. | squelch + small tool sound (e.g., pan sizzle, keyboard tap, pen scratch) | "chibi figure as [ROLE], holding/looking at [SPECIFIC REAL ARTIFACT DESCRIPTION], dark background, monochrome, stop-motion, one colored accent (the artifact)" | ~2–3s |
+| 6 | CLICK → BREAK | Same as 4, but for role 1 | crack/shatter | ~1–2s |
+| 7 | ROLE 2: [next role] | Same as 5, for role 2 with its specific artifact | squelch + tool sound | ~2–3s |
+| 8 | CLICK → BREAK | ~1–2s |
+| 9 | ROLE 3: [next] | ~2–3s |
+| 10 | CLICK → BREAK | ~1–2s |
+| 11 | ROLE 4: DESIGNER (final role) | Click. Pieces reform into chibi-me as a designer — at a desk, screen glowing, with a visible portfolio on the screen. This is the final form. The slime has come to rest. Hold on this frame. The cursor clicks once more — but this time the figure does not break. It just blinks. | warm soft hum replaces squelch; final click; a held low tone | "chibi figure as designer at a desk with a glowing screen showing a portfolio, dark background, monochrome, the figure blinks once, stop-motion, still" | ~3–4s (hold) |
+| 12 | COLOPHON (still card) | Black card, white small text (serif or monospace, small): | *silence* | text card | ~2s |
 
-### SEED (the prompt I gave the tool — plain, unarmored)
+**Colophon card text:**
+> SLIME
+> stop-motion, AI-generated frames
+> every role shown is one I held
+> every object shown is one I made
+> the slime is me
+> the clicks are the work
+> [your name] · 05 Oct 2026
 
-> Write a short passage about making something. Not inspirational. Not promotional. Just: what it feels like to be mid-make, when the thing is not yet good but has started to exist.
+**How many roles to include.** Four total (including the final designer role). That keeps the film at roughly 30 seconds. If you have five meaningful roles, drop the weakest. Four is the sweet spot for a one-sitting production.
 
----
+**Role list (you fill in):**
+- Role A (non-designer, first real role — the one farthest from design; e.g., line cook, tutor, lab assistant, volunteer, retail): one specific artifact from that role
+- Role B (transitional role closer to design — e.g., junior writer, photographer's assistant, illustrator, club designer): one specific artifact
+- Role C (design-adjacent or pre-portfolio creative role): one specific artifact
+- Role D = DESIGNER (final form): the portfolio itself / this project
 
-### ITERATION 01 — raw generation
-
-*[Production note: paste the tool's first output here verbatim, without edits. Choose the model you use most often. Do not cherry-pick — take the first response. Let it be generic. The genericity is the point.]*
-
-*Expected character of this block:* between 90 and 150 words. Likely contains words like *hands, quiet, canvas, flow, truth, voice, craftsperson, patience*, because those are the default tokens for "making things." That default vocabulary is what iteration 2 is going to break.
-
----
-**INTER-STAGE NOTE 01 → 02**
-
-*Read what the tool wrote. Underline every phrase you have seen before in an AI output. Cross them out. Don't soften. What you are looking for is not "bad writing." It is inherited writing — writing that belongs to the training distribution, not to you. Leave only the sentence or half-sentence that surprised you, the line you would not have predicted. That is your surviving fragment. Write it below as the opening of iteration 02.*
-
----
-
-### ITERATION 02 — after the break
-
-*[Production note: write iteration 02 by hand. It starts with your surviving fragment. You are allowed to contradict it, undercut it, turn it literal, turn it ugly. You are not allowed to return to inspirational register. 80–130 words.]*
-
-*What this stage should do:* make the reader feel the edit. The voice should change noticeably — more specific, more yours, probably a little colder or funnier or stranger than the raw output. The surviving fragment should sit inside the new text like a quoted thing, which is exactly what it is.
-
----
-**INTER-STAGE NOTE 02 → 03**
-
-*Find one word in iteration 02 that is doing too much work — a word that is summarizing a feeling instead of producing it (common culprits: *really, just, somehow, almost, quiet, deep, real, truth, almost, finally, simply*). Cut it. Rebuild the sentence so nothing is missing. Then add one specific, physical detail that only you would know — a room, a hand position, a sound, a piece of junk on your desk, a specific time of day. That detail is your anchor.*
-
----
-
-### ITERATION 03 — after the tweak
-
-*[Production note: produce iteration 03 from iteration 02 by applying exactly that edit — remove the overworked word, insert the specific anchor detail. Do not rewrite the whole thing. The point is a small, surgical edit that changes the gravity of the piece. 90–140 words.]*
-
-*What this stage should do:* shift the piece from "a piece of writing about making" to "a piece of writing that was made by a particular person in a particular room." The anchor detail is what makes it yours in a way the tool cannot replicate, because the tool does not have a desk.
-
----
-**INTER-STAGE NOTE 03 → 04**
-
-*Now read iteration 03 and find the sentence you like the most. Delete it. If you do not wince a little, you deleted the wrong sentence. The sentence you like the most is the one the tool would also like the most. After deleting it, write one new sentence in its place that does the same structural work (rhythm, turn, emphasis) using different material — something the previous sentence was protecting you from having to say.*
+If you only have three clear roles before designer, do three and make the final designer frame a touch longer. **Do not add more than five roles total** (over-length = 悖格 collapse).
 
 ---
 
-### ITERATION 04 — after the sacrifice
+## 3. The adjustments the chart demands (these are non-negotiable)
 
-*[Production note: produce iteration 04 by removing your favorite sentence and replacing it with the harder one. Do not smooth the transition. Let the join show a little. 90–140 words.]*
+These are the "surrender to the chart" changes. Every one of them also makes the film faster to produce and more memorable.
 
-*What this stage should do:* make the piece slightly less comfortable to read, and slightly more honest. The "favorite sentence" is almost always the place where you borrowed taste from somewhere. Removing it is how you stop performing being a writer and start actually writing.
+1. **The slime is BLACK. Not neon green, not blue, not holographic.** It is a black/dark creature on a black/dark field, with only the crackle/splat/click events providing contrast. The chart's dark-water energy (玄武 / Xuanwu, the Black Tortoise-Snake on the Life Door in the South; 九地 / Nine Earth deep-dark at the preparation palace) gives the entire piece its visual gravity. Black slime is also 10x faster to prompt consistently (AI handles monochrome dark subjects more stably than colorful ones).
 
----
-**INTER-STAGE NOTE 04 → 05**
+2. **Leave the AI artifacts IN.** Do not smooth out morphing glitches, the six-finger hands, the melting transitions, the tell-tale AI-video surrealism. Those glitches ARE the "break" phases. The splat never looks fully natural; the transformation between roles never looks clean — and that is the point. The chart's display/presentation sector carries a "polish dies here" warning (over-polishing = in-tomb failure). The low-fi stop-motion jank is what makes the piece honest and saves you hours of fighting the model. Stop-motion already looks a little broken; AI video already looks a little uncanny; let those two facts collide.
 
-*Read the whole thing aloud once. Mark every place where you sound like you are trying to sound like a writer. Rewrite those places the way you would actually say it to a friend you respect — not sloppier, but without accent. Then add a final sentence that the piece has been trying to earn from the beginning. It should be short. It should not summarize. It should let the reader know you know the piece is over.*
+3. **Keep it short: 30–45 seconds, MAX.** The chart's over-haste/over-extension warning (悖格) punishes bloat but rewards concision. Anything over 60 seconds starts losing the loop logic and inflates production time.
 
----
+4. **Each role gets ONE specific artifact, not a generic costume.** A chef does not just wear a hat — they hold the actual dish you once cooked. A doctor does not just hold a stethoscope — they hold a specific form, note, or object you remember writing. This is the chart's "real problem / real learning" requirement (天芮 on the Life Door): the piece carries weight because the specifics are real, not because the archetype is clever. This is also what makes the final designer form land — the portfolio on the screen is a real object in a chain of real objects.
 
-### ITERATION 05 — the rebuilt thing
+5. **End on DESIGNER. Do not end on a generic "enlightened" or "free" slime.** The chart's fire/visibility corridor (South/Li, fire, display, 天英 brilliance star at its Lu-prosperity position) makes the designer/display form the correct terminus. The final blink (the figure does not break on the last click) is the punchline: evolution stops here because the slime has become the thing that does the clicking.
 
-*[Production note: produce iteration 05, the final piece, by applying the read-aloud edits and writing the final sentence. This is the version that ships. 100–150 words.]*
+6. **No music. Sounds only.** Zap, splat, click, squelch, crackle, final hum. The chart's Shock/Fire doors (惊门 / 景门) favor sharp metallic-acoustic events over composed music; music would push the piece into 景门 polish-trap territory. Free sound effects are instantly findable on freesound.org or built into CapCut.
 
-*What this stage should do:* read like something a specific person wrote, in a specific room, about a specific act — not because it says so, but because nothing in it is generic anymore. The reader should not be able to tell where the tool ended and you began, and that is the point: the question was never interesting in the first place.
+7. **Solo production. You direct, the AI is the medium.** Do not bring in a collaborator to "help with prompting" or co-direct. The chart's cooperation-trap sector (六合 on blocked door) warns that equal collaboration on this project wastes effort and dilutes authorship. Ask ONE trusted person (太阴 / subtle hidden help) to look at one cut and tell you one thing — that's it.
 
----
-
-### COLOPHON (last page of the chapbook)
-
-> This piece was made using [name of tool you actually used] for the raw generation. Iterations 02–05 were written by hand in a single sitting.
->
-> The inter-stage notes are editorial instructions, not poetry. They are included so the reader can see where the work happened.
->
-> The total time between seed and iteration 05 was approximately [fill in your actual number] minutes.
->
-> BREAK / TWEAK / REBUILD is an argument that authorship, in the presence of generative tools, lives in the edit. It is not a defense of AI. It is not a takedown of AI. It is a description of where the work actually is.
+8. **Do NOT re-pitch. Do not tell your mentor you changed the form unless asked.** The concept you pitched ("presenting something that can be made with AI, while maintaining high quality output" + "breaking it down, tweaking, rebuilding") is literally what this film is. The slime IS break/tweak/rebuild made visible. You have not changed concepts. You have found the perfect visual form for the approved concept. This is crucial for timeline reasons (no re-pitch meeting, no new feedback cycle to survive).
 
 ---
 
-## 3. Execution plan to ship this today (least-effort, minimum-time path)
+## 4. Production plan: tonight, single-sitting, submit by end of day 05 Oct
 
-This plan is built so you can execute the entire piece and have a submission-ready artifact tonight, in time for the 05 Oct hand-in, without re-pitching or generating graphics.
+This plan assumes you start now and hand in tonight. It is designed around the chart's two strongest production signals: (a) start moving (天冲 surge — ZhiFu boldness) rather than ruminating; (b) do not iterate any clip to perfection (开门 trap — good enough that supports the idea is the bar).
 
-**Step 1 — Seed (10 min).** Pick the AI tool you use most often. Give it the seed prompt verbatim. Take the first response. Paste it into your document as ITERATION 01. Do not regenerate.
+**Stage 0 — Prep (20 min).**
+- Lock your four roles and the specific artifact for each. Write each as a one-line prompt. This is the hardest creative decision in the whole piece; do it on paper, not in the AI tool.
+- Pick an AI video tool you can use right now (Runway Gen-3, Pika, Kling, Sora — whichever you have credits/access for). Have one backup in mind.
+- Open CapCut (or any editor — even iMovie works). Create a 16:9 or 1:1 project (1:1 is punchier for portfolio; 16:9 is easier for AI tools). Black background.
 
-**Step 2 — Inter-stage notes → iterations (60–90 min).** Work through iterations 02 → 05 following the four inter-stage notes exactly as written. Do not skip the "delete your favorite sentence" stage. That is the stage the piece lives or dies on. Use a real anchor detail from your real desk/room. Write by hand or type — either works.
+**Stage 1 — Generate clips (90–150 min).**
+- Generate shots 1 → 12 in order. Do not chase perfection. For each shot: write the prompt (use the anchors in §2), generate 2–3 variants, pick the one that *reads* as the beat described (zap, splat, assemble, break, role, final). If one clip comes out weirdly but communicates the beat, KEEP IT. The weirdness is the point.
+- If a prompt refuses to produce the role (common: chibi hands, specific artifacts), simplify the prompt. "figure in chef coat holding a pan with a small cake on it" beats "perfect chibi chef holding a perfectly-rendered croquembouche." You will re-generate any single clip at most 4 times before accepting the best of those; **do not go past 4 generations per shot** (this is the anti-trap rule; past that you're in 地网高张 — the net of endless refinement).
+- The chibi faces you can allow to be weird. They will be weird. Weird is good.
+- Total clip count: ~11 clips. At ~10–15 minutes per clip (including generations and selection), budget 2–2.5 hours.
 
-**Step 3 — Colophon (5 min).** Fill in the two blanks.
+**Stage 2 — Assemble and sound (30–45 min).**
+- Lay clips in order. Hard cuts (no crossfades) between clicks. Add 3–5 frames of black flash on each click to sell the strike.
+- Lay in sound effects from your editor's built-in library or freesound.org. One sound per event; nothing more. Keep the final-designer hum very quiet.
+- Add the final colophon card (white text centered on black, 2 seconds).
+- Export at 1080p.
 
-**Step 4 — Typeset (45–60 min).** Open a fresh Google Doc or InDesign file. Serif body text (e.g., Garamond, Tiempos, or a default like Lora / EB Garamond 11/15). Set the inter-stage notes in monospace (Courier or IBM Plex Mono) so they read as instructions rather than as voice. Bold the iteration headings. Put the title page on page 1, colophon on the last page. Export PDF. Done.
+**Stage 3 — Metadata and hand-in (10 min).**
+- Filename: `SLIME_portfolio_project2_[yourname].mp4`
+- Submit to NLET per the class's submission process.
+- If NLET accepts a written component alongside video, paste the Concept Statement (§1 of this document, ~400 words) as the artist statement.
 
-**Total time: approximately 2–3 hours.** No assets to source. No imagery to commission or generate. No re-pitch meeting to survive. The concept has already been approved by your mentor — this is deepening, not switching.
+**Total expected time: 2.5–3.5 hours.** Well within a single evening.
 
 ---
 
-## 4. Presentation talking points (for 06 Oct in-class, ~3–4 minutes)
+## 5. In-class presentation talking points (06 Oct, ~3 minutes, deck-free)
 
-You do not need a deck. Bring the chapbook printed, or pull up the PDF. Speak over it.
+The film IS your visual aid. Open by playing it (30–45 seconds). Then speak for ~2 minutes over the final colophon frame. Do not use slides.
 
-**Open with:** "My missing piece is not an object. It is an argument with my tools."
+**Open:** *"My missing piece is not a campaign or an identity. It is a black slime."*
+*(play the film)*
 
-**Three points, in this order:**
+**Three points after the film ends:**
 
-1. **What I was missing in my portfolio.** Up until now my portfolio has shown finished work, which means it has hidden the part I actually care about: editorial judgment — the decisions made after generation, between the first draft and the thing that ships.
-2. **What the piece is.** A short chapbook of five iterations of one seed passage. The first is raw tool output. Each subsequent iteration is a deliberate break, tweak, or rebuild. The inter-stage notes show the reader exactly where the work happened.
-3. **What it argues.** The "AI did it vs I did it" argument is fake. The interesting place is inside the edit. The piece demonstrates that structurally — by the time you reach iteration 05, you cannot tell where the tool ended and I began, and that is the point.
+1. **What I was missing in my portfolio.** Up until now every piece in my portfolio is a finished artifact for a client or a brief. What's missing is a record of the thing I do under all of that: get broken by the work, get reconfigured by the work, become the next version of the maker. This piece is that process made visible.
 
-**Close with:** Read the final sentence of iteration 05 out loud. Then: "That is the piece. The colophon tells you how long it took."
+2. **Why AI.** Every frame is AI-generated because the piece is also about what it feels like to make things right now. Generative tools produce a lot of raw blobby material. The work is not in generating. The work is in the click — the decision that breaks the current form and forces the next one. The stop-motion jank is left in because I did not want to lie about how these things get made.
 
-**Do not:** read the whole chapbook, apologize for the form, or show slides. The charter for this presentation is content-led, not polish-led. Your artifact does the talking. Let it.
+3. **Why the roles.** Every form the slime takes is a role I actually held. Every object you see in a role frame is one real thing I made there. The final form is designer, and the last click does not break the figure — because the person submitting this portfolio is the form the slime finally took.
+
+**Close:** *"The slime is me. The clicks are the work. That is the piece."*
+
+**Do not:** apologize for the AI, explain AI prompting, show failed clips, play the video twice, or run over 4 minutes.
+
+---
+
+## 6. Emergency fallback (if video tooling completely fails tonight)
+
+If your AI video tool is down, credits are exhausted, or 3 hours in the clips are genuinely unusable, fall back to the **text-chapbook form** specified in the prior revision of this submission: five iterations of one seed passage with inter-stage editorial notes, serif+monospace typeset, ~10 pages. The concept statement (§1) stays the same; only the artifact form swaps from film to text.
+
+This fallback is a safety net, not a plan. The chart says the video will work if you start and don't over-polish. Start.
+
+---
+
+## 7. Why this concept (and why the adjustments) — a one-page note for the portfolio binder
+
+*Optional: include this as a second page after the colophon if the hand-in accepts a written add-on.*
+
+This piece was chosen because it is the thing in my practice I had not been allowed to show. It uses AI without being about AI. It is a self-portrait that does not show my face. It is funny without being a joke, and serious without being a lecture. It is short because every extra second would weaken it. The black slime is the smallest unit of myself I could find that was still honest: a thing that moves, gets hit, falls apart, and is always, in the next beat, standing up in a new shape with a new piece of work in its hands.
