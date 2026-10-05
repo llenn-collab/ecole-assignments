@@ -1,0 +1,127 @@
+{
+  "cap": "CAP-04",
+  "source_format": "YAML",
+  "requirement_states": [
+    {
+      "id": "REQ-001",
+      "state": "RESOLVED",
+      "anchor": "assignment.format + assignment.submission",
+      "must_level": "must",
+      "artefact_type": "deck_continuation"
+    },
+    {
+      "id": "REQ-002",
+      "state": "RESOLVED",
+      "anchor": "assignment.recommended_length",
+      "must_level": "may",
+      "artefact_type": "slide_count"
+    },
+    {
+      "id": "REQ-003",
+      "state": "RESOLVED",
+      "anchor": "assignment.assignment_objective",
+      "must_level": "must",
+      "artefact_type": "strategy"
+    },
+    {
+      "id": "REQ-004",
+      "state": "RESOLVED",
+      "anchor": "assignment.suggested_slide_structure[slide 1]",
+      "must_level": "must",
+      "artefact_type": "content_section"
+    },
+    {
+      "id": "REQ-005",
+      "state": "RESOLVED",
+      "anchor": "assignment.suggested_slide_structure[slide 2]",
+      "must_level": "must",
+      "artefact_type": "content_section"
+    },
+    {
+      "id": "REQ-006",
+      "state": "RESOLVED",
+      "anchor": "assignment.suggested_slide_structure[slide 3]",
+      "must_level": "must",
+      "artefact_type": "content_section"
+    },
+    {
+      "id": "REQ-007",
+      "state": "RESOLVED",
+      "anchor": "assignment.suggested_slide_structure[slide 4]",
+      "must_level": "must",
+      "artefact_type": "content_section"
+    },
+    {
+      "id": "REQ-008",
+      "state": "RESOLVED",
+      "anchor": "assignment.suggested_slide_structure[slide 5]",
+      "must_level": "must",
+      "artefact_type": "content_section"
+    },
+    {
+      "id": "REQ-009",
+      "state": "RESOLVED",
+      "anchor": "assignment.suggested_slide_structure[slide 6]",
+      "must_level": "must",
+      "artefact_type": "content_section"
+    },
+    {
+      "id": "REQ-010",
+      "state": "RESOLVED",
+      "anchor": "assignment.suggested_slide_structure[slide 7]",
+      "must_level": "must",
+      "artefact_type": "content_section"
+    },
+    {
+      "id": "REQ-011",
+      "state": "RESOLVED",
+      "anchor": "assignment.suggested_slide_structure[slide 8]",
+      "must_level": "must",
+      "artefact_type": "content_section"
+    },
+    {
+      "id": "REQ-012",
+      "state": "RESOLVED",
+      "anchor": "assignment.suggested_slide_structure[slide 9]",
+      "must_level": "must",
+      "artefact_type": "content_section"
+    },
+    {
+      "id": "REQ-013",
+      "state": "RESOLVED",
+      "anchor": "assignment.suggested_slide_structure[slide 10]",
+      "must_level": "must",
+      "artefact_type": "content_section"
+    },
+    {
+      "id": "REQ-014",
+      "state": "RESOLVED",
+      "anchor": "assignment.suggested_slide_structure[slide 11]",
+      "must_level": "must",
+      "artefact_type": "content_section"
+    },
+    {
+      "id": "REQ-015",
+      "state": "RESOLVED",
+      "anchor": "assignment.assignment_checklist",
+      "must_level": "must",
+      "artefact_type": "checklist"
+    },
+    {
+      "id": "REQ-016",
+      "state": "RESOLVED",
+      "anchor": "assignment.evaluation_criteria",
+      "must_level": "should",
+      "artefact_type": "quality_bar"
+    },
+    {
+      "id": "REQ-017",
+      "state": "RESOLVED",
+      "anchor": "assignment.submission_date",
+      "must_level": "must",
+      "artefact_type": "deadline"
+    }
+  ],
+  "unresolved": [],
+  "blocked": []
+}

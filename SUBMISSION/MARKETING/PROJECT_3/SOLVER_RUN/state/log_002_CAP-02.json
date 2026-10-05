@@ -1,0 +1,10 @@
+{
+  "CAP": "CAP-02",
+  "call_index": 2,
+  "in": [
+    "package"
+  ],
+  "out": "package_normalize",
+  "cost": 18,
+  "status": "OK"
+}

@@ -1,0 +1,87 @@
+{
+  "answers": [
+    {
+      "claim_id": "C001",
+      "label": "Single point of gravity",
+      "confidence": 0.91
+    },
+    {
+      "claim_id": "C002",
+      "label": "Restraint as the operating mode",
+      "confidence": 0.9
+    },
+    {
+      "claim_id": "C003",
+      "label": "Display is the reach engine",
+      "confidence": 0.96
+    },
+    {
+      "claim_id": "C004",
+      "label": "Value accrues through quiet channels",
+      "confidence": 0.86
+    },
+    {
+      "claim_id": "C005",
+      "label": "Announcement through the alliance channel fails",
+      "confidence": 0.97
+    },
+    {
+      "claim_id": "C006",
+      "label": "Three friction registers",
+      "confidence": 0.86
+    },
+    {
+      "claim_id": "C007",
+      "label": "The centre is held under contest",
+      "confidence": 0.95
+    },
+    {
+      "claim_id": "C008",
+      "label": "One closed circulation",
+      "confidence": 0.84
+    },
+    {
+      "claim_id": "C009",
+      "label": "Two axes are already bridged",
+      "confidence": 0.81
+    },
+    {
+      "claim_id": "C010",
+      "label": "Temporal weight sits twice on palace 7",
+      "confidence": 0.81
+    },
+    {
+      "claim_id": "C011",
+      "label": "The opening is real but pressed",
+      "confidence": 0.96
+    },
+    {
+      "claim_id": "C012",
+      "label": "Subject stem and subject seat diverge",
+      "confidence": 0.97
+    },
+    {
+      "claim_id": "C013",
+      "label": "Auspicious combination on a depleted substrate",
+      "confidence": 0.86
+    }
+  ],
+  "hidden_problems_available": true,
+  "best_solution_candidates": [
+    "ARC-CENTRE-OF-GRAVITY",
+    "ARC-RESTRAINT-MODE",
+    "ARC-VISIBILITY-ENGINE",
+    "ARC-PRIVATE-GAIN",
+    "ARC-BROKEN-BROADCAST",
+    "ARC-FRICTION-ZONE",
+    "ARC-CONTESTED-CENTRE",
+    "ARC-CONNECTED-SYSTEM",
+    "ARC-BRIDGED-AXES",
+    "ARC-DOUBLED-TEMPORAL-SIGNATURE",
+    "ARC-PRESSED-OPENING",
+    "ARC-DIVERGENT-SUBJECT",
+    "ARC-SEED-UNDER-FROST"
+  ],
+  "note": "chart-derived only; not yet requirement-bound",
+  "source": "QMDJ_ANALYST_RUN/package/10_solution_hypotheses.json + 09_case_alignment.json"
+}

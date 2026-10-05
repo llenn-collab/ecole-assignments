@@ -1,0 +1,132 @@
+{
+  "file_role": "Operator context amendment — re-classifies the case-context ingestion path for run QMDJ-P3-001. This is an explicit, logged re-classification by the operator who cast the chart; it is NOT a silent upgrade and the v1 stamp is retained beside it (charter hard_rule: 'A degraded context never silently upgrades to full authority').",
+  "run_id": "QMDJ-P3-001",
+  "amendment_id": "AMEND-01",
+  "issued_by": "operator (chart caster)",
+  "operator_declaration": "The assignment brief IS the case context, and it is the reason the chart was cast.",
+  "charter_basis": {
+    "accept_formats": "case_context_ingest.accept_formats = [YAML, JSON, free_prose] — prose is an accepted ingestion format, so the brief is not, by itself, a schema violation",
+    "free_text_fallback": "case_context_ingest.free_text_fallback.allowed = true; procedure CAP-17 decomposes the text into slots/facts/unknowns and tags every derived row DECOMPOSED",
+    "key_aliases_applied": "the brief's own key names were mapped through the alias table where they match (title/format/submission/submission_date/assignment_objective); the remaining slots were decomposed from prose (DECOMPOSED)",
+    "degradation_rule_query": "the v1 stamp was produced by the clause 'Any input not matching the schema exactly is stamped CONTEXT_DEGRADED'. The operator's declaration resolves the ambiguity between that clause and the explicit free_prose acceptance: the accepted path is free_prose, and the degradation stamp is superseded rather than deleted."
+  },
+  "what_changes": [
+    "package header context_status: CONTEXT_DEGRADED -> CONTEXT_FREE_PROSE_ACCEPTED (v1 stamp retained in 02_case_context_digest.v1_stamp)",
+    "the six charter case-context slots are now populated from the brief, each with its raw sentence beside it and each tagged DECOMPOSED",
+    "facet-cap ranking criterion: SOURCE_DEPENDENCY_ORDER (A-010) -> DECISION_RELEVANCE, ranked against the brief's own evaluation criteria",
+    "QUESTION_OVERLOAD is now logged (CAP-17 step 4 requires it to be reported; the v1 run reported the facet cap in the digest but did not raise the anomaly code)",
+    "case timeframe is now available for the deliverable's horizon (the brief's two-week calendar cycle and its 5th October 2026 submission date)"
+  ],
+  "what_cannot_change": [
+    "any chart-derived claim, evidence atom, relation, archetype, score or ledger number (charter cc1: case context decides WHAT MATTERS, not WHAT IS TRUTH; cc2: no claim may cite case_context as support)",
+    "the six BLOCKED protocol classes (HC/AX/ZQ/CS/JG/QT remain unsupplied)",
+    "the ABSENT slots (void, horse; and heaven stem, gate, deity at the centre)",
+    "C010's limitation: the case timeframe is a deadline the operator supplied, not chart timing; the chart still supplies no civil date or clock time"
+  ],
+  "authority_note": "Per the charter, rows derived from prose never enter CONK/UNK at full authority: a CONFLICT_WITH_KNOWN check against a DECOMPOSED fact downgrades to POTENTIAL_CONFLICT instead of veto. CONK01-CONK04 are therefore re-stamped CONK_DECOMPOSED with POTENTIAL_CONFLICT semantics. No live verdict conflicts with any of them, so no claim moves.",
+  "slots_filled": {
+    "casting_reason": {
+      "value": "A student must produce Assignment 2 of a marketing course: a content and social media strategy for their own brand, building on the strategic foundation created in Assignment 1, for submission on 5th October 2026.",
+      "raw_quotes": [
+        "assignment.title: \"2: Content & Social Media Strategy\"",
+        "assignment.subtitle: \"Build your brand's digital content ecosystem\"",
+        "assignment.assignment_objective: \"Using the strategic foundation created in Assignment 1, develop a content and social media strategy that shows how your brand will attract, engage and build relationships with its target audience.\"",
+        "assignment.submission_date: \"5th October 2026\""
+      ],
+      "tag": "DECOMPOSED"
+    },
+    "question": {
+      "value": "What content and social media strategy should this brand run - what must the content achieve, how should the brand speak, on which surfaces, with what ideas, and with what participant and creator programmes?",
+      "raw_quotes": [
+        "assignment.assignment_objective",
+        "assignment.suggested_slide_structure[0].content[0]: \"What does content need to achieve for your brand?\"",
+        "assignment.suggested_slide_structure[1].content[0]: \"Define how the brand should communicate online.\"",
+        "assignment.suggested_slide_structure[10].answer: \"Then answer: After one month, how would you know whether your strategy is working?\""
+      ],
+      "tag": "DECOMPOSED"
+    },
+    "subject": {
+      "value": "project: the student's own brand (the persona is the brand's target audience)",
+      "raw_quotes": [
+        "assignment.assignment_objective: \"...for your brand...\"",
+        "assignment.suggested_slide_structure[3].note: \"...justify your selection based on the persona created in Assignment 1.\""
+      ],
+      "tag": "DECOMPOSED"
+    },
+    "domain": {
+      "value": "other: marketing / brand content strategy (the charter's domain list carries no marketing class; 'other' is the honest bind)",
+      "raw_quotes": [
+        "assignment.title",
+        "assignment.subtitle"
+      ],
+      "tag": "DECOMPOSED"
+    },
+    "timeframe_of_interest": {
+      "value": "The assignment cycle: a two-week content horizon, submitted 5th October 2026. This is a CASE timeframe (a deliverable deadline), not chart timing.",
+      "raw_quotes": [
+        "assignment.submission_date: \"5th October 2026\"",
+        "assignment.suggested_slide_structure[9].content[0]: \"Create a 2 week content plan.\""
+      ],
+      "tag": "DECOMPOSED"
+    },
+    "decision_needed": {
+      "value": "Which content and social media strategy to commit to and submit - objectives, message and tone, pillars, platforms, the adapted idea, concepts, the hero idea, participant mechanisms, creator approach, the two-week calendar and the measurement set.",
+      "raw_quotes": [
+        "assignment.assignment_checklist (11 items)",
+        "assignment.evaluation_criteria.criteria (4 criteria)"
+      ],
+      "tag": "DECOMPOSED"
+    }
+  },
+  "facet_ranking": {
+    "criterion": "DECISION_RELEVANCE",
+    "ranking_key": "the brief's own evaluation criteria: (1) strategic relevance, (2) creative thinking, (3) platform understanding, (4) integration",
+    "mapping": [
+      {
+        "Q": "Q1",
+        "facet": "objectives",
+        "selected_by": "strategic relevance"
+      },
+      {
+        "Q": "Q2",
+        "facet": "message + tone",
+        "selected_by": "strategic relevance"
+      },
+      {
+        "Q": "Q3",
+        "facet": "pillars",
+        "selected_by": "strategic relevance + creative thinking"
+      },
+      {
+        "Q": "Q4",
+        "facet": "platforms",
+        "selected_by": "platform understanding"
+      },
+      {
+        "Q": "Q5",
+        "facet": "one idea across platforms",
+        "selected_by": "platform understanding + integration"
+      },
+      {
+        "Q": "Q6",
+        "facet": "concepts + visuals",
+        "selected_by": "creative thinking"
+      },
+      {
+        "Q": "Q7",
+        "facet": "hero idea",
+        "selected_by": "creative thinking + integration"
+      }
+    ],
+    "deferred": [
+      "Q8 community",
+      "Q9 creators",
+      "Q10 calendar",
+      "Q11 measurement"
+    ],
+    "deferred_reason": "execution support: none of the four evaluation criteria names them; they are graded only through 'integration'. The charter's 7-facet cap is hard, so they remain deferred - unchanged from v1.",
+    "result_vs_v1": "the split is identical (Q1-Q7 analysed, Q8-Q11 deferred); only the criterion and its justification changed"
+  },
+  "context_status_v2": "CONTEXT_FREE_PROSE_ACCEPTED",
+  "context_status_v1_retained": "CONTEXT_DEGRADED"
+}

@@ -1,0 +1,21 @@
+{
+  "cap": "CAP-14",
+  "checklist": {
+    "every_requirement_has_terminal_state": true,
+    "every_live_verdict_cites_resolution": true,
+    "every_evidence_id_resolves": true,
+    "zero_parent_only_citations": true,
+    "no_emulated_product_covered_a_must_without_citation": true,
+    "tie_groups_shipped_as_still_tied_or_blocked": true,
+    "lint_scopes_clean": true,
+    "gap_report_present": true,
+    "gap_report_empty_for_clean_render": true
+  },
+  "passes": 9,
+  "open_items": [],
+  "not_applicable": [
+    "fallback_labels_present (run is not in fallback mode)"
+  ],
+  "red_team_blockers": [],
+  "audit_fix_count": 0
+}

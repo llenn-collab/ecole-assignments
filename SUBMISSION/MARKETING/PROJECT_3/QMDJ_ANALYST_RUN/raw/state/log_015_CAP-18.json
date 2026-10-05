@@ -1,0 +1,13 @@
+{
+  "CAP": "CAP-18",
+  "batch": "B5",
+  "call_index": 15,
+  "cost": 341,
+  "in": [
+    "claim_set"
+  ],
+  "max_out_tokens": null,
+  "out": "case_alignment",
+  "over_cap": false,
+  "status": "OK"
+}

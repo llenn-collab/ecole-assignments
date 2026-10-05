@@ -1,0 +1,99 @@
+{
+  "source": "ASSIGNMENTS/MARKETING/project_3.yaml + SUBMISSION/MARKETING/project_1.pdf",
+  "facts": [
+    {
+      "id": "CONK01",
+      "statement": "Deliverable: a presentation continuing the same document as the previous assignment.",
+      "source": "brief: submission",
+      "verdict": null
+    },
+    {
+      "id": "CONK02",
+      "statement": "Recommended length is open; the brief supplies an 11-section outline.",
+      "source": "brief: recommended_length",
+      "verdict": null
+    },
+    {
+      "id": "CONK03",
+      "statement": "Submission date 5th October 2026.",
+      "source": "brief: submission_date",
+      "verdict": null
+    },
+    {
+      "id": "CONK04",
+      "statement": "The brand is Off Hours - D2C sleep & recovery, melatonin-free night-drink sachets, Mumbai + Bengaluru.",
+      "source": "Part 1 deck, slides 1-2, 10",
+      "verdict": null
+    },
+    {
+      "id": "CONK05",
+      "statement": "Price points are 999 trial kit and 1,899/month subscription - the deck must not contradict them.",
+      "source": "Part 1 deck, slide 1",
+      "verdict": null
+    },
+    {
+      "id": "CONK06",
+      "statement": "Business goal: 1,000 paying subscribed households within 12 months, Mumbai + Bengaluru.",
+      "source": "Part 1 deck, slide 2",
+      "verdict": null
+    },
+    {
+      "id": "CONK07",
+      "statement": "Persona: Meera Nair, 32, Product Manager, Bengaluru (Koramangala).",
+      "source": "Part 1 deck, slide 5",
+      "verdict": null
+    },
+    {
+      "id": "CONK08",
+      "statement": "Part 1 names four non-priorities: television & print; mass display / broad awareness bursts; celebrity influencer blitzes; heavy marketplace-ads dependence.",
+      "source": "Part 1 deck, slide 8",
+      "verdict": "V-004"
+    },
+    {
+      "id": "CONK09",
+      "statement": "Part 1 sequences partnerships and mass awareness after the subscriber base makes them worth doing (Phase 2).",
+      "source": "Part 1 deck, slides 6 and 10",
+      "verdict": "V-003"
+    },
+    {
+      "id": "CONK10",
+      "statement": "Part 1 primary channels are Instagram Reels/short video, search, own storefront + UPI, WhatsApp concierge, sleep-journal e-mail.",
+      "source": "Part 1 deck, slide 8",
+      "verdict": null
+    },
+    {
+      "id": "CONK11",
+      "statement": "Voice established in Part 1: understated, proof-led, calm; no hype.",
+      "source": "Part 1 deck, slides 3, 6, 10",
+      "verdict": null
+    },
+    {
+      "id": "CONK12",
+      "statement": "Audience excludes insomniacs seeking clinical treatment and price-first general supplement buyers.",
+      "source": "Part 1 deck, slide 4",
+      "verdict": null
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "UNK01",
+      "prohibition": "No analytics: actual follower counts, engagement rates and current performance are unavailable.",
+      "verdict": null
+    },
+    {
+      "id": "UNK02",
+      "prohibition": "Whether either recommended creator already works with a competing sleep brand.",
+      "verdict": "V-009"
+    },
+    {
+      "id": "UNK03",
+      "prohibition": "The content-production budget and team size.",
+      "verdict": null
+    },
+    {
+      "id": "UNK04",
+      "prohibition": "Whether a product launch or reformulation is planned in the assignment window.",
+      "verdict": null
+    }
+  ]
+}

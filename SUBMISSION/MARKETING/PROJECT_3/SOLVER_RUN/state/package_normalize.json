@@ -1,0 +1,1079 @@
+{
+  "cap": "CAP-02",
+  "package_version": "7.0",
+  "run_id": "QMDJ-P3-001",
+  "string_or_scalar_leaves": 5896,
+  "strings_changed_by_nfc_trim": 0,
+  "absence_codes": [
+    {
+      "path": "/00_package_manifest/render_gate/GAP_REPORT_empty",
+      "code": "FALSE"
+    },
+    {
+      "path": "/02_case_context_digest/schema_exact_match",
+      "code": "FALSE"
+    },
+    {
+      "path": "/03_chart_overview/schema_bind/schema_adapter_supplied",
+      "code": "FALSE"
+    },
+    {
+      "path": "/03_chart_overview/schema_bind/unsafe",
+      "code": "FALSE"
+    },
+    {
+      "path": "/03_chart_overview/board_card[0]/hosted_stem",
+      "code": "NULL"
+    },
+    {
+      "path": "/03_chart_overview/board_card[1]/hosted_stem",
+      "code": "NULL"
+    },
+    {
+      "path": "/03_chart_overview/board_card[3]/hosted_stem",
+      "code": "NULL"
+    },
+    {
+      "path": "/03_chart_overview/board_card[4]/deity",
+      "code": "NULL"
+    },
+    {
+      "path": "/03_chart_overview/board_card[4]/gate",
+      "code": "NULL"
+    },
+    {
+      "path": "/03_chart_overview/board_card[4]/heaven_stem",
+      "code": "NULL"
+    },
+    {
+      "path": "/03_chart_overview/board_card[4]/hosted_stem",
+      "code": "NULL"
+    },
+    {
+      "path": "/03_chart_overview/board_card[5]/hosted_stem",
+      "code": "NULL"
+    },
+    {
+      "path": "/03_chart_overview/board_card[6]/hosted_stem",
+      "code": "NULL"
+    },
+    {
+      "path": "/03_chart_overview/board_card[7]/hosted_stem",
+      "code": "NULL"
+    },
+    {
+      "path": "/03_chart_overview/board_card[8]/hosted_stem",
+      "code": "NULL"
+    },
+    {
+      "path": "/04_palace_identity_resolution/palace_blocks[0]/lodging",
+      "code": "NULL"
+    },
+    {
+      "path": "/04_palace_identity_resolution/palace_blocks[1]/lodging",
+      "code": "NULL"
+    },
+    {
+      "path": "/04_palace_identity_resolution/palace_blocks[2]/lodging",
+      "code": "NULL"
+    },
+    {
+      "path": "/04_palace_identity_resolution/palace_blocks[3]/lodging",
+      "code": "NULL"
+    },
+    {
+      "path": "/04_palace_identity_resolution/palace_blocks[5]/lodging",
+      "code": "NULL"
+    },
+    {
+      "path": "/04_palace_identity_resolution/palace_blocks[6]/lodging",
+      "code": "NULL"
+    },
+    {
+      "path": "/04_palace_identity_resolution/palace_blocks[7]/lodging",
+      "code": "NULL"
+    },
+    {
+      "path": "/04_palace_identity_resolution/palace_blocks[8]/lodging",
+      "code": "NULL"
+    },
+    {
+      "path": "/04_palace_identity_resolution/centre_block_validation/invented_opposite",
+      "code": "FALSE"
+    },
+    {
+      "path": "/04_palace_identity_resolution/role_resolution[7]/core",
+      "code": "FALSE"
+    },
+    {
+      "path": "/04_palace_identity_resolution/role_resolution[8]/core",
+      "code": "FALSE"
+    },
+    {
+      "path": "/04_palace_identity_resolution/role_resolution[9]/core",
+      "code": "FALSE"
+    },
+    {
+      "path": "/04_palace_identity_resolution/role_resolution[10]/core",
+      "code": "FALSE"
+    },
+    {
+      "path": "/04_palace_identity_resolution/role_resolution[11]/core",
+      "code": "FALSE"
+    },
+    {
+      "path": "/04_palace_identity_resolution/role_resolution[12]/core",
+      "code": "FALSE"
+    },
+    {
+      "path": "/04_palace_identity_resolution/role_resolution[13]/core",
+      "code": "FALSE"
+    },
+    {
+      "path": "/04_palace_identity_resolution/role_resolution[14]/core",
+      "code": "FALSE"
+    },
+    {
+      "path": "/04_palace_identity_resolution/role_resolution[15]/core",
+      "code": "FALSE"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[0]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[1]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[2]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[5]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[6]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[7]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[10]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[11]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[12]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[15]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[16]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[17]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[20]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[22]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[23]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[24]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[27]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[28]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[29]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[32]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[33]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[34]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[37]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[38]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/05_structure_evidence/composite_atoms/atoms[39]/role",
+      "code": "NULL"
+    },
+    {
+      "path": "/08_claim_lines/claims[0]/candidates[0]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[0]/candidates[1]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[1]/candidates[0]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[1]/candidates[1]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[2]/candidates[0]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[3]/candidates[0]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[4]/candidates[0]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[4]/candidates[1]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[5]/candidates[0]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[6]/candidates[0]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[7]/candidates[0]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[8]/candidates[0]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[9]/candidates[0]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[10]/candidates[0]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[11]/candidates[0]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[11]/candidates[1]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/08_claim_lines/claims[12]/candidates[0]/supported",
+      "code": "FALSE"
+    },
+    {
+      "path": "/10_solution_hypotheses/hypotheses[0]/scenario_condition",
+      "code": "NULL"
+    },
+    {
+      "path": "/10_solution_hypotheses/hypotheses[1]/scenario_condition",
+      "code": "NULL"
+    },
+    {
+      "path": "/10_solution_hypotheses/hypotheses[2]/scenario_condition",
+      "code": "NULL"
+    },
+    {
+      "path": "/10_solution_hypotheses/hypotheses[3]/scenario_condition",
+      "code": "NULL"
+    },
+    {
+      "path": "/10_solution_hypotheses/hypotheses[4]/scenario_condition",
+      "code": "NULL"
+    },
+    {
+      "path": "/10_solution_hypotheses/hypotheses[5]/scenario_condition",
+      "code": "NULL"
+    },
+    {
+      "path": "/10_solution_hypotheses/hypotheses[6]/scenario_condition",
+      "code": "NULL"
+    },
+    {
+      "path": "/10_solution_hypotheses/hypotheses[7]/scenario_condition",
+      "code": "NULL"
+    },
+    {
+      "path": "/10_solution_hypotheses/hypotheses[8]/scenario_condition",
+      "code": "NULL"
+    },
+    {
+      "path": "/10_solution_hypotheses/hypotheses[9]/scenario_condition",
+      "code": "NULL"
+    },
+    {
+      "path": "/10_solution_hypotheses/hypotheses[10]/scenario_condition",
+      "code": "NULL"
+    },
+    {
+      "path": "/10_solution_hypotheses/hypotheses[11]/scenario_condition",
+      "code": "NULL"
+    },
+    {
+      "path": "/10_solution_hypotheses/hypotheses[12]/scenario_condition",
+      "code": "NULL"
+    },
+    {
+      "path": "/12_uncertainty_limits/unk_guards[0]/resolves",
+      "code": "FALSE"
+    },
+    {
+      "path": "/15_tool_event_log/self_audit/checklist/GAP_REPORT_present_and_empty_for_clean_render",
+      "code": "NULL"
+    },
+    {
+      "path": "/15_tool_event_log/context_amendment/chart_layer_touched",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[0]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[1]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[2]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[3]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[4]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[5]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[6]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[7]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[8]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[9]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[10]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[11]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[12]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[13]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[14]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[15]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[16]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[17]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[18]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[19]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[20]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[21]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[22]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[23]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[24]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[25]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[26]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[27]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[28]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[29]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[30]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[31]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[32]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[33]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[34]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[35]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[36]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[37]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[38]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[39]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[40]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[41]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[42]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[43]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[44]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[45]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[46]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[47]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[48]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[49]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[50]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[51]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[52]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[53]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[54]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[55]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[56]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[57]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[58]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[59]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[60]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[61]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[62]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[63]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[64]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[65]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[66]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[67]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[68]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[69]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[70]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[71]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[72]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[73]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[74]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[75]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[76]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[77]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[78]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[79]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[80]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[81]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[82]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[83]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[84]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[85]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[86]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[87]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[88]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[89]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[90]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[91]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[92]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[93]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[94]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[95]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[96]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[97]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[98]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[99]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[100]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[101]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[102]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[103]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[104]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[105]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[106]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[107]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[108]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[109]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[110]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[111]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[112]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[113]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[114]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[115]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[116]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[117]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[118]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[119]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[120]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[121]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[122]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[123]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[124]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[125]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[126]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[127]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[128]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[129]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[130]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[131]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[132]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[133]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[134]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[135]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[136]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[137]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[138]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[139]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[140]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[141]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[142]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[143]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[144]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[145]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[146]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[147]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[148]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[149]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[150]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[151]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[152]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[153]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[154]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[155]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[156]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[157]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[158]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[159]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[160]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[161]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[162]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[163]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[164]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[165]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[166]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[167]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[168]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[169]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[170]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[171]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[172]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[173]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[174]/changed",
+      "code": "FALSE"
+    },
+    {
+      "path": "/16_provenance_appendix/raw_to_normalized_map[175]/changed",
+      "code": "FALSE"
+    }
+  ],
+  "absence_count": 267,
+  "mutation": "none (law 3)"
+}

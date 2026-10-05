@@ -1,0 +1,1919 @@
+{
+  "section": "16_provenance_appendix",
+  "raw_to_normalized_map": [
+    {
+      "changed": false,
+      "normalized": "Yi Dun - Lun Cang Jia",
+      "path": "/chart_info/system",
+      "raw": "Yi Dun - Lun Cang Jia"
+    },
+    {
+      "changed": false,
+      "normalized": "Qimen Dunjia Chart",
+      "path": "/chart_info/method",
+      "raw": "Qimen Dunjia Chart"
+    },
+    {
+      "changed": false,
+      "normalized": "Hourly Rotating Qimen, Yin Dun 7 Ju",
+      "path": "/chart_info/type",
+      "raw": "Hourly Rotating Qimen, Yin Dun 7 Ju"
+    },
+    {
+      "changed": false,
+      "normalized": "丙午",
+      "path": "/chart_info/ganzhi/year",
+      "raw": "丙午"
+    },
+    {
+      "changed": false,
+      "normalized": "丁酉",
+      "path": "/chart_info/ganzhi/month",
+      "raw": "丁酉"
+    },
+    {
+      "changed": false,
+      "normalized": "辛亥",
+      "path": "/chart_info/ganzhi/day",
+      "raw": "辛亥"
+    },
+    {
+      "changed": false,
+      "normalized": "丁酉",
+      "path": "/chart_info/ganzhi/hour",
+      "raw": "丁酉"
+    },
+    {
+      "changed": false,
+      "normalized": "天辅 falling in Palace 1",
+      "path": "/chart_info/zhi_fu",
+      "raw": "天辅 falling in Palace 1"
+    },
+    {
+      "changed": false,
+      "normalized": "杜门 falling in Palace 1",
+      "path": "/chart_info/zhi_shi",
+      "raw": "杜门 falling in Palace 1"
+    },
+    {
+      "changed": false,
+      "normalized": "秋分, 上 Yuan",
+      "path": "/chart_info/solar_term",
+      "raw": "秋分, 上 Yuan"
+    },
+    {
+      "changed": false,
+      "normalized": "坎 1 Palace",
+      "path": "/palaces/kan_1/palace_name",
+      "raw": "坎 1 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "值符",
+      "path": "/palaces/kan_1/palace_elements/[0]",
+      "raw": "值符"
+    },
+    {
+      "changed": false,
+      "normalized": "杜门",
+      "path": "/palaces/kan_1/palace_elements/[1]",
+      "raw": "杜门"
+    },
+    {
+      "changed": false,
+      "normalized": "天辅",
+      "path": "/palaces/kan_1/palace_elements/[2]",
+      "raw": "天辅"
+    },
+    {
+      "changed": false,
+      "normalized": "坎1宫",
+      "path": "/palaces/kan_1/palace_elements/[3]",
+      "raw": "坎1宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘辛",
+      "path": "/palaces/kan_1/palace_elements/[4]",
+      "raw": "天盘辛"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘丁",
+      "path": "/palaces/kan_1/palace_elements/[5]",
+      "raw": "地盘丁"
+    },
+    {
+      "changed": false,
+      "normalized": "天辛 处于 '长生' (于子)",
+      "path": "/palaces/kan_1/interpretations/[0]/condition",
+      "raw": "天辛 处于 '长生' (于子)"
+    },
+    {
+      "changed": false,
+      "normalized": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+      "path": "/palaces/kan_1/interpretations/[0]/meaning",
+      "raw": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。"
+    },
+    {
+      "changed": false,
+      "normalized": "地丁 处于 '绝' (于子)",
+      "path": "/palaces/kan_1/interpretations/[1]/condition",
+      "raw": "地丁 处于 '绝' (于子)"
+    },
+    {
+      "changed": false,
+      "normalized": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。",
+      "path": "/palaces/kan_1/interpretations/[1]/meaning",
+      "raw": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗辛 处于 '长生' (于子)",
+      "path": "/palaces/kan_1/interpretations/[2]/condition",
+      "raw": "暗辛 处于 '长生' (于子)"
+    },
+    {
+      "changed": false,
+      "normalized": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+      "path": "/palaces/kan_1/interpretations/[2]/meaning",
+      "raw": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 辛加丁 形成『狱神得奇』",
+      "path": "/palaces/kan_1/interpretations/[3]/condition",
+      "raw": "天盘干 辛加丁 形成『狱神得奇』"
+    },
+    {
+      "changed": false,
+      "normalized": "辛为狱神丁为星奇。经商获利倍增，囚人逢天赦获释。罪人释放、官人转机。",
+      "path": "/palaces/kan_1/interpretations/[3]/meaning",
+      "raw": "辛为狱神丁为星奇。经商获利倍增，囚人逢天赦获释。罪人释放、官人转机。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 辛加丁 形成『狱神得奇』",
+      "path": "/palaces/kan_1/interpretations/[4]/condition",
+      "raw": "暗干干 辛加丁 形成『狱神得奇』"
+    },
+    {
+      "changed": false,
+      "normalized": "辛为狱神丁为星奇。经商获利倍增，囚人逢天赦获释。罪人释放、官人转机。",
+      "path": "/palaces/kan_1/interpretations/[4]/meaning",
+      "raw": "辛为狱神丁为星奇。经商获利倍增，囚人逢天赦获释。罪人释放、官人转机。"
+    },
+    {
+      "changed": false,
+      "normalized": "玉女守门",
+      "path": "/palaces/kan_1/interpretations/[5]/condition",
+      "raw": "玉女守门"
+    },
+    {
+      "changed": false,
+      "normalized": "丁为玉女。值使门正好飞到地盘丁所在宫位，玉女暗中护佑。极利婚姻、宴会、喜乐、和合、阴私之事，万事遂心。有贵人暗中相助。",
+      "path": "/palaces/kan_1/interpretations/[5]/meaning",
+      "raw": "丁为玉女。值使门正好飞到地盘丁所在宫位，玉女暗中护佑。极利婚姻、宴会、喜乐、和合、阴私之事，万事遂心。有贵人暗中相助。"
+    },
+    {
+      "changed": false,
+      "normalized": "宫生门",
+      "path": "/palaces/kan_1/interpretations/[6]/condition",
+      "raw": "宫生门"
+    },
+    {
+      "changed": false,
+      "normalized": "环境(宫)主动生旺人事(门)。天降好运、得贵人相助、毫不费力。环境助力,万事如意。大吉之格。",
+      "path": "/palaces/kan_1/interpretations/[6]/meaning",
+      "raw": "环境(宫)主动生旺人事(门)。天降好运、得贵人相助、毫不费力。环境助力,万事如意。大吉之格。"
+    },
+    {
+      "changed": false,
+      "normalized": "坤 2 Palace",
+      "path": "/palaces/kun_2/palace_name",
+      "raw": "坤 2 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "六合",
+      "path": "/palaces/kun_2/palace_elements/[0]",
+      "raw": "六合"
+    },
+    {
+      "changed": false,
+      "normalized": "休门",
+      "path": "/palaces/kun_2/palace_elements/[1]",
+      "raw": "休门"
+    },
+    {
+      "changed": false,
+      "normalized": "天蓬",
+      "path": "/palaces/kun_2/palace_elements/[2]",
+      "raw": "天蓬"
+    },
+    {
+      "changed": false,
+      "normalized": "坤2宫",
+      "path": "/palaces/kun_2/palace_elements/[3]",
+      "raw": "坤2宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘丁",
+      "path": "/palaces/kun_2/palace_elements/[4]",
+      "raw": "天盘丁"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘癸",
+      "path": "/palaces/kun_2/palace_elements/[5]",
+      "raw": "地盘癸"
+    },
+    {
+      "changed": false,
+      "normalized": "天丁 处于 '冠带' (于未) 且 '沐浴' (于申)",
+      "path": "/palaces/kun_2/interpretations/[0]/condition",
+      "raw": "天丁 处于 '冠带' (于未) 且 '沐浴' (于申)"
+    },
+    {
+      "changed": false,
+      "normalized": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名桃花、败地。形体尚柔弱，易受外界诱惑与动摇，主风流、洗涤、异性缘与不稳。",
+      "path": "/palaces/kun_2/interpretations/[0]/meaning",
+      "raw": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名桃花、败地。形体尚柔弱，易受外界诱惑与动摇，主风流、洗涤、异性缘与不稳。"
+    },
+    {
+      "changed": false,
+      "normalized": "地癸 处于 '墓' (于未) 且 '死' (于申)",
+      "path": "/palaces/kun_2/interpretations/[1]/condition",
+      "raw": "地癸 处于 '墓' (于未) 且 '死' (于申)"
+    },
+    {
+      "changed": false,
+      "normalized": "又名库。入墓归库，能量被包覆封存。主被套牢、暗昧不出、能力受限与阻滞。；生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。",
+      "path": "/palaces/kun_2/interpretations/[1]/meaning",
+      "raw": "又名库。入墓归库，能量被包覆封存。主被套牢、暗昧不出、能力受限与阻滞。；生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗丁 处于 '冠带' (于未) 且 '沐浴' (于申)",
+      "path": "/palaces/kun_2/interpretations/[2]/condition",
+      "raw": "暗丁 处于 '冠带' (于未) 且 '沐浴' (于申)"
+    },
+    {
+      "changed": false,
+      "normalized": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名桃花、败地。形体尚柔弱，易受外界诱惑与动摇，主风流、洗涤、异性缘与不稳。",
+      "path": "/palaces/kun_2/interpretations/[2]/meaning",
+      "raw": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名桃花、败地。形体尚柔弱，易受外界诱惑与动摇，主风流、洗涤、异性缘与不稳。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 丁加癸 形成『朱雀投江』",
+      "path": "/palaces/kun_2/interpretations/[3]/condition",
+      "raw": "天盘干 丁加癸 形成『朱雀投江』"
+    },
+    {
+      "changed": false,
+      "normalized": "文书口舌是非，经官动府。朱雀遇癸水冲克，消息如沉江中，音信不到。",
+      "path": "/palaces/kun_2/interpretations/[3]/meaning",
+      "raw": "文书口舌是非，经官动府。朱雀遇癸水冲克，消息如沉江中，音信不到。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 丁加癸 形成『朱雀投江』",
+      "path": "/palaces/kun_2/interpretations/[4]/condition",
+      "raw": "暗干干 丁加癸 形成『朱雀投江』"
+    },
+    {
+      "changed": false,
+      "normalized": "文书口舌是非，经官动府。朱雀遇癸水冲克，消息如沉江中，音信不到。",
+      "path": "/palaces/kun_2/interpretations/[4]/meaning",
+      "raw": "文书口舌是非，经官动府。朱雀遇癸水冲克，消息如沉江中，音信不到。"
+    },
+    {
+      "changed": false,
+      "normalized": "宫迫门",
+      "path": "/palaces/kun_2/interpretations/[5]/condition",
+      "raw": "宫迫门"
+    },
+    {
+      "changed": false,
+      "normalized": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。",
+      "path": "/palaces/kun_2/interpretations/[5]/meaning",
+      "raw": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。"
+    },
+    {
+      "changed": false,
+      "normalized": "三奇受制",
+      "path": "/palaces/kun_2/interpretations/[6]/condition",
+      "raw": "三奇受制"
+    },
+    {
+      "changed": false,
+      "normalized": "三奇受到相克之干的压制。奇能虽在,却被锁住无法发挥。主贵人帮不上忙,能力受限。",
+      "path": "/palaces/kun_2/interpretations/[6]/meaning",
+      "raw": "三奇受到相克之干的压制。奇能虽在,却被锁住无法发挥。主贵人帮不上忙,能力受限。"
+    },
+    {
+      "changed": false,
+      "normalized": "震 3 Palace",
+      "path": "/palaces/zhen_3/palace_name",
+      "raw": "震 3 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "九地",
+      "path": "/palaces/zhen_3/palace_elements/[0]",
+      "raw": "九地"
+    },
+    {
+      "changed": false,
+      "normalized": "死门",
+      "path": "/palaces/zhen_3/palace_elements/[1]",
+      "raw": "死门"
+    },
+    {
+      "changed": false,
+      "normalized": "天芮",
+      "path": "/palaces/zhen_3/palace_elements/[2]",
+      "raw": "天芮"
+    },
+    {
+      "changed": false,
+      "normalized": "震3宫",
+      "path": "/palaces/zhen_3/palace_elements/[3]",
+      "raw": "震3宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘癸",
+      "path": "/palaces/zhen_3/palace_elements/[4]",
+      "raw": "天盘癸"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘壬",
+      "path": "/palaces/zhen_3/palace_elements/[5]",
+      "raw": "地盘壬"
+    },
+    {
+      "changed": false,
+      "normalized": "天癸 处于 '长生' (于卯)",
+      "path": "/palaces/zhen_3/interpretations/[0]/condition",
+      "raw": "天癸 处于 '长生' (于卯)"
+    },
+    {
+      "changed": false,
+      "normalized": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+      "path": "/palaces/zhen_3/interpretations/[0]/meaning",
+      "raw": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。"
+    },
+    {
+      "changed": false,
+      "normalized": "寄庚 处于 '胎' (于卯)",
+      "path": "/palaces/zhen_3/interpretations/[1]/condition",
+      "raw": "寄庚 处于 '胎' (于卯)"
+    },
+    {
+      "changed": false,
+      "normalized": "天地交泰，受气成胎。如胎儿孕育，隐秀形体，形局待发，充满生机与希望。",
+      "path": "/palaces/zhen_3/interpretations/[1]/meaning",
+      "raw": "天地交泰，受气成胎。如胎儿孕育，隐秀形体，形局待发，充满生机与希望。"
+    },
+    {
+      "changed": false,
+      "normalized": "地壬 处于 '死' (于卯)",
+      "path": "/palaces/zhen_3/interpretations/[2]/condition",
+      "raw": "地壬 处于 '死' (于卯)"
+    },
+    {
+      "changed": false,
+      "normalized": "生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。",
+      "path": "/palaces/zhen_3/interpretations/[2]/meaning",
+      "raw": "生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗癸 处于 '长生' (于卯)",
+      "path": "/palaces/zhen_3/interpretations/[3]/condition",
+      "raw": "暗癸 处于 '长生' (于卯)"
+    },
+    {
+      "changed": false,
+      "normalized": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+      "path": "/palaces/zhen_3/interpretations/[3]/meaning",
+      "raw": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 癸加壬 形成『复见螣蛇』",
+      "path": "/palaces/zhen_3/interpretations/[4]/condition",
+      "raw": "天盘干 癸加壬 形成『复见螣蛇』"
+    },
+    {
+      "changed": false,
+      "normalized": "嫁娶重婚，后嫁可能无子。事物反复波折，可能更换合作方。重复犯错不改。",
+      "path": "/palaces/zhen_3/interpretations/[4]/meaning",
+      "raw": "嫁娶重婚，后嫁可能无子。事物反复波折，可能更换合作方。重复犯错不改。"
+    },
+    {
+      "changed": false,
+      "normalized": "寄宫干 庚加壬 形成『太白退位』",
+      "path": "/palaces/zhen_3/interpretations/[5]/condition",
+      "raw": "寄宫干 庚加壬 形成『太白退位』"
+    },
+    {
+      "changed": false,
+      "normalized": "壬水泄庚金。远行迷失道路，男女音信难通。移荡格：谋事迂回曲折，主换地方。",
+      "path": "/palaces/zhen_3/interpretations/[5]/meaning",
+      "raw": "壬水泄庚金。远行迷失道路，男女音信难通。移荡格：谋事迂回曲折，主换地方。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 癸加壬 形成『复见螣蛇』",
+      "path": "/palaces/zhen_3/interpretations/[6]/condition",
+      "raw": "暗干干 癸加壬 形成『复见螣蛇』"
+    },
+    {
+      "changed": false,
+      "normalized": "嫁娶重婚，后嫁可能无子。事物反复波折，可能更换合作方。重复犯错不改。",
+      "path": "/palaces/zhen_3/interpretations/[6]/meaning",
+      "raw": "嫁娶重婚，后嫁可能无子。事物反复波折，可能更换合作方。重复犯错不改。"
+    },
+    {
+      "changed": false,
+      "normalized": "宫迫门",
+      "path": "/palaces/zhen_3/interpretations/[7]/condition",
+      "raw": "宫迫门"
+    },
+    {
+      "changed": false,
+      "normalized": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。",
+      "path": "/palaces/zhen_3/interpretations/[7]/meaning",
+      "raw": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。"
+    },
+    {
+      "changed": false,
+      "normalized": "巽 4 Palace",
+      "path": "/palaces/xun_4/palace_name",
+      "raw": "巽 4 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "玄武",
+      "path": "/palaces/xun_4/palace_elements/[0]",
+      "raw": "玄武"
+    },
+    {
+      "changed": false,
+      "normalized": "惊门",
+      "path": "/palaces/xun_4/palace_elements/[1]",
+      "raw": "惊门"
+    },
+    {
+      "changed": false,
+      "normalized": "天柱",
+      "path": "/palaces/xun_4/palace_elements/[2]",
+      "raw": "天柱"
+    },
+    {
+      "changed": false,
+      "normalized": "巽4宫",
+      "path": "/palaces/xun_4/palace_elements/[3]",
+      "raw": "巽4宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘戊",
+      "path": "/palaces/xun_4/palace_elements/[4]",
+      "raw": "天盘戊"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘辛",
+      "path": "/palaces/xun_4/palace_elements/[5]",
+      "raw": "地盘辛"
+    },
+    {
+      "changed": false,
+      "normalized": "天戊 处于 '冠带' (于辰) 且 '临官' (于巳)",
+      "path": "/palaces/xun_4/interpretations/[0]/condition",
+      "raw": "天戊 处于 '冠带' (于辰) 且 '临官' (于巳)"
+    },
+    {
+      "changed": false,
+      "normalized": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+      "path": "/palaces/xun_4/interpretations/[0]/meaning",
+      "raw": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。"
+    },
+    {
+      "changed": false,
+      "normalized": "地辛 处于 '墓' (于辰) 且 '死' (于巳)",
+      "path": "/palaces/xun_4/interpretations/[1]/condition",
+      "raw": "地辛 处于 '墓' (于辰) 且 '死' (于巳)"
+    },
+    {
+      "changed": false,
+      "normalized": "又名库。入墓归库，能量被包覆封存。主被套牢、暗昧不出、能力受限与阻滞。；生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。",
+      "path": "/palaces/xun_4/interpretations/[1]/meaning",
+      "raw": "又名库。入墓归库，能量被包覆封存。主被套牢、暗昧不出、能力受限与阻滞。；生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗戊 处于 '冠带' (于辰) 且 '临官' (于巳)",
+      "path": "/palaces/xun_4/interpretations/[2]/condition",
+      "raw": "暗戊 处于 '冠带' (于辰) 且 '临官' (于巳)"
+    },
+    {
+      "changed": false,
+      "normalized": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+      "path": "/palaces/xun_4/interpretations/[2]/meaning",
+      "raw": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 戊加辛 形成『青龙折足』",
+      "path": "/palaces/xun_4/interpretations/[3]/condition",
+      "raw": "天盘干 戊加辛 形成『青龙折足』"
+    },
+    {
+      "changed": false,
+      "normalized": "辛金泄戊土。吉事成凶，动必受伤。主足疾骨折之灾。",
+      "path": "/palaces/xun_4/interpretations/[3]/meaning",
+      "raw": "辛金泄戊土。吉事成凶，动必受伤。主足疾骨折之灾。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 戊加辛 形成『青龙折足』",
+      "path": "/palaces/xun_4/interpretations/[4]/condition",
+      "raw": "暗干干 戊加辛 形成『青龙折足』"
+    },
+    {
+      "changed": false,
+      "normalized": "辛金泄戊土。吉事成凶，动必受伤。主足疾骨折之灾。",
+      "path": "/palaces/xun_4/interpretations/[4]/meaning",
+      "raw": "辛金泄戊土。吉事成凶，动必受伤。主足疾骨折之灾。"
+    },
+    {
+      "changed": false,
+      "normalized": "门迫宫",
+      "path": "/palaces/xun_4/interpretations/[5]/condition",
+      "raw": "门迫宫"
+    },
+    {
+      "changed": false,
+      "normalized": "人事(门)克制环境(宫)。强行作为、吃力不讨好、引发环境反噬。吉门被迫吉减半,凶门被迫加倍凶。",
+      "path": "/palaces/xun_4/interpretations/[5]/meaning",
+      "raw": "人事(门)克制环境(宫)。强行作为、吃力不讨好、引发环境反噬。吉门被迫吉减半,凶门被迫加倍凶。"
+    },
+    {
+      "changed": false,
+      "normalized": "中 5 Palace",
+      "path": "/palaces/center_5/palace_name",
+      "raw": "中 5 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "天禽",
+      "path": "/palaces/center_5/palace_elements/[0]",
+      "raw": "天禽"
+    },
+    {
+      "changed": false,
+      "normalized": "中5宫",
+      "path": "/palaces/center_5/palace_elements/[1]",
+      "raw": "中5宫"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘庚",
+      "path": "/palaces/center_5/palace_elements/[2]",
+      "raw": "地盘庚"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 庚加庚 形成『太白同宫』",
+      "path": "/palaces/center_5/interpretations/[0]/condition",
+      "raw": "暗干干 庚加庚 形成『太白同宫』"
+    },
+    {
+      "changed": false,
+      "normalized": "又名战格。二庚太白并临。凡事难遂争斗不休，官灾横祸。利客不利主，利攻不利守。",
+      "path": "/palaces/center_5/interpretations/[0]/meaning",
+      "raw": "又名战格。二庚太白并临。凡事难遂争斗不休，官灾横祸。利客不利主，利攻不利守。"
+    },
+    {
+      "changed": false,
+      "normalized": "乾 6 Palace",
+      "path": "/palaces/qian_6/palace_name",
+      "raw": "乾 6 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "腾蛇",
+      "path": "/palaces/qian_6/palace_elements/[0]",
+      "raw": "腾蛇"
+    },
+    {
+      "changed": false,
+      "normalized": "伤门",
+      "path": "/palaces/qian_6/palace_elements/[1]",
+      "raw": "伤门"
+    },
+    {
+      "changed": false,
+      "normalized": "天冲",
+      "path": "/palaces/qian_6/palace_elements/[2]",
+      "raw": "天冲"
+    },
+    {
+      "changed": false,
+      "normalized": "乾6宫",
+      "path": "/palaces/qian_6/palace_elements/[3]",
+      "raw": "乾6宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘壬",
+      "path": "/palaces/qian_6/palace_elements/[4]",
+      "raw": "天盘壬"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘己",
+      "path": "/palaces/qian_6/palace_elements/[5]",
+      "raw": "地盘己"
+    },
+    {
+      "changed": false,
+      "normalized": "天壬 处于 '冠带' (于戌) 且 '临官' (于亥)",
+      "path": "/palaces/qian_6/interpretations/[0]/condition",
+      "raw": "天壬 处于 '冠带' (于戌) 且 '临官' (于亥)"
+    },
+    {
+      "changed": false,
+      "normalized": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+      "path": "/palaces/qian_6/interpretations/[0]/meaning",
+      "raw": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。"
+    },
+    {
+      "changed": false,
+      "normalized": "地己 处于 '养' (于戌) 且 '胎' (于亥)",
+      "path": "/palaces/qian_6/interpretations/[1]/condition",
+      "raw": "地己 处于 '养' (于戌) 且 '胎' (于亥)"
+    },
+    {
+      "changed": false,
+      "normalized": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；天地交泰，受气成胎。如胎儿孕育，隐秀形体，形局待发，充满生机与希望。",
+      "path": "/palaces/qian_6/interpretations/[1]/meaning",
+      "raw": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；天地交泰，受气成胎。如胎儿孕育，隐秀形体，形局待发，充满生机与希望。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗壬 处于 '冠带' (于戌) 且 '临官' (于亥)",
+      "path": "/palaces/qian_6/interpretations/[2]/condition",
+      "raw": "暗壬 处于 '冠带' (于戌) 且 '临官' (于亥)"
+    },
+    {
+      "changed": false,
+      "normalized": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+      "path": "/palaces/qian_6/interpretations/[2]/meaning",
+      "raw": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 壬加己 形成『凶蛇入狱』",
+      "path": "/palaces/qian_6/interpretations/[3]/condition",
+      "raw": "天盘干 壬加己 形成『凶蛇入狱』"
+    },
+    {
+      "changed": false,
+      "normalized": "大祸将成，夫妻不睦。难以脱身，阴谋纠缠。词讼理亏，不宜妄动。",
+      "path": "/palaces/qian_6/interpretations/[3]/meaning",
+      "raw": "大祸将成，夫妻不睦。难以脱身，阴谋纠缠。词讼理亏，不宜妄动。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 壬加己 形成『凶蛇入狱』",
+      "path": "/palaces/qian_6/interpretations/[4]/condition",
+      "raw": "暗干干 壬加己 形成『凶蛇入狱』"
+    },
+    {
+      "changed": false,
+      "normalized": "大祸将成，夫妻不睦。难以脱身，阴谋纠缠。词讼理亏，不宜妄动。",
+      "path": "/palaces/qian_6/interpretations/[4]/meaning",
+      "raw": "大祸将成，夫妻不睦。难以脱身，阴谋纠缠。词讼理亏，不宜妄动。"
+    },
+    {
+      "changed": false,
+      "normalized": "宫迫门",
+      "path": "/palaces/qian_6/interpretations/[5]/condition",
+      "raw": "宫迫门"
+    },
+    {
+      "changed": false,
+      "normalized": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。",
+      "path": "/palaces/qian_6/interpretations/[5]/meaning",
+      "raw": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。"
+    },
+    {
+      "changed": false,
+      "normalized": "兑 7 Palace",
+      "path": "/palaces/dui_7/palace_name",
+      "raw": "兑 7 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "太阴",
+      "path": "/palaces/dui_7/palace_elements/[0]",
+      "raw": "太阴"
+    },
+    {
+      "changed": false,
+      "normalized": "生门",
+      "path": "/palaces/dui_7/palace_elements/[1]",
+      "raw": "生门"
+    },
+    {
+      "changed": false,
+      "normalized": "天任",
+      "path": "/palaces/dui_7/palace_elements/[2]",
+      "raw": "天任"
+    },
+    {
+      "changed": false,
+      "normalized": "兑7宫",
+      "path": "/palaces/dui_7/palace_elements/[3]",
+      "raw": "兑7宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘乙",
+      "path": "/palaces/dui_7/palace_elements/[4]",
+      "raw": "天盘乙"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘戊",
+      "path": "/palaces/dui_7/palace_elements/[5]",
+      "raw": "地盘戊"
+    },
+    {
+      "changed": false,
+      "normalized": "天乙 处于 '绝' (于酉)",
+      "path": "/palaces/dui_7/interpretations/[0]/condition",
+      "raw": "天乙 处于 '绝' (于酉)"
+    },
+    {
+      "changed": false,
+      "normalized": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。",
+      "path": "/palaces/dui_7/interpretations/[0]/meaning",
+      "raw": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。"
+    },
+    {
+      "changed": false,
+      "normalized": "地戊 处于 '死' (于酉)",
+      "path": "/palaces/dui_7/interpretations/[1]/condition",
+      "raw": "地戊 处于 '死' (于酉)"
+    },
+    {
+      "changed": false,
+      "normalized": "生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。",
+      "path": "/palaces/dui_7/interpretations/[1]/meaning",
+      "raw": "生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗乙 处于 '绝' (于酉)",
+      "path": "/palaces/dui_7/interpretations/[2]/condition",
+      "raw": "暗乙 处于 '绝' (于酉)"
+    },
+    {
+      "changed": false,
+      "normalized": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。",
+      "path": "/palaces/dui_7/interpretations/[2]/meaning",
+      "raw": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 乙加戊 形成『利阴害阳』",
+      "path": "/palaces/dui_7/interpretations/[3]/condition",
+      "raw": "天盘干 乙加戊 形成『利阴害阳』"
+    },
+    {
+      "changed": false,
+      "normalized": "利阴人（女子），不利阳人（男子）。门吉尚可谋，门凶或迫则破财伤人。",
+      "path": "/palaces/dui_7/interpretations/[3]/meaning",
+      "raw": "利阴人（女子），不利阳人（男子）。门吉尚可谋，门凶或迫则破财伤人。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 乙加戊 形成『利阴害阳』",
+      "path": "/palaces/dui_7/interpretations/[4]/condition",
+      "raw": "暗干干 乙加戊 形成『利阴害阳』"
+    },
+    {
+      "changed": false,
+      "normalized": "利阴人（女子），不利阳人（男子）。门吉尚可谋，门凶或迫则破财伤人。",
+      "path": "/palaces/dui_7/interpretations/[4]/meaning",
+      "raw": "利阴人（女子），不利阳人（男子）。门吉尚可谋，门凶或迫则破财伤人。"
+    },
+    {
+      "changed": false,
+      "normalized": "门生宫",
+      "path": "/palaces/dui_7/interpretations/[5]/condition",
+      "raw": "门生宫"
+    },
+    {
+      "changed": false,
+      "normalized": "人事(门)主动生旺环境(宫)。有付出有回报,顺水推舟。行动与环境和谐,做事顺达。加三奇更吉。",
+      "path": "/palaces/dui_7/interpretations/[5]/meaning",
+      "raw": "人事(门)主动生旺环境(宫)。有付出有回报,顺水推舟。行动与环境和谐,做事顺达。加三奇更吉。"
+    },
+    {
+      "changed": false,
+      "normalized": "艮 8 Palace",
+      "path": "/palaces/gen_8/palace_name",
+      "raw": "艮 8 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "九天",
+      "path": "/palaces/gen_8/palace_elements/[0]",
+      "raw": "九天"
+    },
+    {
+      "changed": false,
+      "normalized": "景门",
+      "path": "/palaces/gen_8/palace_elements/[1]",
+      "raw": "景门"
+    },
+    {
+      "changed": false,
+      "normalized": "天英",
+      "path": "/palaces/gen_8/palace_elements/[2]",
+      "raw": "天英"
+    },
+    {
+      "changed": false,
+      "normalized": "艮8宫",
+      "path": "/palaces/gen_8/palace_elements/[3]",
+      "raw": "艮8宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘丙",
+      "path": "/palaces/gen_8/palace_elements/[4]",
+      "raw": "天盘丙"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘乙",
+      "path": "/palaces/gen_8/palace_elements/[5]",
+      "raw": "地盘乙"
+    },
+    {
+      "changed": false,
+      "normalized": "天丙 处于 '养' (于丑) 且 '长生' (于寅)",
+      "path": "/palaces/gen_8/interpretations/[0]/condition",
+      "raw": "天丙 处于 '养' (于丑) 且 '长生' (于寅)"
+    },
+    {
+      "changed": false,
+      "normalized": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+      "path": "/palaces/gen_8/interpretations/[0]/meaning",
+      "raw": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。"
+    },
+    {
+      "changed": false,
+      "normalized": "地乙 处于 '衰' (于丑) 且 '帝旺' (于寅)",
+      "path": "/palaces/gen_8/interpretations/[1]/condition",
+      "raw": "地乙 处于 '衰' (于丑) 且 '帝旺' (于寅)"
+    },
+    {
+      "changed": false,
+      "normalized": "旺极而衰，能量开始走下坡路。气势渐退，宜守不宜攻，凡事需谦逊谨慎。；能量达到极盛。如帝王临朝，盛极一时；唯需防物极必反、盛极而衰。",
+      "path": "/palaces/gen_8/interpretations/[1]/meaning",
+      "raw": "旺极而衰，能量开始走下坡路。气势渐退，宜守不宜攻，凡事需谦逊谨慎。；能量达到极盛。如帝王临朝，盛极一时；唯需防物极必反、盛极而衰。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗丙 处于 '养' (于丑) 且 '长生' (于寅)",
+      "path": "/palaces/gen_8/interpretations/[2]/condition",
+      "raw": "暗丙 处于 '养' (于丑) 且 '长生' (于寅)"
+    },
+    {
+      "changed": false,
+      "normalized": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+      "path": "/palaces/gen_8/interpretations/[2]/meaning",
+      "raw": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 丙加乙 形成『日月并行』",
+      "path": "/palaces/gen_8/interpretations/[3]/condition",
+      "raw": "天盘干 丙加乙 形成『日月并行』"
+    },
+    {
+      "changed": false,
+      "normalized": "丙乙两奇相佐，阴阳调和。公私谋划合宜顺利，特别利于合作事务。",
+      "path": "/palaces/gen_8/interpretations/[3]/meaning",
+      "raw": "丙乙两奇相佐，阴阳调和。公私谋划合宜顺利，特别利于合作事务。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 丙加乙 形成『日月并行』",
+      "path": "/palaces/gen_8/interpretations/[4]/condition",
+      "raw": "暗干干 丙加乙 形成『日月并行』"
+    },
+    {
+      "changed": false,
+      "normalized": "丙乙两奇相佐，阴阳调和。公私谋划合宜顺利，特别利于合作事务。",
+      "path": "/palaces/gen_8/interpretations/[4]/meaning",
+      "raw": "丙乙两奇相佐，阴阳调和。公私谋划合宜顺利，特别利于合作事务。"
+    },
+    {
+      "changed": false,
+      "normalized": "门生宫",
+      "path": "/palaces/gen_8/interpretations/[5]/condition",
+      "raw": "门生宫"
+    },
+    {
+      "changed": false,
+      "normalized": "人事(门)主动生旺环境(宫)。有付出有回报,顺水推舟。行动与环境和谐,做事顺达。加三奇更吉。",
+      "path": "/palaces/gen_8/interpretations/[5]/meaning",
+      "raw": "人事(门)主动生旺环境(宫)。有付出有回报,顺水推舟。行动与环境和谐,做事顺达。加三奇更吉。"
+    },
+    {
+      "changed": false,
+      "normalized": "离 9 Palace",
+      "path": "/palaces/li_9/palace_name",
+      "raw": "离 9 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "白虎",
+      "path": "/palaces/li_9/palace_elements/[0]",
+      "raw": "白虎"
+    },
+    {
+      "changed": false,
+      "normalized": "开门",
+      "path": "/palaces/li_9/palace_elements/[1]",
+      "raw": "开门"
+    },
+    {
+      "changed": false,
+      "normalized": "天心",
+      "path": "/palaces/li_9/palace_elements/[2]",
+      "raw": "天心"
+    },
+    {
+      "changed": false,
+      "normalized": "离9宫",
+      "path": "/palaces/li_9/palace_elements/[3]",
+      "raw": "离9宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘己",
+      "path": "/palaces/li_9/palace_elements/[4]",
+      "raw": "天盘己"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘丙",
+      "path": "/palaces/li_9/palace_elements/[5]",
+      "raw": "地盘丙"
+    },
+    {
+      "changed": false,
+      "normalized": "天己 处于 '临官' (于午)",
+      "path": "/palaces/li_9/interpretations/[0]/condition",
+      "raw": "天己 处于 '临官' (于午)"
+    },
+    {
+      "changed": false,
+      "normalized": "又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+      "path": "/palaces/li_9/interpretations/[0]/meaning",
+      "raw": "又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。"
+    },
+    {
+      "changed": false,
+      "normalized": "地丙 处于 '帝旺' (于午)",
+      "path": "/palaces/li_9/interpretations/[1]/condition",
+      "raw": "地丙 处于 '帝旺' (于午)"
+    },
+    {
+      "changed": false,
+      "normalized": "能量达到极盛。如帝王临朝，盛极一时；唯需防物极必反、盛极而衰。",
+      "path": "/palaces/li_9/interpretations/[1]/meaning",
+      "raw": "能量达到极盛。如帝王临朝，盛极一时；唯需防物极必反、盛极而衰。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗己 处于 '临官' (于午)",
+      "path": "/palaces/li_9/interpretations/[2]/condition",
+      "raw": "暗己 处于 '临官' (于午)"
+    },
+    {
+      "changed": false,
+      "normalized": "又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+      "path": "/palaces/li_9/interpretations/[2]/meaning",
+      "raw": "又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 己加丙 形成『火悖地户』",
+      "path": "/palaces/li_9/interpretations/[3]/condition",
+      "raw": "天盘干 己加丙 形成『火悖地户』"
+    },
+    {
+      "changed": false,
+      "normalized": "火炎土燥，主阻碍纠缠。男子遇小人相害，女子易有感情是非。先暗后明。",
+      "path": "/palaces/li_9/interpretations/[3]/meaning",
+      "raw": "火炎土燥，主阻碍纠缠。男子遇小人相害，女子易有感情是非。先暗后明。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 己加丙 形成『火悖地户』",
+      "path": "/palaces/li_9/interpretations/[4]/condition",
+      "raw": "暗干干 己加丙 形成『火悖地户』"
+    },
+    {
+      "changed": false,
+      "normalized": "火炎土燥，主阻碍纠缠。男子遇小人相害，女子易有感情是非。先暗后明。",
+      "path": "/palaces/li_9/interpretations/[4]/meaning",
+      "raw": "火炎土燥，主阻碍纠缠。男子遇小人相害，女子易有感情是非。先暗后明。"
+    },
+    {
+      "changed": false,
+      "normalized": "宫迫门",
+      "path": "/palaces/li_9/interpretations/[5]/condition",
+      "raw": "宫迫门"
+    },
+    {
+      "changed": false,
+      "normalized": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。",
+      "path": "/palaces/li_9/interpretations/[5]/meaning",
+      "raw": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。"
+    }
+  ],
+  "absence_codes": [],
+  "reissue_log": [],
+  "compression_log": [
+    {
+      "dropped": "ARC-DISPERSED",
+      "reason": "no chart support: zhi_fu and zhi_shi resolve to the same palace"
+    },
+    {
+      "dropped": "ARC-TWO-CENTRES",
+      "reason": "no chart support: no second palace carries a governing instrument"
+    },
+    {
+      "dropped": "ARC-VOLUME-MODE",
+      "reason": "rebutted by the duty gate sitting in the keystone palace (RT A003)"
+    },
+    {
+      "dropped": "ARC-STEALTH-MODE",
+      "reason": "rebutted by the display palace and its reach cluster (E085/E086/E095)"
+    },
+    {
+      "dropped": "ARC-PAID-REACH-ENGINE",
+      "reason": "no chart support: no evidence class for paid distribution"
+    },
+    {
+      "dropped": "ARC-COLLAB-REACH-ENGINE",
+      "reason": "kept as a live alternative inside C003, not a separate claim"
+    },
+    {
+      "dropped": "ARC-PUBLIC-GAIN",
+      "reason": "rebutted by the yin-favouring stem pair in the generation palace"
+    },
+    {
+      "dropped": "ARC-WORKING-BROADCAST",
+      "reason": "rebutted by the message-sinks marker in the alliance palace"
+    },
+    {
+      "dropped": "ARC-QUIET-ALLIANCE",
+      "reason": "kept as a limiting condition inside C005"
+    },
+    {
+      "dropped": "ARC-UNIFORM-FIELD",
+      "reason": "rebutted by the friction register enumeration"
+    },
+    {
+      "dropped": "ARC-NEUTRAL-CENTRE",
+      "reason": "rebutted by the doubled conflict stem at the centre"
+    },
+    {
+      "dropped": "ARC-SILO-STRUCTURE",
+      "reason": "rebutted by graph closure of the nine traces (CAP-09)"
+    },
+    {
+      "dropped": "ARC-OPEN-AXES",
+      "reason": "rebutted by the two axis traces R002 and R007"
+    },
+    {
+      "dropped": "ARC-EVEN-TEMPORAL-SPREAD",
+      "reason": "rebutted by the doubled month/hour branch signature"
+    },
+    {
+      "dropped": "ARC-CLEAN-OPENING",
+      "reason": "rebutted by the house-presses-gate relation at palace 9"
+    },
+    {
+      "dropped": "ARC-SUBJECT-KEYSTONE-ONLY",
+      "reason": "rebutted by the day-branch binding to palace 6"
+    },
+    {
+      "dropped": "ARC-SUBJECT-FRICTION-ONLY",
+      "reason": "rebutted by the day-stem placement in palace 1"
+    },
+    {
+      "dropped": "ARC-FULL-STOREHOUSE",
+      "reason": "rebutted by the cut-off and death stages in the keystone palace"
+    }
+  ],
+  "ledger_sidecar_rules": {
+    "ABSENT": "required role slot the chart does not populate at that palace (void and horse everywhere; heaven stem, gate and deity at the centre)",
+    "ADDRESSED": "cited by at least one claim in authored/claim_set.json",
+    "ANOMALY": "atom is itself an anomaly record: none in this run",
+    "CORROBORATED": "not cited; marker core identical to a cited atom in the same palace",
+    "DEFERRED": "not cited and no corroboration twin; recorded, not used by the deliverable",
+    "EXCLUDED": "excluded by case scope (do_not_say / forbidden scope): none in this run",
+    "UNPARSEABLE": "could not be typed: none in this run"
+  },
+  "absent_slot_list": [
+    "palace 1: horse",
+    "palace 1: void",
+    "palace 2: horse",
+    "palace 2: void",
+    "palace 3: horse",
+    "palace 3: void",
+    "palace 4: horse",
+    "palace 4: void",
+    "palace 5: deity",
+    "palace 5: gate",
+    "palace 5: heaven stem",
+    "palace 5: horse",
+    "palace 5: void",
+    "palace 6: horse",
+    "palace 6: void",
+    "palace 7: horse",
+    "palace 7: void",
+    "palace 8: horse",
+    "palace 8: void",
+    "palace 9: horse",
+    "palace 9: void"
+  ],
+  "disposition_detail": [
+    {
+      "disposition": "DEFERRED",
+      "id": "E001",
+      "palace": 0,
+      "role": "chart_field:method",
+      "value": "Qimen Dunjia Chart"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E002",
+      "palace": 0,
+      "role": "chart_field:solar_term",
+      "value": "秋分, 上 Yuan"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E003",
+      "palace": 0,
+      "role": "chart_field:system",
+      "value": "Yi Dun - Lun Cang Jia"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E004",
+      "palace": 0,
+      "role": "chart_field:type",
+      "value": "Hourly Rotating Qimen, Yin Dun 7 Ju"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E005",
+      "palace": 0,
+      "role": "chart_field:zhi_fu",
+      "value": "天辅 falling in Palace 1"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E006",
+      "palace": 0,
+      "role": "chart_field:zhi_shi",
+      "value": "杜门 falling in Palace 1"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E007",
+      "palace": 0,
+      "role": "pillar:day",
+      "value": "辛亥"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E008",
+      "palace": 0,
+      "role": "pillar:hour",
+      "value": "丁酉"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E009",
+      "palace": 0,
+      "role": "pillar:month",
+      "value": "丁酉"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E010",
+      "palace": 0,
+      "role": "pillar:year",
+      "value": "丙午"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E011",
+      "palace": 1,
+      "role": "deity",
+      "value": "值符"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E012",
+      "palace": 1,
+      "role": "door",
+      "value": "杜门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E013",
+      "palace": 1,
+      "role": "earth_stem",
+      "value": "丁"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E014",
+      "palace": 1,
+      "role": "explicit_marker",
+      "value": "天辛 处于 '长生' (于子)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E015",
+      "palace": 1,
+      "role": "explicit_marker",
+      "value": "地丁 处于 '绝' (于子)"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E016",
+      "palace": 1,
+      "role": "explicit_marker",
+      "value": "暗辛 处于 '长生' (于子)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E017",
+      "palace": 1,
+      "role": "explicit_marker",
+      "value": "天盘干 辛加丁 形成『狱神得奇』"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E018",
+      "palace": 1,
+      "role": "explicit_marker",
+      "value": "暗干干 辛加丁 形成『狱神得奇』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E019",
+      "palace": 1,
+      "role": "explicit_marker",
+      "value": "玉女守门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E020",
+      "palace": 1,
+      "role": "explicit_marker",
+      "value": "宫生门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E021",
+      "palace": 1,
+      "role": "heaven_stem",
+      "value": "辛"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E022",
+      "palace": 1,
+      "role": "star",
+      "value": "天辅"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E023",
+      "palace": 2,
+      "role": "deity",
+      "value": "六合"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E024",
+      "palace": 2,
+      "role": "door",
+      "value": "休门"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E025",
+      "palace": 2,
+      "role": "earth_stem",
+      "value": "癸"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E026",
+      "palace": 2,
+      "role": "explicit_marker",
+      "value": "天丁 处于 '冠带' (于未) 且 '沐浴' (于申)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E027",
+      "palace": 2,
+      "role": "explicit_marker",
+      "value": "地癸 处于 '墓' (于未) 且 '死' (于申)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E028",
+      "palace": 2,
+      "role": "explicit_marker",
+      "value": "暗丁 处于 '冠带' (于未) 且 '沐浴' (于申)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E029",
+      "palace": 2,
+      "role": "explicit_marker",
+      "value": "天盘干 丁加癸 形成『朱雀投江』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E030",
+      "palace": 2,
+      "role": "explicit_marker",
+      "value": "暗干干 丁加癸 形成『朱雀投江』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E031",
+      "palace": 2,
+      "role": "explicit_marker",
+      "value": "宫迫门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E032",
+      "palace": 2,
+      "role": "explicit_marker",
+      "value": "三奇受制"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E033",
+      "palace": 2,
+      "role": "heaven_stem",
+      "value": "丁"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E034",
+      "palace": 2,
+      "role": "star",
+      "value": "天蓬"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E035",
+      "palace": 3,
+      "role": "deity",
+      "value": "九地"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E036",
+      "palace": 3,
+      "role": "door",
+      "value": "死门"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E037",
+      "palace": 3,
+      "role": "earth_stem",
+      "value": "壬"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E038",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "天癸 处于 '长生' (于卯)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E039",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "寄庚 处于 '胎' (于卯)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E040",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "地壬 处于 '死' (于卯)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E041",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "暗癸 处于 '长生' (于卯)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E042",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "天盘干 癸加壬 形成『复见螣蛇』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E043",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "寄宫干 庚加壬 形成『太白退位』"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E044",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "暗干干 癸加壬 形成『复见螣蛇』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E045",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "宫迫门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E046",
+      "palace": 3,
+      "role": "heaven_stem",
+      "value": "癸"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E047",
+      "palace": 3,
+      "role": "hosted_stem",
+      "value": "庚"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E048",
+      "palace": 3,
+      "role": "star",
+      "value": "天芮"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E049",
+      "palace": 4,
+      "role": "deity",
+      "value": "玄武"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E050",
+      "palace": 4,
+      "role": "door",
+      "value": "惊门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E051",
+      "palace": 4,
+      "role": "earth_stem",
+      "value": "辛"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E052",
+      "palace": 4,
+      "role": "explicit_marker",
+      "value": "天戊 处于 '冠带' (于辰) 且 '临官' (于巳)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E053",
+      "palace": 4,
+      "role": "explicit_marker",
+      "value": "地辛 处于 '墓' (于辰) 且 '死' (于巳)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E054",
+      "palace": 4,
+      "role": "explicit_marker",
+      "value": "暗戊 处于 '冠带' (于辰) 且 '临官' (于巳)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E055",
+      "palace": 4,
+      "role": "explicit_marker",
+      "value": "天盘干 戊加辛 形成『青龙折足』"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E056",
+      "palace": 4,
+      "role": "explicit_marker",
+      "value": "暗干干 戊加辛 形成『青龙折足』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E057",
+      "palace": 4,
+      "role": "explicit_marker",
+      "value": "门迫宫"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E058",
+      "palace": 4,
+      "role": "heaven_stem",
+      "value": "戊"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E059",
+      "palace": 4,
+      "role": "star",
+      "value": "天柱"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E060",
+      "palace": 5,
+      "role": "earth_stem",
+      "value": "庚"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E061",
+      "palace": 5,
+      "role": "explicit_marker",
+      "value": "暗干干 庚加庚 形成『太白同宫』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E062",
+      "palace": 5,
+      "role": "star",
+      "value": "天禽"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E063",
+      "palace": 6,
+      "role": "deity",
+      "value": "腾蛇"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E064",
+      "palace": 6,
+      "role": "door",
+      "value": "伤门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E065",
+      "palace": 6,
+      "role": "earth_stem",
+      "value": "己"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E066",
+      "palace": 6,
+      "role": "explicit_marker",
+      "value": "天壬 处于 '冠带' (于戌) 且 '临官' (于亥)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E067",
+      "palace": 6,
+      "role": "explicit_marker",
+      "value": "地己 处于 '养' (于戌) 且 '胎' (于亥)"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E068",
+      "palace": 6,
+      "role": "explicit_marker",
+      "value": "暗壬 处于 '冠带' (于戌) 且 '临官' (于亥)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E069",
+      "palace": 6,
+      "role": "explicit_marker",
+      "value": "天盘干 壬加己 形成『凶蛇入狱』"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E070",
+      "palace": 6,
+      "role": "explicit_marker",
+      "value": "暗干干 壬加己 形成『凶蛇入狱』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E071",
+      "palace": 6,
+      "role": "explicit_marker",
+      "value": "宫迫门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E072",
+      "palace": 6,
+      "role": "heaven_stem",
+      "value": "壬"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E073",
+      "palace": 6,
+      "role": "star",
+      "value": "天冲"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E074",
+      "palace": 7,
+      "role": "deity",
+      "value": "太阴"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E075",
+      "palace": 7,
+      "role": "door",
+      "value": "生门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E076",
+      "palace": 7,
+      "role": "earth_stem",
+      "value": "戊"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E077",
+      "palace": 7,
+      "role": "explicit_marker",
+      "value": "天乙 处于 '绝' (于酉)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E078",
+      "palace": 7,
+      "role": "explicit_marker",
+      "value": "地戊 处于 '死' (于酉)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E079",
+      "palace": 7,
+      "role": "explicit_marker",
+      "value": "暗乙 处于 '绝' (于酉)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E080",
+      "palace": 7,
+      "role": "explicit_marker",
+      "value": "天盘干 乙加戊 形成『利阴害阳』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E081",
+      "palace": 7,
+      "role": "explicit_marker",
+      "value": "暗干干 乙加戊 形成『利阴害阳』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E082",
+      "palace": 7,
+      "role": "explicit_marker",
+      "value": "门生宫"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E083",
+      "palace": 7,
+      "role": "heaven_stem",
+      "value": "乙"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E084",
+      "palace": 7,
+      "role": "star",
+      "value": "天任"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E085",
+      "palace": 8,
+      "role": "deity",
+      "value": "九天"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E086",
+      "palace": 8,
+      "role": "door",
+      "value": "景门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E087",
+      "palace": 8,
+      "role": "earth_stem",
+      "value": "乙"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E088",
+      "palace": 8,
+      "role": "explicit_marker",
+      "value": "天丙 处于 '养' (于丑) 且 '长生' (于寅)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E089",
+      "palace": 8,
+      "role": "explicit_marker",
+      "value": "地乙 处于 '衰' (于丑) 且 '帝旺' (于寅)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E090",
+      "palace": 8,
+      "role": "explicit_marker",
+      "value": "暗丙 处于 '养' (于丑) 且 '长生' (于寅)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E091",
+      "palace": 8,
+      "role": "explicit_marker",
+      "value": "天盘干 丙加乙 形成『日月并行』"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E092",
+      "palace": 8,
+      "role": "explicit_marker",
+      "value": "暗干干 丙加乙 形成『日月并行』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E093",
+      "palace": 8,
+      "role": "explicit_marker",
+      "value": "门生宫"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E094",
+      "palace": 8,
+      "role": "heaven_stem",
+      "value": "丙"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E095",
+      "palace": 8,
+      "role": "star",
+      "value": "天英"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E096",
+      "palace": 9,
+      "role": "deity",
+      "value": "白虎"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E097",
+      "palace": 9,
+      "role": "door",
+      "value": "开门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E098",
+      "palace": 9,
+      "role": "earth_stem",
+      "value": "丙"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E099",
+      "palace": 9,
+      "role": "explicit_marker",
+      "value": "天己 处于 '临官' (于午)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E100",
+      "palace": 9,
+      "role": "explicit_marker",
+      "value": "地丙 处于 '帝旺' (于午)"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E101",
+      "palace": 9,
+      "role": "explicit_marker",
+      "value": "暗己 处于 '临官' (于午)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E102",
+      "palace": 9,
+      "role": "explicit_marker",
+      "value": "天盘干 己加丙 形成『火悖地户』"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E103",
+      "palace": 9,
+      "role": "explicit_marker",
+      "value": "暗干干 己加丙 形成『火悖地户』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E104",
+      "palace": 9,
+      "role": "explicit_marker",
+      "value": "宫迫门"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E105",
+      "palace": 9,
+      "role": "heaven_stem",
+      "value": "己"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E106",
+      "palace": 9,
+      "role": "star",
+      "value": "天心"
+    }
+  ],
+  "compiler_version": "qmdj-analyst/1.0.0",
+  "determinism": {
+    "id_derivation": "sha256 content address; IDs assigned by sorting atoms within type on content_hash (byte-identical across runs for identical inputs)",
+    "ordering": "all collections sorted by canonical key before emission",
+    "timestamps": "no wall-clock timestamps anywhere in emitted artifacts"
+  }
+}

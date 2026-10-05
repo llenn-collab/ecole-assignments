@@ -1,0 +1,10 @@
+{
+  "CAP": "CAP-15",
+  "call_index": 4,
+  "in": [
+    "brief"
+  ],
+  "out": "brief_decompose",
+  "cost": 59,
+  "status": "OK"
+}

@@ -1,0 +1,88 @@
+{
+  "B0_COVERAGE_CONTRACT": {
+    "run_id": "QMDJ-P3-001",
+    "derivation_note": "annex A-coverage (coverage_control: topic_order, protocol-class matrix, palace-blocking rules, visibility tags, digest gates, stop conditions) was not supplied. This contract is derived from the charter's protocol section (B0-B5, P6, RT), from B3's named topics, and from the run's own role map; the derivation is flagged in 14_gap_report and in 11_dependency_assumptions (A-008). The 25-batch count required by law 29 is met by this decomposition.",
+    "total_batches": 25,
+    "max_palace_blocks_per_batch": 1,
+    "max_parallel_palaces": 2,
+    "palace_blocking_rules": [
+      "B1 must resolve all core roles before any palace block runs",
+      "a palace block may not start before its B2 dependency chain root (palace 1 -> 4 -> 7; palace 2 -> 3 -> 6 -> 9; palace 8 -> 9) has been emitted",
+      "the centre block (5) requires palace 3, because the chart's only centre edge runs there"
+    ],
+    "palace_dependency_chains": [
+      "1 -> 4 -> 7 (axis relation R002 and the 4-7 trace R006)",
+      "2 -> 3 -> 6 -> 9 (traces R003, R005, R007)",
+      "8 -> 9 (trace R009)",
+      "3 -> 5 (lodging spur R004); centre has no other edge"
+    ],
+    "forbidden_scope": [
+      "reading the chart source after the board card exists (law 44)",
+      "citing case_context as evidence (law 51 / cc2)",
+      "resolving a declared unknown (law 53 / cc4)",
+      "inventing a platform, a price, a date, a metric value or a named person",
+      "using positional array adjacency as a relation (law 11)",
+      "an 'opposite of the centre' (law 10)"
+    ],
+    "eligible_scope": {
+      "palaces": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "note": "palace 0 is the chart-level block (pillars, zhi_fu, zhi_shi, solar term, system metadata)"
+    },
+    "visibility_tags": ["VISIBLE", "ELIGIBLE", "FORBIDDEN", "OMITTED"],
+    "digest_gates": [
+      "6000 characters per palace block; truncation must be flagged",
+      "an ID list is not a digest: value, role, grounding and visibility are inlined",
+      "contradiction evidence stays VISIBLE and ELIGIBLE (law 28)"
+    ],
+    "stop_conditions": [
+      "core role BLOCKED -> halt at B1",
+      "fingerprint mismatch at a phase boundary -> SOURCE_CHANGED, halt",
+      "ledger does not balance -> B5 cannot close, render PARTIAL + gap report",
+      "call budget 60 exhausted -> render PARTIAL + gap report"
+    ],
+    "retry_bounds": { "per_claim": 1, "per_batch": 1, "per_p6_or_rt": 1, "max_cap_calls": 60 },
+    "topic_order": [
+      "T1 axis (heaven/earth stem per palace)",
+      "T2 axis opposition (1-4, 6-9 only)",
+      "T3 axis lodging (centre graph)",
+      "T4 tripled axis (three-node stem runs)",
+      "T5 child axis (stem pairs within one palace)",
+      "T6 cross-palace circulation (value-trace graph)",
+      "T7 pattern register (markers and their classes)"
+    ],
+    "batches": [
+      { "batch": "B0",  "id": "B0.1", "phase": "B0", "topic": "coverage contract validation", "scope": "contract", "status": "ok" },
+      { "batch": "B1",  "id": "B1.1", "phase": "B1", "topic": "schema bind + role resolution", "scope": "chart", "status": "ok" },
+      { "batch": "B1",  "id": "B1.2", "phase": "B1", "topic": "pillars, stems, composite fields", "scope": "chart_info.ganzhi + palace_elements", "status": "ok" },
+      { "batch": "B2",  "id": "B2.1", "phase": "B2", "topic": "palace block: Kan 1 palace", "scope": "palace 1", "status": "ok" },
+      { "batch": "B2",  "id": "B2.2", "phase": "B2", "topic": "palace block: Kun 2 palace", "scope": "palace 2", "status": "ok" },
+      { "batch": "B2",  "id": "B2.3", "phase": "B2", "topic": "palace block: Zhen 3 palace", "scope": "palace 3", "status": "ok" },
+      { "batch": "B2",  "id": "B2.4", "phase": "B2", "topic": "palace block: Xun 4 palace", "scope": "palace 4", "status": "ok" },
+      { "batch": "B2",  "id": "B2.5", "phase": "B2", "topic": "centre block: palace 5 (lodging graph only)", "scope": "palace 5", "status": "ok" },
+      { "batch": "B2",  "id": "B2.6", "phase": "B2", "topic": "palace block: Qian 6 palace", "scope": "palace 6", "status": "ok" },
+      { "batch": "B2",  "id": "B2.7", "phase": "B2", "topic": "palace block: Dui 7 palace", "scope": "palace 7", "status": "ok" },
+      { "batch": "B2",  "id": "B2.8", "phase": "B2", "topic": "palace block: Gen 8 palace", "scope": "palace 8", "status": "ok" },
+      { "batch": "B2",  "id": "B2.9", "phase": "B2", "topic": "palace block: Li 9 palace", "scope": "palace 9", "status": "ok" },
+      { "batch": "B3",  "id": "B3.1", "phase": "B3", "topic": "T1 axis", "scope": "palaces 0-9", "status": "ok" },
+      { "batch": "B3",  "id": "B3.2", "phase": "B3", "topic": "T2 axis opposition", "scope": "1-4, 6-9", "status": "ok" },
+      { "batch": "B3",  "id": "B3.3", "phase": "B3", "topic": "T3 axis lodging", "scope": "centre 5 and palace 3", "status": "ok" },
+      { "batch": "B3",  "id": "B3.4", "phase": "B3", "topic": "T4 tripled axis", "scope": "trace ring", "status": "ok" },
+      { "batch": "B3",  "id": "B3.5", "phase": "B3", "topic": "T5 child axis", "scope": "within-palace stem pairs", "status": "ok" },
+      { "batch": "B3",  "id": "B3.6", "phase": "B3", "topic": "T6 cross-palace circulation", "scope": "R001-R009", "status": "ok" },
+      { "batch": "B4",  "id": "B4.1", "phase": "B4", "topic": "T7 pattern register and state", "scope": "markers", "status": "ok" },
+      { "batch": "B4",  "id": "B4.2", "phase": "B4", "topic": "candidate compression and null register", "scope": "markers", "status": "ok" },
+      { "batch": "B5",  "id": "B5.1", "phase": "B5", "topic": "ledger closure per palace and per batch", "scope": "all", "status": "ok" },
+      { "batch": "B5",  "id": "B5.2", "phase": "B5", "topic": "citation ledger, closure proof, gap register", "scope": "all", "status": "ok" },
+      { "batch": "P6",  "id": "P6.1", "phase": "P6", "topic": "pattern scoring registry (Tier 1 + Tier 2)", "scope": "all claims", "status": "ok" },
+      { "batch": "RT",  "id": "RT.1", "phase": "RT", "topic": "red-team pass over every live claim's candidate set", "scope": "C001-C013", "status": "ok" },
+      { "batch": "RT",  "id": "RT.2", "phase": "RT", "topic": "rank status folding and residual uncertainty", "scope": "C001-C013", "status": "ok" }
+    ],
+    "validation": {
+      "checked_at": "B0",
+      "batches_declared": 25,
+      "palace_blocks": 9,
+      "core_roles_required": ["pillars", "palaces_root", "palace_identity", "heaven_stem", "earth_stem", "star", "door"],
+      "validated_before_any_batch": true
+    }
+  }
+}

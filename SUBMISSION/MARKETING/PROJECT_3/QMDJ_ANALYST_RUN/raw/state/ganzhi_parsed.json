@@ -1,0 +1,35 @@
+{
+  "cap": "CAP-05",
+  "parsed": [],
+  "rule": "split on space/hyphen into exactly two tokens; never guess",
+  "unparseable": [
+    {
+      "path": "chart_info/ganzhi/year",
+      "raw": "丙午",
+      "reason": "TOKEN_COUNT=1",
+      "slot": "year",
+      "state": "UNPARSEABLE"
+    },
+    {
+      "path": "chart_info/ganzhi/month",
+      "raw": "丁酉",
+      "reason": "TOKEN_COUNT=1",
+      "slot": "month",
+      "state": "UNPARSEABLE"
+    },
+    {
+      "path": "chart_info/ganzhi/day",
+      "raw": "辛亥",
+      "reason": "TOKEN_COUNT=1",
+      "slot": "day",
+      "state": "UNPARSEABLE"
+    },
+    {
+      "path": "chart_info/ganzhi/hour",
+      "raw": "丁酉",
+      "reason": "TOKEN_COUNT=1",
+      "slot": "hour",
+      "state": "UNPARSEABLE"
+    }
+  ]
+}

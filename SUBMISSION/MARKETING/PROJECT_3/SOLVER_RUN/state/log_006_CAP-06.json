@@ -1,0 +1,11 @@
+{
+  "CAP": "CAP-06",
+  "call_index": 6,
+  "in": [
+    "brief_decompose",
+    "solution"
+  ],
+  "out": "binding_manifest",
+  "cost": 20,
+  "status": "OK"
+}

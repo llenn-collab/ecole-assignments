@@ -1,0 +1,893 @@
+{
+  "absent_slot_list": [
+    "palace 1: horse",
+    "palace 1: void",
+    "palace 2: horse",
+    "palace 2: void",
+    "palace 3: horse",
+    "palace 3: void",
+    "palace 4: horse",
+    "palace 4: void",
+    "palace 5: deity",
+    "palace 5: gate",
+    "palace 5: heaven stem",
+    "palace 5: horse",
+    "palace 5: void",
+    "palace 6: horse",
+    "palace 6: void",
+    "palace 7: horse",
+    "palace 7: void",
+    "palace 8: horse",
+    "palace 8: void",
+    "palace 9: horse",
+    "palace 9: void"
+  ],
+  "absent_slots_per_palace": {
+    "0": 0,
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2,
+    "5": 5,
+    "6": 2,
+    "7": 2,
+    "8": 2,
+    "9": 2
+  },
+  "disposition_detail": [
+    {
+      "disposition": "DEFERRED",
+      "id": "E001",
+      "palace": 0,
+      "role": "chart_field:method",
+      "value": "Qimen Dunjia Chart"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E002",
+      "palace": 0,
+      "role": "chart_field:solar_term",
+      "value": "秋分, 上 Yuan"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E003",
+      "palace": 0,
+      "role": "chart_field:system",
+      "value": "Yi Dun - Lun Cang Jia"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E004",
+      "palace": 0,
+      "role": "chart_field:type",
+      "value": "Hourly Rotating Qimen, Yin Dun 7 Ju"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E005",
+      "palace": 0,
+      "role": "chart_field:zhi_fu",
+      "value": "天辅 falling in Palace 1"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E006",
+      "palace": 0,
+      "role": "chart_field:zhi_shi",
+      "value": "杜门 falling in Palace 1"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E007",
+      "palace": 0,
+      "role": "pillar:day",
+      "value": "辛亥"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E008",
+      "palace": 0,
+      "role": "pillar:hour",
+      "value": "丁酉"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E009",
+      "palace": 0,
+      "role": "pillar:month",
+      "value": "丁酉"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E010",
+      "palace": 0,
+      "role": "pillar:year",
+      "value": "丙午"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E011",
+      "palace": 1,
+      "role": "deity",
+      "value": "值符"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E012",
+      "palace": 1,
+      "role": "door",
+      "value": "杜门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E013",
+      "palace": 1,
+      "role": "earth_stem",
+      "value": "丁"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E014",
+      "palace": 1,
+      "role": "explicit_marker",
+      "value": "天辛 处于 '长生' (于子)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E015",
+      "palace": 1,
+      "role": "explicit_marker",
+      "value": "地丁 处于 '绝' (于子)"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E016",
+      "palace": 1,
+      "role": "explicit_marker",
+      "value": "暗辛 处于 '长生' (于子)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E017",
+      "palace": 1,
+      "role": "explicit_marker",
+      "value": "天盘干 辛加丁 形成『狱神得奇』"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E018",
+      "palace": 1,
+      "role": "explicit_marker",
+      "value": "暗干干 辛加丁 形成『狱神得奇』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E019",
+      "palace": 1,
+      "role": "explicit_marker",
+      "value": "玉女守门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E020",
+      "palace": 1,
+      "role": "explicit_marker",
+      "value": "宫生门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E021",
+      "palace": 1,
+      "role": "heaven_stem",
+      "value": "辛"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E022",
+      "palace": 1,
+      "role": "star",
+      "value": "天辅"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E023",
+      "palace": 2,
+      "role": "deity",
+      "value": "六合"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E024",
+      "palace": 2,
+      "role": "door",
+      "value": "休门"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E025",
+      "palace": 2,
+      "role": "earth_stem",
+      "value": "癸"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E026",
+      "palace": 2,
+      "role": "explicit_marker",
+      "value": "天丁 处于 '冠带' (于未) 且 '沐浴' (于申)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E027",
+      "palace": 2,
+      "role": "explicit_marker",
+      "value": "地癸 处于 '墓' (于未) 且 '死' (于申)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E028",
+      "palace": 2,
+      "role": "explicit_marker",
+      "value": "暗丁 处于 '冠带' (于未) 且 '沐浴' (于申)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E029",
+      "palace": 2,
+      "role": "explicit_marker",
+      "value": "天盘干 丁加癸 形成『朱雀投江』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E030",
+      "palace": 2,
+      "role": "explicit_marker",
+      "value": "暗干干 丁加癸 形成『朱雀投江』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E031",
+      "palace": 2,
+      "role": "explicit_marker",
+      "value": "宫迫门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E032",
+      "palace": 2,
+      "role": "explicit_marker",
+      "value": "三奇受制"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E033",
+      "palace": 2,
+      "role": "heaven_stem",
+      "value": "丁"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E034",
+      "palace": 2,
+      "role": "star",
+      "value": "天蓬"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E035",
+      "palace": 3,
+      "role": "deity",
+      "value": "九地"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E036",
+      "palace": 3,
+      "role": "door",
+      "value": "死门"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E037",
+      "palace": 3,
+      "role": "earth_stem",
+      "value": "壬"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E038",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "天癸 处于 '长生' (于卯)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E039",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "寄庚 处于 '胎' (于卯)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E040",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "地壬 处于 '死' (于卯)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E041",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "暗癸 处于 '长生' (于卯)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E042",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "天盘干 癸加壬 形成『复见螣蛇』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E043",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "寄宫干 庚加壬 形成『太白退位』"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E044",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "暗干干 癸加壬 形成『复见螣蛇』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E045",
+      "palace": 3,
+      "role": "explicit_marker",
+      "value": "宫迫门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E046",
+      "palace": 3,
+      "role": "heaven_stem",
+      "value": "癸"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E047",
+      "palace": 3,
+      "role": "hosted_stem",
+      "value": "庚"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E048",
+      "palace": 3,
+      "role": "star",
+      "value": "天芮"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E049",
+      "palace": 4,
+      "role": "deity",
+      "value": "玄武"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E050",
+      "palace": 4,
+      "role": "door",
+      "value": "惊门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E051",
+      "palace": 4,
+      "role": "earth_stem",
+      "value": "辛"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E052",
+      "palace": 4,
+      "role": "explicit_marker",
+      "value": "天戊 处于 '冠带' (于辰) 且 '临官' (于巳)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E053",
+      "palace": 4,
+      "role": "explicit_marker",
+      "value": "地辛 处于 '墓' (于辰) 且 '死' (于巳)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E054",
+      "palace": 4,
+      "role": "explicit_marker",
+      "value": "暗戊 处于 '冠带' (于辰) 且 '临官' (于巳)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E055",
+      "palace": 4,
+      "role": "explicit_marker",
+      "value": "天盘干 戊加辛 形成『青龙折足』"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E056",
+      "palace": 4,
+      "role": "explicit_marker",
+      "value": "暗干干 戊加辛 形成『青龙折足』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E057",
+      "palace": 4,
+      "role": "explicit_marker",
+      "value": "门迫宫"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E058",
+      "palace": 4,
+      "role": "heaven_stem",
+      "value": "戊"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E059",
+      "palace": 4,
+      "role": "star",
+      "value": "天柱"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E060",
+      "palace": 5,
+      "role": "earth_stem",
+      "value": "庚"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E061",
+      "palace": 5,
+      "role": "explicit_marker",
+      "value": "暗干干 庚加庚 形成『太白同宫』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E062",
+      "palace": 5,
+      "role": "star",
+      "value": "天禽"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E063",
+      "palace": 6,
+      "role": "deity",
+      "value": "腾蛇"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E064",
+      "palace": 6,
+      "role": "door",
+      "value": "伤门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E065",
+      "palace": 6,
+      "role": "earth_stem",
+      "value": "己"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E066",
+      "palace": 6,
+      "role": "explicit_marker",
+      "value": "天壬 处于 '冠带' (于戌) 且 '临官' (于亥)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E067",
+      "palace": 6,
+      "role": "explicit_marker",
+      "value": "地己 处于 '养' (于戌) 且 '胎' (于亥)"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E068",
+      "palace": 6,
+      "role": "explicit_marker",
+      "value": "暗壬 处于 '冠带' (于戌) 且 '临官' (于亥)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E069",
+      "palace": 6,
+      "role": "explicit_marker",
+      "value": "天盘干 壬加己 形成『凶蛇入狱』"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E070",
+      "palace": 6,
+      "role": "explicit_marker",
+      "value": "暗干干 壬加己 形成『凶蛇入狱』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E071",
+      "palace": 6,
+      "role": "explicit_marker",
+      "value": "宫迫门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E072",
+      "palace": 6,
+      "role": "heaven_stem",
+      "value": "壬"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E073",
+      "palace": 6,
+      "role": "star",
+      "value": "天冲"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E074",
+      "palace": 7,
+      "role": "deity",
+      "value": "太阴"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E075",
+      "palace": 7,
+      "role": "door",
+      "value": "生门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E076",
+      "palace": 7,
+      "role": "earth_stem",
+      "value": "戊"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E077",
+      "palace": 7,
+      "role": "explicit_marker",
+      "value": "天乙 处于 '绝' (于酉)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E078",
+      "palace": 7,
+      "role": "explicit_marker",
+      "value": "地戊 处于 '死' (于酉)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E079",
+      "palace": 7,
+      "role": "explicit_marker",
+      "value": "暗乙 处于 '绝' (于酉)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E080",
+      "palace": 7,
+      "role": "explicit_marker",
+      "value": "天盘干 乙加戊 形成『利阴害阳』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E081",
+      "palace": 7,
+      "role": "explicit_marker",
+      "value": "暗干干 乙加戊 形成『利阴害阳』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E082",
+      "palace": 7,
+      "role": "explicit_marker",
+      "value": "门生宫"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E083",
+      "palace": 7,
+      "role": "heaven_stem",
+      "value": "乙"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E084",
+      "palace": 7,
+      "role": "star",
+      "value": "天任"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E085",
+      "palace": 8,
+      "role": "deity",
+      "value": "九天"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E086",
+      "palace": 8,
+      "role": "door",
+      "value": "景门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E087",
+      "palace": 8,
+      "role": "earth_stem",
+      "value": "乙"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E088",
+      "palace": 8,
+      "role": "explicit_marker",
+      "value": "天丙 处于 '养' (于丑) 且 '长生' (于寅)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E089",
+      "palace": 8,
+      "role": "explicit_marker",
+      "value": "地乙 处于 '衰' (于丑) 且 '帝旺' (于寅)"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E090",
+      "palace": 8,
+      "role": "explicit_marker",
+      "value": "暗丙 处于 '养' (于丑) 且 '长生' (于寅)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E091",
+      "palace": 8,
+      "role": "explicit_marker",
+      "value": "天盘干 丙加乙 形成『日月并行』"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E092",
+      "palace": 8,
+      "role": "explicit_marker",
+      "value": "暗干干 丙加乙 形成『日月并行』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E093",
+      "palace": 8,
+      "role": "explicit_marker",
+      "value": "门生宫"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E094",
+      "palace": 8,
+      "role": "heaven_stem",
+      "value": "丙"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E095",
+      "palace": 8,
+      "role": "star",
+      "value": "天英"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E096",
+      "palace": 9,
+      "role": "deity",
+      "value": "白虎"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E097",
+      "palace": 9,
+      "role": "door",
+      "value": "开门"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E098",
+      "palace": 9,
+      "role": "earth_stem",
+      "value": "丙"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E099",
+      "palace": 9,
+      "role": "explicit_marker",
+      "value": "天己 处于 '临官' (于午)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E100",
+      "palace": 9,
+      "role": "explicit_marker",
+      "value": "地丙 处于 '帝旺' (于午)"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E101",
+      "palace": 9,
+      "role": "explicit_marker",
+      "value": "暗己 处于 '临官' (于午)"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E102",
+      "palace": 9,
+      "role": "explicit_marker",
+      "value": "天盘干 己加丙 形成『火悖地户』"
+    },
+    {
+      "disposition": "CORROBORATED",
+      "id": "E103",
+      "palace": 9,
+      "role": "explicit_marker",
+      "value": "暗干干 己加丙 形成『火悖地户』"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E104",
+      "palace": 9,
+      "role": "explicit_marker",
+      "value": "宫迫门"
+    },
+    {
+      "disposition": "DEFERRED",
+      "id": "E105",
+      "palace": 9,
+      "role": "heaven_stem",
+      "value": "己"
+    },
+    {
+      "disposition": "ADDRESSED",
+      "id": "E106",
+      "palace": 9,
+      "role": "star",
+      "value": "天心"
+    }
+  ],
+  "file_role": "B5 disposition workbook. Rules declared by the analyst; the partition and all addends are produced by tools/mk_sidecar.py and re-enumerated by CAP-14.",
+  "global_absent": {
+    "count": 0,
+    "note": "no global absent slot beyond the per-palace rows in this run"
+  },
+  "palace_dispositions": [
+    {
+      "addressed": 6,
+      "anomaly": 0,
+      "corroborated": 0,
+      "deferred": 4,
+      "excluded": 0,
+      "palace": 0,
+      "unparseable": 0
+    },
+    {
+      "addressed": 9,
+      "anomaly": 0,
+      "corroborated": 2,
+      "deferred": 1,
+      "excluded": 0,
+      "palace": 1,
+      "unparseable": 0
+    },
+    {
+      "addressed": 8,
+      "anomaly": 0,
+      "corroborated": 0,
+      "deferred": 4,
+      "excluded": 0,
+      "palace": 2,
+      "unparseable": 0
+    },
+    {
+      "addressed": 8,
+      "anomaly": 0,
+      "corroborated": 1,
+      "deferred": 5,
+      "excluded": 0,
+      "palace": 3,
+      "unparseable": 0
+    },
+    {
+      "addressed": 7,
+      "anomaly": 0,
+      "corroborated": 1,
+      "deferred": 3,
+      "excluded": 0,
+      "palace": 4,
+      "unparseable": 0
+    },
+    {
+      "addressed": 3,
+      "anomaly": 0,
+      "corroborated": 0,
+      "deferred": 0,
+      "excluded": 0,
+      "palace": 5,
+      "unparseable": 0
+    },
+    {
+      "addressed": 7,
+      "anomaly": 0,
+      "corroborated": 2,
+      "deferred": 2,
+      "excluded": 0,
+      "palace": 6,
+      "unparseable": 0
+    },
+    {
+      "addressed": 9,
+      "anomaly": 0,
+      "corroborated": 0,
+      "deferred": 2,
+      "excluded": 0,
+      "palace": 7,
+      "unparseable": 0
+    },
+    {
+      "addressed": 7,
+      "anomaly": 0,
+      "corroborated": 1,
+      "deferred": 3,
+      "excluded": 0,
+      "palace": 8,
+      "unparseable": 0
+    },
+    {
+      "addressed": 7,
+      "anomaly": 0,
+      "corroborated": 2,
+      "deferred": 2,
+      "excluded": 0,
+      "palace": 9,
+      "unparseable": 0
+    }
+  ],
+  "rules": {
+    "ABSENT": "required role slot the chart does not populate at that palace (void and horse everywhere; heaven stem, gate and deity at the centre)",
+    "ADDRESSED": "cited by at least one claim in authored/claim_set.json",
+    "ANOMALY": "atom is itself an anomaly record: none in this run",
+    "CORROBORATED": "not cited; marker core identical to a cited atom in the same palace",
+    "DEFERRED": "not cited and no corroboration twin; recorded, not used by the deliverable",
+    "EXCLUDED": "excluded by case scope (do_not_say / forbidden scope): none in this run",
+    "UNPARSEABLE": "could not be typed: none in this run"
+  },
+  "tally_check": {
+    "absent_slot_count": 21,
+    "partition_sum": 106,
+    "registry_atom_count": 106,
+    "total_slots_closed": 127
+  }
+}

@@ -1,0 +1,649 @@
+{
+  "section": "09_case_alignment",
+  "cmap_rows": [
+    {
+      "claim_id": "C001",
+      "Q": "Q1",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E005",
+        "E006",
+        "E019",
+        "E020"
+      ],
+      "line": "CMAP|C001|Q1|DIRECT|E005,E006,E019,E020"
+    },
+    {
+      "claim_id": "C003",
+      "Q": "Q1",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E085",
+        "E086",
+        "E095"
+      ],
+      "line": "CMAP|C003|Q1|DIRECT|E085,E086,E095"
+    },
+    {
+      "claim_id": "C002",
+      "Q": "Q1",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E012",
+        "E022"
+      ],
+      "line": "CMAP|C002|Q1|INDIRECT|E012,E022"
+    },
+    {
+      "claim_id": "C007",
+      "Q": "Q1",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E061"
+      ],
+      "line": "CMAP|C007|Q1|INDIRECT|E061"
+    },
+    {
+      "claim_id": "C005",
+      "Q": "Q1",
+      "tag": "NO_CHART_SUPPORT",
+      "chart_citation_ids": [],
+      "line": "CMAP|C005|Q1|NO_CHART_SUPPORT|NONE"
+    },
+    {
+      "claim_id": "C005",
+      "Q": "Q2",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E029",
+        "E030"
+      ],
+      "line": "CMAP|C005|Q2|DIRECT|E029,E030"
+    },
+    {
+      "claim_id": "C002",
+      "Q": "Q2",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E005",
+        "E006",
+        "E022"
+      ],
+      "line": "CMAP|C002|Q2|DIRECT|E005,E006,E022"
+    },
+    {
+      "claim_id": "C013",
+      "Q": "Q2",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E014",
+        "E015"
+      ],
+      "line": "CMAP|C013|Q2|INDIRECT|E014,E015"
+    },
+    {
+      "claim_id": "C006",
+      "Q": "Q2",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E049",
+        "E050"
+      ],
+      "line": "CMAP|C006|Q2|INDIRECT|E049,E050"
+    },
+    {
+      "claim_id": "C004",
+      "Q": "Q2",
+      "tag": "NO_CHART_SUPPORT",
+      "chart_citation_ids": [],
+      "line": "CMAP|C004|Q2|NO_CHART_SUPPORT|NONE"
+    },
+    {
+      "claim_id": "C001",
+      "Q": "Q3",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E022",
+        "E020"
+      ],
+      "line": "CMAP|C001|Q3|DIRECT|E022,E020"
+    },
+    {
+      "claim_id": "C003",
+      "Q": "Q3",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E086",
+        "E085"
+      ],
+      "line": "CMAP|C003|Q3|DIRECT|E086,E085"
+    },
+    {
+      "claim_id": "C004",
+      "Q": "Q3",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E075",
+        "E074"
+      ],
+      "line": "CMAP|C004|Q3|DIRECT|E075,E074"
+    },
+    {
+      "claim_id": "C005",
+      "Q": "Q3",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E023"
+      ],
+      "line": "CMAP|C005|Q3|INDIRECT|E023"
+    },
+    {
+      "claim_id": "C002",
+      "Q": "Q3",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E012"
+      ],
+      "line": "CMAP|C002|Q3|INDIRECT|E012"
+    },
+    {
+      "claim_id": "C007",
+      "Q": "Q3",
+      "tag": "NO_CHART_SUPPORT",
+      "chart_citation_ids": [],
+      "line": "CMAP|C007|Q3|NO_CHART_SUPPORT|NONE"
+    },
+    {
+      "claim_id": "C003",
+      "Q": "Q4",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E085",
+        "E086",
+        "E095"
+      ],
+      "line": "CMAP|C003|Q4|DIRECT|E085,E086,E095"
+    },
+    {
+      "claim_id": "C002",
+      "Q": "Q4",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E012",
+        "E022"
+      ],
+      "line": "CMAP|C002|Q4|DIRECT|E012,E022"
+    },
+    {
+      "claim_id": "C004",
+      "Q": "Q4",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E074",
+        "E082"
+      ],
+      "line": "CMAP|C004|Q4|DIRECT|E074,E082"
+    },
+    {
+      "claim_id": "C005",
+      "Q": "Q4",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E023"
+      ],
+      "line": "CMAP|C005|Q4|INDIRECT|E023"
+    },
+    {
+      "claim_id": "C006",
+      "Q": "Q4",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E050",
+        "E064"
+      ],
+      "line": "CMAP|C006|Q4|INDIRECT|E050,E064"
+    },
+    {
+      "claim_id": "C009",
+      "Q": "Q4",
+      "tag": "NO_CHART_SUPPORT",
+      "chart_citation_ids": [],
+      "line": "CMAP|C009|Q4|NO_CHART_SUPPORT|NONE"
+    },
+    {
+      "claim_id": "C001",
+      "Q": "Q5",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E017",
+        "E019"
+      ],
+      "line": "CMAP|C001|Q5|DIRECT|E017,E019"
+    },
+    {
+      "claim_id": "C008",
+      "Q": "Q5",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ],
+      "line": "CMAP|C008|Q5|DIRECT|R001,R002,R003,R004,R005,R006,R007,R008,R009"
+    },
+    {
+      "claim_id": "C010",
+      "Q": "Q5",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E078"
+      ],
+      "line": "CMAP|C010|Q5|INDIRECT|E078"
+    },
+    {
+      "claim_id": "C011",
+      "Q": "Q5",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E097",
+        "E102"
+      ],
+      "line": "CMAP|C011|Q5|INDIRECT|E097,E102"
+    },
+    {
+      "claim_id": "C004",
+      "Q": "Q6",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E075",
+        "E074",
+        "E084"
+      ],
+      "line": "CMAP|C004|Q6|DIRECT|E075,E074,E084"
+    },
+    {
+      "claim_id": "C003",
+      "Q": "Q6",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E091",
+        "E086"
+      ],
+      "line": "CMAP|C003|Q6|DIRECT|E091,E086"
+    },
+    {
+      "claim_id": "C002",
+      "Q": "Q6",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E022",
+        "E005"
+      ],
+      "line": "CMAP|C002|Q6|DIRECT|E022,E005"
+    },
+    {
+      "claim_id": "C006",
+      "Q": "Q6",
+      "tag": "NO_CHART_SUPPORT",
+      "chart_citation_ids": [],
+      "line": "CMAP|C006|Q6|NO_CHART_SUPPORT|NONE"
+    },
+    {
+      "claim_id": "C001",
+      "Q": "Q7",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E017",
+        "E018",
+        "E019",
+        "E020"
+      ],
+      "line": "CMAP|C001|Q7|DIRECT|E017,E018,E019,E020"
+    },
+    {
+      "claim_id": "C011",
+      "Q": "Q7",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E097",
+        "E102",
+        "E104"
+      ],
+      "line": "CMAP|C011|Q7|DIRECT|E097,E102,E104"
+    },
+    {
+      "claim_id": "C013",
+      "Q": "Q7",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E014",
+        "E015"
+      ],
+      "line": "CMAP|C013|Q7|DIRECT|E014,E015"
+    },
+    {
+      "claim_id": "C012",
+      "Q": "Q7",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E021",
+        "E066"
+      ],
+      "line": "CMAP|C012|Q7|INDIRECT|E021,E066"
+    },
+    {
+      "claim_id": "C005",
+      "Q": "Q8",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E023",
+        "E029"
+      ],
+      "line": "CMAP|C005|Q8|DIRECT|E023,E029"
+    },
+    {
+      "claim_id": "C004",
+      "Q": "Q8",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E074",
+        "E075",
+        "E082"
+      ],
+      "line": "CMAP|C004|Q8|DIRECT|E074,E075,E082"
+    },
+    {
+      "claim_id": "C006",
+      "Q": "Q8",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E063",
+        "E064"
+      ],
+      "line": "CMAP|C006|Q8|INDIRECT|E063,E064"
+    },
+    {
+      "claim_id": "C005",
+      "Q": "Q9",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E023"
+      ],
+      "line": "CMAP|C005|Q9|DIRECT|E023"
+    },
+    {
+      "claim_id": "C004",
+      "Q": "Q9",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E074",
+        "E084"
+      ],
+      "line": "CMAP|C004|Q9|DIRECT|E074,E084"
+    },
+    {
+      "claim_id": "C002",
+      "Q": "Q9",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E022"
+      ],
+      "line": "CMAP|C002|Q9|INDIRECT|E022"
+    },
+    {
+      "claim_id": "C010",
+      "Q": "Q10",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E008",
+        "E009",
+        "E078"
+      ],
+      "line": "CMAP|C010|Q10|DIRECT|E008,E009,E078"
+    },
+    {
+      "claim_id": "C002",
+      "Q": "Q10",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E012",
+        "E006"
+      ],
+      "line": "CMAP|C002|Q10|DIRECT|E012,E006"
+    },
+    {
+      "claim_id": "C013",
+      "Q": "Q10",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E014",
+        "E015"
+      ],
+      "line": "CMAP|C013|Q10|INDIRECT|E014,E015"
+    },
+    {
+      "claim_id": "C006",
+      "Q": "Q10",
+      "tag": "NO_CHART_SUPPORT",
+      "chart_citation_ids": [],
+      "line": "CMAP|C006|Q10|NO_CHART_SUPPORT|NONE"
+    },
+    {
+      "claim_id": "C003",
+      "Q": "Q11",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E086",
+        "E085",
+        "E095"
+      ],
+      "line": "CMAP|C003|Q11|DIRECT|E086,E085,E095"
+    },
+    {
+      "claim_id": "C004",
+      "Q": "Q11",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E074",
+        "E075"
+      ],
+      "line": "CMAP|C004|Q11|DIRECT|E074,E075"
+    },
+    {
+      "claim_id": "C011",
+      "Q": "Q11",
+      "tag": "DIRECT",
+      "chart_citation_ids": [
+        "E097",
+        "E104"
+      ],
+      "line": "CMAP|C011|Q11|DIRECT|E097,E104"
+    },
+    {
+      "claim_id": "C001",
+      "Q": "Q11",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "E019"
+      ],
+      "line": "CMAP|C001|Q11|INDIRECT|E019"
+    },
+    {
+      "claim_id": "C009",
+      "Q": "Q11",
+      "tag": "INDIRECT",
+      "chart_citation_ids": [
+        "R007"
+      ],
+      "line": "CMAP|C009|Q11|INDIRECT|R007"
+    },
+    {
+      "claim_id": "C012",
+      "Q": "Q11",
+      "tag": "CONTRADICTS_KNOWN",
+      "chart_citation_ids": [],
+      "line": "CMAP|C012|Q11|CONTRADICTS_KNOWN|NONE"
+    }
+  ],
+  "facet_coverage_summary": [
+    {
+      "Q": "Q1",
+      "claim_count": 5,
+      "covered": true,
+      "facet": "what content must achieve for the brand",
+      "status": "PRIMARY",
+      "tag_tally": {
+        "CONTRADICTS_KNOWN": 0,
+        "DIRECT": 2,
+        "INDIRECT": 2,
+        "NO_CHART_SUPPORT": 1
+      }
+    },
+    {
+      "Q": "Q2",
+      "claim_count": 5,
+      "covered": true,
+      "facet": "how the brand should communicate online (core message, tone, principles)",
+      "status": "PRIMARY",
+      "tag_tally": {
+        "CONTRADICTS_KNOWN": 0,
+        "DIRECT": 2,
+        "INDIRECT": 2,
+        "NO_CHART_SUPPORT": 1
+      }
+    },
+    {
+      "Q": "Q3",
+      "claim_count": 6,
+      "covered": true,
+      "facet": "3-5 content pillars, each with a purpose",
+      "status": "PRIMARY",
+      "tag_tally": {
+        "CONTRADICTS_KNOWN": 0,
+        "DIRECT": 3,
+        "INDIRECT": 2,
+        "NO_CHART_SUPPORT": 1
+      }
+    },
+    {
+      "Q": "Q4",
+      "claim_count": 6,
+      "covered": true,
+      "facet": "2-3 primary platforms, justified by audience behaviour",
+      "status": "PRIMARY",
+      "tag_tally": {
+        "CONTRADICTS_KNOWN": 0,
+        "DIRECT": 3,
+        "INDIRECT": 2,
+        "NO_CHART_SUPPORT": 1
+      }
+    },
+    {
+      "Q": "Q5",
+      "claim_count": 4,
+      "covered": true,
+      "facet": "one idea adapted across the selected platforms",
+      "status": "PRIMARY",
+      "tag_tally": {
+        "CONTRADICTS_KNOWN": 0,
+        "DIRECT": 2,
+        "INDIRECT": 2,
+        "NO_CHART_SUPPORT": 0
+      }
+    },
+    {
+      "Q": "Q6",
+      "claim_count": 4,
+      "covered": true,
+      "facet": "5-6 content concepts incl. two visual executions",
+      "status": "PRIMARY",
+      "tag_tally": {
+        "CONTRADICTS_KNOWN": 0,
+        "DIRECT": 3,
+        "INDIRECT": 0,
+        "NO_CHART_SUPPORT": 1
+      }
+    },
+    {
+      "Q": "Q7",
+      "claim_count": 4,
+      "covered": true,
+      "facet": "one hero campaign idea (insight -> big idea -> message -> execution)",
+      "status": "PRIMARY",
+      "tag_tally": {
+        "CONTRADICTS_KNOWN": 0,
+        "DIRECT": 3,
+        "INDIRECT": 1,
+        "NO_CHART_SUPPORT": 0
+      }
+    },
+    {
+      "Q": "Q8",
+      "claim_count": 3,
+      "covered": true,
+      "facet": "community and engagement mechanisms",
+      "status": "DEFERRED",
+      "tag_tally": {
+        "CONTRADICTS_KNOWN": 0,
+        "DIRECT": 2,
+        "INDIRECT": 1,
+        "NO_CHART_SUPPORT": 0
+      }
+    },
+    {
+      "Q": "Q9",
+      "claim_count": 3,
+      "covered": true,
+      "facet": "creator/influencer strategy and two recommended creators",
+      "status": "DEFERRED",
+      "tag_tally": {
+        "CONTRADICTS_KNOWN": 0,
+        "DIRECT": 2,
+        "INDIRECT": 1,
+        "NO_CHART_SUPPORT": 0
+      }
+    },
+    {
+      "Q": "Q10",
+      "claim_count": 4,
+      "covered": true,
+      "facet": "two-week content calendar with cadence rationale",
+      "status": "DEFERRED",
+      "tag_tally": {
+        "CONTRADICTS_KNOWN": 0,
+        "DIRECT": 2,
+        "INDIRECT": 1,
+        "NO_CHART_SUPPORT": 1
+      }
+    },
+    {
+      "Q": "Q11",
+      "claim_count": 6,
+      "covered": true,
+      "facet": "5-7 metrics, each tied to an objective, plus a one-month read",
+      "status": "DEFERRED",
+      "tag_tally": {
+        "CONTRADICTS_KNOWN": 1,
+        "DIRECT": 3,
+        "INDIRECT": 2,
+        "NO_CHART_SUPPORT": 0
+      }
+    }
+  ],
+  "uncovered_facets": [],
+  "tag_legend": {
+    "CONTRADICTS_KNOWN": "claim conflicts with a known real-world fact",
+    "DIRECT": "claim addresses the facet and cites chart evidence",
+    "INDIRECT": "claim bears on the facet through a second-order reading",
+    "NO_CHART_SUPPORT": "facet acknowledged; the chart supplies nothing for it"
+  },
+  "rows_valid": 50,
+  "rows_rejected": [],
+  "note": "all four tags appear in every facet tally, including zeros (cc6)."
+}

@@ -1,0 +1,11 @@
+{
+  "CAP": "CAP-03",
+  "call_index": 3,
+  "in": [
+    "package",
+    "solution_seed"
+  ],
+  "out": "adapted_package_view",
+  "cost": 27,
+  "status": "OK"
+}

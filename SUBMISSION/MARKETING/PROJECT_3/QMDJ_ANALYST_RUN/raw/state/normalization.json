@@ -1,0 +1,1075 @@
+{
+  "absence_code_distinction": {
+    "ABSENT": "key not present: enumerated against the role map (see role_map.json)",
+    "FALSE": "key present, boolean false",
+    "NULL": "key present, value null/empty after normalization"
+  },
+  "absence_codes": [],
+  "absence_tally": {
+    "FALSE": 0,
+    "NULL": 0
+  },
+  "cap": "CAP-02",
+  "normalization": "NFC + trim",
+  "provenance_map": [
+    {
+      "changed": false,
+      "normalized": "Yi Dun - Lun Cang Jia",
+      "path": "/chart_info/system",
+      "raw": "Yi Dun - Lun Cang Jia"
+    },
+    {
+      "changed": false,
+      "normalized": "Qimen Dunjia Chart",
+      "path": "/chart_info/method",
+      "raw": "Qimen Dunjia Chart"
+    },
+    {
+      "changed": false,
+      "normalized": "Hourly Rotating Qimen, Yin Dun 7 Ju",
+      "path": "/chart_info/type",
+      "raw": "Hourly Rotating Qimen, Yin Dun 7 Ju"
+    },
+    {
+      "changed": false,
+      "normalized": "丙午",
+      "path": "/chart_info/ganzhi/year",
+      "raw": "丙午"
+    },
+    {
+      "changed": false,
+      "normalized": "丁酉",
+      "path": "/chart_info/ganzhi/month",
+      "raw": "丁酉"
+    },
+    {
+      "changed": false,
+      "normalized": "辛亥",
+      "path": "/chart_info/ganzhi/day",
+      "raw": "辛亥"
+    },
+    {
+      "changed": false,
+      "normalized": "丁酉",
+      "path": "/chart_info/ganzhi/hour",
+      "raw": "丁酉"
+    },
+    {
+      "changed": false,
+      "normalized": "天辅 falling in Palace 1",
+      "path": "/chart_info/zhi_fu",
+      "raw": "天辅 falling in Palace 1"
+    },
+    {
+      "changed": false,
+      "normalized": "杜门 falling in Palace 1",
+      "path": "/chart_info/zhi_shi",
+      "raw": "杜门 falling in Palace 1"
+    },
+    {
+      "changed": false,
+      "normalized": "秋分, 上 Yuan",
+      "path": "/chart_info/solar_term",
+      "raw": "秋分, 上 Yuan"
+    },
+    {
+      "changed": false,
+      "normalized": "坎 1 Palace",
+      "path": "/palaces/kan_1/palace_name",
+      "raw": "坎 1 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "值符",
+      "path": "/palaces/kan_1/palace_elements/[0]",
+      "raw": "值符"
+    },
+    {
+      "changed": false,
+      "normalized": "杜门",
+      "path": "/palaces/kan_1/palace_elements/[1]",
+      "raw": "杜门"
+    },
+    {
+      "changed": false,
+      "normalized": "天辅",
+      "path": "/palaces/kan_1/palace_elements/[2]",
+      "raw": "天辅"
+    },
+    {
+      "changed": false,
+      "normalized": "坎1宫",
+      "path": "/palaces/kan_1/palace_elements/[3]",
+      "raw": "坎1宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘辛",
+      "path": "/palaces/kan_1/palace_elements/[4]",
+      "raw": "天盘辛"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘丁",
+      "path": "/palaces/kan_1/palace_elements/[5]",
+      "raw": "地盘丁"
+    },
+    {
+      "changed": false,
+      "normalized": "天辛 处于 '长生' (于子)",
+      "path": "/palaces/kan_1/interpretations/[0]/condition",
+      "raw": "天辛 处于 '长生' (于子)"
+    },
+    {
+      "changed": false,
+      "normalized": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+      "path": "/palaces/kan_1/interpretations/[0]/meaning",
+      "raw": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。"
+    },
+    {
+      "changed": false,
+      "normalized": "地丁 处于 '绝' (于子)",
+      "path": "/palaces/kan_1/interpretations/[1]/condition",
+      "raw": "地丁 处于 '绝' (于子)"
+    },
+    {
+      "changed": false,
+      "normalized": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。",
+      "path": "/palaces/kan_1/interpretations/[1]/meaning",
+      "raw": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗辛 处于 '长生' (于子)",
+      "path": "/palaces/kan_1/interpretations/[2]/condition",
+      "raw": "暗辛 处于 '长生' (于子)"
+    },
+    {
+      "changed": false,
+      "normalized": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+      "path": "/palaces/kan_1/interpretations/[2]/meaning",
+      "raw": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 辛加丁 形成『狱神得奇』",
+      "path": "/palaces/kan_1/interpretations/[3]/condition",
+      "raw": "天盘干 辛加丁 形成『狱神得奇』"
+    },
+    {
+      "changed": false,
+      "normalized": "辛为狱神丁为星奇。经商获利倍增，囚人逢天赦获释。罪人释放、官人转机。",
+      "path": "/palaces/kan_1/interpretations/[3]/meaning",
+      "raw": "辛为狱神丁为星奇。经商获利倍增，囚人逢天赦获释。罪人释放、官人转机。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 辛加丁 形成『狱神得奇』",
+      "path": "/palaces/kan_1/interpretations/[4]/condition",
+      "raw": "暗干干 辛加丁 形成『狱神得奇』"
+    },
+    {
+      "changed": false,
+      "normalized": "辛为狱神丁为星奇。经商获利倍增，囚人逢天赦获释。罪人释放、官人转机。",
+      "path": "/palaces/kan_1/interpretations/[4]/meaning",
+      "raw": "辛为狱神丁为星奇。经商获利倍增，囚人逢天赦获释。罪人释放、官人转机。"
+    },
+    {
+      "changed": false,
+      "normalized": "玉女守门",
+      "path": "/palaces/kan_1/interpretations/[5]/condition",
+      "raw": "玉女守门"
+    },
+    {
+      "changed": false,
+      "normalized": "丁为玉女。值使门正好飞到地盘丁所在宫位，玉女暗中护佑。极利婚姻、宴会、喜乐、和合、阴私之事，万事遂心。有贵人暗中相助。",
+      "path": "/palaces/kan_1/interpretations/[5]/meaning",
+      "raw": "丁为玉女。值使门正好飞到地盘丁所在宫位，玉女暗中护佑。极利婚姻、宴会、喜乐、和合、阴私之事，万事遂心。有贵人暗中相助。"
+    },
+    {
+      "changed": false,
+      "normalized": "宫生门",
+      "path": "/palaces/kan_1/interpretations/[6]/condition",
+      "raw": "宫生门"
+    },
+    {
+      "changed": false,
+      "normalized": "环境(宫)主动生旺人事(门)。天降好运、得贵人相助、毫不费力。环境助力,万事如意。大吉之格。",
+      "path": "/palaces/kan_1/interpretations/[6]/meaning",
+      "raw": "环境(宫)主动生旺人事(门)。天降好运、得贵人相助、毫不费力。环境助力,万事如意。大吉之格。"
+    },
+    {
+      "changed": false,
+      "normalized": "坤 2 Palace",
+      "path": "/palaces/kun_2/palace_name",
+      "raw": "坤 2 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "六合",
+      "path": "/palaces/kun_2/palace_elements/[0]",
+      "raw": "六合"
+    },
+    {
+      "changed": false,
+      "normalized": "休门",
+      "path": "/palaces/kun_2/palace_elements/[1]",
+      "raw": "休门"
+    },
+    {
+      "changed": false,
+      "normalized": "天蓬",
+      "path": "/palaces/kun_2/palace_elements/[2]",
+      "raw": "天蓬"
+    },
+    {
+      "changed": false,
+      "normalized": "坤2宫",
+      "path": "/palaces/kun_2/palace_elements/[3]",
+      "raw": "坤2宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘丁",
+      "path": "/palaces/kun_2/palace_elements/[4]",
+      "raw": "天盘丁"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘癸",
+      "path": "/palaces/kun_2/palace_elements/[5]",
+      "raw": "地盘癸"
+    },
+    {
+      "changed": false,
+      "normalized": "天丁 处于 '冠带' (于未) 且 '沐浴' (于申)",
+      "path": "/palaces/kun_2/interpretations/[0]/condition",
+      "raw": "天丁 处于 '冠带' (于未) 且 '沐浴' (于申)"
+    },
+    {
+      "changed": false,
+      "normalized": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名桃花、败地。形体尚柔弱，易受外界诱惑与动摇，主风流、洗涤、异性缘与不稳。",
+      "path": "/palaces/kun_2/interpretations/[0]/meaning",
+      "raw": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名桃花、败地。形体尚柔弱，易受外界诱惑与动摇，主风流、洗涤、异性缘与不稳。"
+    },
+    {
+      "changed": false,
+      "normalized": "地癸 处于 '墓' (于未) 且 '死' (于申)",
+      "path": "/palaces/kun_2/interpretations/[1]/condition",
+      "raw": "地癸 处于 '墓' (于未) 且 '死' (于申)"
+    },
+    {
+      "changed": false,
+      "normalized": "又名库。入墓归库，能量被包覆封存。主被套牢、暗昧不出、能力受限与阻滞。；生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。",
+      "path": "/palaces/kun_2/interpretations/[1]/meaning",
+      "raw": "又名库。入墓归库，能量被包覆封存。主被套牢、暗昧不出、能力受限与阻滞。；生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗丁 处于 '冠带' (于未) 且 '沐浴' (于申)",
+      "path": "/palaces/kun_2/interpretations/[2]/condition",
+      "raw": "暗丁 处于 '冠带' (于未) 且 '沐浴' (于申)"
+    },
+    {
+      "changed": false,
+      "normalized": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名桃花、败地。形体尚柔弱，易受外界诱惑与动摇，主风流、洗涤、异性缘与不稳。",
+      "path": "/palaces/kun_2/interpretations/[2]/meaning",
+      "raw": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名桃花、败地。形体尚柔弱，易受外界诱惑与动摇，主风流、洗涤、异性缘与不稳。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 丁加癸 形成『朱雀投江』",
+      "path": "/palaces/kun_2/interpretations/[3]/condition",
+      "raw": "天盘干 丁加癸 形成『朱雀投江』"
+    },
+    {
+      "changed": false,
+      "normalized": "文书口舌是非，经官动府。朱雀遇癸水冲克，消息如沉江中，音信不到。",
+      "path": "/palaces/kun_2/interpretations/[3]/meaning",
+      "raw": "文书口舌是非，经官动府。朱雀遇癸水冲克，消息如沉江中，音信不到。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 丁加癸 形成『朱雀投江』",
+      "path": "/palaces/kun_2/interpretations/[4]/condition",
+      "raw": "暗干干 丁加癸 形成『朱雀投江』"
+    },
+    {
+      "changed": false,
+      "normalized": "文书口舌是非，经官动府。朱雀遇癸水冲克，消息如沉江中，音信不到。",
+      "path": "/palaces/kun_2/interpretations/[4]/meaning",
+      "raw": "文书口舌是非，经官动府。朱雀遇癸水冲克，消息如沉江中，音信不到。"
+    },
+    {
+      "changed": false,
+      "normalized": "宫迫门",
+      "path": "/palaces/kun_2/interpretations/[5]/condition",
+      "raw": "宫迫门"
+    },
+    {
+      "changed": false,
+      "normalized": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。",
+      "path": "/palaces/kun_2/interpretations/[5]/meaning",
+      "raw": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。"
+    },
+    {
+      "changed": false,
+      "normalized": "三奇受制",
+      "path": "/palaces/kun_2/interpretations/[6]/condition",
+      "raw": "三奇受制"
+    },
+    {
+      "changed": false,
+      "normalized": "三奇受到相克之干的压制。奇能虽在,却被锁住无法发挥。主贵人帮不上忙,能力受限。",
+      "path": "/palaces/kun_2/interpretations/[6]/meaning",
+      "raw": "三奇受到相克之干的压制。奇能虽在,却被锁住无法发挥。主贵人帮不上忙,能力受限。"
+    },
+    {
+      "changed": false,
+      "normalized": "震 3 Palace",
+      "path": "/palaces/zhen_3/palace_name",
+      "raw": "震 3 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "九地",
+      "path": "/palaces/zhen_3/palace_elements/[0]",
+      "raw": "九地"
+    },
+    {
+      "changed": false,
+      "normalized": "死门",
+      "path": "/palaces/zhen_3/palace_elements/[1]",
+      "raw": "死门"
+    },
+    {
+      "changed": false,
+      "normalized": "天芮",
+      "path": "/palaces/zhen_3/palace_elements/[2]",
+      "raw": "天芮"
+    },
+    {
+      "changed": false,
+      "normalized": "震3宫",
+      "path": "/palaces/zhen_3/palace_elements/[3]",
+      "raw": "震3宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘癸",
+      "path": "/palaces/zhen_3/palace_elements/[4]",
+      "raw": "天盘癸"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘壬",
+      "path": "/palaces/zhen_3/palace_elements/[5]",
+      "raw": "地盘壬"
+    },
+    {
+      "changed": false,
+      "normalized": "天癸 处于 '长生' (于卯)",
+      "path": "/palaces/zhen_3/interpretations/[0]/condition",
+      "raw": "天癸 处于 '长生' (于卯)"
+    },
+    {
+      "changed": false,
+      "normalized": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+      "path": "/palaces/zhen_3/interpretations/[0]/meaning",
+      "raw": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。"
+    },
+    {
+      "changed": false,
+      "normalized": "寄庚 处于 '胎' (于卯)",
+      "path": "/palaces/zhen_3/interpretations/[1]/condition",
+      "raw": "寄庚 处于 '胎' (于卯)"
+    },
+    {
+      "changed": false,
+      "normalized": "天地交泰，受气成胎。如胎儿孕育，隐秀形体，形局待发，充满生机与希望。",
+      "path": "/palaces/zhen_3/interpretations/[1]/meaning",
+      "raw": "天地交泰，受气成胎。如胎儿孕育，隐秀形体，形局待发，充满生机与希望。"
+    },
+    {
+      "changed": false,
+      "normalized": "地壬 处于 '死' (于卯)",
+      "path": "/palaces/zhen_3/interpretations/[2]/condition",
+      "raw": "地壬 处于 '死' (于卯)"
+    },
+    {
+      "changed": false,
+      "normalized": "生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。",
+      "path": "/palaces/zhen_3/interpretations/[2]/meaning",
+      "raw": "生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗癸 处于 '长生' (于卯)",
+      "path": "/palaces/zhen_3/interpretations/[3]/condition",
+      "raw": "暗癸 处于 '长生' (于卯)"
+    },
+    {
+      "changed": false,
+      "normalized": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+      "path": "/palaces/zhen_3/interpretations/[3]/meaning",
+      "raw": "事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 癸加壬 形成『复见螣蛇』",
+      "path": "/palaces/zhen_3/interpretations/[4]/condition",
+      "raw": "天盘干 癸加壬 形成『复见螣蛇』"
+    },
+    {
+      "changed": false,
+      "normalized": "嫁娶重婚，后嫁可能无子。事物反复波折，可能更换合作方。重复犯错不改。",
+      "path": "/palaces/zhen_3/interpretations/[4]/meaning",
+      "raw": "嫁娶重婚，后嫁可能无子。事物反复波折，可能更换合作方。重复犯错不改。"
+    },
+    {
+      "changed": false,
+      "normalized": "寄宫干 庚加壬 形成『太白退位』",
+      "path": "/palaces/zhen_3/interpretations/[5]/condition",
+      "raw": "寄宫干 庚加壬 形成『太白退位』"
+    },
+    {
+      "changed": false,
+      "normalized": "壬水泄庚金。远行迷失道路，男女音信难通。移荡格：谋事迂回曲折，主换地方。",
+      "path": "/palaces/zhen_3/interpretations/[5]/meaning",
+      "raw": "壬水泄庚金。远行迷失道路，男女音信难通。移荡格：谋事迂回曲折，主换地方。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 癸加壬 形成『复见螣蛇』",
+      "path": "/palaces/zhen_3/interpretations/[6]/condition",
+      "raw": "暗干干 癸加壬 形成『复见螣蛇』"
+    },
+    {
+      "changed": false,
+      "normalized": "嫁娶重婚，后嫁可能无子。事物反复波折，可能更换合作方。重复犯错不改。",
+      "path": "/palaces/zhen_3/interpretations/[6]/meaning",
+      "raw": "嫁娶重婚，后嫁可能无子。事物反复波折，可能更换合作方。重复犯错不改。"
+    },
+    {
+      "changed": false,
+      "normalized": "宫迫门",
+      "path": "/palaces/zhen_3/interpretations/[7]/condition",
+      "raw": "宫迫门"
+    },
+    {
+      "changed": false,
+      "normalized": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。",
+      "path": "/palaces/zhen_3/interpretations/[7]/meaning",
+      "raw": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。"
+    },
+    {
+      "changed": false,
+      "normalized": "巽 4 Palace",
+      "path": "/palaces/xun_4/palace_name",
+      "raw": "巽 4 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "玄武",
+      "path": "/palaces/xun_4/palace_elements/[0]",
+      "raw": "玄武"
+    },
+    {
+      "changed": false,
+      "normalized": "惊门",
+      "path": "/palaces/xun_4/palace_elements/[1]",
+      "raw": "惊门"
+    },
+    {
+      "changed": false,
+      "normalized": "天柱",
+      "path": "/palaces/xun_4/palace_elements/[2]",
+      "raw": "天柱"
+    },
+    {
+      "changed": false,
+      "normalized": "巽4宫",
+      "path": "/palaces/xun_4/palace_elements/[3]",
+      "raw": "巽4宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘戊",
+      "path": "/palaces/xun_4/palace_elements/[4]",
+      "raw": "天盘戊"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘辛",
+      "path": "/palaces/xun_4/palace_elements/[5]",
+      "raw": "地盘辛"
+    },
+    {
+      "changed": false,
+      "normalized": "天戊 处于 '冠带' (于辰) 且 '临官' (于巳)",
+      "path": "/palaces/xun_4/interpretations/[0]/condition",
+      "raw": "天戊 处于 '冠带' (于辰) 且 '临官' (于巳)"
+    },
+    {
+      "changed": false,
+      "normalized": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+      "path": "/palaces/xun_4/interpretations/[0]/meaning",
+      "raw": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。"
+    },
+    {
+      "changed": false,
+      "normalized": "地辛 处于 '墓' (于辰) 且 '死' (于巳)",
+      "path": "/palaces/xun_4/interpretations/[1]/condition",
+      "raw": "地辛 处于 '墓' (于辰) 且 '死' (于巳)"
+    },
+    {
+      "changed": false,
+      "normalized": "又名库。入墓归库，能量被包覆封存。主被套牢、暗昧不出、能力受限与阻滞。；生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。",
+      "path": "/palaces/xun_4/interpretations/[1]/meaning",
+      "raw": "又名库。入墓归库，能量被包覆封存。主被套牢、暗昧不出、能力受限与阻滞。；生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗戊 处于 '冠带' (于辰) 且 '临官' (于巳)",
+      "path": "/palaces/xun_4/interpretations/[2]/condition",
+      "raw": "暗戊 处于 '冠带' (于辰) 且 '临官' (于巳)"
+    },
+    {
+      "changed": false,
+      "normalized": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+      "path": "/palaces/xun_4/interpretations/[2]/meaning",
+      "raw": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 戊加辛 形成『青龙折足』",
+      "path": "/palaces/xun_4/interpretations/[3]/condition",
+      "raw": "天盘干 戊加辛 形成『青龙折足』"
+    },
+    {
+      "changed": false,
+      "normalized": "辛金泄戊土。吉事成凶，动必受伤。主足疾骨折之灾。",
+      "path": "/palaces/xun_4/interpretations/[3]/meaning",
+      "raw": "辛金泄戊土。吉事成凶，动必受伤。主足疾骨折之灾。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 戊加辛 形成『青龙折足』",
+      "path": "/palaces/xun_4/interpretations/[4]/condition",
+      "raw": "暗干干 戊加辛 形成『青龙折足』"
+    },
+    {
+      "changed": false,
+      "normalized": "辛金泄戊土。吉事成凶，动必受伤。主足疾骨折之灾。",
+      "path": "/palaces/xun_4/interpretations/[4]/meaning",
+      "raw": "辛金泄戊土。吉事成凶，动必受伤。主足疾骨折之灾。"
+    },
+    {
+      "changed": false,
+      "normalized": "门迫宫",
+      "path": "/palaces/xun_4/interpretations/[5]/condition",
+      "raw": "门迫宫"
+    },
+    {
+      "changed": false,
+      "normalized": "人事(门)克制环境(宫)。强行作为、吃力不讨好、引发环境反噬。吉门被迫吉减半,凶门被迫加倍凶。",
+      "path": "/palaces/xun_4/interpretations/[5]/meaning",
+      "raw": "人事(门)克制环境(宫)。强行作为、吃力不讨好、引发环境反噬。吉门被迫吉减半,凶门被迫加倍凶。"
+    },
+    {
+      "changed": false,
+      "normalized": "中 5 Palace",
+      "path": "/palaces/center_5/palace_name",
+      "raw": "中 5 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "天禽",
+      "path": "/palaces/center_5/palace_elements/[0]",
+      "raw": "天禽"
+    },
+    {
+      "changed": false,
+      "normalized": "中5宫",
+      "path": "/palaces/center_5/palace_elements/[1]",
+      "raw": "中5宫"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘庚",
+      "path": "/palaces/center_5/palace_elements/[2]",
+      "raw": "地盘庚"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 庚加庚 形成『太白同宫』",
+      "path": "/palaces/center_5/interpretations/[0]/condition",
+      "raw": "暗干干 庚加庚 形成『太白同宫』"
+    },
+    {
+      "changed": false,
+      "normalized": "又名战格。二庚太白并临。凡事难遂争斗不休，官灾横祸。利客不利主，利攻不利守。",
+      "path": "/palaces/center_5/interpretations/[0]/meaning",
+      "raw": "又名战格。二庚太白并临。凡事难遂争斗不休，官灾横祸。利客不利主，利攻不利守。"
+    },
+    {
+      "changed": false,
+      "normalized": "乾 6 Palace",
+      "path": "/palaces/qian_6/palace_name",
+      "raw": "乾 6 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "腾蛇",
+      "path": "/palaces/qian_6/palace_elements/[0]",
+      "raw": "腾蛇"
+    },
+    {
+      "changed": false,
+      "normalized": "伤门",
+      "path": "/palaces/qian_6/palace_elements/[1]",
+      "raw": "伤门"
+    },
+    {
+      "changed": false,
+      "normalized": "天冲",
+      "path": "/palaces/qian_6/palace_elements/[2]",
+      "raw": "天冲"
+    },
+    {
+      "changed": false,
+      "normalized": "乾6宫",
+      "path": "/palaces/qian_6/palace_elements/[3]",
+      "raw": "乾6宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘壬",
+      "path": "/palaces/qian_6/palace_elements/[4]",
+      "raw": "天盘壬"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘己",
+      "path": "/palaces/qian_6/palace_elements/[5]",
+      "raw": "地盘己"
+    },
+    {
+      "changed": false,
+      "normalized": "天壬 处于 '冠带' (于戌) 且 '临官' (于亥)",
+      "path": "/palaces/qian_6/interpretations/[0]/condition",
+      "raw": "天壬 处于 '冠带' (于戌) 且 '临官' (于亥)"
+    },
+    {
+      "changed": false,
+      "normalized": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+      "path": "/palaces/qian_6/interpretations/[0]/meaning",
+      "raw": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。"
+    },
+    {
+      "changed": false,
+      "normalized": "地己 处于 '养' (于戌) 且 '胎' (于亥)",
+      "path": "/palaces/qian_6/interpretations/[1]/condition",
+      "raw": "地己 处于 '养' (于戌) 且 '胎' (于亥)"
+    },
+    {
+      "changed": false,
+      "normalized": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；天地交泰，受气成胎。如胎儿孕育，隐秀形体，形局待发，充满生机与希望。",
+      "path": "/palaces/qian_6/interpretations/[1]/meaning",
+      "raw": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；天地交泰，受气成胎。如胎儿孕育，隐秀形体，形局待发，充满生机与希望。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗壬 处于 '冠带' (于戌) 且 '临官' (于亥)",
+      "path": "/palaces/qian_6/interpretations/[2]/condition",
+      "raw": "暗壬 处于 '冠带' (于戌) 且 '临官' (于亥)"
+    },
+    {
+      "changed": false,
+      "normalized": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+      "path": "/palaces/qian_6/interpretations/[2]/meaning",
+      "raw": "如人穿衣戴帽、渐趋成熟。事业步入正轨，吉庆有余，利于名誉建立与进取。；又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 壬加己 形成『凶蛇入狱』",
+      "path": "/palaces/qian_6/interpretations/[3]/condition",
+      "raw": "天盘干 壬加己 形成『凶蛇入狱』"
+    },
+    {
+      "changed": false,
+      "normalized": "大祸将成，夫妻不睦。难以脱身，阴谋纠缠。词讼理亏，不宜妄动。",
+      "path": "/palaces/qian_6/interpretations/[3]/meaning",
+      "raw": "大祸将成，夫妻不睦。难以脱身，阴谋纠缠。词讼理亏，不宜妄动。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 壬加己 形成『凶蛇入狱』",
+      "path": "/palaces/qian_6/interpretations/[4]/condition",
+      "raw": "暗干干 壬加己 形成『凶蛇入狱』"
+    },
+    {
+      "changed": false,
+      "normalized": "大祸将成，夫妻不睦。难以脱身，阴谋纠缠。词讼理亏，不宜妄动。",
+      "path": "/palaces/qian_6/interpretations/[4]/meaning",
+      "raw": "大祸将成，夫妻不睦。难以脱身，阴谋纠缠。词讼理亏，不宜妄动。"
+    },
+    {
+      "changed": false,
+      "normalized": "宫迫门",
+      "path": "/palaces/qian_6/interpretations/[5]/condition",
+      "raw": "宫迫门"
+    },
+    {
+      "changed": false,
+      "normalized": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。",
+      "path": "/palaces/qian_6/interpretations/[5]/meaning",
+      "raw": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。"
+    },
+    {
+      "changed": false,
+      "normalized": "兑 7 Palace",
+      "path": "/palaces/dui_7/palace_name",
+      "raw": "兑 7 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "太阴",
+      "path": "/palaces/dui_7/palace_elements/[0]",
+      "raw": "太阴"
+    },
+    {
+      "changed": false,
+      "normalized": "生门",
+      "path": "/palaces/dui_7/palace_elements/[1]",
+      "raw": "生门"
+    },
+    {
+      "changed": false,
+      "normalized": "天任",
+      "path": "/palaces/dui_7/palace_elements/[2]",
+      "raw": "天任"
+    },
+    {
+      "changed": false,
+      "normalized": "兑7宫",
+      "path": "/palaces/dui_7/palace_elements/[3]",
+      "raw": "兑7宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘乙",
+      "path": "/palaces/dui_7/palace_elements/[4]",
+      "raw": "天盘乙"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘戊",
+      "path": "/palaces/dui_7/palace_elements/[5]",
+      "raw": "地盘戊"
+    },
+    {
+      "changed": false,
+      "normalized": "天乙 处于 '绝' (于酉)",
+      "path": "/palaces/dui_7/interpretations/[0]/condition",
+      "raw": "天乙 处于 '绝' (于酉)"
+    },
+    {
+      "changed": false,
+      "normalized": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。",
+      "path": "/palaces/dui_7/interpretations/[0]/meaning",
+      "raw": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。"
+    },
+    {
+      "changed": false,
+      "normalized": "地戊 处于 '死' (于酉)",
+      "path": "/palaces/dui_7/interpretations/[1]/condition",
+      "raw": "地戊 处于 '死' (于酉)"
+    },
+    {
+      "changed": false,
+      "normalized": "生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。",
+      "path": "/palaces/dui_7/interpretations/[1]/meaning",
+      "raw": "生气全无，僵化停滞。主无动静、陷入绝境，宜静守安分，不可强求。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗乙 处于 '绝' (于酉)",
+      "path": "/palaces/dui_7/interpretations/[2]/condition",
+      "raw": "暗乙 处于 '绝' (于酉)"
+    },
+    {
+      "changed": false,
+      "normalized": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。",
+      "path": "/palaces/dui_7/interpretations/[2]/meaning",
+      "raw": "又名受气。旧气已尽，新气未生。极度虚弱、断绝无依，但暗藏转机与新生。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 乙加戊 形成『利阴害阳』",
+      "path": "/palaces/dui_7/interpretations/[3]/condition",
+      "raw": "天盘干 乙加戊 形成『利阴害阳』"
+    },
+    {
+      "changed": false,
+      "normalized": "利阴人（女子），不利阳人（男子）。门吉尚可谋，门凶或迫则破财伤人。",
+      "path": "/palaces/dui_7/interpretations/[3]/meaning",
+      "raw": "利阴人（女子），不利阳人（男子）。门吉尚可谋，门凶或迫则破财伤人。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 乙加戊 形成『利阴害阳』",
+      "path": "/palaces/dui_7/interpretations/[4]/condition",
+      "raw": "暗干干 乙加戊 形成『利阴害阳』"
+    },
+    {
+      "changed": false,
+      "normalized": "利阴人（女子），不利阳人（男子）。门吉尚可谋，门凶或迫则破财伤人。",
+      "path": "/palaces/dui_7/interpretations/[4]/meaning",
+      "raw": "利阴人（女子），不利阳人（男子）。门吉尚可谋，门凶或迫则破财伤人。"
+    },
+    {
+      "changed": false,
+      "normalized": "门生宫",
+      "path": "/palaces/dui_7/interpretations/[5]/condition",
+      "raw": "门生宫"
+    },
+    {
+      "changed": false,
+      "normalized": "人事(门)主动生旺环境(宫)。有付出有回报,顺水推舟。行动与环境和谐,做事顺达。加三奇更吉。",
+      "path": "/palaces/dui_7/interpretations/[5]/meaning",
+      "raw": "人事(门)主动生旺环境(宫)。有付出有回报,顺水推舟。行动与环境和谐,做事顺达。加三奇更吉。"
+    },
+    {
+      "changed": false,
+      "normalized": "艮 8 Palace",
+      "path": "/palaces/gen_8/palace_name",
+      "raw": "艮 8 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "九天",
+      "path": "/palaces/gen_8/palace_elements/[0]",
+      "raw": "九天"
+    },
+    {
+      "changed": false,
+      "normalized": "景门",
+      "path": "/palaces/gen_8/palace_elements/[1]",
+      "raw": "景门"
+    },
+    {
+      "changed": false,
+      "normalized": "天英",
+      "path": "/palaces/gen_8/palace_elements/[2]",
+      "raw": "天英"
+    },
+    {
+      "changed": false,
+      "normalized": "艮8宫",
+      "path": "/palaces/gen_8/palace_elements/[3]",
+      "raw": "艮8宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘丙",
+      "path": "/palaces/gen_8/palace_elements/[4]",
+      "raw": "天盘丙"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘乙",
+      "path": "/palaces/gen_8/palace_elements/[5]",
+      "raw": "地盘乙"
+    },
+    {
+      "changed": false,
+      "normalized": "天丙 处于 '养' (于丑) 且 '长生' (于寅)",
+      "path": "/palaces/gen_8/interpretations/[0]/condition",
+      "raw": "天丙 处于 '养' (于丑) 且 '长生' (于寅)"
+    },
+    {
+      "changed": false,
+      "normalized": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+      "path": "/palaces/gen_8/interpretations/[0]/meaning",
+      "raw": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。"
+    },
+    {
+      "changed": false,
+      "normalized": "地乙 处于 '衰' (于丑) 且 '帝旺' (于寅)",
+      "path": "/palaces/gen_8/interpretations/[1]/condition",
+      "raw": "地乙 处于 '衰' (于丑) 且 '帝旺' (于寅)"
+    },
+    {
+      "changed": false,
+      "normalized": "旺极而衰，能量开始走下坡路。气势渐退，宜守不宜攻，凡事需谦逊谨慎。；能量达到极盛。如帝王临朝，盛极一时；唯需防物极必反、盛极而衰。",
+      "path": "/palaces/gen_8/interpretations/[1]/meaning",
+      "raw": "旺极而衰，能量开始走下坡路。气势渐退，宜守不宜攻，凡事需谦逊谨慎。；能量达到极盛。如帝王临朝，盛极一时；唯需防物极必反、盛极而衰。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗丙 处于 '养' (于丑) 且 '长生' (于寅)",
+      "path": "/palaces/gen_8/interpretations/[2]/condition",
+      "raw": "暗丙 处于 '养' (于丑) 且 '长生' (于寅)"
+    },
+    {
+      "changed": false,
+      "normalized": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。",
+      "path": "/palaces/gen_8/interpretations/[2]/meaning",
+      "raw": "成形待旦，如胎儿在母腹中调养。宜修养生息、积蓄力量、蓄势待发。；事物萌芽破土，如人初生，生机勃勃。主开创、吉庆、生命力旺盛，百事顺遂。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 丙加乙 形成『日月并行』",
+      "path": "/palaces/gen_8/interpretations/[3]/condition",
+      "raw": "天盘干 丙加乙 形成『日月并行』"
+    },
+    {
+      "changed": false,
+      "normalized": "丙乙两奇相佐，阴阳调和。公私谋划合宜顺利，特别利于合作事务。",
+      "path": "/palaces/gen_8/interpretations/[3]/meaning",
+      "raw": "丙乙两奇相佐，阴阳调和。公私谋划合宜顺利，特别利于合作事务。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 丙加乙 形成『日月并行』",
+      "path": "/palaces/gen_8/interpretations/[4]/condition",
+      "raw": "暗干干 丙加乙 形成『日月并行』"
+    },
+    {
+      "changed": false,
+      "normalized": "丙乙两奇相佐，阴阳调和。公私谋划合宜顺利，特别利于合作事务。",
+      "path": "/palaces/gen_8/interpretations/[4]/meaning",
+      "raw": "丙乙两奇相佐，阴阳调和。公私谋划合宜顺利，特别利于合作事务。"
+    },
+    {
+      "changed": false,
+      "normalized": "门生宫",
+      "path": "/palaces/gen_8/interpretations/[5]/condition",
+      "raw": "门生宫"
+    },
+    {
+      "changed": false,
+      "normalized": "人事(门)主动生旺环境(宫)。有付出有回报,顺水推舟。行动与环境和谐,做事顺达。加三奇更吉。",
+      "path": "/palaces/gen_8/interpretations/[5]/meaning",
+      "raw": "人事(门)主动生旺环境(宫)。有付出有回报,顺水推舟。行动与环境和谐,做事顺达。加三奇更吉。"
+    },
+    {
+      "changed": false,
+      "normalized": "离 9 Palace",
+      "path": "/palaces/li_9/palace_name",
+      "raw": "离 9 Palace"
+    },
+    {
+      "changed": false,
+      "normalized": "白虎",
+      "path": "/palaces/li_9/palace_elements/[0]",
+      "raw": "白虎"
+    },
+    {
+      "changed": false,
+      "normalized": "开门",
+      "path": "/palaces/li_9/palace_elements/[1]",
+      "raw": "开门"
+    },
+    {
+      "changed": false,
+      "normalized": "天心",
+      "path": "/palaces/li_9/palace_elements/[2]",
+      "raw": "天心"
+    },
+    {
+      "changed": false,
+      "normalized": "离9宫",
+      "path": "/palaces/li_9/palace_elements/[3]",
+      "raw": "离9宫"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘己",
+      "path": "/palaces/li_9/palace_elements/[4]",
+      "raw": "天盘己"
+    },
+    {
+      "changed": false,
+      "normalized": "地盘丙",
+      "path": "/palaces/li_9/palace_elements/[5]",
+      "raw": "地盘丙"
+    },
+    {
+      "changed": false,
+      "normalized": "天己 处于 '临官' (于午)",
+      "path": "/palaces/li_9/interpretations/[0]/condition",
+      "raw": "天己 处于 '临官' (于午)"
+    },
+    {
+      "changed": false,
+      "normalized": "又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+      "path": "/palaces/li_9/interpretations/[0]/meaning",
+      "raw": "又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。"
+    },
+    {
+      "changed": false,
+      "normalized": "地丙 处于 '帝旺' (于午)",
+      "path": "/palaces/li_9/interpretations/[1]/condition",
+      "raw": "地丙 处于 '帝旺' (于午)"
+    },
+    {
+      "changed": false,
+      "normalized": "能量达到极盛。如帝王临朝，盛极一时；唯需防物极必反、盛极而衰。",
+      "path": "/palaces/li_9/interpretations/[1]/meaning",
+      "raw": "能量达到极盛。如帝王临朝，盛极一时；唯需防物极必反、盛极而衰。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗己 处于 '临官' (于午)",
+      "path": "/palaces/li_9/interpretations/[2]/condition",
+      "raw": "暗己 处于 '临官' (于午)"
+    },
+    {
+      "changed": false,
+      "normalized": "又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。",
+      "path": "/palaces/li_9/interpretations/[2]/meaning",
+      "raw": "又名建禄。如人成年任职、独立担当。精力充沛，事业鼎盛，求财求官皆顺达。"
+    },
+    {
+      "changed": false,
+      "normalized": "天盘干 己加丙 形成『火悖地户』",
+      "path": "/palaces/li_9/interpretations/[3]/condition",
+      "raw": "天盘干 己加丙 形成『火悖地户』"
+    },
+    {
+      "changed": false,
+      "normalized": "火炎土燥，主阻碍纠缠。男子遇小人相害，女子易有感情是非。先暗后明。",
+      "path": "/palaces/li_9/interpretations/[3]/meaning",
+      "raw": "火炎土燥，主阻碍纠缠。男子遇小人相害，女子易有感情是非。先暗后明。"
+    },
+    {
+      "changed": false,
+      "normalized": "暗干干 己加丙 形成『火悖地户』",
+      "path": "/palaces/li_9/interpretations/[4]/condition",
+      "raw": "暗干干 己加丙 形成『火悖地户』"
+    },
+    {
+      "changed": false,
+      "normalized": "火炎土燥，主阻碍纠缠。男子遇小人相害，女子易有感情是非。先暗后明。",
+      "path": "/palaces/li_9/interpretations/[4]/meaning",
+      "raw": "火炎土燥，主阻碍纠缠。男子遇小人相害，女子易有感情是非。先暗后明。"
+    },
+    {
+      "changed": false,
+      "normalized": "宫迫门",
+      "path": "/palaces/li_9/interpretations/[5]/condition",
+      "raw": "宫迫门"
+    },
+    {
+      "changed": false,
+      "normalized": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。",
+      "path": "/palaces/li_9/interpretations/[5]/meaning",
+      "raw": "环境(宫)克制人事(门)。处处受限、有志难伸、被打压。举步维艰之象。"
+    }
+  ],
+  "raw_writeback": "none (law 30)",
+  "string_leaves_changed": 0,
+  "value_leaf_count": 176
+}

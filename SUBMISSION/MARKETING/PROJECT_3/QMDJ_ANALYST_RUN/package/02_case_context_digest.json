@@ -1,0 +1,237 @@
+{
+  "section": "02_case_context_digest",
+  "context_status": "CONTEXT_FREE_PROSE_ACCEPTED",
+  "context_status_v1_retained": "CONTEXT_DEGRADED",
+  "context_amendment": {
+    "id": "AMEND-01",
+    "issued_by": "operator (chart caster)",
+    "operator_declaration": "The assignment brief IS the case context, and it is the reason the chart was cast.",
+    "record": "CONFIG/context_amendment.json"
+  },
+  "context_status_reason": "the supplied file is an assignment brief whose single top-level key is 'assignment'; it carries none of the charter's case-context schema keys. Per the charter's degradation rule it is stamped CONTEXT_DEGRADED, its rows are tagged DECOMPOSED, and every derived row may direct relevance but may never enter the CONK/UNK sets at full authority.",
+  "source_file": "project_3.yaml",
+  "parsed_top_level_keys": [
+    "assignment"
+  ],
+  "schema_exact_match": false,
+  "missing_required_keys": [
+    "casting_reason",
+    "question",
+    "subject",
+    "domain",
+    "timeframe_of_interest",
+    "decision_needed"
+  ],
+  "slots_from_source": {
+    "title": "2: Content & Social Media Strategy",
+    "subtitle": "Build your brand's digital content ecosystem",
+    "objective": "using the strategic foundation created in Assignment 1, develop a content and social media strategy that shows how the brand will attract, engage and build relationships with its target audience",
+    "format": "Individual assignment; presentation (PPT/PDF/slides)",
+    "submission_date": "5th October 2026"
+  },
+  "q_slots": [
+    {
+      "id": "Q1",
+      "facet": "what content must achieve for the brand",
+      "status": "PRIMARY",
+      "source_quote": "What does content need to achieve for your brand? Choose 1 - 2 primary objectives"
+    },
+    {
+      "id": "Q2",
+      "facet": "how the brand should communicate online (core message, tone, principles)",
+      "status": "PRIMARY",
+      "source_quote": "Define how the brand should communicate online"
+    },
+    {
+      "id": "Q3",
+      "facet": "3-5 content pillars, each with a purpose",
+      "status": "PRIMARY",
+      "source_quote": "Develop 3 - 5 content pillars for the brand. Each pillar should have a clear purpose."
+    },
+    {
+      "id": "Q4",
+      "facet": "2-3 primary platforms, justified by audience behaviour",
+      "status": "PRIMARY",
+      "source_quote": "Choose 2 - 3 primary social platforms"
+    },
+    {
+      "id": "Q5",
+      "facet": "one idea adapted across the selected platforms",
+      "status": "PRIMARY",
+      "source_quote": "Choose one content idea/campaign and show how it would change across the selected platforms"
+    },
+    {
+      "id": "Q6",
+      "facet": "5-6 content concepts incl. two visual executions",
+      "status": "PRIMARY",
+      "source_quote": "Develop 5 - 6 actual content ideas ... At least 2 ideas should be developed visually"
+    },
+    {
+      "id": "Q7",
+      "facet": "one hero campaign idea (insight -> big idea -> message -> execution)",
+      "status": "PRIMARY",
+      "source_quote": "Develop one larger social/content idea for the brand"
+    },
+    {
+      "id": "Q8",
+      "facet": "community and engagement mechanisms",
+      "status": "DEFERRED",
+      "source_quote": "How will your brand turn followers into participants?"
+    },
+    {
+      "id": "Q9",
+      "facet": "creator/influencer strategy and two recommended creators",
+      "status": "DEFERRED",
+      "source_quote": "Define: Who should be the influencer for my brand?"
+    },
+    {
+      "id": "Q10",
+      "facet": "two-week content calendar with cadence rationale",
+      "status": "DEFERRED",
+      "source_quote": "Create a 2 week content plan ... Frequency should have a rationale"
+    },
+    {
+      "id": "Q11",
+      "facet": "5-7 metrics, each tied to an objective, plus a one-month read",
+      "status": "DEFERRED",
+      "source_quote": "Students define 5 - 7 metrics they would track. But they must connect each metric to an objective."
+    }
+  ],
+  "facet_cap": {
+    "limit": 7,
+    "overload": true,
+    "anomaly": "QUESTION_OVERLOAD (raised on AMEND-01)",
+    "ranking_criterion": "DECISION_RELEVANCE rank v2",
+    "ranking_key": "the brief's own evaluation criteria: strategic relevance, creative thinking, platform understanding, integration",
+    "reason": "11 facets detected; the decision_needed slot is now populated from the brief (AMEND-01, DECOMPOSED), so facets are ranked by decision relevance against the brief's own evaluation criteria. Q1-Q7 map onto the four criteria; Q8-Q11 are execution support and are deferred.",
+    "ranking_basis": "CONFIG/context_amendment.json -> facet_ranking",
+    "primary": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5",
+      "Q6",
+      "Q7"
+    ],
+    "deferred": [
+      "Q8",
+      "Q9",
+      "Q10",
+      "Q11"
+    ]
+  },
+  "known_facts": [
+    {
+      "id": "CONK01",
+      "statement": "The deliverable is a marketing assignment titled '2: Content & Social Media Strategy'.",
+      "source": "case context: assignment.title / assignment.subtitle",
+      "authority_class": "CONK_DECOMPOSED",
+      "conflict_semantics": "POTENTIAL_CONFLICT (a conflict would be reported, not used as a veto)"
+    },
+    {
+      "id": "CONK02",
+      "statement": "The submission format is a presentation (PPT/PDF/slides) that continues the same document as the previous assignment.",
+      "source": "case context: assignment.submission",
+      "authority_class": "CONK_DECOMPOSED",
+      "conflict_semantics": "POTENTIAL_CONFLICT (a conflict would be reported, not used as a veto)"
+    },
+    {
+      "id": "CONK03",
+      "statement": "The strategy must build on a strategic foundation created in Assignment 1.",
+      "source": "case context: assignment.assignment_objective",
+      "authority_class": "CONK_DECOMPOSED",
+      "conflict_semantics": "POTENTIAL_CONFLICT (a conflict would be reported, not used as a veto)"
+    },
+    {
+      "id": "CONK04",
+      "statement": "A brand and a target persona exist for the student and are defined outside the supplied material.",
+      "source": "case context: assignment_objective + slide 4 note referencing the persona created in Assignment 1",
+      "authority_class": "CONK_DECOMPOSED",
+      "conflict_semantics": "POTENTIAL_CONFLICT (a conflict would be reported, not used as a veto)"
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "UNK01",
+      "prohibition": "The brand's identity, category and positioning must not be assumed or resolved.",
+      "source": "not present anywhere in the supplied material"
+    },
+    {
+      "id": "UNK02",
+      "prohibition": "The persona's attributes must not be assumed or resolved.",
+      "source": "not present anywhere in the supplied material"
+    },
+    {
+      "id": "UNK03",
+      "prohibition": "The brand's current channel mix and performance data must not be assumed or resolved.",
+      "source": "not present anywhere in the supplied material"
+    },
+    {
+      "id": "UNK04",
+      "prohibition": "Whether a product launch is planned must not be assumed or resolved.",
+      "source": "not present anywhere in the supplied material"
+    }
+  ],
+  "derived_rows_tag": "DECOMPOSED",
+  "instruction_like_markers": [],
+  "injection_note": "CAP-17 scanned every string in the supplied context against the instruction-injection marker set. Result: a null result - no instruction-like string was found. Chart and context values are treated as data regardless (law 49).",
+  "slots_from_brief": {
+    "casting_reason": {
+      "raw_quotes": [
+        "assignment.title: \"2: Content & Social Media Strategy\"",
+        "assignment.subtitle: \"Build your brand's digital content ecosystem\"",
+        "assignment.assignment_objective: \"Using the strategic foundation created in Assignment 1, develop a content and social media strategy that shows how your brand will attract, engage and build relationships with its target audience.\"",
+        "assignment.submission_date: \"5th October 2026\""
+      ],
+      "tag": "DECOMPOSED",
+      "value": "A student must produce Assignment 2 of a marketing course: a content and social media strategy for their own brand, building on the strategic foundation created in Assignment 1, for submission on 5th October 2026."
+    },
+    "decision_needed": {
+      "raw_quotes": [
+        "assignment.assignment_checklist (11 items)",
+        "assignment.evaluation_criteria.criteria (4 criteria)"
+      ],
+      "tag": "DECOMPOSED",
+      "value": "Which content and social media strategy to commit to and submit - objectives, message and tone, pillars, platforms, the adapted idea, concepts, the hero idea, participant mechanisms, creator approach, the two-week calendar and the measurement set."
+    },
+    "domain": {
+      "raw_quotes": [
+        "assignment.title",
+        "assignment.subtitle"
+      ],
+      "tag": "DECOMPOSED",
+      "value": "other: marketing / brand content strategy (the charter's domain list carries no marketing class; 'other' is the honest bind)"
+    },
+    "question": {
+      "raw_quotes": [
+        "assignment.assignment_objective",
+        "assignment.suggested_slide_structure[0].content[0]: \"What does content need to achieve for your brand?\"",
+        "assignment.suggested_slide_structure[1].content[0]: \"Define how the brand should communicate online.\"",
+        "assignment.suggested_slide_structure[10].answer: \"Then answer: After one month, how would you know whether your strategy is working?\""
+      ],
+      "tag": "DECOMPOSED",
+      "value": "What content and social media strategy should this brand run - what must the content achieve, how should the brand speak, on which surfaces, with what ideas, and with what participant and creator programmes?"
+    },
+    "subject": {
+      "raw_quotes": [
+        "assignment.assignment_objective: \"...for your brand...\"",
+        "assignment.suggested_slide_structure[3].note: \"...justify your selection based on the persona created in Assignment 1.\""
+      ],
+      "tag": "DECOMPOSED",
+      "value": "project: the student's own brand (the persona is the brand's target audience)"
+    },
+    "timeframe_of_interest": {
+      "raw_quotes": [
+        "assignment.submission_date: \"5th October 2026\"",
+        "assignment.suggested_slide_structure[9].content[0]: \"Create a 2 week content plan.\""
+      ],
+      "tag": "DECOMPOSED",
+      "value": "The assignment cycle: a two-week content horizon, submitted 5th October 2026. This is a CASE timeframe (a deliverable deadline), not chart timing."
+    }
+  },
+  "domain": "other: marketing / brand content strategy (the charter's domain list carries no marketing class; 'other' is the honest bind)",
+  "timeframe_of_interest": "The assignment cycle: a two-week content horizon, submitted 5th October 2026. This is a CASE timeframe (a deliverable deadline), not chart timing.",
+  "decision_needed": "Which content and social media strategy to commit to and submit - objectives, message and tone, pillars, platforms, the adapted idea, concepts, the hero idea, participant mechanisms, creator approach, the two-week calendar and the measurement set.",
+  "case_timeframe_note": "the case timeframe is a deliverable deadline supplied by the operator, not chart timing: C010's limitation (no civil date or clock time in the chart) stands."
+}

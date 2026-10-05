@@ -1,0 +1,84 @@
+{
+  "section": "12_uncertainty_limits",
+  "assumption_ranking": [
+    {
+      "rank": 1,
+      "assumptions": [
+        "A-002",
+        "A-005"
+      ],
+      "why": "channel and creator mappings are the highest-risk bridges: the chart cannot name a platform or a person"
+    },
+    {
+      "rank": 2,
+      "assumptions": [
+        "A-003",
+        "A-004",
+        "A-006",
+        "A-010"
+      ],
+      "why": "function, metric, objective and facet mappings shape the deliverable's structure"
+    },
+    {
+      "rank": 3,
+      "assumptions": [
+        "A-001",
+        "A-007",
+        "A-008",
+        "A-009",
+        "A-011",
+        "A-012"
+      ],
+      "why": "binding, illustration, protocol and metric conventions with bounded effect"
+    }
+  ],
+  "invalid_chains": [],
+  "deferred_topics": [
+    "Q8 community (deferred by facet cap)",
+    "Q9 creators (deferred by facet cap; also blocked by UNK01)",
+    "Q10 calendar (deferred by facet cap)",
+    "Q11 measurement (deferred by facet cap)",
+    "paid distribution",
+    "competitor analysis",
+    "pricing mechanics"
+  ],
+  "blocked_classes": [
+    {
+      "class": "HC",
+      "status": "not supplied",
+      "why": "the semantic_protocol_raw class set was not supplied; no class could be ingested, so no class was inferred (charter Tier2 step 1). The deliverable's strategy content is therefore a structural interpretation, not a class-driven archetype render."
+    },
+    {
+      "class": "AX",
+      "status": "not supplied"
+    },
+    {
+      "class": "ZQ",
+      "status": "not supplied"
+    },
+    {
+      "class": "CS",
+      "status": "not supplied"
+    },
+    {
+      "class": "JG",
+      "status": "not supplied"
+    },
+    {
+      "class": "QT",
+      "status": "not supplied"
+    }
+  ],
+  "conflict_register": [],
+  "unk_guards": [
+    {
+      "action": "uncertainty_marker_only",
+      "claim_id": "C012",
+      "note": "C012 states a structural divergence inside the chart only. It makes no statement about the persona, so it does not resolve UNK02; the persona slot remains open.",
+      "resolves": false,
+      "unk_id": "UNK02"
+    }
+  ],
+  "count_unverified": [],
+  "strategy_label_note": "because the archetype rubric was not supplied, every archetype label in this package is a structure-only label from the declared stand-in catalog (A-009). No claim is presented as a rubric grade."
+}

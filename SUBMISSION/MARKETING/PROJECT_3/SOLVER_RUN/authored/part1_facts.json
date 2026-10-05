@@ -1,0 +1,177 @@
+{
+  "source": "SUBMISSION/MARKETING/project_1.pdf",
+  "source_sha256": "472329e5c512573a0e5f22f4a526763b68e660c6608a897d357f6b7dcd9d1da1",
+  "extraction": {
+    "method": "pdf_extract (page images + operator reading)",
+    "pages": 10,
+    "text_layer_chars": 169,
+    "visual_reading": "COMPLETE",
+    "note": "Canva export: each page is a flattened image; the deck was read visually and the brand facts recorded as explicit brief facts"
+  },
+  "brand": {
+    "name": "Off Hours",
+    "tagline": "What begins when work ends.",
+    "category": "D2C sleep & recovery - functional night-drink sachets (melatonin-free)",
+    "product": "10-sachet box of a magnesium + L-theanine + chamomile night drink; subscription refill",
+    "geography": "Mumbai + Bengaluru, India - two-city beachhead; delivery via own storefront",
+    "price": [
+      "999/- 10-night trial kit (impulse-try price point)",
+      "1,899/mo subscription refill (competes with one dinner out)"
+    ],
+    "business_goal": "1,000 paying subscribed households within the first 12 months across Mumbai + Bengaluru",
+    "strategic_stance": "We compete with the habit of not switching off, not with pharmacies.",
+    "competitive_set": [
+      "OTC sleep gummies and melatonin tablets",
+      "herbal/sleep teas",
+      "wellness apps (guided wind-downs)",
+      "doing nothing and scrolling"
+    ]
+  },
+  "persona": {
+    "name": "Meera Nair",
+    "age": 32,
+    "role": "Product Manager, Series-B startup",
+    "city": "Bengaluru (Koramangala)",
+    "income": "18-24 LPA",
+    "quote": "I don't have a sleep problem - I have a switching-off problem. Show me something simple that actually works and I'll stick with it.",
+    "day": "Stand-ups at 10 am, deep work at night. Gym membership renewed yearly, used rarely. Orders in 4-5 nights a week. Unwinds with series + scrolls till 1 am. Alarm at 7:30.",
+    "goals": [
+      "Wake up clear-headed without another pill",
+      "Feel in control of her evenings again"
+    ],
+    "pain_points": [
+      "3-4 hours of 'junk time' at night",
+      "Groggy mornings",
+      "Sceptical of gummies after one bad experience",
+      "Hates auto-renew traps"
+    ],
+    "motivations": [
+      "Visible morning energy",
+      "A ritual that feels like hers",
+      "Evidence over promises"
+    ],
+    "interests": [
+      "Productivity systems",
+      "Longevity content",
+      "Cafe coffee",
+      "Weekend treks"
+    ],
+    "platforms": [
+      "Instagram Reels",
+      "YouTube deep-dives",
+      "WhatsApp groups",
+      "Reddit India fitness threads",
+      "email newsletters"
+    ],
+    "buying_behaviour": "Trials first; checks ingredients + reviews; pays UPI; will subscribe after one good full box; cancels in one click if annoyed.",
+    "demographics": "25-40, single or young-couple households; degree-educated professionals in tech, finance, consulting, media; 12L+ annual household income; Mumbai (Powai, Lower Parel, Andheri) and Bengaluru (Indiranagar, Koramangala, HSR)",
+    "psychographics": [
+      "Evidence-seeking wellness sceptics - read ingredient lists, dislike hype, want better mornings more than 'sleep'",
+      "Digital-native shoppers - buy online several times a week, subscribe and cancel ruthlessly, discover via short video and peer group chats, research reviews before any ingested product",
+      "Active 10 pm-1 am - the exact window the brand is designed to interrupt and serve"
+    ],
+    "not_our_audience": [
+      "Insomniacs seeking clinical treatment",
+      "Price-first general supplement buyers",
+      "Anyone outside Mumbai + Bengaluru in phase 1"
+    ]
+  },
+  "objectives_smart": [
+    {
+      "n": 1,
+      "name": "Acquire - Trial & Conversion",
+      "owner": "top of funnel and the first conversion gate",
+      "targets": [
+        ">=600 trial-kit orders/month by month 6",
+        ">=12% of trialists converted to subscription within 30 days of trial start",
+        ">=90 new subscribers/month at run-rate",
+        ">=15% referral share of new subscribers"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Retain - Revenue Quality",
+      "owner": "the compounding engine that makes the 1,000-household base durable",
+      "targets": [
+        "60% of monthly revenue from existing subscribers by month 12",
+        "third-purchase repeat rate >= 45%"
+      ]
+    }
+  ],
+  "strategy": {
+    "broad_approach": "rest-and-consolidation first: everything digital exists to convert a trial into a calm, repeatable evening habit and then into a subscription - not to chase reach",
+    "loop": [
+      "Earn First Attention - short-video and search content earn honest attention and answer the ingredient questions that build trust",
+      "Convert at Low Friction - the storefront converts with a low-friction 999 trial, no commitment, no risk",
+      "Own the Relationship - pack insert, WhatsApp refill concierge and the fortnightly sleep-journal letter carry the relationship through the 10-day judgement window and into subscription",
+      "Paid Amplifies, Never Leads - paid spend re-finds people already in the loop; it follows proven messages, never precedes them"
+    ],
+    "phase_1_launch": "Short-video, search, storefront, owned channels. Build the trial-to-subscription loop. Prove the retention engine.",
+    "phase_2_partnerships": "Brand partnerships - company wellness programmes, clinics - arrive once the subscriber base makes Off Hours worth partnering with."
+  },
+  "peso": {
+    "Paid": "Retargeting to site visitors and video viewers; later, sponsored discovery inside quick-commerce listings once demand exists. Primary job: re-find warm audiences; amplify proven messages only.",
+    "Earned": "Wellness editors and newsletters covering the switch-off culture; the brand's founding narrative - built melatonin-free for India's late-working cities. Primary job: third-party credibility the ingredient-sceptic trusts.",
+    "Shared": "Customers posting their night-routine rituals; 10-night challenge check-ins; referral links in group chats. Primary job: turns the ritual into social proof; peer recommendation.",
+    "Owned": "Storefront and product pages, WhatsApp refill concierge (opt-in), sleep-journal email letter, pack inserts. Primary job: the retention spine - where trials become subscribers."
+  },
+  "channels_5_priorities": [
+    {
+      "channel": "Instagram Reels + Short Video",
+      "role": "Discovery",
+      "why": "Where our audience actually unwinds at 10 pm; ritual content formats natively."
+    },
+    {
+      "channel": "Search (brand site + category articles)",
+      "role": "Trust & research capture",
+      "why": "Ingredient questions are the trust gate; the brand must answer them itself."
+    },
+    {
+      "channel": "Own storefront + UPI checkout",
+      "role": "Conversion",
+      "why": "Low-friction 999 trial; owns the data the subscription model needs."
+    },
+    {
+      "channel": "WhatsApp concierge (opt-in)",
+      "role": "Retention & service",
+      "why": "User-consented, India-native, high-open - perfect for refill timing and questions."
+    },
+    {
+      "channel": "E-mail sleep-journal letter",
+      "role": "Experience & advocacy",
+      "why": "The 10-day judgement window needs a guide; letters out-sell loud campaigns."
+    }
+  ],
+  "named_non_priorities": [
+    {
+      "item": "Television & Print",
+      "why": "Wrong age and wrong moment - unmeasurable against our conversion objectives."
+    },
+    {
+      "item": "Mass Display / Broad Awareness Bursts",
+      "why": "Spend ahead of demand - awareness money lands before trial intent exists."
+    },
+    {
+      "item": "Celebrity Influencer Blitzes",
+      "why": "Borrowed attention, wrong trust mechanic for an ingested product."
+    },
+    {
+      "item": "Heavy Marketplace-Ads Dependence",
+      "why": "A listing helps logistics, but we refuse to rent the brand's first impression."
+    }
+  ],
+  "journey": {
+    "discovery": "short video + search",
+    "storefront": "own site, UPI",
+    "onboarding": "pack insert + WhatsApp concierge",
+    "retention": "sleep-journal letter + referral loop",
+    "judgement_window": "Days 1-10 are the make-or-break period",
+    "referral_loop": "subscribers who share referral links in group chats re-enter the loop at discovery"
+  },
+  "four_decisions": [
+    "Retention Before Reach",
+    "An Understated, Proof-Led Launch",
+    "We Compete With the Habit of Not Switching Off",
+    "Partnerships and Mass Awareness Are Deliberately Delayed"
+  ]
+}

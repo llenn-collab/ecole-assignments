@@ -1,0 +1,11 @@
+{
+  "CAP": "CAP-17",
+  "call_index": 13,
+  "in": [
+    "solution",
+    "brief_facts"
+  ],
+  "out": "conflict_check",
+  "cost": 179,
+  "status": "OK"
+}

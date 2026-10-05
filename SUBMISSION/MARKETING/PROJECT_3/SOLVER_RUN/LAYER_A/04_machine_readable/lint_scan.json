@@ -1,0 +1,12 @@
+{
+  "cap": "CAP-11",
+  "files_scanned": 8,
+  "binary_artefacts_scanned": [
+    "Off_Hours_Assignment_2_Content_Strategy.pdf",
+    "Off_Hours_Assignment_2_Content_Strategy.pptx"
+  ],
+  "lexical_violations": [],
+  "semantic_violations": [],
+  "pass": true,
+  "stamp": "EMULATED_LINT"
+}

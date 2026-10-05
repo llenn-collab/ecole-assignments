@@ -1,0 +1,14 @@
+{
+  "CAP": "CAP-06",
+  "batch": "B1",
+  "call_index": 6,
+  "cost": 10,
+  "in": [
+    "ganzhi",
+    "palace_elements"
+  ],
+  "max_out_tokens": 100,
+  "out": "stem_norm",
+  "over_cap": false,
+  "status": "OK"
+}

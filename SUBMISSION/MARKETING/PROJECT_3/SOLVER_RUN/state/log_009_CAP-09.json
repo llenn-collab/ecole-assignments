@@ -1,0 +1,11 @@
+{
+  "CAP": "CAP-09",
+  "call_index": 9,
+  "in": [
+    "adapted_package_view",
+    "evidence_ledger"
+  ],
+  "out": "ledger_reconcile",
+  "cost": 60,
+  "status": "OK"
+}

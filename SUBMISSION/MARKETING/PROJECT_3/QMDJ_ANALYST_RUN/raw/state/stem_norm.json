@@ -1,0 +1,188 @@
+{
+  "cap": "CAP-06",
+  "stem_count": 18,
+  "stem_norms": {
+    "center_5.earth_stem": {
+      "canonical": "Geng",
+      "element": "metal",
+      "heavenly_stem_raw": "庚",
+      "polarity": "yang",
+      "raw": "庚",
+      "slot": "center_5.earth_stem",
+      "source_path": "palaces/center_5/palace_elements[2]",
+      "state": "OK"
+    },
+    "dui_7.earth_stem": {
+      "canonical": "Wu",
+      "element": "earth",
+      "heavenly_stem_raw": "戊",
+      "polarity": "yang",
+      "raw": "戊",
+      "slot": "dui_7.earth_stem",
+      "source_path": "palaces/dui_7/palace_elements[5]",
+      "state": "OK"
+    },
+    "dui_7.heaven_stem": {
+      "canonical": "Yi",
+      "element": "wood",
+      "heavenly_stem_raw": "乙",
+      "polarity": "yin",
+      "raw": "乙",
+      "slot": "dui_7.heaven_stem",
+      "source_path": "palaces/dui_7/palace_elements[4]",
+      "state": "OK"
+    },
+    "gen_8.earth_stem": {
+      "canonical": "Yi",
+      "element": "wood",
+      "heavenly_stem_raw": "乙",
+      "polarity": "yin",
+      "raw": "乙",
+      "slot": "gen_8.earth_stem",
+      "source_path": "palaces/gen_8/palace_elements[5]",
+      "state": "OK"
+    },
+    "gen_8.heaven_stem": {
+      "canonical": "Bing",
+      "element": "fire",
+      "heavenly_stem_raw": "丙",
+      "polarity": "yang",
+      "raw": "丙",
+      "slot": "gen_8.heaven_stem",
+      "source_path": "palaces/gen_8/palace_elements[4]",
+      "state": "OK"
+    },
+    "kan_1.earth_stem": {
+      "canonical": "Ding",
+      "element": "fire",
+      "heavenly_stem_raw": "丁",
+      "polarity": "yin",
+      "raw": "丁",
+      "slot": "kan_1.earth_stem",
+      "source_path": "palaces/kan_1/palace_elements[5]",
+      "state": "OK"
+    },
+    "kan_1.heaven_stem": {
+      "canonical": "Xin",
+      "element": "metal",
+      "heavenly_stem_raw": "辛",
+      "polarity": "yin",
+      "raw": "辛",
+      "slot": "kan_1.heaven_stem",
+      "source_path": "palaces/kan_1/palace_elements[4]",
+      "state": "OK"
+    },
+    "kun_2.earth_stem": {
+      "canonical": "Gui",
+      "element": "water",
+      "heavenly_stem_raw": "癸",
+      "polarity": "yin",
+      "raw": "癸",
+      "slot": "kun_2.earth_stem",
+      "source_path": "palaces/kun_2/palace_elements[5]",
+      "state": "OK"
+    },
+    "kun_2.heaven_stem": {
+      "canonical": "Ding",
+      "element": "fire",
+      "heavenly_stem_raw": "丁",
+      "polarity": "yin",
+      "raw": "丁",
+      "slot": "kun_2.heaven_stem",
+      "source_path": "palaces/kun_2/palace_elements[4]",
+      "state": "OK"
+    },
+    "li_9.earth_stem": {
+      "canonical": "Bing",
+      "element": "fire",
+      "heavenly_stem_raw": "丙",
+      "polarity": "yang",
+      "raw": "丙",
+      "slot": "li_9.earth_stem",
+      "source_path": "palaces/li_9/palace_elements[5]",
+      "state": "OK"
+    },
+    "li_9.heaven_stem": {
+      "canonical": "Ji",
+      "element": "earth",
+      "heavenly_stem_raw": "己",
+      "polarity": "yin",
+      "raw": "己",
+      "slot": "li_9.heaven_stem",
+      "source_path": "palaces/li_9/palace_elements[4]",
+      "state": "OK"
+    },
+    "qian_6.earth_stem": {
+      "canonical": "Ji",
+      "element": "earth",
+      "heavenly_stem_raw": "己",
+      "polarity": "yin",
+      "raw": "己",
+      "slot": "qian_6.earth_stem",
+      "source_path": "palaces/qian_6/palace_elements[5]",
+      "state": "OK"
+    },
+    "qian_6.heaven_stem": {
+      "canonical": "Ren",
+      "element": "water",
+      "heavenly_stem_raw": "壬",
+      "polarity": "yang",
+      "raw": "壬",
+      "slot": "qian_6.heaven_stem",
+      "source_path": "palaces/qian_6/palace_elements[4]",
+      "state": "OK"
+    },
+    "xun_4.earth_stem": {
+      "canonical": "Xin",
+      "element": "metal",
+      "heavenly_stem_raw": "辛",
+      "polarity": "yin",
+      "raw": "辛",
+      "slot": "xun_4.earth_stem",
+      "source_path": "palaces/xun_4/palace_elements[5]",
+      "state": "OK"
+    },
+    "xun_4.heaven_stem": {
+      "canonical": "Wu",
+      "element": "earth",
+      "heavenly_stem_raw": "戊",
+      "polarity": "yang",
+      "raw": "戊",
+      "slot": "xun_4.heaven_stem",
+      "source_path": "palaces/xun_4/palace_elements[4]",
+      "state": "OK"
+    },
+    "zhen_3.earth_stem": {
+      "canonical": "Ren",
+      "element": "water",
+      "heavenly_stem_raw": "壬",
+      "polarity": "yang",
+      "raw": "壬",
+      "slot": "zhen_3.earth_stem",
+      "source_path": "palaces/zhen_3/palace_elements[5]",
+      "state": "OK"
+    },
+    "zhen_3.heaven_stem": {
+      "canonical": "Gui",
+      "element": "water",
+      "heavenly_stem_raw": "癸",
+      "polarity": "yin",
+      "raw": "癸",
+      "slot": "zhen_3.heaven_stem",
+      "source_path": "palaces/zhen_3/palace_elements[4]",
+      "state": "OK"
+    },
+    "zhen_3.hosted_stem": {
+      "canonical": "Geng",
+      "element": "metal",
+      "heavenly_stem_raw": "庚",
+      "polarity": "yang",
+      "raw": "庚",
+      "slot": "zhen_3.hosted_stem",
+      "source_path": "palaces/zhen_3/interpretations[1]/condition",
+      "state": "OK"
+    }
+  },
+  "unparseable": [],
+  "vocabulary": "jia..gui with polarity + element; partial matches forbidden"
+}

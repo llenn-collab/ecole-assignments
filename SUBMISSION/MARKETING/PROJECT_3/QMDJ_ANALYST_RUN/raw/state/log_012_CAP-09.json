@@ -1,0 +1,13 @@
+{
+  "CAP": "CAP-09",
+  "batch": "B3",
+  "call_index": 12,
+  "cost": 82,
+  "in": [
+    "evidence_registry"
+  ],
+  "max_out_tokens": 200,
+  "out": "value_trace",
+  "over_cap": false,
+  "status": "OK"
+}
