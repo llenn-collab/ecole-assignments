@@ -1,0 +1,46 @@
+file_name: "Assignment_4348_1EajMDFF4H4e.pdf"
+pages:
+  - page: 1
+    sections:
+      project:
+        number: "02"
+        title: "THE MISSING PIECE: A PORTFOLIO PROJECT"
+        description: >-
+          Think of a topic / brand / activity / passion that defines you or is a part of your creative personality, that never had the opportunity to be expressed in any academic work so far. This project is for you to proactively build that missing piece.
+
+      objective:
+        text: >-
+          Identifying a facet of yourself that should be a part of your portfolio and personal brand, and completing your vision for it through design / art / experiential work.
+
+      project_progression:
+        duration: "3 Weeks"
+        timeline:
+          - date: "15 Sep"
+            activity: "Make the pitch: What you wish to build, references, mood board, progression timeline"
+          - date: "22 Sep & 29"
+            activity: "WIP & feedback"
+          - date: "05 Oct"
+            activity: "NLET Submission"
+          - date: "06 Oct"
+            activity: "In-class Presentation"
+
+      examples:
+        note: "Examples only, you're free to pick outside this list:"
+        academic:
+          - "Revisiting a past project that you'd like to make more detailed / comprehensive"
+          - "Exploring a campaign for a brand you love but never could use for any subject"
+          - "Product / Service innovation"
+        non_academic_and_personal:
+          recommended: true
+          items:
+            - "Social awareness drive for a cause you are passionate about / volunteer for"
+            - "Producing a podcast on topics you wish were in discussion"
+            - "Non-academic output for the brief (Knitting / Sculpturing / Music / Documenting / Sport)"
+            - "Teach something / learn something real time and show your results"
+
+      grading_criteria:
+        nature_of_brief_set_by_self: "Challenging | Insightful | Connection to self is strong"
+        idea_for_output: "Uniqueness | Expertise and detailing used | Research / referencing"
+        final_output: "Quality of output | Aligning to initial vision | Memorable"
+
+      project_examples_url: "https://drive.google.com/drive/folders/1FDbRXauBmndlZ0-uClwgqvrJvxnGvq1s?usp=sharing"
