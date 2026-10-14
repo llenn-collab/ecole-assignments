@@ -1,0 +1,421 @@
+{
+  "00_package_manifest": {
+    "status": "blocked",
+    "coverage_complete": false,
+    "tool_health": "blocked",
+    "package_version": "7.1.0",
+    "runtime_mode": "TOOLS_PRESENT",
+    "language": "English",
+    "execution_stage": "preflight",
+    "context_ingest_status": "blocked",
+    "context_degraded": true,
+    "downstream_execution_started": false,
+    "source_provenance": [
+      {
+        "role": "system_prompt",
+        "path": "PROMPT/qmdj_chart_analyst_charter.md",
+        "bytes": 38235,
+        "sha256": "f365e614f1a56091fadf7cb82011b71b9ec390234435aa72edc21b098a1319d5"
+      },
+      {
+        "role": "chart",
+        "path": "QMDJ/ADVERTISING/project_2.json",
+        "bytes": 14392,
+        "sha256": "57d1468bd83951563457c41da09502cc6457a0ddf9cbab024ace7ca8c988791a"
+      },
+      {
+        "role": "case_context",
+        "path": "ASSIGNMENTS/ADVERTISING/project_2.yaml",
+        "bytes": 2106,
+        "sha256": "733432dc15459c574035a8553b52c7e922a6ebeef7ed063e108ec64192a9dfd8"
+      }
+    ]
+  },
+  "01_validity_boundary": {
+    "analysis_only": true,
+    "no_factual_prediction": true,
+    "no_substitute_for_professional_judgment": true
+  },
+  "02_case_context_digest": {
+    "ingest_form": "PROSE",
+    "context_status": "DEGRADED",
+    "status": "blocked",
+    "source": "ASSIGNMENTS/ADVERTISING/project_2.yaml",
+    "declared_count": null,
+    "decomposed_count": null,
+    "missing_count": null,
+    "unmapped_keys": [],
+    "unmapped_keys_verified": false,
+    "slots": [],
+    "known_facts": [],
+    "unknowns": [],
+    "domain": null,
+    "timeframe": null,
+    "decision_needed": null,
+    "note": "The YAML has a file/pages/sections wrapper, not canonical context keys. PROSE denotes fallback ingest, not the file format. CAP-17 has not run; counts and semantic fields are uncomputed, not zero."
+  },
+  "03_chart_overview": {
+    "metadata": {
+      "system": "Yi Dun - Lun Cang Jia",
+      "method": "Qimen Dunjia Chart",
+      "type": "Hourly Rotating Qimen, Yin Dun 3 Ju",
+      "ganzhi": {
+        "year": "丙午",
+        "month": "戊戌",
+        "day": "辛酉",
+        "hour": "己亥"
+      },
+      "zhi_fu": "天英 falling in Palace 2",
+      "zhi_shi": "景门 falling in Palace 4",
+      "solar_term": "寒露, 下 Yuan"
+    },
+    "board_reference": null,
+    "root_register": [],
+    "anomaly_log": [],
+    "invalid_chains": [],
+    "source_paths": [
+      "QMDJ/ADVERTISING/project_2.json"
+    ],
+    "note": "Metadata copied verbatim; no resolved board card exists."
+  },
+  "04_palace_identity_resolution": {
+    "blocks": [
+      {
+        "source_path": "$.palaces.kan_1",
+        "raw_name": "坎 1 Palace",
+        "status": "blocked",
+        "canonical_identity": null,
+        "reason": "B0 has not passed; schema and role resolution were not run."
+      },
+      {
+        "source_path": "$.palaces.kun_2",
+        "raw_name": "坤 2 Palace",
+        "status": "blocked",
+        "canonical_identity": null,
+        "reason": "B0 has not passed; schema and role resolution were not run."
+      },
+      {
+        "source_path": "$.palaces.zhen_3",
+        "raw_name": "震 3 Palace",
+        "status": "blocked",
+        "canonical_identity": null,
+        "reason": "B0 has not passed; schema and role resolution were not run."
+      },
+      {
+        "source_path": "$.palaces.xun_4",
+        "raw_name": "巽 4 Palace",
+        "status": "blocked",
+        "canonical_identity": null,
+        "reason": "B0 has not passed; schema and role resolution were not run."
+      },
+      {
+        "source_path": "$.palaces.center_5",
+        "raw_name": "中 5 Palace",
+        "status": "blocked",
+        "canonical_identity": null,
+        "reason": "B0 has not passed; schema and role resolution were not run."
+      },
+      {
+        "source_path": "$.palaces.qian_6",
+        "raw_name": "乾 6 Palace",
+        "status": "blocked",
+        "canonical_identity": null,
+        "reason": "B0 has not passed; schema and role resolution were not run."
+      },
+      {
+        "source_path": "$.palaces.dui_7",
+        "raw_name": "兑 7 Palace",
+        "status": "blocked",
+        "canonical_identity": null,
+        "reason": "B0 has not passed; schema and role resolution were not run."
+      },
+      {
+        "source_path": "$.palaces.gen_8",
+        "raw_name": "艮 8 Palace",
+        "status": "blocked",
+        "canonical_identity": null,
+        "reason": "B0 has not passed; schema and role resolution were not run."
+      },
+      {
+        "source_path": "$.palaces.li_9",
+        "raw_name": "离 9 Palace",
+        "status": "blocked",
+        "canonical_identity": null,
+        "reason": "B0 has not passed; schema and role resolution were not run."
+      }
+    ],
+    "centre_block_validation": {
+      "status": "blocked",
+      "reason": "B1 not started; no centre opposition or lodging inferred."
+    }
+  },
+  "05_structure_evidence": {
+    "E": [],
+    "R": [],
+    "id_derivation_mode": null,
+    "status": "blocked"
+  },
+  "06_palace_coverage_matrix": [
+    {
+      "source_path": "$.palaces.kan_1",
+      "status": "blocked",
+      "tallies": null,
+      "closure_equation": null,
+      "gap_rows": [
+        "G001",
+        "G004",
+        "G007"
+      ],
+      "note": "No atom registry; empty evidence does not establish zero source evidence."
+    },
+    {
+      "source_path": "$.palaces.kun_2",
+      "status": "blocked",
+      "tallies": null,
+      "closure_equation": null,
+      "gap_rows": [
+        "G001",
+        "G004",
+        "G007"
+      ],
+      "note": "No atom registry; empty evidence does not establish zero source evidence."
+    },
+    {
+      "source_path": "$.palaces.zhen_3",
+      "status": "blocked",
+      "tallies": null,
+      "closure_equation": null,
+      "gap_rows": [
+        "G001",
+        "G004",
+        "G007"
+      ],
+      "note": "No atom registry; empty evidence does not establish zero source evidence."
+    },
+    {
+      "source_path": "$.palaces.xun_4",
+      "status": "blocked",
+      "tallies": null,
+      "closure_equation": null,
+      "gap_rows": [
+        "G001",
+        "G004",
+        "G007"
+      ],
+      "note": "No atom registry; empty evidence does not establish zero source evidence."
+    },
+    {
+      "source_path": "$.palaces.center_5",
+      "status": "blocked",
+      "tallies": null,
+      "closure_equation": null,
+      "gap_rows": [
+        "G001",
+        "G004",
+        "G007"
+      ],
+      "note": "No atom registry; empty evidence does not establish zero source evidence."
+    },
+    {
+      "source_path": "$.palaces.qian_6",
+      "status": "blocked",
+      "tallies": null,
+      "closure_equation": null,
+      "gap_rows": [
+        "G001",
+        "G004",
+        "G007"
+      ],
+      "note": "No atom registry; empty evidence does not establish zero source evidence."
+    },
+    {
+      "source_path": "$.palaces.dui_7",
+      "status": "blocked",
+      "tallies": null,
+      "closure_equation": null,
+      "gap_rows": [
+        "G001",
+        "G004",
+        "G007"
+      ],
+      "note": "No atom registry; empty evidence does not establish zero source evidence."
+    },
+    {
+      "source_path": "$.palaces.gen_8",
+      "status": "blocked",
+      "tallies": null,
+      "closure_equation": null,
+      "gap_rows": [
+        "G001",
+        "G004",
+        "G007"
+      ],
+      "note": "No atom registry; empty evidence does not establish zero source evidence."
+    },
+    {
+      "source_path": "$.palaces.li_9",
+      "status": "blocked",
+      "tallies": null,
+      "closure_equation": null,
+      "gap_rows": [
+        "G001",
+        "G004",
+        "G007"
+      ],
+      "note": "No atom registry; empty evidence does not establish zero source evidence."
+    }
+  ],
+  "07_pattern_state_registry": [],
+  "08_claim_lines": [],
+  "09_case_alignment": {
+    "rows": [],
+    "facet_coverage_summary": [],
+    "tag_tally": {
+      "DIRECT": 0,
+      "INDIRECT": 0,
+      "NO_CHART_SUPPORT": 0,
+      "CONTRADICTS_KNOWN": 0
+    },
+    "status": "blocked",
+    "note": "Zero emitted CMAP rows, not verified facet coverage."
+  },
+  "10_solution_hypotheses": [],
+  "11_dependency_assumptions": {
+    "A": [],
+    "I": [],
+    "assumption_index": []
+  },
+  "12_uncertainty_limits": {
+    "assumption_ranking": [],
+    "invalid_chains": [],
+    "deferred_topics": [
+      "All B1-B5, P6, RT and Tier2 work"
+    ],
+    "blocked_classes": [
+      "HC",
+      "AX",
+      "ZQ",
+      "CS",
+      "JG",
+      "QT"
+    ],
+    "conflict_register": []
+  },
+  "13_decision_support": {
+    "decision_guard": "Do not use this preflight as a chart verdict or campaign recommendation.",
+    "validation_path": "Authorize and supply dependencies, bind tools, validate B0, then run checkpointed execution.",
+    "uncertainty": "No chart-backed interpretation has been validated.",
+    "bounded_recommendation": "Resume only after the blockers are resolved."
+  },
+  "14_gap_report": [
+    {
+      "id": "G001",
+      "path": "schema_adapter.yaml",
+      "why_unaddressed": "Schema variants and required role bindings are not supplied or authorized.",
+      "owner_phase": "B1",
+      "resolution": "Obtain the user's role/purpose/use authorization and the required artifact or real tool binding before resuming."
+    },
+    {
+      "id": "G002",
+      "path": "frozen_tables",
+      "why_unaddressed": "Authoritative tables are not supplied or authorized. The charter annex is reference-only and does not supply every required lookup.",
+      "owner_phase": "B2",
+      "resolution": "Obtain the user's role/purpose/use authorization and the required artifact or real tool binding before resuming."
+    },
+    {
+      "id": "G003",
+      "path": "semantic_protocol_raw.json",
+      "why_unaddressed": "Protocol focus keys are not supplied or authorized.",
+      "owner_phase": "B0",
+      "resolution": "Obtain the user's role/purpose/use authorization and the required artifact or real tool binding before resuming."
+    },
+    {
+      "id": "G004",
+      "path": "A-coverage",
+      "why_unaddressed": "Seven-topic order, 25-batch allocation, class matrix, and coverage controls are placeholder annex content.",
+      "owner_phase": "B0",
+      "resolution": "Obtain the user's role/purpose/use authorization and the required artifact or real tool binding before resuming."
+    },
+    {
+      "id": "G005",
+      "path": "A-patterns",
+      "why_unaddressed": "Pattern catalog is a placeholder; do not invent the compute_always set.",
+      "owner_phase": "B4",
+      "resolution": "Obtain the user's role/purpose/use authorization and the required artifact or real tool binding before resuming."
+    },
+    {
+      "id": "G006",
+      "path": "A-archetypes",
+      "why_unaddressed": "Frozen rubric and legal competing candidate sets are not supplied. Archetype labels and scoring are prohibited.",
+      "owner_phase": "Tier2",
+      "resolution": "Obtain the user's role/purpose/use authorization and the required artifact or real tool binding before resuming."
+    },
+    {
+      "id": "G007",
+      "path": "A-tools",
+      "why_unaddressed": "CAP-01 through CAP-19 and Tier-0/Tier-2 bindings are declared but no callable harness was supplied. Shell availability does not establish these bindings.",
+      "owner_phase": "B0",
+      "resolution": "Obtain the user's role/purpose/use authorization and the required artifact or real tool binding before resuming."
+    },
+    {
+      "id": "G008",
+      "path": "wiki_articles",
+      "why_unaddressed": "Background corpus is not supplied or authorized; no background citations are generated.",
+      "owner_phase": "B5",
+      "resolution": "Obtain the user's role/purpose/use authorization and the required artifact or real tool binding before resuming."
+    },
+    {
+      "id": "G009",
+      "path": "case_context_ingest",
+      "why_unaddressed": "CAP-17 binding is unavailable. Canonical decomposition, facet counts, and conflict checks remain deferred.",
+      "owner_phase": "ingest",
+      "resolution": "Obtain the user's role/purpose/use authorization and the required artifact or real tool binding before resuming."
+    }
+  ],
+  "15_tool_event_log": {
+    "cap_calls": [],
+    "cap_call_count": 0,
+    "anomaly_log": [],
+    "SCORE_SOURCE": [],
+    "preflight_events": [
+      {
+        "event": "AUTHORIZED_INPUT_SNAPSHOT",
+        "status": "ok"
+      },
+      {
+        "event": "B0_GATE",
+        "status": "blocked"
+      }
+    ],
+    "note": "Missing bindings were not invoked; this is not a fabricated TOOL_FAILURE response."
+  },
+  "16_provenance_appendix": {
+    "raw_to_normalized_map": [],
+    "case_context_provenance": [],
+    "reissue_log": [],
+    "compression_log": [],
+    "source_provenance": [
+      {
+        "role": "system_prompt",
+        "path": "PROMPT/qmdj_chart_analyst_charter.md",
+        "bytes": 38235,
+        "sha256": "f365e614f1a56091fadf7cb82011b71b9ec390234435aa72edc21b098a1319d5"
+      },
+      {
+        "role": "chart",
+        "path": "QMDJ/ADVERTISING/project_2.json",
+        "bytes": 14392,
+        "sha256": "57d1468bd83951563457c41da09502cc6457a0ddf9cbab024ace7ca8c988791a"
+      },
+      {
+        "role": "case_context",
+        "path": "ASSIGNMENTS/ADVERTISING/project_2.yaml",
+        "bytes": 2106,
+        "sha256": "733432dc15459c574035a8553b52c7e922a6ebeef7ed063e108ec64192a9dfd8"
+      }
+    ],
+    "note": "Raw sources are embedded in execution_request.json. No normalization or decomposition was executed."
+  },
+  "bounded_renders": [],
+  "full_report": "Execution stopped at B0. The authorized chart and YAML brief have been preserved in execution_request.json with the exact charter as the system message. No CAP was invoked, no model request was submitted, and no downstream analysis, scoring, red-team review, or advertising campaign was generated."
+}
