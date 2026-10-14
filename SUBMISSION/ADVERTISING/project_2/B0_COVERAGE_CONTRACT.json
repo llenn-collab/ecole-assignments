@@ -1,0 +1,35 @@
+{
+  "status": "blocked",
+  "total_batches": 25,
+  "max_palace_blocks_per_batch": 1,
+  "max_parallel_palaces": 2,
+  "palace_blocking_rules": null,
+  "palace_dependency_chains": null,
+  "forbidden_scope": [
+    "Unauthorized repository files",
+    "Invented CAP/tool outputs",
+    "Factual prediction",
+    "Unsupported archetype labels"
+  ],
+  "eligible_scope": [
+    "PROMPT/qmdj_chart_analyst_charter.md",
+    "QMDJ/ADVERTISING/project_2.json",
+    "ASSIGNMENTS/ADVERTISING/project_2.yaml"
+  ],
+  "visibility_tags": null,
+  "digest_gates": null,
+  "stop_conditions": [
+    "B0 contract incomplete",
+    "Required tool bindings unavailable",
+    "Required core roles blocked"
+  ],
+  "retry_bounds": {
+    "max_retries_per_claim": 1,
+    "max_retries_per_batch": 1,
+    "max_retries_per_p6_or_rt": 1,
+    "max_cap_calls_per_run": 60
+  },
+  "topic_order": null,
+  "validation_passed": false,
+  "limits_note": "One-palace-block limit is declared for B2; no global limit is invented for the missing coverage control."
+}

@@ -1,0 +1,42 @@
+{
+  "status": "passed_for_listed_checks_only",
+  "checks": [
+    {
+      "file": "SUBMISSION/CAMPAIGN_REPORT.pdf",
+      "pages": 6,
+      "readable": true
+    },
+    {
+      "file": "SUBMISSION/CAMPAIGN_PRESENTATION.pdf",
+      "pages": 19,
+      "readable": true
+    },
+    {
+      "file": "SUBMISSION/ARTWORK/seat_card_A6.pdf",
+      "pages": 1,
+      "readable": true
+    },
+    {
+      "file": "SUBMISSION/ARTWORK/poster_A3.pdf",
+      "pages": 1,
+      "readable": true
+    },
+    {
+      "file": "SUBMISSION/ARTWORK/social_story_1080x1920.pdf",
+      "pages": 1,
+      "readable": true
+    },
+    {
+      "file": "SUBMISSION/ARTWORK/stationary_context_mockup.pdf",
+      "pages": 1,
+      "readable": true
+    },
+    {
+      "budget_total_inr": 700,
+      "status": "arithmetic_verified_not_quotes"
+    }
+  ],
+  "lexical_violations": [],
+  "cap_execution_claimed": false,
+  "fieldwork_verified": false
+}

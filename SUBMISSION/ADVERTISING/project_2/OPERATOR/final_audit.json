@@ -1,0 +1,56 @@
+{
+  "status": "passed_for_listed_checks_only",
+  "checks": [
+    {
+      "file": "SUBMISSION/ARTWORK/poster_A3.pdf",
+      "pages": 1,
+      "parseable": true
+    },
+    {
+      "file": "SUBMISSION/ARTWORK/seat_card_A6.pdf",
+      "pages": 1,
+      "parseable": true
+    },
+    {
+      "file": "SUBMISSION/ARTWORK/social_story_1080x1920.pdf",
+      "pages": 1,
+      "parseable": true
+    },
+    {
+      "file": "SUBMISSION/ARTWORK/stationary_context_mockup.pdf",
+      "pages": 1,
+      "parseable": true
+    },
+    {
+      "file": "SUBMISSION/CAMPAIGN_PRESENTATION.pdf",
+      "pages": 19,
+      "parseable": true
+    },
+    {
+      "file": "SUBMISSION/CAMPAIGN_REPORT.pdf",
+      "pages": 6,
+      "parseable": true
+    }
+  ],
+  "additional_checks": [
+    "19 PDF/PPTX slides",
+    "SVG XML parses",
+    "PNG integrity and social dimensions",
+    "A6/A3 page dimensions",
+    "all local HTML links resolve",
+    "full declared lexical term list in public and annotated trees",
+    "17 unique design-facet records",
+    "research instruments contain headers only"
+  ],
+  "issues": [],
+  "not_verified": [
+    "real browser playback",
+    "full semantic-lint harness",
+    "formal charter guards",
+    "equipment safety certification",
+    "permissions",
+    "audience response",
+    "campaign effectiveness",
+    "exhaustive originality"
+  ]
+}

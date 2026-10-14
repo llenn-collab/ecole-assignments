@@ -1,0 +1,318 @@
+{
+  "blocked_requirements": [
+    "Formal package acceptance and certification are not available."
+  ],
+  "checks_reference": "OPERATOR/build_checks.json",
+  "delivery_archive": {
+    "bytes": 782511,
+    "contents": "Professional SUBMISSION tree only; technical operator records stay separate.",
+    "path": "PROJECT_2_SUBMISSION.zip",
+    "sha256": "24ec5e4c139d8d6b469765ffc81921b75cc8a911a1f28f1402ed59bf5297333a"
+  },
+  "design_status": "complete_as_designed_proposal",
+  "evidence_or_scoring_rubric_hash": null,
+  "external_actions_pending": [
+    "venue and owner permission",
+    "comprehension testing",
+    "optional safe deployment",
+    "actual NLET upload and class presentation"
+  ],
+  "fallback_mode": false,
+  "formal_charter_status": "partial_not_certified",
+  "gap_report_reference": "LAYER_A/DECISION_AND_AUDIT.md section 4",
+  "hash_absence_reason": "Authoritative frozen protocol/rubric artifacts were not supplied or authorized; no expected hash is invented.",
+  "input_provenance": [
+    {
+      "bytes": 49229,
+      "path": "PROMPT/assignment_solver_charter.md",
+      "sha256": "0e3231210a49e901b42867f3a82a7f13385d5bf9e8d2c48a5494d47b4b00bc40"
+    },
+    {
+      "bytes": 2106,
+      "path": "ASSIGNMENTS/ADVERTISING/project_2.yaml",
+      "sha256": "733432dc15459c574035a8553b52c7e922a6ebeef7ed063e108ec64192a9dfd8"
+    },
+    {
+      "bytes": 18287,
+      "path": "SUBMISSION/ADVERTISING/project_2/CHART_CASE_ANALYSIS.md",
+      "sha256": "52f7afdc3b755b1e651d1aef98294a2fa0ee1580aaf400f5bd433e08416ee7c7"
+    }
+  ],
+  "interpretation_protocol_hash": null,
+  "notes": [
+    "No raw chart read in solver stage.",
+    "No CAP/score/guard certification claimed.",
+    "No fieldwork, permission, deployment or effectiveness fabricated.",
+    "Input hashes are recorded, but no externally supplied expected hash was available.",
+    "Real PDFs/PPTX/SVG/PNG delivered; HTML motion prototype is not a live-action film."
+  ],
+  "output_count": 43,
+  "output_files": [
+    {
+      "bytes": 2414,
+      "path": "SUBMISSION/ARTWORK/poster_A3.pdf",
+      "sha256": "76633fdeb1ce234fe80f99dbc1625e0f7faaccfecea237e2507c367b8bec39a6",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 71523,
+      "path": "SUBMISSION/ARTWORK/poster_A3.png",
+      "sha256": "f78e00bd58211c6ec2ca1c230b9dafde5928a821d0559cce410dc75a6f084ea5",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 2519,
+      "path": "SUBMISSION/ARTWORK/poster_A3.svg",
+      "sha256": "191202ea1ea0e5878b3b6ab051997c4ada6ed6e9f722e6af88897e1b72cef5fb",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 2085,
+      "path": "SUBMISSION/ARTWORK/seat_card_A6.pdf",
+      "sha256": "f14ea02fdd19017a52762a6b2322d4a4f97c646ca1710612353ea9da3d369a84",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 42358,
+      "path": "SUBMISSION/ARTWORK/seat_card_A6.png",
+      "sha256": "e13db56691dd1093406f5e66257ff24337dfcecef6669deb717247a0801ebfc5",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 2109,
+      "path": "SUBMISSION/ARTWORK/seat_card_A6.svg",
+      "sha256": "20842a4fa9fd52650c609532e933e4eea771e86c4209f8a9c03b28068a5220dc",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 2181,
+      "path": "SUBMISSION/ARTWORK/social_story_1080x1920.pdf",
+      "sha256": "ef244941c12219baf4f72dfd3f9d2be4232e400b6dcd3f6b4488b590635aaa44",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 82294,
+      "path": "SUBMISSION/ARTWORK/social_story_1080x1920.png",
+      "sha256": "8cd52623ddeaa91f8bd6ace89ad9add4296e6810c7e89b5f308701ceba5e982f",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 2426,
+      "path": "SUBMISSION/ARTWORK/social_story_1080x1920.svg",
+      "sha256": "b0c30a1c23a9e5f6dc2ee735e492576719ab026d08c92377aefdd7435a1526ae",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 51599,
+      "path": "SUBMISSION/ARTWORK/stationary_context_mockup.pdf",
+      "sha256": "4092aa0e74400d719e623db71d2bfcef59511481fe07e993e08597aef7a0dc19",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 94736,
+      "path": "SUBMISSION/ARTWORK/stationary_context_mockup.png",
+      "sha256": "6069ecd7afcca803098cb374388899fecd092b47aed35a41d3d5a27389e2e27a",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 242514,
+      "path": "SUBMISSION/CAMPAIGN_PRESENTATION.pdf",
+      "sha256": "3eac72122d162fb8aacaeb1dd7b3bbed1adedc54fae4c915faacd1837ccc4c27",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 266115,
+      "path": "SUBMISSION/CAMPAIGN_PRESENTATION.pptx",
+      "sha256": "6804e9d74971f7c3708403cdcf1d22650117e3f1b279f34326f7db8f6b858050",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 18028,
+      "path": "SUBMISSION/CAMPAIGN_REPORT.md",
+      "sha256": "be93b4f0091f60f9c7b2198bef62f4ecd0ee4dd56aec293005497126629ab4c6",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 19452,
+      "path": "SUBMISSION/CAMPAIGN_REPORT.pdf",
+      "sha256": "0aa15e70601de57531bcfde31409f1fc606d3f8dea654775cb1a356586ee7700",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 198,
+      "path": "SUBMISSION/COMPREHENSION_TEMPLATE.csv",
+      "sha256": "80bcc8d424c978746f3c48d9021da7eb8f820108779cabd910c4cd2dddefa05d",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 3117,
+      "path": "SUBMISSION/MOTION_PROTOTYPE.html",
+      "sha256": "a4efef971923604cff4f416a1045d822c277e6b441d5fd40a235590517a74ea2",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 242,
+      "path": "SUBMISSION/PILOT_TALLY_TEMPLATE.csv",
+      "sha256": "b42f51f6db2d9323a2f7992b5caf2cce8f68f358aeaed2e8e9b4b97e27fa5dd4",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 10501,
+      "path": "SUBMISSION/PRESENTATION.html",
+      "sha256": "428215114e7391213f2692f04fa1933d8925d9afcb68a3efb2b65855665310e1",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 1728,
+      "path": "SUBMISSION/PRINT_AND_ACCESSIBILITY_NOTES.md",
+      "sha256": "f5834ead33b01d9d070e1351eb2ef863517fccafeec1d532a36b4f2809cf1df6",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 6959,
+      "path": "SUBMISSION/SPEAKER_NOTES.md",
+      "sha256": "6691a72e252addf24617c8d3c0523d4621f4be2a7233006c134f7a29bc6e2bdd",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 4026,
+      "path": "SUBMISSION/index.html",
+      "sha256": "c9aff88b3c44f51f391a09c779493e8de5a6778294cabc50faee540098090d01",
+      "tree": "SUBMISSION"
+    },
+    {
+      "bytes": 2788,
+      "path": "ANNOTATED/EXECUTION_COMMENTARY.md",
+      "sha256": "e323cb022cbb852efceb72403cf5a7a1e3ef1407efdda7a9ea6bff8b7a4b72b2",
+      "tree": "ANNOTATED"
+    },
+    {
+      "bytes": 12704,
+      "path": "ANNOTATED/RESEARCH_CONTENDERS.md",
+      "sha256": "c3d7b1c2139d8d69aa90f3818cd5291f51b3207dc8a8219b5dadbdc2087e8a3d",
+      "tree": "ANNOTATED"
+    },
+    {
+      "bytes": 19982,
+      "path": "LAYER_A/DECISION_AND_AUDIT.md",
+      "sha256": "2018e972d5ce20b3a669b100c6f4c743243811e23720eea5feb34b694ebdc61f",
+      "tree": "LAYER_A"
+    },
+    {
+      "bytes": 5838,
+      "path": "OPERATOR/ARCHITECTURE_AND_SELECTION.md",
+      "sha256": "04677b5b43c99165b28f5e18f1b64d6fe3e0561818411f2d3a9082e7a46b1eea",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 4924,
+      "path": "OPERATOR/COMMENTS.md",
+      "sha256": "5045e0084d29adaaff33fe4b7d9b29d7f8e261a7f824c39d4818797d59851b14",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 2058,
+      "path": "OPERATOR/EVIDENCE_CONSUMPTION.md",
+      "sha256": "2ee004545b879de9e20d76693049a4cfc520da8bb97aecb717b1620451d729f6",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 2617,
+      "path": "OPERATOR/MAPPINGS.md",
+      "sha256": "839032a1364ef51e2bbfe6d07266d91cdc1bc5ef7bc2ecca8d95dff197da16ff",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 1971,
+      "path": "OPERATOR/PATH_RANK.md",
+      "sha256": "2b8d69bcd08acac35204f9aed9798d268c33aab89375d1125e69a2c08de3456a",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 2949,
+      "path": "OPERATOR/RED_TEAM.md",
+      "sha256": "27a2896df5e09b7bc2d815ab9165eca466773dbd774c6d4fbc7c87e114cbe8b8",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 4489,
+      "path": "OPERATOR/audit_deliverables.py",
+      "sha256": "c159a326f9085d5f138b963276776f0e28015594616a42f344245eba69fd8b88",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 911,
+      "path": "OPERATOR/build_checks.json",
+      "sha256": "8c1668a4130b2880cddea03fd9fd776ac5c3f99e01967f1118edfe11156f46b8",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 32846,
+      "path": "OPERATOR/build_deliverables.py",
+      "sha256": "66e9e68f22bdc99d3a8c2c827a6c0cc4cf7eeaf0462e3f3717a232c5ec8f9c1b",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 10933,
+      "path": "OPERATOR/campaign_spec.json",
+      "sha256": "1974da50bf161a4ec441a4f3fb439b563ae2b470bd55ef05241039da5a699b02",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 40415,
+      "path": "OPERATOR/deck_first_page.png",
+      "sha256": "b0676d29c2f10fdd60bbeba1607165e82eea90a5f9b2d94fce91f6136fe2350e",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 9746,
+      "path": "OPERATOR/design_requirement_map.json",
+      "sha256": "be458e974a8bc9924339f8f9acfae30641b4c5e8a74005fe16ddef799e619f65",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 1346,
+      "path": "OPERATOR/final_audit.json",
+      "sha256": "88789e113c445f024bf1c37eddf478e9f18857b8f9d56a138edc44b2ef2a005d",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 23568,
+      "path": "OPERATOR/finalize_package.py",
+      "sha256": "6b9e49ec7eefb299d0dc111715944ba37ea4e62fc49231574371eeed9fcff790",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 50376,
+      "path": "OPERATOR/hero_slide_preview.png",
+      "sha256": "11a0b9a479889c6f0dccefa39071108828c10d9a6199a55bc7b67107834c1b68",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 7748,
+      "path": "OPERATOR/presentation_content.json",
+      "sha256": "7593e0d5c58fbad0174176e121104d8d3ef49e052cbfee0e3cc3576606804b0e",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 110522,
+      "path": "OPERATOR/report_first_page.png",
+      "sha256": "cef738afbc1bdff8a163d65f46af524840feb64a82244fa28320011f0edba6cc",
+      "tree": "OPERATOR"
+    },
+    {
+      "bytes": 36,
+      "path": "OPERATOR/requirements.txt",
+      "sha256": "16a7c3c5b4b4d9e4030c8ecd3bd45a080158d38183616ab664105f5f3676d2d2",
+      "tree": "OPERATOR"
+    }
+  ],
+  "package": "THIS SEAT HAS A HEAD.",
+  "prepared_on": "2026-10-14",
+  "runtime_mode": "TOOLS_PRESENT",
+  "source_evidence_hash_reason": "Raw source is forbidden in solver stage; analysis-input hash recorded instead.",
+  "source_evidence_sha256": null,
+  "tied_requirements": [],
+  "total_output_bytes": 1277891,
+  "unsupported_required_formats": []
+}

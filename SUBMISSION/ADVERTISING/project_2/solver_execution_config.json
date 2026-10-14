@@ -1,0 +1,42 @@
+{
+  "analysis_input": "SUBMISSION/ADVERTISING/project_2/CHART_CASE_ANALYSIS.md",
+  "architecture_document": "OPERATOR/ARCHITECTURE_AND_SELECTION.md",
+  "assignment_brief": "ASSIGNMENTS/ADVERTISING/project_2.yaml",
+  "design_constraints_from_existing_analysis": [
+    "One clear message and intended response",
+    "Media innovation must clarify rather than obscure the message",
+    "Low audience effort",
+    "Sensitive, non-coercive, non-hazardous execution",
+    "Three initial concepts resolved into one final campaign",
+    "No product line or service as the solution",
+    "No invented research, audience findings, effectiveness claims, or scores"
+  ],
+  "formal_solver_validation_claimed": false,
+  "media_route": "recommend_after_cause_selection",
+  "pending_decisions": [],
+  "pending_external_actions": [
+    "venue and owner permission",
+    "comprehension testing",
+    "optional safe deployment",
+    "actual NLET upload and class presentation"
+  ],
+  "production_access": "recommend_best_fit_do_not_assume_confirmed_permissions",
+  "raw_chart_access": false,
+  "research_access_date": "2026-10-14",
+  "research_authorized": true,
+  "research_document": "ANNOTATED/RESEARCH_CONTENDERS.md",
+  "selected_cause": "C: adult pillion helmet use",
+  "selected_concept": "CON-001: supervised stationary second-seat card",
+  "selection_basis": "User leans toward C; transparent editorial concept comparison",
+  "status": "design_complete_formal_validation_partial",
+  "submission_policy": "Professional assignment content without chart terminology or metaphysical framing. Keep technical provenance and limitations separate.",
+  "upstream_analysis_status": "partial_direct_text_analysis_not_certified_evidence_package",
+  "user_directed_overrides": [
+    {
+      "override": "User explicitly requests questions with viable options before assignment execution.",
+      "rule": "Charter prohibition on clarifying questions"
+    }
+  ],
+  "working_charter": "PROMPT/assignment_solver_charter.md",
+  "working_directory": "SUBMISSION/ADVERTISING/project_2"
+}
