@@ -1,0 +1,38 @@
+file:
+  name: "Advertising.pdf"
+  pages:
+    - page: 1
+      page_marker: "===== Page 1 ====="
+      page_number_text: "1"
+      title: "ADVERTISING 2 CRAFTING FOR A SOCIAL CAUSE"
+      sections:
+        - heading: "Objective"
+          text: "Creating an impactful communication towards a social cause using media innovation."
+        - heading: "PICK A SOCIAL CAUSE OF YOUR CHOICE"
+          items:
+            - "Narrow down the industry / sector / segment of society it affects"
+            - "Define your target audience"
+            - "Support your social cause (prevalence / impact) with data / research"
+        - heading: "MEDIA INNOVATION"
+          items:
+            - "Pick a media channel that is relevant to your target audience."
+            - "Create either an idea innovation (how it's used) or a tech innovation, to deliver your message effectively."
+            - "IMPORTANT: The impact lies in your message - avoid creating a product line / service for your social cause. Aim to bring a change in awareness or behaviour through your communication."
+        - heading: "PROJECT PROGRESSION"
+          schedule:
+            - date: "14 OCT"
+              item: "Chosen social cause + Data / Insight + 3 media innovation concepts"
+            - date: "21 OCT"
+              item: "WIP - Design Execution"
+            - date: "27 OCT"
+              item: "NLET Submission"
+            - date: "28 OCT"
+              item: "Class Presentation & Final Review"
+        - heading: "Final Deliverable"
+          text: "A single ad campaign using innovative use of media, that drives a powerful message / statement to its target audience about the chosen social cause. Please include: data on your social cause data | target audience insight | creative strategy."
+        - heading: "Grading Criteria"
+          items:
+            - "Research: Identifying a niche problem. Providing stats."
+            - "Ideation: Creative thinking, balancing topic and audience sensitivity"
+            - "Execution: Use of media innovation"
+            - "Presentation: Clarity of solution and presentation"
