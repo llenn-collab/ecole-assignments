@@ -1,0 +1,111 @@
+# Source: Assignment_4348_1EajMDFF4H4e.pdf
+# Pages: 1
+# Converted: 2026-10-15T11:03:58.799Z
+# Pipeline: n8n Telegram PDF to YAML (LLM chain, mode=page-aware)
+
+document:
+  title: "Assignment_4348_1EajMDFF4H4e"
+  source_file: "Assignment_4348_1EajMDFF4H4e.pdf"
+  total_pages: 1
+  conversion:
+    method: "page-aware-text"
+    units: 1
+sections:
+  # ---- unit u001 (pages 1-1) ----
+  - id: u001-s001
+    parent_id: null
+    title: "PERSONAL BRANDING & PORTFOLIO"
+    level: 1
+    source_pages: [1]
+    content_type: prose
+    content: |-
+      PERSONAL BRANDING & PORTFOLIO
+
+  - id: u001-s002
+    parent_id: u001-s001
+    title: "PROJECT 02 - THE MISSING PIECE: A PORTFOLIO PROJECT"
+    level: 2
+    source_pages: [1]
+    content_type: prose
+    content: |-
+      PROJECT 02
+      THE MISSING PIECE: A PORTFOLIO PROJECT
+      Think of a topic / brand / activity / passion that defines you or is a part of your creative personality, that never had the opportunity to be expressed in any academic work so far. This project is for you to proactively build that missing piece.
+
+  - id: u001-s003
+    parent_id: u001-s002
+    title: "Objective"
+    level: 3
+    source_pages: [1]
+    content_type: prose
+    content: |-
+      Identifying a facet of yourself that should be a part of your portfolio and personal brand, and completing your vision for it through design / art / experiential work.
+
+  - id: u001-s004
+    parent_id: u001-s002
+    title: "Project Progression: 3 Weeks"
+    level: 3
+    source_pages: [1]
+    content_type: list
+    items:
+      - label: "15 Sep"
+        value: "Make the pitch: What you wish to build, references, mood board, progression timeline"
+      - label: "22 Sep & 29"
+        value: "WIP & feedback"
+      - label: "05 Oct | 06 Oct"
+        value: "05 Oct: NLET Submission | 06 Oct: In-class Presentation"
+
+  - id: u001-s005
+    parent_id: u001-s002
+    title: "Examples only, you’re free to pick outside this list:"
+    level: 3
+    source_pages: [1]
+    content_type: prose
+    content: |-
+      Examples only, you’re free to pick outside this list:
+
+  - id: u001-s006
+    parent_id: u001-s005
+    title: "Your topic can be academic, e.g.:"
+    level: 4
+    source_pages: [1]
+    content_type: list
+    items:
+      - "1. Revisiting a past project that you’d like to make more detailed / comprehensive"
+      - "2. Exploring a campaign for a brand you love but never could use for any subject"
+      - "3. Product / Service innovation"
+
+  - id: u001-s007
+    parent_id: u001-s005
+    title: "Your topic can be non-academic and personal, e.g. (Recommended):"
+    level: 4
+    source_pages: [1]
+    content_type: list
+    items:
+      - "1. Social awareness drive for a cause you are passionate about / volunteer for"
+      - "2. Producing a podcast on topics you wish were in discussion"
+      - "3. Non-academic output for the brief (Knitting / Sculpturing / Music / Documenting / Sport)"
+      - "4. Teach something / learn something real time and show your results"
+
+  - id: u001-s008
+    parent_id: u001-s002
+    title: "Grading Criteria"
+    level: 3
+    source_pages: [1]
+    content_type: form
+    items:
+      - label: "Nature of brief set by self"
+        value: "Challenging | Insightful | Connection to self is strong"
+      - label: "Idea for output"
+        value: "Uniqueness | Expertise and detailing used | Research / referencing"
+      - label: "Final output"
+        value: "Quality of output | Aligning to initial vision | Memorable"
+
+  - id: u001-s009
+    parent_id: u001-s002
+    title: "Project Examples"
+    level: 3
+    source_pages: [1]
+    content_type: prose
+    content: |-
+      Project Examples: https://drive.google.com/drive/folders/1FDbRXauBmndlZ0-uCIwqqvrJvxnGvq1s?usp=sharing
