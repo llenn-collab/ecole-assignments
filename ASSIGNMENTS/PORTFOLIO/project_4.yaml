@@ -1,0 +1,67 @@
+# Source: Assignment_4579_1ssQa1hshw6V.pdf
+# Pages: 1
+# Converted: 2026-10-15T08:52:03.331Z
+# Pipeline: n8n Telegram PDF to YAML (LLM chain, mode=page-aware)
+
+document:
+  title: "Assignment_4579_1ssQa1hshw6V"
+  source_file: "Assignment_4579_1ssQa1hshw6V.pdf"
+  total_pages: 1
+  conversion:
+    method: "page-aware-text"
+    units: 1
+sections:
+  # ---- unit u001 (pages 1-1) ----
+  - id: u001-s001
+    parent_id: null
+    title: "PERSONAL BRANDING & PORTFOLIO"
+    level: 1
+    source_pages: [1]
+    content_type: mixed
+    content: |-
+      PROJECT 03 PART 1
+      PORTFOLIO WEBSITE
+      Objective:
+      Conceptualising and visualising key pages of your web portfolio to be distinct, with a strong
+      narrative style and clarity in flow of work being presented.
+      Project Progression: 3 Weeks
+      19 Oct: Website Homepage + About Me Page – Content Wireframe & Visual Plan
+      27 Oct: Website Portfolio Landing Page + One Project Page – Content & Visual Plan
+      03 Nov: NLET Submission
+      Deliverables:
+      Your Portfolio Link must have the following pages working:
+      1. Home Page – Completed
+      2. About Me – Completed
+      3. Portfolio – Landing Page + Any Two Projects Completed
+      Grading Criteria:
+      Narrative Uniqueness: Has a clear visual / verbal theme
+      Home page information hierarchy and user experience
+      Portfolio – Project Page: Concise and clear showcase of work
+      Please note: There is no mandatory WIP discussions while your build this assignment. However,
+      if any of you need to ask doubts / show any progress for further directions, we can address that
+      in class. Lecture time will be used for short workshops on writing / elevator pitch / presentation
+      of your work, resume building, and more.
+      Websites viewed in class for discussion:
+      https://stefanstefancik.com/
+      https://sydxcix.com/
+      https://kynejang.com/
+      https://yanxinzhang.com/
+      https://toryloves.art/
+      https://dmarcle.work/
+    items:
+      - "Project Progression: 3 Weeks"
+      - "19 Oct: Website Homepage + About Me Page – Content Wireframe & Visual Plan"
+      - "27 Oct: Website Portfolio Landing Page + One Project Page – Content & Visual Plan"
+      - "03 Nov: NLET Submission"
+      - "1. Home Page – Completed"
+      - "2. About Me – Completed"
+      - "3. Portfolio – Landing Page + Any Two Projects Completed"
+      - "Narrative Uniqueness: Has a clear visual / verbal theme"
+      - "Home page information hierarchy and user experience"
+      - "Portfolio – Project Page: Concise and clear showcase of work"
+      - "https://stefanstefancik.com/"
+      - "https://sydxcix.com/"
+      - "https://kynejang.com/"
+      - "https://yanxinzhang.com/"
+      - "https://toryloves.art/"
+      - "https://dmarcle.work/"
