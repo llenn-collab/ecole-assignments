@@ -1,0 +1,425 @@
+source:
+  file_name: "project_3.pdf"
+  file_type: "PDF"
+  page_count: 10
+  pages: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+assignment:
+  title: "3 : Search Discoverability & Digital PR Strategy"
+  overview: |
+    Your brand has now been developed, your target audience has been identified,
+    and your content and social media strategy is in place. But how will consumers
+    discover your brand when they are actively looking for a product, service or
+    solution? And how will you get people outside your brand's own channels to talk
+    about it?
+
+    In this assignment, you will develop an integrated Search Discoverability and
+    Digital PR Strategy for the same brand used in Assignments 1 and 2. You will
+    explore how consumers search, identify relevant keywords, recommend opportunities
+    for organic discoverability and create an original Digital PR campaign designed
+    to earn attention and credibility.
+
+  focus_areas:
+    - "Search behaviour"
+    - "Keywords"
+    - "Foundation SEO"
+    - "Digital PR & measurement"
+
+  learning_objectives:
+    - id: 1
+      objective: "Understand how consumers use search engines to discover brands, products and information."
+    - id: 2
+      objective: "Identify and prioritise keywords based on consumer needs and search intent."
+    - id: 3
+      objective: "Map relevant keywords to appropriate website pages and content."
+    - id: 4
+      objective: "Apply the basic principles of on-page, off-page and technical SEO."
+    - id: 5
+      objective: "Develop an original Digital PR concept grounded in a brand or consumer insight."
+    - id: 6
+      objective: "Identify relevant media, creators and communities to amplify a PR campaign."
+    - id: 7
+      objective: "Connect search discoverability and earned media into a coherent brand strategy."
+    - id: 8
+      objective: "Define appropriate metrics to evaluate SEO and Digital PR initiatives."
+
+  submission_format:
+    format: "Individual PDF presentation"
+    continuation: "Continue from Assignment 1 & 2."
+    recommended_length: "12 - 20 slides, excluding cover, references and supporting creative mockups."
+
+  proposed_slide_structure:
+    part_a:
+      title: "Search & SEO Foundations"
+      subtitle: "Understanding what consumers search for and how the brand can become discoverable"
+      slides:
+        - number: 1
+          title: "What are these consumers searching for?"
+          source_pages: [1, 2]
+          instructions: |
+            Identify three consumer situations or triggers that could lead someone
+            to search for a solution in your category.
+          example: |
+            A healthy snack brand: A consumer wants healthier office snacks, needs
+            convenient pre-workout food, or is searching for alternatives to sugary
+            packaged snacks.
+          expected_output: "3 search triggers."
+
+        - number: 2
+          title: "Consumer Search Behaviour & Intent"
+          source_pages: [2]
+          instructions: |
+            Identify 8 - 10 realistic search queries that your target consumers might use.
+            For each search, include:
+            - Exact search query.
+            - Type of search intent: informational, navigational, commercial or transactional.
+            - Consumer needs behind the search.
+            - Stage of the customer journey.
+          example_table:
+            columns: ["Search query", "Search intent", "Consumer need"]
+            rows:
+              - search_query: "Are protein snacks healthy?"
+                search_intent: "Informational"
+                consumer_need: "Learn"
+              - search_query: "Best high-protein snacks for office"
+                search_intent: "Commercial"
+                consumer_need: "Explore options"
+              - search_query: "Brand X protein bar reviews"
+                search_intent: "Commercial / Navigational"
+                consumer_need: "Evaluate"
+              - search_query: "Buy Brand X protein bars"
+                search_intent: "Transactional"
+                consumer_need: "Purchase"
+          note: |
+            You should include searches across multiple stages of the consumer journey
+            rather than focusing only on purchase-related terms.
+          expected_output: "A table of 8 - 10 searches with intent classification and consumer rationale."
+
+        - number: 3
+          title: "Keyword Research & Strategy"
+          source_pages: [3]
+          instructions: |
+            Develop a list of 10 - 15 relevant keywords/search phrases for your brand.
+            The list should include a meaningful mix of:
+            1. Short-tail keywords.
+            2. Long-tail keywords.
+            3. Brand/category keywords.
+            4. Problem or need-based searches.
+            5. Informational and commercial/transactional searches.
+          keyword_strategy_table:
+            columns: ["Keyword", "Type", "Intent", "Priority", "Reason"]
+            rows:
+              - keyword: "Protein snacks"
+                type: "Short-tail"
+                intent: "Broad/mixed"
+                priority: "Medium"
+                reason: "Relevant category, but broad"
+              - keyword: "Healthy office snacks"
+                type: "Long-tail"
+                intent: "Commercial"
+                priority: "High"
+                reason: "Closely matches target audience"
+              - keyword: "Best protein bars for beginners"
+                type: "Long-tail"
+                intent: "Commercial"
+                priority: "High"
+                reason: "Relevant product consideration"
+              - keyword: "Buy Brand X protein bars"
+                type: "Branded"
+                intent: "Transactional"
+                priority: "High"
+                reason: "Direct purchase intent"
+          additional_requirement: |
+            Identify the five highest-priority keywords and explain why they are most
+            relevant. Consider consumer relevance, search intent, business value and
+            the brand's ability to provide a useful answer.
+          research_sources: |
+            You may use Google Search, autocomplete, related searches, Google Trends
+            and other freely accessible research sources. Paid SEO tools are not required.
+          expected_output: "A keyword strategy table with five clearly prioritised keywords."
+
+        - number: 4
+          title: "Keyword Mapping & Website Discoverability"
+          source_pages: [4]
+          instructions: |
+            Take the priority keywords from Slide 3 and demonstrate how they would be
+            used to guide consumers to relevant website content. Include at least five
+            priority keywords or keyword groups to appropriate destinations, such as:
+            - Homepage.
+            - Product or service page.
+            - Category page.
+            - Blog or educational guide.
+            - FAQ or resource page.
+            - Other pages.
+            For each, explain why the chosen page would be useful to the consumer.
+          example_table:
+            columns: ["Keyword", "Consumer need", "Recommended page"]
+            rows:
+              - keyword: "Healthy snacks for office"
+                consumer_need: "Explore options"
+                recommended_page: "Product/category page"
+              - keyword: "Are protein bars healthy?"
+                consumer_need: "Understand benefits and considerations"
+                recommended_page: "Educational blog"
+              - keyword: "Protein bar ingredients"
+                consumer_need: "Evaluate product"
+                recommended_page: "Product information/FAQ"
+              - keyword: "Buy Brand X protein bars"
+                consumer_need: "Purchase"
+                recommended_page: "Product page"
+          additional_requirement_blog_opportunities: |
+            Recommend two blog topics based on the keyword strategy. For each blog idea, include:
+            - Proposed blog title.
+            - Primary keywords.
+            - Search intent.
+            - Consumer question it answers.
+            - Why the topic is relevant to the brand.
+            No need to write the full blogs or develop detailed long-form content.
+          expected_output: "Keyword-to-page mapping and two blog recommendations."
+
+        - number: 5
+          title: "Foundational SEO Strategy"
+          source_pages: [5]
+          instructions: |
+            Develop a basic SEO action plan using the three pillars of SEO. You must
+            recommend at least two relevant actions for each pillar.
+          seo_pillars_table:
+            columns: ["SEO pillar", "What to consider"]
+            rows:
+              - seo_pillar: "On-Page SEO"
+                what_to_consider: "Useful website content, relevant keywords, clear headings, page descriptions, internal links"
+              - seo_pillar: "Off-Page SEO"
+                what_to_consider: "Relevant external mentions, credible references, opportunities for other websites to discover the brand"
+              - seo_pillar: "Technical SEO"
+                what_to_consider: "Mobile-friendly website, loading speed, clear navigation, accessible and logically organised pages"
+          action_explanation_requirements: |
+            For each recommended action, briefly explain:
+            - What will you do?
+            - Why is it relevant?
+            - How will it help consumers discover or use your website?
+          example: |
+            Healthy snack brand:
+            On-Page: Create an educational article answering common questions about
+            choosing protein snacks.
+            Off-Page: Identify relevant nutrition or lifestyle publications that might
+            find the brand's educational resources useful.
+            Technical: Ensure product pages are easy to navigate and use on mobile devices.
+          expected_output: "A six-action SEO plan."
+
+    part_b:
+      title: "Digital PR Strategy"
+      subtitle: "Slides 6 - 10 | Developing an original idea that earns attention, credibility and conversation"
+      slides:
+        - number: 6
+          title: "Digital PR Objective & Consumer Insight"
+          source_pages: [5, 6]
+          instructions: |
+            Define the purpose of your Digital PR strategy. Include:
+            1. Primary PR objective. Choose one clear objective, such as:
+               - Build brand awareness.
+               - Establish credibility.
+               - Change a consumer perception.
+               - Create conversation around a product or category.
+               - Highlight an innovation or initiative.
+               - Strengthen brand reputation.
+            2. Target audience. Who should this campaign reach? Be specific about the
+               consumer group and why the campaign matters to them.
+            3. Consumer or cultural insight. Identify a relevant behaviour, belief,
+               problem, tension or opportunity that could inspire a PR campaign.
+            4. Brand connection. Explain why your brand has a credible reason to
+               participate in this conversation.
+            5. Desired outcome. What should consumers think, feel, discuss or do after
+               encountering the campaign?
+          expected_output: "A clearly defined PR objective and insight that logically lead to the campaign concept."
+
+        - number: 7
+          title: "The Big Digital PR Idea"
+          source_pages: [7]
+          instructions: |
+            Develop one original Digital PR campaign concept for your brand. This is the
+            central creative component of the assignment. Include:
+            - Campaign name.
+            - Consumer/cultural insight.
+            - The big idea.
+            - Key campaign message.
+            - Why the idea is relevant to the brand.
+            - Why it is interesting, useful, surprising or newsworthy.
+            - What would motivate people to talk about or share it?
+          pr_worthiness_test:
+            - "NEW"
+            - "DIFFERENT"
+            - "RELEVANT"
+            - "HUMAN"
+            - "DATA-LED"
+            - "CULTURAL"
+            - "PURPOSEFUL"
+          pr_worthiness_requirement: "The campaign should demonstrate at least two of these qualities."
+          learning_from_case_studies:
+            instructions: |
+              You may draw inspiration from the strategic approaches discussed in class.
+              Do not simply reproduce these ideas for your own brand.
+            case_studies_table:
+              columns: ["Brand", "What made the PR idea compelling"]
+              rows:
+                - brand: "IKEA - ThisAbles"
+                  what_made_it_compelling: "Useful innovation that addressed a real need"
+                - brand: "Swiggy - #SwiggyVoiceOfHunger"
+                  what_made_it_compelling: "Creative audience participation"
+                - brand: "CRED - Indiranagar Ka Gunda"
+                  what_made_it_compelling: "Surprise, humour and cultural conversation"
+                - brand: "Burger King - Moldy Whopper"
+                  what_made_it_compelling: "A provocative way to communicate a product truth"
+          important_note: |
+            A routine product announcement, discount campaign or generic influencer
+            collaboration is not automatically a Digital PR campaign.
+          expected_output: "One clearly articulated, original PR concept with a strong rationale for earned attention."
+
+        - number: 8
+          title: "Digital PR Campaign Execution"
+          source_pages: [7, 8]
+          instructions: |
+            Explain how the campaign will come to life. Include:
+            1. Campaign activities. What will actually happen? For example, a public
+               initiative, research release, interactive experience, challenge, product
+               innovation, event or community activation.
+            2. Execution timeline. Divide the plan into:
+               - Pre-Launch
+               - Launch
+               - Amplification
+            3. Audience participation. How can consumers engage with, contribute to or
+               share the campaign, where relevant?
+            4. Key campaign touchpoints. Where will people encounter the campaign?
+            5. Creative execution. Create at least two sample campaign assets.
+          campaign_creative_formats:
+            - "Campaign key visual"
+            - "Social media creative"
+            - "PR announcement"
+            - "Infographic"
+            - "Research-report cover"
+            - "Creator content mockup"
+            - "Activation/event visual"
+            - "Campaign webpage concept"
+          expected_output: |
+            A realistic execution plan and two original creative assets. You should
+            demonstrate how the idea will be executed, not just describe it.
+
+        - number: 9
+          title: "Media, Creator & Community Outreach"
+          source_pages: [8, 9]
+          instructions: |
+            Identify the external voices and channels that could help the campaign earn
+            attention. Include:
+            - At least 3 relevant media outlets/publications.
+            - At least 2 relevant creators, experts, communities or partners.
+            For each recommendation, explain:
+            1. Who are they?
+            2. Why are they relevant to your target audience?
+            3. Why might the campaign interest them?
+            4. What story angle or resource would you offer?
+            Research and name actual publications, creators and communities
+            (no inventing names).
+          media_pitch:
+            length: "Approximately 100 - 150 words"
+            instructions: |
+              Write one short media pitch for a selected publication or creator.
+              The pitch should communicate:
+              - What is the story?
+              - Why is it relevant now?
+              - Why would your audience care?
+              - What information or assets are available?
+          expected_output: "A targeted outreach shortlist and one sample media pitch."
+          important_note: |
+            Earned media is not the same as paid influencer promotion. The outreach
+            plan should focus on relevance and voluntary editorial or community interest.
+
+        - number: 10
+          title: "Digital PR Amplification Strategy"
+          source_pages: [9]
+          instructions: |
+            Show how your brand will extend the impact of the PR campaign beyond the
+            initial launch. Include:
+            - Earned Media: Relevant editorial coverage, expert commentary,
+              creator/community mentions.
+            - Owned Media: Brand website, blog, email, official brand channels.
+            - Shared Media: Social conversations, customer participation, community
+              sharing and user-generated content.
+            You should explain how these channels support one another.
+          example_flow: |
+            PR Campaign Launch -> Media Coverage -> Brand Social Sharing ->
+            Community Conversations -> Website Visits -> Greater Brand Awareness
+
+    part_c:
+      title: "Integration & Measurement"
+      subtitle: "Bringing search and PR together and defining success."
+      slides:
+        - number: 11
+          title: "Integrated Discoverability Strategy"
+          source_pages: [9]
+          instructions: |
+            Demonstrate how SEO and Digital PR work together to help consumers discover
+            and engage with your brand. Create a connected journey showing at least two
+            discovery routes:
+            - Route A - Search-led discovery:
+              Consumer Need -> Google Search -> Relevant Website/Blog -> Brand Discovery -> Consumer Action
+            - Route B - PR-led discovery:
+              PR Campaign -> Media/Creator/Community Coverage -> Consumer Interest -> Brand Search/Website Visit -> Consumer Action
+            For both routes, you must identify:
+            - Consumer touchpoints.
+            - Relevant brand content.
+            - What the consumer is expected to do next.
+            - How the journey supports the marketing objective.
+          expected_output: "One integrated journey diagram showing how SEO and Digital PR complement each other."
+          aim_note: |
+            The aim is not to force every PR activity into an SEO tactic, but to
+            demonstrate how the two approaches contribute to discoverability.
+
+        - number: 12
+          title: "Measurement & Key Recommendations"
+          source_pages: [10]
+          instructions: |
+            Develop a basic measurement framework for the proposed SEO and Digital PR
+            strategy. Choose six relevant KPIs across both areas.
+          measurement_table:
+            columns: ["Area", "Possible metrics"]
+            rows:
+              - area: "Search visibility"
+                possible_metrics: "Search impressions, organic clicks, organic CTR"
+              - area: "Website discovery"
+                possible_metrics: "Organic sessions, visits to priority pages"
+              - area: "Content engagement"
+                possible_metrics: "Engaged sessions, relevant content interactions"
+              - area: "Digital PR"
+                possible_metrics: "Relevant media coverage, brand mentions"
+              - area: "Conversation"
+                possible_metrics: "Shares, comments, campaign participation"
+              - area: "Business impact"
+                possible_metrics: "Enquiries, sign-ups, product-page visits or purchases"
+          metric_explanation_requirements: |
+            For each metric, explain:
+            - What does it measure?
+            - Why does it matter?
+            - Which objective / objectives does it support?
+          final_strategic_recommendations:
+            instructions: |
+              Summarise:
+              - Three SEO priorities and three Digital PR priorities for the brand.
+              - End with a one- or two-sentence strategic conclusion answering:
+                How will this combined approach help your brand become more discoverable
+                and credible to its target consumers?
+            expected_output: "A relevant KPI framework and six strategic priorities."
+
+  DO:
+    - "Use the same brand from Assignments 1 and 2."
+    - "Base keywords on realistic consumer searches."
+    - "Justify keyword priorities and media selections."
+    - "Create an original, PR-worthy campaign."
+    - "Show how SEO and Digital PR support one another."
+    - "Reference research and external information."
+
+  "DON'T":
+    - "Invent keyword volumes, consumer research or campaign results."
+    - "Select keywords only because they are popular."
+    - "Copy campaigns discussed in class."
+    - "Confuse Digital PR with paid advertising."
+    - "Choose publications simply because they are famous."
+    - "Create attractive campaign visuals without a strong underlying idea."
