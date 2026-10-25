@@ -1,0 +1,226 @@
+[
+  {
+    "id": "REQ-001",
+    "must_level": "must",
+    "text": "Slide 1: three consumer search triggers/situations",
+    "anchor": "Part 3 Slide 1",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-002",
+    "must_level": "must",
+    "text": "Slide 2: 8-10 queries with intent, need, journey stage",
+    "anchor": "Part 3 Slide 2 (10 rows)",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-003",
+    "must_level": "must",
+    "text": "Slide 3: 10-15 keywords, mixed types/intents",
+    "anchor": "Part 3 Slide 3 (12 rows)",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-004",
+    "must_level": "must",
+    "text": "Slide 3: five highest-priority keywords explained",
+    "anchor": "Part 3 Slide 3 (top-5 block)",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-005",
+    "must_level": "must",
+    "text": "Slide 4: >=5 keyword-to-page mappings with rationale",
+    "anchor": "Part 3 Slide 4 (6 groups)",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-006",
+    "must_level": "must",
+    "text": "Slide 4: two blog recommendations with title/keywords/intent/question/relevance",
+    "anchor": "Part 3 Slide 4 (two blogs)",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-007",
+    "must_level": "must",
+    "text": "Slide 5: >=2 actions per SEO pillar with what/why/how",
+    "anchor": "Part 3 Slide 5 (6 actions)",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-008",
+    "must_level": "must",
+    "text": "Slide 6: PR objective, audience, insight, brand connection, desired outcome",
+    "anchor": "Part 3 Slide 6",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-009",
+    "must_level": "must",
+    "text": "Slide 7: one original PR concept with name/insight/idea/message/relevance/news value/share motive",
+    "anchor": "Part 3 Slide 7",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-010",
+    "must_level": "must",
+    "text": "Slide 7: >=2 PR-worthiness qualities demonstrated",
+    "anchor": "Part 3 Slide 7 (four named)",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-011",
+    "must_level": "must",
+    "text": "Slide 8: activities, Pre-Launch/Launch/Amplification timeline, participation, touchpoints",
+    "anchor": "Part 3 Slide 8",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-012",
+    "must_level": "must",
+    "text": "Slide 8: >=2 sample creative assets",
+    "anchor": "Part 3 Slide 8 (two assets, copy)",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-013",
+    "must_level": "must",
+    "text": "Slide 9: >=3 real media outlets with who/why/angle",
+    "anchor": "Part 3 Slide 9 (4 outlets)",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-014",
+    "must_level": "must",
+    "text": "Slide 9: >=2 real creators/experts/communities",
+    "anchor": "Part 3 Slide 9 (2 creators + 1 community)",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-015",
+    "must_level": "must",
+    "text": "Slide 9: one media pitch of ~100-150 words",
+    "anchor": "Part 3 Slide 9 (123 words)",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-016",
+    "must_level": "must",
+    "text": "Slide 10: earned/owned/shared amplification and how they support each other",
+    "anchor": "Part 3 Slide 10",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-017",
+    "must_level": "must",
+    "text": "Slide 11: two discovery routes with touchpoints/content/next action/objective",
+    "anchor": "Part 3 Slide 11",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-018",
+    "must_level": "must",
+    "text": "Slide 12: six KPIs with what/why/objective",
+    "anchor": "Part 3 Slide 12 (6 rows)",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-019",
+    "must_level": "must",
+    "text": "Slide 12: 3 SEO + 3 PR priorities and 1-2 sentence strategic conclusion",
+    "anchor": "Part 3 Slide 12",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-020",
+    "must_level": "must",
+    "text": "Continuation: entire Assignment 1 and 2 in flow",
+    "anchor": "Parts 1-2 restated in full",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-021",
+    "must_level": "must",
+    "text": "Same brand as Assignments 1-2 (Off Hours)",
+    "anchor": "all parts",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-022",
+    "must_level": "must_not",
+    "text": "No invented keyword volumes, consumer research or campaign results",
+    "anchor": "checked: all figures are A1/A2 stated targets or labelled planning assumptions",
+    "coverage_status": "SATISFIED_BY_ABSENCE",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-023",
+    "must_level": "must_not",
+    "text": "No copying class case studies (IKEA/Swiggy/CRED/Burger King)",
+    "anchor": "checked: concept original (participatory archive)",
+    "coverage_status": "SATISFIED_BY_ABSENCE",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-024",
+    "must_level": "must_not",
+    "text": "Digital PR not confused with paid advertising",
+    "anchor": "paid limited to retargeting amplification (A1 rule carried)",
+    "coverage_status": "SATISFIED_BY_ABSENCE",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-025",
+    "must_level": "must_not",
+    "text": "No publications chosen for fame; real names only",
+    "anchor": "outlets verified real and relevance-justified",
+    "coverage_status": "SATISFIED_BY_ABSENCE",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-026",
+    "must_level": "should",
+    "text": "Feedback: warmer 'landing better' explanation + post-launch pillars carried forward",
+    "anchor": "A2 revised slides 2/7/12 restated in Part 2",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-027",
+    "must_level": "should",
+    "text": "Feedback: business numbers improved (A1)",
+    "anchor": "A1 revised slide 11 in Part 1",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  },
+  {
+    "id": "REQ-028",
+    "must_level": "may",
+    "text": "Word document format only; no PDF/PPTX produced",
+    "anchor": "three .docx only",
+    "coverage_status": "COVERED",
+    "terminal_state": "TERMINAL_SATISFIED"
+  }
+]
