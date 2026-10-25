@@ -1,0 +1,110 @@
+{
+ "assumption_ranking": [
+  {
+   "rank": 1,
+   "id": "AX-003",
+   "reason": "convention is corroborated by the chart's own marker definitions (飞干格/伏干格 explicitly reference the day stem)"
+  },
+  {
+   "rank": 2,
+   "id": "AX-002",
+   "reason": "phase rows are explicit; only the calendar/schedule mapping is inferred"
+  },
+  {
+   "rank": 3,
+   "id": "AX-001",
+   "reason": "both ends of the mapping (gate symbolism, marketing metrics) are outside explicit chart content"
+  }
+ ],
+ "invalid_chains": [],
+ "deferred_topics": [
+  {
+   "topic": "health/medical readings of 天芮 or phase rows 病/死",
+   "reason": "law 23 — no medical condition may be inferred; not decision-relevant to Q1-Q7"
+  },
+  {
+   "topic": "litigation readings of 凶蛇入狱 / 太白擒蛇 / 地刑玄武",
+   "reason": "used only symbolically for exposure/entanglement risk; legal outcomes out of scope"
+  },
+  {
+   "topic": "marriage/romance readings of 沐浴(桃花) in P7 and '夫妻' clauses in formation texts",
+   "reason": "not decision-relevant to the case context; kept visible in registry, deferred in claims"
+  }
+ ],
+ "blocked_classes": [],
+ "conflict_register": [
+  {
+   "claim": "C005",
+   "row_id": "UNK-001",
+   "class": "UNK",
+   "row_tag": "DECOMPOSED",
+   "relation": "DOES_NOT_RESOLVE",
+   "action": "none — campaign shape is described without naming or inventing the brand",
+   "tag": "NO_CONFLICT"
+  },
+  {
+   "claim": "C012",
+   "row_id": "UNK-002",
+   "class": "UNK",
+   "row_tag": "DECLARED",
+   "relation": "DOES_NOT_RESOLVE",
+   "action": "none — timing rows are tradition-conditional; no volumes or results asserted",
+   "tag": "NO_CONFLICT"
+  },
+  {
+   "claim": "C013",
+   "row_id": "UNK-002",
+   "class": "UNK",
+   "row_tag": "DECLARED",
+   "relation": "DOES_NOT_RESOLVE",
+   "action": "none — KPI frame supplies categories, not numbers",
+   "tag": "NO_CONFLICT"
+  },
+  {
+   "claim": "C008",
+   "row_id": "UNK-003",
+   "class": "UNK",
+   "row_tag": "DECLARED",
+   "relation": "DOES_NOT_RESOLVE",
+   "action": "none — outreach guidance does not predict which outlet accepts",
+   "tag": "NO_CONFLICT"
+  },
+  {
+   "claim": "C009",
+   "row_id": "UNK-003",
+   "class": "UNK",
+   "row_tag": "DECLARED",
+   "relation": "DOES_NOT_RESOLVE",
+   "action": "none — asset guidance, not pickup prediction",
+   "tag": "NO_CONFLICT"
+  },
+  {
+   "claim": "C007",
+   "row_id": "CONK-007",
+   "class": "CONK",
+   "row_tag": "DECLARED",
+   "relation": "ALIGNS",
+   "action": "none — authenticity guard matches the permitted free-source toolset",
+   "tag": "NO_CONFLICT"
+  },
+  {
+   "claim": "C013",
+   "row_id": "CONK-006",
+   "class": "CONK",
+   "row_tag": "DECLARED",
+   "relation": "ALIGNS",
+   "action": "none — frame yields exactly the six-KPI structure required",
+   "tag": "NO_CONFLICT"
+  },
+  {
+   "claim": "C005",
+   "row_id": "CONK-005",
+   "class": "CONK",
+   "row_tag": "DECLARED",
+   "relation": "ALIGNS",
+   "action": "none — cooperative/participation concept can satisfy DATA-LED + CULTURAL + HUMAN qualities",
+   "tag": "NO_CONFLICT"
+  }
+ ],
+ "scoring_note": "CAP-15 certainty = 0.50 + 0.05*(auspicious pattern tally) - 0.05*(restrictive pattern tally) over the patterns whose explicit evidence intersects each claim's cited E-atom set, clamped to [0.30, 0.90]. Consequence to read with care: warning-type claims (e.g. C002 force-penalty, C004 interlock, C006 stealth) cite predominantly restrictive formations, so a low net-balance certainty reflects the harshness of the cited environment, NOT weak evidence — every citation in those claims is an explicit chart field or marker. SCORE_SOURCE=TOOL_TIER2."
+}

@@ -1,0 +1,1214 @@
+{
+  "archetype_note": "No archetype_scoring_rubric was ported into the charter annexes (A-archetypes empty). Per Tier2 step 3 the run is structure-only: no archetype labels are issued and every live verdict records 'no competing candidate found' in an available rubric.",
+  "I_atoms": [
+    {
+      "statement": "The querent's day stem 壬 (R028, DAYSTEM_POS) sits on the heaven plate of Palace 6 together with the chart's presiding deity 值符, the star 天辅 (a literature/education star, and the declared zhi_fu: E008/R030) and the door 景门 (visibility/brilliance gate).",
+      "evidence_refs": [
+        "P6.hstem",
+        "P6.deity",
+        "P6.star",
+        "P6.door",
+        "R028",
+        "R030",
+        "E008"
+      ],
+      "rule": "day-stem-as-querent; zhi_fu binding via R030",
+      "direction": "backward",
+      "uncertainty": "low — all members are explicit chart fields",
+      "authority": "chart_explicit"
+    },
+    {
+      "statement": "Palace 6 simultaneously carries three explicit restrictive markers: 门迫宫 (door controls palace: effort invites environmental pushback), 门入墓 (fire door entombed in Qian-6: action obstructed) and 伏干格 (day stem flying onto 庚: blind self-initiated attack rebounds).",
+      "evidence_refs": [
+        "P6.i6",
+        "P6.i7",
+        "P6.i8"
+      ],
+      "rule": "explicit marker register (law 26)",
+      "direction": "backward",
+      "uncertainty": "low — explicit markers, compute-confirmed for 门迫宫/门入墓",
+      "authority": "chart_explicit"
+    },
+    {
+      "statement": "The hour stem 庚 (the matter asked about, R029) occupies Palace 4 on the heaven plate with 休门 (rest gate) and 白虎 (white tiger), under explicit 飞干格 (heaven 庚 covering the day-stem seat: active attack meets frustration) and 太白退位 (壬 drains 庚: affairs take detours, change of place); the door nonetheless generates the palace (门生宫) — effort invested harmoniously returns value.",
+      "evidence_refs": [
+        "P4.hstem",
+        "P4.door",
+        "P4.deity",
+        "P4.i4",
+        "P4.i6",
+        "P4.i8",
+        "R029"
+      ],
+      "rule": "hour-stem-as-matter; explicit markers",
+      "direction": "forward",
+      "uncertainty": "low — explicit fields and markers",
+      "authority": "chart_explicit"
+    },
+    {
+      "statement": "Day stem 壬 and hour stem 庚 exchange seats: 壬@heaven-P6 over 庚@earth-P6, 庚@heaven-P4 over 壬@earth-P4 (R010, R018 STEM_MATCH traces). Querent and matter mutually overlay and mutually drain/control.",
+      "evidence_refs": [
+        "R010",
+        "R018",
+        "P6.hstem",
+        "P4.hstem",
+        "P6.estem",
+        "P4.estem"
+      ],
+      "rule": "CAP-09 value trace (law 11)",
+      "direction": "backward",
+      "uncertainty": "low — deterministic value matches",
+      "authority": "chart_explicit"
+    },
+    {
+      "statement": "Palace 9 (Li, South, fire — the visibility/fame sector) carries the chart's densest auspicious cluster: 生门 (life gate) with 宫生门 (environment feeds the action: 'great fortune'), 六合 (partnership deity), 丙 at 帝旺 and earth 乙 at 长生, plus explicit 三奇升殿, 奇游禄位, 日月并行 ('especially favours cooperative affairs') and 青龙合会 ('partnership benefactors').",
+      "evidence_refs": [
+        "P9.door",
+        "P9.deity",
+        "P9.i1",
+        "P9.i2",
+        "P9.i4",
+        "P9.i5",
+        "P9.i6",
+        "P9.i7",
+        "P9.i8"
+      ],
+      "rule": "explicit pattern register; Luoshu identity (CAP-08)",
+      "direction": "forward",
+      "uncertainty": "low for markers; the 奇游禄位 binding (丁禄在午) is explicit in source but its stem anchor in P9 is 丙/乙/戊 — recorded as EXPLICIT_ONLY, no re-derivation",
+      "authority": "chart_explicit"
+    },
+    {
+      "statement": "The zhi_shi (execution channel) 杜门 (obstruction gate) falls in Palace 7 with 腾蛇 (entanglement), under 宫迫门 (environment suppresses the action) and the explicit pair 癸加己 华盖地户: 'benefits cultivation, concealment and quiet planning; unfavourable for open-front affairs'; the hidden pair 壬加己 凶蛇入狱 adds 'do not act rashly'.",
+      "evidence_refs": [
+        "P7.door",
+        "P7.deity",
+        "P7.i4",
+        "P7.i5",
+        "P7.i6",
+        "R031",
+        "E009"
+      ],
+      "rule": "zhi_shi binding via R031; explicit markers",
+      "direction": "forward",
+      "uncertainty": "low — explicit fields",
+      "authority": "chart_explicit"
+    },
+    {
+      "statement": "Palace 3 (Zhen, East — initiation) holds 开门 (open gate: openings, discovery) with earth 癸 at 长生 (fresh vitality), but the deity is 玄武 (covert/deceptive) and the explicit pair 己加癸 地刑玄武 states 'schemes and deception are exposed'; the hidden pair 庚加癸 太白冲刑 states 'force against force reaps its own harm; big matters unfit'.",
+      "evidence_refs": [
+        "P3.door",
+        "P3.deity",
+        "P3.i2",
+        "P3.i4",
+        "P3.i5"
+      ],
+      "rule": "explicit pattern register",
+      "direction": "forward",
+      "uncertainty": "low",
+      "authority": "chart_explicit"
+    },
+    {
+      "statement": "Palace 1 (Kan, North) holds 九天 (high-flying, far-reaching deity) with the explicit pair 乙加丙 奇仪顺遂: 'wood and fire bright; benefactor support; benefits documents and calling on notables (利文书谒贵)' and hidden 丁加丙 星随月转: 'benefit follows attaching to a noble patron'; the door is 死门 (stagnant/old) under 门迫宫.",
+      "evidence_refs": [
+        "P1.deity",
+        "P1.i4",
+        "P1.i5",
+        "P1.door",
+        "P1.i6"
+      ],
+      "rule": "explicit pattern register",
+      "direction": "forward",
+      "uncertainty": "low",
+      "authority": "chart_explicit"
+    },
+    {
+      "statement": "Palace 8 (Gen, NE) pairs the auspicious document formation 丁加戊 青龙耀明 ('officials promoted; benefactors give money and effort' — echoed by hidden 己加戊 犬遇青龙) and 宫生门 with three explicit blockages: 丁奇入墓 ('documents and information obstructed, messages do not get through'), 门入墓 (metal door entombed in Gen-8) and 惊门 (alarm gate) under deity 九地 (low, slow, grounded).",
+      "evidence_refs": [
+        "P8.i5",
+        "P8.i7",
+        "P8.i8",
+        "P8.i9",
+        "P8.i10",
+        "P8.door",
+        "P8.deity"
+      ],
+      "rule": "explicit pattern register; tomb rules compute-confirmed",
+      "direction": "forward",
+      "uncertainty": "low",
+      "authority": "chart_explicit"
+    },
+    {
+      "statement": "The centre Palace 5 carries exactly one explicit formation: hidden 辛加辛 伏吟天庭 — 'official documents pile up/duplicate; affairs unfavourable'. The centre stem 辛 lodges in Palace 8 (R034, explicit 寄辛/寄宫干 rows in gen_8), so the duplication theme lands on the same palace that already shows document blockage.",
+      "evidence_refs": [
+        "P5.i1",
+        "R034",
+        "P8.lodged"
+      ],
+      "rule": "law 10 lodging graph; explicit formation",
+      "direction": "backward",
+      "uncertainty": "low",
+      "authority": "chart_explicit"
+    },
+    {
+      "statement": "Palace 2 (Kun, SW — the mass/audience sector) holds 太阴 (hidden, private, yin deity) with the auspicious pair 戊加丁 青龙耀明 ('wealth and documents, bright prospects') but under 伤门 (harm gate), 门迫宫, 门入墓, and hidden 癸加丁 螣蛇夭矫 ('entanglements, quarrels, partnerships easily dissolve').",
+      "evidence_refs": [
+        "P2.deity",
+        "P2.i4",
+        "P2.door",
+        "P2.i5",
+        "P2.i6",
+        "P2.i7"
+      ],
+      "rule": "explicit pattern register",
+      "direction": "forward",
+      "uncertainty": "low",
+      "authority": "chart_explicit"
+    },
+    {
+      "statement": "Twelve-phase timing rows: 壬 at 冠带(于戌)/临官(于亥) in P6 — the querent's stem matures through the 戌-亥 window; 癸 at 长生(于卯) in P3; 丙/戊 at 帝旺(于午) in P9; 戊 at 长生(于寅) in P8. The chart is cast at solar term 霜降 中元, day 壬申, hour 庚戌.",
+      "evidence_refs": [
+        "P6.i1",
+        "P3.i2",
+        "P9.i1",
+        "P9.i3",
+        "P8.i3",
+        "E010",
+        "E006",
+        "E007"
+      ],
+      "rule": "explicit phase rows (CAP-07 typed)",
+      "direction": "forward",
+      "uncertainty": "medium — branch-to-calendar mapping is tradition-conditional, not a chart-explicit calendar claim",
+      "authority": "assumption_indexed",
+      "assumption_index": "AX-002"
+    },
+    {
+      "statement": "Symbolic measurement correspondence (assumption-indexed, tier 4): 景门↔visibility/impressions, 开门↔discovery/sessions, 生门↔growth/conversions, 六合↔mentions/partnerships/shares, 杜门↔blocked or gated paths (indexation/coverage), 惊门↔sentiment spikes, 天芮↔defects/errors. No chart field states these mappings; they are labelled inference on gate symbolism.",
+      "evidence_refs": [
+        "P6.door",
+        "P3.door",
+        "P9.door",
+        "P9.deity",
+        "P7.door",
+        "P8.door",
+        "P8.star"
+      ],
+      "rule": "symbolic correspondence only (laws 22-24); assumption-indexed",
+      "direction": "forward",
+      "uncertainty": "high — interpretive tradition mapping, not explicit chart content",
+      "authority": "assumption_indexed",
+      "assumption_index": "AX-001"
+    }
+  ],
+  "claims": [
+    {
+      "title": "Querent sits in the authority seat of a documents-and-visibility undertaking",
+      "batch": "B3",
+      "I_refs": [
+        "I001"
+      ],
+      "disposition": "LIVE",
+      "guidance": "The chart seats the querent (day stem 壬) with 值符, the education star 天辅 and the visibility gate 景门 in Palace 6: this assignment is read as fundamentally a credibility-and-visibility document task, and the querent is well-placed to author it. Tradition-conditional reading, not a factual prediction.",
+      "rank_status": "bounded",
+      "claim_rank_reason": "bounded by I002's three restrictive markers in the same palace"
+    },
+    {
+      "title": "The authority seat is force-penalised: no blunt pushing",
+      "batch": "B3",
+      "I_refs": [
+        "I002"
+      ],
+      "disposition": "LIVE",
+      "guidance": "Palace 6's explicit 门迫宫 + 门入墓 + 伏干格 read as: effort that pushes against the environment backfires and blind self-initiated attack rebounds. In assignment terms: the deck should persuade through structure and usefulness, not through loud claims or over-optimisation tricks.",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "all three markers explicit; two compute-confirmed"
+    },
+    {
+      "title": "The matter itself (hour stem 庚) favours indirect, paced, iterative execution",
+      "batch": "B3",
+      "I_refs": [
+        "I003"
+      ],
+      "disposition": "LIVE",
+      "guidance": "庚 under 飞干格 with 太白退位 ('detours, change of place') but 门生宫 ('effort invested returns value'): the campaign/strategy should be built in passes — pilot, reposition, iterate — not launched as one frontal push. Direct aggressive action is the explicitly penalised path.",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "explicit markers; 门生宫 compute-confirmed"
+    },
+    {
+      "title": "Querent and matter interlock: SEO and PR must be sequenced as one system",
+      "batch": "B3",
+      "I_refs": [
+        "I004"
+      ],
+      "disposition": "LIVE",
+      "guidance": "The 壬/庚 seat-exchange (R010, R018) reads as querent and task mutually overlaying: the two halves of the assignment (search discoverability, earned media) are interlocked and drain each other if forced in parallel. Integration slide (Q7) should show one loop with sequenced handoffs, not two simultaneous blasts.",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "deterministic value-trace evidence"
+    },
+    {
+      "title": "Palace 9 is the strategic engine: cooperative, visible, life-gating campaign core",
+      "batch": "B4",
+      "I_refs": [
+        "I005"
+      ],
+      "disposition": "LIVE",
+      "guidance": "The densest auspicious cluster (生门+宫生门, 六合, 帝旺/长生, 三奇升殿, 奇游禄位, 日月并行 'favours cooperative affairs', 青龙合会 'partnership benefactors') sits in Li-9, the south/visibility sector. The chart's strongest recommendation is a co-creation/partnership-shaped campaign built for public visibility — the Big PR Idea (slide 7) should be participation-led, not a solo brand announcement.",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "eight explicit auspicious formations in one palace; highest support tally in chart"
+    },
+    {
+      "title": "The execution channel is obstruction-gated: stealth build, long-tail first, no noisy confrontation",
+      "batch": "B4",
+      "I_refs": [
+        "I006"
+      ],
+      "disposition": "LIVE",
+      "guidance": "Zhi_shi 杜门 in P7 with 华盖地户 ('quiet planning benefits; open-front affairs unfavourable') and 凶蛇入狱 ('do not act rashly'): pre-launch should be a quiet, gated build — long-tail/niche keyword targeting, seeded community work, embargoed pitching — with the loud moment reserved for the P9 engine, not the P7 channel.",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "zhi_shi binding explicit (R031); formations explicit"
+    },
+    {
+      "title": "Discovery door is open but deception-guarded: evidence-based authenticity is enforced",
+      "batch": "B4",
+      "I_refs": [
+        "I007"
+      ],
+      "disposition": "LIVE",
+      "guidance": "开门 with 癸 at 长生 is a genuine opening for discovery (Q1-Q3), but 玄武 + 地刑玄武 ('deception exposed') + hidden 太白冲刑 ('force against force reaps harm') read as: invented data, copied campaigns or aggressive head-to-head positioning get exposed and backfire. This independently mirrors the assignment's DON'T list; the chart supports an evidence-led, original positioning.",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "explicit formations"
+    },
+    {
+      "title": "Outreach to editors/experts with documents is favoured, via high-reach but slow channels",
+      "batch": "B4",
+      "I_refs": [
+        "I008"
+      ],
+      "disposition": "LIVE",
+      "guidance": "九天 ('high, far-reaching') with 奇仪顺遂 '利文书谒贵' (benefits documents and calling on notables) and 星随月转 ('attaching to a patron advances') supports the media-pitch slide: lead with a document/research asset and attach to established voices. 死门 + 门迫宫 temper it: expect slow, cold-start responses; pitch patiently and revive dormant contacts rather than expecting instant pickup.",
+      "rank_status": "bounded",
+      "claim_rank_reason": "auspicious document formations bounded by 死门/门迫宫 in the same palace"
+    },
+    {
+      "title": "Data/report-shaped PR asset is auspicious in substance but distribution-gated",
+      "batch": "B4",
+      "I_refs": [
+        "I009"
+      ],
+      "disposition": "LIVE",
+      "guidance": "P8's 青龙耀明 + 犬遇青龙 ('benefactors give money and effort') + 宫生门 favour a substantial data/report asset, but 丁奇入墓 ('messages do not get through'), 门入墓 and 惊门 under slow 九地 say its distribution is currently gated: publish through grounded, low-posture channels, pre-verify that information routes (site, press kit, indexation) are unblocked, and avoid controversy-bait (惊门).",
+      "rank_status": "bounded",
+      "claim_rank_reason": "strong auspicious core bounded by three explicit blockage markers"
+    },
+    {
+      "title": "Documents pile up at the centre: consolidate, deduplicate, unify the message",
+      "batch": "B4",
+      "I_refs": [
+        "I010"
+      ],
+      "disposition": "LIVE",
+      "guidance": "伏吟天庭 ('official documents duplicate; unfavourable'), lodged into P8 (R034), reads as a consolidation directive: deduplicate the keyword list, avoid overlapping page targets in the mapping, and keep one unified message hierarchy across SEO and PR deliverables. Proliferation of near-identical content/assets is the chart-marked failure mode.",
+      "rank_status": "confirmed",
+      "claim_rank_reason": "explicit formation + explicit lodging evidence"
+    },
+    {
+      "title": "Audience-insight work is favoured in private; competitive aggression and loose partnerships are penalised",
+      "batch": "B4",
+      "I_refs": [
+        "I011"
+      ],
+      "disposition": "LIVE",
+      "guidance": "P2 (Kun — the mass/public sector) holds 太阴 (private/hidden) with 青龙耀明 (bright documents/wealth prospects): consumer-insight and community listening done privately is favoured. 伤门 + 门迫宫 + 门入墓 penalise harm-shaped competitive attacks (dis comparative campaigns), and hidden 螣蛇夭矫 ('partnerships dissolve, quarrels') says creator/partner agreements must be explicit and formalised.",
+      "rank_status": "bounded",
+      "claim_rank_reason": "auspicious 太阴/青龙耀明 core bounded by 伤门 and tomb/force markers"
+    },
+    {
+      "title": "Timing (tradition-conditional): querent's document work matures through 戌-亥; visibility peaks at 午; openings sprout at 卯",
+      "batch": "B5",
+      "I_refs": [
+        "I012"
+      ],
+      "disposition": "LIVE",
+      "guidance": "Phase rows place 壬 at 冠带/临官 through 戌-亥 (the cast hour is 庚戌 — the querent is inside the maturing window now), 癸 长生 at 卯 (openings/initiation), 丙/戊 帝旺 at 午 (peak visibility, Li-9). As tradition-conditional guidance: do the document/authority work now, seed openings in an 卯 window, and schedule the campaign's peak-visibility moment toward a 午 window. This is symbolic timing, not a factual prediction.",
+      "rank_status": "bounded",
+      "claim_rank_reason": "assumption-indexed (AX-002): branch-to-schedule mapping is interpretive"
+    },
+    {
+      "title": "Measurement framework maps symbolically onto the chart's gates and deities",
+      "batch": "B5",
+      "I_refs": [
+        "I013"
+      ],
+      "disposition": "LIVE",
+      "guidance": "Assumption-indexed symbolic mapping for the KPI slide: 景门→impressions/visibility, 开门→organic discovery/sessions, 生门→conversions/growth, 六合→mentions/shares/partnerships, 杜门→gated paths (indexation/coverage gaps), 惊门→sentiment spikes, 天芮→defect/error monitoring. Use as a framing device for the six KPIs; the numbers themselves must come from real tools, never invented (UNK-002).",
+      "rank_status": "bounded",
+      "claim_rank_reason": "tier-4 assumption-indexed inference; explicitly labelled"
+    }
+  ],
+  "cmap": [
+    {
+      "claim": "C001",
+      "q": "Q5",
+      "tag": "INDIRECT",
+      "chart_citations": [
+        "P6.star",
+        "P6.door"
+      ]
+    },
+    {
+      "claim": "C001",
+      "q": "Q3",
+      "tag": "INDIRECT",
+      "chart_citations": [
+        "P6.door"
+      ]
+    },
+    {
+      "claim": "C002",
+      "q": "Q4",
+      "tag": "INDIRECT",
+      "chart_citations": [
+        "P6.i6",
+        "P6.i7",
+        "P6.i8"
+      ]
+    },
+    {
+      "claim": "C003",
+      "q": "Q6",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P4.i4",
+        "P4.i6",
+        "P4.i8"
+      ]
+    },
+    {
+      "claim": "C003",
+      "q": "Q4",
+      "tag": "INDIRECT",
+      "chart_citations": [
+        "P4.i6"
+      ]
+    },
+    {
+      "claim": "C004",
+      "q": "Q7",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "R010",
+        "R018"
+      ]
+    },
+    {
+      "claim": "C005",
+      "q": "Q6",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P9.door",
+        "P9.deity",
+        "P9.i4",
+        "P9.i6"
+      ]
+    },
+    {
+      "claim": "C005",
+      "q": "Q5",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P9.deity",
+        "P9.i6"
+      ]
+    },
+    {
+      "claim": "C005",
+      "q": "Q7",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P9.i7",
+        "P9.i8"
+      ]
+    },
+    {
+      "claim": "C006",
+      "q": "Q2",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P7.door",
+        "P7.i4"
+      ]
+    },
+    {
+      "claim": "C006",
+      "q": "Q6",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P7.i4",
+        "P7.i5"
+      ]
+    },
+    {
+      "claim": "C007",
+      "q": "Q1",
+      "tag": "INDIRECT",
+      "chart_citations": [
+        "P3.door",
+        "P3.i2"
+      ]
+    },
+    {
+      "claim": "C007",
+      "q": "Q2",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P3.i4",
+        "P3.i5"
+      ]
+    },
+    {
+      "claim": "C007",
+      "q": "Q3",
+      "tag": "INDIRECT",
+      "chart_citations": [
+        "P3.i4"
+      ]
+    },
+    {
+      "claim": "C008",
+      "q": "Q6",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P1.i4",
+        "P1.i5",
+        "P1.deity"
+      ]
+    },
+    {
+      "claim": "C009",
+      "q": "Q6",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P8.i5",
+        "P8.i9"
+      ]
+    },
+    {
+      "claim": "C009",
+      "q": "Q4",
+      "tag": "INDIRECT",
+      "chart_citations": [
+        "P8.i5"
+      ]
+    },
+    {
+      "claim": "C010",
+      "q": "Q2",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P5.i1"
+      ]
+    },
+    {
+      "claim": "C010",
+      "q": "Q3",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P5.i1",
+        "R034"
+      ]
+    },
+    {
+      "claim": "C011",
+      "q": "Q1",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P2.deity",
+        "P2.i4"
+      ]
+    },
+    {
+      "claim": "C011",
+      "q": "Q5",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P2.deity",
+        "P2.door",
+        "P2.i5"
+      ]
+    },
+    {
+      "claim": "C011",
+      "q": "Q6",
+      "tag": "INDIRECT",
+      "chart_citations": [
+        "P2.i5"
+      ]
+    },
+    {
+      "claim": "C012",
+      "q": "Q6",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P6.i1",
+        "P3.i2",
+        "P9.i1"
+      ]
+    },
+    {
+      "claim": "C012",
+      "q": "Q7",
+      "tag": "INDIRECT",
+      "chart_citations": [
+        "P9.i1"
+      ]
+    },
+    {
+      "claim": "C013",
+      "q": "Q7",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P6.door",
+        "P3.door",
+        "P9.door"
+      ]
+    },
+    {
+      "claim": "C013",
+      "q": "Q4",
+      "tag": "DIRECT",
+      "chart_citations": [
+        "P7.door",
+        "P8.star"
+      ]
+    }
+  ],
+  "proposals": [
+    {
+      "from": "C005",
+      "direction": "forward",
+      "rule": "LIUHE_SHENGMEN_COOPERATION",
+      "status": "ok",
+      "note": "If the P9 cooperative engine holds, then the Big Idea should be participation/co-creation shaped and the amplification slide should route through partners (六合) rather than brand-only channels."
+    },
+    {
+      "from": "C006",
+      "direction": "backward",
+      "rule": "ZHISHI_DUMEN_GATE",
+      "status": "ok",
+      "note": "Root constraint: the execution channel is obstruction-gated, therefore pre-launch activity must be quiet/gated (long-tail seeding, embargoed pitch) and the loud moment is delegated to the P9 engine."
+    },
+    {
+      "from": "C010",
+      "direction": "backward",
+      "rule": "CENTRE_LODGING_CONSOLIDATION",
+      "status": "ok",
+      "note": "Root constraint: centre duplication lodges into the document palace, therefore keyword lists, page targets and message hierarchy must be deduplicated before amplification."
+    },
+    {
+      "from": "C007",
+      "direction": "forward",
+      "rule": "XUANWU_EXPOSURE_GUARD",
+      "status": "ok",
+      "note": "If deception is exposed at the discovery door, then every published number must be traceable to a free real source (Google Trends, autocomplete, related searches) — which is exactly CONK-007's permitted toolset."
+    }
+  ],
+  "red_team": [
+    {
+      "a": "A004",
+      "c": "C005",
+      "kind": "rebut",
+      "status": "rebutted",
+      "argument": "Counter-scenario: a loud confrontational stunt could seize the Li-9 visibility without partnership work. Rebutted by the chart: the execution channel (zhi_shi) is 杜门 under 宫迫门 with 凶蛇入狱 ('do not act rashly'), P4 penalises frontal attack (飞干格), and P9's own 帝旺 rows warn 'extremes reverse' — an unpartnered spike is the explicitly gated path.",
+      "evidence_refs": [
+        "P7.i5",
+        "P7.i6",
+        "P4.i8",
+        "P9.i1"
+      ]
+    },
+    {
+      "a": "A003",
+      "c": "C005",
+      "kind": "support",
+      "status": "live",
+      "argument": "The stealth long-tail route (华盖地户: quiet planning benefits) is the same directive read from the execution channel; it supports rather than competes with the P9 engine — quiet build, then cooperative visible launch.",
+      "evidence_refs": [
+        "P7.i4"
+      ]
+    },
+    {
+      "a": "A002",
+      "c": "C009",
+      "kind": "alternative",
+      "status": "live",
+      "argument": "Alternative reading: 丁奇入墓 could mean 'abandon the data-report asset'. Rejected as over-reading — the same palace carries 青龙耀明 + 宫生门 + 犬遇青龙 (substance is auspicious); the tomb markers gate distribution, not worth. Bounded publication (slow 九地 channels, pre-unblocked routes) is the reconciling reading.",
+      "evidence_refs": [
+        "P8.i5",
+        "P8.i7",
+        "P8.i8",
+        "P8.i9"
+      ]
+    },
+    {
+      "a": "A001",
+      "c": "C008",
+      "kind": "support",
+      "status": "live",
+      "argument": "Attaching to established patrons (星随月转) is the cooperative P9 engine expressed at the outreach layer: pitch documents to editors/experts who already hold the audience.",
+      "evidence_refs": [
+        "P1.i5",
+        "P9.deity"
+      ]
+    },
+    {
+      "a": "A004",
+      "c": "C001",
+      "kind": "rebut",
+      "status": "rebutted",
+      "argument": "Counter-reading: 值符+天辅+景门 could be read as guaranteed high marks/visibility. Rebutted by same-palace 门迫宫/门入墓/伏干格 (I002) — the seat is strong but force-penalised; C001 already ranks bounded.",
+      "evidence_refs": [
+        "P6.i6",
+        "P6.i7",
+        "P6.i8"
+      ]
+    }
+  ],
+  "A_atoms": [
+    {
+      "scenario": "Cooperative-visibility campaign: participation-led Big Idea routed through the Li-9 engine (六合+生门+三奇升殿), launched after a quiet gated build",
+      "activation_condition": "chart-derived: P9 carries the densest explicit auspicious cluster and the zhi_shi channel is obstruction-gated — activates when the campaign is partnership-shaped and sequenced quiet-then-visible",
+      "claim_basis": [
+        "C005",
+        "C006",
+        "C003"
+      ],
+      "rank": 1,
+      "evidence_refs": [
+        "P9.door",
+        "P9.deity",
+        "P9.i6",
+        "P9.i7",
+        "P7.i4"
+      ]
+    },
+    {
+      "scenario": "Document-authority campaign: data/research-report PR asset built on 青龙耀明 substance, published through slow grounded channels after de-gating distribution",
+      "activation_condition": "chart-derived: P8 pairs auspicious document formations with explicit tomb/blockage markers — activates when a substantial document asset is paired with distribution fixes and low-posture release",
+      "claim_basis": [
+        "C009",
+        "C008",
+        "C010"
+      ],
+      "rank": 2,
+      "evidence_refs": [
+        "P8.i5",
+        "P8.i9",
+        "P1.i4"
+      ]
+    },
+    {
+      "scenario": "Stealth long-tail route: niche keyword and community seeding under 华盖地户, avoiding open-front confrontation",
+      "activation_condition": "chart-derived: zhi_shi 杜门 with 华盖地户 — activates for the pre-launch phase and for keyword strategy targeting low-competition long-tail",
+      "claim_basis": [
+        "C006",
+        "C007"
+      ],
+      "rank": 3,
+      "evidence_refs": [
+        "P7.i4",
+        "P7.door"
+      ]
+    },
+    {
+      "scenario": "Confrontational-blast route (counter-scenario, chart-penalised): loud solo announcement, aggressive comparative positioning, forced parallel SEO+PR push",
+      "activation_condition": "chart-derived penalty path: 飞干格/伏干格 frontal-attack markers, 伤门 aggression, 地刑玄武 exposure, 太白冲刑 force-reversal — activates failure; retained visible per law 28",
+      "claim_basis": [
+        "C002",
+        "C003",
+        "C007",
+        "C011"
+      ],
+      "rank": 4,
+      "evidence_refs": [
+        "P4.i8",
+        "P6.i8",
+        "P2.door",
+        "P3.i4",
+        "P3.i5"
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "claim_id": "C005",
+      "archetype_id": null,
+      "label": "H1 — Cooperation engine in the visibility sector",
+      "interpretation_basis": "Explicit formations 日月并行 ('favours cooperative affairs'), 青龙合会 ('partnership benefactors'), 生门+宫生门, 六合, 三奇升殿, 奇游禄位, all in Li-9 (south/visibility).",
+      "chart_support": [
+        "P9.door",
+        "P9.deity",
+        "P9.i4",
+        "P9.i5",
+        "P9.i6",
+        "P9.i7",
+        "P9.i8"
+      ],
+      "case_alignment": "Q5 DIRECT, Q6 DIRECT, Q7 DIRECT",
+      "supporting": null,
+      "limiting": null,
+      "counterevidence": [
+        "P9.i1 帝旺 'extremes reverse' caution"
+      ],
+      "decision_guard": "Keep the campaign participation-led; cap hype cycles — the same palace warns that peaks reverse.",
+      "scope": "Big PR Idea (slide 7), PR objective (slide 6), PR-led discovery route (slide 11)",
+      "scenario_condition": "A001 activation condition",
+      "validation_path": "Cross-check against Assignment 1-2 brand/audience material (not in this run's inputs); test concept against the NEW/DIFFERENT/RELEVANT/HUMAN/DATA-LED/CULTURAL/PURPOSEFUL grid (CONK-005).",
+      "rank_status": "confirmed",
+      "uncertainty": "low for markers; medium for marketing-translation layer",
+      "limitations": "Symbolic reading; no archetype rubric available; brand identity is a DECLARED-adjacent unknown (UNK-001) and is not resolved here."
+    },
+    {
+      "claim_id": "C006",
+      "archetype_id": null,
+      "label": "H2 — Gated execution channel: stealth build, then hand off to the engine",
+      "interpretation_basis": "Zhi_shi 杜门 (R031) with 腾蛇, 宫迫门, 华盖地户 ('quiet planning benefits; open-front unfavourable'), 凶蛇入狱 ('no rash action').",
+      "chart_support": [
+        "P7.door",
+        "P7.deity",
+        "P7.i4",
+        "P7.i5",
+        "P7.i6",
+        "R031"
+      ],
+      "case_alignment": "Q2 DIRECT, Q6 DIRECT",
+      "supporting": null,
+      "limiting": null,
+      "counterevidence": [
+        "P7.i2 长生 (癸): vitality exists under the gate — the block is positional, not total"
+      ],
+      "decision_guard": "Do not schedule noisy confrontational launches through owned blasting; route the loud moment via partners and earned coverage.",
+      "scope": "Keyword strategy (slide 3: long-tail, low-competition), execution timeline Pre-Launch (slide 8)",
+      "scenario_condition": "A003 activation condition",
+      "validation_path": "Verify long-tail choices with free autocomplete/related-search evidence (CONK-007), never invented volumes (UNK-002).",
+      "rank_status": "confirmed",
+      "uncertainty": "low",
+      "limitations": "Symbolic reading; the gate describes mode of execution, not guaranteed outcomes."
+    },
+    {
+      "claim_id": "C009",
+      "archetype_id": null,
+      "label": "H3 — Auspicious document asset behind a distribution gate",
+      "interpretation_basis": "P8: 青龙耀明 + 犬遇青龙 + 宫生门 (substance favoured) vs 丁奇入墓 + 门入墓 + 惊门 under 九地 (distribution gated, slow, alarm-prone).",
+      "chart_support": [
+        "P8.i5",
+        "P8.i7",
+        "P8.i8",
+        "P8.i9",
+        "P8.i10",
+        "P8.deity"
+      ],
+      "case_alignment": "Q6 DIRECT, Q4 INDIRECT",
+      "supporting": null,
+      "limiting": null,
+      "counterevidence": [
+        "P8.i6 困龙被伤 (lodged 辛加戊): hidden friction inside the same palace"
+      ],
+      "decision_guard": "Before release, verify information routes (site health, press kit, indexation) — the chart marks messages-not-getting-through as the live risk.",
+      "scope": "Campaign activities: research release / data-led asset (slide 8); off-page SEO (slide 5)",
+      "scenario_condition": "A002 activation condition",
+      "validation_path": "Check the two sample creative assets (CONK-003) include the document/report cover format listed in campaign_creative_formats.",
+      "rank_status": "bounded",
+      "uncertainty": "medium — auspicious and restrictive markers co-reside; bounded reconciling reading",
+      "limitations": "No factual claim about media pickup (UNK-003 respected)."
+    },
+    {
+      "claim_id": "C010",
+      "archetype_id": null,
+      "label": "H4 — Consolidation directive from the centre",
+      "interpretation_basis": "伏吟天庭 (documents duplicate) at centre 5, lodged into P8 via explicit 寄辛 rows (R034).",
+      "chart_support": [
+        "P5.i1",
+        "R034",
+        "P8.lodged"
+      ],
+      "case_alignment": "Q2 DIRECT, Q3 DIRECT",
+      "supporting": null,
+      "limiting": null,
+      "counterevidence": [],
+      "decision_guard": "One message hierarchy; deduplicated keyword-to-page map — no two priority keywords targeting the same page.",
+      "scope": "Keyword list (slide 3), keyword mapping (slide 4), integrated journey (slide 11)",
+      "scenario_condition": "A001/A002 both require the consolidated document layer",
+      "validation_path": "Audit the 10-15 keyword list and the five priority mappings for overlap before finalising.",
+      "rank_status": "confirmed",
+      "uncertainty": "low",
+      "limitations": "Centre has no door/deity/heaven stem (ABSENT rows) — reading rests on the single explicit formation plus lodging."
+    },
+    {
+      "claim_id": "C007",
+      "archetype_id": null,
+      "label": "H5 — Discovery door open, deception-guarded",
+      "interpretation_basis": "开门 with 癸 长生 (fresh opening) vs 玄武 + 地刑玄武 ('deception exposed') + hidden 太白冲刑 ('force reaps harm').",
+      "chart_support": [
+        "P3.door",
+        "P3.deity",
+        "P3.i2",
+        "P3.i4",
+        "P3.i5"
+      ],
+      "case_alignment": "Q1 INDIRECT, Q2 DIRECT, Q3 INDIRECT",
+      "supporting": null,
+      "limiting": null,
+      "counterevidence": [
+        "P3.i6 门迫宫: the opening itself pushes against its environment — discovery is effortful"
+      ],
+      "decision_guard": "Every public number traceable to a real free source; no copied campaign mechanics; no aggressive comparative claims.",
+      "scope": "Search triggers (slide 1), keyword justification (slide 3), content authenticity (slides 4-5)",
+      "scenario_condition": "A003/A001 both pass through the discovery door",
+      "validation_path": "Cross-check deliverable against the assignment DON'T list — the chart guard and the DON'T list independently converge.",
+      "rank_status": "confirmed",
+      "uncertainty": "low",
+      "limitations": "Symbolic; the 'exposure' theme is a tradition reading of 玄武, not a factual prediction."
+    },
+    {
+      "claim_id": "C012",
+      "archetype_id": null,
+      "label": "H6 — Tradition-conditional timing lattice",
+      "interpretation_basis": "Phase rows: 壬 冠带(戌)/临官(亥), 癸 长生(卯), 丙/戊 帝旺(午), 戊 长生(寅); cast at 霜降中元, 壬申日, 庚戌时.",
+      "chart_support": [
+        "P6.i1",
+        "P3.i2",
+        "P9.i1",
+        "P9.i3",
+        "P8.i3",
+        "E010"
+      ],
+      "case_alignment": "Q6 DIRECT, Q7 INDIRECT",
+      "supporting": null,
+      "limiting": null,
+      "counterevidence": [],
+      "decision_guard": "Present as symbolic sequencing (document work now → seed openings → peak visibility), never as dated factual prediction.",
+      "scope": "Execution timeline Pre-Launch/Launch/Amplification (slide 8)",
+      "scenario_condition": "assumption AX-002 accepted",
+      "validation_path": "Map onto the required Pre-Launch/Launch/Amplification structure rather than calendar dates.",
+      "rank_status": "bounded",
+      "uncertainty": "medium-high — assumption-indexed",
+      "limitations": "Branch-to-calendar mapping is interpretive tradition, not explicit chart content."
+    },
+    {
+      "claim_id": "C013",
+      "archetype_id": null,
+      "label": "H7 — Symbolic KPI frame",
+      "interpretation_basis": "Gate/deity symbolism mapped to measurement areas (assumption AX-001, tier 4).",
+      "chart_support": [
+        "P6.door",
+        "P3.door",
+        "P9.door",
+        "P9.deity",
+        "P7.door",
+        "P8.door",
+        "P8.star"
+      ],
+      "case_alignment": "Q7 DIRECT, Q4 DIRECT",
+      "supporting": null,
+      "limiting": null,
+      "counterevidence": [],
+      "decision_guard": "The frame organises the six KPIs; actual values must come from real analytics, never invented (UNK-002).",
+      "scope": "Measurement framework (slide 12), technical SEO monitoring (slide 5)",
+      "scenario_condition": "assumption AX-001 accepted",
+      "validation_path": "Confirm six KPIs span both SEO and PR areas per CONK-006.",
+      "rank_status": "bounded",
+      "uncertainty": "high — tier-4 inference",
+      "limitations": "Explicitly assumption-indexed; symbolic only (laws 22-24)."
+    }
+  ],
+  "conflict_checks": [
+    {
+      "claim": "C005",
+      "probes": [
+        {
+          "kind": "UNK",
+          "row_id": "UNK-001",
+          "relation": "DOES_NOT_RESOLVE",
+          "action": "none — campaign shape is described without naming or inventing the brand"
+        }
+      ]
+    },
+    {
+      "claim": "C012",
+      "probes": [
+        {
+          "kind": "UNK",
+          "row_id": "UNK-002",
+          "relation": "DOES_NOT_RESOLVE",
+          "action": "none — timing rows are tradition-conditional; no volumes or results asserted"
+        }
+      ]
+    },
+    {
+      "claim": "C013",
+      "probes": [
+        {
+          "kind": "UNK",
+          "row_id": "UNK-002",
+          "relation": "DOES_NOT_RESOLVE",
+          "action": "none — KPI frame supplies categories, not numbers"
+        }
+      ]
+    },
+    {
+      "claim": "C008",
+      "probes": [
+        {
+          "kind": "UNK",
+          "row_id": "UNK-003",
+          "relation": "DOES_NOT_RESOLVE",
+          "action": "none — outreach guidance does not predict which outlet accepts"
+        }
+      ]
+    },
+    {
+      "claim": "C009",
+      "probes": [
+        {
+          "kind": "UNK",
+          "row_id": "UNK-003",
+          "relation": "DOES_NOT_RESOLVE",
+          "action": "none — asset guidance, not pickup prediction"
+        }
+      ]
+    },
+    {
+      "claim": "C007",
+      "probes": [
+        {
+          "kind": "CONK",
+          "row_id": "CONK-007",
+          "relation": "ALIGNS",
+          "action": "none — authenticity guard matches the permitted free-source toolset"
+        }
+      ]
+    },
+    {
+      "claim": "C013",
+      "probes": [
+        {
+          "kind": "CONK",
+          "row_id": "CONK-006",
+          "relation": "ALIGNS",
+          "action": "none — frame yields exactly the six-KPI structure required"
+        }
+      ]
+    },
+    {
+      "claim": "C005",
+      "probes": [
+        {
+          "kind": "CONK",
+          "row_id": "CONK-005",
+          "relation": "ALIGNS",
+          "action": "none — cooperative/participation concept can satisfy DATA-LED + CULTURAL + HUMAN qualities"
+        }
+      ]
+    }
+  ],
+  "assumption_index": [
+    {
+      "id": "AX-001",
+      "content": "Gate/deity symbolism maps to digital-marketing measurement areas (景门→impressions, 开门→sessions, 生门→conversions, 六合→mentions/shares, 杜门→gated paths, 惊门→sentiment, 天芮→defects).",
+      "basis": "tier-4 labelled inference on explicit door/star/deity fields",
+      "used_by": [
+        "C013"
+      ]
+    },
+    {
+      "id": "AX-002",
+      "content": "Earthly-branch phase windows (卯/午/戌/亥/寅) map onto campaign sequencing phases.",
+      "basis": "tier-4 labelled inference on explicit phase rows",
+      "used_by": [
+        "C012"
+      ]
+    },
+    {
+      "id": "AX-003",
+      "content": "Day stem = querent (student), hour stem = the matter (the assignment/campaign).",
+      "basis": "standard QMDJ use-god convention; consistent with the chart's own 飞干格/伏干格 definitions referencing 日干",
+      "used_by": [
+        "C001",
+        "C003",
+        "C004"
+      ]
+    }
+  ],
+  "assumption_ranking": [
+    {
+      "rank": 1,
+      "id": "AX-003",
+      "reason": "convention is corroborated by the chart's own marker definitions (飞干格/伏干格 explicitly reference the day stem)"
+    },
+    {
+      "rank": 2,
+      "id": "AX-002",
+      "reason": "phase rows are explicit; only the calendar/schedule mapping is inferred"
+    },
+    {
+      "rank": 3,
+      "id": "AX-001",
+      "reason": "both ends of the mapping (gate symbolism, marketing metrics) are outside explicit chart content"
+    }
+  ],
+  "deferred_topics": [
+    {
+      "topic": "health/medical readings of 天芮 or phase rows 病/死",
+      "reason": "law 23 — no medical condition may be inferred; not decision-relevant to Q1-Q7"
+    },
+    {
+      "topic": "litigation readings of 凶蛇入狱 / 太白擒蛇 / 地刑玄武",
+      "reason": "used only symbolically for exposure/entanglement risk; legal outcomes out of scope"
+    },
+    {
+      "topic": "marriage/romance readings of 沐浴(桃花) in P7 and '夫妻' clauses in formation texts",
+      "reason": "not decision-relevant to the case context; kept visible in registry, deferred in claims"
+    }
+  ],
+  "decision_support": {
+    "decision_guard": "Do not resolve UNK-001 (brand identity), UNK-002 (no invented volumes/results) or UNK-003 (no predicted media pickup). Do not push frontal/confrontational tactics (A004 penalty path). Present all timing and KPI mappings as symbolic, tradition-conditional framing.",
+    "validation_path": "1) Verify the deck's keyword list is deduplicated (C010). 2) Verify the Big Idea is participation/cooperation-shaped and passes >=2 PR-worthiness qualities (C005, CONK-005). 3) Verify pre-launch is a quiet gated build and the loud moment is partner-routed (C006). 4) Verify every published number cites a real free source (C007, CONK-007). 5) Verify the data/report asset ships with distribution fixes (C009). 6) Verify the integrated journey shows one sequenced loop, not parallel blasts (C004).",
+    "uncertainty": "Chart-explicit structure is high-confidence; the marketing-translation layer is interpretive (tier 3-4). Timing (AX-002) and KPI symbolism (AX-001) are the weakest links and are labelled accordingly.",
+    "bounded_recommendation": "Tradition-conditional recommendation: build the Assignment 3 strategy as (1) a consolidated, evidence-traceable document layer (keywords, mappings, SEO plan), (2) a participation/co-creation Digital PR concept aimed at the visibility sector, (3) executed as quiet gated pre-launch → partner-routed launch → grounded slow amplification, with measurement framed symbolically but populated only from real sources. This is interpretive analysis, not factual prediction, and not a substitute for the student's own academic and professional judgment."
+  },
+  "gaps": [
+    {
+      "id": "GAP-AX-ODD-LU",
+      "path": "palaces.li_9.interpretations[7] (奇游禄位)",
+      "why_unaddressed": "formation is explicit in source but its stem anchor inside P9 (丁禄在午) does not match P9's visible stems 丙/乙/戊; recorded EXPLICIT_ONLY per law 26, no re-derivation attempted (law 32 ambiguity recorded)",
+      "owner_phase": "B4",
+      "resolution": "AMBIGUITY_RECORDED"
+    }
+  ],
+  "scoring_note": "CAP-15 certainty = 0.50 + 0.05*(auspicious pattern tally) - 0.05*(restrictive pattern tally) over the patterns whose explicit evidence intersects each claim's cited E-atom set, clamped to [0.30, 0.90]. Consequence to read with care: warning-type claims (e.g. C002 force-penalty, C004 interlock, C006 stealth) cite predominantly restrictive formations, so a low net-balance certainty reflects the harshness of the cited environment, NOT weak evidence — every citation in those claims is an explicit chart field or marker. SCORE_SOURCE=TOOL_TIER2.",
+  "slide_guidance": [
+    {
+      "slide": 1,
+      "title": "What are these consumers searching for?",
+      "claims": [
+        "C011",
+        "C007"
+      ],
+      "guidance": "Derive the three search triggers from private, listening-shaped insight (P2 太阴 with 青龙耀明: quiet audience observation yields bright material). The discovery door (P3 开门 with 癸 长生) says fresh, genuine consumer needs exist at the category's opening — frame triggers around real emerging needs, not manufactured ones. 玄武 in the same palace warns triggers built on invented behaviour will be exposed."
+    },
+    {
+      "slide": 2,
+      "title": "Consumer Search Behaviour & Intent",
+      "claims": [
+        "C007",
+        "C006"
+      ],
+      "guidance": "开门 at 长生 supports a full-funnel query set: informational sprouts (长生 = newly arising questions) through commercial to transactional. The obstruction-gated execution channel (杜门/华盖地户) says the realistic behaviour of this audience includes quiet, niche, long-tail searching — include specific problem-phrased queries, not only head terms."
+    },
+    {
+      "slide": 3,
+      "title": "Keyword Research & Strategy",
+      "claims": [
+        "C006",
+        "C010",
+        "C007"
+      ],
+      "guidance": "Prioritise long-tail/niche terms (P7 华盖地户: quiet planning benefits, open-front contests do not — head terms are the open-front contest). Deduplicate ruthlessly (centre 伏吟天庭: documents pile up): no two priority keywords with the same intent and target. Ground every priority in free real sources (autocomplete, related searches, Trends) — P3 玄武/地刑玄武 exposes invented volumes, matching the assignment's DON'T."
+    },
+    {
+      "slide": 4,
+      "title": "Keyword Mapping & Website Discoverability",
+      "claims": [
+        "C010",
+        "C001",
+        "C013"
+      ],
+      "guidance": "One consolidated map: each priority keyword to exactly one page (伏吟天庭 anti-duplication). Give visibility-shaped keywords (brand, category head terms) the 景门 treatment — the display-worthy page: homepage/category. Educational queries map to the document-authority pages (天辅 star: guides, FAQs). Two blog topics should answer the 长生-phase informational queries (fresh, sprouting questions)."
+    },
+    {
+      "slide": 5,
+      "title": "Foundational SEO Strategy",
+      "claims": [
+        "C009",
+        "C013",
+        "C007",
+        "C002"
+      ],
+      "guidance": "On-page: evidence-traceable, useful content (开门 deception-guard: no inflated claims). Off-page: document-led mentions and pitches (P1 奇仪顺遂 利文书谒贵; P8 青龙耀明 benefactors give money and effort). Technical: treat 丁奇入墓/门入墓 as the chart's own image of blocked crawl/index/message routes — audit indexation, mobile paths and information routes first; the loudest content fails if the routes are entombed. No forced over-optimisation: 伏干格/飞干格 penalise blunt pushing."
+    },
+    {
+      "slide": 6,
+      "title": "Digital PR Objective & Consumer Insight",
+      "claims": [
+        "C001",
+        "C011",
+        "C005"
+      ],
+      "guidance": "Objective: establish credibility and visible authority — the querent sits with 值符+天辅+景门 (the presiding charter star of documents/education in the visibility gate). Insight: from private listening (太阴) — what the audience quietly struggles with but does not say publicly. Brand connection and desired outcome should point at shared, participatory visibility (P9 六合)."
+    },
+    {
+      "slide": 7,
+      "title": "The Big Digital PR Idea",
+      "claims": [
+        "C005",
+        "C009"
+      ],
+      "guidance": "The chart's strongest signature is cooperative: 六合+生门+日月并行 ('especially favours cooperative affairs')+青龙合会 ('partnership benefactors') in the south/visibility palace. Build a participation/co-creation concept — the community helps make or complete something — not a solo announcement. PR-worthiness qualities the chart backs: HUMAN + CULTURAL (六合 participation), DATA-LED if the P8 research asset is the campaign's backbone. 帝旺 caution: cap the hype cycle; extremes reverse."
+    },
+    {
+      "slide": 8,
+      "title": "Digital PR Campaign Execution",
+      "claims": [
+        "C006",
+        "C003",
+        "C012",
+        "C009"
+      ],
+      "guidance": "Timeline: Pre-Launch = quiet gated build (杜门/华盖地户: embargoed seeding, long-tail content, private community cultivation). Launch = handed to the P9 engine via partners, in a visibility window (tradition-conditional 午-peak symbolism). Amplification = slow, grounded, iterative passes (九地; 太白退位: detours and repositioning are the expected shape, 门生宫: invested effort returns). Two creative assets: research-report cover (P8 document formation) + campaign key visual or social creative for the co-creation mechanic (P9)."
+    },
+    {
+      "slide": 9,
+      "title": "Media, Creator & Community Outreach",
+      "claims": [
+        "C008",
+        "C009",
+        "C011"
+      ],
+      "guidance": "Pitch with documents to established voices (P1 九天 + 奇仪顺遂 利文书谒贵 + 星随月转: attaching to a patron advances). Expect cold-start slowness (死门+门迫宫): pitch patiently, revive dormant contacts, sequence follow-ups. Choose relevance over fame (the chart nowhere rewards blast radius without substance; P8 惊门 warns controversy-bait). Formalise creator/partner terms explicitly — hidden 螣蛇夭矫: loose partnerships dissolve into quarrels."
+    },
+    {
+      "slide": 10,
+      "title": "Digital PR Amplification Strategy",
+      "claims": [
+        "C005",
+        "C006",
+        "C008"
+      ],
+      "guidance": "Amplify through partners and communities (六合) rather than brand-only blasting: earned → owned → shared flows mirror the chart's sequence quiet-channel(P7) → visibility-engine(P9) → grounded persistence(P8 九地). Verify each channel's route is un-entombed (丁奇入墓) before pushing volume through it."
+    },
+    {
+      "slide": 11,
+      "title": "Integrated Discoverability Strategy",
+      "claims": [
+        "C004",
+        "C003",
+        "C010"
+      ],
+      "guidance": "One sequenced loop, not two parallel blasts: the 壬/庚 seat-exchange shows querent and matter interlocked and mutually draining when forced simultaneously. Route A (search-led): need → 开门 discovery → document pages → brand. Route B (PR-led): partner activity (六合) → coverage → interest → branded search → site. Both converge on the same consolidated content layer (centre dedup directive) and hand off to each other at defined points."
+    },
+    {
+      "slide": 12,
+      "title": "Measurement & Key Recommendations",
+      "claims": [
+        "C013",
+        "C010",
+        "C006",
+        "C009",
+        "C005",
+        "C008"
+      ],
+      "guidance": "Six KPIs via the symbolic frame (assumption-indexed): 景门→search impressions/visibility; 开门→organic sessions/discovery; 生门→conversions/sign-ups; 六合→brand mentions/shares/participation; 杜门→indexation/coverage gaps (technical); 惊门+天芮→sentiment spikes and defect monitoring. Three SEO priorities: consolidate & deduplicate (C010), long-tail low-competition targeting (C006), unblock technical routes (C009). Three PR priorities: cooperative participation concept (C005), data/document-led asset (C009), patient document-based pitching to real relevant voices (C008). Strategic conclusion: credibility built quietly, then made visible together with partners."
+    }
+  ]
+}

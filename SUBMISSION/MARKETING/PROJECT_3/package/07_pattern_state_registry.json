@@ -1,0 +1,837 @@
+{
+ "rows": [
+  {
+   "pattern_id": "PAT001",
+   "name": "phase_state:病",
+   "palace": 1,
+   "kind": "phase",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 乙 at branches 子"
+   ],
+   "sources": [
+    "palaces.kan_1.interpretations[1].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT002",
+   "name": "phase_state:胎",
+   "palace": 1,
+   "kind": "phase",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 丙 at branches 子"
+   ],
+   "sources": [
+    "palaces.kan_1.interpretations[2].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT003",
+   "name": "phase_state:绝",
+   "palace": 1,
+   "kind": "phase",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 丁 at branches 子"
+   ],
+   "sources": [
+    "palaces.kan_1.interpretations[3].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT004",
+   "name": "奇仪顺遂",
+   "palace": 1,
+   "kind": "stem_pair",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.kan_1.interpretations[4].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT005",
+   "name": "星随月转",
+   "palace": 1,
+   "kind": "stem_pair",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.kan_1.interpretations[5].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT006",
+   "name": "门迫宫",
+   "palace": 1,
+   "kind": "marker",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "CONFIRMED",
+   "limitations": [],
+   "sources": [
+    "palaces.kan_1.interpretations[6].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT007",
+   "name": "phase_state:衰",
+   "palace": 2,
+   "kind": "phase",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 戊 at branches 未"
+   ],
+   "sources": [
+    "palaces.kun_2.interpretations[1].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT008",
+   "name": "phase_state:冠带",
+   "palace": 2,
+   "kind": "phase",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 丁 at branches 未"
+   ],
+   "sources": [
+    "palaces.kun_2.interpretations[2].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT009",
+   "name": "phase_state:墓",
+   "palace": 2,
+   "kind": "phase",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 癸 at branches 未"
+   ],
+   "sources": [
+    "palaces.kun_2.interpretations[3].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT010",
+   "name": "青龙耀明",
+   "palace": 2,
+   "kind": "stem_pair",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.kun_2.interpretations[4].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT011",
+   "name": "螣蛇夭矫",
+   "palace": 2,
+   "kind": "stem_pair",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.kun_2.interpretations[5].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT012",
+   "name": "门迫宫",
+   "palace": 2,
+   "kind": "marker",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "CONFIRMED",
+   "limitations": [],
+   "sources": [
+    "palaces.kun_2.interpretations[6].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT013",
+   "name": "门入墓",
+   "palace": 2,
+   "kind": "marker",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "CONFIRMED",
+   "limitations": [],
+   "sources": [
+    "palaces.kun_2.interpretations[7].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT014",
+   "name": "phase_state:病",
+   "palace": 3,
+   "kind": "phase",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 己 at branches 卯"
+   ],
+   "sources": [
+    "palaces.zhen_3.interpretations[1].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT015",
+   "name": "phase_state:长生",
+   "palace": 3,
+   "kind": "phase",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 癸 at branches 卯"
+   ],
+   "sources": [
+    "palaces.zhen_3.interpretations[2].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT016",
+   "name": "phase_state:胎",
+   "palace": 3,
+   "kind": "phase",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 庚 at branches 卯"
+   ],
+   "sources": [
+    "palaces.zhen_3.interpretations[3].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT017",
+   "name": "地刑玄武",
+   "palace": 3,
+   "kind": "stem_pair",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.zhen_3.interpretations[4].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT018",
+   "name": "太白冲刑",
+   "palace": 3,
+   "kind": "stem_pair",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.zhen_3.interpretations[5].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT019",
+   "name": "门迫宫",
+   "palace": 3,
+   "kind": "marker",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "CONFIRMED",
+   "limitations": [],
+   "sources": [
+    "palaces.zhen_3.interpretations[6].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT020",
+   "name": "phase_state:养",
+   "palace": 4,
+   "kind": "phase",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 庚 at branches 辰"
+   ],
+   "sources": [
+    "palaces.xun_4.interpretations[1].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT021",
+   "name": "phase_state:墓",
+   "palace": 4,
+   "kind": "phase",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 壬 at branches 辰"
+   ],
+   "sources": [
+    "palaces.xun_4.interpretations[2].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT022",
+   "name": "phase_state:冠带",
+   "palace": 4,
+   "kind": "phase",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 丙 at branches 辰"
+   ],
+   "sources": [
+    "palaces.xun_4.interpretations[3].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT023",
+   "name": "太白退位",
+   "palace": 4,
+   "kind": "stem_pair",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.xun_4.interpretations[4].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT024",
+   "name": "火入天罗",
+   "palace": 4,
+   "kind": "stem_pair",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.xun_4.interpretations[5].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT025",
+   "name": "门生宫",
+   "palace": 4,
+   "kind": "marker",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "CONFIRMED",
+   "limitations": [],
+   "sources": [
+    "palaces.xun_4.interpretations[6].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT026",
+   "name": "门入墓",
+   "palace": 4,
+   "kind": "marker",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "CONFIRMED",
+   "limitations": [],
+   "sources": [
+    "palaces.xun_4.interpretations[7].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT027",
+   "name": "飞干格",
+   "palace": 4,
+   "kind": "marker",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.xun_4.interpretations[8].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT028",
+   "name": "伏吟天庭",
+   "palace": 5,
+   "kind": "stem_pair",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.center_5.interpretations[1].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT029",
+   "name": "phase_state:冠带",
+   "palace": 6,
+   "kind": "phase",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 壬 at branches 戌"
+   ],
+   "sources": [
+    "palaces.qian_6.interpretations[1].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT030",
+   "name": "phase_state:衰",
+   "palace": 6,
+   "kind": "phase",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 庚 at branches 戌"
+   ],
+   "sources": [
+    "palaces.qian_6.interpretations[2].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT031",
+   "name": "phase_state:墓",
+   "palace": 6,
+   "kind": "phase",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 乙 at branches 戌"
+   ],
+   "sources": [
+    "palaces.qian_6.interpretations[3].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT032",
+   "name": "太白擒蛇",
+   "palace": 6,
+   "kind": "stem_pair",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.qian_6.interpretations[4].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT033",
+   "name": "日奇被刑",
+   "palace": 6,
+   "kind": "stem_pair",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.qian_6.interpretations[5].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT034",
+   "name": "门迫宫",
+   "palace": 6,
+   "kind": "marker",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "CONFIRMED",
+   "limitations": [],
+   "sources": [
+    "palaces.qian_6.interpretations[6].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT035",
+   "name": "门入墓",
+   "palace": 6,
+   "kind": "marker",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "CONFIRMED",
+   "limitations": [],
+   "sources": [
+    "palaces.qian_6.interpretations[7].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT036",
+   "name": "伏干格",
+   "palace": 6,
+   "kind": "marker",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.qian_6.interpretations[8].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT037",
+   "name": "phase_state:病",
+   "palace": 7,
+   "kind": "phase",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 癸 at branches 酉"
+   ],
+   "sources": [
+    "palaces.dui_7.interpretations[1].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT038",
+   "name": "phase_state:长生",
+   "palace": 7,
+   "kind": "phase",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 己 at branches 酉"
+   ],
+   "sources": [
+    "palaces.dui_7.interpretations[2].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT039",
+   "name": "phase_state:沐浴",
+   "palace": 7,
+   "kind": "phase",
+   "polarity": "mixed",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 壬 at branches 酉"
+   ],
+   "sources": [
+    "palaces.dui_7.interpretations[3].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT040",
+   "name": "华盖地户",
+   "palace": 7,
+   "kind": "stem_pair",
+   "polarity": "neutral",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.dui_7.interpretations[4].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT041",
+   "name": "凶蛇入狱",
+   "palace": 7,
+   "kind": "stem_pair",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.dui_7.interpretations[5].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT042",
+   "name": "宫迫门",
+   "palace": 7,
+   "kind": "marker",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "CONFIRMED",
+   "limitations": [],
+   "sources": [
+    "palaces.dui_7.interpretations[6].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT043",
+   "name": "phase_state:墓",
+   "palace": 8,
+   "kind": "phase",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 丁 at branches 丑"
+   ],
+   "sources": [
+    "palaces.gen_8.interpretations[1].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT044",
+   "name": "phase_state:养",
+   "palace": 8,
+   "kind": "phase",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 辛 at branches 丑"
+   ],
+   "sources": [
+    "palaces.gen_8.interpretations[2].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT045",
+   "name": "phase_state:养",
+   "palace": 8,
+   "kind": "phase",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 戊 at branches 丑"
+   ],
+   "sources": [
+    "palaces.gen_8.interpretations[3].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT046",
+   "name": "phase_state:墓",
+   "palace": 8,
+   "kind": "phase",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 己 at branches 丑"
+   ],
+   "sources": [
+    "palaces.gen_8.interpretations[4].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT047",
+   "name": "青龙耀明",
+   "palace": 8,
+   "kind": "stem_pair",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.gen_8.interpretations[5].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT048",
+   "name": "困龙被伤",
+   "palace": 8,
+   "kind": "stem_pair",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.gen_8.interpretations[6].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT049",
+   "name": "犬遇青龙",
+   "palace": 8,
+   "kind": "stem_pair",
+   "polarity": "conditional",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.gen_8.interpretations[7].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT050",
+   "name": "宫生门",
+   "palace": 8,
+   "kind": "marker",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "CONFIRMED",
+   "limitations": [],
+   "sources": [
+    "palaces.gen_8.interpretations[8].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT051",
+   "name": "丁奇入墓",
+   "palace": 8,
+   "kind": "marker",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.gen_8.interpretations[9].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT052",
+   "name": "门入墓",
+   "palace": 8,
+   "kind": "marker",
+   "polarity": "restrictive",
+   "state": "LIVE",
+   "compute_reconciliation": "CONFIRMED",
+   "limitations": [],
+   "sources": [
+    "palaces.gen_8.interpretations[10].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT053",
+   "name": "phase_state:帝旺",
+   "palace": 9,
+   "kind": "phase",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 丙 at branches 午"
+   ],
+   "sources": [
+    "palaces.li_9.interpretations[1].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT054",
+   "name": "phase_state:长生",
+   "palace": 9,
+   "kind": "phase",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 乙 at branches 午"
+   ],
+   "sources": [
+    "palaces.li_9.interpretations[2].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT055",
+   "name": "phase_state:帝旺",
+   "palace": 9,
+   "kind": "phase",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [
+    "stems 戊 at branches 午"
+   ],
+   "sources": [
+    "palaces.li_9.interpretations[3].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT056",
+   "name": "日月并行",
+   "palace": 9,
+   "kind": "stem_pair",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.li_9.interpretations[4].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT057",
+   "name": "青龙合会",
+   "palace": 9,
+   "kind": "stem_pair",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.li_9.interpretations[5].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT058",
+   "name": "三奇升殿",
+   "palace": 9,
+   "kind": "marker",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.li_9.interpretations[6].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT059",
+   "name": "奇游禄位",
+   "palace": 9,
+   "kind": "marker",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "EXPLICIT_ONLY",
+   "limitations": [],
+   "sources": [
+    "palaces.li_9.interpretations[7].condition"
+   ]
+  },
+  {
+   "pattern_id": "PAT060",
+   "name": "宫生门",
+   "palace": 9,
+   "kind": "marker",
+   "polarity": "auspicious",
+   "state": "LIVE",
+   "compute_reconciliation": "CONFIRMED",
+   "limitations": [],
+   "sources": [
+    "palaces.li_9.interpretations[8].condition"
+   ]
+  }
+ ],
+ "live": 60,
+ "null_register": 0,
+ "note": "explicit markers rank first; compute reconciliation never overwrites (law 26)"
+}

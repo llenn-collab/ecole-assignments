@@ -1,0 +1,232 @@
+== FIELDS ==
+E001 chart_info.system = Yi Dun - Lun Cang Jia
+E002 chart_info.method = Qimen Dunjia Chart
+E003 chart_info.type = Hourly Rotating Qimen, Yin Dun 8 Ju
+E004 chart_info.ganzhi.year = 丙午
+E005 chart_info.ganzhi.month = 戊戌
+E006 chart_info.ganzhi.day = 壬申
+E007 chart_info.ganzhi.hour = 庚戌
+E008 chart_info.zhi_fu = 天辅 falling in Palace 6
+E009 chart_info.zhi_shi = 杜门 falling in Palace 7
+E010 chart_info.solar_term = 霜降, 中 Yuan
+E011 palaces.kan_1.deity = 九天
+E012 palaces.kan_1.door = 死门
+E013 palaces.kan_1.star = 天英
+E014 palaces.kan_1.palace_label = 坎1宫
+E015 palaces.kan_1.heaven_stem = 乙
+E016 palaces.kan_1.earth_stem = 丙
+E017 palaces.kan_1.hidden_stem(derived_from_interpretations) = 丁
+E030 palaces.kun_2.deity = 太阴
+E031 palaces.kun_2.door = 伤门
+E032 palaces.kun_2.star = 天任
+E033 palaces.kun_2.palace_label = 坤2宫
+E034 palaces.kun_2.heaven_stem = 戊
+E035 palaces.kun_2.earth_stem = 丁
+E036 palaces.kun_2.hidden_stem(derived_from_interpretations) = 癸
+E051 palaces.zhen_3.deity = 玄武
+E052 palaces.zhen_3.door = 开门
+E053 palaces.zhen_3.star = 天柱
+E054 palaces.zhen_3.palace_label = 震3宫
+E055 palaces.zhen_3.heaven_stem = 己
+E056 palaces.zhen_3.earth_stem = 癸
+E057 palaces.zhen_3.hidden_stem(derived_from_interpretations) = 庚
+E070 palaces.xun_4.deity = 白虎
+E071 palaces.xun_4.door = 休门
+E072 palaces.xun_4.star = 天心
+E073 palaces.xun_4.palace_label = 巽4宫
+E074 palaces.xun_4.heaven_stem = 庚
+E075 palaces.xun_4.earth_stem = 壬
+E076 palaces.xun_4.hidden_stem(derived_from_interpretations) = 丙
+E093 palaces.center_5.star = 天禽
+E094 palaces.center_5.palace_label = 中5宫
+E095 palaces.center_5.earth_stem = 辛
+E096 palaces.center_5.hidden_stem(derived_from_interpretations) = 辛
+E099 palaces.qian_6.deity = 值符
+E100 palaces.qian_6.door = 景门
+E101 palaces.qian_6.star = 天辅
+E102 palaces.qian_6.palace_label = 乾6宫
+E103 palaces.qian_6.heaven_stem = 壬
+E104 palaces.qian_6.earth_stem = 庚
+E105 palaces.qian_6.hidden_stem(derived_from_interpretations) = 乙
+E122 palaces.dui_7.deity = 腾蛇
+E123 palaces.dui_7.door = 杜门
+E124 palaces.dui_7.star = 天冲
+E125 palaces.dui_7.palace_label = 兑7宫
+E126 palaces.dui_7.heaven_stem = 癸
+E127 palaces.dui_7.earth_stem = 己
+E128 palaces.dui_7.hidden_stem(derived_from_interpretations) = 壬
+E141 palaces.gen_8.deity = 九地
+E142 palaces.gen_8.door = 惊门
+E143 palaces.gen_8.star = 天芮
+E144 palaces.gen_8.palace_label = 艮8宫
+E145 palaces.gen_8.heaven_stem = 丁
+E146 palaces.gen_8.earth_stem = 戊
+E147 palaces.gen_8.hidden_stem(derived_from_interpretations) = 己
+E148 palaces.gen_8.lodged_centre_stem = 辛
+E169 palaces.li_9.deity = 六合
+E170 palaces.li_9.door = 生门
+E171 palaces.li_9.star = 天蓬
+E172 palaces.li_9.palace_label = 离9宫
+E173 palaces.li_9.heaven_stem = 丙
+E174 palaces.li_9.earth_stem = 乙
+E175 palaces.li_9.hidden_stem(derived_from_interpretations) = 戊
+
+== INTERPRETATIONS ==
+P1 i1 [phase] 病 cond=E018 mean=E019
+P1 i2 [phase] 胎 cond=E020 mean=E021
+P1 i3 [phase] 绝 cond=E022 mean=E023
+P1 i4 [stem_pair] 奇仪顺遂 cond=E024 mean=E025
+P1 i5 [stem_pair] 星随月转 cond=E026 mean=E027
+P1 i6 [marker] 门迫宫 cond=E028 mean=E029
+P2 i1 [phase] 衰 cond=E037 mean=E038
+P2 i2 [phase] 冠带 cond=E039 mean=E040
+P2 i3 [phase] 墓 cond=E041 mean=E042
+P2 i4 [stem_pair] 青龙耀明 cond=E043 mean=E044
+P2 i5 [stem_pair] 螣蛇夭矫 cond=E045 mean=E046
+P2 i6 [marker] 门迫宫 cond=E047 mean=E048
+P2 i7 [marker] 门入墓 cond=E049 mean=E050
+P3 i1 [phase] 病 cond=E058 mean=E059
+P3 i2 [phase] 长生 cond=E060 mean=E061
+P3 i3 [phase] 胎 cond=E062 mean=E063
+P3 i4 [stem_pair] 地刑玄武 cond=E064 mean=E065
+P3 i5 [stem_pair] 太白冲刑 cond=E066 mean=E067
+P3 i6 [marker] 门迫宫 cond=E068 mean=E069
+P4 i1 [phase] 养 cond=E077 mean=E078
+P4 i2 [phase] 墓 cond=E079 mean=E080
+P4 i3 [phase] 冠带 cond=E081 mean=E082
+P4 i4 [stem_pair] 太白退位 cond=E083 mean=E084
+P4 i5 [stem_pair] 火入天罗 cond=E085 mean=E086
+P4 i6 [marker] 门生宫 cond=E087 mean=E088
+P4 i7 [marker] 门入墓 cond=E089 mean=E090
+P4 i8 [marker] 飞干格 cond=E091 mean=E092
+P5 i1 [stem_pair] 伏吟天庭 cond=E097 mean=E098
+P6 i1 [phase] 冠带 cond=E106 mean=E107
+P6 i2 [phase] 衰 cond=E108 mean=E109
+P6 i3 [phase] 墓 cond=E110 mean=E111
+P6 i4 [stem_pair] 太白擒蛇 cond=E112 mean=E113
+P6 i5 [stem_pair] 日奇被刑 cond=E114 mean=E115
+P6 i6 [marker] 门迫宫 cond=E116 mean=E117
+P6 i7 [marker] 门入墓 cond=E118 mean=E119
+P6 i8 [marker] 伏干格 cond=E120 mean=E121
+P7 i1 [phase] 病 cond=E129 mean=E130
+P7 i2 [phase] 长生 cond=E131 mean=E132
+P7 i3 [phase] 沐浴 cond=E133 mean=E134
+P7 i4 [stem_pair] 华盖地户 cond=E135 mean=E136
+P7 i5 [stem_pair] 凶蛇入狱 cond=E137 mean=E138
+P7 i6 [marker] 宫迫门 cond=E139 mean=E140
+P8 i1 [phase] 墓 cond=E149 mean=E150
+P8 i2 [phase] 养 cond=E151 mean=E152
+P8 i3 [phase] 养 cond=E153 mean=E154
+P8 i4 [phase] 墓 cond=E155 mean=E156
+P8 i5 [stem_pair] 青龙耀明 cond=E157 mean=E158
+P8 i6 [stem_pair] 困龙被伤 cond=E159 mean=E160
+P8 i7 [stem_pair] 犬遇青龙 cond=E161 mean=E162
+P8 i8 [marker] 宫生门 cond=E163 mean=E164
+P8 i9 [marker] 丁奇入墓 cond=E165 mean=E166
+P8 i10 [marker] 门入墓 cond=E167 mean=E168
+P9 i1 [phase] 帝旺 cond=E176 mean=E177
+P9 i2 [phase] 长生 cond=E178 mean=E179
+P9 i3 [phase] 帝旺 cond=E180 mean=E181
+P9 i4 [stem_pair] 日月并行 cond=E182 mean=E183
+P9 i5 [stem_pair] 青龙合会 cond=E184 mean=E185
+P9 i6 [marker] 三奇升殿 cond=E186 mean=E187
+P9 i7 [marker] 奇游禄位 cond=E188 mean=E189
+P9 i8 [marker] 宫生门 cond=E190 mean=E191
+
+== RELATIONS ==
+R001 STEM_MATCH 丁 丁: hidden@P1 <-> earth@P2 members=['E017', 'E035']
+R002 STEM_MATCH 丁 丁: hidden@P1 <-> heaven@P8 members=['E017', 'E145']
+R003 STEM_MATCH 丁 丁: earth@P2 <-> heaven@P8 members=['E035', 'E145']
+R004 STEM_MATCH 丙 丙: earth@P1 <-> hidden@P4 members=['E016', 'E076']
+R005 STEM_MATCH 丙 丙: earth@P1 <-> heaven@P9 members=['E016', 'E173']
+R006 STEM_MATCH 丙 丙: hidden@P4 <-> heaven@P9 members=['E076', 'E173']
+R007 STEM_MATCH 乙 乙: heaven@P1 <-> hidden@P6 members=['E015', 'E105']
+R008 STEM_MATCH 乙 乙: heaven@P1 <-> earth@P9 members=['E015', 'E174']
+R009 STEM_MATCH 乙 乙: hidden@P6 <-> earth@P9 members=['E105', 'E174']
+R010 STEM_MATCH 壬 壬: earth@P4 <-> heaven@P6 members=['E075', 'E103']
+R011 STEM_MATCH 壬 壬: earth@P4 <-> hidden@P7 members=['E075', 'E128']
+R012 STEM_MATCH 壬 壬: heaven@P6 <-> hidden@P7 members=['E103', 'E128']
+R013 STEM_MATCH 己 己: heaven@P3 <-> earth@P7 members=['E055', 'E127']
+R014 STEM_MATCH 己 己: heaven@P3 <-> hidden@P8 members=['E055', 'E147']
+R015 STEM_MATCH 己 己: earth@P7 <-> hidden@P8 members=['E127', 'E147']
+R016 STEM_MATCH 庚 庚: hidden@P3 <-> heaven@P4 members=['E057', 'E074']
+R017 STEM_MATCH 庚 庚: hidden@P3 <-> earth@P6 members=['E057', 'E104']
+R018 STEM_MATCH 庚 庚: heaven@P4 <-> earth@P6 members=['E074', 'E104']
+R019 STEM_MATCH 戊 戊: heaven@P2 <-> earth@P8 members=['E034', 'E146']
+R020 STEM_MATCH 戊 戊: heaven@P2 <-> hidden@P9 members=['E034', 'E175']
+R021 STEM_MATCH 戊 戊: earth@P8 <-> hidden@P9 members=['E146', 'E175']
+R022 STEM_MATCH 癸 癸: hidden@P2 <-> earth@P3 members=['E036', 'E056']
+R023 STEM_MATCH 癸 癸: hidden@P2 <-> heaven@P7 members=['E036', 'E126']
+R024 STEM_MATCH 癸 癸: earth@P3 <-> heaven@P7 members=['E056', 'E126']
+R025 STEM_MATCH 辛 辛: earth@P5 <-> hidden@P5 members=['E095', 'E096']
+R026 STEM_MATCH 辛 辛: earth@P5 <-> lodged@P8 members=['E095', 'E148']
+R027 STEM_MATCH 辛 辛: hidden@P5 <-> lodged@P8 members=['E096', 'E148']
+R028 DAYSTEM_POS  day_stem 壬 = heaven_stem P6 members=['E103']
+R029 HOURSTEM_POS  hour_stem 庚 = heaven_stem P4 members=['E074']
+R030 ZHIFU_BIND  zhi_fu TianFu lodges in Palace 6 members=['E101']
+R031 ZHISHI_BIND  zhi_shi DuMen lodges in Palace 7 members=['E123']
+R032 OPPOSITION  P1 <-> P4 members=[]
+R033 OPPOSITION  P6 <-> P9 members=[]
+R034 LODGING  centre stem 辛 lodged in P8 (寄辛 / 寄宫干 in gen_8 interpretations) members=['E148']
+
+== PATTERNS ==
+PAT001 P1 [phase/restrictive] phase_state:病 compute=EXPLICIT_ONLY ev=['E018', 'E019', 'E015', 'E016', 'E017', 'E012', 'E011', 'E013']
+PAT002 P1 [phase/auspicious] phase_state:胎 compute=EXPLICIT_ONLY ev=['E020', 'E021', 'E015', 'E016', 'E017', 'E012', 'E011', 'E013']
+PAT003 P1 [phase/restrictive] phase_state:绝 compute=EXPLICIT_ONLY ev=['E022', 'E023', 'E015', 'E016', 'E017', 'E012', 'E011', 'E013']
+PAT004 P1 [stem_pair/auspicious] 奇仪顺遂 compute=EXPLICIT_ONLY ev=['E024', 'E025', 'E015', 'E016', 'E017', 'E012', 'E011', 'E013']
+PAT005 P1 [stem_pair/auspicious] 星随月转 compute=EXPLICIT_ONLY ev=['E026', 'E027', 'E015', 'E016', 'E017', 'E012', 'E011', 'E013']
+PAT006 P1 [marker/restrictive] 门迫宫 compute=CONFIRMED ev=['E028', 'E029', 'E015', 'E016', 'E017', 'E012', 'E011', 'E013']
+PAT007 P2 [phase/restrictive] phase_state:衰 compute=EXPLICIT_ONLY ev=['E037', 'E038', 'E034', 'E035', 'E036', 'E031', 'E030', 'E032']
+PAT008 P2 [phase/auspicious] phase_state:冠带 compute=EXPLICIT_ONLY ev=['E039', 'E040', 'E034', 'E035', 'E036', 'E031', 'E030', 'E032']
+PAT009 P2 [phase/restrictive] phase_state:墓 compute=EXPLICIT_ONLY ev=['E041', 'E042', 'E034', 'E035', 'E036', 'E031', 'E030', 'E032']
+PAT010 P2 [stem_pair/auspicious] 青龙耀明 compute=EXPLICIT_ONLY ev=['E043', 'E044', 'E034', 'E035', 'E036', 'E031', 'E030', 'E032']
+PAT011 P2 [stem_pair/restrictive] 螣蛇夭矫 compute=EXPLICIT_ONLY ev=['E045', 'E046', 'E034', 'E035', 'E036', 'E031', 'E030', 'E032']
+PAT012 P2 [marker/restrictive] 门迫宫 compute=CONFIRMED ev=['E047', 'E048', 'E034', 'E035', 'E036', 'E031', 'E030', 'E032']
+PAT013 P2 [marker/restrictive] 门入墓 compute=CONFIRMED ev=['E049', 'E050', 'E034', 'E035', 'E036', 'E031', 'E030', 'E032']
+PAT014 P3 [phase/restrictive] phase_state:病 compute=EXPLICIT_ONLY ev=['E058', 'E059', 'E055', 'E056', 'E057', 'E052', 'E051', 'E053']
+PAT015 P3 [phase/auspicious] phase_state:长生 compute=EXPLICIT_ONLY ev=['E060', 'E061', 'E055', 'E056', 'E057', 'E052', 'E051', 'E053']
+PAT016 P3 [phase/auspicious] phase_state:胎 compute=EXPLICIT_ONLY ev=['E062', 'E063', 'E055', 'E056', 'E057', 'E052', 'E051', 'E053']
+PAT017 P3 [stem_pair/restrictive] 地刑玄武 compute=EXPLICIT_ONLY ev=['E064', 'E065', 'E055', 'E056', 'E057', 'E052', 'E051', 'E053']
+PAT018 P3 [stem_pair/restrictive] 太白冲刑 compute=EXPLICIT_ONLY ev=['E066', 'E067', 'E055', 'E056', 'E057', 'E052', 'E051', 'E053']
+PAT019 P3 [marker/restrictive] 门迫宫 compute=CONFIRMED ev=['E068', 'E069', 'E055', 'E056', 'E057', 'E052', 'E051', 'E053']
+PAT020 P4 [phase/auspicious] phase_state:养 compute=EXPLICIT_ONLY ev=['E077', 'E078', 'E074', 'E075', 'E076', 'E071', 'E070', 'E072']
+PAT021 P4 [phase/restrictive] phase_state:墓 compute=EXPLICIT_ONLY ev=['E079', 'E080', 'E074', 'E075', 'E076', 'E071', 'E070', 'E072']
+PAT022 P4 [phase/auspicious] phase_state:冠带 compute=EXPLICIT_ONLY ev=['E081', 'E082', 'E074', 'E075', 'E076', 'E071', 'E070', 'E072']
+PAT023 P4 [stem_pair/restrictive] 太白退位 compute=EXPLICIT_ONLY ev=['E083', 'E084', 'E074', 'E075', 'E076', 'E071', 'E070', 'E072']
+PAT024 P4 [stem_pair/restrictive] 火入天罗 compute=EXPLICIT_ONLY ev=['E085', 'E086', 'E074', 'E075', 'E076', 'E071', 'E070', 'E072']
+PAT025 P4 [marker/auspicious] 门生宫 compute=CONFIRMED ev=['E087', 'E088', 'E074', 'E075', 'E076', 'E071', 'E070', 'E072']
+PAT026 P4 [marker/restrictive] 门入墓 compute=CONFIRMED ev=['E089', 'E090', 'E074', 'E075', 'E076', 'E071', 'E070', 'E072']
+PAT027 P4 [marker/restrictive] 飞干格 compute=EXPLICIT_ONLY ev=['E091', 'E092', 'E074', 'E075', 'E076', 'E071', 'E070', 'E072']
+PAT028 P5 [stem_pair/restrictive] 伏吟天庭 compute=EXPLICIT_ONLY ev=['E097', 'E098', 'E095', 'E096', 'E093']
+PAT029 P6 [phase/auspicious] phase_state:冠带 compute=EXPLICIT_ONLY ev=['E106', 'E107', 'E103', 'E104', 'E105', 'E100', 'E099', 'E101']
+PAT030 P6 [phase/restrictive] phase_state:衰 compute=EXPLICIT_ONLY ev=['E108', 'E109', 'E103', 'E104', 'E105', 'E100', 'E099', 'E101']
+PAT031 P6 [phase/restrictive] phase_state:墓 compute=EXPLICIT_ONLY ev=['E110', 'E111', 'E103', 'E104', 'E105', 'E100', 'E099', 'E101']
+PAT032 P6 [stem_pair/auspicious] 太白擒蛇 compute=EXPLICIT_ONLY ev=['E112', 'E113', 'E103', 'E104', 'E105', 'E100', 'E099', 'E101']
+PAT033 P6 [stem_pair/restrictive] 日奇被刑 compute=EXPLICIT_ONLY ev=['E114', 'E115', 'E103', 'E104', 'E105', 'E100', 'E099', 'E101']
+PAT034 P6 [marker/restrictive] 门迫宫 compute=CONFIRMED ev=['E116', 'E117', 'E103', 'E104', 'E105', 'E100', 'E099', 'E101']
+PAT035 P6 [marker/restrictive] 门入墓 compute=CONFIRMED ev=['E118', 'E119', 'E103', 'E104', 'E105', 'E100', 'E099', 'E101']
+PAT036 P6 [marker/restrictive] 伏干格 compute=EXPLICIT_ONLY ev=['E120', 'E121', 'E103', 'E104', 'E105', 'E100', 'E099', 'E101']
+PAT037 P7 [phase/restrictive] phase_state:病 compute=EXPLICIT_ONLY ev=['E129', 'E130', 'E126', 'E127', 'E128', 'E123', 'E122', 'E124']
+PAT038 P7 [phase/auspicious] phase_state:长生 compute=EXPLICIT_ONLY ev=['E131', 'E132', 'E126', 'E127', 'E128', 'E123', 'E122', 'E124']
+PAT039 P7 [phase/mixed] phase_state:沐浴 compute=EXPLICIT_ONLY ev=['E133', 'E134', 'E126', 'E127', 'E128', 'E123', 'E122', 'E124']
+PAT040 P7 [stem_pair/neutral] 华盖地户 compute=EXPLICIT_ONLY ev=['E135', 'E136', 'E126', 'E127', 'E128', 'E123', 'E122', 'E124']
+PAT041 P7 [stem_pair/restrictive] 凶蛇入狱 compute=EXPLICIT_ONLY ev=['E137', 'E138', 'E126', 'E127', 'E128', 'E123', 'E122', 'E124']
+PAT042 P7 [marker/restrictive] 宫迫门 compute=CONFIRMED ev=['E139', 'E140', 'E126', 'E127', 'E128', 'E123', 'E122', 'E124']
+PAT043 P8 [phase/restrictive] phase_state:墓 compute=EXPLICIT_ONLY ev=['E149', 'E150', 'E145', 'E146', 'E147', 'E142', 'E141', 'E143', 'E148']
+PAT044 P8 [phase/auspicious] phase_state:养 compute=EXPLICIT_ONLY ev=['E151', 'E152', 'E145', 'E146', 'E147', 'E142', 'E141', 'E143', 'E148']
+PAT045 P8 [phase/auspicious] phase_state:养 compute=EXPLICIT_ONLY ev=['E153', 'E154', 'E145', 'E146', 'E147', 'E142', 'E141', 'E143', 'E148']
+PAT046 P8 [phase/restrictive] phase_state:墓 compute=EXPLICIT_ONLY ev=['E155', 'E156', 'E145', 'E146', 'E147', 'E142', 'E141', 'E143', 'E148']
+PAT047 P8 [stem_pair/auspicious] 青龙耀明 compute=EXPLICIT_ONLY ev=['E157', 'E158', 'E145', 'E146', 'E147', 'E142', 'E141', 'E143', 'E148']
+PAT048 P8 [stem_pair/restrictive] 困龙被伤 compute=EXPLICIT_ONLY ev=['E159', 'E160', 'E145', 'E146', 'E147', 'E142', 'E141', 'E143', 'E148']
+PAT049 P8 [stem_pair/conditional] 犬遇青龙 compute=EXPLICIT_ONLY ev=['E161', 'E162', 'E145', 'E146', 'E147', 'E142', 'E141', 'E143', 'E148']
+PAT050 P8 [marker/auspicious] 宫生门 compute=CONFIRMED ev=['E163', 'E164', 'E145', 'E146', 'E147', 'E142', 'E141', 'E143', 'E148']
+PAT051 P8 [marker/restrictive] 丁奇入墓 compute=EXPLICIT_ONLY ev=['E165', 'E166', 'E145', 'E146', 'E147', 'E142', 'E141', 'E143', 'E148']
+PAT052 P8 [marker/restrictive] 门入墓 compute=CONFIRMED ev=['E167', 'E168', 'E145', 'E146', 'E147', 'E142', 'E141', 'E143', 'E148']
+PAT053 P9 [phase/auspicious] phase_state:帝旺 compute=EXPLICIT_ONLY ev=['E176', 'E177', 'E173', 'E174', 'E175', 'E170', 'E169', 'E171']
+PAT054 P9 [phase/auspicious] phase_state:长生 compute=EXPLICIT_ONLY ev=['E178', 'E179', 'E173', 'E174', 'E175', 'E170', 'E169', 'E171']
+PAT055 P9 [phase/auspicious] phase_state:帝旺 compute=EXPLICIT_ONLY ev=['E180', 'E181', 'E173', 'E174', 'E175', 'E170', 'E169', 'E171']
+PAT056 P9 [stem_pair/auspicious] 日月并行 compute=EXPLICIT_ONLY ev=['E182', 'E183', 'E173', 'E174', 'E175', 'E170', 'E169', 'E171']
+PAT057 P9 [stem_pair/auspicious] 青龙合会 compute=EXPLICIT_ONLY ev=['E184', 'E185', 'E173', 'E174', 'E175', 'E170', 'E169', 'E171']
+PAT058 P9 [marker/auspicious] 三奇升殿 compute=EXPLICIT_ONLY ev=['E186', 'E187', 'E173', 'E174', 'E175', 'E170', 'E169', 'E171']
+PAT059 P9 [marker/auspicious] 奇游禄位 compute=EXPLICIT_ONLY ev=['E188', 'E189', 'E173', 'E174', 'E175', 'E170', 'E169', 'E171']
+PAT060 P9 [marker/auspicious] 宫生门 compute=CONFIRMED ev=['E190', 'E191', 'E173', 'E174', 'E175', 'E170', 'E169', 'E171']

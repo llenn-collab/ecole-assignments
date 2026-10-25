@@ -1,0 +1,372 @@
+{
+ "I_atoms": {
+  "I001": {
+   "id": "I001",
+   "statement": "The querent's day stem 壬 (R028, DAYSTEM_POS) sits on the heaven plate of Palace 6 together with the chart's presiding deity 值符, the star 天辅 (a literature/education star, and the declared zhi_fu: E008/R030) and the door 景门 (visibility/brilliance gate).",
+   "evidence": [
+    "E008",
+    "E099",
+    "E100",
+    "E101",
+    "E103",
+    "R028",
+    "R030"
+   ],
+   "rule": "day-stem-as-querent; zhi_fu binding via R030",
+   "direction": "backward",
+   "uncertainty": "low — all members are explicit chart fields",
+   "authority": "chart_explicit",
+   "assumption_index": null
+  },
+  "I002": {
+   "id": "I002",
+   "statement": "Palace 6 simultaneously carries three explicit restrictive markers: 门迫宫 (door controls palace: effort invites environmental pushback), 门入墓 (fire door entombed in Qian-6: action obstructed) and 伏干格 (day stem flying onto 庚: blind self-initiated attack rebounds).",
+   "evidence": [
+    "E116",
+    "E117",
+    "E118",
+    "E119",
+    "E120",
+    "E121"
+   ],
+   "rule": "explicit marker register (law 26)",
+   "direction": "backward",
+   "uncertainty": "low — explicit markers, compute-confirmed for 门迫宫/门入墓",
+   "authority": "chart_explicit",
+   "assumption_index": null
+  },
+  "I003": {
+   "id": "I003",
+   "statement": "The hour stem 庚 (the matter asked about, R029) occupies Palace 4 on the heaven plate with 休门 (rest gate) and 白虎 (white tiger), under explicit 飞干格 (heaven 庚 covering the day-stem seat: active attack meets frustration) and 太白退位 (壬 drains 庚: affairs take detours, change of place); the door nonetheless generates the palace (门生宫) — effort invested harmoniously returns value.",
+   "evidence": [
+    "E070",
+    "E071",
+    "E074",
+    "E083",
+    "E084",
+    "E087",
+    "E088",
+    "E091",
+    "E092",
+    "R029"
+   ],
+   "rule": "hour-stem-as-matter; explicit markers",
+   "direction": "forward",
+   "uncertainty": "low — explicit fields and markers",
+   "authority": "chart_explicit",
+   "assumption_index": null
+  },
+  "I004": {
+   "id": "I004",
+   "statement": "Day stem 壬 and hour stem 庚 exchange seats: 壬@heaven-P6 over 庚@earth-P6, 庚@heaven-P4 over 壬@earth-P4 (R010, R018 STEM_MATCH traces). Querent and matter mutually overlay and mutually drain/control.",
+   "evidence": [
+    "E074",
+    "E075",
+    "E103",
+    "E104",
+    "R010",
+    "R018"
+   ],
+   "rule": "CAP-09 value trace (law 11)",
+   "direction": "backward",
+   "uncertainty": "low — deterministic value matches",
+   "authority": "chart_explicit",
+   "assumption_index": null
+  },
+  "I005": {
+   "id": "I005",
+   "statement": "Palace 9 (Li, South, fire — the visibility/fame sector) carries the chart's densest auspicious cluster: 生门 (life gate) with 宫生门 (environment feeds the action: 'great fortune'), 六合 (partnership deity), 丙 at 帝旺 and earth 乙 at 长生, plus explicit 三奇升殿, 奇游禄位, 日月并行 ('especially favours cooperative affairs') and 青龙合会 ('partnership benefactors').",
+   "evidence": [
+    "E169",
+    "E170",
+    "E176",
+    "E177",
+    "E178",
+    "E179",
+    "E182",
+    "E183",
+    "E184",
+    "E185",
+    "E186",
+    "E187",
+    "E188",
+    "E189",
+    "E190",
+    "E191"
+   ],
+   "rule": "explicit pattern register; Luoshu identity (CAP-08)",
+   "direction": "forward",
+   "uncertainty": "low for markers; the 奇游禄位 binding (丁禄在午) is explicit in source but its stem anchor in P9 is 丙/乙/戊 — recorded as EXPLICIT_ONLY, no re-derivation",
+   "authority": "chart_explicit",
+   "assumption_index": null
+  },
+  "I006": {
+   "id": "I006",
+   "statement": "The zhi_shi (execution channel) 杜门 (obstruction gate) falls in Palace 7 with 腾蛇 (entanglement), under 宫迫门 (environment suppresses the action) and the explicit pair 癸加己 华盖地户: 'benefits cultivation, concealment and quiet planning; unfavourable for open-front affairs'; the hidden pair 壬加己 凶蛇入狱 adds 'do not act rashly'.",
+   "evidence": [
+    "E009",
+    "E122",
+    "E123",
+    "E135",
+    "E136",
+    "E137",
+    "E138",
+    "E139",
+    "E140",
+    "R031"
+   ],
+   "rule": "zhi_shi binding via R031; explicit markers",
+   "direction": "forward",
+   "uncertainty": "low — explicit fields",
+   "authority": "chart_explicit",
+   "assumption_index": null
+  },
+  "I007": {
+   "id": "I007",
+   "statement": "Palace 3 (Zhen, East — initiation) holds 开门 (open gate: openings, discovery) with earth 癸 at 长生 (fresh vitality), but the deity is 玄武 (covert/deceptive) and the explicit pair 己加癸 地刑玄武 states 'schemes and deception are exposed'; the hidden pair 庚加癸 太白冲刑 states 'force against force reaps its own harm; big matters unfit'.",
+   "evidence": [
+    "E051",
+    "E052",
+    "E060",
+    "E061",
+    "E064",
+    "E065",
+    "E066",
+    "E067"
+   ],
+   "rule": "explicit pattern register",
+   "direction": "forward",
+   "uncertainty": "low",
+   "authority": "chart_explicit",
+   "assumption_index": null
+  },
+  "I008": {
+   "id": "I008",
+   "statement": "Palace 1 (Kan, North) holds 九天 (high-flying, far-reaching deity) with the explicit pair 乙加丙 奇仪顺遂: 'wood and fire bright; benefactor support; benefits documents and calling on notables (利文书谒贵)' and hidden 丁加丙 星随月转: 'benefit follows attaching to a noble patron'; the door is 死门 (stagnant/old) under 门迫宫.",
+   "evidence": [
+    "E011",
+    "E012",
+    "E024",
+    "E025",
+    "E026",
+    "E027",
+    "E028",
+    "E029"
+   ],
+   "rule": "explicit pattern register",
+   "direction": "forward",
+   "uncertainty": "low",
+   "authority": "chart_explicit",
+   "assumption_index": null
+  },
+  "I009": {
+   "id": "I009",
+   "statement": "Palace 8 (Gen, NE) pairs the auspicious document formation 丁加戊 青龙耀明 ('officials promoted; benefactors give money and effort' — echoed by hidden 己加戊 犬遇青龙) and 宫生门 with three explicit blockages: 丁奇入墓 ('documents and information obstructed, messages do not get through'), 门入墓 (metal door entombed in Gen-8) and 惊门 (alarm gate) under deity 九地 (low, slow, grounded).",
+   "evidence": [
+    "E141",
+    "E142",
+    "E157",
+    "E158",
+    "E161",
+    "E162",
+    "E163",
+    "E164",
+    "E165",
+    "E166",
+    "E167",
+    "E168"
+   ],
+   "rule": "explicit pattern register; tomb rules compute-confirmed",
+   "direction": "forward",
+   "uncertainty": "low",
+   "authority": "chart_explicit",
+   "assumption_index": null
+  },
+  "I010": {
+   "id": "I010",
+   "statement": "The centre Palace 5 carries exactly one explicit formation: hidden 辛加辛 伏吟天庭 — 'official documents pile up/duplicate; affairs unfavourable'. The centre stem 辛 lodges in Palace 8 (R034, explicit 寄辛/寄宫干 rows in gen_8), so the duplication theme lands on the same palace that already shows document blockage.",
+   "evidence": [
+    "E097",
+    "E098",
+    "E148",
+    "R034"
+   ],
+   "rule": "law 10 lodging graph; explicit formation",
+   "direction": "backward",
+   "uncertainty": "low",
+   "authority": "chart_explicit",
+   "assumption_index": null
+  },
+  "I011": {
+   "id": "I011",
+   "statement": "Palace 2 (Kun, SW — the mass/audience sector) holds 太阴 (hidden, private, yin deity) with the auspicious pair 戊加丁 青龙耀明 ('wealth and documents, bright prospects') but under 伤门 (harm gate), 门迫宫, 门入墓, and hidden 癸加丁 螣蛇夭矫 ('entanglements, quarrels, partnerships easily dissolve').",
+   "evidence": [
+    "E030",
+    "E031",
+    "E043",
+    "E044",
+    "E045",
+    "E046",
+    "E047",
+    "E048",
+    "E049",
+    "E050"
+   ],
+   "rule": "explicit pattern register",
+   "direction": "forward",
+   "uncertainty": "low",
+   "authority": "chart_explicit",
+   "assumption_index": null
+  },
+  "I012": {
+   "id": "I012",
+   "statement": "Twelve-phase timing rows: 壬 at 冠带(于戌)/临官(于亥) in P6 — the querent's stem matures through the 戌-亥 window; 癸 at 长生(于卯) in P3; 丙/戊 at 帝旺(于午) in P9; 戊 at 长生(于寅) in P8. The chart is cast at solar term 霜降 中元, day 壬申, hour 庚戌.",
+   "evidence": [
+    "E006",
+    "E007",
+    "E010",
+    "E060",
+    "E061",
+    "E106",
+    "E107",
+    "E153",
+    "E154",
+    "E176",
+    "E177",
+    "E180",
+    "E181"
+   ],
+   "rule": "explicit phase rows (CAP-07 typed)",
+   "direction": "forward",
+   "uncertainty": "medium — branch-to-calendar mapping is tradition-conditional, not a chart-explicit calendar claim",
+   "authority": "assumption_indexed",
+   "assumption_index": "AX-002"
+  },
+  "I013": {
+   "id": "I013",
+   "statement": "Symbolic measurement correspondence (assumption-indexed, tier 4): 景门↔visibility/impressions, 开门↔discovery/sessions, 生门↔growth/conversions, 六合↔mentions/partnerships/shares, 杜门↔blocked or gated paths (indexation/coverage), 惊门↔sentiment spikes, 天芮↔defects/errors. No chart field states these mappings; they are labelled inference on gate symbolism.",
+   "evidence": [
+    "E052",
+    "E100",
+    "E123",
+    "E142",
+    "E143",
+    "E169",
+    "E170"
+   ],
+   "rule": "symbolic correspondence only (laws 22-24); assumption-indexed",
+   "direction": "forward",
+   "uncertainty": "high — interpretive tradition mapping, not explicit chart content",
+   "authority": "assumption_indexed",
+   "assumption_index": "AX-001"
+  }
+ },
+ "A_atoms": {
+  "A001": {
+   "id": "A001",
+   "scenario": "Cooperative-visibility campaign: participation-led Big Idea routed through the Li-9 engine (六合+生门+三奇升殿), launched after a quiet gated build",
+   "activation_condition": "chart-derived: P9 carries the densest explicit auspicious cluster and the zhi_shi channel is obstruction-gated — activates when the campaign is partnership-shaped and sequenced quiet-then-visible",
+   "claim_basis": [
+    "C005",
+    "C006",
+    "C003"
+   ],
+   "rank": 1,
+   "evidence": [
+    "E135",
+    "E136",
+    "E169",
+    "E170",
+    "E186",
+    "E187",
+    "E188",
+    "E189"
+   ]
+  },
+  "A002": {
+   "id": "A002",
+   "scenario": "Document-authority campaign: data/research-report PR asset built on 青龙耀明 substance, published through slow grounded channels after de-gating distribution",
+   "activation_condition": "chart-derived: P8 pairs auspicious document formations with explicit tomb/blockage markers — activates when a substantial document asset is paired with distribution fixes and low-posture release",
+   "claim_basis": [
+    "C009",
+    "C008",
+    "C010"
+   ],
+   "rank": 2,
+   "evidence": [
+    "E024",
+    "E025",
+    "E157",
+    "E158",
+    "E165",
+    "E166"
+   ]
+  },
+  "A003": {
+   "id": "A003",
+   "scenario": "Stealth long-tail route: niche keyword and community seeding under 华盖地户, avoiding open-front confrontation",
+   "activation_condition": "chart-derived: zhi_shi 杜门 with 华盖地户 — activates for the pre-launch phase and for keyword strategy targeting low-competition long-tail",
+   "claim_basis": [
+    "C006",
+    "C007"
+   ],
+   "rank": 3,
+   "evidence": [
+    "E123",
+    "E135",
+    "E136"
+   ]
+  },
+  "A004": {
+   "id": "A004",
+   "scenario": "Confrontational-blast route (counter-scenario, chart-penalised): loud solo announcement, aggressive comparative positioning, forced parallel SEO+PR push",
+   "activation_condition": "chart-derived penalty path: 飞干格/伏干格 frontal-attack markers, 伤门 aggression, 地刑玄武 exposure, 太白冲刑 force-reversal — activates failure; retained visible per law 28",
+   "claim_basis": [
+    "C002",
+    "C003",
+    "C007",
+    "C011"
+   ],
+   "rank": 4,
+   "evidence": [
+    "E031",
+    "E064",
+    "E065",
+    "E066",
+    "E067",
+    "E091",
+    "E092",
+    "E120",
+    "E121"
+   ]
+  }
+ },
+ "assumption_index": [
+  {
+   "id": "AX-001",
+   "content": "Gate/deity symbolism maps to digital-marketing measurement areas (景门→impressions, 开门→sessions, 生门→conversions, 六合→mentions/shares, 杜门→gated paths, 惊门→sentiment, 天芮→defects).",
+   "basis": "tier-4 labelled inference on explicit door/star/deity fields",
+   "used_by": [
+    "C013"
+   ]
+  },
+  {
+   "id": "AX-002",
+   "content": "Earthly-branch phase windows (卯/午/戌/亥/寅) map onto campaign sequencing phases.",
+   "basis": "tier-4 labelled inference on explicit phase rows",
+   "used_by": [
+    "C012"
+   ]
+  },
+  {
+   "id": "AX-003",
+   "content": "Day stem = querent (student), hour stem = the matter (the assignment/campaign).",
+   "basis": "standard QMDJ use-god convention; consistent with the chart's own 飞干格/伏干格 definitions referencing 日干",
+   "used_by": [
+    "C001",
+    "C003",
+    "C004"
+   ]
+  }
+ ]
+}

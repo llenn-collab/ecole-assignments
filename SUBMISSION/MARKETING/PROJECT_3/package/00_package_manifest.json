@@ -1,0 +1,15 @@
+{
+ "status": "ok",
+ "coverage_complete": true,
+ "tool_health": "ok",
+ "package_version": "charter-7.1.0",
+ "runtime_mode": "TOOLS_PRESENT",
+ "context_status": "DEGRADED",
+ "ingest_form": "MIXED",
+ "language_register": "English report; Chinese chart terms preserved verbatim with glosses",
+ "sources": {
+  "chart": "CHART|project_3.json|16670|2|chart_info,palaces",
+  "case": "CASE|project_3.yaml|21003|2|assignment,source",
+  "charter": "CHARTER|qmdj_chart_analyst_charter.md|38235|1|lines=658"
+ }
+}
