@@ -1,0 +1,43 @@
+{
+  "ingest_form": "MIXED",
+  "unmapped_keys": [
+    "source.file_name", "source.file_type", "source.page_count", "source.pages",
+    "assignment.title", "assignment.focus_areas", "assignment.learning_objectives",
+    "assignment.submission_format", "assignment.proposed_slide_structure.part_a",
+    "assignment.proposed_slide_structure.part_b", "assignment.proposed_slide_structure.part_c"
+  ],
+  "missing_slots": [],
+  "slots": {
+    "casting_reason": "The brand, target audience, content and social media strategy were completed in Assignments 1 and 2; the querent must now determine how consumers will discover the brand through search and how external voices will be earned to talk about it, and must produce an integrated Search Discoverability & Digital PR Strategy deck.",
+    "question": "How should the querent build the Assignment 3 deliverable: consumer search triggers/intent, keyword strategy, keyword-to-page mapping, foundational SEO, a Digital PR objective/insight/big idea/execution/outreach/amplification, and an integrated SEO+PR journey with measurement?",
+    "subject": "The querent's Assignment 3 submission (individual PDF presentation, 12-20 slides) for the same brand used in Assignments 1 and 2.",
+    "domain": "other (marketing strategy coursework)",
+    "timeframe_of_interest": "This assignment cycle; the chart is explicitly cast at 霜降 中元, 丙午 year 戊戌 month 壬申 day 庚戌 hour.",
+    "decision_needed": "Which search/SEO priorities, which Digital PR concept and outreach approach, and which integrated journey and KPIs to commit to in the deck.",
+    "question_facets": {
+      "Q1": "Consumer search triggers, search behaviour and intent classification (slides 1-2)",
+      "Q2": "Keyword research, mix and top-five prioritisation (slide 3)",
+      "Q3": "Keyword-to-page mapping, blog opportunities, website discoverability (slide 4)",
+      "Q4": "Foundational SEO action plan across on-page / off-page / technical pillars (slide 5)",
+      "Q5": "Digital PR objective, target audience, consumer insight, brand connection, desired outcome (slide 6)",
+      "Q6": "The big PR idea, execution plan, creative assets, media/creator/community outreach, media pitch, amplification (slides 7-10)",
+      "Q7": "Integrated SEO+PR discovery routes, measurement KPIs, three SEO + three PR priorities, strategic conclusion (slides 11-12)"
+    }
+  },
+  "rows": [
+    {"id": "CONK-001", "class": "CONK", "tag": "DECOMPOSED", "text": "The same brand from Assignments 1 and 2 must be used; brand, audience and content/social strategy are already developed.", "source_sentence": "Use the same brand from Assignments 1 and 2. / Your brand has now been developed, your target audience has been identified, and your content and social media strategy is in place."},
+    {"id": "CONK-002", "class": "CONK", "tag": "DECOMPOSED", "text": "Submission is an individual PDF presentation of 12-20 slides, excluding cover, references and supporting creative mockups.", "source_sentence": "format: Individual PDF presentation; recommended_length: 12 - 20 slides, excluding cover, references and supporting creative mockups."},
+    {"id": "CONK-003", "class": "CONK", "tag": "DECOMPOSED", "text": "At least two sample creative campaign assets are required for the PR execution slide.", "source_sentence": "Creative execution. Create at least two sample campaign assets."},
+    {"id": "CONK-004", "class": "CONK", "tag": "DECLARED", "text": "Outreach must name at least 3 real media outlets/publications and at least 2 real creators/experts/communities (no invented names), plus one media pitch of approximately 100-150 words.", "source_sentence": "Include: At least 3 relevant media outlets/publications. At least 2 relevant creators, experts, communities or partners ... Research and name actual publications, creators and communities (no inventing names). ... length: Approximately 100 - 150 words"},
+    {"id": "CONK-005", "class": "CONK", "tag": "DECLARED", "text": "The PR campaign must demonstrate at least two PR-worthiness qualities from NEW / DIFFERENT / RELEVANT / HUMAN / DATA-LED / CULTURAL / PURPOSEFUL.", "source_sentence": "pr_worthiness_requirement: The campaign should demonstrate at least two of these qualities."},
+    {"id": "CONK-006", "class": "CONK", "tag": "DECLARED", "text": "At least two actions per SEO pillar (six-action plan) and six KPIs across both areas are required.", "source_sentence": "You must recommend at least two relevant actions for each pillar. / Choose six relevant KPIs across both areas."},
+    {"id": "CONK-007", "class": "CONK", "tag": "DECLARED", "text": "Free research sources are allowed; paid SEO tools are not required.", "source_sentence": "You may use Google Search, autocomplete, related searches, Google Trends and other freely accessible research sources. Paid SEO tools are not required."},
+    {"id": "UNK-001", "class": "UNK", "tag": "DECOMPOSED", "text": "The actual brand name, category and audience from Assignments 1 and 2 are not present in this file and must not be assumed or resolved by the analysis.", "source_sentence": "Continue from Assignment 1 & 2. (brand identity not stated in project_3.yaml)"},
+    {"id": "UNK-002", "class": "UNK", "tag": "DECLARED", "text": "Keyword volumes, consumer research figures and campaign results must not be invented.", "source_sentence": "DON'T: Invent keyword volumes, consumer research or campaign results."},
+    {"id": "UNK-003", "class": "UNK", "tag": "DECLARED", "text": "The analysis must not resolve which specific real publications/creators will accept coverage; only relevance-based shortlisting guidance is permitted.", "source_sentence": "Earned media is not the same as paid influencer promotion. The outreach plan should focus on relevance and voluntary editorial or community interest."},
+    {"id": "PROH-001", "class": "PROH", "tag": "DECLARED", "text": "Do not select keywords only because they are popular.", "source_sentence": "DON'T: Select keywords only because they are popular."},
+    {"id": "PROH-002", "class": "PROH", "tag": "DECLARED", "text": "Do not copy campaigns discussed in class (IKEA ThisAbles, Swiggy #SwiggyVoiceOfHunger, CRED Indiranagar Ka Gunda, Burger King Moldy Whopper).", "source_sentence": "DON'T: Copy campaigns discussed in class."},
+    {"id": "PROH-003", "class": "PROH", "tag": "DECLARED", "text": "Do not confuse Digital PR with paid advertising or routine product/discount/influencer announcements.", "source_sentence": "DON'T: Confuse Digital PR with paid advertising. / A routine product announcement, discount campaign or generic influencer collaboration is not automatically a Digital PR campaign."},
+    {"id": "PROH-004", "class": "PROH", "tag": "DECLARED", "text": "Do not choose publications simply because they are famous; do not create attractive visuals without a strong underlying idea.", "source_sentence": "DON'T: Choose publications simply because they are famous. / Create attractive campaign visuals without a strong underlying idea."}
+  ]
+}

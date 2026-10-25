@@ -1,0 +1,164 @@
+{
+ "1": {
+  "identity": 1,
+  "raw_key": "kan_1",
+  "label": "坎1宫",
+  "trigram": "Kan",
+  "direction": "N",
+  "element": "water",
+  "star_home": "TianPeng",
+  "geometry": {
+   "opposition": [
+    4
+   ],
+   "lodging": []
+  },
+  "source_paths": [
+   "palaces.kan_1"
+  ]
+ },
+ "2": {
+  "identity": 2,
+  "raw_key": "kun_2",
+  "label": "坤2宫",
+  "trigram": "Kun",
+  "direction": "SW",
+  "element": "earth",
+  "star_home": "TianRui",
+  "geometry": {
+   "opposition": [],
+   "lodging": []
+  },
+  "source_paths": [
+   "palaces.kun_2"
+  ]
+ },
+ "3": {
+  "identity": 3,
+  "raw_key": "zhen_3",
+  "label": "震3宫",
+  "trigram": "Zhen",
+  "direction": "E",
+  "element": "wood",
+  "star_home": "TianChong",
+  "geometry": {
+   "opposition": [],
+   "lodging": []
+  },
+  "source_paths": [
+   "palaces.zhen_3"
+  ]
+ },
+ "4": {
+  "identity": 4,
+  "raw_key": "xun_4",
+  "label": "巽4宫",
+  "trigram": "Xun",
+  "direction": "SE",
+  "element": "wood",
+  "star_home": "TianFu",
+  "geometry": {
+   "opposition": [
+    1
+   ],
+   "lodging": []
+  },
+  "source_paths": [
+   "palaces.xun_4"
+  ]
+ },
+ "5": {
+  "identity": 5,
+  "raw_key": "center_5",
+  "label": "中5宫",
+  "trigram": "Centre",
+  "direction": "C",
+  "element": "earth",
+  "star_home": "TianQin",
+  "geometry": {
+   "opposition": [],
+   "lodging": [
+    {
+     "lodges_in": 8,
+     "evidence": "gen_8 interpretation '寄辛 处于 养(于丑)且胎(于寅)' and '寄宫干 辛加戊' reference the centre stem 辛 in Palace 8"
+    }
+   ]
+  },
+  "source_paths": [
+   "palaces.center_5"
+  ]
+ },
+ "6": {
+  "identity": 6,
+  "raw_key": "qian_6",
+  "label": "乾6宫",
+  "trigram": "Qian",
+  "direction": "NW",
+  "element": "metal",
+  "star_home": "TianXin",
+  "geometry": {
+   "opposition": [
+    9
+   ],
+   "lodging": []
+  },
+  "source_paths": [
+   "palaces.qian_6"
+  ]
+ },
+ "7": {
+  "identity": 7,
+  "raw_key": "dui_7",
+  "label": "兑7宫",
+  "trigram": "Dui",
+  "direction": "W",
+  "element": "metal",
+  "star_home": "TianZhu",
+  "geometry": {
+   "opposition": [],
+   "lodging": []
+  },
+  "source_paths": [
+   "palaces.dui_7"
+  ]
+ },
+ "8": {
+  "identity": 8,
+  "raw_key": "gen_8",
+  "label": "艮8宫",
+  "trigram": "Gen",
+  "direction": "NE",
+  "element": "earth",
+  "star_home": "TianRen",
+  "geometry": {
+   "opposition": [],
+   "lodging": []
+  },
+  "source_paths": [
+   "palaces.gen_8"
+  ]
+ },
+ "9": {
+  "identity": 9,
+  "raw_key": "li_9",
+  "label": "离9宫",
+  "trigram": "Li",
+  "direction": "S",
+  "element": "fire",
+  "star_home": "TianYing",
+  "geometry": {
+   "opposition": [
+    6
+   ],
+   "lodging": []
+  },
+  "source_paths": [
+   "palaces.li_9"
+  ]
+ },
+ "centre_block_validation": {
+  "centre_blocks": 1,
+  "opposite_of_5": null,
+  "rule": "law 10: centre lodges; it has no opposite. Lodging graph built from explicit chart evidence (寄辛 in gen_8): 5 -> 8."
+ }
+}

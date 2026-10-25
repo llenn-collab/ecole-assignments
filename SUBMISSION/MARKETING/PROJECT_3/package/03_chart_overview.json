@@ -1,0 +1,266 @@
+{
+ "metadata": {
+  "chart_info_atoms": [
+   {
+    "id": "E001",
+    "path": "chart_info.system",
+    "value": "Yi Dun - Lun Cang Jia"
+   },
+   {
+    "id": "E002",
+    "path": "chart_info.method",
+    "value": "Qimen Dunjia Chart"
+   },
+   {
+    "id": "E003",
+    "path": "chart_info.type",
+    "value": "Hourly Rotating Qimen, Yin Dun 8 Ju"
+   },
+   {
+    "id": "E004",
+    "path": "chart_info.ganzhi.year",
+    "value": "丙午"
+   },
+   {
+    "id": "E005",
+    "path": "chart_info.ganzhi.month",
+    "value": "戊戌"
+   },
+   {
+    "id": "E006",
+    "path": "chart_info.ganzhi.day",
+    "value": "壬申"
+   },
+   {
+    "id": "E007",
+    "path": "chart_info.ganzhi.hour",
+    "value": "庚戌"
+   },
+   {
+    "id": "E008",
+    "path": "chart_info.zhi_fu",
+    "value": "天辅 falling in Palace 6"
+   },
+   {
+    "id": "E009",
+    "path": "chart_info.zhi_shi",
+    "value": "杜门 falling in Palace 7"
+   },
+   {
+    "id": "E010",
+    "path": "chart_info.solar_term",
+    "value": "霜降, 中 Yuan"
+   }
+  ],
+  "pillars": {
+   "year": {
+    "raw": "丙午",
+    "stem": "丙",
+    "branch": "午",
+    "stem_element": "fire",
+    "stem_polarity": "yang",
+    "parse_rule": "CAP-05_ADAPTER_2CHAR",
+    "path": "chart_info.ganzhi.year",
+    "status": "PARSED"
+   },
+   "month": {
+    "raw": "戊戌",
+    "stem": "戊",
+    "branch": "戌",
+    "stem_element": "earth",
+    "stem_polarity": "yang",
+    "parse_rule": "CAP-05_ADAPTER_2CHAR",
+    "path": "chart_info.ganzhi.month",
+    "status": "PARSED"
+   },
+   "day": {
+    "raw": "壬申",
+    "stem": "壬",
+    "branch": "申",
+    "stem_element": "water",
+    "stem_polarity": "yang",
+    "parse_rule": "CAP-05_ADAPTER_2CHAR",
+    "path": "chart_info.ganzhi.day",
+    "status": "PARSED"
+   },
+   "hour": {
+    "raw": "庚戌",
+    "stem": "庚",
+    "branch": "戌",
+    "stem_element": "metal",
+    "stem_polarity": "yang",
+    "parse_rule": "CAP-05_ADAPTER_2CHAR",
+    "path": "chart_info.ganzhi.hour",
+    "status": "PARSED"
+   }
+  },
+  "zhi_fu": {
+   "subject": "天辅",
+   "relation": "falling_in",
+   "target": "Palace 6"
+  },
+  "zhi_shi": {
+   "subject": "杜门",
+   "relation": "falling_in",
+   "target": "Palace 7"
+  },
+  "solar_term": {
+   "subject": "霜降",
+   "qualifier": "中 Yuan"
+  }
+ },
+ "b0_coverage_contract": {
+  "total_batches": 8,
+  "batch_ids": [
+   "B0",
+   "B1",
+   "B2",
+   "B3",
+   "B4",
+   "B5",
+   "P6",
+   "RT"
+  ],
+  "max_palace_blocks_per_batch": 1,
+  "max_parallel_palaces": 2,
+  "palace_blocking_rules": [
+   "centre palace resolved first in B1",
+   "B1 failure on any core role blocks all downstream batches",
+   "non-core ABSENT roles (void, horse) block nothing — absence reported"
+  ],
+  "palace_dependency_chains": [
+   "B1 -> B2 -> B3 -> B4 -> B5 -> P6 -> RT -> Tier2 render"
+  ],
+  "forbidden_scope": [
+   "no re-read of chart source after board card exists (law 44)",
+   "no traversal outside the batch topic in B3",
+   "no case-context citation inside any claim (cc2, law 51)"
+  ],
+  "eligible_scope": "board card (state/extract.json#board_card) filtered per batch topic; contradiction evidence stays VISIBLE and ELIGIBLE (law 28)",
+  "visibility_tags": [
+   "VISIBLE_ELIGIBLE (all E/R/PAT atoms; no FORBIDDEN class in this run)"
+  ],
+  "digest_gates": [
+   "6000 chars max per palace digest block; truncation explicit"
+  ],
+  "stop_conditions": [
+   "core role BLOCKED -> B1 fails, run halts before B2",
+   "cap call budget 60 exhausted -> PARTIAL + gap report"
+  ],
+  "retry_bounds": {
+   "max_retries_per_claim": 1,
+   "max_retries_per_batch": 1,
+   "max_retries_per_p6_or_rt": 1,
+   "max_cap_calls_per_run": 60
+  },
+  "topic_order": [
+   "axis",
+   "axis opposition",
+   "axis lodging",
+   "tripled axis",
+   "child-axis",
+   "cross-palace",
+   "case-aligned synthesis"
+  ]
+ },
+ "board_reference": "state/extract.json#board_card (single whole-chart view; law 44)",
+ "root_register": {
+  "roles": {
+   "pillars": {
+    "state": "RESOLVED",
+    "path": "chart_info.ganzhi.*"
+   },
+   "board": {
+    "state": "RESOLVED",
+    "path": "chart_info.type"
+   },
+   "layout": {
+    "state": "RESOLVED",
+    "path": "chart_info.zhi_fu, chart_info.zhi_shi"
+   },
+   "void": {
+    "state": "ABSENT",
+    "reason": "no 空亡/void field in chart or schema variant"
+   },
+   "horse": {
+    "state": "ABSENT",
+    "reason": "no 马星/horse field in chart; annex table unused (law 27)"
+   },
+   "palaces_root": {
+    "state": "RESOLVED",
+    "path": "palaces.*",
+    "count": 9
+   }
+  },
+  "role_states": {
+   "heaven_stem": {
+    "1": "RESOLVED",
+    "2": "RESOLVED",
+    "3": "RESOLVED",
+    "4": "RESOLVED",
+    "5": "ABSENT",
+    "6": "RESOLVED",
+    "7": "RESOLVED",
+    "8": "RESOLVED",
+    "9": "RESOLVED"
+   },
+   "earth_stem": {
+    "1": "RESOLVED",
+    "2": "RESOLVED",
+    "3": "RESOLVED",
+    "4": "RESOLVED",
+    "5": "RESOLVED",
+    "6": "RESOLVED",
+    "7": "RESOLVED",
+    "8": "RESOLVED",
+    "9": "RESOLVED"
+   },
+   "star": {
+    "1": "RESOLVED",
+    "2": "RESOLVED",
+    "3": "RESOLVED",
+    "4": "RESOLVED",
+    "5": "RESOLVED",
+    "6": "RESOLVED",
+    "7": "RESOLVED",
+    "8": "RESOLVED",
+    "9": "RESOLVED"
+   },
+   "door": {
+    "1": "RESOLVED",
+    "2": "RESOLVED",
+    "3": "RESOLVED",
+    "4": "RESOLVED",
+    "5": "ABSENT",
+    "6": "RESOLVED",
+    "7": "RESOLVED",
+    "8": "RESOLVED",
+    "9": "RESOLVED"
+   },
+   "deity": {
+    "1": "RESOLVED",
+    "2": "RESOLVED",
+    "3": "RESOLVED",
+    "4": "RESOLVED",
+    "5": "ABSENT",
+    "6": "RESOLVED",
+    "7": "RESOLVED",
+    "8": "RESOLVED",
+    "9": "RESOLVED"
+   }
+  },
+  "absence_register": {
+   "void_marker": "ABSENT",
+   "horse_marker": "ABSENT",
+   "empty_branch_field": "ABSENT",
+   "centre_deity": "ABSENT",
+   "centre_door": "ABSENT",
+   "centre_heaven_stem": "ABSENT"
+  }
+ },
+ "anomaly_log": [],
+ "invalid_chains": [],
+ "source_paths": [
+  "/home/user/ecole-assignments/QMDJ/MARKETING/project_3.json"
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "cap_calls": [
+  "CAP|CAP-01|in=chart_json,case_yaml|out=fingerprint_recheck|cost=71",
+  "CAP|CAP-12|in=board_card,B0-B5,P6,RT|out=digest_build|cost=32",
+  "CAP|CAP-13|in=claim,cmap,proposal,redteam_lines|out=grammar_check|cost=21",
+  "CAP|CAP-15|in=claims|out=score_card|cost=4",
+  "CAP|CAP-18|in=claims,Q1-Q7|out=case_map|cost=9",
+  "CAP|CAP-19|in=live_verdicts|out=conflict_check|cost=4",
+  "CAP|CAP-14|in=rt_lines|out=ledger_reconcile_rt|cost=3",
+  "CAP|CAP-14|in=all_palaces|out=ledger_reconcile|cost=4",
+  "CAP|CAP-16|in=package|out=self_audit|cost=101",
+  "CAP|CAP-01|in=chart_json|out=fingerprint_chart|cost=71",
+  "CAP|CAP-01|in=case_yaml|out=fingerprint_case|cost=72",
+  "CAP|CAP-01|in=charter_md|out=fingerprint_charter|cost=73",
+  "CAP|CAP-02|in=chart_json|out=normalized_chart|cost=1740",
+  "CAP|CAP-03|in=chart_info,palaces|out=schema_bind|cost=108",
+  "CAP|CAP-07|in=chart_info.zhi_fu,chart_info.zhi_shi,chart_info.solar_term|out=composite_atoms|cost=53",
+  "CAP|CAP-04|in=all_palaces|out=role_resolve|cost=329",
+  "CAP|CAP-08|in=palaces_1_9|out=luoshu_geometry|cost=123",
+  "CAP|CAP-10|in=board_card|out=pattern_register|cost=4",
+  "CAP|CAP-09|in=heaven_stems,earth_stems,hidden_stems|out=value_trace|cost=121",
+  "CAP|CAP-11|in=board_card|out=atomize|cost=28",
+  "CAP|CAP-17|in=case_yaml|out=case_decompose|cost=3"
+ ],
+ "anomalies": [],
+ "score_source": "TOOL_TIER2 (deterministic toolkit, TOOLS_PRESENT)",
+ "budget": {
+  "max_cap_calls_per_run": 60,
+  "used_this_phase": 9,
+  "used_extract_phase": 12
+ }
+}

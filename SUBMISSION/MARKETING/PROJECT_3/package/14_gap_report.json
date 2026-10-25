@@ -1,0 +1,51 @@
+[
+ {
+  "id": "GAP-AX-ODD-LU",
+  "path": "palaces.li_9.interpretations[7] (奇游禄位)",
+  "why_unaddressed": "formation is explicit in source but its stem anchor inside P9 (丁禄在午) does not match P9's visible stems 丙/乙/戊; recorded EXPLICIT_ONLY per law 26, no re-derivation attempted (law 32 ambiguity recorded)",
+  "owner_phase": "B4",
+  "resolution": "AMBIGUITY_RECORDED"
+ },
+ {
+  "id": "GAP-ANNEX-PATTERNS",
+  "path": "charter annex A-patterns",
+  "why_unaddressed": "pattern_catalog not ported into the charter package; CAP-10 ran on the explicit marker register + minimum viable stand-in; classes absent from the chart yield null results",
+  "owner_phase": "B4",
+  "resolution": "OPEN"
+ },
+ {
+  "id": "GAP-ANNEX-ARCHETYPES",
+  "path": "charter annex A-archetypes",
+  "why_unaddressed": "archetype_scoring_rubric not ported; per Tier2 step 3 the run falls back to structure-only archetype handling: no archetype labels issued",
+  "owner_phase": "Tier2",
+  "resolution": "OPEN"
+ },
+ {
+  "id": "GAP-ANNEX-COVERAGE",
+  "path": "charter annex A-coverage",
+  "why_unaddressed": "coverage_control not ported; B0 contract emitted with the 7 B3 topic scopes named in the protocol body; topic_order fixed alphabetically",
+  "owner_phase": "B0",
+  "resolution": "MITIGATED"
+ },
+ {
+  "id": "GAP-MEMBER-2",
+  "path": "assignment_solver_charter.md",
+  "why_unaddressed": "package member 2 not supplied in this run; this package is the chart analyst deliverable only",
+  "owner_phase": "run",
+  "resolution": "OPEN"
+ },
+ {
+  "id": "GAP-ROLE-VOID",
+  "path": "palaces.*",
+  "why_unaddressed": "void (空亡) role ABSENT in source",
+  "owner_phase": "B1",
+  "resolution": "ABSENT_REPORTED"
+ },
+ {
+  "id": "GAP-ROLE-HORSE",
+  "path": "palaces.*",
+  "why_unaddressed": "horse (马星) role ABSENT in source; annex horse_branch table present but no chart marker to bind (law 27)",
+  "owner_phase": "B1",
+  "resolution": "ABSENT_REPORTED"
+ }
+]

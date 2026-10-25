@@ -1,0 +1,83 @@
+{
+ "raw_to_normalized": "normalization was trim-only; raw preserved per atom path (law 30)",
+ "case_context_provenance": [
+  {
+   "row_id": "CONK-001",
+   "tag": "DECOMPOSED",
+   "source_sentence": "Use the same brand from Assignments 1 and 2. / Your brand has now been developed, your target audience has been identified, and your content and social media strategy is in place."
+  },
+  {
+   "row_id": "CONK-002",
+   "tag": "DECOMPOSED",
+   "source_sentence": "format: Individual PDF presentation; recommended_length: 12 - 20 slides, excluding cover, references and supporting creative mockups."
+  },
+  {
+   "row_id": "CONK-003",
+   "tag": "DECOMPOSED",
+   "source_sentence": "Creative execution. Create at least two sample campaign assets."
+  },
+  {
+   "row_id": "CONK-004",
+   "tag": "DECLARED",
+   "source_sentence": "Include: At least 3 relevant media outlets/publications. At least 2 relevant creators, experts, communities or partners ... Research and name actual publications, creators and communities (no inventing names). ... length: Approximately 100 - 150 words"
+  },
+  {
+   "row_id": "CONK-005",
+   "tag": "DECLARED",
+   "source_sentence": "pr_worthiness_requirement: The campaign should demonstrate at least two of these qualities."
+  },
+  {
+   "row_id": "CONK-006",
+   "tag": "DECLARED",
+   "source_sentence": "You must recommend at least two relevant actions for each pillar. / Choose six relevant KPIs across both areas."
+  },
+  {
+   "row_id": "CONK-007",
+   "tag": "DECLARED",
+   "source_sentence": "You may use Google Search, autocomplete, related searches, Google Trends and other freely accessible research sources. Paid SEO tools are not required."
+  },
+  {
+   "row_id": "UNK-001",
+   "tag": "DECOMPOSED",
+   "source_sentence": "Continue from Assignment 1 & 2. (brand identity not stated in project_3.yaml)"
+  },
+  {
+   "row_id": "UNK-002",
+   "tag": "DECLARED",
+   "source_sentence": "DON'T: Invent keyword volumes, consumer research or campaign results."
+  },
+  {
+   "row_id": "UNK-003",
+   "tag": "DECLARED",
+   "source_sentence": "Earned media is not the same as paid influencer promotion. The outreach plan should focus on relevance and voluntary editorial or community interest."
+  },
+  {
+   "row_id": "PROH-001",
+   "tag": "DECLARED",
+   "source_sentence": "DON'T: Select keywords only because they are popular."
+  },
+  {
+   "row_id": "PROH-002",
+   "tag": "DECLARED",
+   "source_sentence": "DON'T: Copy campaigns discussed in class."
+  },
+  {
+   "row_id": "PROH-003",
+   "tag": "DECLARED",
+   "source_sentence": "DON'T: Confuse Digital PR with paid advertising. / A routine product announcement, discount campaign or generic influencer collaboration is not automatically a Digital PR campaign."
+  },
+  {
+   "row_id": "PROH-004",
+   "tag": "DECLARED",
+   "source_sentence": "DON'T: Choose publications simply because they are famous. / Create attractive campaign visuals without a strong underlying idea."
+  }
+ ],
+ "reissue_log": [],
+ "compression_log": [
+  {
+   "what": "pattern registry",
+   "rule": "phase_state patterns compressed to registry rows; no live pattern dropped",
+   "count": 60
+  }
+ ]
+}
